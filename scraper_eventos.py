@@ -1,5 +1,5 @@
 """
-scraper_eventos.py  v10
+scraper_eventos.py  v12
 ======================
 Extrae eventos culturales con imagen y descripción desde:
   - Ticketplus.cl    (Región de Antofagasta)
@@ -82,8 +82,9 @@ MESES_TEXTO = {
 
 MESES_PATTERN = "|".join(MESES_ES.keys())
 
-# Sufijos de ticketera a eliminar de nombres
+# Sufijos y prefijos de ticketera a eliminar de nombres
 SUFIJOS_TICKETERA = r"\s*[-–]\s*(Ticketplus|Ticketpro|PuntoTicket|Ticketmaster|Passline|ComediaTicket)\s*$"
+PREFIJOS_TICKETERA = r"^(Ticketplus|Ticketpro|PuntoTicket|Ticketmaster|Passline|ComediaTicket)\s*[-–|:]\s*"
 
 
 # ── Utilidades ───────────────────────────────────────────────────────────────
@@ -160,6 +161,7 @@ def nombre_desde_slug(url):
 
 def limpiar_nombre(nombre_crudo, venue="", ciudad=""):
     nombre = nombre_crudo
+    nombre = re.sub(PREFIJOS_TICKETERA, "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(r"^Entradas para\s+", "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(SUFIJOS_TICKETERA, "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(r"Desde:?\s*CLP\s*[\d\.]+\s*CLP?", "", nombre, flags=re.IGNORECASE)
@@ -182,6 +184,7 @@ def limpiar_nombre(nombre_crudo, venue="", ciudad=""):
 
 def limpiar_nombre_para_busqueda(nombre):
     """Extrae solo el nombre del artista/evento para Wikipedia y DuckDuckGo."""
+    nombre = re.sub(PREFIJOS_TICKETERA, "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(r"^Entradas\s+(?:para\s+)?", "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(SUFIJOS_TICKETERA, "", nombre, flags=re.IGNORECASE)
     # Quitar sufijos de tour/gira (con o sin guion)
@@ -195,6 +198,10 @@ def limpiar_nombre_para_busqueda(nombre):
     # Quedarse solo con el primer segmento (artista principal)
     partes = re.split(r"\s+[-–]\s+", nombre)
     nombre = partes[0].strip() if partes else nombre
+    # Quitar "EN [VENUE EN MAYÚSCULAS]" al final (og:title a veces trunca la info del venue)
+    nombre = re.sub(r"\s+EN\s+[A-Z].+$", "", nombre)
+    # Quitar preposiciones sueltas al final
+    nombre = re.sub(r"\s+\b(en|de|a|para|con)\b\s*$", "", nombre, flags=re.IGNORECASE)
     return limpiar(nombre).strip(" -–—·")
 
 
@@ -359,9 +366,7 @@ def scrape_ticketpro():
         print(f"    [{i+1}/{len(base)}] {b['url'].split('/')[-1][:50]}...")
         og_title, imagen, desc, fecha_iso, fecha_texto, venue = extraer_detalle(b["url"])
 
-        # ticketpro.cl a veces usa og:title = "Ticketpro" — usar texto crudo en ese caso
-        if og_title.lower().strip() in NOMBRES_TICKETERA:
-            og_title = ""
+        # ticketpro.cl a veces pone og:title = "Ticketpro" o "Ticketpro - evento" — se limpia vía PREFIJOS_TICKETERA en limpiar_nombre
         nombre_base = og_title or desc or b["texto_crudo"]
         if not venue:
             venue = detectar_venue(b["texto_crudo"])
@@ -908,7 +913,7 @@ def enriquecer_evento(evento):
 
 def main():
     print("=" * 55)
-    print("  Scraper de eventos — Norte de Chile  v10")
+    print("  Scraper de eventos — Norte de Chile  v12")
     print("=" * 55)
 
     todos = []
