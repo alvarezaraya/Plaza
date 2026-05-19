@@ -1,5 +1,5 @@
 """
-scraper_eventos.py  v14
+scraper_eventos.py  v15
 ======================
 Extrae eventos culturales con imagen y descripción desde:
   - Ticketplus.cl    (Regiones: Arica y Parinacota, Tarapacá, Antofagasta, Atacama)
@@ -7,7 +7,8 @@ Extrae eventos culturales con imagen y descripción desde:
   - PuntoTicket.com  (página /todos, filtrando por ciudad en slug/texto)
   - Ticketmaster.cl  (filtrando ciudades del norte via JSON-LD)
   - Passline.com     (playwright — ciudad en URL o búsqueda)
-  - ComediaTicket.cl (playwright — todos los shows de humor)
+  - ComediaTicket.cl    (playwright — todos los shows de humor)
+  - EsquinaRetornable.cl (cine arte Antofagasta — WordPress)
 
 Requisitos:
     pip install requests beautifulsoup4
@@ -866,6 +867,148 @@ def scrape_comediaticket():
     return eventos
 
 
+# ── Scraper 7: Esquina Retornable ───────────────────────────────────────────
+
+def scrape_esquinaretornable():
+    """
+    Esquina Retornable — cine arte en Antofagasta.
+    WordPress site con cartelera en /cartelera/.
+    Cada función tiene imagen, título, fecha/hora, precio y link de inscripción.
+    """
+    print("\n🔍 EsquinaRetornable.cl ...")
+
+    BASE   = "https://esquinaretornable.cl"
+    VENUE  = "Esquina Retornable"
+    CIUDAD = "Antofagasta"
+
+    date_re  = re.compile(
+        r'\b(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo'
+        r'|\d{1,2}\s+de\s+\w+)',
+        re.I
+    )
+    price_re = re.compile(r'\$\s*([\d\.]+)')
+
+    eventos = []
+    seen    = set()
+
+    for page in range(1, 6):  # máximo 5 páginas de cartelera
+        url = f"{BASE}/cartelera/" if page == 1 else f"{BASE}/cartelera/page/{page}/"
+        r = get(url)
+        if not r or r.status_code == 404:
+            break
+
+        soup = BeautifulSoup(r.text, "html.parser")
+        found_any = False
+
+        for ul in soup.find_all("ul"):
+            items = [li.get_text(" ", strip=True) for li in ul.find_all("li", recursive=False)]
+            if len(items) < 2:
+                continue
+            full_text = " ".join(items)
+            if not date_re.search(full_text):
+                continue
+
+            found_any = True
+
+            # Clasificar cada <li> por contenido
+            title      = ""
+            date_parts = []
+            director   = ""
+            precio_str = ""
+
+            for item in items:
+                item_c = limpiar(item)
+                low    = item_c.lower()
+                if re.search(r'\b\d{1,2}:\d{2}\b', item_c) or re.search(r'\bhoras?\b', low):
+                    date_parts.append(item_c)
+                elif date_re.search(item_c):
+                    date_parts.append(item_c)
+                elif low.startswith("d:") or "director" in low:
+                    director = item_c
+                elif price_re.search(item_c) or re.search(r'gratu|libre|entrada', low):
+                    precio_str = item_c
+                elif not title and len(item_c) > 2:
+                    title = item_c
+
+            if not title or title in seen:
+                continue
+            seen.add(title)
+
+            fecha_iso, fecha_texto = extraer_fecha_de_texto(" ".join(date_parts))
+
+            # Extraer precio numérico mínimo
+            precio = ""
+            nums = price_re.findall(precio_str.replace(".", ""))
+            if nums:
+                try:
+                    precio = str(min(int(n) for n in nums))
+                except ValueError:
+                    pass
+
+            # Buscar imagen subiendo hasta 4 niveles desde el <ul>
+            imagen = ""
+            node   = ul
+            for _ in range(4):
+                node = node.parent
+                if not node:
+                    break
+                img = node.find("img")
+                if img:
+                    src = (img.get("src") or img.get("data-src")
+                           or img.get("data-lazy-src") or "")
+                    if "wp-content/uploads" in src:
+                        imagen = src.split("?")[0]
+                    break
+            if not imagen:
+                img = ul.find_previous("img")
+                if img:
+                    src = (img.get("src") or img.get("data-src")
+                           or img.get("data-lazy-src") or "")
+                    if "wp-content/uploads" in src:
+                        imagen = src.split("?")[0]
+
+            # Buscar link de inscripción/compra subiendo hasta 4 niveles
+            ticket_url = url
+            node       = ul.parent
+            for _ in range(4):
+                if not node:
+                    break
+                for a in node.find_all("a", href=True):
+                    href = a.get("href", "")
+                    text = a.get_text(strip=True).lower()
+                    if any(k in text for k in ("inscripci", "comprar", "ticket", "link", "reserva")):
+                        ticket_url = href
+                        break
+                    if any(k in href for k in ("passline", "docs.google", "forms.gle")):
+                        ticket_url = href
+                        break
+                node = node.parent
+
+            nombre = limpiar_nombre(title, venue=VENUE, ciudad=CIUDAD)
+            if not nombre:
+                continue
+
+            eventos.append({
+                "fuente":           "EsquinaRetornable",
+                "nombre":           nombre,
+                "venue":            VENUE,
+                "descripcion":      director,
+                "fecha_iso":        fecha_iso,
+                "fecha_texto":      fecha_texto,
+                "precio_desde_clp": precio,
+                "ciudad":           CIUDAD,
+                "imagen_url":       imagen,
+                "url":              ticket_url,
+            })
+
+        if not found_any:
+            break
+        time.sleep(PAUSA)
+
+    print(f"  ✅ {len(eventos)} eventos")
+    return eventos
+
+
 # ── Enriquecimiento: Wikipedia + DuckDuckGo ─────────────────────────────────
 
 def _safe_json(r):
@@ -971,7 +1114,7 @@ def enriquecer_evento(evento):
 
 def main():
     print("=" * 55)
-    print("  Scraper de eventos — Norte de Chile  v13")
+    print("  Scraper de eventos — Norte de Chile  v15")
     print("=" * 55)
 
     todos = []
@@ -981,6 +1124,7 @@ def main():
     todos += scrape_ticketmaster()
     todos += scrape_passline()
     todos += scrape_comediaticket()
+    todos += scrape_esquinaretornable()
 
     todos.sort(key=lambda e: e["fecha_iso"] if e["fecha_iso"] else "9999")
 
