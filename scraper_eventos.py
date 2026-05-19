@@ -1,9 +1,9 @@
 """
-scraper_eventos.py  v12
+scraper_eventos.py  v14
 ======================
 Extrae eventos culturales con imagen y descripción desde:
-  - Ticketplus.cl    (Región de Antofagasta)
-  - Ticketpro.cl     (filtrando ciudades del norte)
+  - Ticketplus.cl    (Regiones: Arica y Parinacota, Tarapacá, Antofagasta, Atacama)
+  - Ticketpro.cl     (filtrando comunas del norte)
   - PuntoTicket.com  (página /todos, filtrando por ciudad en slug/texto)
   - Ticketmaster.cl  (filtrando ciudades del norte via JSON-LD)
   - Passline.com     (playwright — ciudad en URL o búsqueda)
@@ -35,10 +35,43 @@ HEADERS = {
     )
 }
 
+# Términos de búsqueda (lowercase) — cubre todas las comunas desde Arica hasta Atacama
 CIUDADES_OBJETIVO = [
-    "antofagasta", "calama", "iquique", "arica",
-    "tocopilla", "mejillones", "taltal",
+    # Arica y Parinacota
+    "arica", "camarones", "putre", "general lagos",
+    # Tarapacá
+    "iquique", "alto hospicio", "pozo almonte", "camiña", "camina",
+    "colchane", "huara", "pica",
+    # Antofagasta
+    "antofagasta", "mejillones", "sierra gorda", "taltal", "calama",
+    "ollagüe", "ollague", "san pedro de atacama", "tocopilla",
+    "maría elena", "maria elena",
+    # Atacama
+    "copiapó", "copiapo", "caldera", "tierra amarilla",
+    "chañaral", "chanaral", "diego de almagro", "vallenar",
+    "alto del carmen", "freirina", "huasco",
 ]
+
+# Nombre canónico por término de búsqueda (para normalizar la salida)
+NOMBRE_CIUDAD = {
+    "arica": "Arica", "camarones": "Camarones", "putre": "Putre",
+    "general lagos": "General Lagos",
+    "iquique": "Iquique", "alto hospicio": "Alto Hospicio",
+    "pozo almonte": "Pozo Almonte", "camiña": "Camiña", "camina": "Camiña",
+    "colchane": "Colchane", "huara": "Huara", "pica": "Pica",
+    "antofagasta": "Antofagasta", "mejillones": "Mejillones",
+    "sierra gorda": "Sierra Gorda", "taltal": "Taltal", "calama": "Calama",
+    "ollagüe": "Ollagüe", "ollague": "Ollagüe",
+    "san pedro de atacama": "San Pedro de Atacama",
+    "tocopilla": "Tocopilla",
+    "maría elena": "María Elena", "maria elena": "María Elena",
+    "copiapó": "Copiapó", "copiapo": "Copiapó",
+    "caldera": "Caldera", "tierra amarilla": "Tierra Amarilla",
+    "chañaral": "Chañaral", "chanaral": "Chañaral",
+    "diego de almagro": "Diego de Almagro", "vallenar": "Vallenar",
+    "alto del carmen": "Alto del Carmen", "freirina": "Freirina",
+    "huasco": "Huasco",
+}
 
 VENUES_CONOCIDOS = [
     "teatro municipal de antofagasta",
@@ -145,9 +178,10 @@ def detectar_venue(texto):
 
 def detectar_ciudad(texto):
     texto_lower = texto.lower()
-    for c in CIUDADES_OBJETIVO:
+    # Probar más largos primero para evitar que "arica" tape "camarones" etc.
+    for c in sorted(CIUDADES_OBJETIVO, key=len, reverse=True):
         if c in texto_lower:
-            return c.capitalize()
+            return NOMBRE_CIUDAD.get(c, c.title())
     return ""
 
 
@@ -174,8 +208,8 @@ def limpiar_nombre(nombre_crudo, venue="", ciudad=""):
     )
     if venue:
         nombre = re.sub(re.escape(venue), "", nombre, flags=re.IGNORECASE)
-    for c in CIUDADES_OBJETIVO:
-        nombre = re.sub(rf"\b{c}\b", "", nombre, flags=re.IGNORECASE)
+    for c in sorted(CIUDADES_OBJETIVO, key=len, reverse=True):
+        nombre = re.sub(rf"\b{re.escape(c)}\b", "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(r"\s*-\s*$", "", nombre)
     nombre = re.sub(r"^\s*-\s*", "", nombre)
     nombre = re.sub(r"\s*-\s*-\s*", " - ", nombre)
@@ -192,8 +226,8 @@ def limpiar_nombre_para_busqueda(nombre):
     nombre = re.sub(r"\s+Gira\s+\d+\s+a[ñn]os?\b.*$", "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(r"\s+(Tour|Gira|En Vivo|Live)\s.*$", "", nombre, flags=re.IGNORECASE)
     # Quitar ciudades y años del término de búsqueda
-    for c in CIUDADES_OBJETIVO:
-        nombre = re.sub(rf"\b{c}\b", "", nombre, flags=re.IGNORECASE)
+    for c in sorted(CIUDADES_OBJETIVO, key=len, reverse=True):
+        nombre = re.sub(rf"\b{re.escape(c)}\b", "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(r"\b\d{4}\b", "", nombre)
     # Quedarse solo con el primer segmento (artista principal)
     partes = re.split(r"\s+[-–]\s+", nombre)
@@ -273,29 +307,45 @@ def extraer_ciudad_jsonld(soup):
 
 def scrape_ticketplus():
     print("\n🔍 Ticketplus.cl ...")
-    r = get("https://ticketplus.cl/states/region-de-antofagasta")
-    if not r:
-        return []
 
-    soup = BeautifulSoup(r.text, "html.parser")
+    REGIONES = [
+        ("region-de-arica-y-parinacota", "Arica"),
+        ("region-de-tarapaca",            "Iquique"),
+        ("region-de-antofagasta",         "Antofagasta"),
+        ("region-de-atacama",             "Copiapó"),
+    ]
+
     base = []
-    vistos = set()  # evitar duplicados de URL
+    vistos = set()
 
-    for a in soup.find_all("a", href=re.compile(r"/events/")):
-        href = a.get("href", "")
-        evento_url = f"https://ticketplus.cl{href}" if href.startswith("/") else href
-        if evento_url in vistos:
-            continue
-        vistos.add(evento_url)
-
-        texto = limpiar(a.get_text(" "))
-        if not texto or len(texto) < 5:
+    for slug, ciudad_default in REGIONES:
+        r = get(f"https://ticketplus.cl/states/{slug}")
+        if not r:
             continue
 
-        precio_match = re.search(r"CLP\s*([\d\.]+)", texto)
-        precio = precio_match.group(1) if precio_match else ""
+        soup = BeautifulSoup(r.text, "html.parser")
 
-        base.append({"texto_crudo": texto, "precio": precio, "url": evento_url})
+        for a in soup.find_all("a", href=re.compile(r"/events/")):
+            href = a.get("href", "")
+            evento_url = f"https://ticketplus.cl{href}" if href.startswith("/") else href
+            if evento_url in vistos:
+                continue
+            vistos.add(evento_url)
+
+            texto = limpiar(a.get_text(" "))
+            if not texto or len(texto) < 5:
+                continue
+
+            precio_match = re.search(r"CLP\s*([\d\.]+)", texto)
+            precio = precio_match.group(1) if precio_match else ""
+
+            base.append({
+                "texto_crudo": texto,
+                "precio": precio,
+                "ciudad_default": ciudad_default,
+                "url": evento_url,
+            })
+        time.sleep(PAUSA)
 
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
@@ -306,7 +356,7 @@ def scrape_ticketplus():
         nombre_base = og_title or desc or b["texto_crudo"]
         if not venue:
             venue = detectar_venue(b["texto_crudo"])
-        ciudad = detectar_ciudad(b["texto_crudo"]) or "Antofagasta"
+        ciudad = detectar_ciudad(b["texto_crudo"]) or detectar_ciudad(f"{og_title} {desc}") or b["ciudad_default"]
 
         if not fecha_iso:
             fecha_iso, fecha_texto = extraer_fecha_de_texto(b["texto_crudo"])
@@ -504,7 +554,8 @@ def scrape_ticketmaster():
     base = []
     vistos = set()
 
-    for ciudad in ["antofagasta", "calama", "iquique", "arica"]:
+    for ciudad in ["arica", "iquique", "alto hospicio", "antofagasta", "calama",
+                   "tocopilla", "taltal", "copiapo", "vallenar", "diego de almagro"]:
         url = f"https://www.ticketmaster.cl/buscar?q={ciudad}"
         r = get(url)
         if not r:
@@ -606,9 +657,11 @@ def scrape_passline():
 
     # Posibles URL patterns de ciudad en Passline
     urls_ciudad = [
-        ("Antofagasta", "https://www.passline.com/ciudad/antofagasta"),
+        ("Arica",       "https://www.passline.com/ciudad/arica"),
         ("Iquique",     "https://www.passline.com/ciudad/iquique"),
+        ("Antofagasta", "https://www.passline.com/ciudad/antofagasta"),
         ("Calama",      "https://www.passline.com/ciudad/calama"),
+        ("Copiapó",     "https://www.passline.com/ciudad/copiapo"),
         ("Chile",       "https://www.passline.com/"),  # fallback: página principal
     ]
 
@@ -703,7 +756,8 @@ def scrape_comediaticket():
         print("       Ejecuta: pip install playwright && python3 -m playwright install chromium")
         return []
 
-    EXCLUIR = {"/shop/faq", "/shop/terms", "/shop/post_with_us", "/home", "/shop/home"}
+    # Rutas de sistema a excluir (comparación exacta, no prefijo)
+    EXCLUIR_EXACTAS = {"/shop/faq", "/shop/terms", "/shop/post_with_us", "/home", "/shop/home", "/"}
 
     base = []
 
@@ -748,16 +802,20 @@ def scrape_comediaticket():
                     path = href
                 elif "comediaticket.cl" in href:
                     full_url = href
-                    path = "/" + "/".join(href.split("/")[3:])
+                    from urllib.parse import urlparse
+                    path = urlparse(href).path
                 else:
                     continue
 
+                # Quitar query-string/hash del path para comparación
+                path_clean = path.split("?")[0].split("#")[0].rstrip("/") or "/"
+
                 if full_url in vistos or len(texto) < 3:
                     continue
-                if any(path == ex or path.startswith(ex + "/") for ex in EXCLUIR):
+                # Excluir solo rutas de sistema exactas (no sub-rutas de eventos)
+                if path_clean in EXCLUIR_EXACTAS:
                     continue
-                # Solo links internos que parezcan eventos (tienen path con contenido)
-                if path in ("/", "") or re.match(r"^/\?", path):
+                if path_clean in ("", "") or re.match(r"^/\?", path):
                     continue
 
                 vistos.add(full_url)
@@ -913,7 +971,7 @@ def enriquecer_evento(evento):
 
 def main():
     print("=" * 55)
-    print("  Scraper de eventos — Norte de Chile  v12")
+    print("  Scraper de eventos — Norte de Chile  v13")
     print("=" * 55)
 
     todos = []
