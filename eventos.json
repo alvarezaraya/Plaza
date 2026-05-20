@@ -1,6 +1,6 @@
 {
-  "generado_en": "2026-05-20T11:24:38.595981",
-  "total_eventos": 14,
+  "generado_en": "2026-05-20T11:43:59.516172",
+  "total_eventos": 19,
   "eventos": [
     {
       "fuente": "PuntoTicket",
@@ -197,6 +197,76 @@
       "url": "https://ticketplus.cl/events/rata-blanca-rock-and-soccer-antofagasta-26-de-agosto",
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA 26 DE AGOSTO",
       "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "MUESTRA DE CORTOMETRAJES UCN",
+      "venue": "Esquina Retornable",
+      "descripcion": "MUESTRA DE CORTOMETRAJES UCN",
+      "fecha_iso": "2026-11-30",
+      "fecha_texto": "30 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2022/11/cartelera-cortos.jpg",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSer1k_ewdPYnvbgmQzg4JUmo5uc3qXV1vf6U6-Dwn_5ukcPDg/viewform",
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "BAJO SOSPECHA: ZOKUNENTU",
+      "venue": "Esquina Retornable",
+      "descripcion": "BAJO SOSPECHA: ZOKUNENTU",
+      "fecha_iso": "2026-11-30",
+      "fecha_texto": "30 de noviembre de 2026",
+      "precio_desde_clp": "2000",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2022/11/bajo-sospecha.jpg",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSer1k_ewdPYnvbgmQzg4JUmo5uc3qXV1vf6U6-Dwn_5ukcPDg/viewform",
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "Ponyo en el acantilado",
+      "venue": "Esquina Retornable",
+      "descripcion": "Ponyo en el acantilado",
+      "fecha_iso": "2026-11-30",
+      "fecha_texto": "30 de noviembre de 2026",
+      "precio_desde_clp": "2000",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2022/11/ponyo.jpg",
+      "url": "https://esquinaretornable.cl/cartelera/",
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "DÍA SIN ARTE: SIENDO Y PERTENECIENDO",
+      "venue": "Esquina Retornable",
+      "descripcion": "DÍA SIN ARTE: SIENDO Y PERTENECIENDO",
+      "fecha_iso": "2026-12-01",
+      "fecha_texto": "1 de diciembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2022/11/dia-sin-arte.jpg",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeNdu1nyZagyq5wpSyiXBtjWqOk3cVEEON2v4jKP9imBMSucQ/viewform",
+      "descripcion_extendida": "DÍA SIN ARTE: SIENDO Y PERTENECIENDO",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "Zurita y los asistentes",
+      "venue": "Esquina Retornable",
+      "descripcion": "Zurita y los asistentes",
+      "fecha_iso": "2026-12-01",
+      "fecha_texto": "1 de diciembre de 2026",
+      "precio_desde_clp": "2000",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2022/11/zurita.jpg",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSd3BDtIExU_hjZXh1RarGEEmWeGR6w69hOzYuAyJ5-e3OvzYQ/viewform",
+      "descripcion_extendida": "",
+      "bio_artista": ""
     }
   ]
 }
