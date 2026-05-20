@@ -874,8 +874,10 @@ def scrape_comediaticket():
 def scrape_esquinaretornable():
     """
     Esquina Retornable — cine arte en Antofagasta.
-    WordPress site con cartelera en /cartelera/.
-    Cada función tiene imagen, título, fecha/hora, precio y link de inscripción.
+    WordPress/Elementor site con cartelera en /cartelera/.
+    Requiere Referer header para evitar 403.
+    Estructura: cada película en elementor-inner-section con listas inline
+    para título/fechas y listas no-inline para descripción/precio.
     """
     print("\n🔍 EsquinaRetornable.cl ...")
 
@@ -883,62 +885,95 @@ def scrape_esquinaretornable():
     VENUE  = "Esquina Retornable"
     CIUDAD = "Antofagasta"
 
-    date_re  = re.compile(
-        r'\b(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo'
-        r'|\d{1,2}\s+de\s+\w+)',
+    headers_er = {
+        **HEADERS,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "es-CL,es;q=0.9,en;q=0.8",
+        "Referer": "https://www.google.com/",
+    }
+
+    price_re = re.compile(r'\$\s*([\d\.]+)')
+    # Detecta bloques de programación semanal donde el primer item es una fecha
+    date_first_re = re.compile(
+        r'^(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo|\d{1,2}\s+de\s)',
         re.I
     )
-    price_re = re.compile(r'\$\s*([\d\.]+)')
 
     eventos = []
     seen    = set()
 
-    for page in range(1, 6):  # máximo 5 páginas de cartelera
+    for page in range(1, 6):
         url = f"{BASE}/cartelera/" if page == 1 else f"{BASE}/cartelera/page/{page}/"
-        r = get(url)
-        if not r or r.status_code == 404:
+        try:
+            r = requests.get(url, headers=headers_er, timeout=15)
+            if r.status_code == 404:
+                break
+            r.raise_for_status()
+        except requests.RequestException as e:
+            print(f"  ⚠️  {url} → {e}")
             break
 
         soup = BeautifulSoup(r.text, "html.parser")
         found_any = False
 
-        for ul in soup.find_all("ul"):
-            items = [li.get_text(" ", strip=True) for li in ul.find_all("li", recursive=False)]
-            if len(items) < 2:
+        # Localizar el heading que marca el inicio de "ya exhibidas"
+        stop_node = None
+        for heading in soup.find_all(["h1", "h2", "h3", "h4"]):
+            if re.search(r"ya exhibid", heading.get_text(), re.I):
+                stop_node = heading
+                break
+
+        # Iterar por columna: cada div.elementor-column = una película
+        for col in soup.find_all("div", class_=lambda c: c and "elementor-column" in c):
+            # Saltar columnas que aparecen después del corte
+            if stop_node and col.find_previous(lambda t: t is stop_node):
                 continue
-            full_text = " ".join(items)
-            if not date_re.search(full_text):
+
+            # ── Título y fechas: primer ul inline de esta columna ──────────
+            inline_ul = col.find("ul", class_=lambda c: c and "elementor-inline-items" in (c if isinstance(c, str) else " ".join(c)))
+            if not inline_ul:
                 continue
 
-            found_any = True
+            inline_items = [
+                limpiar(li.get_text(" ", strip=True))
+                for li in inline_ul.find_all("li")
+                if li.get_text(strip=True)
+            ]
+            if not inline_items:
+                continue
 
-            # Clasificar cada <li> por contenido
-            title      = ""
-            date_parts = []
-            director   = ""
-            precio_str = ""
+            # Saltar columnas de programación semanal o sin título
+            if date_first_re.match(inline_items[0]):
+                continue
 
-            for item in items:
-                item_c = limpiar(item)
-                low    = item_c.lower()
-                if re.search(r'\b\d{1,2}:\d{2}\b', item_c) or re.search(r'\bhoras?\b', low):
-                    date_parts.append(item_c)
-                elif date_re.search(item_c):
-                    date_parts.append(item_c)
-                elif low.startswith("d:") or "director" in low:
-                    director = item_c
-                elif price_re.search(item_c) or re.search(r'gratu|libre|entrada', low):
-                    precio_str = item_c
-                elif not title and len(item_c) > 2:
-                    title = item_c
+            title      = inline_items[0]
+            date_parts = inline_items[1:]
 
             if not title or title in seen:
                 continue
             seen.add(title)
+            found_any = True
 
+            # ── Descripción y precio: ul no-inline de esta columna ─────────
+            director   = ""
+            precio_str = ""
+            for ul in col.find_all(
+                "ul",
+                class_=lambda c: c and "elementor-icon-list-items" in (c if isinstance(c, str) else " ".join(c))
+                    and "elementor-inline-items" not in (c if isinstance(c, str) else " ".join(c))
+            ):
+                for li in ul.find_all("li"):
+                    t   = limpiar(li.get_text(" ", strip=True))
+                    low = t.lower()
+                    if price_re.search(t) or re.search(r'gratu|libre|entrada', low):
+                        precio_str = t
+                    elif not director and len(t) > 4:
+                        director = t
+
+            # ── Fecha ──────────────────────────────────────────────────────
             fecha_iso, fecha_texto = extraer_fecha_de_texto(" ".join(date_parts))
 
-            # Extraer precio numérico mínimo
+            # ── Precio numérico mínimo ─────────────────────────────────────
             precio = ""
             nums = price_re.findall(precio_str.replace(".", ""))
             if nums:
@@ -947,44 +982,26 @@ def scrape_esquinaretornable():
                 except ValueError:
                     pass
 
-            # Buscar imagen subiendo hasta 4 niveles desde el <ul>
+            # ── Imagen ─────────────────────────────────────────────────────
             imagen = ""
-            node   = ul
-            for _ in range(4):
-                node = node.parent
-                if not node:
+            for img in col.find_all("img"):
+                src = (img.get("src") or img.get("data-src")
+                       or img.get("data-lazy-src") or "")
+                if "wp-content/uploads" in src:
+                    imagen = src.split("?")[0]
                     break
-                img = node.find("img")
-                if img:
-                    src = (img.get("src") or img.get("data-src")
-                           or img.get("data-lazy-src") or "")
-                    if "wp-content/uploads" in src:
-                        imagen = src.split("?")[0]
-                    break
-            if not imagen:
-                img = ul.find_previous("img")
-                if img:
-                    src = (img.get("src") or img.get("data-src")
-                           or img.get("data-lazy-src") or "")
-                    if "wp-content/uploads" in src:
-                        imagen = src.split("?")[0]
 
-            # Buscar link de inscripción/compra subiendo hasta 4 niveles
+            # ── Link de inscripción/compra ──────────────────────────────────
             ticket_url = url
-            node       = ul.parent
-            for _ in range(4):
-                if not node:
+            for a in col.find_all("a", href=True):
+                href = a.get("href", "")
+                text = a.get_text(strip=True).lower()
+                if any(k in text for k in ("inscripci", "comprar", "ticket", "reserva", "ver más", "ver mas")):
+                    ticket_url = href
                     break
-                for a in node.find_all("a", href=True):
-                    href = a.get("href", "")
-                    text = a.get_text(strip=True).lower()
-                    if any(k in text for k in ("inscripci", "comprar", "ticket", "link", "reserva")):
-                        ticket_url = href
-                        break
-                    if any(k in href for k in ("passline", "docs.google", "forms.gle")):
-                        ticket_url = href
-                        break
-                node = node.parent
+                if any(k in href for k in ("passline", "docs.google", "forms.gle", "eventbrite")):
+                    ticket_url = href
+                    break
 
             nombre = limpiar_nombre(title, venue=VENUE, ciudad=CIUDAD)
             if not nombre:

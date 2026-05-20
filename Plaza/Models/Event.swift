@@ -50,6 +50,7 @@ struct Event: Identifiable, Hashable {
         case teatro   = "Teatro"
         case deporte  = "Deporte"
         case familiar = "Familiar"
+        case cine     = "Cine"
         case otros    = "Otros"
 
         var icon: String {
@@ -59,6 +60,7 @@ struct Event: Identifiable, Hashable {
             case .teatro:   return "theatermasks"
             case .deporte:  return "sportscourt"
             case .familiar: return "figure.2.and.child.holdinghands"
+            case .cine:     return "film"
             case .otros:    return "sparkles"
             }
         }
@@ -166,9 +168,12 @@ extension Event {
     }
 
     private static func classify(title: String, subtitle: String, description: String, venue: String) -> Category {
+        if venue.lowercased().contains("esquina retornable") { return .cine }
+
         let text = "\(title) \(subtitle) \(description)".lowercased()
 
         let rules: [(Category, [String])] = [
+            (.cine, ["película", "pelicula", "film", "cine ", "proyección", "proyeccion", "screening", "largometraje", "documental"]),
             (.humor, ["stand up", "stand-up", "standup", "comedia", "comedy", "humor", "humorista", "monólogo", "comedian"]),
             (.teatro, ["teatro", "obra", "musical", "dramaturgia", "escénic", "teatral", "ópera", "opera", "ballet", "danza"]),
             (.deporte, ["boxeo", "mma", "ufc", "pelea", "lucha", "fútbol", "futbol", "running", "maratón", "maraton", "deporte", "deportiv", "wrestling", "kick"]),

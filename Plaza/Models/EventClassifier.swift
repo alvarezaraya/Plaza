@@ -11,6 +11,7 @@ enum EventTag {
     case teatro
     case deporte
     case familiar
+    case cine
     case otros
 
     var category: Event.Category {
@@ -20,6 +21,7 @@ enum EventTag {
         case .teatro: .teatro
         case .deporte: .deporte
         case .familiar: .familiar
+        case .cine: .cine
         case .otros: .otros
         }
     }
@@ -42,6 +44,7 @@ enum EventClassifier {
         - teatro: theater plays, musicals, opera, ballet, dance performances, drama
         - deporte: boxing, MMA, soccer, running, marathons, wrestling, sports events
         - familiar: circus, children's shows, magic shows, puppets, family events
+        - cine: film screenings, movies, documentaries, cinema events
         - otros: events that don't clearly fit any category above
         """
 
