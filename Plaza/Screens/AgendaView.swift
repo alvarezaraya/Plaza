@@ -105,6 +105,7 @@ struct AgendaView: View {
             .scrollContentBackground(.hidden)
             .background(Color.plBg)
             .toolbar(.hidden, for: .navigationBar)
+            .toolbarBackground(.hidden, for: .tabBar)
             .navigationDestination(for: Event.self) { EventDetailView(event: $0) }
             .refreshable { servicio.cargarEventos() }
         }

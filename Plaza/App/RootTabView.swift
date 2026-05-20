@@ -1,5 +1,6 @@
 // RootTabView.swift
 // Contenedor principal con tab bar Liquid Glass: Inicio, Agenda, Mapa y Buscar.
+// En iPad: sidebar de 390pt con las tabs de iPhone + MapView persistente a la derecha.
 
 import SwiftUI
 
@@ -8,30 +9,55 @@ enum AppTab: Hashable {
 }
 
 struct RootTabView: View {
+    @Environment(\.horizontalSizeClass) private var hSizeClass
     @State private var selection: AppTab = .home
 
     var body: some View {
+        if hSizeClass == .regular {
+            iPadLayout
+        } else {
+            iPhoneTabView(includeMap: true)
+                .tabBarMinimizeBehavior(.onScrollDown)
+        }
+    }
+
+    // MARK: - iPhone
+
+    private func iPhoneTabView(includeMap: Bool) -> some View {
         TabView(selection: $selection) {
             Tab("Inicio", systemImage: "house", value: AppTab.home) {
                 HomeView()
             }
-
             Tab("Agenda", systemImage: "calendar", value: AppTab.agenda) {
                 AgendaView()
             }
-
-            Tab("Mapa", systemImage: "map", value: AppTab.map) {
-                NavigationStack {
-                    MapView()
-                        .navigationBarTitleDisplayMode(.inline)
+            if includeMap {
+                Tab("Mapa", systemImage: "map", value: AppTab.map) {
+                    NavigationStack {
+                        MapView()
+                            .navigationBarTitleDisplayMode(.inline)
+                    }
                 }
             }
-
             Tab(value: AppTab.search, role: .search) {
                 SearchView()
             }
         }
-        .tabBarMinimizeBehavior(.onScrollDown)
+    }
+
+    // MARK: - iPad
+
+    private var iPadLayout: some View {
+        HStack(spacing: 0) {
+            // Sidebar: estructura de iPhone sin la tab de Mapa
+            iPhoneTabView(includeMap: false)
+                .frame(width: 390)
+
+            // Detalle: Mapa permanente
+            MapView()
+                .ignoresSafeArea()
+        }
+        .ignoresSafeArea()
     }
 }
 
