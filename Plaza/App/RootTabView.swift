@@ -46,21 +46,28 @@ struct RootTabView: View {
     }
 
     // MARK: - iPad
-    // Inspirado en Apple Music iPadOS 26: sidebar traslúcida flotando sobre el mapa
+    // Sidebar flotando sobre el mapa, con esquinas redondeadas y sombra
 
     private var iPadLayout: some View {
         ZStack(alignment: .leading) {
-            // Mapa ocupa toda la pantalla como fondo
+            // Mapa fondo completo
             MapView()
                 .ignoresSafeArea()
 
-            // Sidebar traslúcida flotando a la izquierda
+            // Panel flotante: recortado, traslúcido, con sombra
             iPhoneTabView(includeMap: false)
-                .frame(width: 390)
-                .background(.ultraThinMaterial)
+                .frame(width: 375)
+                .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+                .background(
+                    .ultraThinMaterial,
+                    in: RoundedRectangle(cornerRadius: 22, style: .continuous)
+                )
+                .shadow(color: .black.opacity(0.14), radius: 20, x: 4, y: 0)
+                .shadow(color: .black.opacity(0.06), radius: 60, x: 12, y: 0)
+                .padding(.leading, 12)
+                .padding(.vertical, 12)
                 .environment(\.isIPadSidebar, true)
         }
-        .ignoresSafeArea()
     }
 }
 
