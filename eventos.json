@@ -1,6 +1,6 @@
 {
-  "generado_en": "2026-05-19T16:55:47.073159",
-  "total_eventos": 16,
+  "generado_en": "2026-05-20T11:24:38.595981",
+  "total_eventos": 14,
   "eventos": [
     {
       "fuente": "PuntoTicket",
@@ -171,20 +171,6 @@
       "bio_artista": "Los Jaivas is a Chilean musical group who perform in folk, rock, psychedelic, and progressive rock styles formed in 1963 in Viña Del Mar, Chile. They are considered one of the most important and influential artists of all time in Latin America."
     },
     {
-      "fuente": "PuntoTicket",
-      "nombre": "Talismanes del Ritmo y del Amor en Santiago | Teatro Coliseo – io",
-      "venue": "",
-      "descripcion": "Talismanes del Ritmo y del Amor llega al Teatro Coliseo este 12 de julio con un espectáculo lleno de música, emoción y conexión. Vive una noche especial donde el ritmo y las historias se mezclan para crear una experiencia única en vivo, ideal para dejarse llevar por las melodías y disfrutar de un show cargado de sentimiento en Santiago. Asegura tu entrada ahora en Punto Ticket.",
-      "fecha_iso": "2026-07-12",
-      "fecha_texto": "12 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Pica",
-      "imagen_url": "https://static.ptocdn.net/images/eventos/ktc001_rs.jpg",
-      "url": "https://www.puntoticket.com/talismanes-del-ritmo-y-del-amor",
-      "descripcion_extendida": "Talismanes del Ritmo y del Amor llega al Teatro Coliseo este 12 de julio con un espectáculo lleno de música, emoción y conexión. Vive una noche especial donde el ritmo y las historias se mezclan para crear una experiencia única en vivo, ideal para dejarse llevar por las melodías y disfrutar de un show cargado de sentimiento en Santiago. Asegura tu entrada ahora en Punto Ticket.",
-      "bio_artista": ""
-    },
-    {
       "fuente": "Ticketplus",
       "nombre": "Movimiento Original",
       "venue": "",
@@ -211,20 +197,6 @@
       "url": "https://ticketplus.cl/events/rata-blanca-rock-and-soccer-antofagasta-26-de-agosto",
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA 26 DE AGOSTO",
       "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
-    },
-    {
-      "fuente": "Ticketmaster",
-      "nombre": "La Sole - Picante Pero Feliz",
-      "venue": "",
-      "descripcion": "Mayo 2026",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Pica",
-      "imagen_url": "https://cdn.getcrowder.com/images/cc9833ad-3065-434f-bba9-4595c8eb1139-640x640.png",
-      "url": "https://www.ticketmaster.cl/event/488-la-sole-picante-pero-feliz",
-      "descripcion_extendida": "",
-      "bio_artista": ""
     }
   ]
 }
