@@ -3,6 +3,7 @@
 
 import SwiftUI
 import CoreText
+import MapKit
 
 @main
 struct PlazaApp: App {
@@ -14,6 +15,7 @@ struct PlazaApp: App {
 
     init() {
         Self.registerFonts()
+        Self.prewarmMapKit()
     }
 
     var body: some Scene {
@@ -34,6 +36,12 @@ struct PlazaApp: App {
                 .tint(.plAccent)
             }
         }
+    }
+
+    private static func prewarmMapKit() {
+        // Fuerza la compilación de shaders Metal de MapKit en el lanzamiento,
+        // eliminando el delay visual al mostrar el primer Map view.
+        _ = MKMapView()
     }
 
     private static func registerFonts() {

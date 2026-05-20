@@ -6,8 +6,6 @@ import SwiftUI
 struct AgendaView: View {
     @Environment(EventoService.self) private var servicio
     @Environment(ReminderManager.self) private var reminders
-    @State private var eventToEdit: Event?
-
     private var events: [Event] { servicio.savedEvents }
 
     private static let groupFormatter: DateFormatter = {
@@ -78,10 +76,6 @@ struct AgendaView: View {
                                     } label: {
                                         Label("Quitar", systemImage: "calendar.badge.minus")
                                     }
-                                    Button { eventToEdit = event } label: {
-                                        Label("Editar", systemImage: "pencil")
-                                    }
-                                    .tint(Color.plAccent)
                                 }
                                 .swipeActions(edge: .leading) {
                                     Button {
@@ -112,7 +106,6 @@ struct AgendaView: View {
             .background(Color.plBg)
             .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: Event.self) { EventDetailView(event: $0) }
-            .sheet(item: $eventToEdit) { EventEditView(event: $0) }
             .refreshable { servicio.cargarEventos() }
         }
     }

@@ -3,16 +3,14 @@
 
 import SwiftUI
 import MapKit
+import CoreLocation
 
 struct MapView: View {
     @Environment(EventoService.self) private var servicio
     @Environment(LocationManager.self) private var location
     @State private var selectedVenue: String?
     @State private var venueGroups: [VenueGroup] = []
-    @State private var camera: MapCameraPosition = .userLocation(fallback: .region(
-        .init(center: .init(latitude: -23.6509, longitude: -70.3975),
-              span: .init(latitudeDelta: 0.06, longitudeDelta: 0.06))
-    ))
+    @State private var camera: MapCameraPosition = .automatic
 
     private var selectedEvents: [Event] {
         guard let venue = selectedVenue else { return [] }
@@ -35,9 +33,29 @@ struct MapView: View {
         .mapStyle(.standard(elevation: .flat))
         .mapControls {
             MapCompass()
-            MapUserLocationButton()
         }
         .ignoresSafeArea()
+        .overlay(alignment: .topLeading) {
+            Button {
+                if let coord = location.userLocation?.coordinate {
+                    withAnimation {
+                        camera = .region(MKCoordinateRegion(
+                            center: coord,
+                            span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
+                        ))
+                    }
+                }
+            } label: {
+                Image(systemName: "location.fill")
+                    .font(.system(size: 18))
+                    .frame(width: 44, height: 44)
+                    .foregroundStyle(Color.plAccent)
+            }
+            .glassEffect(.clear.interactive(), in: .circle)
+            .safeAreaPadding(.top)
+            .padding(.leading, 14)
+            .padding(.top, 10)
+        }
         .safeAreaInset(edge: .bottom) {
             if !selectedEvents.isEmpty {
                 eventCards
@@ -50,6 +68,7 @@ struct MapView: View {
             recomputeGroups()
         }
         .onChange(of: servicio.events) { recomputeGroups() }
+        .onChange(of: location.userLocation) { recomputeGroups() }
     }
 
     private func recomputeGroups() {
@@ -70,6 +89,48 @@ struct MapView: View {
         if selectedVenue == nil {
             selectedVenue = venueGroups.first?.id
         }
+        updateCameraToFitEvents()
+    }
+
+    private func updateCameraToFitEvents() {
+        guard !venueGroups.isEmpty else { return }
+
+        let userCoord = location.userLocation?.coordinate
+
+        // Sort venues by distance to user (or keep as-is if no location)
+        let sorted: [VenueGroup]
+        if let origin = userCoord {
+            let originLoc = CLLocation(latitude: origin.latitude, longitude: origin.longitude)
+            sorted = venueGroups.sorted {
+                CLLocation(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude)
+                    .distance(from: originLoc) <
+                CLLocation(latitude: $1.coordinate.latitude, longitude: $1.coordinate.longitude)
+                    .distance(from: originLoc)
+            }
+        } else {
+            sorted = venueGroups
+        }
+
+        // Collect user + 2 nearest venues to compute bounding region
+        var coords: [CLLocationCoordinate2D] = Array(sorted.prefix(2)).map { $0.coordinate }
+        if let u = userCoord { coords.append(u) }
+        guard !coords.isEmpty else { return }
+
+        let lats = coords.map { $0.latitude }
+        let lons = coords.map { $0.longitude }
+        let minLat = lats.min()!, maxLat = lats.max()!
+        let minLon = lons.min()!, maxLon = lons.max()!
+
+        let pad = 0.025
+        let center = CLLocationCoordinate2D(
+            latitude: (minLat + maxLat) / 2,
+            longitude: (minLon + maxLon) / 2
+        )
+        let span = MKCoordinateSpan(
+            latitudeDelta: max(maxLat - minLat + pad * 2, 0.04),
+            longitudeDelta: max(maxLon - minLon + pad * 2, 0.04)
+        )
+        camera = .region(MKCoordinateRegion(center: center, span: span))
     }
 
     private func selectVenue(for event: Event) {
@@ -168,7 +229,7 @@ struct EventGlassCard: View {
                         .font(.system(size: 16))
                         .frame(width: 40, height: 40)
                 }
-                .glassEffect(.regular, in: .circle)
+                .glassEffect(.clear.interactive(), in: .circle)
             }
         }
         .padding(14)

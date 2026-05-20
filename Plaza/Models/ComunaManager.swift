@@ -43,31 +43,27 @@ final class ComunaManager {
     // MARK: - Estado
 
     private(set) var selectedComuna: String
-    private(set) var hasManualSelection: Bool
+    private(set) var hasManualSelection = false  // Solo en memoria: siempre false al lanzar
     var isDetecting = false
 
     private static let storageKey = "plaza_selected_comuna"
-    private static let manualKey  = "plaza_comuna_manual"
 
     init() {
-        let stored = UserDefaults.standard.string(forKey: Self.storageKey)
-        selectedComuna    = stored ?? "Antofagasta"
-        hasManualSelection = UserDefaults.standard.bool(forKey: Self.manualKey)
+        // Muestra la última comuna detectada mientras el GPS carga, pero no bloquea la auto-detección
+        selectedComuna = UserDefaults.standard.string(forKey: Self.storageKey) ?? "Antofagasta"
     }
 
     // MARK: - Selección manual
 
     func seleccionar(_ comuna: String) {
         selectedComuna     = comuna
-        hasManualSelection = true
+        hasManualSelection = true  // Pausa auto-detección durante esta sesión
         UserDefaults.standard.set(comuna, forKey: Self.storageKey)
-        UserDefaults.standard.set(true,   forKey: Self.manualKey)
     }
 
     func resetearAAutoDeteccion() {
         hasManualSelection = false
         UserDefaults.standard.removeObject(forKey: Self.storageKey)
-        UserDefaults.standard.set(false, forKey: Self.manualKey)
     }
 
     // MARK: - Auto-detección

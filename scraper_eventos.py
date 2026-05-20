@@ -138,7 +138,8 @@ def limpiar(texto):
 
 
 def es_ciudad_objetivo(texto):
-    return any(c in texto.lower() for c in CIUDADES_OBJETIVO)
+    texto_lower = texto.lower()
+    return any(re.search(rf'\b{re.escape(c)}\b', texto_lower) for c in CIUDADES_OBJETIVO)
 
 
 def parsear_fecha(dia, mes_str):
@@ -180,8 +181,9 @@ def detectar_venue(texto):
 def detectar_ciudad(texto):
     texto_lower = texto.lower()
     # Probar más largos primero para evitar que "arica" tape "camarones" etc.
+    # Usar \b para no hacer match en substrings: "picante" no es "pica", "típica" tampoco.
     for c in sorted(CIUDADES_OBJETIVO, key=len, reverse=True):
-        if c in texto_lower:
+        if re.search(rf'\b{re.escape(c)}\b', texto_lower):
             return NOMBRE_CIUDAD.get(c, c.title())
     return ""
 

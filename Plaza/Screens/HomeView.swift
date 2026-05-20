@@ -7,12 +7,13 @@ struct HomeView: View {
     @Environment(EventoService.self) private var servicio
     @Environment(LocationManager.self) private var location
     @Environment(ComunaManager.self) private var comunaManager
+    @Environment(ReminderManager.self) private var reminders
+    @Environment(\.openURL) private var openURL
     @State private var selectedCategory: Event.Category?
-    @State private var eventToEdit: Event?
     @State private var showAddedToast = false
     @State private var showProfile = false
     @State private var showComunaPicker = false
-    @State private var showFilter = false
+    @State private var navPath = NavigationPath()
     @AppStorage("plaza_max_distance_km") private var maxDistanceKm: Double = 0
 
     private var events: [Event] { servicio.events }
@@ -28,19 +29,15 @@ struct HomeView: View {
     }
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $navPath) {
             listContent
                 .listStyle(.plain)
                 .scrollContentBackground(.hidden)
                 .background(Color.plBg)
                 .toolbar(.hidden, for: .navigationBar)
                 .navigationDestination(for: Event.self) { EventDetailView(event: $0) }
-                .sheet(item: $eventToEdit) { EventEditView(event: $0) }
                 .sheet(isPresented: $showProfile) { ProfileView() }
                 .sheet(isPresented: $showComunaPicker) { ComunaPickerView() }
-                .sheet(isPresented: $showFilter) {
-                    FilterSheetView(selectedCategory: $selectedCategory, maxDistanceKm: $maxDistanceKm)
-                }
                 .refreshable { servicio.cargarEventos() }
                 .overlay(alignment: .top) {
                     if showAddedToast {
@@ -50,6 +47,7 @@ struct HomeView: View {
                     }
                 }
                 .animation(.smooth, value: showAddedToast)
+                .safeAreaInset(edge: .top, spacing: 0) { headerBlock }
         }
         .onAppear {
             if events.isEmpty { servicio.cargarEventos() }
@@ -65,13 +63,10 @@ struct HomeView: View {
 
     private var listContent: some View {
         List {
-            headerBlock
-                .plainRow()
-
             if servicio.cargando {
                 ProgressView()
                     .frame(maxWidth: .infinity)
-                    .padding(.top, 60)
+                    .padding(.top, 120)
                     .plainRow()
             } else if let error = servicio.error {
                 ContentUnavailableView {
@@ -83,6 +78,7 @@ struct HomeView: View {
                         .buttonStyle(.borderedProminent)
                         .tint(Color.plAccent)
                 }
+                .padding(.top, 120)
                 .plainRow()
             } else {
                 if filteredEvents.isEmpty {
@@ -91,28 +87,21 @@ struct HomeView: View {
                         systemImage: "calendar.badge.exclamationmark",
                         description: Text("No hay eventos en esta categoría")
                     )
+                    .padding(.top, 120)
                     .plainRow()
                 } else {
-                    if let featured = filteredEvents.first {
-                        NavigationLink(value: featured) {
-                            FeatureCard(event: featured)
-                        }
-                        .buttonStyle(.plain)
-                        .listRowInsets(EdgeInsets(top: 18, leading: PlSpace.gutter, bottom: 18, trailing: PlSpace.gutter))
-                        .listRowSeparator(.hidden)
-                        .listRowBackground(Color.plBg)
+                    EventImageStack(events: Array(filteredEvents.prefix(3))) { event in
+                        navPath.append(event)
                     }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 28)
+                    .plainRow()
 
-                    ForEach(filteredEvents.dropFirst()) { event in
+                    ForEach(filteredEvents) { event in
                         NavigationLink(value: event) {
                             EventRowContent(event: event)
                         }
-                        .swipeActions(edge: .trailing) {
-                            Button { eventToEdit = event } label: {
-                                Label("Editar", systemImage: "pencil")
-                            }
-                            .tint(Color.plAccent)
-                        }
+                        .contextMenu { eventContextMenu(for: event) }
                         .swipeActions(edge: .leading) {
                             Button {
                                 let added = servicio.toggleSaved(event)
@@ -139,73 +128,136 @@ struct HomeView: View {
         }
     }
 
-    private var hasActiveFilters: Bool {
-        selectedCategory != nil || maxDistanceKm > 0
-    }
+    // MARK: - Header (sticky, Liquid Glass)
 
-    // MARK: - Header
+    private static let distanceOptions: [(String, Double)] = [
+        ("Sin límite", 0), ("100 km", 100), ("200 km", 200), ("300 km", 300),
+    ]
+
+    private static let mainCities = ["Arica", "Iquique", "Antofagasta", "Calama", "Copiapó"]
 
     private var headerBlock: some View {
-        ZStack {
-            // Píldora de ubicación centrada
-            Button {
-                showComunaPicker = true
-            } label: {
-                HStack(spacing: 4) {
-                    Image(systemName: comunaManager.isDetecting ? "location.slash" : "location.fill")
-                        .font(.system(size: 11))
-                    Text(comunaManager.selectedComuna)
-                        .font(.plSans(13, weight: .semibold))
+        HStack(spacing: 10) {
+            // Píldora: muestra comuna + radio. Al tocar abre menú con ambas secciones.
+            Menu {
+                Section("Ubicación") {
+                    Button {
+                        comunaManager.resetearAAutoDeteccion()
+                    } label: {
+                        Label("Detectar automáticamente", systemImage: "location.circle")
+                    }
+                    ForEach(Self.mainCities, id: \.self) { city in
+                        Button {
+                            comunaManager.seleccionar(city)
+                        } label: {
+                            if comunaManager.selectedComuna == city {
+                                Label(city, systemImage: "checkmark")
+                            } else {
+                                Text(city)
+                            }
+                        }
+                    }
+                    Button {
+                        showComunaPicker = true
+                    } label: {
+                        Label("Más comunas…", systemImage: "list.bullet")
+                    }
                 }
-                .padding(.horizontal, 12)
-                .padding(.vertical, 6)
-                .background(Color.plSurface, in: .capsule)
+                Section("Radio") {
+                    Picker("Distancia", selection: $maxDistanceKm) {
+                        ForEach(Self.distanceOptions, id: \.1) { label, km in
+                            Text(label).tag(km)
+                        }
+                    }
+                }
+            } label: {
+                HStack(spacing: 6) {
+                    Image(systemName: comunaManager.isDetecting ? "location.slash" : "location.fill")
+                        .font(.system(size: 13))
+                    Text(comunaManager.selectedComuna)
+                        .font(.plSans(15, weight: .semibold))
+                    if maxDistanceKm > 0 {
+                        Text("·")
+                            .font(.plSans(13))
+                            .foregroundStyle(Color.plMuted)
+                        Text("\(Int(maxDistanceKm)) km")
+                            .font(.plSans(13, weight: .medium))
+                            .foregroundStyle(Color.plAccent)
+                    }
+                }
+                .padding(.horizontal, 16)
+                .padding(.vertical, 12)
                 .foregroundStyle(Color.plFg)
             }
-            .accessibilityLabel("Ubicación: \(comunaManager.selectedComuna). Toca para cambiar.")
+            .glassEffect(.clear, in: .capsule)
+            .accessibilityLabel("Ubicación: \(comunaManager.selectedComuna)\(maxDistanceKm > 0 ? ", radio \(Int(maxDistanceKm)) km" : ""). Toca para cambiar.")
 
-            // Botones derecha dentro de un contenedor Liquid Glass
-            HStack {
-                Spacer()
-                HStack(spacing: 0) {
-                    Button {
-                        showFilter = true
-                    } label: {
-                        Image(systemName: "slider.horizontal.3")
-                            .font(.system(size: 14, weight: .medium))
-                            .frame(width: 40, height: 36)
-                            .foregroundStyle(hasActiveFilters ? Color.plAccent : Color.plFg)
-                            .overlay(alignment: .topTrailing) {
-                                if hasActiveFilters {
-                                    Circle()
-                                        .fill(Color.plAccent)
-                                        .frame(width: 6, height: 6)
-                                        .offset(x: -6, y: 6)
-                                }
-                            }
+            Spacer()
+
+            // Menú desplegable de categorías
+            Menu {
+                Picker("Categoría", selection: $selectedCategory) {
+                    Text("Todos").tag(Optional<Event.Category>.none)
+                    ForEach(Event.Category.allCases, id: \.self) { cat in
+                        Label(cat.rawValue, systemImage: cat.icon)
+                            .tag(Optional(cat))
                     }
-                    .accessibilityLabel("Filtros\(hasActiveFilters ? " (activos)" : "")")
-
-                    Rectangle()
-                        .fill(Color.primary.opacity(0.12))
-                        .frame(width: 0.5, height: 18)
-
-                    Button {
-                        showProfile = true
-                    } label: {
-                        Image(systemName: "person.crop.circle")
-                            .font(.system(size: 17))
-                            .frame(width: 40, height: 36)
-                            .foregroundStyle(Color.plFg)
-                    }
-                    .accessibilityLabel("Perfil")
                 }
-                .glassEffect(.regular, in: .capsule)
-                .overlay(Capsule().strokeBorder(Color.primary.opacity(0.1), lineWidth: 0.5))
+            } label: {
+                Image(systemName: selectedCategory != nil
+                      ? "line.3.horizontal.decrease.circle.fill"
+                      : "line.3.horizontal.decrease.circle")
+                    .font(.system(size: 22))
+                    .frame(width: 50, height: 50)
+                    .foregroundStyle(selectedCategory != nil ? Color.plAccent : Color.plFg)
+            }
+            .glassEffect(.clear.interactive(), in: .circle)
+            .accessibilityLabel("Filtrar por categoría\(selectedCategory != nil ? " (activo)" : "")")
+
+            // Botón de perfil
+            Button {
+                showProfile = true
+            } label: {
+                Image(systemName: "person.crop.circle")
+                    .font(.system(size: 22))
+                    .frame(width: 50, height: 50)
+                    .foregroundStyle(Color.plFg)
+            }
+            .glassEffect(.clear.interactive(), in: .circle)
+            .accessibilityLabel("Perfil")
+        }
+        .padding(.horizontal, PlSpace.gutter)
+        .padding(.vertical, 10)
+    }
+
+    @ViewBuilder
+    private func eventContextMenu(for event: Event) -> some View {
+        if let url = event.url {
+            Button { openURL(url) } label: {
+                Label("Ver evento", systemImage: "arrow.up.right")
             }
         }
-        .padding(.top, 8)
-        .padding(.horizontal, PlSpace.gutter)
+        Button {
+            servicio.toggleSaved(event)
+        } label: {
+            Label(
+                servicio.isSaved(event) ? "Quitar de agenda" : "Agregar a agenda",
+                systemImage: servicio.isSaved(event) ? "calendar.badge.minus" : "calendar.badge.plus"
+            )
+        }
+        Button {
+            Task { await reminders.toggleReminder(for: event) }
+        } label: {
+            Label(
+                reminders.hasReminder(for: event) ? "Quitar recordatorio" : "Recordarme",
+                systemImage: reminders.hasReminder(for: event) ? "bell.slash" : "bell"
+            )
+        }
+        if let url = event.url {
+            ShareLink(item: url) {
+                Label("Compartir", systemImage: "square.and.arrow.up")
+            }
+        }
     }
 }
 
@@ -217,50 +269,6 @@ extension View {
             .listRowSeparator(.hidden)
             .listRowInsets(EdgeInsets())
             .listRowBackground(Color.plBg)
-    }
-}
-
-// MARK: - Feature Card
-
-struct FeatureCard: View {
-    let event: Event
-    var body: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            AsyncImage(url: event.imageURL) { phase in
-                if let img = phase.image {
-                    img.resizable().scaledToFill()
-                } else {
-                    Rectangle().fill(Color.plSurface)
-                }
-            }
-            .aspectRatio(4/3, contentMode: .fit)
-            .clipShape(.rect(cornerRadius: PlSpace.cardRadius))
-
-            HStack {
-                PlTag(text: event.dateText)
-                Spacer()
-                PlTag(text: event.venue)
-            }
-
-            Text(event.title)
-                .font(.plDisplay(28))
-                .kerning(-0.8)
-                .foregroundStyle(Color.plFg)
-
-            if !event.subtitle.isEmpty {
-                Text(event.subtitle)
-                    .font(.plSerifItalic(18))
-                    .foregroundStyle(Color.plMuted)
-            }
-
-            HStack(spacing: 8) {
-                PlTag(text: event.price ?? "Gratis", color: .plAccent)
-                if !event.otherDates.isEmpty {
-                    PlTag(text: "+\(event.otherDates.count) fechas", color: .plAccent)
-                }
-            }
-        }
-        .accessibilityElement(children: .combine)
     }
 }
 
@@ -308,6 +316,55 @@ struct EventRowContent: View {
         }
         .padding(.vertical, 14)
         .accessibilityElement(children: .combine)
+    }
+}
+
+// MARK: - Event Image Stack
+
+struct EventImageStack: View {
+    let events: [Event]
+    let onSelect: (Event) -> Void
+
+    var body: some View {
+        ZStack {
+            if events.count > 1 {
+                card(events[1])
+                    .frame(width: 168, height: 196)
+                    .rotationEffect(.degrees(-13))
+                    .offset(x: -60, y: 12)
+            }
+            if events.count > 2 {
+                card(events[2])
+                    .frame(width: 168, height: 196)
+                    .rotationEffect(.degrees(13))
+                    .offset(x: 60, y: 12)
+            }
+            if let first = events.first {
+                card(first)
+                    .frame(width: 196, height: 228)
+            }
+        }
+        .frame(height: 264)
+    }
+
+    private func card(_ event: Event) -> some View {
+        Button { onSelect(event) } label: {
+            AsyncImage(url: event.imageURL) { phase in
+                if let img = phase.image {
+                    img.resizable().scaledToFill()
+                } else {
+                    Rectangle().fill(Color.plSurface)
+                        .overlay {
+                            Image(systemName: event.category.icon)
+                                .font(.system(size: 32))
+                                .foregroundStyle(Color.plMuted)
+                        }
+                }
+            }
+            .clipShape(.rect(cornerRadius: 22))
+        }
+        .buttonStyle(.plain)
+        .shadow(color: .black.opacity(0.22), radius: 12, x: 0, y: 6)
     }
 }
 
@@ -395,7 +452,7 @@ struct FilterSheetView: View {
     @Environment(\.dismiss) private var dismiss
 
     private static let distanceOptions: [(String, Double)] = [
-        ("Sin límite", 0), ("10 km", 10), ("25 km", 25), ("50 km", 50), ("100 km", 100),
+        ("Sin límite", 0), ("100 km", 100), ("200 km", 200), ("300 km", 300),
     ]
 
     private var hasFilters: Bool { selectedCategory != nil || maxDistanceKm > 0 }

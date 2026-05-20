@@ -27,10 +27,10 @@ enum EventTag {
 
 @Generable(description: "Summary about a cultural event and its artist or performer")
 struct EventSummary {
-    @Guide(description: "Brief bio of the artist, band, or performer in Spanish (2-3 sentences). Use your knowledge if available.")
+    @Guide(description: "Brief bio strictly about the exact artist or band named in the event (2-3 sentences in Spanish). Only state facts you are confident about for THIS specific artist. If uncertain, describe only what is mentioned in the event description — do not invent details or confuse with other artists.")
     var bio: String
 
-    @Guide(description: "What attendees can expect at this event in Spanish (1-2 sentences)")
+    @Guide(description: "What attendees can expect at this specific event in Spanish (1-2 sentences), based on the event details provided.")
     var preview: String
 }
 
@@ -46,9 +46,11 @@ enum EventClassifier {
         """
 
     private static let summaryInstructions = """
-        Genera un resumen breve e informativo sobre un evento cultural y su artista. \
-        Usa tu conocimiento sobre el artista si lo tienes. Sé conciso y factual. \
-        Responde siempre en español.
+        Genera un resumen sobre el evento cultural y el artista EXACTO indicado. \
+        IMPORTANTE: Escribe únicamente sobre el artista nombrado en el evento. \
+        No confundas con otros artistas de nombre similar o de la misma categoría. \
+        Si no tienes información confiable sobre ese artista específico, limítate a lo que dice la descripción del evento; no inventes datos biográficos. \
+        Sé conciso y factual. Responde siempre en español.
         """
 
     static var isAvailable: Bool {

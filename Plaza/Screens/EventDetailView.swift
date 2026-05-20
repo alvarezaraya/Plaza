@@ -3,6 +3,7 @@
 
 import SwiftUI
 import UIKit
+import MapKit
 
 struct EventDetailView: View {
     let event: Event
@@ -15,6 +16,31 @@ struct EventDetailView: View {
     @State private var showToast = false
     @State private var toastLabel = ""
     @State private var toastIcon = ""
+    @State private var mapCamera: MapCameraPosition = .automatic
+    @State private var selectedDateIndex = 0
+
+    private var allDates: [(dateText: String, venue: String, ciudad: String)] {
+        [(event.dateText, event.venue, event.ciudad)] +
+        event.otherDates.map { ($0.dateText, $0.venue, $0.ciudad) }
+    }
+
+    private var currentDate: (dateText: String, venue: String, ciudad: String) {
+        allDates[min(selectedDateIndex, allDates.count - 1)]
+    }
+
+    private var liveCoordinate: CLLocationCoordinate2D {
+        servicio.events.first { $0.stableID == event.stableID }?.coordinate ?? event.coordinate
+    }
+
+    private func updateMapCamera() {
+        let coord = liveCoordinate
+        guard coord.latitude != 0 || coord.longitude != 0 else { return }
+        mapCamera = .region(MKCoordinateRegion(
+            center: coord,
+            latitudinalMeters: 600,
+            longitudinalMeters: 600
+        ))
+    }
 
     var body: some View {
         ScrollView {
@@ -53,16 +79,29 @@ struct EventDetailView: View {
 
                     Divider()
 
-                    dateRow(dateText: event.dateText, venue: event.venue, ciudad: event.ciudad)
-
-                    if !event.otherDates.isEmpty {
-                        Divider()
-                        Text("También en")
-                            .font(.plSans(14, weight: .semibold))
-                            .foregroundStyle(Color.plDim)
-
-                        ForEach(event.otherDates) { entry in
-                            dateRow(dateText: entry.dateText, venue: entry.venue, ciudad: entry.ciudad)
+                    HStack(alignment: .center) {
+                        dateRow(dateText: currentDate.dateText, venue: currentDate.venue, ciudad: currentDate.ciudad)
+                        if allDates.count > 1 {
+                            Spacer()
+                            Menu {
+                                Picker("Fecha", selection: $selectedDateIndex) {
+                                    ForEach(allDates.indices, id: \.self) { i in
+                                        Text("\(allDates[i].dateText) · \(allDates[i].venue)")
+                                            .tag(i)
+                                    }
+                                }
+                            } label: {
+                                HStack(spacing: 4) {
+                                    Text("\(allDates.count) fechas")
+                                    Image(systemName: "chevron.up.chevron.down")
+                                        .font(.system(size: 10))
+                                }
+                                .font(.plSans(13, weight: .medium))
+                                .foregroundStyle(Color.plAccent)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 6)
+                                .background(Color.plAccent.opacity(0.1), in: .capsule)
+                            }
                         }
                     }
 
@@ -116,10 +155,22 @@ struct EventDetailView: View {
                             .lineSpacing(3)
                             .padding(.top, 4)
                     }
-
-                    Spacer(minLength: 120)
                 }
                 .padding(.horizontal, PlSpace.gutter)
+
+                // Mapa
+                if liveCoordinate.latitude != 0 || liveCoordinate.longitude != 0 {
+                    Divider()
+                    Map(position: $mapCamera, interactionModes: []) {
+                        Marker(event.venue, coordinate: liveCoordinate)
+                            .tint(Color.plAccent)
+                    }
+                    .aspectRatio(1, contentMode: .fit)
+                    .frame(maxWidth: .infinity)
+                    .clipShape(.rect(cornerRadius: PlSpace.cardRadius))
+                    .padding(.horizontal, PlSpace.gutter)
+                    .padding(.bottom, PlSpace.gutter)
+                }
             }
         }
         .background(Color.plBg)
@@ -132,6 +183,8 @@ struct EventDetailView: View {
         .task {
             aiSummary = await EventClassifier.generateSummary(event: event)
         }
+        .onAppear { updateMapCamera() }
+        .onChange(of: liveCoordinate.latitude) { updateMapCamera() }
         .overlay(alignment: .top) {
             if showToast {
                 AddedToast(label: toastLabel, icon: toastIcon)
@@ -197,7 +250,7 @@ struct EventDetailView: View {
                     Image(systemName: "music.note")
                         .frame(width: 48, height: 48)
                 }
-                .glassEffect(.regular, in: .circle)
+                .glassEffect(.clear.interactive(), in: .circle)
                 .accessibilityLabel("Escuchar en Apple Music")
             }
             Button {
@@ -213,7 +266,7 @@ struct EventDetailView: View {
                 Image(systemName: reminders.hasReminder(for: event) ? "bell.fill" : "bell")
                     .frame(width: 48, height: 48)
             }
-            .glassEffect(.regular, in: .circle)
+            .glassEffect(.clear.interactive(), in: .circle)
             .accessibilityLabel(reminders.hasReminder(for: event) ? "Quitar recordatorio" : "Recordarme")
             Button {
                 if servicio.toggleSaved(event) {
@@ -223,7 +276,7 @@ struct EventDetailView: View {
                 Image(systemName: servicio.isSaved(event) ? "calendar.badge.checkmark" : "calendar.badge.plus")
                     .frame(width: 48, height: 48)
             }
-            .glassEffect(.regular, in: .circle)
+            .glassEffect(.clear.interactive(), in: .circle)
             .accessibilityLabel(servicio.isSaved(event) ? "Quitar de agenda" : "Agregar a agenda")
         }
         .padding(.horizontal, PlSpace.gutter)
@@ -243,7 +296,7 @@ struct AddedToast: View {
             .font(.plSans(15, weight: .semibold))
             .padding(.horizontal, 20)
             .padding(.vertical, 12)
-            .glassEffect(.regular, in: .capsule)
+            .glassEffect(.clear, in: .capsule)
     }
 }
 
@@ -273,7 +326,7 @@ struct FullImageView: View {
                     .frame(width: 36, height: 36)
                     .foregroundStyle(.white)
             }
-            .glassEffect(.regular, in: .circle)
+            .glassEffect(.clear.interactive(), in: .circle)
             .padding(.top, 12)
             .padding(.trailing, 16)
         }
