@@ -321,7 +321,7 @@ struct EventRowContent: View {
     }
 }
 
-// MARK: - Event Image Stack (Playbill, physics swipe)
+// MARK: - Event Image Stack (Playbill, physics swipe, float)
 
 struct EventImageStack: View {
     let events: [Event]
@@ -337,48 +337,69 @@ struct EventImageStack: View {
         return ((frontIndex + offset) % count + count) % count
     }
 
-    // Progreso normalizado [0,1] de cada tarjeta lateral acercándose al centro
     private var leftLerp: CGFloat  { max(0, min(1, dragOffset / 120)) }
     private var rightLerp: CGFloat { max(0, min(1, -dragOffset / 120)) }
 
+    // La flotación se amortigua cuando el usuario arrastra
+    private var floatDamp: Double { max(0, 1 - abs(Double(dragOffset)) / 140) }
+
     var body: some View {
+        // TimelineView proporciona tiempo continuo para la animación de seno nativa
+        TimelineView(.animation) { tl in
+            let t = tl.date.timeIntervalSinceReferenceDate
+            cardStack(t: t)
+        }
+        .frame(height: 278)
+    }
+
+    @ViewBuilder
+    private func cardStack(t: Double) -> some View {
         ZStack {
-            // Tarjeta izquierda — siempre roja
+            // Tarjeta izquierda — roja
             if count > 1 {
                 PlaybillCard(event: events[idx(-1)], cardColor: .plCardLeft) {
                     withAnimation(.spring(response: 0.38, dampingFraction: 0.72)) {
                         frontIndex = idx(-1); dragOffset = 0
                     }
                 }
-                .frame(width: 168, height: 196)
-                .rotationEffect(.degrees(-13 * (1 - leftLerp)))
-                .offset(x: -60 + 60 * leftLerp, y: 12 * (1 - leftLerp))
-                .scaleEffect(0.87 + 0.13 * leftLerp)
+                .frame(width: 182, height: 214)
+                .rotationEffect(.degrees(-9 * (1 - leftLerp)))
+                .offset(
+                    x: -52 + 52 * leftLerp,
+                    y: 10 * (1 - leftLerp) + sin(t * 1.1 + .pi * 0.85) * 6 * floatDamp
+                )
+                .scaleEffect(0.91 + 0.09 * leftLerp)
                 .zIndex(leftLerp > 0.6 ? 3 : 1)
             }
 
-            // Tarjeta derecha — siempre amarilla
+            // Tarjeta derecha — amarilla
             if count > 2 {
                 PlaybillCard(event: events[idx(1)], cardColor: .plCardRight) {
                     withAnimation(.spring(response: 0.38, dampingFraction: 0.72)) {
                         frontIndex = idx(1); dragOffset = 0
                     }
                 }
-                .frame(width: 168, height: 196)
-                .rotationEffect(.degrees(13 * (1 - rightLerp)))
-                .offset(x: 60 - 60 * rightLerp, y: 12 * (1 - rightLerp))
-                .scaleEffect(0.87 + 0.13 * rightLerp)
+                .frame(width: 182, height: 214)
+                .rotationEffect(.degrees(9 * (1 - rightLerp)))
+                .offset(
+                    x: 52 - 52 * rightLerp,
+                    y: 10 * (1 - rightLerp) + sin(t * 1.25 + .pi * 0.35) * 6 * floatDamp
+                )
+                .scaleEffect(0.91 + 0.09 * rightLerp)
                 .zIndex(rightLerp > 0.6 ? 3 : 1)
             }
 
-            // Tarjeta central — siempre cyan, arrastrable
+            // Tarjeta central — cyan, arrastrable
             if count > 0 {
                 PlaybillCard(event: events[idx(0)], cardColor: .plCardCenter) {
                     onSelect(events[frontIndex])
                 }
-                .frame(width: 196, height: 228)
+                .frame(width: 200, height: 234)
                 .rotationEffect(.degrees(dragOffset / 22))
-                .offset(x: dragOffset, y: abs(dragOffset) * 0.04)
+                .offset(
+                    x: dragOffset,
+                    y: abs(dragOffset) * 0.04 + sin(t * 1.38) * 8 * floatDamp
+                )
                 .zIndex(leftLerp > 0.7 || rightLerp > 0.7 ? 0 : 2)
                 .gesture(
                     DragGesture(minimumDistance: 10)
@@ -402,7 +423,6 @@ struct EventImageStack: View {
                 )
             }
         }
-        .frame(height: 264)
     }
 }
 
@@ -427,25 +447,30 @@ struct PlaybillCard: View {
     var body: some View {
         Button(action: onTap) {
             ZStack {
+                // Fondo sólido
                 RoundedRectangle(cornerRadius: 14)
                     .fill(cardColor)
-                RoundedRectangle(cornerRadius: 14)
-                    .strokeBorder(ink.opacity(0.7), lineWidth: 2)
 
+                // Contenido recortado al borde de la tarjeta
                 VStack(spacing: 0) {
                     headerBanner
                     imageArea
                 }
-                .clipShape(RoundedRectangle(cornerRadius: 13))
+                .clipShape(RoundedRectangle(cornerRadius: 14))
 
-                // Marco interior inset
+                // Borde exterior delgado (todo el contorno)
+                RoundedRectangle(cornerRadius: 14)
+                    .strokeBorder(ink.opacity(0.55), lineWidth: 1)
+
+                // Marco interior inset decorativo
                 RoundedRectangle(cornerRadius: 11)
-                    .strokeBorder(ink.opacity(0.35), lineWidth: 1)
-                    .padding(6)
+                    .strokeBorder(ink.opacity(0.28), lineWidth: 0.75)
+                    .padding(5)
             }
         }
         .buttonStyle(.plain)
-        .shadow(color: .black.opacity(0.28), radius: 14, x: 0, y: 7)
+        .shadow(color: .black.opacity(0.22), radius: 10, x: 0, y: 5)
+        .shadow(color: .black.opacity(0.12), radius: 24, x: 0, y: 14)
     }
 
     private var headerBanner: some View {
@@ -470,18 +495,18 @@ struct PlaybillCard: View {
 
     private var ruleLine: some View {
         Rectangle()
-            .fill(ink.opacity(0.7))
-            .frame(height: 1.5)
+            .fill(ink.opacity(0.6))
+            .frame(height: 1)
             .padding(.horizontal, 9)
     }
 
     private var ornamentRow: some View {
         HStack(spacing: 0) {
-            Rectangle().fill(ink.opacity(0.3)).frame(height: 0.7)
+            Rectangle().fill(ink.opacity(0.25)).frame(height: 0.6)
             Text("  ✦  ")
                 .font(.system(size: 6))
-                .foregroundStyle(ink.opacity(0.35))
-            Rectangle().fill(ink.opacity(0.3)).frame(height: 0.7)
+                .foregroundStyle(ink.opacity(0.3))
+            Rectangle().fill(ink.opacity(0.25)).frame(height: 0.6)
         }
         .padding(.horizontal, 14)
     }
