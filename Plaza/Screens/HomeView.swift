@@ -199,7 +199,7 @@ struct HomeView: View {
                 .padding(.vertical, 12)
                 .foregroundStyle(Color.plFg)
             }
-            .glassEffect(.clear, in: .capsule)
+            .glassEffect(.clear.interactive(), in: .capsule)
             .accessibilityLabel("Ubicación: \(comunaManager.selectedComuna)\(maxDistanceKm > 0 ? ", radio \(Int(maxDistanceKm)) km" : ""). Toca para cambiar.")
 
             Spacer()

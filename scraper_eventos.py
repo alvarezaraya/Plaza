@@ -148,16 +148,20 @@ def parsear_fecha(dia, mes_str):
     if not mes_num:
         return "", ""
     anio = datetime.now().year
-    ahora = datetime.now()
-    if mes_num < ahora.month or (mes_num == ahora.month and int(dia) < ahora.day):
-        anio += 1
+    ahora = datetime.now().date()
     try:
-        fecha = datetime(anio, mes_num, int(dia))
-        iso = fecha.strftime("%Y-%m-%d")
-        texto = f"{int(dia)} de {MESES_TEXTO[mes_num]} de {anio}"
-        return iso, texto
+        fecha = datetime(anio, mes_num, int(dia)).date()
     except ValueError:
         return "", ""
+    # Solo avanzar al año siguiente si el evento pasó hace más de 30 días.
+    # Eventos recientes (≤30 días atrás) se retienen como fecha pasada para
+    # ser descartados por el filtro del scraper que los originó.
+    if fecha < ahora and (ahora - fecha).days > 30:
+        anio += 1
+        fecha = fecha.replace(year=anio)
+    iso   = fecha.strftime("%Y-%m-%d")
+    texto = f"{fecha.day} de {MESES_TEXTO[fecha.month]} de {fecha.year}"
+    return iso, texto
 
 
 def extraer_fecha_de_texto(texto):
@@ -874,11 +878,13 @@ def scrape_comediaticket():
 def scrape_esquinaretornable():
     """
     Esquina Retornable — cine arte en Antofagasta.
-    Solo scraepea el homepage (ignora /cartelera/).
-    Tres parsers en cascada para capturar todas las estructuras Elementor:
-      1. Columnas con ul inline (título+fecha) + ul no-inline (desc+precio)
-      2. Icon-lists sueltos fuera de columnas (cartelera semanal)
-      3. Posts/artículos WordPress con heading y meta de fecha
+    Solo raspa el homepage. Estructura por película (icon-list vertical):
+      ítem 0: título (con año entre paréntesis o tras guión)
+      ítem 1: fecha  "DD de MES / HH:MM hrs."
+      ítem 2: ciclo de cine
+      ítem 3: director  "Dir. Nombre"
+      ítem 4: sinopsis
+    Se descartan eventos sin fecha.
     """
     print("\n🔍 EsquinaRetornable.cl (homepage) ...")
 
@@ -894,12 +900,13 @@ def scrape_esquinaretornable():
         "Referer": "https://www.google.com/",
     }
 
-    price_re = re.compile(r'\$\s*([\d\.]+)')
-    # Detecta bloques de programación semanal (primer ítem es día o fecha)
+    # Primer ítem es fecha/día → lista sin título válido (se descarta)
     date_first_re = re.compile(
-        r'^(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo|\d{1,2}\s+de\s)',
+        r'^(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo|\d{1,2}\s+de\s|\d{1,2}\s+de\s+[a-z])',
         re.I
     )
+    # Año al final del título: "(1991)", "[2025]", "- 2025", "– 2025"
+    year_re = re.compile(r'\s*[\(\[]\d{4}[\)\]]\s*$|\s*[-–—]\s*\d{4}\s*$')
 
     try:
         r = requests.get(url, headers=headers_er, timeout=15)
@@ -912,16 +919,18 @@ def scrape_esquinaretornable():
     eventos = []
     seen    = set()
 
-    def _precio_minimo(texto):
-        nums = price_re.findall(texto.replace(".", ""))
-        if nums:
-            try:
-                return str(min(int(n) for n in nums))
-            except ValueError:
-                pass
-        return ""
+    # Detener antes de secciones de archivo ("ya exhibidas", etc.)
+    stop_node = None
+    for heading in soup.find_all(["h1", "h2", "h3", "h4"]):
+        if re.search(r"ya exhibid|anteriores|archivo", heading.get_text(), re.I):
+            stop_node = heading
+            break
 
-    def _imagen_en(tag):
+    def _antes_del_corte(tag):
+        return not (stop_node and tag.find_previous(lambda t: t is stop_node))
+
+    def _imagen_en_container(tag):
+        """Busca la primera imagen de wp-content/uploads dentro de tag."""
         for img in tag.find_all("img"):
             src = (img.get("src") or img.get("data-src")
                    or img.get("data-lazy-src") or "")
@@ -933,92 +942,21 @@ def scrape_esquinaretornable():
         for a in tag.find_all("a", href=True):
             href = a.get("href", "")
             text = a.get_text(strip=True).lower()
-            if any(k in text for k in ("inscripci", "comprar", "ticket", "reserva", "ver más", "ver mas")):
+            if any(k in text for k in ("inscripci", "comprar", "ticket", "reserva")):
                 return href
             if any(k in href for k in ("passline", "docs.google", "forms.gle", "eventbrite")):
                 return href
         return url
 
-    # Localizar heading de corte ("ya exhibidas" o similar)
-    stop_node = None
-    for heading in soup.find_all(["h1", "h2", "h3", "h4"]):
-        if re.search(r"ya exhibid|anteriores|archivo", heading.get_text(), re.I):
-            stop_node = heading
-            break
-
-    def _antes_del_corte(tag):
-        return not (stop_node and tag.find_previous(lambda t: t is stop_node))
-
-    # ── Parser 1: columnas Elementor (título inline + desc no-inline) ──────────
-    for col in soup.find_all("div", class_=lambda c: c and "elementor-column" in c):
-        if not _antes_del_corte(col):
-            continue
-
-        inline_ul = col.find(
-            "ul",
-            class_=lambda c: c and "elementor-inline-items" in (c if isinstance(c, str) else " ".join(c))
-        )
-        if not inline_ul:
-            continue
-
-        inline_items = [
-            limpiar(li.get_text(" ", strip=True))
-            for li in inline_ul.find_all("li")
-            if li.get_text(strip=True)
-        ]
-        if not inline_items or date_first_re.match(inline_items[0]):
-            continue
-
-        title = re.sub(r"\s*\(\d{4}\)\s*$", "", inline_items[0]).strip()
-        if not title or title in seen:
-            continue
-        seen.add(title)
-
-        date_parts = inline_items[1:]
-        fecha_iso, fecha_texto = extraer_fecha_de_texto(" ".join(date_parts))
-
-        director = ""
-        precio_str = ""
-        for ul in col.find_all(
-            "ul",
-            class_=lambda c: c and "elementor-icon-list-items" in (c if isinstance(c, str) else " ".join(c))
-                and "elementor-inline-items" not in (c if isinstance(c, str) else " ".join(c))
-        ):
-            for li in ul.find_all("li"):
-                t   = limpiar(li.get_text(" ", strip=True))
-                low = t.lower()
-                if price_re.search(t) or re.search(r'gratu|libre|entrada', low):
-                    precio_str = t
-                elif not director and len(t) > 4:
-                    director = t
-
-        nombre = limpiar_nombre(title, venue=VENUE, ciudad=CIUDAD)
-        if not nombre:
-            continue
-
-        eventos.append({
-            "fuente":           "EsquinaRetornable",
-            "nombre":           nombre,
-            "venue":            VENUE,
-            "descripcion":      director,
-            "fecha_iso":        fecha_iso,
-            "fecha_texto":      fecha_texto,
-            "precio_desde_clp": _precio_minimo(precio_str),
-            "ciudad":           CIUDAD,
-            "imagen_url":       _imagen_en(col),
-            "url":              _ticket_url_en(col),
-        })
-
-    # ── Parser 2: icon-lists sueltos fuera de columnas ────────────────────────
+    # Cada película tiene su propio elementor-icon-list-items (no inline).
+    # Estructura esperada: [título, fecha, ciclo, director, sinopsis]
     for ul in soup.find_all(
         "ul",
-        class_=lambda c: c and "elementor-icon-list-items" in (c if isinstance(c, str) else " ".join(c))
-            and "elementor-inline-items" not in (c if isinstance(c, str) else " ".join(c))
+        class_=lambda c: c and
+            "elementor-icon-list-items" in (c if isinstance(c, str) else " ".join(c)) and
+            "elementor-inline-items"    not in (c if isinstance(c, str) else " ".join(c))
     ):
         if not _antes_del_corte(ul):
-            continue
-        # Omitir si está dentro de una columna (ya procesada arriba)
-        if ul.find_parent("div", class_=lambda c: c and "elementor-column" in (c if isinstance(c, str) else " ".join(c))):
             continue
 
         items = [
@@ -1026,110 +964,63 @@ def scrape_esquinaretornable():
             for li in ul.find_all("li")
             if li.get_text(strip=True)
         ]
-        if not items or date_first_re.match(items[0]):
+        if len(items) < 2:
             continue
 
-        title = re.sub(r"\s*\(\d{4}\)\s*$", "", items[0]).strip()
-        if not title or title in seen:
+        # Descartar listas que empiezan con fecha (sin título de película)
+        if date_first_re.match(items[0]):
             continue
-        seen.add(title)
 
-        date_raw = items[1].split("/")[0].strip() if len(items) > 1 else ""
+        title = year_re.sub("", items[0]).strip()
+        if not title or title in seen or len(title) < 3:
+            continue
+
+        # Fecha: "20 de mayo / 20:00 hrs." → tomar parte antes de "/"
+        date_raw = items[1].split("/")[0].strip()
         fecha_iso, fecha_texto = extraer_fecha_de_texto(date_raw)
-        # No se descarta por falta de fecha — puede estar en texto libre
+        if not fecha_iso:
+            continue  # Evento sin fecha → ignorar
+        try:
+            from datetime import date as _date
+            if datetime.strptime(fecha_iso, "%Y-%m-%d").date() < _date.today():
+                continue  # Evento ya pasado → ignorar
+        except ValueError:
+            pass
 
-        director = ""
-        precio_str = ""
-        for item in items[2:]:
-            low = item.lower()
-            if price_re.search(item) or re.search(r"gratu|libre|entrada", low):
-                precio_str = item
-            elif not director and re.match(r"dir\.?\s", item, re.I):
-                director = item
-
-        widget = ul.find_parent(class_=re.compile(r"elementor-widget"))
-        search_area = widget.parent if widget else ul.parent
-
-        nombre = limpiar_nombre(title, venue=VENUE, ciudad=CIUDAD)
-        if not nombre:
-            continue
-
-        eventos.append({
-            "fuente":           "EsquinaRetornable",
-            "nombre":           nombre,
-            "venue":            VENUE,
-            "descripcion":      director,
-            "fecha_iso":        fecha_iso,
-            "fecha_texto":      fecha_texto,
-            "precio_desde_clp": _precio_minimo(precio_str),
-            "ciudad":           CIUDAD,
-            "imagen_url":       _imagen_en(search_area) if search_area else "",
-            "url":              url,
-        })
-
-    # ── Parser 3: posts/artículos WordPress ───────────────────────────────────
-    # Captura entradas del blog o custom posts que no usan Elementor widget lists.
-    for article in soup.find_all(["article", "div"], class_=lambda c: c and
-            any(k in (c if isinstance(c, str) else " ".join(c))
-                for k in ("post-", "type-post", "hentry", "elementor-post"))):
-        if not _antes_del_corte(article):
-            continue
-
-        # Extraer título
-        title_tag = article.find(["h1", "h2", "h3", "h4", "h5"])
-        if not title_tag:
-            continue
-        title = re.sub(r"\s*\(\d{4}\)\s*$", "", limpiar(title_tag.get_text(" "))).strip()
-        if not title or title in seen or len(title) < 4:
-            continue
         seen.add(title)
 
-        # Extraer fecha desde meta, time tag o texto del artículo
-        fecha_iso, fecha_texto = "", ""
-        time_tag = article.find("time")
-        if time_tag:
-            dt = time_tag.get("datetime", "")
-            if re.match(r"\d{4}-\d{2}-\d{2}", dt):
-                fecha_iso = dt[:10]
-                try:
-                    d = datetime.strptime(fecha_iso, "%Y-%m-%d")
-                    fecha_texto = f"{d.day} de {MESES_TEXTO[d.month]} de {d.year}"
-                except ValueError:
-                    pass
-        if not fecha_iso:
-            fecha_iso, fecha_texto = extraer_fecha_de_texto(article.get_text(" "))
+        ciclo    = items[2].strip() if len(items) > 2 else ""
+        director = items[3].strip() if len(items) > 3 else ""
+        sinopsis = items[4].strip() if len(items) > 4 else ""
 
-        # Descripción: primer párrafo con contenido útil
-        descripcion = ""
-        for p in article.find_all("p"):
-            t = limpiar(p.get_text(" "))
-            if len(t) > 30:
-                descripcion = t[:300]
-                break
+        # descripcion = "Ciclo · Dir. Nombre"  (usado como subtítulo en la app)
+        desc_parts = [p for p in [ciclo, director] if p]
+        descripcion = " · ".join(desc_parts)
 
-        # Link del artículo
-        link = url
-        a_tag = title_tag.find("a") or article.find("a", href=True)
-        if a_tag:
-            link = a_tag.get("href", url)
-            if link.startswith("/"):
-                link = f"{BASE}{link}"
+        # Imagen: está en el contenedor e-con-full 3 niveles sobre el ul
+        # ul → widget-container → widget-div → e-con-full (tiene el póster)
+        container = ul.parent.parent.parent if ul.parent and ul.parent.parent else None
+        imagen = _imagen_en_container(container) if container else ""
+
+        # URL de ticket en el mismo contenedor
+        ticket_url = (_ticket_url_en(container) if container else url) or url
 
         nombre = limpiar_nombre(title, venue=VENUE, ciudad=CIUDAD)
         if not nombre:
             continue
 
         eventos.append({
-            "fuente":           "EsquinaRetornable",
-            "nombre":           nombre,
-            "venue":            VENUE,
-            "descripcion":      descripcion,
-            "fecha_iso":        fecha_iso,
-            "fecha_texto":      fecha_texto,
-            "precio_desde_clp": "",
-            "ciudad":           CIUDAD,
-            "imagen_url":       _imagen_en(article),
-            "url":              link,
+            "fuente":                "EsquinaRetornable",
+            "nombre":                nombre,
+            "venue":                 VENUE,
+            "descripcion":           descripcion,
+            "descripcion_extendida": sinopsis,
+            "fecha_iso":             fecha_iso,
+            "fecha_texto":           fecha_texto,
+            "precio_desde_clp":      "",
+            "ciudad":                CIUDAD,
+            "imagen_url":            imagen,
+            "url":                   ticket_url,
         })
 
     print(f"  ✅ {len(eventos)} eventos")

@@ -13,6 +13,7 @@ private let VENUES_FIJOS: [String: CLLocationCoordinate2D] = [
     "teatro municipal":              .init(latitude: -23.646360, longitude: -70.396306),
     "enjoy antofagasta":             .init(latitude: -23.685324, longitude: -70.414614),
     "estadio sokol":                 .init(latitude: -23.655882, longitude: -70.397059),
+    "esquina retornable":            .init(latitude: -23.673621, longitude: -70.409617),
 ]
 
 @MainActor

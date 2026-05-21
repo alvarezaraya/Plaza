@@ -10,6 +10,7 @@ enum AppTab: Hashable {
 
 struct RootTabView: View {
     @Environment(\.horizontalSizeClass) private var hSizeClass
+    @Environment(\.colorScheme) private var colorScheme
     @State private var selection: AppTab = .home
 
     var body: some View {
@@ -58,6 +59,7 @@ struct RootTabView: View {
             iPhoneTabView(includeMap: false)
                 .frame(width: 375)
                 .background(.clear)
+                .background(colorScheme == .dark ? Color.black.opacity(0.58) : Color.clear)
                 .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
                 .glassEffect(.clear, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
                 .shadow(color: .black.opacity(0.14), radius: 20, x: 4, y: 0)
