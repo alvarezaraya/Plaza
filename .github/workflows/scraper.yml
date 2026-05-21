@@ -5,6 +5,9 @@ on:
     - cron: '0 6 * * *'   # Corre todos los días a las 06:00 UTC (03:00 Chile)
   workflow_dispatch:        # También permite ejecutarlo manualmente desde GitHub
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
