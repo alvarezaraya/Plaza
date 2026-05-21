@@ -1,33 +1,33 @@
 {
-  "generado_en": "2026-05-21T03:12:54.218350",
-  "total_eventos": 26,
+  "generado_en": "2026-05-21T12:04:38.110908",
+  "total_eventos": 17,
   "eventos": [
     {
       "fuente": "EsquinaRetornable",
       "nombre": "LA AVENTURA DEL POSEIDÓN",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Ronald Neame",
+      "descripcion": "En la Inquietud del Mar · Dir. Ronald Neame",
+      "descripcion_extendida": "En la Inquietud del Mar · Dir. Ronald Neame",
       "fecha_iso": "2026-05-22",
       "fecha_texto": "22 de mayo de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://esquinaretornable.cl/",
-      "descripcion_extendida": "El título La aventura del Poseidón se puede referir a:La aventura del Poseidón (1969), una novela de Paul Gallico;\nLa aventura del Poseidón (1972), película de catástrofes basada en la novela anterior, y dirigida por Ronald Neame;\nLa aventura del Poseidón (2005), adaptación de la anterior dirigida por John Putch; o\nPoseidón (2006), también una adaptación de la de 1972, dirigida por Wolfgang Petersen.",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/LA-AVENTURA-DEL-POSEIDON-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/la-aventura-del-poseidon",
       "bio_artista": "El título La aventura del Poseidón se puede referir a:La aventura del Poseidón (1969), una novela de Paul Gallico;\nLa aventura del Poseidón (1972), película de catástrofes basada en la novela anterior, y dirigida por Ronald Neame;\nLa aventura del Poseidón (2005), adaptación de la anterior dirigida por John Putch; o\nPoseidón (2006), también una adaptación de la de 1972, dirigida por Wolfgang Petersen."
     },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "DESPUÉS DE LA NIEBLA",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Miriam Heard",
+      "descripcion": "Estreno Nacional · Dir. Miriam Heard",
+      "descripcion_extendida": "Estreno Nacional · Dir. Miriam Heard",
       "fecha_iso": "2026-05-22",
       "fecha_texto": "22 de mayo de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://esquinaretornable.cl/",
-      "descripcion_extendida": "Niebla es un municipio español de la provincia de Huelva, en la comunidad autónoma de Andalucía. El municipio cuenta con una población de 4268 habitantes. Con una extensión superficial es de 223,62 km², se encuentra situado a una altitud de unos 45 m sobre el nivel del mar y a 28 kilómetros de la capital provincial, Huelva. El casco urbano dispone de un importante conjunto histórico-monumental en el que sobresale su recinto amurallado.",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/DESPUES-DE-LA-NIEBLA-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/despues-de-la-niebla",
       "bio_artista": "Niebla es un municipio español de la provincia de Huelva, en la comunidad autónoma de Andalucía. El municipio cuenta con una población de 4268 habitantes. Con una extensión superficial es de 223,62 km², se encuentra situado a una altitud de unos 45 m sobre el nivel del mar y a 28 kilómetros de la capital provincial, Huelva. El casco urbano dispone de un importante conjunto histórico-monumental en el que sobresale su recinto amurallado."
     },
     {
@@ -48,28 +48,28 @@
       "fuente": "EsquinaRetornable",
       "nombre": "THE BLUES BROTHERS",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. John Landis",
+      "descripcion": "Tardes de Musical · Dir. John Landis",
+      "descripcion_extendida": "Tardes de Musical · Dir. John Landis",
       "fecha_iso": "2026-05-23",
       "fecha_texto": "23 de mayo de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://esquinaretornable.cl/",
-      "descripcion_extendida": "The Blues Brothers es un número cómico musical creado por los humoristas estadounidenses John Belushi y Dan Aykroyd para el programa de televisión Saturday Night Live, en donde Belushi trabajó entre 1975 y 1979. Al principio, el grupo que les acompañaba era el del programa, pero reunieron una banda musical estable para su primer disco.",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/the-blues-brothers-poster.jpg",
+      "url": "https://www.passline.com/eventos/the-blues-brothers",
       "bio_artista": "The Blues Brothers es un número cómico musical creado por los humoristas estadounidenses John Belushi y Dan Aykroyd para el programa de televisión Saturday Night Live, en donde Belushi trabajó entre 1975 y 1979. Al principio, el grupo que les acompañaba era el del programa, pero reunieron una banda musical estable para su primer disco."
     },
     {
       "fuente": "EsquinaRetornable",
-      "nombre": "NGA HINARERE (LOS HIJOS) - 2025",
+      "nombre": "NGA HINARERE (LOS HIJOS)",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Leonardo Pakarati",
+      "descripcion": "Estreno Nacional · Dir. Leonardo Pakarati",
+      "descripcion_extendida": "Estreno Nacional · Dir. Leonardo Pakarati",
       "fecha_iso": "2026-05-23",
       "fecha_texto": "23 de mayo de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://esquinaretornable.cl/",
-      "descripcion_extendida": "",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/LOS-HIJOS-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/nga-hinarere-los-hijos-512919",
       "bio_artista": ""
     },
     {
@@ -84,7 +84,7 @@
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/54584887d4b7bf033da3cd0106c3b2a1fbf4d104.jpeg?1777483549&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/esteban-duch-nuevoh-shiste-musica-penalolen",
       "descripcion_extendida": "Esteban Duch - Nuevoh Shiste & Música Peñalolen",
-      "bio_artista": ""
+      "bio_artista": "Esteban Urdaneta, conocido artísticamente como Esteban Düch, es un comediante venezolano radicado en Chile desde hace más de una década. Alcanzó mayor exposición pública tras su presentación en el Festival de Viña del Mar 2026, donde obtuvo las Gaviotas de Plata y de Oro."
     },
     {
       "fuente": "PuntoTicket",
@@ -98,7 +98,7 @@
       "imagen_url": "https://static.ptocdn.net/images/eventos/ptt008_md.jpg",
       "url": "https://www.puntoticket.com/evento/los-jaivas-enjoy-antofagasta-jun-2026",
       "descripcion_extendida": "Compra tu entrada para Los Jaivas 2026 Gira 45 años alturas de Macchu Picchu, viernes 05 de junio 2026 20:30 hrs. en Enjoy Antofagasta - Antofagasta.",
-      "bio_artista": "Los Jaivas is a Chilean musical group who perform in folk, rock, psychedelic, and progressive rock styles formed in 1963 in Viña Del Mar, Chile. They are considered one of the most important and influential artists of all time in Latin America."
+      "bio_artista": "Los Jaivas es una banda chilena de rock oriunda de Viña del Mar, Valparaíso, y activa desde 1963. Es conocida por su inclusión de instrumentos y ritmos folclóricos latinoamericanos, especialmente andinos, en el rock psicodélico y progresivo. A menudo se les considera como la banda más importante e influyente de Chile y una de las más prestigiosas de Sudamérica."
     },
     {
       "fuente": "Ticketplus",
@@ -126,7 +126,7 @@
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/9486600089b0151c19ba82ab053abab83ece334c.jpeg?1773776577&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/la-sociedad-el-regreso-arica",
       "descripcion_extendida": "La Sociedad - El Regreso - Arica",
-      "bio_artista": "La Sociedad was a Mexican lucha libre, or professional wrestling stable, that worked for Lucha Libre AAA World Wide. The group was originally formed in the summer of 2010 with the merger of La Legión Extranjera, Los Perros del Mal, La Milicia and Los Maniacos."
+      "bio_artista": "La Sociedad es un dúo musical chileno, formado en la comuna de Ñuñoa, Santiago de Chile, en el año 1984. De gran éxito durante los años 90 en Chile y Latinoamérica, se disolvió por primera vez en 2001, se reunieron nuevamente en 2012, para un nuevo receso en 2016. En 2025 vuelven a juntarse para una gira de conciertos."
     },
     {
       "fuente": "Ticketplus",
@@ -210,7 +210,7 @@
       "imagen_url": "https://static.ptocdn.net/images/eventos/ptt008_md.jpg",
       "url": "https://www.puntoticket.com/evento/los-jaivas-teatro-antay-arica-jul-2026",
       "descripcion_extendida": "Compra tu entrada para Los Jaivas 2026 Gira 45 años alturas de Macchu Picchu, sábado 11 de julio 2026 20:00 hrs. en Hotel Antay de Arica - Arica.",
-      "bio_artista": "Los Jaivas is a Chilean musical group who perform in folk, rock, psychedelic, and progressive rock styles formed in 1963 in Viña Del Mar, Chile. They are considered one of the most important and influential artists of all time in Latin America."
+      "bio_artista": "Los Jaivas es una banda chilena de rock oriunda de Viña del Mar, Valparaíso, y activa desde 1963. Es conocida por su inclusión de instrumentos y ritmos folclóricos latinoamericanos, especialmente andinos, en el rock psicodélico y progresivo. A menudo se les considera como la banda más importante e influyente de Chile y una de las más prestigiosas de Sudamérica."
     },
     {
       "fuente": "Ticketplus",
@@ -223,8 +223,8 @@
       "ciudad": "Copiapó",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/70a2292f0559d1da74ffbcda8867156476897401.jpeg?1775163448&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/movimiento-original-copiapo-2026-08-14-23-00-00-0400",
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Movimiento Original es un grupo de hip hop chileno conformado en 2006 por Aerstame, Stailok y Semillah hasta 2007. En este mismo año se une DJ Acres y en el 2008 se une Mc Piri, el cual se separa del grupo en el año 2015.",
+      "bio_artista": "Movimiento Original es un grupo de hip hop chileno conformado en 2006 por Aerstame, Stailok y Semillah hasta 2007. En este mismo año se une DJ Acres y en el 2008 se une Mc Piri, el cual se separa del grupo en el año 2015."
     },
     {
       "fuente": "Ticketplus",
@@ -239,132 +239,6 @@
       "url": "https://ticketplus.cl/events/rata-blanca-rock-and-soccer-antofagasta-26-de-agosto",
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA 26 DE AGOSTO",
       "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "Home",
-      "venue": "Esquina Retornable",
-      "descripcion": "ESTRENO NACIONAL + CINE FORO POIROT, ÚLTIMO TESTIGO Un recorrido íntimo por la vida y obra de Luis Poirot, fotógrafo que durante seis décadas retrató",
-      "fecha_iso": "2027-03-10",
-      "fecha_texto": "10 de marzo de 2027",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://esquinaretornable.cl/",
-      "descripcion_extendida": "ESTRENO NACIONAL + CINE FORO POIROT, ÚLTIMO TESTIGO Un recorrido íntimo por la vida y obra de Luis Poirot, fotógrafo que durante seis décadas retrató",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA VIDA QUE VENDRÁ",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Karin Cuyul",
-      "fecha_iso": "2027-05-20",
-      "fecha_texto": "20 de mayo de 2027",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://esquinaretornable.cl/",
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "DELICATESSEN",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Jean-Pierre Jeunet, Marc Caro",
-      "fecha_iso": "2027-05-20",
-      "fecha_texto": "20 de mayo de 2027",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://esquinaretornable.cl/",
-      "descripcion_extendida": "Dir. Jean-Pierre Jeunet, Marc Caro",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "Estreno Nacional: ‘POIROT, ÚLTIMO TESTIGO’, fotografiar la memoria, revelar la historia.",
-      "venue": "Esquina Retornable",
-      "descripcion": "El nuevo documental del periodista y realizador español Francesc Relea",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/534315466_17961375182968008_687737352672839789_n-1-e1755647212502.jpg",
-      "url": "https://esquinaretornable.cl/estreno-nacional-poirot-ultimo-testigo-fotografiar-la-memoria-revelar-la-historia/",
-      "descripcion_extendida": "El nuevo documental del periodista y realizador español Francesc Relea",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "Sesiones Retornable: BARRIO MESTIZO en vivo + Presentación del mini-documental «Sesión Buenos Aires»",
-      "venue": "Esquina Retornable",
-      "descripcion": "Vuelven las Sesiones Retornable con BARRIO MESTIZO en vivo, el",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/barrio-mestizo_vertical.jpg",
-      "url": "https://esquinaretornable.cl/sesiones-retornable-barrio-mestizo-en-vivo-presentacion-del-mini-documental-sesion-buenos-aires/",
-      "descripcion_extendida": "Vuelven las Sesiones Retornable con BARRIO MESTIZO en vivo, el",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA VIDA QUE VENDRÁ: CONVERSACIÓN JUNTO AL CINEASTA STJEPAN OSTOIC",
-      "venue": "Esquina Retornable",
-      "descripcion": "Estreno Nacional del documental de MIRADOC, LA VIDA QUE VENDRÁ",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/EDIT-LVQV.jpg",
-      "url": "https://esquinaretornable.cl/la-vida-que-vendra-conversacion-junto-al-cineasta-stjepan-ostoic/",
-      "descripcion_extendida": "Estreno Nacional del documental de MIRADOC, LA VIDA QUE VENDRÁ",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "Estreno Nacional: ‘Después de la niebla’, la infancia como territorio incierto.",
-      "venue": "Esquina Retornable",
-      "descripcion": "Hay películas donde la infancia aparece como un espacio de",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/Stills-6.png",
-      "url": "https://esquinaretornable.cl/estreno-nacional-despues-de-la-niebla-la-infancia-como-territorio-incierto/",
-      "descripcion_extendida": "Hay películas donde la infancia aparece como un espacio de",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "MATAPANKI + CINE FORO JUNTO A SU DIRECTOR, DIEGO «MAPACHE» FUENTES",
-      "venue": "Esquina Retornable",
-      "descripcion": "Una de las películas más exitosas del último tiempo ha",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/matapanki.jpg",
-      "url": "https://esquinaretornable.cl/matapanki-cine-foro-junto-a-su-director-diego-mapache-fuentes/",
-      "descripcion_extendida": "Una de las películas más exitosas del último tiempo ha",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "FRANCIA HOY: RELATOS ENTRE LO ÍNTIMO Y LO SOCIAL",
-      "venue": "Esquina Retornable",
-      "descripcion": "El cine francés contemporáneo sigue encontrando en lo cotidiano una",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/francia-hoy_2-1.jpg",
-      "url": "https://esquinaretornable.cl/francia-hoy-relatos-entre-lo-intimo-y-lo-social/",
-      "descripcion_extendida": "El cine francés contemporáneo sigue encontrando en lo cotidiano una",
-      "bio_artista": ""
     }
   ]
 }
