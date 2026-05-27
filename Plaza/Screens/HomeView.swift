@@ -311,21 +311,8 @@ struct EventRowContent: View {
     let event: Event
 
     var body: some View {
-        HStack(alignment: .top, spacing: 0) {
-            CalendarBadge(date: event.date)
-
-            // Separador vertical
-            Rectangle()
-                .fill(Color.plHair)
-                .frame(width: 1, height: 28)
-                .padding(.horizontal, 10)
-                .padding(.top, 13)
-
-            Image(systemName: event.category.icon)
-                .font(.system(size: 22))
-                .foregroundStyle(Color.plAccent)
-                .frame(width: 54, height: 54)
-                .background(Color.plSurface, in: .rect(cornerRadius: 10))
+        HStack(alignment: .top, spacing: 14) {
+            CalendarBadge(date: event.date, icon: event.category.icon)
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(event.title)
@@ -349,7 +336,6 @@ struct EventRowContent: View {
                     PlTag(text: "+\(event.otherDates.count) fechas", color: .plAccent)
                 }
             }
-            .padding(.leading, 12)
             Spacer(minLength: 0)
         }
         .padding(.vertical, 14)
@@ -361,6 +347,7 @@ struct EventRowContent: View {
 
 private struct CalendarBadge: View {
     let date: Date
+    let icon: String
 
     private static let dayFmt: DateFormatter = {
         let f = DateFormatter()
@@ -377,6 +364,7 @@ private struct CalendarBadge: View {
 
     var body: some View {
         VStack(spacing: 0) {
+            // Franja de mes
             Text(Self.monthFmt.string(from: date).uppercased())
                 .font(.plMono(9))
                 .tracking(0.6)
@@ -385,17 +373,31 @@ private struct CalendarBadge: View {
                 .padding(.vertical, 4)
                 .background(Color.plAccent)
 
+            // Número de día
             Text(Self.dayFmt.string(from: date))
                 .font(.plDisplay(20))
                 .foregroundStyle(Color.plFg)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 6)
                 .background(Color.plSurface)
+
+            // Divisor interno
+            Rectangle()
+                .fill(Color.plHair)
+                .frame(height: 0.5)
+
+            // Ícono de categoría
+            Image(systemName: icon)
+                .font(.system(size: 16))
+                .foregroundStyle(Color.plAccent)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 8)
+                .background(Color.plSurface)
         }
-        .frame(width: 40)
-        .clipShape(.rect(cornerRadius: 8))
+        .frame(width: 44)
+        .clipShape(.rect(cornerRadius: 10))
         .overlay(
-            RoundedRectangle(cornerRadius: 8)
+            RoundedRectangle(cornerRadius: 10)
                 .strokeBorder(Color.plHair, lineWidth: 0.5)
         )
     }
