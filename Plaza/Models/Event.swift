@@ -75,7 +75,8 @@ struct Event: Identifiable, Hashable {
 // MARK: - Coordenadas
 
 extension Event {
-    static let defaultCoordinate = CLLocationCoordinate2D(latitude: -23.6509, longitude: -70.3975)
+    // Centro geográfico aproximado de Chile continental
+    static let defaultCoordinate = CLLocationCoordinate2D(latitude: -35.6751, longitude: -71.5430)
 }
 
 // MARK: - Conversión Evento → Event
@@ -240,7 +241,9 @@ struct EditedFields: Codable {
 
 extension Array where Element == Event {
     func byComune(_ key: String) -> [Event] {
-        let k = key.lowercased()
+        // "Chile" y "" son sentinelas de "mostrar todo"
+        let k = key.lowercased().trimmingCharacters(in: .whitespaces)
+        guard k != "chile", !k.isEmpty else { return self }
         let byCiudad = filter {
             $0.ciudad.lowercased().contains(k) || k.contains($0.ciudad.lowercased())
         }

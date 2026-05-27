@@ -1,14 +1,16 @@
 """
-scraper_eventos.py  v15
+scraper_eventos.py  v16
 ======================
-Extrae eventos culturales con imagen y descripción desde:
-  - Ticketplus.cl    (Regiones: Arica y Parinacota, Tarapacá, Antofagasta, Atacama)
-  - Ticketpro.cl     (filtrando comunas del norte)
-  - PuntoTicket.com  (página /todos, filtrando por ciudad en slug/texto)
-  - Ticketmaster.cl  (filtrando ciudades del norte via JSON-LD)
-  - Passline.com     (playwright — ciudad en URL o búsqueda)
+Extrae eventos culturales con imagen y descripción desde TODO Chile:
+  - Ticketplus.cl       (todas las regiones de Chile)
+  - Ticketpro.cl        (todo Chile — sin filtro de ciudad)
+  - PuntoTicket.com     (todo Chile — /todos + /evento/)
+  - Ticketmaster.cl     (filtra por texto en tarjeta; anti-bot)
+  - Passline.com        (playwright — ciudades principales)
   - ComediaTicket.cl    (playwright — todos los shows de humor)
   - EsquinaRetornable.cl (cine arte Antofagasta — WordPress)
+  - CulturaAntofagasta.cl (RSS WordPress — Corporación Municipal)
+  - CulturaIquique.cl   (RSS WordPress — Orquesta Regional Tarapacá)
 
 Requisitos:
     pip install requests beautifulsoup4
@@ -36,7 +38,7 @@ HEADERS = {
     )
 }
 
-# Términos de búsqueda (lowercase) — cubre todas las comunas desde Arica hasta Atacama
+# Términos de búsqueda (lowercase) — todas las comunas de Chile (usados para DETECCIÓN, no como filtro)
 CIUDADES_OBJETIVO = [
     # Arica y Parinacota
     "arica", "camarones", "putre", "general lagos",
@@ -51,10 +53,87 @@ CIUDADES_OBJETIVO = [
     "copiapó", "copiapo", "caldera", "tierra amarilla",
     "chañaral", "chanaral", "diego de almagro", "vallenar",
     "alto del carmen", "freirina", "huasco",
+    # Coquimbo
+    "la serena", "coquimbo", "andacollo", "la higuera", "ovalle",
+    "combarbalá", "combarbala", "monte patria", "punitaqui", "río hurtado",
+    "illapel", "canela", "los vilos", "salamanca",
+    # Valparaíso
+    "valparaíso", "valparaiso", "viña del mar", "vina del mar",
+    "quilpué", "quilpue", "villa alemana", "concón", "concon",
+    "quillota", "calera", "hijuelas", "la cruz", "nogales",
+    "san antonio", "cartagena", "el quisco", "el tabo", "algarrobo",
+    "los andes", "san esteban", "calle larga", "rinconada",
+    "san felipe", "putaendo", "santa maría", "panquehue", "llaillay",
+    "casablanca", "juan fernández", "isla de pascua",
+    # O'Higgins
+    "rancagua", "graneros", "mostazal", "codegua", "machalí",
+    "machali", "olivar", "requínoa", "rengo", "malloa", "quinta de tilcoco",
+    "san vicente", "pichidegua", "las cabras", "peumo", "pichilemu",
+    "litueche", "la estrella", "marchigüe", "marchigue", "navidad",
+    "santa cruz", "chimbarongo", "nancagua", "palmilla", "peralillo",
+    "placilla", "lolol", "pumanque", "san fernando", "chépica",
+    # Maule
+    "talca", "constitución", "constitucion", "curicó", "curico",
+    "linares", "molina", "san clemente", "pelarco", "maule",
+    "curepto", "sagrada familia", "teno", "romeral", "río claro",
+    "retiro", "colbún", "colbun", "longaví", "longavi", "parral",
+    "cauquenes", "pelluhue", "chanco", "vichuquén", "vichiquén",
+    "hualañé", "rauco", "licantén",
+    # Ñuble
+    "chillán", "chillan", "chillán viejo", "san carlos", "ñiquén",
+    "niquén", "san fabián", "san nicolás", "san nicolas", "bulnes",
+    "quillón", "quillon", "el carmen", "pemuco", "yungay", "pinto",
+    "coihueco", "san ignacio", "quinchamalí",
+    # Biobío
+    "concepción", "concepcion", "talcahuano", "penco", "hualqui",
+    "florida", "santa juana", "coronel", "lota", "arauco",
+    "lebu", "tirúa", "cañete", "contulmo", "curanilahue",
+    "los álamos", "los alamos", "los ángeles", "los angeles",
+    "santa bárbara", "quilaco", "mulchén", "mulchen", "nacimiento",
+    "negrete", "laja", "san rosendo", "yumbel", "cabrero", "tucapel",
+    "antuco", "chiguayante", "san pedro de la paz", "hualpén",
+    # Araucanía
+    "temuco", "padre las casas", "vilcún", "villarrica", "pucón",
+    "pucon", "curarrehue", "melipeuco", "cunco", "freire", "pitrufquén",
+    "gorbea", "loncoche", "villarrica", "nueva imperial", "teodoro schmidt",
+    "carahue", "saavedra", "toltén", "angol", "renaico", "collipulli",
+    "ercilla", "lumaco", "purén", "puren", "los sauces", "traiguén",
+    "traiguen",
+    # Los Ríos
+    "valdivia", "mariquina", "lanco", "máfil", "mafil", "corral",
+    "futrono", "lago ranco", "río bueno", "rio bueno", "la unión",
+    "panguipulli", "los lagos",
+    # Los Lagos
+    "puerto montt", "puerto varas", "llanquihue", "frutillar",
+    "los muermos", "maullín", "maullin", "calbuco", "cochamó",
+    "cochamo", "osorno", "san pablo", "puerto octay", "purranque",
+    "río negro", "rio negro", "san juan de la costa",
+    "ancud", "castro", "chonchi", "curaco de vélez", "dalcahue",
+    "puqueldón", "puqueldon", "queilén", "quellen", "quellón", "quellon",
+    "quemchi", "quinchao", "coyhaique", "palena", "futaleufú", "futaleufu",
+    "chaiten", "chaitén",
+    # Aysén
+    "coyhaique", "lago verde", "aysen", "aysén", "cisnes", "guaitecas",
+    "cochrane", "o'higgins", "tortel",
+    # Magallanes
+    "punta arenas", "puerto natales", "torres del paine",
+    "porvenir", "primavera", "timaukel", "cabo de hornos",
+    # Metropolitana
+    "santiago", "providencia", "las condes", "vitacura", "lo barnechea",
+    "la reina", "peñalolén", "macul", "san joaquín", "san miguel",
+    "pedro aguirre cerda", "lo espejo", "estación central", "cerrillos",
+    "maipú", "maipu", "pudahuel", "lo prado", "cerro navia", "quinta normal",
+    "renca", "conchalí", "conchal", "huechuraba", "recoleta", "independencia",
+    "ñuñoa", "nunoa", "san bernardo", "el bosque", "la granja", "la cisterna",
+    "el monte", "isla de maipo", "melipilla", "calera de tango", "colina",
+    "lampa", "tiltil", "puente alto", "pirque", "san josé de maipo",
+    "buin", "paine", "talagante", "padre hurtado", "peñaflor", "penarflor",
+    "alhué", "curacaví",
 ]
 
 # Nombre canónico por término de búsqueda (para normalizar la salida)
 NOMBRE_CIUDAD = {
+    # Norte Grande
     "arica": "Arica", "camarones": "Camarones", "putre": "Putre",
     "general lagos": "General Lagos",
     "iquique": "Iquique", "alto hospicio": "Alto Hospicio",
@@ -72,26 +151,79 @@ NOMBRE_CIUDAD = {
     "diego de almagro": "Diego de Almagro", "vallenar": "Vallenar",
     "alto del carmen": "Alto del Carmen", "freirina": "Freirina",
     "huasco": "Huasco",
+    # Coquimbo
+    "la serena": "La Serena", "coquimbo": "Coquimbo", "ovalle": "Ovalle",
+    "illapel": "Illapel", "los vilos": "Los Vilos",
+    # Valparaíso
+    "valparaíso": "Valparaíso", "valparaiso": "Valparaíso",
+    "viña del mar": "Viña del Mar", "vina del mar": "Viña del Mar",
+    "quilpué": "Quilpué", "quilpue": "Quilpué",
+    "villa alemana": "Villa Alemana", "concón": "Concón", "concon": "Concón",
+    "quillota": "Quillota", "san antonio": "San Antonio",
+    "los andes": "Los Andes", "san felipe": "San Felipe",
+    "isla de pascua": "Isla de Pascua",
+    # O'Higgins
+    "rancagua": "Rancagua", "san fernando": "San Fernando",
+    "pichilemu": "Pichilemu", "santa cruz": "Santa Cruz",
+    "curicó": "Curicó", "curico": "Curicó",
+    # Maule
+    "talca": "Talca", "linares": "Linares", "constitución": "Constitución",
+    "constitucion": "Constitución", "cauquenes": "Cauquenes",
+    # Ñuble
+    "chillán": "Chillán", "chillan": "Chillán",
+    # Biobío
+    "concepción": "Concepción", "concepcion": "Concepción",
+    "talcahuano": "Talcahuano", "coronel": "Coronel", "lota": "Lota",
+    "lebu": "Lebu", "los ángeles": "Los Ángeles", "los angeles": "Los Ángeles",
+    # Araucanía
+    "temuco": "Temuco", "villarrica": "Villarrica", "pucón": "Pucón",
+    "pucon": "Pucón", "angol": "Angol",
+    # Los Ríos
+    "valdivia": "Valdivia",
+    # Los Lagos
+    "puerto montt": "Puerto Montt", "puerto varas": "Puerto Varas",
+    "osorno": "Osorno", "frutillar": "Frutillar",
+    "ancud": "Ancud", "castro": "Castro",
+    # Aysén
+    "coyhaique": "Coyhaique", "cochrane": "Cochrane",
+    # Magallanes
+    "punta arenas": "Punta Arenas", "puerto natales": "Puerto Natales",
+    # Metropolitana
+    "santiago": "Santiago", "providencia": "Providencia",
+    "las condes": "Las Condes", "vitacura": "Vitacura",
+    "lo barnechea": "Lo Barnechea", "la reina": "La Reina",
+    "peñalolén": "Peñalolén", "ñuñoa": "Ñuñoa", "nunoa": "Ñuñoa",
+    "maipú": "Maipú", "maipu": "Maipú",
+    "san bernardo": "San Bernardo", "puente alto": "Puente Alto",
 }
 
 VENUES_CONOCIDOS = [
-    "teatro municipal de antofagasta",
-    "teatro municipal de calama",
+    # Antofagasta
+    "teatro municipal de antofagasta", "enjoy antofagasta",
+    "estadio regional antofagasta", "estadio sokol", "estadio sokol antofagasta",
+    "sala andamios", "esquina retornable",
+    # Iquique
     "teatro municipal de iquique",
-    "teatro municipal",
-    "rock and soccer",
-    "centro cultural estación",
-    "sala andamios",
-    "enjoy antofagasta",
-    "estadio regional",
-    "club hípico",
-    "gimnasio olímpico",
+    # Calama
+    "teatro municipal de calama",
+    # Santiago
+    "teatro municipal de santiago", "teatro caupolicán", "caupolican",
+    "movistar arena", "estadio nacional", "club chocolate",
+    "anfiteatro cerrillos", "teatro la cúpula", "teatro mori",
+    "teatro nescafé de las artes", "teatro oriente",
+    # Valparaíso / Viña
+    "enjoy viña del mar", "casino viña del mar",
+    "teatro municipal de viña del mar",
+    # Genérico
+    "teatro municipal", "rock and soccer",
+    "centro cultural estación", "club hípico", "gimnasio olímpico",
 ]
 
 OUTPUT_FILE = "eventos.json"
 PAUSA = 0.8
+MAX_POR_REGION = 40   # Límite de eventos a detallar por región en Ticketplus
 
-NOMBRES_TICKETERA = {"ticketplus", "ticketpro", "puntoticket", "ticketmaster", "passline", "comediaticket"}
+NOMBRES_TICKETERA = {"ticketplus", "ticketpro", "puntoticket", "ticketmaster", "passline", "comediaticket", "culturaantofagasta", "culturaiquique"}
 
 MESES_ES = {
     "ene": 1, "enero": 1,
@@ -203,7 +335,7 @@ def nombre_desde_slug(url):
 def limpiar_nombre(nombre_crudo, venue="", ciudad=""):
     nombre = nombre_crudo
     nombre = re.sub(PREFIJOS_TICKETERA, "", nombre, flags=re.IGNORECASE)
-    nombre = re.sub(r"^Entradas para\s+", "", nombre, flags=re.IGNORECASE)
+    nombre = re.sub(r"^Entradas\s+(?:para\s+)?", "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(SUFIJOS_TICKETERA, "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(r"Desde:?\s*CLP\s*[\d\.]+\s*CLP?", "", nombre, flags=re.IGNORECASE)
     nombre = re.sub(r"Desde:?\s*\$?\s*[\d\.]+", "", nombre, flags=re.IGNORECASE)
@@ -316,10 +448,22 @@ def scrape_ticketplus():
     print("\n🔍 Ticketplus.cl ...")
 
     REGIONES = [
-        ("region-de-arica-y-parinacota", "Arica"),
-        ("region-de-tarapaca",            "Iquique"),
-        ("region-de-antofagasta",         "Antofagasta"),
-        ("region-de-atacama",             "Copiapó"),
+        ("region-metropolitana",                                        "Santiago"),
+        ("region-de-arica-y-parinacota",                                "Arica"),
+        ("region-de-tarapaca",                                          "Iquique"),
+        ("region-de-antofagasta",                                       "Antofagasta"),
+        ("region-de-atacama",                                           "Copiapó"),
+        ("region-de-coquimbo",                                          "La Serena"),
+        ("region-de-valparaiso",                                        "Valparaíso"),
+        ("region-del-libertador-general-bernardo-o-higgins",            "Rancagua"),
+        ("region-del-maule",                                            "Talca"),
+        ("region-de-nuble",                                             "Chillán"),
+        ("region-del-bio-bio",                                          "Concepción"),
+        ("region-de-la-araucania",                                      "Temuco"),
+        ("region-de-los-rios",                                          "Valdivia"),
+        ("region-de-los-lagos",                                         "Puerto Montt"),
+        ("region-de-aysen",                                             "Coyhaique"),
+        ("region-de-magallanes-y-de-la-antartica-chilena",              "Punta Arenas"),
     ]
 
     base = []
@@ -331,8 +475,11 @@ def scrape_ticketplus():
             continue
 
         soup = BeautifulSoup(r.text, "html.parser")
+        region_count = 0
 
         for a in soup.find_all("a", href=re.compile(r"/events/")):
+            if region_count >= MAX_POR_REGION:
+                break
             href = a.get("href", "")
             evento_url = f"https://ticketplus.cl{href}" if href.startswith("/") else href
             if evento_url in vistos:
@@ -345,6 +492,7 @@ def scrape_ticketplus():
 
             precio_match = re.search(r"CLP\s*([\d\.]+)", texto)
             precio = precio_match.group(1) if precio_match else ""
+            region_count += 1
 
             base.append({
                 "texto_crudo": texto,
@@ -403,7 +551,7 @@ def scrape_ticketpro():
     for a in soup.find_all("a", href=re.compile(r"/evento/")):
         texto = limpiar(a.get_text(" "))
         href = a.get("href", "")
-        if not texto or len(texto) < 5 or not es_ciudad_objetivo(texto):
+        if not texto or len(texto) < 5:
             continue
 
         evento_url = f"https://www.ticketpro.cl{href}" if href.startswith("/") else href
@@ -458,8 +606,8 @@ def scrape_ticketpro():
 
 def scrape_puntoticket():
     """
-    PuntoTicket cambió su estructura: ya no usa /ciudad/antofagasta.
-    Ahora se usa /todos y se filtra por ciudad en el slug o el texto del evento.
+    PuntoTicket — scrapea /todos sin filtro de ciudad (todo Chile).
+    Los eventos viven en /evento/[slug]. Se excluyen solo páginas de nav/sistema.
     """
     print("\n🔍 PuntoTicket.com ...")
     r = get("https://www.puntoticket.com/todos")
@@ -470,11 +618,14 @@ def scrape_puntoticket():
     base = []
     vistos = set()
 
-    for a in soup.find_all("a", href=True):
+    # Páginas de sistema que no son eventos
+    excluir = ["musica", "deportes", "teatro", "familia", "especiales",
+               "todos", "Account", "Cliente", "paginas", "#"]
+
+    for a in soup.find_all("a", href=re.compile(r"/evento/")):
         href = a.get("href", "")
         texto = limpiar(a.get_text(" "))
 
-        # Normalizar URL
         if href.startswith("/"):
             evento_url = f"https://www.puntoticket.com{href}"
         elif href.startswith("https://www.puntoticket.com"):
@@ -482,36 +633,14 @@ def scrape_puntoticket():
         else:
             continue
 
-        # Excluir páginas de categoría, cuenta y rutas de nav
-        excluir = ["musica", "deportes", "teatro", "familia", "especiales",
-                   "todos", "Account", "Cliente", "paginas", "#", "evento/"]
         if any(x in href for x in excluir):
             continue
-
-        if len(href) <= 3 or len(texto) < 4:
+        if len(texto) < 4:
             continue
-
-        # Filtrar por ciudad: slug o texto deben mencionar ciudad objetivo
-        if not es_ciudad_objetivo(href) and not es_ciudad_objetivo(texto):
-            continue
-
         if evento_url in vistos:
             continue
         vistos.add(evento_url)
 
-        ciudad = detectar_ciudad(href) or detectar_ciudad(texto) or ""
-        base.append({"texto_crudo": texto, "ciudad": ciudad, "url": evento_url})
-
-    # También buscar en /evento/[slug] con ciudad en el slug
-    for a in soup.find_all("a", href=re.compile(r"/evento/")):
-        href = a.get("href", "")
-        texto = limpiar(a.get_text(" "))
-        evento_url = f"https://www.puntoticket.com{href}" if href.startswith("/") else href
-        if evento_url in vistos:
-            continue
-        if not es_ciudad_objetivo(href) and not es_ciudad_objetivo(texto):
-            continue
-        vistos.add(evento_url)
         ciudad = detectar_ciudad(href) or detectar_ciudad(texto) or ""
         base.append({"texto_crudo": texto, "ciudad": ciudad, "url": evento_url})
 
@@ -554,16 +683,17 @@ def scrape_puntoticket():
 def scrape_ticketmaster():
     """
     Ticketmaster Chile se concentra en Santiago.
-    Se valida la ciudad usando JSON-LD (schema.org) en la página del evento,
-    que es más fiable que buscar texto libre en la descripción.
+    NOTA: /buscar?q=... devuelve lista genérica (anti-bot), no filtra por ciudad.
+    Se hace una búsqueda general desde la home y se incluyen todos los eventos,
+    usando JSON-LD para detectar ciudad. Los eventos sin ciudad detectable quedan
+    etiquetados con "Chile" y son visibles sin filtro de ciudad en la app.
     """
     print("\n🔍 Ticketmaster.cl ...")
     base = []
     vistos = set()
 
-    for ciudad in ["arica", "iquique", "alto hospicio", "antofagasta", "calama",
-                   "tocopilla", "taltal", "copiapo", "vallenar", "diego de almagro"]:
-        url = f"https://www.ticketmaster.cl/buscar?q={ciudad}"
+    # Scrape la página principal + búsqueda genérica (devuelve lo mismo)
+    for url in ["https://www.ticketmaster.cl/", "https://www.ticketmaster.cl/buscar?q="]:
         r = get(url)
         if not r:
             continue
@@ -582,9 +712,11 @@ def scrape_ticketmaster():
 
             if evento_url in vistos:
                 continue
-            vistos.add(evento_url)
+
             texto = limpiar(a.get_text(" "))
-            base.append({"texto_crudo": texto, "ciudad_busqueda": ciudad.capitalize(), "url": evento_url})
+            vistos.add(evento_url)
+            ciudad_det = detectar_ciudad(texto) or ""
+            base.append({"texto_crudo": texto, "ciudad_busqueda": ciudad_det, "url": evento_url})
         time.sleep(PAUSA)
 
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
@@ -596,11 +728,9 @@ def scrape_ticketmaster():
             continue
         soup = BeautifulSoup(r.text, "html.parser")
 
-        # Intentar JSON-LD primero para ciudad exacta
         ciudad_jsonld = extraer_ciudad_jsonld(soup)
         todo_texto = f"{ciudad_jsonld} {b['texto_crudo']}".lower()
 
-        # También leer og: tags
         og_title, imagen, desc, fecha_iso, fecha_texto, venue = "", "", "", "", "", ""
         tag = soup.find("meta", property="og:title")
         if tag and tag.get("content"):
@@ -619,13 +749,10 @@ def scrape_ticketmaster():
 
         todo_texto += f" {og_title} {desc} {venue}".lower()
 
-        if not es_ciudad_objetivo(todo_texto):
-            continue
-
         nombre_base = og_title or desc or b["texto_crudo"]
         if not venue:
             venue = detectar_venue(todo_texto)
-        ciudad = detectar_ciudad(ciudad_jsonld) or detectar_ciudad(todo_texto) or b["ciudad_busqueda"]
+        ciudad = detectar_ciudad(ciudad_jsonld) or detectar_ciudad(todo_texto) or b["ciudad_busqueda"] or "Chile"
 
         nombre = limpiar_nombre(nombre_base, venue=venue, ciudad=ciudad)
 
@@ -662,14 +789,21 @@ def scrape_passline():
         print("       Ejecuta: pip install playwright && python3 -m playwright install chromium")
         return []
 
-    # Posibles URL patterns de ciudad en Passline
+    # URL patterns de ciudad en Passline — todas las ciudades principales de Chile
     urls_ciudad = [
-        ("Arica",       "https://www.passline.com/ciudad/arica"),
-        ("Iquique",     "https://www.passline.com/ciudad/iquique"),
-        ("Antofagasta", "https://www.passline.com/ciudad/antofagasta"),
-        ("Calama",      "https://www.passline.com/ciudad/calama"),
-        ("Copiapó",     "https://www.passline.com/ciudad/copiapo"),
-        ("Chile",       "https://www.passline.com/"),  # fallback: página principal
+        ("Santiago",      "https://www.passline.com/ciudad/santiago"),
+        ("Valparaíso",    "https://www.passline.com/ciudad/valparaiso"),
+        ("Viña del Mar",  "https://www.passline.com/ciudad/vina-del-mar"),
+        ("Concepción",    "https://www.passline.com/ciudad/concepcion"),
+        ("La Serena",     "https://www.passline.com/ciudad/la-serena"),
+        ("Antofagasta",   "https://www.passline.com/ciudad/antofagasta"),
+        ("Arica",         "https://www.passline.com/ciudad/arica"),
+        ("Iquique",       "https://www.passline.com/ciudad/iquique"),
+        ("Temuco",        "https://www.passline.com/ciudad/temuco"),
+        ("Puerto Montt",  "https://www.passline.com/ciudad/puerto-montt"),
+        ("Calama",        "https://www.passline.com/ciudad/calama"),
+        ("Copiapó",       "https://www.passline.com/ciudad/copiapo"),
+        ("Chile",         "https://www.passline.com/"),  # fallback: página principal
     ]
 
     base = []
@@ -850,6 +984,9 @@ def scrape_comediaticket():
             venue = detectar_venue(todo_texto)
         ciudad = detectar_ciudad(todo_texto) or "Chile"
 
+        # Fecha: og:description, og:title, luego texto del card
+        if not fecha_iso:
+            fecha_iso, fecha_texto = extraer_fecha_de_texto(og_title)
         if not fecha_iso:
             fecha_iso, fecha_texto = extraer_fecha_de_texto(b["texto_crudo"])
 
@@ -1027,6 +1164,178 @@ def scrape_esquinaretornable():
     return eventos
 
 
+# ── Scraper 8: CulturaAntofagasta RSS ───────────────────────────────────────
+
+def scrape_cultura_antofagasta():
+    """
+    Corporación Municipal de Cultura de Antofagasta — feed RSS WordPress.
+    Cada ítem es una noticia/evento; se filtra por fecha en el texto.
+    """
+    print("\n🔍 CulturaAntofagasta.cl (RSS) ...")
+    FEED = "https://culturaantofagasta.cl/feed/"
+    CIUDAD = "Antofagasta"
+
+    r = get(FEED)
+    if not r:
+        return []
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    items = soup.find_all("item")
+    print(f"  → {len(items)} ítems en feed")
+
+    eventos = []
+    ahora = datetime.now().date()
+
+    for item in items:
+        title_tag = item.find("title")
+        link_tag  = item.find("link")
+        desc_tag  = item.find("description")
+
+        if not title_tag or not link_tag:
+            continue
+
+        nombre_raw = limpiar(title_tag.get_text())
+        url        = (link_tag.next_sibling or "").strip()
+        if not url:
+            url = link_tag.get_text(strip=True)
+
+        desc_html  = desc_tag.get_text(" ", strip=True) if desc_tag else ""
+        desc_clean = limpiar(re.sub(r"<[^>]+>", " ", desc_html))
+
+        # Extraer fecha del título o descripción
+        fecha_iso, fecha_texto = extraer_fecha_de_texto(nombre_raw)
+        if not fecha_iso:
+            fecha_iso, fecha_texto = extraer_fecha_de_texto(desc_clean)
+
+        # Si no hay fecha o ya pasó → saltar
+        if fecha_iso:
+            try:
+                if datetime.strptime(fecha_iso, "%Y-%m-%d").date() < ahora:
+                    continue
+            except ValueError:
+                pass
+
+        # Imagen: og:image desde la URL del post (solo si hay fecha — vale la pena)
+        imagen = ""
+        if fecha_iso and url:
+            r2 = get(url)
+            if r2:
+                s2 = BeautifulSoup(r2.text, "html.parser")
+                tag = s2.find("meta", property="og:image")
+                if tag and tag.get("content"):
+                    imagen = tag["content"].strip()
+                # Refinar descripción con og:description si disponible
+                tag2 = s2.find("meta", property="og:description")
+                if tag2 and tag2.get("content"):
+                    desc_clean = limpiar(tag2["content"])
+            time.sleep(PAUSA)
+
+        nombre = limpiar_nombre(nombre_raw, ciudad=CIUDAD)
+        if not nombre:
+            continue
+
+        eventos.append({
+            "fuente":           "CulturaAntofagasta",
+            "nombre":           nombre,
+            "venue":            "Corporación Municipal de Cultura",
+            "descripcion":      desc_clean[:300],
+            "fecha_iso":        fecha_iso,
+            "fecha_texto":      fecha_texto,
+            "precio_desde_clp": "",
+            "ciudad":           CIUDAD,
+            "imagen_url":       imagen,
+            "url":              url,
+        })
+
+    print(f"  ✅ {len(eventos)} eventos")
+    return eventos
+
+
+# ── Scraper 9: CulturaIquique RSS ───────────────────────────────────────────
+
+def scrape_cultura_iquique():
+    """
+    Corporación Cultural Municipal de Iquique — feed RSS WordPress.
+    Contiene principalmente conciertos de la Orquesta Regional de Tarapacá.
+    """
+    print("\n🔍 CulturaIquique.cl (RSS) ...")
+    FEED   = "https://culturaiquique.cl/feed/"
+    CIUDAD = "Iquique"
+
+    r = get(FEED)
+    if not r:
+        return []
+
+    soup = BeautifulSoup(r.text, "html.parser")
+    items = soup.find_all("item")
+    print(f"  → {len(items)} ítems en feed")
+
+    eventos = []
+    ahora = datetime.now().date()
+
+    for item in items:
+        title_tag = item.find("title")
+        link_tag  = item.find("link")
+        desc_tag  = item.find("description")
+
+        if not title_tag or not link_tag:
+            continue
+
+        nombre_raw = limpiar(title_tag.get_text())
+        url        = (link_tag.next_sibling or "").strip()
+        if not url:
+            url = link_tag.get_text(strip=True)
+
+        desc_html  = desc_tag.get_text(" ", strip=True) if desc_tag else ""
+        desc_clean = limpiar(re.sub(r"<[^>]+>", " ", desc_html))
+
+        # Extraer fecha del título ("29 de mayo: Concierto de Temporada")
+        fecha_iso, fecha_texto = extraer_fecha_de_texto(nombre_raw)
+        if not fecha_iso:
+            fecha_iso, fecha_texto = extraer_fecha_de_texto(desc_clean)
+
+        if fecha_iso:
+            try:
+                if datetime.strptime(fecha_iso, "%Y-%m-%d").date() < ahora:
+                    continue
+            except ValueError:
+                pass
+
+        # Imagen desde og:image del post
+        imagen = ""
+        if url:
+            r2 = get(url)
+            if r2:
+                s2 = BeautifulSoup(r2.text, "html.parser")
+                tag = s2.find("meta", property="og:image")
+                if tag and tag.get("content"):
+                    imagen = tag["content"].strip()
+                tag2 = s2.find("meta", property="og:description")
+                if tag2 and tag2.get("content"):
+                    desc_clean = limpiar(tag2["content"])
+            time.sleep(PAUSA)
+
+        nombre = limpiar_nombre(nombre_raw, ciudad=CIUDAD)
+        if not nombre:
+            continue
+
+        eventos.append({
+            "fuente":           "CulturaIquique",
+            "nombre":           nombre,
+            "venue":            "Corporación Cultural Municipal de Iquique",
+            "descripcion":      desc_clean[:300],
+            "fecha_iso":        fecha_iso,
+            "fecha_texto":      fecha_texto,
+            "precio_desde_clp": "",
+            "ciudad":           CIUDAD,
+            "imagen_url":       imagen,
+            "url":              url,
+        })
+
+    print(f"  ✅ {len(eventos)} eventos")
+    return eventos
+
+
 # ── Enriquecimiento: Wikipedia + DuckDuckGo ─────────────────────────────────
 
 def _safe_json(r):
@@ -1132,7 +1441,7 @@ def enriquecer_evento(evento):
 
 def main():
     print("=" * 55)
-    print("  Scraper de eventos — Norte de Chile  v15")
+    print("  Scraper de eventos — Todo Chile  v16")
     print("=" * 55)
 
     todos = []
@@ -1143,6 +1452,8 @@ def main():
     todos += scrape_passline()
     todos += scrape_comediaticket()
     todos += scrape_esquinaretornable()
+    todos += scrape_cultura_antofagasta()
+    todos += scrape_cultura_iquique()
 
     todos.sort(key=lambda e: e["fecha_iso"] if e["fecha_iso"] else "9999")
 

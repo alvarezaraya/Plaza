@@ -137,7 +137,12 @@ struct HomeView: View {
         ("Sin límite", 0), ("100 km", 100), ("200 km", 200), ("300 km", 300),
     ]
 
-    private static let mainCities = ["Arica", "Iquique", "Antofagasta", "Calama", "Copiapó"]
+    private static let mainCities = [
+        "Santiago", "Valparaíso", "Viña del Mar",
+        "Concepción", "Temuco", "Antofagasta",
+        "La Serena", "Iquique", "Arica",
+        "Puerto Montt", "Calama", "Copiapó",
+    ]
 
     private var headerBlock: some View {
         HStack(spacing: 10) {
@@ -148,6 +153,15 @@ struct HomeView: View {
                         comunaManager.resetearAAutoDeteccion()
                     } label: {
                         Label("Detectar automáticamente", systemImage: "location.circle")
+                    }
+                    Button {
+                        comunaManager.seleccionar("Chile")
+                    } label: {
+                        if comunaManager.selectedComuna == "Chile" {
+                            Label("Todo Chile", systemImage: "checkmark")
+                        } else {
+                            Label("Todo Chile", systemImage: "flag.fill")
+                        }
                     }
                     Divider()
                     ForEach(Self.mainCities, id: \.self) { city in
@@ -581,6 +595,13 @@ struct ComunaPickerView: View {
                         dismiss()
                     } label: {
                         Label("Detectar automáticamente", systemImage: "location.circle")
+                            .foregroundStyle(Color.plAccent)
+                    }
+                    Button {
+                        comunaManager.seleccionar("Chile")
+                        dismiss()
+                    } label: {
+                        Label("Todo Chile", systemImage: "flag.fill")
                             .foregroundStyle(Color.plAccent)
                     }
                 }

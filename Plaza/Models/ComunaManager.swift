@@ -1,5 +1,5 @@
 // ComunaManager.swift
-// Gestiona la comuna seleccionada por el usuario: auto-detección por GPS y lista de comunas del norte de Chile.
+// Gestiona la comuna seleccionada por el usuario: auto-detección por GPS y lista de comunas de Chile.
 
 import Foundation
 import MapKit
@@ -34,6 +34,96 @@ final class ComunaManager {
             "Chañaral", "Diego de Almagro",
             "Vallenar", "Alto del Carmen", "Freirina", "Huasco",
         ]),
+        RegionData(id: "Coquimbo", comunas: [
+            "La Serena", "Coquimbo", "Andacollo", "La Higuera",
+            "Ovalle", "Combarbalá", "Monte Patria", "Punitaqui", "Río Hurtado",
+            "Illapel", "Canela", "Los Vilos", "Salamanca",
+        ]),
+        RegionData(id: "Valparaíso", comunas: [
+            "Valparaíso", "Viña del Mar", "Quilpué", "Villa Alemana",
+            "Concón", "Quillota", "Calera", "Hijuelas", "La Cruz", "Nogales",
+            "San Antonio", "Cartagena", "El Quisco", "El Tabo", "Algarrobo",
+            "Los Andes", "San Esteban", "Calle Larga", "Rinconada",
+            "San Felipe", "Putaendo", "Santa María", "Panquehue", "Llaillay",
+            "Casablanca", "Juan Fernández", "Isla de Pascua",
+        ]),
+        RegionData(id: "Metropolitana", comunas: [
+            "Santiago", "Cerrillos", "Cerro Navia", "Conchalí", "El Bosque",
+            "Estación Central", "Huechuraba", "Independencia", "La Cisterna",
+            "La Florida", "La Granja", "La Pintana", "La Reina", "Las Condes",
+            "Lo Barnechea", "Lo Espejo", "Lo Prado", "Macul", "Maipú",
+            "Ñuñoa", "Pedro Aguirre Cerda", "Peñalolén", "Providencia",
+            "Pudahuel", "Quilicura", "Quinta Normal", "Recoleta", "Renca",
+            "San Joaquín", "San Miguel", "San Ramón", "Vitacura",
+            "Puente Alto", "Pirque", "San José de Maipo",
+            "Colina", "Lampa", "Tiltil",
+            "San Bernardo", "Buin", "Calera de Tango", "Paine",
+            "El Monte", "Isla de Maipo", "Melipilla", "Padre Hurtado",
+            "Peñaflor", "Talagante", "Alhué", "Curacaví",
+        ]),
+        RegionData(id: "O'Higgins", comunas: [
+            "Rancagua", "Graneros", "Mostazal", "Codegua", "Machalí",
+            "Olivar", "Requínoa", "Rengo", "Malloa", "Quinta de Tilcoco",
+            "San Vicente", "Pichidegua", "Las Cabras", "Peumo",
+            "Pichilemu", "Litueche", "La Estrella", "Marchigüe", "Navidad",
+            "Santa Cruz", "Chimbarongo", "Nancagua", "Palmilla", "Peralillo",
+            "Placilla", "Lolol", "Pumanque", "San Fernando", "Chépica",
+        ]),
+        RegionData(id: "Maule", comunas: [
+            "Talca", "Constitución", "Curicó", "Linares",
+            "Molina", "San Clemente", "Pelarco", "Maule",
+            "Curepto", "Sagrada Familia", "Teno", "Romeral", "Río Claro",
+            "Retiro", "Colbún", "Longaví", "Parral", "Cauquenes",
+            "Pelluhue", "Chanco", "Vichuquén", "Hualañé", "Rauco", "Licantén",
+        ]),
+        RegionData(id: "Ñuble", comunas: [
+            "Chillán", "Chillán Viejo", "San Carlos", "Ñiquén",
+            "San Fabián", "San Nicolás", "Bulnes", "Quillón",
+            "El Carmen", "Pemuco", "Yungay", "Pinto",
+            "Coihueco", "San Ignacio",
+        ]),
+        RegionData(id: "Biobío", comunas: [
+            "Concepción", "Talcahuano", "Penco", "Hualqui",
+            "Florida", "Santa Juana", "Coronel", "Lota",
+            "Arauco", "Lebu", "Tirúa", "Cañete", "Contulmo", "Curanilahue",
+            "Los Álamos", "Los Ángeles", "Santa Bárbara", "Quilaco",
+            "Mulchén", "Nacimiento", "Negrete", "Laja", "San Rosendo",
+            "Yumbel", "Cabrero", "Tucapel", "Antuco",
+            "Chiguayante", "San Pedro de la Paz", "Hualpén",
+        ]),
+        RegionData(id: "Araucanía", comunas: [
+            "Temuco", "Padre Las Casas", "Vilcún", "Cunco",
+            "Freire", "Pitrufquén", "Gorbea", "Loncoche",
+            "Nueva Imperial", "Teodoro Schmidt", "Carahue",
+            "Saavedra", "Toltén",
+            "Villarrica", "Pucón", "Curarrehue", "Melipeuco",
+            "Angol", "Renaico", "Collipulli", "Ercilla",
+            "Lumaco", "Purén", "Los Sauces", "Traiguén",
+        ]),
+        RegionData(id: "Los Ríos", comunas: [
+            "Valdivia", "Mariquina", "Lanco", "Máfil", "Corral",
+            "Futrono", "Lago Ranco", "Río Bueno", "La Unión",
+            "Panguipulli", "Los Lagos",
+        ]),
+        RegionData(id: "Los Lagos", comunas: [
+            "Puerto Montt", "Puerto Varas", "Llanquihue", "Frutillar",
+            "Los Muermos", "Maullín", "Calbuco", "Cochamó",
+            "Osorno", "San Pablo", "Puerto Octay", "Purranque",
+            "Río Negro", "San Juan de la Costa",
+            "Ancud", "Castro", "Chonchi", "Curaco de Vélez", "Dalcahue",
+            "Puqueldón", "Queilén", "Quellón", "Quemchi", "Quinchao",
+            "Palena", "Futaleufú", "Chaitén",
+        ]),
+        RegionData(id: "Aysén", comunas: [
+            "Coyhaique", "Lago Verde", "Aysén", "Cisnes", "Guaitecas",
+            "Cochrane", "O'Higgins", "Tortel",
+        ]),
+        RegionData(id: "Magallanes", comunas: [
+            "Punta Arenas", "Laguna Blanca", "Río Verde", "San Gregorio",
+            "Puerto Natales", "Torres del Paine",
+            "Porvenir", "Primavera", "Timaukel",
+            "Cabo de Hornos",
+        ]),
     ]
 
     static var todasLasComunas: [String] {
@@ -49,27 +139,25 @@ final class ComunaManager {
     private static let storageKey = "plaza_selected_comuna"
 
     init() {
-        // Muestra la última comuna detectada mientras el GPS carga, pero no bloquea la auto-detección
-        selectedComuna = UserDefaults.standard.string(forKey: Self.storageKey) ?? "Antofagasta"
+        selectedComuna = UserDefaults.standard.string(forKey: Self.storageKey) ?? "Chile"
     }
 
     // MARK: - Selección manual
 
     func seleccionar(_ comuna: String) {
         selectedComuna     = comuna
-        hasManualSelection = true  // Pausa auto-detección durante esta sesión
+        hasManualSelection = true
         UserDefaults.standard.set(comuna, forKey: Self.storageKey)
     }
 
     func resetearAAutoDeteccion() {
         hasManualSelection = false
         UserDefaults.standard.removeObject(forKey: Self.storageKey)
+        selectedComuna = "Chile"
     }
 
     // MARK: - Auto-detección
 
-    /// Intenta detectar la comuna del usuario a partir de su ubicación GPS.
-    /// Solo actúa si no hay selección manual previa.
     func autoDetectar(desde location: CLLocation) {
         guard !hasManualSelection, !isDetecting else { return }
         isDetecting = true

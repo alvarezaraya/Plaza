@@ -53,8 +53,10 @@ class EventoService {
     private let jsonURL = URL(string:
         "https://raw.githubusercontent.com/alvarezaraya/plaza/main/eventos.json"
     )!
-    private let editsKey = "plaza_edited_events"
-    private let savedKey = "plaza_saved_events"
+    private let editsKey  = "plaza_edited_events"
+    private let savedKey  = "plaza_saved_events"
+    private let etagKey   = "plaza_etag"
+    private let cachedKey = "plaza_cached_json"
 
     var events: [Event] = []
     var cargando = false
@@ -103,7 +105,7 @@ class EventoService {
 
         Task {
             do {
-                let (data, _) = try await URLSession.shared.data(from: jsonURL)
+                let data = try await fetchWithETag()
                 let r = try JSONDecoder().decode(RespuestaJSON.self, from: data)
                 var processed = Self.processEvents(r.eventos)
                 applyEdits(to: &processed)
@@ -111,10 +113,41 @@ class EventoService {
                 Task { await geocodeEvents() }
                 Task { await reclassifyWithAI() }
             } catch {
-                self.error = "Sin conexión: \(error.localizedDescription)"
+                // Si hay datos cacheados, mostrarlos en lugar de un error en blanco
+                if let cached = UserDefaults.standard.data(forKey: cachedKey),
+                   let r = try? JSONDecoder().decode(RespuestaJSON.self, from: cached) {
+                    var processed = Self.processEvents(r.eventos)
+                    applyEdits(to: &processed)
+                    events = processed
+                    self.error = "Sin conexión — mostrando datos guardados"
+                } else {
+                    self.error = "Sin conexión: \(error.localizedDescription)"
+                }
             }
             cargando = false
         }
+    }
+
+    // Descarga con soporte ETag para evitar re-descargar si no hubo cambios.
+    private func fetchWithETag() async throws -> Data {
+        var request = URLRequest(url: jsonURL, cachePolicy: .reloadIgnoringLocalCacheData)
+        if let storedETag = UserDefaults.standard.string(forKey: etagKey) {
+            request.setValue(storedETag, forHTTPHeaderField: "If-None-Match")
+        }
+
+        let (data, response) = try await URLSession.shared.data(for: request)
+        let http = response as? HTTPURLResponse
+
+        if http?.statusCode == 304,
+           let cached = UserDefaults.standard.data(forKey: cachedKey) {
+            return cached
+        }
+
+        if let etag = http?.value(forHTTPHeaderField: "ETag") {
+            UserDefaults.standard.set(etag, forKey: etagKey)
+        }
+        UserDefaults.standard.set(data, forKey: cachedKey)
+        return data
     }
 
     func updateEvent(_ updated: Event) {
