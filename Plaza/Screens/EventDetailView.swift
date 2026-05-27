@@ -162,6 +162,18 @@ struct EventDetailView: View {
                     .aspectRatio(16/9, contentMode: .fit)
                     .frame(maxWidth: .infinity)
                     .clipShape(.rect(cornerRadius: PlSpace.cardRadius))
+                    .overlay(alignment: .bottomTrailing) {
+                        Label("Abrir en Mapas", systemImage: "arrow.triangle.turn.up.right.circle.fill")
+                            .font(.plSans(12, weight: .medium))
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 6)
+                            .background(.ultraThinMaterial, in: .capsule)
+                            .padding(10)
+                            .allowsHitTesting(false)
+                    }
+                    .contentShape(Rectangle())
+                    .onTapGesture { openInMaps() }
                     .padding(.horizontal, PlSpace.gutter)
                     .padding(.top, PlSpace.gutter)
                     .padding(.bottom, PlSpace.gutter)
@@ -216,6 +228,13 @@ struct EventDetailView: View {
             PlTag(text: label)
             Text(value).font(.plSans(16, weight: .medium))
         }
+    }
+
+    private func openInMaps() {
+        let placemark = MKPlacemark(coordinate: liveCoordinate)
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = "\(event.venue), \(event.ciudad)"
+        mapItem.openInMaps()
     }
 
     private func presentToast(label: String, icon: String) {
