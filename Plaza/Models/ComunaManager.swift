@@ -1,5 +1,6 @@
 // ComunaManager.swift
-// Gestiona la comuna seleccionada por el usuario: auto-detección por GPS y lista de comunas de Chile.
+// Filtro de ubicación: auto-detección GPS → ciudad más cercana, selección manual por región/comuna.
+// "Chile" es el sentinel que muestra todos los eventos sin filtro geográfico.
 
 import Foundation
 import MapKit

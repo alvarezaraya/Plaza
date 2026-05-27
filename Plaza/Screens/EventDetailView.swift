@@ -1,5 +1,6 @@
 // EventDetailView.swift
-// Pantalla de detalle de un evento: imagen, fechas, info del venue, resumen IA, y acciones de agenda y recordatorio.
+// Detalle de evento: imagen hero, fechas/venue, bio IA, mapa interactivo (tap → Apple Maps vía MKMapItem),
+// y barra CTA con agenda, recordatorio y enlace externo.
 
 import SwiftUI
 import UIKit
@@ -231,8 +232,7 @@ struct EventDetailView: View {
     }
 
     private func openInMaps() {
-        let placemark = MKPlacemark(coordinate: liveCoordinate)
-        let mapItem = MKMapItem(placemark: placemark)
+        let mapItem = MKMapItem(location: CLLocation(latitude: liveCoordinate.latitude, longitude: liveCoordinate.longitude), address: nil)
         mapItem.name = "\(event.venue), \(event.ciudad)"
         mapItem.openInMaps()
     }

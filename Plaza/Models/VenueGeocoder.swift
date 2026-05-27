@@ -1,5 +1,6 @@
 // VenueGeocoder.swift
-// Convierte nombres de venues y ciudades a coordenadas GPS usando MKGeocodingRequest, con caché en UserDefaults.
+// Fallback geocoder: venue+ciudad → GPS vía MKGeocodingRequest; caché en UserDefaults (plaza_geocode_cache).
+// Solo se invoca para eventos que llegan sin coordenadas del JSON.
 
 import Foundation
 import CoreLocation

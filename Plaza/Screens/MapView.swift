@@ -1,5 +1,6 @@
 // MapView.swift
-// Mapa interactivo con marcadores por venue y tarjetas emergentes con detalle de eventos.
+// Mapa interactivo MKMapView: marcadores por venue agrupados por ciudad, tarjeta emergente
+// con info del evento y navegación a EventDetailView.
 
 import SwiftUI
 import MapKit

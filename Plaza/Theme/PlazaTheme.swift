@@ -1,5 +1,6 @@
 // PlazaTheme.swift
-// Design tokens de Plaza: colores adaptativos, tipografías personalizadas, espaciado y componente PlTag.
+// Design tokens: dos temas (plaza · warm ambers / multicolor · esmeralda+oro+cobalto).
+// Colores como static var (reactivos al tema activo), fuentes Bricolage Grotesque, PlSpace, PlTag.
 
 import SwiftUI
 import UIKit

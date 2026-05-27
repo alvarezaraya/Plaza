@@ -1,5 +1,6 @@
 // LocationManager.swift
-// Gestiona el acceso a CoreLocation: permisos, coordenada del usuario y cálculo de distancias.
+// CoreLocation wrapper: solicitud de permisos whenInUse, coordenada del usuario en tiempo real,
+// distanceText() formatea km/m para mostrar en tarjetas y detalle de evento.
 
 import Foundation
 import CoreLocation

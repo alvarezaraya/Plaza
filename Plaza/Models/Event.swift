@@ -1,5 +1,6 @@
 // Event.swift
-// Modelo central del evento cultural: datos, categorías, conversión desde DTO y datos de muestra.
+// Modelo central: Event struct, 7 categorías, conversión Evento→Event (parseName, classify, stripHTML),
+// EditedFields (persistencia de ediciones), filtros byComune/byMaxDistance.
 
 import Foundation
 import CoreLocation

@@ -1,5 +1,6 @@
 // EventoService.swift
-// Servicio principal de datos: descarga el JSON de eventos, geocodifica venues, clasifica con IA y persiste ediciones.
+// @Observable servicio central: fetch con ETag desde GitHub Pages, decode Evento→Event,
+// geocodificación de fallback, clasificación IA async, persistencia de ediciones y guardados.
 
 import Foundation
 import CoreLocation

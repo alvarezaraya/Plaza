@@ -1,6 +1,6 @@
 // RootTabView.swift
-// Contenedor principal con tab bar Liquid Glass: Inicio, Agenda, Mapa y Buscar.
-// En iPad: sidebar de 390pt con las tabs de iPhone + MapView persistente a la derecha.
+// Contenedor raíz: tab bar Liquid Glass (Inicio · Agenda · Mapa · Buscar).
+// iPad: panel flotante 390pt con isIPadSidebar=true + MapView persistente a la derecha.
 
 import SwiftUI
 

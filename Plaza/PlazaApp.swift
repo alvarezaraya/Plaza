@@ -1,5 +1,6 @@
 // PlazaApp.swift
-// Punto de entrada de la app: inicializa servicios, registra fuentes y controla la puerta de onboarding.
+// Entry point: registra fuentes Bricolage Grotesque, inyecta servicios en el entorno,
+// controla puerta de onboarding y hot-swaps el tema vía WindowGroup.id(themeRaw).
 
 import SwiftUI
 import CoreText

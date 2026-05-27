@@ -1,5 +1,6 @@
 // EventClassifier.swift
-// Clasifica eventos y genera resúmenes en español usando Apple Intelligence (FoundationModels).
+// Apple Intelligence (FoundationModels): clasifica categoría del evento y genera bio del artista en español.
+// EventSummary { bio } · EventTag (7 categorías) · requiere SystemLanguageModel disponible.
 
 import Foundation
 import FoundationModels

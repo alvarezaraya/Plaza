@@ -1,5 +1,6 @@
 // AgendaView.swift
-// Lista los eventos guardados por el usuario agrupados por fecha, con acciones de recordatorio y edición.
+// Eventos guardados agrupados por fecha; swipe/menú para recordatorio, edición manual (EventEditView)
+// y eliminación. Badge de conteo en la tab bar.
 
 import SwiftUI
 

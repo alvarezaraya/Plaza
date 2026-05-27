@@ -1,5 +1,6 @@
 // EventEditView.swift
-// Formulario para editar manualmente los campos de un evento guardado en la agenda.
+// Formulario de edición manual: título, subtítulo, venue, ciudad, fecha, categoría y descripción.
+// Persiste cambios en EventoService (plaza_edited_events). Solo accesible desde AgendaView.
 
 import SwiftUI
 

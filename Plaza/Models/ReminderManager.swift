@@ -1,5 +1,6 @@
 // ReminderManager.swift
-// Programa y gestiona notificaciones locales de recordatorio para eventos guardados en la agenda.
+// Notificaciones locales UNUserNotificationCenter: toggleReminder(for:) programa/cancela alertas
+// 1 hora antes del evento; hasReminder(for:) refleja el estado en la UI.
 
 import Foundation
 import UserNotifications

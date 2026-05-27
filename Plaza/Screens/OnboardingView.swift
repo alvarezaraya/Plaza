@@ -1,5 +1,6 @@
 // OnboardingView.swift
-// Flujo de bienvenida en dos pasos: presentación de funciones y solicitud de permisos de ubicación y notificaciones.
+// Bienvenida en dos pasos: presentación de funciones (carrusel) + solicitud de permisos
+// de ubicación y notificaciones. Controlado por plaza_onboarding_done en UserDefaults.
 
 import SwiftUI
 import CoreLocation

@@ -1,5 +1,6 @@
 // HomeView.swift
-// Feed principal de eventos con filtro por categoría, tarjeta destacada y acciones de guardado.
+// Feed principal: lista de eventos, carrusel PlaybillCard (ImageCache, pool 15, ratio 2:3),
+// header con filtro de ubicación/radio/categoría (line.3.horizontal.decrease) y acciones de guardado.
 
 import SwiftUI
 
@@ -445,7 +446,7 @@ struct EventImageStack: View {
         for event in events {
             guard let url = event.imageURL,
                   ImageCache.shared[url] == nil else { continue }
-            Task.detached(priority: .utility) {
+            Task(priority: .utility) {
                 guard let (data, _) = try? await URLSession.shared.data(from: url),
                       let img = UIImage(data: data) else { return }
                 ImageCache.shared[url] = img
