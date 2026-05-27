@@ -68,42 +68,42 @@ enum AppTheme: String, CaseIterable {
     var cardLeft: Color {
         switch self {
         case .plaza:      return Color(light: 0xC4714A, dark: 0xD48A65)
-        case .multicolor: return Color(hex: 0xE03030)
+        case .multicolor: return Color(light: 0xD63BAA, dark: 0xE855BE) // magenta
         }
     }
 
     var cardCenter: Color {
         switch self {
         case .plaza:      return Color(light: 0xD4A44C, dark: 0xE0B862)
-        case .multicolor: return Color(hex: 0x3AB8D8)
+        case .multicolor: return Color(light: 0x1BBCD6, dark: 0x28CCE8) // cyan
         }
     }
 
     var cardRight: Color {
         switch self {
         case .plaza:      return Color(light: 0xE8C57A, dark: 0xC8A24A)
-        case .multicolor: return Color(hex: 0xF0D030)
+        case .multicolor: return Color(light: 0xF2C408, dark: 0xF0D040) // amarillo cálido
         }
     }
 
     var accent: Color {
         switch self {
         case .plaza:      return Color(light: 0xc5832b, dark: 0xd4923a)
-        case .multicolor: return Color(hex: 0x3AB8D8)
+        case .multicolor: return Color(light: 0xD63BAA, dark: 0xE855BE) // magenta como CTA
         }
     }
 
     var bg: Color {
         switch self {
         case .plaza:      return Color(light: 0xFBF8F1, dark: 0x1C1814)
-        case .multicolor: return Color(uiColor: .systemBackground)
+        case .multicolor: return Color(light: 0xF8F8FA, dark: 0x111114)
         }
     }
 
     var surface: Color {
         switch self {
         case .plaza:      return Color(light: 0xF3EEE2, dark: 0x242018)
-        case .multicolor: return Color(uiColor: .systemBackground)
+        case .multicolor: return Color(light: 0xEEEEF2, dark: 0x1E1E24)
         }
     }
 
