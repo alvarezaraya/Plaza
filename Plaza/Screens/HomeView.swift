@@ -237,9 +237,7 @@ struct HomeView: View {
                     }
                 }
             } label: {
-                Image(systemName: selectedCategory != nil
-                      ? "line.3.horizontal.decrease.circle.fill"
-                      : "line.3.horizontal.decrease.circle")
+                Image(systemName: "line.3.horizontal.decrease")
                     .font(.system(size: 22))
                     .frame(width: 50, height: 50)
                     .foregroundStyle(selectedCategory != nil ? Color.plAccent : Color.plFg)
