@@ -31,6 +31,7 @@ struct OnboardingView: View {
                 .font(.system(size: 64))
                 .foregroundStyle(Color.plAccent)
                 .padding(.bottom, 16)
+                .accessibilityHidden(true)
 
             Text("Bienvenido a")
                 .font(.plSerifItalic(20))
@@ -106,6 +107,7 @@ struct OnboardingView: View {
                 .font(.system(size: 64))
                 .foregroundStyle(Color.blue)
                 .padding(.bottom, 16)
+                .accessibilityHidden(true)
 
             Text("Permisos")
                 .font(.plDisplay(38))
@@ -205,6 +207,7 @@ private struct FeatureRow: View {
                 .foregroundStyle(color)
                 .frame(width: 44, height: 44)
                 .background(color.opacity(0.12), in: .rect(cornerRadius: 10))
+                .accessibilityHidden(true)
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)
                     .font(.plSans(16, weight: .semibold))
@@ -215,6 +218,7 @@ private struct FeatureRow: View {
             }
             Spacer(minLength: 0)
         }
+        .accessibilityElement(children: .combine)
     }
 }
 

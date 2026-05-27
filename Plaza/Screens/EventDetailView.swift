@@ -57,6 +57,10 @@ struct EventDetailView: View {
                 .frame(maxWidth: .infinity)
                 .frame(height: 320)
                 .clipped()
+                .accessibilityLabel(event.imageURL != nil ? "Imagen de \(event.title)" : "")
+                .accessibilityHint(event.imageURL != nil ? "Toca para ampliar" : "")
+                .accessibilityAddTraits(.isButton)
+                .accessibilityHidden(event.imageURL == nil)
 
                 VStack(alignment: .leading, spacing: 16) {
                     HStack {
@@ -175,6 +179,9 @@ struct EventDetailView: View {
                     }
                     .contentShape(Rectangle())
                     .onTapGesture { openInMaps() }
+                    .accessibilityLabel("\(event.venue), \(event.ciudad)")
+                    .accessibilityHint("Toca para abrir en Apple Maps")
+                    .accessibilityAddTraits(.isButton)
                     .padding(.horizontal, PlSpace.gutter)
                     .padding(.top, PlSpace.gutter)
                     .padding(.bottom, PlSpace.gutter)
@@ -342,6 +349,7 @@ struct FullImageView: View {
                     .foregroundStyle(.white)
             }
             .glassEffect(.clear.interactive(), in: .circle)
+            .accessibilityLabel("Cerrar")
             .padding(.top, 12)
             .padding(.trailing, 16)
         }

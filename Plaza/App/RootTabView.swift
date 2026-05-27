@@ -186,6 +186,7 @@ struct SettingsView: View {
                         } label: {
                             HStack(spacing: 14) {
                                 ThemeSwatchView(theme: theme)
+                                    .accessibilityHidden(true)
                                 Text(theme.displayName)
                                     .foregroundStyle(Color.plFg)
                                 Spacer()
@@ -193,9 +194,12 @@ struct SettingsView: View {
                                     Image(systemName: "checkmark")
                                         .foregroundStyle(Color.plAccent)
                                         .fontWeight(.semibold)
+                                        .accessibilityHidden(true)
                                 }
                             }
                         }
+                        .accessibilityLabel(theme.displayName)
+                        .accessibilityAddTraits(selectedTheme == theme ? .isSelected : [])
                     }
                 }
 

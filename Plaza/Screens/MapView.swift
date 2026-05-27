@@ -58,6 +58,7 @@ struct MapView: View {
                     .foregroundStyle(Color.plAccent)
             }
             .glassEffect(.clear.interactive(), in: .circle)
+            .accessibilityLabel("Centrar en mi ubicación")
             .safeAreaPadding(.top)
             .padding(sidebarInset > 0 ? .trailing : .leading, 16)
             .padding(.top, 10)
@@ -236,6 +237,7 @@ struct EventGlassCard: View {
                         .frame(width: 40, height: 40)
                 }
                 .glassEffect(.clear.interactive(), in: .circle)
+                .accessibilityLabel(servicio.isSaved(event) ? "Quitar de agenda" : "Agregar a agenda")
             }
         }
         .padding(14)
@@ -248,7 +250,6 @@ struct EventGlassCard: View {
             }
         }
         .animation(.smooth, value: showAddedToast)
-        .accessibilityElement(children: .combine)
     }
 }
 

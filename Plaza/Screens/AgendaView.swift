@@ -69,6 +69,7 @@ struct AgendaView: View {
                                             Image(systemName: "bell.fill")
                                                 .font(.system(size: 12))
                                                 .foregroundStyle(Color.plAccent)
+                                                .accessibilityHidden(true)
                                         }
                                     }
                                 }

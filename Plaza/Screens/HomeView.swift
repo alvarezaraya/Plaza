@@ -435,6 +435,18 @@ struct EventImageStack: View {
                                 }
                             }
                     )
+                    .accessibilityLabel({
+                        let e = events[ei]
+                        let sub = e.subtitle.isEmpty ? "" : " · \(e.subtitle)"
+                        return "\(e.title)\(sub). \(e.category.rawValue) en \(e.venue), \(e.ciudad). \(e.dateText)."
+                    }())
+                    .accessibilityHint("Ver detalles")
+                    .accessibilityAction(named: "Siguiente") {
+                        rotate(to: (frontIndex + 1) % count, fling: -1, key: frontIndex)
+                    }
+                    .accessibilityAction(named: "Anterior") {
+                        rotate(to: (frontIndex - 1 + count) % count, fling: +1, key: frontIndex)
+                    }
                 }
             }
         }
