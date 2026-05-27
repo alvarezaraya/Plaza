@@ -226,7 +226,7 @@ VENUES_CONOCIDOS = [
     "enjoy viña del mar", "casino viña del mar",
     "teatro municipal de viña del mar",
     # Genérico
-    "teatro municipal", "rock and soccer",
+    "rock and soccer",
     "centro cultural estación", "club hípico", "gimnasio olímpico",
 ]
 
@@ -439,7 +439,6 @@ COORDENADAS_FIJAS = {
     # Venues Antofagasta
     "esquina retornable":              (-23.673621, -70.409617),
     "teatro municipal de antofagasta": (-23.646360, -70.396306),
-    "teatro municipal":                (-23.646360, -70.396306),
     "enjoy antofagasta":               (-23.685324, -70.414614),
     "estadio sokol":                   (-23.655882, -70.397059),
     "rock and soccer":                 (-23.699305, -70.422728),
