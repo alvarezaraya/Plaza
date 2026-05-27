@@ -363,38 +363,39 @@ private struct CalendarBadge: View {
     }()
 
     var body: some View {
-        VStack(spacing: 0) {
-            // Franja de mes
-            Text(Self.monthFmt.string(from: date).uppercased())
-                .font(.plMono(9))
-                .tracking(0.6)
-                .foregroundStyle(.white)
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 4)
-                .background(Color.plAccent)
+        HStack(spacing: 0) {
+            // Fecha: franja de mes + número de día
+            VStack(spacing: 0) {
+                Text(Self.monthFmt.string(from: date).uppercased())
+                    .font(.plMono(9))
+                    .tracking(0.6)
+                    .foregroundStyle(.white)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 4)
+                    .background(Color.plAccent)
 
-            // Número de día
-            Text(Self.dayFmt.string(from: date))
-                .font(.plDisplay(20))
-                .foregroundStyle(Color.plFg)
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 6)
-                .background(Color.plSurface)
+                Text(Self.dayFmt.string(from: date))
+                    .font(.plDisplay(20))
+                    .foregroundStyle(Color.plFg)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 6)
+                    .background(Color.plSurface)
+            }
+            .frame(width: 36)
 
-            // Divisor interno
+            // Divisor vertical interno
             Rectangle()
                 .fill(Color.plHair)
-                .frame(height: 0.5)
+                .frame(width: 0.5)
 
             // Ícono de categoría
             Image(systemName: icon)
-                .font(.system(size: 16))
+                .font(.system(size: 15))
                 .foregroundStyle(Color.plAccent)
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 8)
+                .frame(maxHeight: .infinity)
+                .padding(.horizontal, 9)
                 .background(Color.plSurface)
         }
-        .frame(width: 44)
         .clipShape(.rect(cornerRadius: 10))
         .overlay(
             RoundedRectangle(cornerRadius: 10)
