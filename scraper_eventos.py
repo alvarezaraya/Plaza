@@ -23,10 +23,14 @@ Uso:
 import json
 import re
 import time
+import warnings
 from datetime import datetime
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+
+# Los feeds RSS son XML; suprimir el warning al parsearlos con html.parser
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 # ── Configuración ────────────────────────────────────────────────────────────
 
@@ -789,21 +793,11 @@ def scrape_passline():
         print("       Ejecuta: pip install playwright && python3 -m playwright install chromium")
         return []
 
-    # URL patterns de ciudad en Passline — todas las ciudades principales de Chile
+    # Passline redirige a home.passline.com (landing page sin eventos públicos).
+    # Las URLs /ciudad/[slug] devuelven 403 con requests y no cargan eventos
+    # con playwright. Se intenta desde la home principal como único punto de entrada.
     urls_ciudad = [
-        ("Santiago",      "https://www.passline.com/ciudad/santiago"),
-        ("Valparaíso",    "https://www.passline.com/ciudad/valparaiso"),
-        ("Viña del Mar",  "https://www.passline.com/ciudad/vina-del-mar"),
-        ("Concepción",    "https://www.passline.com/ciudad/concepcion"),
-        ("La Serena",     "https://www.passline.com/ciudad/la-serena"),
-        ("Antofagasta",   "https://www.passline.com/ciudad/antofagasta"),
-        ("Arica",         "https://www.passline.com/ciudad/arica"),
-        ("Iquique",       "https://www.passline.com/ciudad/iquique"),
-        ("Temuco",        "https://www.passline.com/ciudad/temuco"),
-        ("Puerto Montt",  "https://www.passline.com/ciudad/puerto-montt"),
-        ("Calama",        "https://www.passline.com/ciudad/calama"),
-        ("Copiapó",       "https://www.passline.com/ciudad/copiapo"),
-        ("Chile",         "https://www.passline.com/"),  # fallback: página principal
+        ("Chile", "https://www.passline.com/"),
     ]
 
     base = []
