@@ -90,7 +90,7 @@ extension Event {
         let category = classify(title: cleanTitle, subtitle: cleanSubtitle, description: evento.descripcion, venue: venueStr)
 
         let descExtendida = evento.descripcion_extendida ?? ""
-        let blurbFinal = descExtendida.isEmpty ? evento.descripcionMostrar : descExtendida
+        let blurbFinal = stripHTML(descExtendida.isEmpty ? evento.descripcionMostrar : descExtendida)
 
         let coordinate: CLLocationCoordinate2D
         if let lat = evento.lat, let lon = evento.lon {
@@ -110,7 +110,7 @@ extension Event {
             date: parsedDate,
             coordinate: coordinate,
             blurb: blurbFinal,
-            bioArtista: evento.bio_artista,
+            bioArtista: evento.bio_artista.map { stripHTML($0) },
             price: evento.precio_desde_clp.isEmpty ? nil : evento.precioTexto,
             url: evento.urlAbierta,
             fuente: evento.fuente,
@@ -195,6 +195,20 @@ extension Event {
             }
         }
         return .otros
+    }
+
+    private static func stripHTML(_ text: String) -> String {
+        var s = text
+        s = s.replacingOccurrences(of: "<[^>]+>", with: " ", options: .regularExpression)
+        s = s.replacingOccurrences(of: "&nbsp;",  with: " ")
+        s = s.replacingOccurrences(of: "&amp;",   with: "&")
+        s = s.replacingOccurrences(of: "&lt;",    with: "<")
+        s = s.replacingOccurrences(of: "&gt;",    with: ">")
+        s = s.replacingOccurrences(of: "&quot;",  with: "\"")
+        s = s.replacingOccurrences(of: "&#39;",   with: "'")
+        s = s.replacingOccurrences(of: "&apos;",  with: "'")
+        s = s.replacingOccurrences(of: "\\s{2,}", with: " ", options: .regularExpression)
+        return s.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
     private static func parseDate(_ string: String) -> Date {
