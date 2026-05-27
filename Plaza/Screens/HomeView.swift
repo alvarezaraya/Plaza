@@ -372,10 +372,11 @@ struct EventImageStack: View {
         SlotCfg(baseX: 52,  baseY: 10, rot: 9,  scale: 0.91, freq: 1.25, phase: .pi * 0.35, amp: 6, zIndex: 1),
     ]
 
-    // Color fijo por índice de evento: independiente del slot/posición
-    // Propiedad computada (no `let`) para que se re-evalúe al cambiar de tema.
+    // Color por slot (frente / atrás-izq / atrás-der), no por índice de evento.
+    // Garantiza que los tres colores siempre sean visibles, independientemente
+    // de cuántos eventos haya en el pool (ei % 3 colisionaba cuando count ≡ 1 mod 3).
     private static var cardColors: [Color] { [.plCardCenter, .plCardLeft, .plCardRight] }
-    private func colorFor(_ ei: Int) -> Color { Self.cardColors[ei % 3] }
+    private func colorFor(_ ei: Int) -> Color { Self.cardColors[slotOf(ei)] }
 
     // Índices de los 3 eventos activos, en orden [frente, izq, der]
     private var activeIndices: [Int] {
