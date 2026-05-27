@@ -336,11 +336,8 @@ struct EventRowContent: View {
                     }
                 }
                 .padding(.top, 2)
-                HStack(spacing: 8) {
-                    PlTag(text: event.price ?? "gratis")
-                    if !event.otherDates.isEmpty {
-                        PlTag(text: "+\(event.otherDates.count) fechas", color: .plAccent)
-                    }
+                if !event.otherDates.isEmpty {
+                    PlTag(text: "+\(event.otherDates.count) fechas", color: .plAccent)
                 }
             }
             Spacer(minLength: 0)

@@ -113,8 +113,8 @@ struct EventDetailView: View {
                             infoCell("Ciudad", event.ciudad)
                         }
                         GridRow {
-                            infoCell("Precio", event.price ?? "Gratuito")
                             infoCell("Fechas", { let n = 1 + event.otherDates.count; return "\(n) disponible\(n == 1 ? "" : "s")" }())
+                            Spacer()
                         }
                         if let dist = location.distanceText(event.coordinate) {
                             GridRow {
