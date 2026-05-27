@@ -571,8 +571,8 @@ struct CategoryChip: View {
             }
             .padding(.horizontal, 14)
             .padding(.vertical, 8)
-            .background(isSelected ? Color.plFg : Color.plSurface, in: .capsule)
-            .foregroundStyle(isSelected ? Color.plBg : Color.plMuted)
+            .background(isSelected ? Color.plAccent : Color.plSurface, in: .capsule)
+            .foregroundStyle(isSelected ? Color.white : Color.plMuted)
         }
         .buttonStyle(.plain)
         .accessibilityLabel(label)

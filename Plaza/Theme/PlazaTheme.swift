@@ -7,10 +7,11 @@ import UIKit
 // MARK: - Colors
 
 extension Color {
-    static let plFg      = Color(light: 0x0e0c0a, dark: 0xf5f2ec)
-    static let plMuted   = Color(light: 0x5c544a, dark: 0xa09888)
-    static let plDim     = Color(light: 0x8e8675, dark: 0x7a7268)
-    static let plHair    = Color(light: 0xd6cfbf, dark: 0x2e2a24)
+    // Tokens tipográficos y estructurales — theme-aware via AppTheme.current
+    static var plFg:   Color { AppTheme.current.fg }
+    static var plMuted: Color { AppTheme.current.muted }
+    static var plDim:  Color { AppTheme.current.dim }
+    static var plHair: Color { AppTheme.current.hair }
 }
 
 extension Color {
@@ -104,6 +105,34 @@ enum AppTheme: String, CaseIterable {
         switch self {
         case .plaza:      return Color(light: 0xF3EEE2, dark: 0x242018)
         case .multicolor: return Color(light: 0xEEEEF2, dark: 0x1E1E24)
+        }
+    }
+
+    var fg: Color {
+        switch self {
+        case .plaza:      return Color(light: 0x0e0c0a, dark: 0xf5f2ec)
+        case .multicolor: return Color(light: 0x0D0D12, dark: 0xF2F2F8)
+        }
+    }
+
+    var muted: Color {
+        switch self {
+        case .plaza:      return Color(light: 0x5c544a, dark: 0xa09888)
+        case .multicolor: return Color(light: 0x60606E, dark: 0x9898A8)
+        }
+    }
+
+    var dim: Color {
+        switch self {
+        case .plaza:      return Color(light: 0x8e8675, dark: 0x7a7268)
+        case .multicolor: return Color(light: 0x8C8C9A, dark: 0x72727E)
+        }
+    }
+
+    var hair: Color {
+        switch self {
+        case .plaza:      return Color(light: 0xd6cfbf, dark: 0x2e2a24)
+        case .multicolor: return Color(light: 0xD0D0D8, dark: 0x28282E)
         }
     }
 

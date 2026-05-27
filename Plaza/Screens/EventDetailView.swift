@@ -276,7 +276,8 @@ struct EventDetailView: View {
         }
         .padding(.horizontal, PlSpace.gutter)
         .padding(.vertical, 12)
-        .background(.bar)
+        .background(Color.plBg.opacity(0.92))
+        .background(.ultraThinMaterial)
     }
 }
 
