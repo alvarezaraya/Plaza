@@ -437,6 +437,19 @@ struct EventImageStack: View {
             }
         }
         .frame(height: 350)
+        .task(id: events.map(\.stableID).joined()) { prefetchImages() }
+    }
+
+    private func prefetchImages() {
+        for event in events {
+            guard let url = event.imageURL,
+                  ImageCache.shared[url] == nil else { continue }
+            Task.detached(priority: .utility) {
+                guard let (data, _) = try? await URLSession.shared.data(from: url),
+                      let img = UIImage(data: data) else { return }
+                ImageCache.shared[url] = img
+            }
+        }
     }
 
     // Lanza primero la tarjeta en la dirección del swipe y luego rota el carrusel.
@@ -461,6 +474,7 @@ struct PlaybillCard: View {
     let event: Event
     let cardColor: Color
     let onTap: () -> Void
+    @State private var loadedImage: UIImage?
 
     private var timeLabel: String {
         let cal = Calendar.current
@@ -496,6 +510,16 @@ struct PlaybillCard: View {
         .buttonStyle(.plain)
         .shadow(color: .black.opacity(0.22), radius: 10, x: 0, y: 5)
         .shadow(color: .black.opacity(0.12), radius: 24, x: 0, y: 14)
+        .task(id: event.stableID) { await loadImage() }
+    }
+
+    private func loadImage() async {
+        guard let url = event.imageURL else { return }
+        if let cached = ImageCache.shared[url] { loadedImage = cached; return }
+        guard let (data, _) = try? await URLSession.shared.data(from: url),
+              let img = UIImage(data: data) else { return }
+        ImageCache.shared[url] = img
+        loadedImage = img
     }
 
     private var headerBanner: some View {
@@ -537,9 +561,10 @@ struct PlaybillCard: View {
     }
 
     private var imageArea: some View {
-        AsyncImage(url: event.imageURL) { phase in
-            if let img = phase.image {
-                img.resizable()
+        Group {
+            if let img = loadedImage {
+                Image(uiImage: img)
+                    .resizable()
                     .scaledToFill()
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                     .clipped()
@@ -726,6 +751,24 @@ struct FilterSheetView: View {
                 .foregroundStyle(Color.plMuted)
                 .padding(.horizontal, PlSpace.gutter)
             content()
+        }
+    }
+}
+
+// MARK: - Image Cache
+
+/// Thread-safe NSCache wrapper. Shared between EventImageStack (prefetch) and PlaybillCard (display).
+final class ImageCache: @unchecked Sendable {
+    static let shared = ImageCache()
+    private init() { cache.countLimit = 60 }
+    private let cache = NSCache<NSString, UIImage>()
+
+    subscript(url: URL) -> UIImage? {
+        get { cache.object(forKey: url.absoluteString as NSString) }
+        set {
+            if let img = newValue {
+                cache.setObject(img, forKey: url.absoluteString as NSString)
+            }
         }
     }
 }
