@@ -1,145 +1,97 @@
 # CLAUDE.md
 
-Guidance for Claude Code when working in this repository.
+**Plaza** — App de eventos culturales chilenos.
+iOS app (SwiftUI, iOS 26+, Liquid Glass, sin SPM) + scraper Python que genera `eventos.json` vía CI.
+JSON en `https://alvarezaraya.github.io/plaza/eventos.json` (GitHub Pages). Activar una vez: repo Settings → Pages → `docs/` on `main`.
 
-## Project overview
-
-**Plaza** — Chilean cultural events app.
-
-| Part | Stack | Notes |
-|------|-------|-------|
-| iOS app (`Plaza/`) | SwiftUI, iOS 26+ | Liquid Glass UI, no SPM packages |
-| Scraper (`scraper_eventos.py`) | Python, Playwright | Outputs `eventos.json`, run by CI |
-
-The app fetches `https://alvarezaraya.github.io/plaza/eventos.json` (GitHub Pages / Fastly CDN).  
-`docs/eventos.json` mirrors the root copy; enable once via repo Settings → Pages → Source: `docs/` on `main`.
-
-## Commands
+## Comandos
 
 ```bash
-# Run scraper locally (~300 events, 2-5 min)
+# Scraper local (~300 eventos, 2-5 min)
 pip install requests beautifulsoup4 playwright && python -m playwright install chromium
 python3 scraper_eventos.py
 
-# Build iOS app
-open Plaza.xcodeproj   # requires Xcode + iOS 26 SDK
+# App
+open Plaza.xcodeproj  # Xcode + iOS 26 SDK
+```
+> `.glassEffect()` solo renderiza en simulador/dispositivo iOS 26, no en Previews.
+
+## Flujo de datos
+
+```
+CI (06:00 + 17:00 UTC) → scraper → eventos.json → GitHub Pages
+  → URLSession (ETag) → EventoService → [Evento] DTO → [Event]
+  → paralelo: VenueGeocoder (fallback GPS) + EventClassifier (Apple Intelligence)
 ```
 
-> Liquid Glass (`.glassEffect()`) only renders on the iOS 26 simulator or device, not in SwiftUI Previews.
+## Archivos clave
 
-## Architecture
+| Archivo | Rol |
+|---------|-----|
+| `EventoService.swift` | `@Observable`: fetch ETag, edits, geocoding, AI |
+| `Models/Event.swift` | Modelo central, conversión Evento→Event, parseName, classify, filtros |
+| `Models/EventClassifier.swift` | FoundationModels: categoría + bio artista |
+| `Models/VenueGeocoder.swift` | Fallback venue→GPS, caché UserDefaults |
+| `Models/ComunaManager.swift` | Filtro ubicación; `"Chile"` = sin filtro |
+| `Models/LocationManager.swift` | CoreLocation, distanceText() |
+| `Models/ReminderManager.swift` | UNUserNotificationCenter, 1h antes del evento |
+| `Theme/PlazaTheme.swift` | Tokens (colores, fuentes, spacing), PlTag, dos temas |
+| `App/RootTabView.swift` | Tab bar iPhone + sidebar iPad 390pt |
+| `Screens/HomeView.swift` | Feed, carrusel (ImageCache), CalendarBadge, filtro |
+| `Screens/EventDetailView.swift` | Detalle: imagen, bio IA, mapa (tap → Apple Maps) |
+| `Screens/AgendaView.swift` | Eventos guardados por fecha |
+| `Screens/MapView.swift` | Mapa interactivo con marcadores por venue |
+| `Screens/EventEditView.swift` | Editor manual de campos |
+| `Screens/OnboardingView.swift` | Bienvenida + permisos |
+| `PlazaApp.swift` | Entry point, fuentes, onboarding, hot-swap de tema |
 
-### Data flow
-```
-GitHub Actions (06:00 + 17:00 UTC)
-  → scraper_eventos.py → eventos.json committed to main
-  → app URLSession (ETag cache) → EventoService
-  → [Evento] DTO → [Event] model
-  → parallel: VenueGeocoder (GPS fallback) + EventClassifier (Apple Intelligence)
-```
+## UserDefaults
 
-### Key files
-
-| File | Role |
-|------|------|
-| `EventoService.swift` | `@Observable` service: fetch, ETag cache, edits, geocoding, AI |
-| `Models/Event.swift` | Core model, `Evento→Event` conversion, `parseName()`, `classify()`, filters |
-| `Models/VenueGeocoder.swift` | Venue name → GPS via `MKGeocodingRequest`; UserDefaults cache |
-| `Models/EventClassifier.swift` | Apple Intelligence (`FoundationModels`): category + artist bio |
-| `Models/ComunaManager.swift` | Location filter state; `"Chile"` = show all |
-| `Models/LocationManager.swift` | CoreLocation permissions, user coordinate, distance text |
-| `Models/ReminderManager.swift` | Local notifications for saved events |
-| `Theme/PlazaTheme.swift` | Design tokens: colors, fonts, spacing, `PlTag`; two themes |
-| `App/RootTabView.swift` | iPhone tab bar + iPad sidebar (390pt panel + MapView) |
-| `Screens/HomeView.swift` | Feed, card carousel (ImageCache prefetch), filter, header |
-| `Screens/EventDetailView.swift` | Event detail: image, dates, map (tap → Apple Maps), AI bio |
-| `Screens/AgendaView.swift` | Saved events grouped by date |
-| `Screens/MapView.swift` | Interactive map with venue markers |
-| `Screens/EventEditView.swift` | Manual field editor for saved events |
-| `Screens/OnboardingView.swift` | Two-step welcome + permissions gate |
-| `PlazaApp.swift` | Entry point: services, fonts, onboarding gate, theme hot-swap |
-
-### UserDefaults keys
-
-| Key | Content |
-|-----|---------|
-| `plaza_edited_events` | `[String: EditedFields]` — user edits |
-| `plaza_saved_events` | `[String]` — saved stableIDs |
-| `plaza_etag` | ETag for conditional JSON fetch |
-| `plaza_cached_json` | Last fetched JSON (offline fallback) |
+| Clave | Contenido |
+|-------|-----------|
+| `plaza_edited_events` | `[String: EditedFields]` |
+| `plaza_saved_events` | `[String]` stableIDs guardados |
+| `plaza_etag` / `plaza_cached_json` | Cache condicional del JSON |
 | `plaza_geocode_cache` | `[String: CachedCoordinate]` |
-| `plaza_theme` | `"plaza"` or `"multicolor"` |
+| `plaza_theme` | `"plaza"` / `"multicolor"` |
 | `plaza_onboarding_done` | Bool |
 
-### Event identity
+## Modelo de eventos
 
-`stableID` = source URL — persists edits/saves across refreshes.  
-Events with the same lowercased title are grouped; extra dates land in `otherDates: [DateEntry]`.
+`stableID` = URL fuente — persiste edits/saves entre refreshes.
+Eventos con el mismo título (lowercased) se agrupan; fechas extra van a `otherDates: [DateEntry]`.
 
-### Coordinates
+## Scraper
 
-`eventos.json` includes `lat`/`lon` per event. Scraper resolution order:  
-1. `COORDENADAS_FIJAS` (hardcoded dict of known venues — no bare generic names like "teatro municipal")  
-2. Nominatim (OpenStreetMap, 1 req/s)  
-3. City centroid fallback  
+**Coordenadas**: JSON incluye `lat`/`lon`. Orden de resolución: `COORDENADAS_FIJAS` (no añadir nombres genéricos como "teatro municipal") → Nominatim (1 req/s) → centroide de ciudad.
 
-App: `Event.from()` uses JSON coords directly; `VenueGeocoder` only runs for events still at `defaultCoordinate`.
+**Enriquecimiento**: `ThreadPoolExecutor(max_workers=6)`. Wikipedia/DuckDuckGo serializados con `Semaphore(1)` para no saturar APIs.
 
-### Scraper enrichment
+**Fuentes** (14): Ticketplus · Ticketpro · PuntoTicket · Ticketmaster · Passline · ComediaTicket · EsquinaRetornable · CulturaAntofagasta · CulturaIquique · Ticketchile · MasQueTickets · Eventbrite · Joinnus · RSS Municipales (CulturaGob, CCPLM, GAM, CulturaValparaíso).
 
-`enriquecer_evento()` runs in `ThreadPoolExecutor(max_workers=6)`.  
-Wikipedia + DuckDuckGo calls are serialised via `threading.Semaphore(1)` (`_enrich_lock`) — one worker fetches at a time to avoid throttling.
-
-### Scraper sources
-
-| Source | Method |
-|--------|--------|
-| Ticketplus.cl | `requests` + BS4 (16 regions, cap 40/region) |
-| Ticketpro.cl | `requests` + BS4 |
-| PuntoTicket.com | `requests` + BS4 |
-| Ticketmaster.cl | `requests` + BS4 (home only — anti-bot) |
-| Passline.com | Playwright (home only — city URLs 403) |
-| ComediaTicket.cl | Playwright (React SPA) |
-| EsquinaRetornable.cl | `requests` + BS4 (WordPress) |
-| CulturaAntofagasta.cl | RSS `/feed/` |
-| CulturaIquique.cl | RSS `/feed/` |
-| Ticketchile.cl | `requests` + BS4 |
-| MasQueTickets.cl | `requests` + BS4 |
-| Eventbrite.cl | Playwright (React SPA) |
-| Joinnus.com/CL | Playwright |
-| RSS Municipales | RSS `/feed/` (CulturaGob, CCPLM, GAM, CulturaValparaíso) |
-
-### CI
-
-`.github/workflows/scraper.yml` — 06:00 + 17:00 UTC.  
-Chromium cached via `actions/cache@v4` (key: OS + requirements hash). Commits both `eventos.json` and `docs/eventos.json` to `main`.
+**CI**: `.github/workflows/scraper.yml` — 06:00 + 17:00 UTC. Chromium cacheado con `actions/cache@v4`. Commit de `eventos.json` y `docs/eventos.json`.
 
 ## Design tokens
 
-All tokens are `static var` (computed, theme-reactive) — never cache them in `let`.
+Todos `static var` (reactivos al tema) — nunca cachear en `let`.
 
-| Token | Purpose |
-|-------|---------|
-| `Color.plBg / plSurface` | Background layers |
-| `Color.plFg / plMuted / plDim / plHair` | Text + divider hierarchy |
-| `Color.plAccent` | Primary CTA, icons, links |
-| `Color.plCardLeft/Center/Right` | Card carousel colors |
-| `Font.plDisplay()` | Large titles (Bricolage Grotesque) |
-| `Font.plSans()` | UI text |
-| `Font.plMono()` | Tags, labels |
-| `Font.plSerifItalic()` | Bios, subtitles |
-| `PlSpace.gutter / cardRadius / sectionSpacing` | Layout constants |
+`plBg/plSurface` · `plFg/plMuted/plDim/plHair` · `plAccent` · `plCardLeft/Center/Right`
+`plDisplay()` (Bricolage Grotesque) · `plSans()` · `plMono()` · `plSerifItalic()`
+`PlSpace.gutter/cardRadius/sectionSpacing`
 
-**Two themes** (`AppTheme.plaza` / `AppTheme.multicolor`):
-- `plaza` — warm ambers and terracotta
-- `multicolor` — esmeralda (`#0D7A54`) + oro antiguo (`#B8861A`) + azul cobalto (`#0040B0`); accent esmeralda vibrante
+**Temas**: `plaza` (ambers/terracota) · `multicolor` (esmeralda `#0D7A54` + oro `#B8861A` + cobalto `#0040B0`).
+Hot-swap vía `WindowGroup.id(themeRaw)`. `isIPadSidebar` env key → fondos `.clear` en el panel iPad.
 
-Theme changes hot-swap the `WindowGroup` via `.id(themeRaw)`.  
-`isIPadSidebar` environment key → switch backgrounds from opaque to `.clear` inside the iPad panel.
+## Carrusel (HomeView)
 
-## Card carousel (HomeView)
+- Pool: hasta 15 eventos con imagen de `filteredEvents`
+- 3 visibles (frente + 2 atrás); colores por slot — garantiza los 3 colores del tema siempre visibles
+- `ImageCache` (NSCache, límite 60): prefetch al aparecer → sin lag al deslizar
+- Tarjetas 2:3 (200×300); imagen recortada desde arriba (`alignment: .top`)
 
-- Pool: up to 15 events with images from `filteredEvents`
-- 3 visible at a time (front + 2 back slots); slot-based color assignment guarantees all 3 theme colors always visible
-- `ImageCache` (`NSCache`, limit 60): `EventImageStack.onAppear` eagerly prefetches all pool URLs; `PlaybillCard` reads cache first → no swipe lag
-- Cards are 2:3 aspect ratio (200×300); images top-cropped (`alignment: .top`)
+## EventRowContent
+
+Cada fila muestra un `CalendarBadge` unificado (fecha + ícono de categoría en un mismo contenedor):
+- Columna izquierda (36pt): franja de mes (plAccent) + número de día (plDisplay)
+- Divisor vertical 0.5pt plHair
+- Columna derecha: ícono de categoría centrado (plAccent)
