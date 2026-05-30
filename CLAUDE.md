@@ -32,7 +32,7 @@ CI (06:00 + 17:00 UTC) → scraper → eventos.json → GitHub Pages
 | `Models/Event.swift` | Modelo central, conversión Evento→Event, parseName, classify, filtros |
 | `Models/EventClassifier.swift` | FoundationModels: categoría + bio artista |
 | `Models/VenueGeocoder.swift` | Fallback venue→GPS, caché UserDefaults |
-| `Models/ComunaManager.swift` | Filtro ubicación; `"Chile"` = sin filtro |
+| `Models/ComunaManager.swift` | Filtro ubicación; `"Chile"` = sin filtro; fallback escalonado comuna→región→Chile (`byComuneTiered`) |
 | `Models/LocationManager.swift` | CoreLocation, distanceText() |
 | `Models/ReminderManager.swift` | UNUserNotificationCenter, 1h antes del evento |
 | `Theme/PlazaTheme.swift` | Tokens (colores, fuentes, spacing), PlTag, dos temas |
@@ -51,25 +51,30 @@ CI (06:00 + 17:00 UTC) → scraper → eventos.json → GitHub Pages
 |-------|-----------|
 | `plaza_edited_events` | `[String: EditedFields]` |
 | `plaza_saved_events` | `[String]` stableIDs guardados |
-| `plaza_etag` / `plaza_cached_json` | Cache condicional del JSON |
+| `plaza_etag` | ETag para cache condicional (JSON en `Caches/plaza_cached_events.json`) |
 | `plaza_geocode_cache` | `[String: CachedCoordinate]` |
+| `plaza_ai_categories` | `[String: String]` categoría IA por stableID |
 | `plaza_theme` | `"plaza"` / `"multicolor"` |
 | `plaza_onboarding_done` | Bool |
 
 ## Modelo de eventos
 
 `stableID` = URL fuente — persiste edits/saves entre refreshes.
-Eventos con el mismo título (lowercased) se agrupan; fechas extra van a `otherDates: [DateEntry]`.
+Eventos con el mismo título **y subtítulo** (lowercased) se agrupan — giras del mismo show en varias ciudades se colapsan, pero shows distintos del mismo artista no; fechas extra van a `otherDates: [DateEntry]`.
 
 ## Scraper
 
-**Coordenadas**: JSON incluye `lat`/`lon`. Orden de resolución: `COORDENADAS_FIJAS` (no añadir nombres genéricos como "teatro municipal") → Nominatim (1 req/s) → centroide de ciudad.
+**Coordenadas**: JSON incluye `lat`/`lon`. Orden de resolución: `COORDENADAS_FIJAS` (no añadir nombres genéricos como "teatro municipal") → Nominatim (1 req/s, `addressdetails=1`) → centroide de ciudad. La respuesta de Nominatim **rellena `ciudad`** cuando viene vacía o como sentinel `"Chile"` (backfill en `geocodificar_todos`, sin requests extra).
 
 **Enriquecimiento**: `ThreadPoolExecutor(max_workers=6)`. Wikipedia/DuckDuckGo serializados con `Semaphore(1)` para no saturar APIs.
 
 **Fuentes** (14): Ticketplus · Ticketpro · PuntoTicket · Ticketmaster · Passline · ComediaTicket · EsquinaRetornable · CulturaAntofagasta · CulturaIquique · Ticketchile · MasQueTickets · Eventbrite · Joinnus · RSS Municipales (CulturaGob, CCPLM, GAM, CulturaValparaíso).
 
-**CI**: `.github/workflows/scraper.yml` — 06:00 + 17:00 UTC. Chromium cacheado con `actions/cache@v4`. Commit de `eventos.json` y `docs/eventos.json`.
+**Salud**: `verificar_salud` compara el run con el JSON previo (conteo por fuente). Si una fuente cae de >0 a 0, o el total baja >50%, aborta con `exit 1` (override: `PLAZA_SKIP_HEALTHCHECK=1`) para no commitear datos degradados. El JSON incluye `por_fuente: {fuente: count}`. `generado_en` en UTC.
+
+**Tests**: `test_scraper.py` (unittest, sin red) cubre las funciones puras de parsing y el guardia de salud. Correr: `python3 test_scraper.py`.
+
+**CI**: `.github/workflows/scraper.yml` — 06:00 + 17:00 UTC. Corre tests → scraper → commit. Chromium cacheado con `actions/cache@v4`. Commit de `eventos.json` y `docs/eventos.json`.
 
 ## Design tokens
 

@@ -90,7 +90,7 @@ struct SearchView: View {
     private var baseEvents: [Event] {
         let pool = scope == .agenda ? servicio.savedEvents : servicio.events
         return pool
-            .byComune(comunaManager.selectedComuna)
+            .byComuneTiered(comunaManager.selectedComuna).events
             .byMaxDistance(maxDistanceKm, from: location.userLocation)
     }
 

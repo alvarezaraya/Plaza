@@ -20,9 +20,13 @@ struct HomeView: View {
 
     private var events: [Event] { servicio.events }
 
+    // Filtro por comuna con degradación escalonada (comuna → región → todo Chile).
+    private var comunaResult: (events: [Event], note: String?) {
+        events.byComuneTiered(comunaManager.selectedComuna)
+    }
+
     private var filteredEvents: [Event] {
-        var result = events
-            .byComune(comunaManager.selectedComuna)
+        var result = comunaResult.events
             .byMaxDistance(maxDistanceKm, from: location.userLocation)
         if let cat = selectedCategory {
             result = result.filter { $0.category == cat }
@@ -59,7 +63,15 @@ struct HomeView: View {
                     }
                 }
                 .animation(.smooth, value: showAddedToast)
-                .safeAreaInset(edge: .top, spacing: 0) { headerBlock }
+                .safeAreaInset(edge: .top, spacing: 0) {
+                    VStack(spacing: 0) {
+                        headerBlock
+                        if !servicio.cargando, servicio.error == nil,
+                           let note = comunaResult.note {
+                            locationNotice(note)
+                        }
+                    }
+                }
         }
         .background(isIPadSidebar ? .clear : Color.plBg)
         .onAppear {
@@ -260,6 +272,25 @@ struct HomeView: View {
         }
         .padding(.horizontal, PlSpace.gutter)
         .padding(.vertical, 10)
+    }
+
+    // Aviso bajo el header cuando el filtro de comuna tuvo que ampliarse
+    // (región o todo Chile) porque la comuna elegida no tiene eventos.
+    private func locationNotice(_ text: String) -> some View {
+        HStack(spacing: 6) {
+            Image(systemName: "info.circle")
+                .font(.system(size: 11))
+            Text(text)
+        }
+        .font(.plSans(12, weight: .medium))
+        .foregroundStyle(Color.plMuted)
+        .padding(.horizontal, 12)
+        .padding(.vertical, 7)
+        .background(.ultraThinMaterial, in: .capsule)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.horizontal, PlSpace.gutter)
+        .padding(.bottom, 6)
+        .accessibilityElement(children: .combine)
     }
 
     @ViewBuilder

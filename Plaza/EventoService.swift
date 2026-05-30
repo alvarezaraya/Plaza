@@ -62,12 +62,44 @@ class EventoService {
     private let editsKey  = "plaza_edited_events"
     private let savedKey  = "plaza_saved_events"
     private let etagKey   = "plaza_etag"
-    private let cachedKey = "plaza_cached_json"
+    private let aiCacheKey = "plaza_ai_categories"
+
+    // El JSON cacheado (~300 eventos) vive en Caches/, no en UserDefaults:
+    // UserDefaults no está pensado para blobs grandes y se carga entero al lanzar.
+    private let legacyCachedKey = "plaza_cached_json"
+    private let cacheFileName = "plaza_cached_events.json"
+
+    private var cacheFileURL: URL? {
+        FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first?
+            .appendingPathComponent(cacheFileName)
+    }
+
+    private func readCachedJSON() -> Data? {
+        if let url = cacheFileURL, let data = try? Data(contentsOf: url) { return data }
+        // Migración: leer del valor antiguo en UserDefaults si aún existe.
+        return UserDefaults.standard.data(forKey: legacyCachedKey)
+    }
+
+    private func writeCachedJSON(_ data: Data) {
+        guard let url = cacheFileURL else { return }
+        try? data.write(to: url, options: .atomic)
+        // Limpiar el valor antiguo de UserDefaults tras migrar.
+        UserDefaults.standard.removeObject(forKey: legacyCachedKey)
+    }
 
     var events: [Event] = []
     var cargando = false
     var error: String?
     private(set) var savedIDs: Set<String> = []
+
+    // Tasks de enriquecimiento en segundo plano. Se cancelan al recargar para
+    // evitar que un loop antiguo mute `events` después de ser reemplazado.
+    private var geocodeTask: Task<Void, Never>?
+    private var reclassifyTask: Task<Void, Never>?
+
+    // Caché de categorías generadas por IA, por stableID. Evita reclasificar
+    // en cada carga (lento y costoso en batería).
+    private var aiCategoryCache: [String: String] = [:]
 
     var savedEvents: [Event] {
         events.filter { savedIDs.contains($0.stableID) }
@@ -108,6 +140,11 @@ class EventoService {
         cargando = true
         error = nil
         loadSavedIDs()
+        loadAICache()
+
+        // Cancelar enriquecimiento de una carga anterior aún en curso.
+        geocodeTask?.cancel()
+        reclassifyTask?.cancel()
 
         Task {
             do {
@@ -116,11 +153,11 @@ class EventoService {
                 var processed = Self.processEvents(r.eventos)
                 applyEdits(to: &processed)
                 events = processed
-                Task { await geocodeEvents() }
-                Task { await reclassifyWithAI() }
+                geocodeTask = Task { await geocodeEvents() }
+                reclassifyTask = Task { await reclassifyWithAI() }
             } catch {
                 // Si hay datos cacheados, mostrarlos en lugar de un error en blanco
-                if let cached = UserDefaults.standard.data(forKey: cachedKey),
+                if let cached = readCachedJSON(),
                    let r = try? JSONDecoder().decode(RespuestaJSON.self, from: cached) {
                     var processed = Self.processEvents(r.eventos)
                     applyEdits(to: &processed)
@@ -145,14 +182,14 @@ class EventoService {
         let http = response as? HTTPURLResponse
 
         if http?.statusCode == 304,
-           let cached = UserDefaults.standard.data(forKey: cachedKey) {
+           let cached = readCachedJSON() {
             return cached
         }
 
         if let etag = http?.value(forHTTPHeaderField: "ETag") {
             UserDefaults.standard.set(etag, forKey: etagKey)
         }
-        UserDefaults.standard.set(data, forKey: cachedKey)
+        writeCachedJSON(data)
         return data
     }
 
@@ -218,6 +255,7 @@ class EventoService {
         }
         let uniqueVenues = Set(needsGeocode.map { "\($0.venue)|\($0.ciudad)" })
         for venueKey in uniqueVenues {
+            if Task.isCancelled { return }
             let parts = venueKey.split(separator: "|", maxSplits: 1)
             guard parts.count == 2 else { continue }
             let venue = String(parts[0])
@@ -234,13 +272,50 @@ class EventoService {
     private func reclassifyWithAI() async {
         guard EventClassifier.isAvailable else { return }
 
-        for i in events.indices {
-            if let category = await EventClassifier.classify(
-                title: events[i].title,
-                description: events[i].blurb
-            ) {
-                events[i].category = category
+        // No tocar eventos con categoría editada manualmente por el usuario.
+        let editedIDs = Set(loadEdits().keys)
+
+        // 1. Aplicar de inmediato las categorías ya cacheadas (sin invocar el modelo).
+        for i in events.indices where !editedIDs.contains(events[i].stableID) {
+            if let raw = aiCategoryCache[events[i].stableID],
+               let cat = Event.Category(rawValue: raw) {
+                events[i].category = cat
             }
+        }
+
+        // 2. Clasificar solo los eventos que aún no tienen categoría IA cacheada.
+        let pending = events
+            .filter { aiCategoryCache[$0.stableID] == nil && !editedIDs.contains($0.stableID) }
+            .map { (stableID: $0.stableID, title: $0.title, blurb: $0.blurb) }
+
+        guard !pending.isEmpty else { return }
+        defer { persistAICache() }  // Guardar progreso aunque se cancele a mitad.
+
+        for item in pending {
+            if Task.isCancelled { return }
+            guard let category = await EventClassifier.classify(
+                title: item.title,
+                description: item.blurb
+            ) else { continue }
+
+            aiCategoryCache[item.stableID] = category.rawValue
+            // Re-localizar por stableID: el array pudo cambiar durante el await.
+            if let idx = events.firstIndex(where: { $0.stableID == item.stableID }) {
+                events[idx].category = category
+            }
+        }
+    }
+
+    private func loadAICache() {
+        guard let data = UserDefaults.standard.data(forKey: aiCacheKey),
+              let decoded = try? JSONDecoder().decode([String: String].self, from: data)
+        else { return }
+        aiCategoryCache = decoded
+    }
+
+    private func persistAICache() {
+        if let data = try? JSONEncoder().encode(aiCategoryCache) {
+            UserDefaults.standard.set(data, forKey: aiCacheKey)
         }
     }
 

@@ -26,12 +26,14 @@ Uso:
 """
 
 import json
+import os
 import re
+import sys
 import threading
 import time
 import warnings
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
@@ -497,28 +499,37 @@ _NOMINATIM_HEADERS = {
 
 
 def _geocodificar_nominatim(query):
-    """Consulta Nominatim una vez. Retorna (lat, lon) o None."""
+    """Consulta Nominatim una vez. Retorna (lat, lon, ciudad) o None.
+    `ciudad` se extrae de addressdetails (puede ser "")."""
     try:
         encoded = requests.utils.quote(query)
-        url = f"https://nominatim.openstreetmap.org/search?q={encoded}&format=json&limit=1&countrycodes=cl"
+        url = (f"https://nominatim.openstreetmap.org/search?q={encoded}"
+               f"&format=json&limit=1&addressdetails=1&countrycodes=cl")
         r = requests.get(url, headers=_NOMINATIM_HEADERS, timeout=10)
         data = r.json()
         if data:
-            return (float(data[0]["lat"]), float(data[0]["lon"]))
+            addr = data[0].get("address", {})
+            ciudad = (addr.get("city") or addr.get("town") or addr.get("village")
+                      or addr.get("municipality") or addr.get("county") or "")
+            return (float(data[0]["lat"]), float(data[0]["lon"]), ciudad)
     except Exception as e:
         print(f"    ⚠️  Nominatim ({query[:50]}): {e}")
     return None
 
 
 def _geocodificar_venue(venue, ciudad):
-    """Devuelve (lat, lon): primero diccionario, luego Nominatim venue, luego ciudad."""
+    """Devuelve (lat, lon, ciudad_detectada): primero diccionario, luego
+    Nominatim venue, luego ciudad. La ciudad detectada va vacía para los hits
+    del diccionario fijo (no aportan nombre de ciudad)."""
     venue_key  = venue.lower().strip()
     ciudad_key = ciudad.lower().strip()
 
     if venue_key in COORDENADAS_FIJAS:
-        return COORDENADAS_FIJAS[venue_key]
+        lat, lon = COORDENADAS_FIJAS[venue_key]
+        return (lat, lon, "")
     if ciudad_key in COORDENADAS_FIJAS:
-        return COORDENADAS_FIJAS[ciudad_key]
+        lat, lon = COORDENADAS_FIJAS[ciudad_key]
+        return (lat, lon, "")
 
     if venue and venue.lower() not in {ciudad.lower(), "chile", ""}:
         coord = _geocodificar_nominatim(f"{venue}, {ciudad}, Chile")
@@ -532,9 +543,11 @@ def _geocodificar_venue(venue, ciudad):
 
 
 def geocodificar_todos(eventos):
-    """Añade lat/lon a cada evento. Deduplica por (venue, ciudad)."""
+    """Añade lat/lon a cada evento. Deduplica por (venue, ciudad).
+    Rellena `ciudad` vacía o "Chile" con la que devuelve la geocodificación."""
     print("\n🌍 Geocodificando venues...")
     cache = {}
+    rellenados = 0
     for evento in eventos:
         venue  = evento.get("venue", "")
         ciudad = evento.get("ciudad", "")
@@ -545,12 +558,24 @@ def geocodificar_todos(eventos):
             if cache[key]:
                 print(f"  📍 {(venue or ciudad)[:40]} → {cache[key][0]:.4f}, {cache[key][1]:.4f}")
 
-        coord = cache[key]
-        evento["lat"] = round(coord[0], 6) if coord else None
-        evento["lon"] = round(coord[1], 6) if coord else None
+        resultado = cache[key]
+        if resultado:
+            lat, lon, ciudad_geo = resultado
+            evento["lat"] = round(lat, 6)
+            evento["lon"] = round(lon, 6)
+            # Backfill: si la ciudad venía vacía o como sentinel "Chile",
+            # usar la ciudad real que resolvió la geocodificación.
+            if ciudad_geo and ciudad.strip().lower() in {"", "chile"}:
+                evento["ciudad"] = ciudad_geo
+                rellenados += 1
+        else:
+            evento["lat"] = None
+            evento["lon"] = None
 
     geocoded = sum(1 for e in eventos if e.get("lat") is not None)
     print(f"  ✅ {geocoded}/{len(eventos)} eventos geocodificados")
+    if rellenados:
+        print(f"  🏙️  {rellenados} ciudades rellenadas desde geocodificación")
     return eventos
 
 
@@ -1913,6 +1938,39 @@ def enriquecer_evento(evento):
     return evento
 
 
+# ── Guardia de salud ─────────────────────────────────────────────────────────
+
+def _contar_por_fuente(eventos):
+    """Devuelve {fuente: cantidad} a partir de una lista de eventos."""
+    counts = {}
+    for e in eventos:
+        f = e.get("fuente", "?")
+        counts[f] = counts.get(f, 0) + 1
+    return counts
+
+
+def cargar_fuentes_previas(path):
+    """Lee el JSON previo (si existe) y devuelve {fuente: count}. {} si no hay."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return _contar_por_fuente(data.get("eventos", []))
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return {}
+
+
+def verificar_salud(fuentes, fuentes_previas, total, total_previo):
+    """Compara el run actual con el anterior. Devuelve lista de problemas.
+    Detecta fuentes que tenían eventos y cayeron a 0, y caídas globales >50%."""
+    problemas = []
+    for fuente, prev in sorted(fuentes_previas.items()):
+        if prev > 0 and fuentes.get(fuente, 0) == 0:
+            problemas.append(f"Fuente '{fuente}' cayó de {prev} a 0 eventos")
+    if total_previo > 0 and total < total_previo * 0.5:
+        problemas.append(f"Total cayó de {total_previo} a {total} eventos (>50%)")
+    return problemas
+
+
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1954,18 +2012,20 @@ def main():
             if completados % 20 == 0 or completados == len(todos):
                 print(f"  ↳ {completados}/{len(todos)} completados")
 
+    # Conteo por fuente del run actual y del anterior (para el guardia de salud).
+    fuentes = _contar_por_fuente(todos)
+    fuentes_previas = cargar_fuentes_previas(OUTPUT_FILE)
+    total_previo = sum(fuentes_previas.values())
+
     resultado = {
-        "generado_en": datetime.now().isoformat(),
+        "generado_en": datetime.now(timezone.utc).isoformat(),
         "total_eventos": len(todos),
+        "por_fuente": fuentes,
         "eventos": todos,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(resultado, f, ensure_ascii=False, indent=2)
-
-    fuentes = {}
-    for e in todos:
-        fuentes[e["fuente"]] = fuentes.get(e["fuente"], 0) + 1
 
     con_imagen  = sum(1 for e in todos if e["imagen_url"])
     con_fecha   = sum(1 for e in todos if e["fecha_iso"])
@@ -1983,6 +2043,22 @@ def main():
     print(f"  Con bio artista : {con_bio}")
     print(f"  Archivo         : '{OUTPUT_FILE}'")
     print(f"{'=' * 55}\n")
+
+    # Guardia de salud: avisa (y aborta en CI) si una fuente cayó a 0 o el total
+    # se desplomó, para no sobrescribir datos buenos con un run roto.
+    problemas = verificar_salud(fuentes, fuentes_previas, len(todos), total_previo)
+    if problemas:
+        print("⚠️  ALERTA DE SALUD DEL SCRAPER:")
+        for p in problemas:
+            print(f"    • {p}")
+        if os.environ.get("PLAZA_SKIP_HEALTHCHECK"):
+            print("  (PLAZA_SKIP_HEALTHCHECK activo — no se aborta)\n")
+        else:
+            print("  Abortando (exit 1) para no commitear datos degradados en CI.")
+            print("  Define PLAZA_SKIP_HEALTHCHECK=1 para forzar.\n")
+            sys.exit(1)
+    elif total_previo > 0:
+        print("✅ Salud OK: ninguna fuente cayó a 0.\n")
 
 
 if __name__ == "__main__":

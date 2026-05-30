@@ -1,6 +1,6 @@
 // Event.swift
 // Modelo central: Event struct, 7 categorías, conversión Evento→Event (parseName, classify, stripHTML),
-// EditedFields (persistencia de ediciones), filtros byComune/byMaxDistance.
+// EditedFields (persistencia de ediciones), filtros byComuneTiered/byMaxDistance.
 
 import Foundation
 import CoreLocation
@@ -13,7 +13,10 @@ private let eventDateFormatter: DateFormatter = {
 }()
 
 struct Event: Identifiable, Hashable {
-    let id: UUID
+    // Identidad basada en stableID (URL fuente): se mantiene estable entre
+    // refreshes, a diferencia de un UUID regenerado en cada parse. Esto preserva
+    // la navegación y el diffing de listas cuando los datos se recargan.
+    var id: String { stableID }
     var stableID: String
     var title: String
     var subtitle: String
@@ -67,10 +70,14 @@ struct Event: Identifiable, Hashable {
         }
     }
 
-    var groupKey: String { title.lowercased() }
+    // Agrupa por título + subtítulo: las giras del MISMO show (igual título y
+    // subtítulo en varias ciudades) se colapsan en una tarjeta con otherDates,
+    // pero shows distintos del mismo artista (p. ej. "Esteban Duch — Victoria"
+    // vs "— IO", o los 6 programas de "Escuela Fútbol UC") no se fusionan.
+    var groupKey: String { "\(title)|\(subtitle)".lowercased() }
 
-    static func == (lhs: Event, rhs: Event) -> Bool { lhs.id == rhs.id }
-    func hash(into hasher: inout Hasher) { hasher.combine(id) }
+    static func == (lhs: Event, rhs: Event) -> Bool { lhs.stableID == rhs.stableID }
+    func hash(into hasher: inout Hasher) { hasher.combine(stableID) }
 }
 
 // MARK: - Coordenadas
@@ -101,7 +108,6 @@ extension Event {
         }
 
         return Event(
-            id: UUID(),
             stableID: evento.url,
             title: cleanTitle,
             subtitle: cleanSubtitle,
@@ -212,12 +218,19 @@ extension Event {
         return s.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
-    private static func parseDate(_ string: String) -> Date {
-        let formats = ["yyyy-MM-dd'T'HH:mm:ss", "yyyy-MM-dd", "dd-MM-yyyy"]
-        for fmt in formats {
+    // Formatters cacheados: crear un DateFormatter es costoso y parseDate se
+    // invoca por cada evento.
+    private static let dateParsers: [DateFormatter] = {
+        ["yyyy-MM-dd'T'HH:mm:ss", "yyyy-MM-dd", "dd-MM-yyyy"].map { fmt in
             let df = DateFormatter()
             df.locale = Locale(identifier: "es_CL")
             df.dateFormat = fmt
+            return df
+        }
+    }()
+
+    private static func parseDate(_ string: String) -> Date {
+        for df in dateParsers {
             if let d = df.date(from: string) { return d }
         }
         return .now
@@ -262,14 +275,40 @@ struct EditedFields: Codable {
 // MARK: - Filtering helpers
 
 extension Array where Element == Event {
-    func byComune(_ key: String) -> [Event] {
-        // "Chile" y "" son sentinelas de "mostrar todo"
+    // Match estricto por comuna/ciudad, SIN fallback: devuelve [] si no hay nada.
+    // "Chile" y "" son sentinelas de "mostrar todo".
+    func byComuneStrict(_ key: String) -> [Event] {
         let k = key.lowercased().trimmingCharacters(in: .whitespaces)
         guard k != "chile", !k.isEmpty else { return self }
-        let byCiudad = filter {
+        return filter {
             $0.ciudad.lowercased().contains(k) || k.contains($0.ciudad.lowercased())
         }
-        return byCiudad.isEmpty ? self : byCiudad
+    }
+
+    // Filtro por comuna con degradación escalonada: comuna → región → todo Chile.
+    // `note` describe el nivel cuando hubo que ampliar la búsqueda (nil si fue
+    // match directo), para avisar al usuario en vez de caer en silencio a todo Chile.
+    func byComuneTiered(_ key: String) -> (events: [Event], note: String?) {
+        guard !isEmpty else { return (self, nil) }
+
+        let strict = byComuneStrict(key)
+        if !strict.isEmpty { return (strict, nil) }
+
+        // Nivel 2: ampliar a la región de la comuna.
+        if let region = ComunaManager.region(for: key) {
+            let regional = filter { event in
+                region.comunas.contains {
+                    event.ciudad.lowercased().contains($0.lowercased()) ||
+                    $0.lowercased().contains(event.ciudad.lowercased())
+                }
+            }
+            if !regional.isEmpty {
+                return (regional, "Sin eventos en \(key) · mostrando \(region.id)")
+            }
+        }
+
+        // Nivel 3: todo Chile.
+        return (self, "Sin eventos en \(key) · mostrando todo Chile")
     }
 
     func byMaxDistance(_ maxKm: Double, from userLocation: CLLocation?) -> [Event] {
@@ -285,7 +324,7 @@ extension Array where Element == Event {
 
 extension Event {
     static let samples: [Event] = [
-        .init(id: UUID(), stableID: "sample-1", title: "CUARTETO LATINOAMERICANO", subtitle: "Concierto de cámara",
+        .init(stableID: "sample-1", title: "CUARTETO LATINOAMERICANO", subtitle: "Concierto de cámara",
               venue: "Teatro Municipal", ciudad: "Antofagasta", category: .musica,
               date: Date().addingTimeInterval(60*60*4),
               coordinate: .init(latitude: -23.6509, longitude: -70.3975),
