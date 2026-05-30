@@ -1319,173 +1319,26 @@ def scrape_esquinaretornable():
 # ── Scraper 8: CulturaAntofagasta RSS ───────────────────────────────────────
 
 def scrape_cultura_antofagasta():
-    """
-    Corporación Municipal de Cultura de Antofagasta — feed RSS WordPress.
-    Cada ítem es una noticia/evento; se filtra por fecha en el texto.
-    """
+    """Corporación Municipal de Cultura de Antofagasta — feed RSS WordPress."""
     print("\n🔍 CulturaAntofagasta.cl (RSS) ...")
-    FEED = "https://culturaantofagasta.cl/feed/"
-    CIUDAD = "Antofagasta"
-
-    r = get(FEED)
-    if not r:
-        return []
-
-    soup = BeautifulSoup(r.text, "html.parser")
-    items = soup.find_all("item")
-    print(f"  → {len(items)} ítems en feed")
-
-    eventos = []
-    ahora = datetime.now().date()
-
-    for item in items:
-        title_tag = item.find("title")
-        link_tag  = item.find("link")
-        desc_tag  = item.find("description")
-
-        if not title_tag or not link_tag:
-            continue
-
-        nombre_raw = limpiar(title_tag.get_text())
-        url        = (link_tag.next_sibling or "").strip()
-        if not url:
-            url = link_tag.get_text(strip=True)
-
-        desc_html  = desc_tag.get_text(" ", strip=True) if desc_tag else ""
-        desc_clean = limpiar(re.sub(r"<[^>]+>", " ", desc_html))
-
-        # Extraer fecha del título o descripción
-        fecha_iso, fecha_texto = extraer_fecha_de_texto(nombre_raw)
-        if not fecha_iso:
-            fecha_iso, fecha_texto = extraer_fecha_de_texto(desc_clean)
-
-        # Si no hay fecha o ya pasó → saltar
-        if fecha_iso:
-            try:
-                if datetime.strptime(fecha_iso, "%Y-%m-%d").date() < ahora:
-                    continue
-            except ValueError:
-                pass
-
-        # Imagen: og:image desde la URL del post (solo si hay fecha — vale la pena)
-        imagen = ""
-        if fecha_iso and url:
-            r2 = get(url)
-            if r2:
-                s2 = BeautifulSoup(r2.text, "html.parser")
-                tag = s2.find("meta", property="og:image")
-                if tag and tag.get("content"):
-                    imagen = tag["content"].strip()
-                # Refinar descripción con og:description si disponible
-                tag2 = s2.find("meta", property="og:description")
-                if tag2 and tag2.get("content"):
-                    desc_clean = limpiar(tag2["content"])
-            time.sleep(PAUSA)
-
-        nombre = limpiar_nombre(nombre_raw, ciudad=CIUDAD)
-        if not nombre:
-            continue
-
-        eventos.append({
-            "fuente":           "CulturaAntofagasta",
-            "nombre":           nombre,
-            "venue":            "Corporación Municipal de Cultura",
-            "descripcion":      desc_clean[:300],
-            "fecha_iso":        fecha_iso,
-            "fecha_texto":      fecha_texto,
-            "precio_desde_clp": "",
-            "ciudad":           CIUDAD,
-            "imagen_url":       imagen,
-            "url":              url,
-        })
-
-    print(f"  ✅ {len(eventos)} eventos")
-    return eventos
+    items = _scrape_rss_municipal(
+        "https://culturaantofagasta.cl/feed/",
+        "Antofagasta", "Corporación Municipal de Cultura", "CulturaAntofagasta")
+    print(f"  ✅ {len(items)} eventos")
+    return items
 
 
 # ── Scraper 9: CulturaIquique RSS ───────────────────────────────────────────
 
 def scrape_cultura_iquique():
-    """
-    Corporación Cultural Municipal de Iquique — feed RSS WordPress.
-    Contiene principalmente conciertos de la Orquesta Regional de Tarapacá.
-    """
+    """Corporación Cultural Municipal de Iquique — feed RSS WordPress.
+    Contiene principalmente conciertos de la Orquesta Regional de Tarapacá."""
     print("\n🔍 CulturaIquique.cl (RSS) ...")
-    FEED   = "https://culturaiquique.cl/feed/"
-    CIUDAD = "Iquique"
-
-    r = get(FEED)
-    if not r:
-        return []
-
-    soup = BeautifulSoup(r.text, "html.parser")
-    items = soup.find_all("item")
-    print(f"  → {len(items)} ítems en feed")
-
-    eventos = []
-    ahora = datetime.now().date()
-
-    for item in items:
-        title_tag = item.find("title")
-        link_tag  = item.find("link")
-        desc_tag  = item.find("description")
-
-        if not title_tag or not link_tag:
-            continue
-
-        nombre_raw = limpiar(title_tag.get_text())
-        url        = (link_tag.next_sibling or "").strip()
-        if not url:
-            url = link_tag.get_text(strip=True)
-
-        desc_html  = desc_tag.get_text(" ", strip=True) if desc_tag else ""
-        desc_clean = limpiar(re.sub(r"<[^>]+>", " ", desc_html))
-
-        # Extraer fecha del título ("29 de mayo: Concierto de Temporada")
-        fecha_iso, fecha_texto = extraer_fecha_de_texto(nombre_raw)
-        if not fecha_iso:
-            fecha_iso, fecha_texto = extraer_fecha_de_texto(desc_clean)
-
-        if fecha_iso:
-            try:
-                if datetime.strptime(fecha_iso, "%Y-%m-%d").date() < ahora:
-                    continue
-            except ValueError:
-                pass
-
-        # Imagen desde og:image del post
-        imagen = ""
-        if url:
-            r2 = get(url)
-            if r2:
-                s2 = BeautifulSoup(r2.text, "html.parser")
-                tag = s2.find("meta", property="og:image")
-                if tag and tag.get("content"):
-                    imagen = tag["content"].strip()
-                tag2 = s2.find("meta", property="og:description")
-                if tag2 and tag2.get("content"):
-                    desc_clean = limpiar(tag2["content"])
-            time.sleep(PAUSA)
-
-        nombre = limpiar_nombre(nombre_raw, ciudad=CIUDAD)
-        if not nombre:
-            continue
-
-        eventos.append({
-            "fuente":           "CulturaIquique",
-            "nombre":           nombre,
-            "venue":            "Corporación Cultural Municipal de Iquique",
-            "descripcion":      desc_clean[:300],
-            "fecha_iso":        fecha_iso,
-            "fecha_texto":      fecha_texto,
-            "precio_desde_clp": "",
-            "ciudad":           CIUDAD,
-            "imagen_url":       imagen,
-            "url":              url,
-        })
-
-    print(f"  ✅ {len(eventos)} eventos")
-    return eventos
+    items = _scrape_rss_municipal(
+        "https://culturaiquique.cl/feed/",
+        "Iquique", "Corporación Cultural Municipal de Iquique", "CulturaIquique")
+    print(f"  ✅ {len(items)} eventos")
+    return items
 
 
 # ── Scraper 10: Ticketchile ──────────────────────────────────────────────────
@@ -1741,16 +1594,66 @@ def scrape_joinnus():
 
 # ── Scraper 14: RSS Municipales ──────────────────────────────────────────────
 
-def _scrape_rss_municipal(feed_url, ciudad, venue, fuente):
-    """Helper genérico para feeds RSS WordPress de corporaciones culturales."""
+# Señales de que un ítem RSS es una nota de prensa, balance o recopilación de
+# varias actividades — NO un evento con asistencia de público en un lugar/fecha.
+RSS_RUIDO = re.compile(
+    r"r[ée]cord|balance|inaugur[óo]|rinden\s+homenaje|se\s+prepar[óa]"
+    r"|100\s*%\s*de\s+las\s+comunas|varias\s+comunas|en\s+todo\s+el\s+pa[íi]s"
+    r"|m[áa]s\s+de\s+[\d\.]+\s+(?:mil\s+)?actividades|gran\s+[ée]xito|exitos[ao]"
+    r"|convocatoria|concurso|postulaci|abre\s+postulac|lanzamiento\s+de\s+bases"
+    r"|resultados\s+de|fallecid|estudian\s|se\s+transformar[áa]\s+en\s+libro"
+    r"|cuenta\s+p[úu]blica|firma\s+convenio|\bseremi\b"
+    r"|ser\s+parte\s+de\s+la\s+(?:celebraci[óo]n|conmemoraci[óo]n)",
+    re.IGNORECASE,
+)
+
+# Palabras que indican un evento real (función con público).
+RSS_EVENTO = re.compile(
+    r"concierto|recital|funci[óo]n|obra|exposici[óo]n|muestra|festival|ciclo"
+    r"|temporada|taller|feria|danza|ballet|[óo]pera|entradas?|estreno|gala"
+    r"|carnaval|presenta(?:ci[óo]n)?\b",
+    re.IGNORECASE,
+)
+
+
+def _rss_es_evento(titulo, desc, fecha_iso):
+    """¿El ítem RSS es un evento y no una nota de prensa/recopilación?
+    Mantiene si tiene fecha futura o una palabra-señal de evento, y nunca si
+    coincide con las señales de ruido (notas, balances, recopilaciones)."""
+    texto = f"{titulo} {desc}"
+    if RSS_RUIDO.search(texto):
+        return False
+    if fecha_iso:
+        return True
+    return bool(RSS_EVENTO.search(texto))
+
+
+def limpiar_nombre_rss(nombre_crudo):
+    """Limpieza suave para titulares-oración de feeds RSS: quita prefijos de
+    ticketera y normaliza espacios, pero NO borra meses ni ciudades (son parte
+    de la frase, a diferencia de los títulos de ticketera)."""
+    nombre = re.sub(PREFIJOS_TICKETERA, "", nombre_crudo, flags=re.IGNORECASE)
+    return limpiar(nombre).strip(" -–—·")
+
+
+def _scrape_rss_municipal(feed_url, ciudad_feed, venue_feed, fuente):
+    """Helper genérico para feeds RSS WordPress de corporaciones culturales.
+
+    Estos feeds son blogs de noticias: mezclan eventos reales con notas de
+    prensa y recopilaciones. Filtra el ruido (`_rss_es_evento`), infiere la
+    ubicación real desde el texto (`detectar_ciudad`/`detectar_venue`) usando
+    la ciudad/venue del feed solo como fallback, y limpia el título sin
+    destrozar la frase (`limpiar_nombre_rss`)."""
     r = get(feed_url)
     if not r:
         return []
 
     soup  = BeautifulSoup(r.text, "html.parser")
     items = soup.find_all("item")
+    print(f"  → {len(items)} ítems en feed")
     eventos = []
     ahora   = datetime.now().date()
+    descartados = 0
 
     for item in items:
         title_tag = item.find("title")
@@ -1775,6 +1678,16 @@ def _scrape_rss_municipal(feed_url, ciudad, venue, fuente):
             except ValueError:
                 pass
 
+        # Filtro evento-vs-noticia: descarta notas de prensa y recopilaciones.
+        if not _rss_es_evento(nombre_raw, desc_clean, fecha_iso):
+            descartados += 1
+            continue
+
+        # Ubicación real desde el título; feed solo como fallback. Se usa el
+        # título (no la descripción) para no captar ciudades mencionadas de paso.
+        ciudad = detectar_ciudad(nombre_raw) or ciudad_feed
+        venue  = detectar_venue(nombre_raw) or venue_feed
+
         imagen = ""
         if url:
             r2 = get(url)
@@ -1788,7 +1701,7 @@ def _scrape_rss_municipal(feed_url, ciudad, venue, fuente):
                     desc_clean = limpiar(tag2["content"])
             time.sleep(PAUSA)
 
-        nombre = limpiar_nombre(nombre_raw, ciudad=ciudad)
+        nombre = limpiar_nombre_rss(nombre_raw)
         if not nombre:
             continue
 
@@ -1805,6 +1718,8 @@ def _scrape_rss_municipal(feed_url, ciudad, venue, fuente):
             "url":              url,
         })
 
+    if descartados:
+        print(f"  🗑️  {descartados} ítems descartados (notas/recopilaciones)")
     return eventos
 
 
@@ -1959,16 +1874,29 @@ def cargar_fuentes_previas(path):
         return {}
 
 
+# Una fuente con menos de este conteo previo se considera "pequeña": que caiga
+# a 0 es solo una advertencia (feeds RSS frágiles, sin red puntual…), no un
+# motivo para abortar el CI. Las fuentes grandes (ticketeras) sí abortan.
+UMBRAL_FUENTE_CRITICA = 15
+
+
 def verificar_salud(fuentes, fuentes_previas, total, total_previo):
-    """Compara el run actual con el anterior. Devuelve lista de problemas.
-    Detecta fuentes que tenían eventos y cayeron a 0, y caídas globales >50%."""
-    problemas = []
+    """Compara el run actual con el anterior. Devuelve (criticos, advertencias).
+
+    `criticos` aborta el CI: fuentes grandes que cayeron a 0 o caída global >50%.
+    `advertencias` solo informa: fuentes pequeñas que cayeron a 0 (RSS frágil)."""
+    criticos = []
+    advertencias = []
     for fuente, prev in sorted(fuentes_previas.items()):
         if prev > 0 and fuentes.get(fuente, 0) == 0:
-            problemas.append(f"Fuente '{fuente}' cayó de {prev} a 0 eventos")
+            msg = f"Fuente '{fuente}' cayó de {prev} a 0 eventos"
+            if prev >= UMBRAL_FUENTE_CRITICA:
+                criticos.append(msg)
+            else:
+                advertencias.append(msg)
     if total_previo > 0 and total < total_previo * 0.5:
-        problemas.append(f"Total cayó de {total_previo} a {total} eventos (>50%)")
-    return problemas
+        criticos.append(f"Total cayó de {total_previo} a {total} eventos (>50%)")
+    return criticos, advertencias
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────
@@ -2044,20 +1972,25 @@ def main():
     print(f"  Archivo         : '{OUTPUT_FILE}'")
     print(f"{'=' * 55}\n")
 
-    # Guardia de salud: avisa (y aborta en CI) si una fuente cayó a 0 o el total
-    # se desplomó, para no sobrescribir datos buenos con un run roto.
-    problemas = verificar_salud(fuentes, fuentes_previas, len(todos), total_previo)
-    if problemas:
-        print("⚠️  ALERTA DE SALUD DEL SCRAPER:")
-        for p in problemas:
-            print(f"    • {p}")
+    # Guardia de salud: avisa (y aborta en CI) si una fuente grande cayó a 0 o
+    # el total se desplomó, para no sobrescribir datos buenos con un run roto.
+    # Las fuentes pequeñas (RSS) que caen a 0 solo generan advertencia.
+    criticos, advertencias = verificar_salud(fuentes, fuentes_previas, len(todos), total_previo)
+    if advertencias:
+        print("⚠️  Advertencias de salud (no abortan):")
+        for a in advertencias:
+            print(f"    • {a}")
+    if criticos:
+        print("🛑 ALERTA CRÍTICA DE SALUD DEL SCRAPER:")
+        for c in criticos:
+            print(f"    • {c}")
         if os.environ.get("PLAZA_SKIP_HEALTHCHECK"):
             print("  (PLAZA_SKIP_HEALTHCHECK activo — no se aborta)\n")
         else:
             print("  Abortando (exit 1) para no commitear datos degradados en CI.")
             print("  Define PLAZA_SKIP_HEALTHCHECK=1 para forzar.\n")
             sys.exit(1)
-    elif total_previo > 0:
+    elif total_previo > 0 and not advertencias:
         print("✅ Salud OK: ninguna fuente cayó a 0.\n")
 
 

@@ -70,7 +70,9 @@ Eventos con el mismo título **y subtítulo** (lowercased) se agrupan — giras 
 
 **Fuentes** (14): Ticketplus · Ticketpro · PuntoTicket · Ticketmaster · Passline · ComediaTicket · EsquinaRetornable · CulturaAntofagasta · CulturaIquique · Ticketchile · MasQueTickets · Eventbrite · Joinnus · RSS Municipales (CulturaGob, CCPLM, GAM, CulturaValparaíso).
 
-**Salud**: `verificar_salud` compara el run con el JSON previo (conteo por fuente). Si una fuente cae de >0 a 0, o el total baja >50%, aborta con `exit 1` (override: `PLAZA_SKIP_HEALTHCHECK=1`) para no commitear datos degradados. El JSON incluye `por_fuente: {fuente: count}`. `generado_en` en UTC.
+**Feeds RSS municipales** (`_scrape_rss_municipal`, compartido por CulturaGob/CCPLM/GAM/CulturaValparaíso/CulturaAntofagasta/CulturaIquique): son blogs de noticias, no de eventos. `_rss_es_evento` filtra notas de prensa y recopilaciones (`RSS_RUIDO` vs `RSS_EVENTO`); la ubicación se infiere con `detectar_ciudad`/`detectar_venue` sobre el título (feed = fallback); `limpiar_nombre_rss` limpia el titular sin borrar meses ni ciudades (a diferencia de `limpiar_nombre`).
+
+**Salud**: `verificar_salud` compara el run con el JSON previo y devuelve `(criticos, advertencias)`. **Críticos** (abortan con `exit 1`): una fuente grande (≥`UMBRAL_FUENTE_CRITICA`=15) cae a 0, o el total baja >50%. **Advertencias** (solo informan): una fuente pequeña/RSS cae a 0. Override: `PLAZA_SKIP_HEALTHCHECK=1`. El JSON incluye `por_fuente: {fuente: count}`. `generado_en` en UTC.
 
 **Tests**: `test_scraper.py` (unittest, sin red) cubre las funciones puras de parsing y el guardia de salud. Correr: `python3 test_scraper.py`.
 

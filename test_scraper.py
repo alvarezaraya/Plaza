@@ -97,26 +97,77 @@ class TestLimpiarNombreParaBusqueda(unittest.TestCase):
 
 
 class TestVerificarSalud(unittest.TestCase):
-    def test_fuente_cayo_a_cero(self):
-        probs = s.verificar_salud({"A": 10, "B": 0}, {"A": 10, "B": 5}, 10, 15)
-        self.assertTrue(any("B" in p for p in probs))
+    def test_fuente_grande_cayo_a_cero_es_critico(self):
+        criticos, adv = s.verificar_salud({"A": 0}, {"A": 30}, 0, 30)
+        self.assertTrue(any("A" in c for c in criticos))
+        self.assertEqual(adv, [])
 
-    def test_caida_global(self):
-        probs = s.verificar_salud({"A": 5}, {"A": 50}, 5, 50)
-        self.assertTrue(any("Total" in p for p in probs))
+    def test_fuente_pequena_cayo_a_cero_es_advertencia(self):
+        # Un feed RSS pequeño (9 < umbral) que cae a 0 no debe abortar el CI.
+        criticos, adv = s.verificar_salud({"A": 50, "RSS": 0}, {"A": 50, "RSS": 9}, 50, 59)
+        self.assertEqual(criticos, [])
+        self.assertTrue(any("RSS" in a for a in adv))
+
+    def test_caida_global_es_critica(self):
+        criticos, adv = s.verificar_salud({"A": 5}, {"A": 50}, 5, 50)
+        self.assertTrue(any("Total" in c for c in criticos))
 
     def test_sano(self):
-        self.assertEqual(s.verificar_salud({"A": 50}, {"A": 48}, 50, 48), [])
+        self.assertEqual(s.verificar_salud({"A": 50}, {"A": 48}, 50, 48), ([], []))
 
     def test_fuente_nueva_no_es_problema(self):
         # Una fuente nueva (sin historia previa) no debe marcar problema.
-        self.assertEqual(s.verificar_salud({"A": 10, "NUEVA": 3}, {"A": 10}, 13, 10), [])
+        self.assertEqual(
+            s.verificar_salud({"A": 50, "NUEVA": 3}, {"A": 50}, 53, 50), ([], []))
 
 
 class TestContarPorFuente(unittest.TestCase):
     def test_cuenta(self):
         eventos = [{"fuente": "A"}, {"fuente": "A"}, {"fuente": "B"}, {}]
         self.assertEqual(s._contar_por_fuente(eventos), {"A": 2, "B": 1, "?": 1})
+
+
+class TestRssEsEvento(unittest.TestCase):
+    def test_recopilacion_descartada(self):
+        self.assertFalse(s._rss_es_evento(
+            "Día del Patrimonio marca récord: más de 4 mil actividades en el 100% de las comunas",
+            "", "2026-05-31"))
+
+    def test_nota_de_prensa_descartada(self):
+        self.assertFalse(s._rss_es_evento(
+            "Rinden homenaje al legado del fallecido escritor", "", ""))
+
+    def test_evento_con_fecha_se_mantiene(self):
+        self.assertTrue(s._rss_es_evento("Concierto de Temporada", "", "2026-06-05"))
+
+    def test_evento_sin_fecha_con_palabra_clave(self):
+        self.assertTrue(s._rss_es_evento(
+            "Ciclo de conciertos barrocos del Ensamble", "", ""))
+
+    def test_sin_fecha_ni_senal_descartado(self):
+        self.assertFalse(s._rss_es_evento("Estudian Geoglifos de Ariquilda", "", ""))
+
+    def test_seremi_recopilacion_descartada(self):
+        # Anuncio institucional/recopilación, aunque tenga fecha.
+        self.assertFalse(s._rss_es_evento(
+            "Seremi de las Culturas de La Araucanía invita a la comunidad a ser "
+            "parte de la celebración del Día del Patrimonio", "", "2026-05-31"))
+
+    def test_invita_a_concierto_se_mantiene(self):
+        # "invita a la comunidad" en un evento real NO debe descartarse.
+        self.assertTrue(s._rss_es_evento(
+            "Orquesta Sinfónica invita a la comunidad a su concierto de gala", "", ""))
+
+
+class TestLimpiarNombreRss(unittest.TestCase):
+    def test_preserva_mes_y_ciudad(self):
+        n = s.limpiar_nombre_rss("Abril: Concierto de la Orquesta Sinfónica de Antofagasta")
+        self.assertIn("Abril", n)
+        self.assertIn("Antofagasta", n)
+
+    def test_quita_prefijo_ticketera(self):
+        self.assertEqual(
+            s.limpiar_nombre_rss("Ticketplus - Concierto de Jazz"), "Concierto de Jazz")
 
 
 if __name__ == "__main__":
