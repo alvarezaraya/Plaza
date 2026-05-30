@@ -131,6 +131,12 @@ final class ComunaManager {
         regiones.flatMap { $0.comunas }
     }
 
+    // Región a la que pertenece una comuna (para el fallback escalonado del feed).
+    static func region(for comuna: String) -> RegionData? {
+        let c = comuna.lowercased().trimmingCharacters(in: .whitespaces)
+        return regiones.first { $0.comunas.contains { $0.lowercased() == c } }
+    }
+
     // MARK: - Estado
 
     private(set) var selectedComuna: String

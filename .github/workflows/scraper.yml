@@ -40,6 +40,9 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit == 'true'
         run: python -m playwright install-deps chromium
 
+      - name: Ejecutar tests del scraper
+        run: python test_scraper.py
+
       - name: Ejecutar scraper
         run: python scraper_eventos.py
 
