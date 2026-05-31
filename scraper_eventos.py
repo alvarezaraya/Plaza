@@ -1884,8 +1884,8 @@ def scrape_rss_municipales():
         # (feed_url, ciudad, venue, fuente)
         ("https://www.cultura.gob.cl/feed/",
          "Santiago",    "Ministerio de las Culturas",            "CulturaGob"),
-        ("https://www.ccplm.cl/sitio/feed/",
-         "Santiago",    "Centro Cultural Palacio La Moneda",     "CCPLM"),
+        ("https://www.cclm.cl/feed/",
+         "Santiago",    "Centro Cultural La Moneda",             "CCLM"),
         ("https://www.culturalvalparaiso.cl/feed/",
          "Valparaíso",  "Corporación Cultural de Valparaíso",    "CulturaValparaíso"),
         # GAM ya no publica RSS (sitio migrado a SSR); ver scrape_gam().
