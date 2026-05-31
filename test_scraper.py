@@ -51,6 +51,18 @@ class TestParsearFecha(unittest.TestCase):
     def test_dia_invalido(self):
         self.assertEqual(s.parsear_fecha("32", "enero"), ("", ""))
 
+    def test_ancla_usa_anio_del_post_sin_bump(self):
+        # "24 de abril" en un post de abril 2026 → 2026-04-24, aunque ya pasó.
+        from datetime import date
+        iso, _ = s.parsear_fecha("24", "abril", fecha_ancla=date(2026, 4, 15))
+        self.assertEqual(iso, "2026-04-24")
+
+    def test_ancla_rollover_dic_a_ene(self):
+        # Post de diciembre sobre un evento de enero → año siguiente.
+        from datetime import date
+        iso, _ = s.parsear_fecha("5", "enero", fecha_ancla=date(2026, 12, 20))
+        self.assertEqual(iso, "2027-01-05")
+
 
 class TestExtraerFechaDeTexto(unittest.TestCase):
     def test_con_de(self):
@@ -63,6 +75,15 @@ class TestExtraerFechaDeTexto(unittest.TestCase):
 
     def test_sin_fecha(self):
         self.assertEqual(s.extraer_fecha_de_texto("Sin fecha por confirmar"), ("", ""))
+
+    def test_anio_explicito(self):
+        iso, _ = s.extraer_fecha_de_texto("La obra va el 24 de abril de 2026 en GAM")
+        self.assertEqual(iso, "2026-04-24")
+
+    def test_ancla_propaga_a_parsear(self):
+        from datetime import date
+        iso, _ = s.extraer_fecha_de_texto("24 de abril: Concierto", fecha_ancla=date(2026, 4, 15))
+        self.assertEqual(iso, "2026-04-24")
 
 
 class TestNombreDesdeSlug(unittest.TestCase):
@@ -157,6 +178,34 @@ class TestRssEsEvento(unittest.TestCase):
         # "invita a la comunidad" en un evento real NO debe descartarse.
         self.assertTrue(s._rss_es_evento(
             "Orquesta Sinfónica invita a la comunidad a su concierto de gala", "", ""))
+
+
+class TestGamEventJsonld(unittest.TestCase):
+    def test_extrae_event(self):
+        html = ('<html><head>'
+                '<script type="application/ld+json">'
+                '{"@context":"https://schema.org","@type":"Event",'
+                '"name":"Cerebro","startDate":"2026-05-30T20:00:00"}'
+                '</script></head></html>')
+        ev = s._gam_event_jsonld(html)
+        self.assertIsNotNone(ev)
+        self.assertEqual(ev["name"], "Cerebro")
+
+    def test_ignora_no_event(self):
+        html = ('<script type="application/ld+json">'
+                '{"@type":"PerformingArtsTheater","name":"GAM"}</script>')
+        self.assertIsNone(s._gam_event_jsonld(html))
+
+    def test_sin_jsonld(self):
+        self.assertIsNone(s._gam_event_jsonld("<html><body>nada</body></html>"))
+
+    def test_lista_de_objetos(self):
+        html = ('<script type="application/ld+json">'
+                '[{"@type":"PerformingArtsTheater","name":"GAM"},'
+                '{"@type":"Event","name":"Furias","startDate":"2026-07-01T19:00:00"}]'
+                '</script>')
+        ev = s._gam_event_jsonld(html)
+        self.assertEqual(ev["name"], "Furias")
 
 
 class TestLimpiarNombreRss(unittest.TestCase):
