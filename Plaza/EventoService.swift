@@ -186,6 +186,13 @@ class EventoService {
             return cached
         }
 
+        // Solo cacheamos respuestas exitosas. Un 404 (p.ej. ruta de Pages
+        // equivocada) devuelve una página HTML que no es JSON; cachearla
+        // envenena la caché y rompe incluso el fallback offline.
+        guard http?.statusCode == 200 else {
+            throw URLError(.badServerResponse)
+        }
+
         if let etag = http?.value(forHTTPHeaderField: "ETag") {
             UserDefaults.standard.set(etag, forKey: etagKey)
         }
