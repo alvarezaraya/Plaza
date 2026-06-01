@@ -57,7 +57,7 @@ class EventoService {
     // GitHub Pages (Fastly CDN) — más rápido que raw.githubusercontent.com.
     // Requiere activar Pages en repo Settings → Pages → Source: docs/ en main.
     private let jsonURL = URL(string:
-        "https://alvarezaraya.github.io/plaza/eventos.json"
+        "https://alvarezaraya.github.io/Plaza/eventos.json"
     )!
     private let editsKey  = "plaza_edited_events"
     private let savedKey  = "plaza_saved_events"

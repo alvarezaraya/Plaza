@@ -2,7 +2,7 @@
 
 **Plaza** — App de eventos culturales chilenos.
 iOS app (SwiftUI, iOS 26+, Liquid Glass, sin SPM) + scraper Python que genera `eventos.json` vía CI.
-JSON en `https://alvarezaraya.github.io/plaza/eventos.json` (GitHub Pages). Activar una vez: repo Settings → Pages → `docs/` on `main`.
+JSON en `https://alvarezaraya.github.io/Plaza/eventos.json` (GitHub Pages, ruta sensible a mayúsculas: repo `Plaza`). Requiere repo **público** + Pages habilitado (`docs/` on `main`).
 
 ## Comandos
 
