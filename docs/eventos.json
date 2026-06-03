@@ -1,12 +1,14 @@
 {
-  "generado_en": "2026-06-03T00:09:45.881893+00:00",
-  "total_eventos": 311,
+  "generado_en": "2026-06-03T20:54:41.786637+00:00",
+  "total_eventos": 328,
   "por_fuente": {
-    "Ticketplus": 135,
-    "ComediaTicket": 39,
-    "Ticketmaster": 27,
-    "GAM": 57,
+    "Ticketplus": 141,
+    "ComediaTicket": 40,
     "PuntoTicket": 37,
+    "Ticketmaster": 28,
+    "EsquinaRetornable": 8,
+    "GAM": 56,
+    "CulturaGob": 2,
     "CulturaAntofagasta": 4,
     "Eventbrite": 10,
     "CCLM": 2
@@ -57,8 +59,8 @@
       "url": "https://ticketplus.cl/events/cuando-cae-el-otono",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Sin Otoño, Sin Primavera es una película ecuatoriana que retrata las angustias de una generación. Es dirigida por Iván Mora Manzano.",
+      "bio_artista": "Sin Otoño, Sin Primavera es una película ecuatoriana que retrata las angustias de una generación. Es dirigida por Iván Mora Manzano."
     },
     {
       "fuente": "Ticketplus",
@@ -74,7 +76,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Alpha de Julia Ducournau en SALA K",
-      "bio_artista": ""
+      "bio_artista": "Rahavard Farahani, known professionally as Golshifteh Farahani, is an Iranian and French actress. She is known for her performances in M for Mother (2006), Body of Lies (2008), About Elly (2009), The Patience Stone (2012), Paterson (2016), Girls of the Sun (2018), Extraction (2020) and its sequel Extraction 2 (2023), and Invasion (2021–present). For her performance in The Patience Stone, she was nominated for Most Promising Actress at the 39th César Awards."
     },
     {
       "fuente": "Ticketplus",
@@ -106,7 +108,7 @@
       "lat": -42.4791,
       "lon": -73.7616,
       "descripcion_extendida": "Mil pedazos de Sergio Castro en SALA K",
-      "bio_artista": "Hebe María Pastor de Bonafini, más conocida como Hebe de Bonafini, fue una activista argentina, cofundadora de la asociación Madres de Plaza de Mayo, organización de madres de detenidos desaparecidos durante la última dictadura cívico-militar, que gobernó Argentina entre 1976 y 1983, de la cual dependen un instituto universitario nacional, un periódico, una radio, una casa cultural, una librería y administra un centro cultural donde antes se encontraba el centro clandestino ESMA."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -286,54 +288,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "NOA ★ MARTES IO ★ Club Sie7e",
-      "venue": "",
-      "descripcion": "NOA ★ MARTES 02 JUNIO ★ Club Sie7e",
-      "fecha_iso": "2026-06-02",
-      "fecha_texto": "2 de junio de 2026",
-      "precio_desde_clp": "13.200",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/8623122076e243fea4a13fc9a3016ebb0a8cc9f1.png?1780257338&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/noa-martes-02-junio-club-sie7e",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "NOA ★ MARTES 02 JUNIO ★ Club Sie7e",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketmaster",
-      "nombre": "Zhamira Tour",
-      "venue": "Teatro Nescafé De Las Artes",
-      "descripcion": "2 de Junio 2026",
-      "fecha_iso": "2026-06-02",
-      "fecha_texto": "2 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Providencia",
-      "imagen_url": "https://cdn.getcrowder.com/images/413b7052-f29b-493d-9bc2-a26d8bf45fc8-post-nueva-fecha-s.png",
-      "url": "https://www.ticketmaster.cl/event/zhamira-tour-teatro-nescafe-de-las-artes",
-      "lat": -33.425278,
-      "lon": -70.608056,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "GAM",
-      "nombre": "Lanzamiento de libro: Escritura y montaje: Un libro de Raúl Rodríguez Freire",
-      "venue": "Centro Gabriela Mistral (GAM)",
-      "descripcion": "¿Qué es un libro? ¿Un contenedor neutro de ideas o un dispositivo material que organiza nuestra percepción? Escritura y montaje propone leer la escritura no",
-      "fecha_iso": "2026-06-02",
-      "fecha_texto": "2 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://gam.cl/media/images/PORTADAswing_1.2e16d0ba.fill-1200x630.png",
-      "url": "https://gam.cl/es/que-hacer-en-gam/ideasypensamiento/lanzamiento-de-libro-escritura-y-montaje/",
-      "lat": -33.437778,
-      "lon": -70.640556,
-      "descripcion_extendida": "¿Qué es un libro? ¿Un contenedor neutro de ideas o un dispositivo material que organiza nuestra percepción? Escritura y montaje propone leer la escritura no",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "YENITA DE AMOR - COLECTIVO TÍAS COCHINAS",
       "venue": "",
       "descripcion": "YENITA DE AMOR - COLECTIVO TÍAS COCHINAS",
@@ -371,7 +325,7 @@
       "descripcion": "HOT CUE ★ MIÉRCOLES 03 JUNIO ★ Club Siete",
       "fecha_iso": "2026-06-03",
       "fecha_texto": "3 de junio de 2026",
-      "precio_desde_clp": "11.000",
+      "precio_desde_clp": "16.500",
       "ciudad": "Santiago",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/a476dec76e6cc4f863037e44e2502454c4384e7f.jpeg?1780417335&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/hot-cue-miercoles-03-junio-club-siete",
@@ -429,6 +383,38 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ETERNO RESPLANDOR DE UNA MENTE SIN RECUERDOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Clásicos de Culto · Dir. Michel Gondry",
+      "descripcion_extendida": "Clásicos de Culto · Dir. Michel Gondry",
+      "fecha_iso": "2026-06-03",
+      "fecha_texto": "3 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/ERDUMSR-WEB.jpg",
+      "url": "https://www.passline.com/sitio-evento/eterno-resplandor-de-una-mente-sin-recuerdos-518228",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "DESPUÉS DE LA NIEBLA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Estreno Nacional · Dir. Miriam Heard",
+      "descripcion_extendida": "Estreno Nacional · Dir. Miriam Heard",
+      "fecha_iso": "2026-06-03",
+      "fecha_texto": "3 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/DESPUES-DE-LA-NIEBLA-POSTER.jpg",
+      "url": "https://www.passline.com/sitio-evento/despues-de-la-niebla-518229",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "GAM",
       "nombre": "Lanzamiento de la trilogía: \"Código Vicario\"",
       "venue": "Centro Gabriela Mistral (GAM)",
@@ -458,6 +444,22 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "CENA CAMPEONES DE AMERICA 1991",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "JUEVEOO 💋 En Caserío Fiesta Jueves io en Hangar Bellavista",
+      "venue": "",
+      "descripcion": "JUEVEOO 💋 En Caserío Fiesta Jueves 4 de Junio en Hangar Bellavista",
+      "fecha_iso": "2026-06-04",
+      "fecha_texto": "4 de junio de 2026",
+      "precio_desde_clp": "4.000",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/067a97e7af1d02268071bff65770bbd5c89965e3.png?1780357236&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/jueveoo-en-caserio-fiesta-jueves-4-de-junio-en-hangar-bellavista",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "JUEVEOO 💋 En Caserío Fiesta Jueves 4 de Junio en Hangar Bellavista",
       "bio_artista": ""
     },
     {
@@ -563,7 +565,7 @@
       "descripcion": "Ven y disfruta de El Beso de Rock Hudson. Jueves 04 JUN - 20:00 hrs Centro GAM | Sala N1 - Sala N1",
       "fecha_iso": "2026-06-04",
       "fecha_texto": "4 de junio de 2026",
-      "precio_desde_clp": "8.900",
+      "precio_desde_clp": "8.264",
       "ciudad": "Santiago",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/472f61804c1f148bb9ff7a78509683b3c14cfe57.png?1778873735&format=baseline-jpeg&q=65",
       "url": "https://gam.ticketplus.cl/events/el-beso-de-rock-hudson",
@@ -590,22 +592,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "JUEVEOO 💋 En Caserío Fiesta Jueves io en Hangar Bellavista",
-      "venue": "",
-      "descripcion": "JUEVEOO 💋 En Caserío Fiesta Jueves 4 de Junio en Hangar Bellavista",
-      "fecha_iso": "2026-06-04",
-      "fecha_texto": "4 de junio de 2026",
-      "precio_desde_clp": "4.000",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/067a97e7af1d02268071bff65770bbd5c89965e3.png?1780357236&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/jueveoo-en-caserio-fiesta-jueves-4-de-junio-en-hangar-bellavista",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "JUEVEOO 💋 En Caserío Fiesta Jueves 4 de Junio en Hangar Bellavista",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "Jueves University🎓 / IO / CLUB W✨🎊",
       "venue": "",
       "descripcion": "Jueves University🎓 / 04 JUNIO / CLUB W✨🎊",
@@ -618,6 +604,22 @@
       "lat": -41.4693,
       "lon": -72.9424,
       "descripcion_extendida": "Jueves University🎓 / 04 JUNIO / CLUB W✨🎊",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "vs Espanol de / LNB / Liga Chery By Cecinas 2026 / Playoffs Juego 3",
+      "venue": "",
+      "descripcion": "Puerto Varas vs Espanol de Osorno / LNB / Liga Chery By Cecinas Llanquihue 2026 / Playoffs Juego 3",
+      "fecha_iso": "2026-06-04",
+      "fecha_texto": "4 de junio de 2026",
+      "precio_desde_clp": "4.000",
+      "ciudad": "Puerto Varas",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/d9d97b9d5e26a0bb1420ba829bd3ad69a4125a9d.jpeg?1780348905&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/puerto-varas-vs-espanol-de-osorno-lnb-liga-chery-by-cecinas-llanquihue-2026-playoffs-juego-3",
+      "lat": -41.3199,
+      "lon": -72.9847,
+      "descripcion_extendida": "Puerto Varas vs Espanol de Osorno / LNB / Liga Chery By Cecinas Llanquihue 2026 / Playoffs Juego 3",
       "bio_artista": ""
     },
     {
@@ -670,22 +672,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "cócteles y risas",
-      "venue": "",
-      "descripcion": "<p>🎤🍸 <strong>¡Este jueves la receta está lista!</strong> 🍸🎤</p><p>Si creías que un buen cóctel era suficiente para alegrar la noche, espera a mezclarlo con una dosis de risas. 😂🔥</p><p>✨ <strong>CÓCTELES &amp; RISAS</strong> ✨</p><p>Una noche de stand-up comedy con grandes talentos que vienen a hacerte olvidar la semana y reír sin filtro.</p><p>🎙️ Con:</p><p>🔥 Cako</p><p>🔥 Subiabre</p><p>🔥 Fer</p><p>🔥 Edgar</p><p>📅 Jueves 4 de junio</p><p>🕘 21:00 horas</p><p>📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>🍹 Promociones, buena comida, tragos y el mejor ambiente para disfrutar una noche diferente.</p><p>🎟️ Reserva tu mesa y ven a reír con nosotros.</p><p>#StandUpComedy #ComediaEnVivo #Akbar #PlazaÑuñoa #CóctelesYRisas #HumorChileno #PanoramasSantiago #LaRisaEsMejor #NocheDeComedia #CakoComedy 😆🍻🎤🔥</p>",
-      "fecha_iso": "2026-06-04",
-      "fecha_texto": "4 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Ñuñoa",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-p4ww55v8-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/cocteles-y-risas-_7sp0e",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>🎤🍸 <strong>¡Este jueves la receta está lista!</strong> 🍸🎤</p><p>Si creías que un buen cóctel era suficiente para alegrar la noche, espera a mezclarlo con una dosis de risas. 😂🔥</p><p>✨ <strong>CÓCTELES &amp; RISAS</strong> ✨</p><p>Una noche de stand-up comedy con grandes talentos que vienen a hacerte olvidar la semana y reír sin filtro.</p><p>🎙️ Con:</p><p>🔥 Cako</p><p>🔥 Subiabre</p><p>🔥 Fer</p><p>🔥 Edgar</p><p>📅 Jueves 4 de junio</p><p>🕘 21:00 horas</p><p>📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>🍹 Promociones, buena comida, tragos y el mejor ambiente para disfrutar una noche diferente.</p><p>🎟️ Reserva tu mesa y ven a reír con nosotros.</p><p>#StandUpComedy #ComediaEnVivo #Akbar #PlazaÑuñoa #CóctelesYRisas #HumorChileno #PanoramasSantiago #LaRisaEsMejor #NocheDeComedia #CakoComedy 😆🍻🎤🔥</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "La Pola presenta \"La ruta del choclo\" en",
       "venue": "",
       "descripcion": "<p>¡La Ruta del Cholo llega a Pucón!</p><p><br></p><p>Este jueves 04 de Junio se estará presentando en Monkey Coffee Bar.</p><p><br></p><p>Te esperamos!!</p><p><br></p><p>Consigue ahora tu entrada</p>",
@@ -698,6 +684,22 @@
       "lat": -39.272,
       "lon": -71.978,
       "descripcion_extendida": "<p>¡La Ruta del Cholo llega a Pucón!</p><p><br></p><p>Este jueves 04 de Junio se estará presentando en Monkey Coffee Bar.</p><p><br></p><p>Te esperamos!!</p><p><br></p><p>Consigue ahora tu entrada</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "cócteles y risas",
+      "venue": "",
+      "descripcion": "<p>🎤🍸 <strong>¡Este jueves la receta está lista!</strong> 🍸🎤</p><p>Si creías que un buen cóctel era suficiente para alegrar la noche, espera a mezclarlo con una dosis de risas. 😂🔥</p><p>✨ <strong>CÓCTELES &amp; RISAS</strong> ✨</p><p>Una noche de stand-up comedy con grandes talentos que vienen a hacerte olvidar la semana y reír sin filtro.</p><p>🎙️ Con:</p><p>🔥 Cako</p><p>🔥 Subiabre</p><p>🔥 Fer</p><p>🔥 Edgar</p><p>📅 Jueves 4 de junio</p><p>🕘 21:00 horas</p><p>📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>🍹 Promociones, buena comida, tragos y el mejor ambiente para disfrutar una noche diferente.</p><p>🎟️ Reserva tu mesa y ven a reír con nosotros.</p><p>#StandUpComedy #ComediaEnVivo #Akbar #PlazaÑuñoa #CóctelesYRisas #HumorChileno #PanoramasSantiago #LaRisaEsMejor #NocheDeComedia #CakoComedy 😆🍻🎤🔥</p>",
+      "fecha_iso": "2026-06-04",
+      "fecha_texto": "4 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Ñuñoa",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-p4ww55v8-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/cocteles-y-risas-_7sp0e",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>🎤🍸 <strong>¡Este jueves la receta está lista!</strong> 🍸🎤</p><p>Si creías que un buen cóctel era suficiente para alegrar la noche, espera a mezclarlo con una dosis de risas. 😂🔥</p><p>✨ <strong>CÓCTELES &amp; RISAS</strong> ✨</p><p>Una noche de stand-up comedy con grandes talentos que vienen a hacerte olvidar la semana y reír sin filtro.</p><p>🎙️ Con:</p><p>🔥 Cako</p><p>🔥 Subiabre</p><p>🔥 Fer</p><p>🔥 Edgar</p><p>📅 Jueves 4 de junio</p><p>🕘 21:00 horas</p><p>📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>🍹 Promociones, buena comida, tragos y el mejor ambiente para disfrutar una noche diferente.</p><p>🎟️ Reserva tu mesa y ven a reír con nosotros.</p><p>#StandUpComedy #ComediaEnVivo #Akbar #PlazaÑuñoa #CóctelesYRisas #HumorChileno #PanoramasSantiago #LaRisaEsMejor #NocheDeComedia #CakoComedy 😆🍻🎤🔥</p>",
       "bio_artista": ""
     },
     {
@@ -715,6 +717,38 @@
       "lon": null,
       "descripcion_extendida": "<p>Inicia su nueva gira para este 2026, con una apuesta humorística en donde recorrerá Chile entero 🇨🇱</p><p><br></p><p>Botota Fox presenta “La Fiebre Soy Yo” este jueves 04 de Junio a las 20:00 horas en New Chicago Bar.</p><p><br></p><p>📍Av. Concón Reñaca 4000, Concón .</p><p><br></p><p>¡Asegura desde ya tus entradas!</p>",
       "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "MATAPANKI",
+      "venue": "Esquina Retornable",
+      "descripcion": "Estreno Nacional · Dir. Diego \"Mapache\" Fuentes",
+      "descripcion_extendida": "Estreno Nacional · Dir. Diego \"Mapache\" Fuentes",
+      "fecha_iso": "2026-06-04",
+      "fecha_texto": "4 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/03/matapanki-web-1.jpg",
+      "url": "https://www.passline.com/sitio-evento/matapanki-518230",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "MIL PEDAZOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Estreno Nacional · Dir. Sergio Castro San Martín",
+      "descripcion_extendida": "Estreno Nacional · Dir. Sergio Castro San Martín",
+      "fecha_iso": "2026-06-04",
+      "fecha_texto": "4 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/mil-pedazos-afiche-web.jpg",
+      "url": "https://www.passline.com/sitio-evento/mil-pedazos",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "\"Mil Pedazos\" is a song performed by Colombian singer-songwriter Juanes for his sixth studio album Loco de Amor. Written by the singer, and the member of the Mexican band Café Tacuba, Emmanuel Del Real, and produced by Juanes with the collaboration of Steve Lillywhite, Universal Music Latino released the song as the second single from Loco de Amor on March 7, 2014."
     },
     {
       "fuente": "GAM",
@@ -766,6 +800,22 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "Jorge Alís-MALON - Viernes io 20 hrs",
+      "venue": "",
+      "descripcion": "Jorge Alís-MALON - Viernes 5 Junio 20 hrs",
+      "fecha_iso": "2026-06-05",
+      "fecha_texto": "5 de junio de 2026",
+      "precio_desde_clp": "19.800",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/29a21d7001b6314cd147fb71ca84f73be656c8b5.png?1779414391&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/jorge-alis-malon-viernes-5-junio-20-hrs",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Jorge Alís-MALON - Viernes 5 Junio 20 hrs",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "TESORO VIVO: EDITH FISCHER EN",
       "venue": "",
       "descripcion": "TESORO VIVO: EDITH FISCHER EN LA SERENA",
@@ -798,6 +848,22 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "vs Espanol de / LNB / Liga Chery By Cecinas 2026 / Playoffs Juego 4",
+      "venue": "",
+      "descripcion": "Puerto Varas vs Espanol de Osorno / LNB / Liga Chery By Cecinas Llanquihue 2026 / Playoffs Juego 4",
+      "fecha_iso": "2026-06-05",
+      "fecha_texto": "5 de junio de 2026",
+      "precio_desde_clp": "4.000",
+      "ciudad": "Puerto Varas",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/b801da2e49f4980a5d36d4270abfb33ad83c00f7.jpeg?1780348887&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/puerto-varas-vs-espanol-de-osorno-lnb-liga-chery-by-cecinas-llanquihue-2026-playoffs-juego-4",
+      "lat": -41.3199,
+      "lon": -72.9847,
+      "descripcion_extendida": "Puerto Varas vs Espanol de Osorno / LNB / Liga Chery By Cecinas Llanquihue 2026 / Playoffs Juego 4",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "VIERNES IO / KISS ME💋 / CLUB W 💃",
       "venue": "",
       "descripcion": "VIERNES 05 JUNIO / KISS ME💋 / CLUB W 💃",
@@ -810,6 +876,22 @@
       "lat": -41.4693,
       "lon": -72.9424,
       "descripcion_extendida": "VIERNES 05 JUNIO / KISS ME💋 / CLUB W 💃",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Deportes vs (Femenino)",
+      "venue": "",
+      "descripcion": "Deportes Puerto Montt vs O'Higgins (Femenino)",
+      "fecha_iso": "2026-06-05",
+      "fecha_texto": "5 de junio de 2026",
+      "precio_desde_clp": "2.300",
+      "ciudad": "Puerto Montt",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/1aa77b6ea8560b350d9dec019dddf6b3fb594b19.jpeg?1780330655&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/deportes-puerto-montt-vs-o-higgins-femenino",
+      "lat": -41.4693,
+      "lon": -72.9424,
+      "descripcion_extendida": "Deportes Puerto Montt vs O'Higgins (Femenino)",
       "bio_artista": ""
     },
     {
@@ -858,7 +940,7 @@
       "lat": -23.685324,
       "lon": -70.414614,
       "descripcion_extendida": "Compra tu entrada para Los Jaivas 2026 Gira 45 años alturas de Macchu Picchu, viernes 05 de junio 2026 20:30 hrs. en Enjoy Antofagasta - Antofagasta.",
-      "bio_artista": "Los Jaivas is a Chilean musical group who perform in folk, rock, psychedelic, and progressive rock styles formed in 1963 in Viña Del Mar, Chile. They are considered one of the most important and influential artists of all time in Latin America."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -894,22 +976,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Claudio Moreno y Guru Guru en El Imperio Peruano",
-      "venue": "",
-      "descripcion": "<p>Prepárate para una noche llena de humor y nostalgia. Claudio Moreno nos visita junto a sus recordados y queridos personajes Carlitos Núñez Núñez CNN y el gran GURU GURU,</p><p>Este viernes 5 de junio no te lo puedes perder ven a reír junto a estos personajes que aseguran risas de principio a fin.</p><p>Viernes 5 de junio 22 hrs</p><p>El Imperio Peruano</p>",
-      "fecha_iso": "2026-06-05",
-      "fecha_texto": "5 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-cujpckla-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/claudio-moreno-y-guru-guru-en-el-imperio-peruano_5ukh5",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Prepárate para una noche llena de humor y nostalgia. Claudio Moreno nos visita junto a sus recordados y queridos personajes Carlitos Núñez Núñez CNN y el gran GURU GURU,</p><p>Este viernes 5 de junio no te lo puedes perder ven a reír junto a estos personajes que aseguran risas de principio a fin.</p><p>Viernes 5 de junio 22 hrs</p><p>El Imperio Peruano</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "Carlita Presenta ¡“Nadie dijo que sería fácil” llega a !",
       "venue": "",
       "descripcion": "<p>GIRA 2026 🌎🇨🇱✈️ </p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Curicó! </p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación: </p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este viernes 05 de junio a las 20:00 horas se estará presentando en Ovita Restaurant, Café y Bar. </p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
@@ -938,6 +1004,22 @@
       "lat": -33.0247,
       "lon": -71.5519,
       "descripcion_extendida": "<p>Las girls nos tomamos la quinta región ! Se viene tremenda noche de comedia en @barbonescomedy junto a @rosariosanchez.tk @florde.lotorosa y @soymonsejerez&nbsp;</p><p><br></p><p>Te esperamos el viernes 5 de junio a las 20:00 hrs en Av San Martín 199, Viña del mar!</p><p><br></p><p>Entradas por @comediaticket&nbsp;</p><p><br></p><p>#standupcomedy #viñadelmar #barbonescomedy</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Claudio Moreno y Guru Guru en El Imperio Peruano",
+      "venue": "",
+      "descripcion": "<p>Prepárate para una noche llena de humor y nostalgia. Claudio Moreno nos visita junto a sus recordados y queridos personajes Carlitos Núñez Núñez CNN y el gran GURU GURU,</p><p>Este viernes 5 de junio no te lo puedes perder ven a reír junto a estos personajes que aseguran risas de principio a fin.</p><p>Viernes 5 de junio 22 hrs</p><p>El Imperio Peruano</p>",
+      "fecha_iso": "2026-06-05",
+      "fecha_texto": "5 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-cujpckla-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/claudio-moreno-y-guru-guru-en-el-imperio-peruano_5ukh5",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Prepárate para una noche llena de humor y nostalgia. Claudio Moreno nos visita junto a sus recordados y queridos personajes Carlitos Núñez Núñez CNN y el gran GURU GURU,</p><p>Este viernes 5 de junio no te lo puedes perder ven a reír junto a estos personajes que aseguran risas de principio a fin.</p><p>Viernes 5 de junio 22 hrs</p><p>El Imperio Peruano</p>",
       "bio_artista": ""
     },
     {
@@ -986,6 +1068,38 @@
       "lat": -34.9854,
       "lon": -71.2394,
       "descripcion_extendida": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Curicó!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este viernes 05 de junio a las 22:00 horas se estará presentando en Ovita Restaurant, Café y Bar.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LES PARAPLUIES DE CHERBOURG",
+      "venue": "Esquina Retornable",
+      "descripcion": "Tardes de Musical en colaboración con la Alianza Francesa de Antofagasta. · Dir. Jacques Demy",
+      "descripcion_extendida": "Tardes de Musical en colaboración con la Alianza Francesa de Antofagasta. · Dir. Jacques Demy",
+      "fecha_iso": "2026-06-05",
+      "fecha_texto": "5 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/los-paraguas-de-cherburg-poster.jpg",
+      "url": "https://www.passline.com/sitio-evento/les-parapluies-de-cherbourg",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "METROPOLIS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Clásicos de Ciencia Ficción · Dir. Fritz Lang",
+      "descripcion_extendida": "Clásicos de Ciencia Ficción · Dir. Fritz Lang",
+      "fecha_iso": "2026-06-05",
+      "fecha_texto": "5 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/metropolis-1927.jpg",
+      "url": "https://www.passline.com/sitio-evento/metropolis",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -1070,6 +1184,22 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "CD Humboldt vs CD Prat - Juego 1 PlayOut Liga DOS 2026",
+      "venue": "",
+      "descripcion": "CD Humboldt vs CD Prat - Juego 1 PlayOut Liga DOS 2026",
+      "fecha_iso": "2026-06-06",
+      "fecha_texto": "6 de junio de 2026",
+      "precio_desde_clp": "4.000",
+      "ciudad": "Valparaíso",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/fd4fd60fdfd0e3cf0f722aee32347b0daa96a639.jpg?1780459225&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/cd-humboldt-vs-cd-prat-juego-1-playout-liga-dos-2026",
+      "lat": -33.0472,
+      "lon": -71.6127,
+      "descripcion_extendida": "CD Humboldt vs CD Prat - Juego 1 PlayOut Liga DOS 2026",
+      "bio_artista": "La Temporada 2025 de la Liga de Desarrollo FebaChile fue la séptima edición de la competición de tercer nivel del básquetbol chileno."
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "Sonora Barón en Terra Viva 2026",
       "venue": "",
       "descripcion": "Sonora Barón en Terra Viva 2026",
@@ -1082,7 +1212,7 @@
       "lat": -33.0472,
       "lon": -71.6127,
       "descripcion_extendida": "Sonora Barón en Terra Viva 2026",
-      "bio_artista": ""
+      "bio_artista": "Tierra Nuestra es una telenovela brasileña creada por Benedito Ruy Barbosa y emitida originalmente en su país de origen por TV Globo desde el 20 de septiembre de 1999 hasta el 3 de junio de 2000."
     },
     {
       "fuente": "Ticketplus",
@@ -1102,6 +1232,22 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "Deportes vs Deportes Cobreloa - Campeonato de Ascenso Caixun 2026 | Fecha 15",
+      "venue": "",
+      "descripcion": "Deportes Puerto Montt vs Deportes Cobreloa - Campeonato de Ascenso Caixun 2026 | Fecha 15",
+      "fecha_iso": "2026-06-06",
+      "fecha_texto": "6 de junio de 2026",
+      "precio_desde_clp": "5.750",
+      "ciudad": "Puerto Montt",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/8b4cdc71c7401c760e854b07be5e3bbb1d7a7ca9.jpeg?1780330874&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/deportes-puerto-montt-vs-deportes-cobreloa-campeonato-de-ascenso-caixun-2026-fecha-11",
+      "lat": -41.4693,
+      "lon": -72.9424,
+      "descripcion_extendida": "Deportes Puerto Montt vs Deportes Cobreloa - Campeonato de Ascenso Caixun 2026 | Fecha 15",
+      "bio_artista": "El Club de Deportes Cobreloa es una sociedad anónima deportiva de Chile, con sede en la ciudad de Calama, en la Región de Antofagasta, cuya actividad principal es el fútbol profesional masculino y femenino, y juega en la Liga de Ascenso de Chile."
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "SABADO IO / OPEN CLUB @ 💃 CLUB W",
       "venue": "",
       "descripcion": "SABADO 06 JUNIO / OPEN CLUB @ 💃 CLUB W",
@@ -1109,7 +1255,7 @@
       "fecha_texto": "6 de junio de 2026",
       "precio_desde_clp": "",
       "ciudad": "Puerto Montt",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/79ad56563a818f3f1be494989ab036c76ddda4a1.jpg?1780421318&format=baseline-jpeg&q=65",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/2bb28229a04003e0330563e0550c424adb3e7e04.png?1780501279&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/sabado-06-junio-club-club-w",
       "lat": -41.4693,
       "lon": -72.9424,
@@ -1198,22 +1344,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "¡“Nadie dijo que sería fácil” llega a !",
-      "venue": "",
-      "descripcion": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Talca!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este sábado 06 de junio a las 20:30 horas se estará presentando en La Fábrica Restaurant y Bar.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
-      "fecha_iso": "2026-06-06",
-      "fecha_texto": "6 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Talca",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-t1xr9jvn-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/nadie-dijo-que-seria-facil-llega-a-talca-_op1sg",
-      "lat": -35.4264,
-      "lon": -71.6554,
-      "descripcion_extendida": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Talca!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este sábado 06 de junio a las 20:30 horas se estará presentando en La Fábrica Restaurant y Bar.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
-      "bio_artista": "Pelo suelto es una película mexicana producida por Pedro Galindo III en 1991, su fecha de estreno fue el 20 de diciembre de ese año, está protagonizada por Gloria Trevi y Humberto Zurita. La película fue todo un éxito en taquilla en México debido a la gran popularidad de Gloria Trevi, recaudó 11 millones de dólares."
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "Carlita presenta \"Nadie dijo que sería fácil\"",
       "venue": "",
       "descripcion": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Talca!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este sábado 06 de junio a las 22:30 horas se estará presentando en La Fábrica Restaurant y Bar.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
@@ -1226,6 +1356,54 @@
       "lat": -35.4264,
       "lon": -71.6554,
       "descripcion_extendida": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Talca!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este sábado 06 de junio a las 22:30 horas se estará presentando en La Fábrica Restaurant y Bar.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "\"Nadie Dijo Que Sería Fácil\" llega a",
+      "venue": "",
+      "descripcion": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Talca!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este sábado 06 de junio a las 18:30 horas se estará presentando en La Fábrica Restaurant y Bar.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
+      "fecha_iso": "2026-06-06",
+      "fecha_texto": "6 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Talca",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-i7j35kde-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/nadie-dijo-que-seria-facil-llega-a-talca_vihu9",
+      "lat": -35.4264,
+      "lon": -71.6554,
+      "descripcion_extendida": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Talca!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este sábado 06 de junio a las 18:30 horas se estará presentando en La Fábrica Restaurant y Bar.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "BARRIO MESTIZO EN VIVO + SESIÓN BUENOS AIRES",
+      "venue": "Esquina Retornable",
+      "descripcion": "Sesiones Retornable · La banda antofagastina Barrio Mestizo llega a Esquina Retornable con una jornada de música en vivo y el estreno del mini documental “Sesión Buenos Aires”, un registro íntimo sobre identidad, territorio y sonidos latinoamericanos.",
+      "descripcion_extendida": "Sesiones Retornable · La banda antofagastina Barrio Mestizo llega a Esquina Retornable con una jornada de música en vivo y el estreno del mini documental “Sesión Buenos Aires”, un registro íntimo sobre identidad, territorio y sonidos latinoamericanos.",
+      "fecha_iso": "2026-06-06",
+      "fecha_texto": "6 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/barrio-mestizo-web-.jpg",
+      "url": "https://www.passline.com/sitio-evento/sesiones-retornable-barrio-mestizo-en-vivo",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA MISTERIOSA MIRADA DEL FLAMENCO (2025) + CINE FORO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Mes de la Red de Salas de Cine + Conversatorio junto al actor Matías Catalán. · Dir. Diego Céspedes",
+      "descripcion_extendida": "Mes de la Red de Salas de Cine + Conversatorio junto al actor Matías Catalán. · Dir. Diego Céspedes",
+      "fecha_iso": "2026-06-06",
+      "fecha_texto": "6 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/LMMDF-agotadas.jpg",
+      "url": "https://www.passline.com/sitio-evento/la-misteriosa-mirada-del-flamenco-cine-foro",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -1242,7 +1420,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Por primera vez juntos en escenario, dos de los pilares más resilientes de la generación 2014 se reúnen para celebrar más de una década de autogestión, estre",
-      "bio_artista": "La historia de la ciencia y la tecnología en España abarca la historia de la ciencia y la historia de la tecnología en España. Al no existir un consenso académico son igualmente usadas las designaciones historia de la ciencia en España, historia de la ciencia española, historia de la ciencia y la tecnología españolas o historia de la ciencia y de la técnica en España."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -1251,7 +1429,7 @@
       "descripcion": "CDC Los Leones vs Universidad de Concepción / Playoffs / Final de Conferencia Juego 4",
       "fecha_iso": "2026-06-07",
       "fecha_texto": "7 de junio de 2026",
-      "precio_desde_clp": "3.500",
+      "precio_desde_clp": "7.500",
       "ciudad": "Concepción",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/4f68189cd5ebfac22e5d68843fae758e68f894c1.jpeg?1780324145&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/cdc-los-leones-vs-universidad-de-concepcion-playoffs-final-de-conferencia-juego-4",
@@ -1274,7 +1452,7 @@
       "lat": -33.464833,
       "lon": -70.6075,
       "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Audax Italiano, domingo 07 de junio 2026 12:30 hrs. en Estadio Nacional - Ñuñoa.",
-      "bio_artista": "Audax Italiano es un club profesional de fútbol de Chile, radicado en la comuna de La Florida, en la ciudad de Santiago. Fue fundado el 30 de noviembre de 1910 por miembros de la colonia italiana residente en Chile como un club de ciclismo denominado Audax Club Ciclista Italiano. La palabra «Audax» proviene del latín y significa «osado», que era un término frecuente que se les daba a los ciclistas a principios del siglo XX."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -1289,6 +1467,22 @@
       "url": "https://www.ticketmaster.cl/event/expo-al-horno-metropolitan-santiago",
       "lat": -33.4489,
       "lon": -70.6693,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketmaster",
+      "nombre": "Club Deportes vs Unión La - Copa de la Liga",
+      "venue": "",
+      "descripcion": "7 de Junio 2026",
+      "fecha_iso": "2026-06-07",
+      "fecha_texto": "7 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Coquimbo",
+      "imagen_url": "https://cdn.getcrowder.com/images/2cf454b8-dc8c-49a8-a3c1-f4ef69e9f269-640x640weblaserenalacalera.png",
+      "url": "https://www.ticketmaster.cl/event/club-deportes-la-serena-vs-union-la-calera-copa-de-la-liga-estadio-la-portada",
+      "lat": null,
+      "lon": null,
       "descripcion_extendida": "",
       "bio_artista": ""
     },
@@ -1354,6 +1548,22 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Este ciclo incluye en su programación a los artistas Carlos Vera Cuarteto, que presentará jazz moderno; a Kuki González &amp; Ensamble Sudaka con su proyecto",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaGob",
+      "nombre": "Comienza II ciclo de “Martes de formación escénica” en Valparaíso",
+      "venue": "Ministerio de las Culturas",
+      "descripcion": "El próximo martes 9 de junio, en el Parque Cultural de Valparaíso, se realizará la primera conferencia que abordará el registro de propiedad intelectual.",
+      "fecha_iso": "2026-06-09",
+      "fecha_texto": "9 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Valparaíso",
+      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/martss-de-formacion-450x300.jpeg",
+      "url": "https://www.cultura.gob.cl/convocatorias/comienza-ii-ciclo-de-martes-de-formacion-escenica-en-valparaiso/",
+      "lat": -33.0472,
+      "lon": -71.6127,
+      "descripcion_extendida": "El próximo martes 9 de junio, en el Parque Cultural de Valparaíso, se realizará la primera conferencia que abordará el registro de propiedad intelectual.",
       "bio_artista": ""
     },
     {
@@ -1517,6 +1727,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "Ticketmaster",
+      "nombre": "Beatlemania en Concierto",
+      "venue": "Teatro Oriente",
+      "descripcion": "12 de Junio 2026",
+      "fecha_iso": "2026-06-12",
+      "fecha_texto": "12 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Providencia",
+      "imagen_url": "https://cdn.getcrowder.com/images/f9439b85-4a49-4778-b809-ccfef94d1154-640x640-web-beatlemania-12-junio.png",
+      "url": "https://www.ticketmaster.cl/event/beatlemania-en-concierto-teatro-oriente",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
       "fuente": "GAM",
       "nombre": "Sujetos en escena: Remontajes de Paulina Mellado",
       "venue": "Centro Gabriela Mistral (GAM)",
@@ -1594,7 +1820,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Usted Señalemelo, domingo 14 de junio 2026 20:00 hrs. en Club Chocolate, Barrio Bellavista - Recoleta.",
-      "bio_artista": ""
+      "bio_artista": "Usted Señalemelo es una banda argentina de indie rock, formada en Mendoza (Argentina). El grupo está compuesto por el vocalista y tecladista Juan Saieg, el guitarrista Gabriel \"Cocó\" Orozco y el baterista Lucca Beguerie Petrich. Si bien en un comienzo pertenecieron a la escena de rock de Mendoza, luego conformaron el manso indie, una movida musical de la segunda década del siglo XXI conformada por bandas mendocinas como Mi Amigo Invencible, Perras on the Beach o Gauchito Club."
     },
     {
       "fuente": "Ticketmaster",
@@ -1626,7 +1852,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "The Thing - Lunes cinematográficos",
-      "bio_artista": ""
+      "bio_artista": "Thing —también conocido como The Thing y denominado en español como La Cosa en España o La Mole en Hispanoamérica—, es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. El personaje es miembro fundador de Los 4 Fantásticos. The Thing fue creado por el escritor y editor Stan Lee y el artista Jack Kirby, y apareció por primera vez en The Fantastic Four # 1 en noviembre de 1961."
     },
     {
       "fuente": "PuntoTicket",
@@ -1850,7 +2076,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Annihilation - Lunes cinematográficos",
-      "bio_artista": "Annihilation es una palabra que inglés quiere decir \"aniquilación\" y puede hacer referencia a:Obras escritasAnnihilation (novela de Philip Athans) (2004), novela escrita por Philip Athans. Annihilation (cómic) (2006), cómic de Marvel. Annihilation (novela) (2014), novela escrita por Jeff VanderMeer.Cine y televisiónAniquilación (película) (2018), película dirigida por Alex Garland."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -1866,7 +2092,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Ciclo Internacional de Conciertos 2026, lunes 22 de junio 2026 al martes 13 de octubre 2026 en Teatro Municipal de Las Condes - Las Condes.",
-      "bio_artista": "El Concurso Internacional de Música Reina Elizabeth de Bélgica es una competencia para músicos que se celebra en Bruselas. La competencia tiene el nombre de Isabel Gabriela de Baviera, Reina de Bélgica. Es un concurso para violinistas clásicos, pianistas, cantantes y violonchelistas. También incluyó competencias internacionales para compositores de 1953 a 2012."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -1882,7 +2108,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Este 2026 se abrirá un nuevo espacio para el humor en GAM. Durante los meses de junio y julio debuta un ciclo de cuatro fechas de stand up comedy, curado por",
-      "bio_artista": "Claudia di Girolamo Quesney es una actriz, directora de teatro y académica chilena, de ascendencia italiana, que cuenta con una prominente y distinguida trayectoria artística en teatro, cine y televisión. Su significativa presencia mediática se debe también a su consideración como una de las mujeres con mayor protagonismo en la historia de la televisión, y como una de las mejores actrices en su país."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -1946,7 +2172,7 @@
       "lat": -20.2208,
       "lon": -70.1431,
       "descripcion_extendida": "La Sociedad - El Regreso - Iquique",
-      "bio_artista": ""
+      "bio_artista": "La Sociedad es un dúo musical chileno, formado en la comuna de Ñuñoa, Santiago de Chile, en el año 1984. De gran éxito durante los años 90 en Chile y Latinoamérica, se disolvió por primera vez en 2001, se reunieron nuevamente en 2012, para un nuevo receso en 2016. En 2025 vuelven a juntarse para una gira de conciertos."
     },
     {
       "fuente": "PuntoTicket",
@@ -1962,7 +2188,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, viernes 26 de junio 2026 20:00 hrs. en Teatro Teletón - Santiago Centro.",
-      "bio_artista": ""
+      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
     },
     {
       "fuente": "PuntoTicket",
@@ -1978,7 +2204,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "Compra tu entrada para Darkiel, viernes 26 de junio 2026 21:00 hrs. en Rock And Soccer - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Omar David Colón, más conocido como Darkiel, es un cantante y compositor puertorriqueño de reguetón y trap latino. También es conocido por su papel protagónico como Nicky Jam en la serie Nicky Jam: El ganador de Netflix."
     },
     {
       "fuente": "GAM",
@@ -1994,7 +2220,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La Ligua se conmociona por el asesinato de Dylan, una joven que la comunidad sospecha fue víctima de transfobia. La obra, dirigida por Aliocha De la Sotta y",
-      "bio_artista": ""
+      "bio_artista": "Robert Dylan, más conocido como Bob Dylan, es un músico, compositor, cantante y poeta estadounidense, ampliamente considerado como una de las figuras más prolíficas e influyentes en la música popular del siglo XX y de comienzos del siglo XXI. En 2016 recibió el Premio Nobel de Literatura."
     },
     {
       "fuente": "GAM",
@@ -2010,7 +2236,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Tras observar un eclipse, tres ancianas se llenan de energía y lideran una revuelta en un supermercado mayorista. Su revolución, al ritmo del trap y la cumbi",
-      "bio_artista": ""
+      "bio_artista": "Dino Crisis 2  es un videojuego de terror de acción y aventura, secuela del Dino Crisis original. El juego fue desarrollado por Capcom y lanzado para PlayStation el 13 de septiembre de 2000. El juego fue seguido de otra secuela, Dino Crisis 3, lanzado en 2003 para la Xbox."
     },
     {
       "fuente": "GAM",
@@ -2026,7 +2252,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "GAM recibe un nuevo ciclo para apreciar la música barroca como un arte vivo que sorprende, emociona y dialoga con públicos diversos y la ciudad. Un instancia",
-      "bio_artista": ""
+      "bio_artista": "El Barroco fue un período de la historia en la cultura occidental originado por una nueva forma de concebir el arte y que, partiendo desde diferentes contextos histórico-culturales, produjo obras en numerosos campos artísticos: literatura, arquitectura, escultura, pintura, música, ópera, danza, teatro, etc. Se manifestó principalmente en la Europa occidental, aunque debido al colonialismo también se dio en numerosas colonias de las potencias europeas, principalmente en Iberoamérica."
     },
     {
       "fuente": "Ticketplus",
@@ -2042,7 +2268,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "La Sociedad - El Regreso - Antofagasta",
-      "bio_artista": ""
+      "bio_artista": "La Sociedad es un dúo musical chileno, formado en la comuna de Ñuñoa, Santiago de Chile, en el año 1984. De gran éxito durante los años 90 en Chile y Latinoamérica, se disolvió por primera vez en 2001, se reunieron nuevamente en 2012, para un nuevo receso en 2016. En 2025 vuelven a juntarse para una gira de conciertos."
     },
     {
       "fuente": "Ticketplus",
@@ -2058,7 +2284,7 @@
       "lat": -33.0472,
       "lon": -71.6127,
       "descripcion_extendida": "ROCK FESTIVAL (TRIBUTOS) EN ENJOY VIÑA",
-      "bio_artista": ""
+      "bio_artista": "Azkena Rock Festival (ARF) es un festival musical centrado en el rock y sus subgéneros, que se celebra anualmente en la ciudad de Vitoria, en Álava, País Vasco. Su primera edición tuvo lugar en 2002 y, desde entonces, se ha consolidado como una de las citas musicales más reconocidas del ámbito estatal por su propuesta artística centrada en nombres históricos del rock, así como bandas alternativas con proyección en escenas internacionales."
     },
     {
       "fuente": "Ticketplus",
@@ -2073,8 +2299,8 @@
       "url": "https://ticketplus.cl/events/los-vikings-5-en-terra-viva",
       "lat": -33.0472,
       "lon": -71.6127,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La historia de Normandía traza el pasado de Normandía, una región histórica francesa, desde el condado, después ducado de Normandía, hasta la reciente creación de una región administrativa homónima en 2016.",
+      "bio_artista": "La historia de Normandía traza el pasado de Normandía, una región histórica francesa, desde el condado, después ducado de Normandía, hasta la reciente creación de una región administrativa homónima en 2016."
     },
     {
       "fuente": "Ticketplus",
@@ -2090,7 +2316,7 @@
       "lat": -38.7359,
       "lon": -72.5904,
       "descripcion_extendida": "RUMORS PRIDE 2026 TEMUCO - 27 DE JUNIO - 22:00",
-      "bio_artista": ""
+      "bio_artista": "Manuel \"Manny\" Delcarmen es un lanzador estadounidense de origen dominicano que actualmente se encuentra en la organización de los Yanquis de Nueva York en las Grandes Ligas. Es con frecuencia llamado \"The Pride of Hyde Park\" , ya que es nativo de la sección de Hyde Park en Boston, y graduado de la West Roxbury High School."
     },
     {
       "fuente": "Ticketplus",
@@ -2106,7 +2332,7 @@
       "lat": -39.284,
       "lon": -72.2288,
       "descripcion_extendida": "RUMORS PRIDE 2026 VILLARRICA - CAMPO VIEJO - 27 DE JUNIO - 22:00",
-      "bio_artista": ""
+      "bio_artista": "Manuel \"Manny\" Delcarmen es un lanzador estadounidense de origen dominicano que actualmente se encuentra en la organización de los Yanquis de Nueva York en las Grandes Ligas. Es con frecuencia llamado \"The Pride of Hyde Park\" , ya que es nativo de la sección de Hyde Park en Boston, y graduado de la West Roxbury High School."
     },
     {
       "fuente": "PuntoTicket",
@@ -2218,7 +2444,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Programa Especial: Aniversario Orquesta",
-      "bio_artista": "La Orquesta Sinfónica Venezuela (conocida también como Orquesta Sinfónica de Venezuela y OSV) es una de las orquestas más importantes de Venezuela. Fue fundada por Vicente Emilio Sojo el 24 de junio de 1930 y es, después de la Orquesta Sinfónica de Boston, la orquesta más antigua del continente americano. Sus directores titulares han sido los maestros Vicente Emilio Sojo, Vicente Martucci, Ángel Sauce, Antonio Estévez, Gonzalo Castellanos Yumar, Georg Schmöhe, Eduardo Marturet y Theodore Kuchar."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2587,6 +2813,22 @@
       "lon": -70.6693,
       "descripcion_extendida": "1967 fue un año común comenzado en domingo según el calendario gregoriano. Fue declarado Año Internacional del Turista por la Organización de las Naciones Unidas.",
       "bio_artista": "1967 fue un año común comenzado en domingo según el calendario gregoriano. Fue declarado Año Internacional del Turista por la Organización de las Naciones Unidas."
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "CHIQUI AGUAYO EN ENJOY VIÑA",
+      "venue": "",
+      "descripcion": "CHIQUI AGUAYO EN ENJOY VIÑA",
+      "fecha_iso": "2026-07-18",
+      "fecha_texto": "18 de julio de 2026",
+      "precio_desde_clp": "17.250",
+      "ciudad": "Valparaíso",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/fdfccd73dfa9c5447cfa6f1ed04c1cb35bf6a684.jpeg?1780504466&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/chiqui-aguayo-en-enjoy-vina",
+      "lat": -33.0472,
+      "lon": -71.6127,
+      "descripcion_extendida": "Chiqui Aguayo —seudónimo de Daniela José Aguayo— es una actriz, guionista, directora teatral y comediante chilena, que logró obtener la Gaviota de Plata y de Oro en el Festival de Viña del Mar 2017 y en el Festival de Viña del Mar 2025. Además durante su visita al Festival del Huaso de Olmué 2019 obtuvo el peak más alto de sintonía hasta ese momento.",
+      "bio_artista": "Chiqui Aguayo —seudónimo de Daniela José Aguayo— es una actriz, guionista, directora teatral y comediante chilena, que logró obtener la Gaviota de Plata y de Oro en el Festival de Viña del Mar 2017 y en el Festival de Viña del Mar 2025. Además durante su visita al Festival del Huaso de Olmué 2019 obtuvo el peak más alto de sintonía hasta ese momento."
     },
     {
       "fuente": "Ticketplus",
@@ -3274,7 +3516,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La aclamada versión de Héctor Noguera regresa a GAM con más de 30 intérpretes que llevan a escena uno de los grandes hitos del teatro nacional. Con texto ori",
-      "bio_artista": ""
+      "bio_artista": "La pérgola de las flores es una obra de teatro chilena escrita por Isidora Aguirre y musicalizada por Francisco Flores del Campo. La obra fue producida por el Teatro de Ensayo de la Universidad Católica de Chile. Esta obra está ambientada en las primeras décadas del siglo XX, cuando se produce un choque entre los intereses de la gente de clase baja con la de clase alta."
     },
     {
       "fuente": "GAM",
@@ -3498,7 +3740,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Sinfónico 9: Un viaje a los inicios",
-      "bio_artista": "La Sinfonía n.º 9 en do mayor, K. 73 (75a) fue compuesta por Wolfgang Amadeus Mozart en algún momento entre 1769 y 1772."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -3514,7 +3756,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para WEDNESDAY, viernes 25 de septiembre 2026 20:30 hrs. en Club Chocolate, Barrio Bellavista - Recoleta.",
-      "bio_artista": ""
+      "bio_artista": "Seville, the capital of the region of Andalusia in Spain, has 11 districts, further divided into 108 neighbourhoods."
     },
     {
       "fuente": "GAM",
@@ -3578,7 +3820,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Escrita por Manuela Oyarzún y dirigida por Víctor Carrasco, la obra cruza los mundos del arte, la ciencia y la salud mental para cuestionar sus jerarquías y",
-      "bio_artista": "En la mitología griega, las erinias, erinies o erinis son unas diosas ctónicas y preolímpicas cuya misión esencial es la venganza del crimen y especialmente las faltas contra la familia. Su presencia se considera una maldición y son la alegoría de la culpa y el castigo moral: persiguen especialmente a aquellos que tienen las manos manchadas de sangre, y no les permiten descansar hasta que se pague por su delito."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3594,7 +3836,7 @@
       "lat": -41.4693,
       "lon": -72.9424,
       "descripcion_extendida": "ALMA CONCIERTOS: ENSAMBLES MIXTOS Y GRANDES",
-      "bio_artista": "Aldemaro Romero OAB fue un músico, compositor, arreglista y director de orquesta venezolano."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -3726,7 +3968,7 @@
     },
     {
       "fuente": "GAM",
-      "nombre": "Los días felices: PRODUCCIÓN GAM",
+      "nombre": "Los días felices: COPRODUCCIÓN GAM",
       "venue": "Centro Gabriela Mistral (GAM)",
       "descripcion": "Winnie está enterrada hasta la cintura, pero eso no le impide maquillarse, hablar sin parar y mantener un optimismo desquiciante. Willie, su marido, apenas m",
       "fecha_iso": "2026-10-29",
@@ -3738,7 +3980,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Winnie está enterrada hasta la cintura, pero eso no le impide maquillarse, hablar sin parar y mantener un optimismo desquiciante. Willie, su marido, apenas m",
-      "bio_artista": "Paula Zúñiga Yáñez es una actriz de cine, teatro y televisión chilena."
+      "bio_artista": "Bubble Guppies es una serie animada preescolar creada por Jonny Belt y Robert Scull para Nickelodeon que fue estrenada en los Estados Unidos el 24 de enero de 2011, y en Latinoamérica el 12 de marzo del mismo año. La serie animada gira en torno a las aventuras de 6 sirenos de diferentes razas, que con la ayuda de un pez anaranjado aprenden a resolver problemas y divertirse en sus bailes, con mucha diversión y comedia."
     },
     {
       "fuente": "GAM",
@@ -4265,8 +4507,8 @@
       "url": "https://www.ticketmaster.cl/event/488-la-sole-picante-pero-feliz",
       "lat": -33.425278,
       "lon": -70.608056,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Soledad Pastorutti, conocida simplemente como Soledad o por su apodo La Sole, es una cantante, compositora, actriz, conductora y productora argentina. Ganó el Premio Nacional SADAIC a los artistas en el Festival Nacional de Folklore de Cosquín el 26 de enero de 1996, evento que la lanzó a la fama. Su música renovó el folclore argentino en la segunda mitad de la década de 1990 y provocó un acercamiento de esta corriente musical a los jóvenes.",
+      "bio_artista": "Soledad Pastorutti, conocida simplemente como Soledad o por su apodo La Sole, es una cantante, compositora, actriz, conductora y productora argentina. Ganó el Premio Nacional SADAIC a los artistas en el Festival Nacional de Folklore de Cosquín el 26 de enero de 1996, evento que la lanzó a la fama. Su música renovó el folclore argentino en la segunda mitad de la década de 1990 y provocó un acercamiento de esta corriente musical a los jóvenes."
     },
     {
       "fuente": "Ticketmaster",
@@ -4430,22 +4672,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "JUEVES DE RISAS en Provincia Apoquindo 04.06",
-      "venue": "",
-      "descripcion": "<p>Eventos Provincia Apoquindo y Malgenio Comedia continúan con su ciclo de Standup todos los Jueves!! No te pierdas a lo mejor de la comedia emergente cada semana. Solo comediantes de calidad.</p><p>JUEVES 04/06: Javier Doering, Malacabra, El Pooley y el debut de Marco Cisternas </p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-xr2p9tll-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/jueves-de-risas-en-provincia-apoquindo-0406_a499f",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Eventos Provincia Apoquindo y Malgenio Comedia continúan con su ciclo de Standup todos los Jueves!! No te pierdas a lo mejor de la comedia emergente cada semana. Solo comediantes de calidad.</p><p>JUEVES 04/06: Javier Doering, Malacabra, El Pooley y el debut de Marco Cisternas </p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "MENOPÁUSICA",
       "venue": "",
       "descripcion": "<p>Si la peri y menopausia llegó a tu vida ESTE ES EL SHOW al que debes ir </p><p>👉No es sólo para mujeres👈</p><p>Es para todos quiénes deben vivir y convivir con estos cambios hormonales🔥 </p><p>Un espectáculo sobre cómo nos afectan los síntomas:</p><p>cambios de humor, sofocos, niebla mental… no aguantar al marido</p><p>y muchas veces ni a los hijos. </p><p>¡LAS MENOPÁUSICAS ESTAMOS EN TODOS LADOS!</p><p><br></p><p><br></p>",
@@ -4459,38 +4685,6 @@
       "lon": null,
       "descripcion_extendida": "<p>Si la peri y menopausia llegó a tu vida ESTE ES EL SHOW al que debes ir </p><p>👉No es sólo para mujeres👈</p><p>Es para todos quiénes deben vivir y convivir con estos cambios hormonales🔥 </p><p>Un espectáculo sobre cómo nos afectan los síntomas:</p><p>cambios de humor, sofocos, niebla mental… no aguantar al marido</p><p>y muchas veces ni a los hijos. </p><p>¡LAS MENOPÁUSICAS ESTAMOS EN TODOS LADOS!</p><p><br></p><p><br></p>",
       "bio_artista": "Menopur es una medicación hormonal del tipo de las menotropinas o gonadotropina menopáusica humana (HMG), que se obtiene de la orina de mujeres menopáusicas y se usa para el tratamiento de los problemas de fertilidad."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "David Pérez en",
-      "venue": "",
-      "descripcion": "<p>Valdivia prepárate para una noche de risas sin filtro con el comediante que ha refrescado la escena del stand up en Chile.&nbsp;</p><p><br></p><p><strong>David Pérez</strong>&nbsp;(<a href=\"https://www.instagram.com/esdavidperez/\" rel=\"noopener noreferrer\" target=\"_blank\">@esdavidperez</a>), venezolano radicado en el país desde 2018, llega al sur de Chile tras la grabación de su especial de comedia&nbsp;\"<a href=\"https://www.youtube.com/watch?v=KW0uBzsjwzE&amp;t=679s\" rel=\"noopener noreferrer\" target=\"_blank\">Me Tengo Fe</a>\".</p><p><br></p><p>Con una trayectoria que lo ha llevado desde los escenarios más icónicos de Santiago, hasta la televisión, David ha logrado conectar con el público local a través de un humor honesto, fresco y cargado de anécdotas personales.</p><p><br></p><p><strong>¿Qué esperar del show?</strong></p><p><br></p><p>En esta gira, David despliega su talento para transformar situaciones cotidianas, choques culturales y su propia experiencia migratoria en historias hilarantes que nos demuestran que, al final del día, <strong>todos nos parecemos más de lo que creemos</strong>. Su estilo destaca por:</p><ul><li>Interacción genuina:&nbsp;David no solo cuenta chistes, sino que juega con la energía de la audiencia, creando momentos únicos en cada función.</li><li>Humor de observación:&nbsp;Desde las relaciones de pareja hasta los modismos chilenos más enredados, nada escapa a su aguda mirada.</li><li>Energía inagotable:&nbsp;Un show dinámico diseñado para reír de principio a fin junto a uno de los talentos más prometedores de la nueva comedia latina en Chile.</li></ul><p><br></p><p><strong>¡No te quedes fuera!</strong>&nbsp;Ven a descubrir por qué David Pérez se ha convertido en un imperdible de la cartelera nacional. Asegura tus entradas y sé parte de la gira que está conquistando el sur del país.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Valdivia",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-4smuh37s-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/david-perez-en-valdivia_qhw2o",
-      "lat": -39.8142,
-      "lon": -73.2459,
-      "descripcion_extendida": "<p>Valdivia prepárate para una noche de risas sin filtro con el comediante que ha refrescado la escena del stand up en Chile.&nbsp;</p><p><br></p><p><strong>David Pérez</strong>&nbsp;(<a href=\"https://www.instagram.com/esdavidperez/\" rel=\"noopener noreferrer\" target=\"_blank\">@esdavidperez</a>), venezolano radicado en el país desde 2018, llega al sur de Chile tras la grabación de su especial de comedia&nbsp;\"<a href=\"https://www.youtube.com/watch?v=KW0uBzsjwzE&amp;t=679s\" rel=\"noopener noreferrer\" target=\"_blank\">Me Tengo Fe</a>\".</p><p><br></p><p>Con una trayectoria que lo ha llevado desde los escenarios más icónicos de Santiago, hasta la televisión, David ha logrado conectar con el público local a través de un humor honesto, fresco y cargado de anécdotas personales.</p><p><br></p><p><strong>¿Qué esperar del show?</strong></p><p><br></p><p>En esta gira, David despliega su talento para transformar situaciones cotidianas, choques culturales y su propia experiencia migratoria en historias hilarantes que nos demuestran que, al final del día, <strong>todos nos parecemos más de lo que creemos</strong>. Su estilo destaca por:</p><ul><li>Interacción genuina:&nbsp;David no solo cuenta chistes, sino que juega con la energía de la audiencia, creando momentos únicos en cada función.</li><li>Humor de observación:&nbsp;Desde las relaciones de pareja hasta los modismos chilenos más enredados, nada escapa a su aguda mirada.</li><li>Energía inagotable:&nbsp;Un show dinámico diseñado para reír de principio a fin junto a uno de los talentos más prometedores de la nueva comedia latina en Chile.</li></ul><p><br></p><p><strong>¡No te quedes fuera!</strong>&nbsp;Ven a descubrir por qué David Pérez se ha convertido en un imperdible de la cartelera nacional. Asegura tus entradas y sé parte de la gira que está conquistando el sur del país.</p>",
-      "bio_artista": "David Pérez puede referirse a:Davide Perez (1711-1778), compositor italiano. David Pérez Ibáñez, funcionario y político español. David Pérez García, político español del PP. David Perez Quintanilla, futbolista español. David Pérez Arteaga, futbolista español que juega como centrocampista. David Pérez Rubio, futbolista español. David Pérez Pallas, árbitro español que de la Segunda División. David Antonio Pérez, artista marcial mixto nicaragüense. David Pérez Molina, futbolista chileno."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Salas Moya el Guionista de Chile",
-      "venue": "",
-      "descripcion": "<p>El comediante y guionista emblemático de programas de humor como: detrás del Muro, Los Venegas, El Club de la comedia, Teatro en Chv, Vértigo, Sábados Gigantes y muchos más, presenta su show de stand up </p><p>“El Guionista de Chile” el cual lleva más de 2 años en cartelera con más de 5000 personas que han reído con su visión de estar sobreviviendo en el mundo y el Chile de hoy.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-dp1c6qfg-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/salas-moya-el-guionista-de-chile-_1crhq",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>El comediante y guionista emblemático de programas de humor como: detrás del Muro, Los Venegas, El Club de la comedia, Teatro en Chv, Vértigo, Sábados Gigantes y muchos más, presenta su show de stand up </p><p>“El Guionista de Chile” el cual lleva más de 2 años en cartelera con más de 5000 personas que han reído con su visión de estar sobreviviendo en el mundo y el Chile de hoy.</p>",
-      "bio_artista": "Luis Arturo Moya Grau fue un dramaturgo, escritor y actor chileno, considerado «el padre de las teleseries» o el «Shakespeare chileno» tanto en su país como en varios países latinoamericanos."
     },
     {
       "fuente": "ComediaTicket",
@@ -4510,19 +4704,51 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "ALTER EGO",
+      "nombre": "Salas Moya el Guionista de Chile",
       "venue": "",
-      "descripcion": "<p>ALTER EGO</p><p>Lospleimovil Impro Humor</p><p><br></p><p>Alter Ego es un espectáculo de improvisación teatral donde cuatro protagonistas coinciden por azar en una situación extrema, en el momento justo y a la hora precisa. A partir de ese encuentro inesperado, las historias van revelando las distintas realidades de cada personaje. Un cruce de decisiones y acciones, que aflora lo mejor y lo peor de cada uno. Un viaje impredecible donde nada está escrito y todo puede cambiar en un instante.</p><p>Dirección: Claudio Espinoza</p><p>Elenco:</p><p>Lissette Villegas, Claudio Espinoza, Enrique Guiñez, Yezz Martínez</p><p>Música: Jorge Salazar</p><p>Iluminación: Rodrigo Barnao</p>",
+      "descripcion": "<p>El comediante y guionista emblemático de programas de humor como: detrás del Muro, Los Venegas, El Club de la comedia, Teatro en Chv, Vértigo, Sábados Gigantes y muchos más, presenta su show de stand up </p><p>“El Guionista de Chile” el cual lleva más de 2 años en cartelera con más de 5000 personas que han reído con su visión de estar sobreviviendo en el mundo y el Chile de hoy.</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-djn9li9w-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/alter-ego-_sk8dh",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-dp1c6qfg-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/salas-moya-el-guionista-de-chile-_1crhq",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>ALTER EGO</p><p>Lospleimovil Impro Humor</p><p><br></p><p>Alter Ego es un espectáculo de improvisación teatral donde cuatro protagonistas coinciden por azar en una situación extrema, en el momento justo y a la hora precisa. A partir de ese encuentro inesperado, las historias van revelando las distintas realidades de cada personaje. Un cruce de decisiones y acciones, que aflora lo mejor y lo peor de cada uno. Un viaje impredecible donde nada está escrito y todo puede cambiar en un instante.</p><p>Dirección: Claudio Espinoza</p><p>Elenco:</p><p>Lissette Villegas, Claudio Espinoza, Enrique Guiñez, Yezz Martínez</p><p>Música: Jorge Salazar</p><p>Iluminación: Rodrigo Barnao</p>",
-      "bio_artista": "El alter ego es un segundo yo, que se cree es distinto de la personalidad normal u original de una persona. El término fue acuñado en el siglo XX descrito por los psicólogos en el libro Manual de psicología. De una persona que tiene un alter ego se dice que lleva una doble vida."
+      "descripcion_extendida": "<p>El comediante y guionista emblemático de programas de humor como: detrás del Muro, Los Venegas, El Club de la comedia, Teatro en Chv, Vértigo, Sábados Gigantes y muchos más, presenta su show de stand up </p><p>“El Guionista de Chile” el cual lleva más de 2 años en cartelera con más de 5000 personas que han reído con su visión de estar sobreviviendo en el mundo y el Chile de hoy.</p>",
+      "bio_artista": "Luis Arturo Moya Grau fue un dramaturgo, escritor y actor chileno, considerado «el padre de las teleseries» o el «Shakespeare chileno» tanto en su país como en varios países latinoamericanos."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "David Pérez en",
+      "venue": "",
+      "descripcion": "<p>Valdivia prepárate para una noche de risas sin filtro con el comediante que ha refrescado la escena del stand up en Chile.&nbsp;</p><p><br></p><p><strong>David Pérez</strong>&nbsp;(<a href=\"https://www.instagram.com/esdavidperez/\" rel=\"noopener noreferrer\" target=\"_blank\">@esdavidperez</a>), venezolano radicado en el país desde 2018, llega al sur de Chile tras la grabación de su especial de comedia&nbsp;\"<a href=\"https://www.youtube.com/watch?v=KW0uBzsjwzE&amp;t=679s\" rel=\"noopener noreferrer\" target=\"_blank\">Me Tengo Fe</a>\".</p><p><br></p><p>Con una trayectoria que lo ha llevado desde los escenarios más icónicos de Santiago, hasta la televisión, David ha logrado conectar con el público local a través de un humor honesto, fresco y cargado de anécdotas personales.</p><p><br></p><p><strong>¿Qué esperar del show?</strong></p><p><br></p><p>En esta gira, David despliega su talento para transformar situaciones cotidianas, choques culturales y su propia experiencia migratoria en historias hilarantes que nos demuestran que, al final del día, <strong>todos nos parecemos más de lo que creemos</strong>. Su estilo destaca por:</p><ul><li>Interacción genuina:&nbsp;David no solo cuenta chistes, sino que juega con la energía de la audiencia, creando momentos únicos en cada función.</li><li>Humor de observación:&nbsp;Desde las relaciones de pareja hasta los modismos chilenos más enredados, nada escapa a su aguda mirada.</li><li>Energía inagotable:&nbsp;Un show dinámico diseñado para reír de principio a fin junto a uno de los talentos más prometedores de la nueva comedia latina en Chile.</li></ul><p><br></p><p><strong>¡No te quedes fuera!</strong>&nbsp;Ven a descubrir por qué David Pérez se ha convertido en un imperdible de la cartelera nacional. Asegura tus entradas y sé parte de la gira que está conquistando el sur del país.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Valdivia",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-4smuh37s-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/david-perez-en-valdivia_qhw2o",
+      "lat": -39.8142,
+      "lon": -73.2459,
+      "descripcion_extendida": "<p>Valdivia prepárate para una noche de risas sin filtro con el comediante que ha refrescado la escena del stand up en Chile.&nbsp;</p><p><br></p><p><strong>David Pérez</strong>&nbsp;(<a href=\"https://www.instagram.com/esdavidperez/\" rel=\"noopener noreferrer\" target=\"_blank\">@esdavidperez</a>), venezolano radicado en el país desde 2018, llega al sur de Chile tras la grabación de su especial de comedia&nbsp;\"<a href=\"https://www.youtube.com/watch?v=KW0uBzsjwzE&amp;t=679s\" rel=\"noopener noreferrer\" target=\"_blank\">Me Tengo Fe</a>\".</p><p><br></p><p>Con una trayectoria que lo ha llevado desde los escenarios más icónicos de Santiago, hasta la televisión, David ha logrado conectar con el público local a través de un humor honesto, fresco y cargado de anécdotas personales.</p><p><br></p><p><strong>¿Qué esperar del show?</strong></p><p><br></p><p>En esta gira, David despliega su talento para transformar situaciones cotidianas, choques culturales y su propia experiencia migratoria en historias hilarantes que nos demuestran que, al final del día, <strong>todos nos parecemos más de lo que creemos</strong>. Su estilo destaca por:</p><ul><li>Interacción genuina:&nbsp;David no solo cuenta chistes, sino que juega con la energía de la audiencia, creando momentos únicos en cada función.</li><li>Humor de observación:&nbsp;Desde las relaciones de pareja hasta los modismos chilenos más enredados, nada escapa a su aguda mirada.</li><li>Energía inagotable:&nbsp;Un show dinámico diseñado para reír de principio a fin junto a uno de los talentos más prometedores de la nueva comedia latina en Chile.</li></ul><p><br></p><p><strong>¡No te quedes fuera!</strong>&nbsp;Ven a descubrir por qué David Pérez se ha convertido en un imperdible de la cartelera nacional. Asegura tus entradas y sé parte de la gira que está conquistando el sur del país.</p>",
+      "bio_artista": "David Pérez may refer to:David Pérez, Spanish politician\nDavid Pérez Arteaga, Spanish footballer\nDavid Pérez, Spanish football manager\nDavid Perez, Swedish politician\nDavid Pérez Sanz, Spanish tennis player\nDavid Pérez, singer in C-Note"
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "JUEVES DE RISAS en Provincia Apoquindo 04.06",
+      "venue": "",
+      "descripcion": "<p>Eventos Provincia Apoquindo y Malgenio Comedia continúan con su ciclo de Standup todos los Jueves!! No te pierdas a lo mejor de la comedia emergente cada semana. Solo comediantes de calidad.</p><p>JUEVES 04/06: Javier Doering, Malacabra, El Pooley y el debut de Marco Cisternas </p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-xr2p9tll-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/jueves-de-risas-en-provincia-apoquindo-0406_a499f",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Eventos Provincia Apoquindo y Malgenio Comedia continúan con su ciclo de Standup todos los Jueves!! No te pierdas a lo mejor de la comedia emergente cada semana. Solo comediantes de calidad.</p><p>JUEVES 04/06: Javier Doering, Malacabra, El Pooley y el debut de Marco Cisternas </p>",
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
@@ -4542,51 +4768,19 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Gaby del Rio en el Club de",
+      "nombre": "ALTER EGO",
       "venue": "",
-      "descripcion": "<p>Gaby del Rio, Actriz y comediante, madre de un joven adolescente. Llega a Club de San Miguel, con una rutina fresca, divertida y brutalmente honesta, donde nos relata la vida de una mujer a los 47 años, la crianza de su hijo, y los pormenores de su nuevo romance... Gaby por fin cree haber encontrado el amor perfecto con un hombre supuestamente resuelto.... Gaby tiene que luchar con la aceptación de los hijos de su nueva pareja y lidiar con la ex que esta muy presente</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "San Miguel",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ndzmu8cz-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/gaby-del-rio-en-el-club-de-san-miguel_nfrfl",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Gaby del Rio, Actriz y comediante, madre de un joven adolescente. Llega a Club de San Miguel, con una rutina fresca, divertida y brutalmente honesta, donde nos relata la vida de una mujer a los 47 años, la crianza de su hijo, y los pormenores de su nuevo romance... Gaby por fin cree haber encontrado el amor perfecto con un hombre supuestamente resuelto.... Gaby tiene que luchar con la aceptación de los hijos de su nueva pareja y lidiar con la ex que esta muy presente</p>",
-      "bio_artista": "María Gabriela López Butrón es una golfista mexicana. Formó parte de la delegación mexicana en los Juegos Olímpicos de Río de Janeiro 2016 y en los Juegos Olímpicos de Tokio 2020, donde fungió como abanderada nacional junto con el clavadista Rommel Pacheco durante la ceremonia de inauguración."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Ivan Arenas El Profesor Rosa",
-      "venue": "",
-      "descripcion": "<p>El nuevo y renovado show del profesor más famoso de chile y en compañía del pequeño gran humorista guionista Mauricio chico Riveros</p>",
+      "descripcion": "<p>ALTER EGO</p><p>Lospleimovil Impro Humor</p><p><br></p><p>Alter Ego es un espectáculo de improvisación teatral donde cuatro protagonistas coinciden por azar en una situación extrema, en el momento justo y a la hora precisa. A partir de ese encuentro inesperado, las historias van revelando las distintas realidades de cada personaje. Un cruce de decisiones y acciones, que aflora lo mejor y lo peor de cada uno. Un viaje impredecible donde nada está escrito y todo puede cambiar en un instante.</p><p>Dirección: Claudio Espinoza</p><p>Elenco:</p><p>Lissette Villegas, Claudio Espinoza, Enrique Guiñez, Yezz Martínez</p><p>Música: Jorge Salazar</p><p>Iluminación: Rodrigo Barnao</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-3eg3csfu-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/ivan-arenas-el-profesor-rosa_4e9o6",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-djn9li9w-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/alter-ego-_sk8dh",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>El nuevo y renovado show del profesor más famoso de chile y en compañía del pequeño gran humorista guionista Mauricio chico Riveros</p>",
-      "bio_artista": "El Mundo del Profesor Rossa fue un programa de televisión infantil educativo chileno transmitido por UCV Televisión desde 1983 hasta 1984 y desde ese año hasta 2002 por Canal 13."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Compactos pero no Limitados",
-      "venue": "",
-      "descripcion": "<p>Dos generaciones.</p><p>Dos cuerpos compactos.</p><p>Cero filtro.</p><p><br></p><p>Un show donde la edad se cuestiona, la juventud se defiende</p><p>y la estatura… nunca fue el problema.</p><p><br></p><p>COMPACTOS. Pero no limitados</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-heoh2tnt-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/compactos-pero-no-limitados-_vx99h",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Dos generaciones.</p><p>Dos cuerpos compactos.</p><p>Cero filtro.</p><p><br></p><p>Un show donde la edad se cuestiona, la juventud se defiende</p><p>y la estatura… nunca fue el problema.</p><p><br></p><p>COMPACTOS. Pero no limitados</p>",
-      "bio_artista": ""
+      "descripcion_extendida": "<p>ALTER EGO</p><p>Lospleimovil Impro Humor</p><p><br></p><p>Alter Ego es un espectáculo de improvisación teatral donde cuatro protagonistas coinciden por azar en una situación extrema, en el momento justo y a la hora precisa. A partir de ese encuentro inesperado, las historias van revelando las distintas realidades de cada personaje. Un cruce de decisiones y acciones, que aflora lo mejor y lo peor de cada uno. Un viaje impredecible donde nada está escrito y todo puede cambiar en un instante.</p><p>Dirección: Claudio Espinoza</p><p>Elenco:</p><p>Lissette Villegas, Claudio Espinoza, Enrique Guiñez, Yezz Martínez</p><p>Música: Jorge Salazar</p><p>Iluminación: Rodrigo Barnao</p>",
+      "bio_artista": "El alter ego es un segundo yo, que se cree es distinto de la personalidad normal u original de una persona. El término fue acuñado en el siglo XX descrito por los psicólogos en el libro Manual de psicología. De una persona que tiene un alter ego se dice que lleva una doble vida."
     },
     {
       "fuente": "ComediaTicket",
@@ -4606,6 +4800,38 @@
     },
     {
       "fuente": "ComediaTicket",
+      "nombre": "Ivan Arenas El Profesor Rosa",
+      "venue": "",
+      "descripcion": "<p>El nuevo y renovado show del profesor más famoso de chile y en compañía del pequeño gran humorista guionista Mauricio chico Riveros</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-3eg3csfu-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/ivan-arenas-el-profesor-rosa_4e9o6",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>El nuevo y renovado show del profesor más famoso de chile y en compañía del pequeño gran humorista guionista Mauricio chico Riveros</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Gaby del Rio en el Club de",
+      "venue": "",
+      "descripcion": "<p>Gaby del Rio, Actriz y comediante, madre de un joven adolescente. Llega a Club de San Miguel, con una rutina fresca, divertida y brutalmente honesta, donde nos relata la vida de una mujer a los 47 años, la crianza de su hijo, y los pormenores de su nuevo romance... Gaby por fin cree haber encontrado el amor perfecto con un hombre supuestamente resuelto.... Gaby tiene que luchar con la aceptación de los hijos de su nueva pareja y lidiar con la ex que esta muy presente</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "San Miguel",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ndzmu8cz-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/gaby-del-rio-en-el-club-de-san-miguel_nfrfl",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Gaby del Rio, Actriz y comediante, madre de un joven adolescente. Llega a Club de San Miguel, con una rutina fresca, divertida y brutalmente honesta, donde nos relata la vida de una mujer a los 47 años, la crianza de su hijo, y los pormenores de su nuevo romance... Gaby por fin cree haber encontrado el amor perfecto con un hombre supuestamente resuelto.... Gaby tiene que luchar con la aceptación de los hijos de su nueva pareja y lidiar con la ex que esta muy presente</p>",
+      "bio_artista": "María Gabriela López Butrón es una golfista mexicana. Formó parte de la delegación mexicana en los Juegos Olímpicos de Río de Janeiro 2016 y en los Juegos Olímpicos de Tokio 2020, donde fungió como abanderada nacional junto con el clavadista Rommel Pacheco durante la ceremonia de inauguración."
+    },
+    {
+      "fuente": "ComediaTicket",
       "nombre": "NUEVO MUNDO LA LIGUA",
       "venue": "",
       "descripcion": "<p>Nuevo Mundo es el nuevo show de stand-up de Beno Espinosa.</p><p>Un espectáculo de material completamente nuevo, donde Beno reflexiona —con humor ácido y observación cotidiana— sobre la sensación de despertar en un mundo distinto al que uno conocía: relaciones, expectativas, identidad, adultez y esa extraña idea de empezar de nuevo cuando nadie te avisó que había que hacerlo.</p><p><br></p><p>Un show honesto, filoso y muy gracioso, que se mueve entre lo íntimo y lo absurdo, sin moralejas ni respuestas claras. Solo preguntas incómodas… y muchos chistes.</p><p><br></p><p>Formato especial con más interacción con el público.&nbsp;&nbsp;</p><p><br></p><p><br></p><p><br></p><p>Stand up comedy en La Ligua</p>",
@@ -4619,6 +4845,22 @@
       "lon": null,
       "descripcion_extendida": "<p>Nuevo Mundo es el nuevo show de stand-up de Beno Espinosa.</p><p>Un espectáculo de material completamente nuevo, donde Beno reflexiona —con humor ácido y observación cotidiana— sobre la sensación de despertar en un mundo distinto al que uno conocía: relaciones, expectativas, identidad, adultez y esa extraña idea de empezar de nuevo cuando nadie te avisó que había que hacerlo.</p><p><br></p><p>Un show honesto, filoso y muy gracioso, que se mueve entre lo íntimo y lo absurdo, sin moralejas ni respuestas claras. Solo preguntas incómodas… y muchos chistes.</p><p><br></p><p>Formato especial con más interacción con el público.&nbsp;&nbsp;</p><p><br></p><p><br></p><p><br></p><p>Stand up comedy en La Ligua</p>",
       "bio_artista": "El Museo de La Ligua es una institución cultural perteneciente a la Ilustre Municipalidad de La Ligua, ubicada en la Provincia de Petorca, Región de Valparaíso, zona norte de Chile. Su principal misión es el rescate del patrimonio de la provincia y de la zona centro-norte de Chile. El Museo de La Ligua se constituye principalmente como museo arqueológico, pero también como museo histórico y de arte."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Compactos pero no Limitados",
+      "venue": "",
+      "descripcion": "<p>Dos generaciones.</p><p>Dos cuerpos compactos.</p><p>Cero filtro.</p><p><br></p><p>Un show donde la edad se cuestiona, la juventud se defiende</p><p>y la estatura… nunca fue el problema.</p><p><br></p><p>COMPACTOS. Pero no limitados</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-heoh2tnt-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/compactos-pero-no-limitados-_vx99h",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Dos generaciones.</p><p>Dos cuerpos compactos.</p><p>Cero filtro.</p><p><br></p><p>Un show donde la edad se cuestiona, la juventud se defiende</p><p>y la estatura… nunca fue el problema.</p><p><br></p><p>COMPACTOS. Pero no limitados</p>",
+      "bio_artista": "Una cámara compacta o cámara de apuntar y disparar es una cámara fotográfica sencilla cuyo objetivo no es desmontable. Las cámaras compactas suelen ser más sencillas de manejar que las cámaras Réflex y más económicas. Normalmente su funcionalidad está limitada en comparación con las réflex, aunque suelen ser más ligeras y fáciles de transportar, lo que las hace ideales para llevarlas de viaje."
     },
     {
       "fuente": "ComediaTicket",
@@ -4686,22 +4928,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "CICATRICES CON HIELO",
-      "venue": "",
-      "descripcion": "<p><strong>CICATRICES CON HIELO</strong></p><p>Una obra para quienes alguna vez amaron donde no debían…y terminaron aprendiendo a reírse de todo aquello que casi los rompe.</p><p><br></p><p><strong>En escena:&nbsp;</strong></p><p>Bresslli Cisneros&nbsp;</p><p>Génesis Sampayo&nbsp;</p><p>Rossanny Lanza</p><p><br></p><p>Texto Original de <strong>JuanCho Lusitano</strong></p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ws6kc2gb-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/cicatrices-con-hielo-_dp59u",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p><strong>CICATRICES CON HIELO</strong></p><p>Una obra para quienes alguna vez amaron donde no debían…y terminaron aprendiendo a reírse de todo aquello que casi los rompe.</p><p><br></p><p><strong>En escena:&nbsp;</strong></p><p>Bresslli Cisneros&nbsp;</p><p>Génesis Sampayo&nbsp;</p><p>Rossanny Lanza</p><p><br></p><p>Texto Original de <strong>JuanCho Lusitano</strong></p>",
-      "bio_artista": "La foca cangrejera es una especie de mamífero pinnípedo de la familia de los fócidos. Se estima que su población es entre 8 a 15 millones de individuos. Es una de las focas más rápidas ya que puede nadar a unos 25,74 km/h. La foca cangrejera se encuentra en la Antártida desde hace 15 a 25 millones de años, en una época en la que esa región era mucho más cálida que hoy día. También ha sido vista en zonas de América del Sur, Australia y Nueva Zelanda."
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "Clau Desmadre en Sambolio Restobar",
       "venue": "",
       "descripcion": "<p>Clau,&nbsp;divertida creadora de contenido, llega con su humor hilarante y su mirada única sobre las relaciones, el matrimonio y las locuras de la vida moderna.</p>",
@@ -4731,6 +4957,38 @@
       "lon": null,
       "descripcion_extendida": "<p>AMANTES, PAREJAS DISPAREJAS</p><p><br></p><p>Tres parejas asisten a una terapia para tratar de mejorar su relación. Lo que no saben es que el destino las entrecruzará a todas, en una ola de infidelidades. El exitoso espectáculo de impro de Lospleimovil llega en su octava temporada para que rías de principio a fin.</p><p><br></p><p>El Teatro cuenta con un RESTOBAR para esperar el comienzo de la función.&nbsp;</p><p><br></p><p>Idea Original: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Dirección: Claudio Espinoza</p><p><br></p><p>Músico: Jorge Sala</p><p><br></p><p>Tecnico:Flaco Barnao</p>",
       "bio_artista": "Claudio Espinoza es un actor chileno de cine, teatro y televisión."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "CICATRICES CON HIELO",
+      "venue": "",
+      "descripcion": "<p><strong>CICATRICES CON HIELO</strong></p><p>Una obra para quienes alguna vez amaron donde no debían…y terminaron aprendiendo a reírse de todo aquello que casi los rompe.</p><p><br></p><p><strong>En escena:&nbsp;</strong></p><p>Bresslli Cisneros&nbsp;</p><p>Génesis Sampayo&nbsp;</p><p>Rossanny Lanza</p><p><br></p><p>Texto Original de <strong>JuanCho Lusitano</strong></p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ws6kc2gb-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/cicatrices-con-hielo-_dp59u",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p><strong>CICATRICES CON HIELO</strong></p><p>Una obra para quienes alguna vez amaron donde no debían…y terminaron aprendiendo a reírse de todo aquello que casi los rompe.</p><p><br></p><p><strong>En escena:&nbsp;</strong></p><p>Bresslli Cisneros&nbsp;</p><p>Génesis Sampayo&nbsp;</p><p>Rossanny Lanza</p><p><br></p><p>Texto Original de <strong>JuanCho Lusitano</strong></p>",
+      "bio_artista": "La foca cangrejera es una especie de mamífero pinnípedo de la familia de los fócidos. Se estima que su población es entre 8 a 15 millones de individuos. Es una de las focas más rápidas ya que puede nadar a unos 25,74 km/h. La foca cangrejera se encuentra en la Antártida desde hace 15 a 25 millones de años, en una época en la que esa región era mucho más cálida que hoy día. También ha sido vista en zonas de América del Sur, Australia y Nueva Zelanda."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "YO SOY… KARLITES",
+      "venue": "",
+      "descripcion": "<p>“Yo Soy… Karlites” es un show de Stand Up Comedy que te invita a reír, pensar y reflexionar a través de experiencias de vida como persona parte de la comunidad LGBTIQA+. Un recorrido honesto, divertido y sin filtro que nos lleva desde su infancia hasta el presente, atravesando cuestionamientos, negaciones, descubrimientos y reconciliaciones consigo mismo.</p><p>Entre su faceta más tierna y su lado más irreverente, Karlites transforma vivencias personales en risas, identificación y complicidad con el público, demostrando que incluso las etapas más confusas de la vida también pueden convertirse en comedia.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ddahl2jk-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/yo-soy-karlites_kcrxp",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>“Yo Soy… Karlites” es un show de Stand Up Comedy que te invita a reír, pensar y reflexionar a través de experiencias de vida como persona parte de la comunidad LGBTIQA+. Un recorrido honesto, divertido y sin filtro que nos lleva desde su infancia hasta el presente, atravesando cuestionamientos, negaciones, descubrimientos y reconciliaciones consigo mismo.</p><p>Entre su faceta más tierna y su lado más irreverente, Karlites transforma vivencias personales en risas, identificación y complicidad con el público, demostrando que incluso las etapas más confusas de la vida también pueden convertirse en comedia.</p>",
+      "bio_artista": "Mafia K'1 Fry es un colectivo de raperos franceses proveniente de Val-de-Marne y del eje Orly-Choisy-Vitry-Joinville."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -4878,22 +5136,6 @@
     },
     {
       "fuente": "Eventbrite",
-      "nombre": "Concierto Los Grandes de la Música del Orfeón Nacional de Carabineros",
-      "venue": "",
-      "descripcion": "Prepárate para una tarde llena de buena música y grandes éxitos con la Big Band del Orfeón Nacional de Carabineros de Chile",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1184853726%252F1170662714273%252F1%252Foriginal.20260518-150502%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dd4ab38a5c6a1c9426b1f72e07b761b78&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/concierto-los-grandes-de-la-musica-del-orfeon-nacional-de-carabineros-tickets-1989834536664?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Prepárate para una tarde llena de buena música y grandes éxitos con la Big Band del Orfeón Nacional de Carabineros de Chile",
-      "bio_artista": "Sanlúcar de Barrameda es una ciudad y municipio español situado en la provincia de Cádiz, en la comunidad autónoma de Andalucía. Asentada en la margen izquierda del estuario del río Guadalquivir, frente al parque nacional y natural de Doñana, dista 23 km de Jerez de la Frontera, 50 km de la capital de provincia, Cádiz, y 96 km de la capital autonómica, Sevilla. Su población es de 70 012 habitantes."
-    },
-    {
-      "fuente": "Eventbrite",
       "nombre": "EXPONOR CHILE 2026",
       "venue": "",
       "descripcion": "Exhibición Internacional de Tecnologías e Innovaciones para la Industria Minera y Energética, EXPONOR Chile 2026.",
@@ -4955,6 +5197,38 @@
       "lon": -71.6127,
       "descripcion_extendida": "Edgar Baumann es un exlanzador de jabalina paraguayo de ascendencia alemana que actualmente se desempeña como entrenador, promotor deportivo y empresario.",
       "bio_artista": "Edgar Baumann es un exlanzador de jabalina paraguayo de ascendencia alemana que actualmente se desempeña como entrenador, promotor deportivo y empresario."
+    },
+    {
+      "fuente": "Eventbrite",
+      "nombre": "Obra de teatro: La sexualidad secreta de los hombres",
+      "venue": "",
+      "descripcion": "¿Miedos, fantasías y tabúes? ¡Todo sale a la luz! Una comedia sin filtros para reír, aprender y conversar en pareja",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "",
+      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1184862241%252F1170662714273%252F1%252Foriginal.20260518-163144%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dcc9509e8c0a6025e82652f7fade9b7b2&w=1880&q=75",
+      "url": "https://www.eventbrite.cl/e/obra-de-teatro-la-sexualidad-secreta-de-los-hombres-tickets-1989848179470?aff=ebdssbcitybrowse",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "¿Miedos, fantasías y tabúes? ¡Todo sale a la luz! Una comedia sin filtros para reír, aprender y conversar en pareja",
+      "bio_artista": "Carlos Vladimir Embry Guzmán(Viña del Mar, 29 de diciembre de 1966) es un actor chileno, de televisión, telenovelas, series, teatro, cine, sitcoms, videoclips, locución y spots publicitarios."
+    },
+    {
+      "fuente": "CulturaGob",
+      "nombre": "La Orquesta de Cámara de Chile trae la magia de la ópera a la Región de Atacama con «Don Pasquale»",
+      "venue": "Ministerio de las Culturas",
+      "descripcion": "Como parte de su labor por descentralizar el acceso a espectáculos de música docta, el elenco estable del Ministerio de las Culturas, las Artes y el Patrimonio, anuncia una histórica gira por Atacama presentando la célebre ópera cómica Don Pasquale de Gaetano Donizetti, en las comunas de Copiapó, Ca",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/opera-don-pascuale-2-450x300.jpg",
+      "url": "https://www.cultura.gob.cl/agendacultural/la-orquesta-de-camara-de-chile-trae-la-magia-de-la-opera-a-la-region-de-atacama-con-don-pasquale/",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Como parte de su labor por descentralizar el acceso a espectáculos de música docta, el elenco estable del Ministerio de las Culturas, las Artes y el Patrimonio, anuncia una histórica gira por Atacama presentando la célebre ópera cómica Don Pasquale de Gaetano Donizetti, en las comunas de Copiapó, Ca",
+      "bio_artista": ""
     },
     {
       "fuente": "CCLM",
