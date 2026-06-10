@@ -1,15 +1,15 @@
 {
-  "generado_en": "2026-06-10T10:42:02.483573+00:00",
-  "total_eventos": 302,
+  "generado_en": "2026-06-10T20:21:11.529800+00:00",
+  "total_eventos": 309,
   "por_fuente": {
-    "Ticketplus": 131,
-    "Ticketmaster": 29,
+    "Ticketplus": 133,
+    "Ticketmaster": 33,
     "ComediaTicket": 39,
     "EsquinaRetornable": 8,
     "GAM": 54,
-    "PuntoTicket": 33,
-    "CulturaGob": 2,
+    "PuntoTicket": 35,
     "CulturaAntofagasta": 4,
+    "CulturaGob": 1,
     "CCLM": 2
   },
   "eventos": [
@@ -138,8 +138,8 @@
       "url": "https://ticketplus.cl/events/taller-de-impro-junio",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Patricia del Pilar Portocarrero y Talavera es una actriz, cantante, profesora de teatro y comediante peruana, más conocida por su faceta de clown.",
-      "bio_artista": "Patricia del Pilar Portocarrero y Talavera es una actriz, cantante, profesora de teatro y comediante peruana, más conocida por su faceta de clown."
+      "descripcion_extendida": "Raúl Campos Nieto, más conocido como Raúl Beatmac, es un actor, autor, director y músico de Madrid, conocido por sus habilidades de improvisación teatro-musical y live looping, con vídeos cómicos virales como Amenaza Fail que se han compartido en la red decenas de miles de veces, y sobre el que se ha dicho que es \"el hombre orquesta del siglo XXI\", o \"un tipo capaz de sonar igual de potente que los Chemical Brothers pero sólo con su boca\"",
+      "bio_artista": "Raúl Campos Nieto, más conocido como Raúl Beatmac, es un actor, autor, director y músico de Madrid, conocido por sus habilidades de improvisación teatro-musical y live looping, con vídeos cómicos virales como Amenaza Fail que se han compartido en la red decenas de miles de veces, y sobre el que se ha dicho que es \"el hombre orquesta del siglo XXI\", o \"un tipo capaz de sonar igual de potente que los Chemical Brothers pero sólo con su boca\""
     },
     {
       "fuente": "Ticketplus",
@@ -170,8 +170,8 @@
       "url": "https://ticketplus.cl/events/mil-pedazos",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "\"Mil Pedazos\" is a song performed by Colombian singer-songwriter Juanes for his sixth studio album Loco de Amor. Written by the singer, and the member of the Mexican band Café Tacuba, Emmanuel Del Real, and produced by Juanes with the collaboration of Steve Lillywhite, Universal Music Latino released the song as the second single from Loco de Amor on March 7, 2014.",
-      "bio_artista": "\"Mil Pedazos\" is a song performed by Colombian singer-songwriter Juanes for his sixth studio album Loco de Amor. Written by the singer, and the member of the Mexican band Café Tacuba, Emmanuel Del Real, and produced by Juanes with the collaboration of Steve Lillywhite, Universal Music Latino released the song as the second single from Loco de Amor on March 7, 2014."
+      "descripcion_extendida": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014.",
+      "bio_artista": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014."
     },
     {
       "fuente": "Ticketplus",
@@ -234,8 +234,8 @@
       "url": "https://ticketplus.cl/events/caluga-o-menta",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Caluga o menta es una película chilena dirigida por Gonzalo Justiniano. Estrenada en 1990, a pocos meses del fin de la dictadura militar, Caluga o menta es considerada un símbolo de la situación social de la época de la transición a la democracia.",
-      "bio_artista": "Caluga o menta es una película chilena dirigida por Gonzalo Justiniano. Estrenada en 1990, a pocos meses del fin de la dictadura militar, Caluga o menta es considerada un símbolo de la situación social de la época de la transición a la democracia."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -251,7 +251,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "MADRE DE LA PATRIA - TEATRO LA CRISIS",
-      "bio_artista": "El término madre patria se emplea para designar una nación «madre» con la cual un grupo de individuos está relacionado, sea dicha nación su lugar de nacimiento o el origen étnico de un grupo inmigrante."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -292,7 +292,7 @@
       "descripcion": "BANKSIAE 🎵 MIÉRCOLES 10 JUNIO ★ Club Subterráneo (+21)",
       "fecha_iso": "2026-06-10",
       "fecha_texto": "10 de junio de 2026",
-      "precio_desde_clp": "8.800",
+      "precio_desde_clp": "11.000",
       "ciudad": "Santiago",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/da737c7c88dd335305c498cfc56923346bc8c4c5.png?1779909607&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/banksiae-miercoles-10-junio-club-subterraneo-21",
@@ -618,8 +618,24 @@
       "url": "https://www.ticketmaster.cl/event/edo-caroe-no-tiene-show-teatro-universidad-de-concepcion",
       "lat": -36.827,
       "lon": -73.0502,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Eduardo Alejandro Carrasco Rodríguez conocido como Edo Caroe, Bad Bunny Shileno, Mago Pirula o autodenominado Lobo de la Carretera es un comediante y mago chileno. También se ha desempeñado como locutor de radio y podcast. Es conocido por sus dos apariciones en el reconocido Festival De Viña y por la múltiple cantidad de recintos que el humorista ha llenado en su país.",
+      "bio_artista": "Eduardo Alejandro Carrasco Rodríguez conocido como Edo Caroe, Bad Bunny Shileno, Mago Pirula o autodenominado Lobo de la Carretera es un comediante y mago chileno. También se ha desempeñado como locutor de radio y podcast. Es conocido por sus dos apariciones en el reconocido Festival De Viña y por la múltiple cantidad de recintos que el humorista ha llenado en su país."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "COCTELES RISAS DE JUEVES",
+      "venue": "",
+      "descripcion": "<p>🎤🍹 <strong>¡La risa vuelve a tomarse Akbar!</strong> 🍹🎤</p><p>Porque un buen cóctel entra mejor acompañado de una gran carcajada, te esperamos en una nueva edición de <strong>CÓCTELES &amp; RISAS</strong>. 😂🔥</p><p>Una noche llena de humor, buena onda, tragos y un lineup que promete hacerte reír desde que llegas hasta que te vas.</p><p>🎙️ En escena:</p><p>✨ Amandísima</p><p>🌈 Diana</p><p>😂 Edgar</p><p>🔥 Carla</p><p>🎤 Ramírez</p><p>⭐ Luis Popim</p><p>📅 Jueves 11 de junio</p><p>🕘 21:00 horas</p><p>📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>🍸 Los mejores cócteles</p><p>🍔 Rica comida</p><p>🤣 Comedia en vivo</p><p>💜 Un ambiente increíble para disfrutar con amig@s</p><p>No te quedes fuera de una noche donde la única regla es pasarlo bien.</p><p>🎟️ Reserva tu mesa y prepárate para reír.</p><p>#CoctelesYRisas #Akbar #StandUpComedy #ComediaEnVivo #PlazaÑuñoa #HumorChileno #PanoramaSantiago #LaRisaEsMejor #MesDelOrgullo #NocheDeComedia 🌈🍹😂🎤🔥💜</p>",
+      "fecha_iso": "2026-06-11",
+      "fecha_texto": "11 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Ñuñoa",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-55gakbre-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/cocteles-risas-de-jueves-_ihh0h",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>🎤🍹 <strong>¡La risa vuelve a tomarse Akbar!</strong> 🍹🎤</p><p>Porque un buen cóctel entra mejor acompañado de una gran carcajada, te esperamos en una nueva edición de <strong>CÓCTELES &amp; RISAS</strong>. 😂🔥</p><p>Una noche llena de humor, buena onda, tragos y un lineup que promete hacerte reír desde que llegas hasta que te vas.</p><p>🎙️ En escena:</p><p>✨ Amandísima</p><p>🌈 Diana</p><p>😂 Edgar</p><p>🔥 Carla</p><p>🎤 Ramírez</p><p>⭐ Luis Popim</p><p>📅 Jueves 11 de junio</p><p>🕘 21:00 horas</p><p>📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>🍸 Los mejores cócteles</p><p>🍔 Rica comida</p><p>🤣 Comedia en vivo</p><p>💜 Un ambiente increíble para disfrutar con amig@s</p><p>No te quedes fuera de una noche donde la única regla es pasarlo bien.</p><p>🎟️ Reserva tu mesa y prepárate para reír.</p><p>#CoctelesYRisas #Akbar #StandUpComedy #ComediaEnVivo #PlazaÑuñoa #HumorChileno #PanoramaSantiago #LaRisaEsMejor #MesDelOrgullo #NocheDeComedia 🌈🍹😂🎤🔥💜</p>",
+      "bio_artista": "La guerra de Gaza de 2012, conocida en Israel como operación Pilar Defensivo, fue una operación militar llevada a cabo por las Fuerzas de Defensa de Israel (FDI) en la Franja de Gaza, iniciada el 14 de noviembre de 2012 con el asesinato de Ahmed Yabari, jefe de la rama militar gazatí de Hamás y concluida el 21 del mismo mes con el acuerdo de un alto al fuego. El periodo previo a esta operación estuvo marcado por un intercambio de mutuos ataques de respuesta israelí-palestinos."
     },
     {
       "fuente": "ComediaTicket",
@@ -635,7 +651,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>¡Atención Valle Lo Campino, Quilicura y alrededores! Este próximo JUEVES 11 de JUNIO, llega el gran MAURICIO PALMA con su show de comedia a CLUB CARIBEÑO ; no te pierdas todo el</p><p>sarcasmo e irreverencia de uno de los exponentes más destacados del humor negro nacional, en una jornada donde sin duda las risas serán las protagonistas de la noche.</p><p>Invitado especial : El gran VIOLENTO PARRA.</p>",
-      "bio_artista": ""
+      "bio_artista": "El carnaval de Barranquilla es un evento folclórico y cultural celebrado en Colombia. El carnaval se celebra anualmente en febrero o principios de marzo, entre el sábado y el martes de carnaval, día anterior al Miércoles de Ceniza, el cual da inicio a la Cuaresma."
     },
     {
       "fuente": "ComediaTicket",
@@ -667,22 +683,6 @@
       "lat": -27.3668,
       "lon": -70.3323,
       "descripcion_extendida": "<p>¡Prepárate para una noche llena de risas, humor y entretención en La Copiapó Restobar!</p><p><br></p><p>Este jueves 11 de junio recibimos a Rodrigo González en una nueva edición de \"Jueves de Humor\", un espectáculo pensado para disfrutar junto a amigos, pareja o familia en un ambiente cercano y lleno de buena energía.</p><p><br></p><p>La jornada contará además con la animación de Andrés Troncoso, concursos, premios y muchas sorpresas para que vivas una experiencia inolvidable.</p><p><br></p><p>📅 Fecha: Jueves 11 de junio</p><p>🕤 Ingreso: 21:30 horas</p><p>📍 La Copiapó Restobar – Wheelwright 531, Caldera</p><p><br></p><p>No te quedes fuera!!.</p><p>¡Compra tu entrada y asegura tu lugar!</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "COCTELES RISAS DE JUEVES",
-      "venue": "",
-      "descripcion": "<p>🎤🍹 <strong>¡La risa vuelve a tomarse Akbar!</strong> 🍹🎤</p><p>Porque un buen cóctel entra mejor acompañado de una gran carcajada, te esperamos en una nueva edición de <strong>CÓCTELES &amp; RISAS</strong>. 😂🔥</p><p>Una noche llena de humor, buena onda, tragos y un lineup que promete hacerte reír desde que llegas hasta que te vas.</p><p>🎙️ En escena:</p><p>✨ Amandísima</p><p>🌈 Diana</p><p>😂 Edgar</p><p>🔥 Carla</p><p>🎤 Ramírez</p><p>⭐ Luis Popim</p><p>📅 Jueves 11 de junio</p><p>🕘 21:00 horas</p><p>📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>🍸 Los mejores cócteles</p><p>🍔 Rica comida</p><p>🤣 Comedia en vivo</p><p>💜 Un ambiente increíble para disfrutar con amig@s</p><p>No te quedes fuera de una noche donde la única regla es pasarlo bien.</p><p>🎟️ Reserva tu mesa y prepárate para reír.</p><p>#CoctelesYRisas #Akbar #StandUpComedy #ComediaEnVivo #PlazaÑuñoa #HumorChileno #PanoramaSantiago #LaRisaEsMejor #MesDelOrgullo #NocheDeComedia 🌈🍹😂🎤🔥💜</p>",
-      "fecha_iso": "2026-06-11",
-      "fecha_texto": "11 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Ñuñoa",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-55gakbre-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/cocteles-risas-de-jueves-_ihh0h",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>🎤🍹 <strong>¡La risa vuelve a tomarse Akbar!</strong> 🍹🎤</p><p>Porque un buen cóctel entra mejor acompañado de una gran carcajada, te esperamos en una nueva edición de <strong>CÓCTELES &amp; RISAS</strong>. 😂🔥</p><p>Una noche llena de humor, buena onda, tragos y un lineup que promete hacerte reír desde que llegas hasta que te vas.</p><p>🎙️ En escena:</p><p>✨ Amandísima</p><p>🌈 Diana</p><p>😂 Edgar</p><p>🔥 Carla</p><p>🎤 Ramírez</p><p>⭐ Luis Popim</p><p>📅 Jueves 11 de junio</p><p>🕘 21:00 horas</p><p>📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>🍸 Los mejores cócteles</p><p>🍔 Rica comida</p><p>🤣 Comedia en vivo</p><p>💜 Un ambiente increíble para disfrutar con amig@s</p><p>No te quedes fuera de una noche donde la única regla es pasarlo bien.</p><p>🎟️ Reserva tu mesa y prepárate para reír.</p><p>#CoctelesYRisas #Akbar #StandUpComedy #ComediaEnVivo #PlazaÑuñoa #HumorChileno #PanoramaSantiago #LaRisaEsMejor #MesDelOrgullo #NocheDeComedia 🌈🍹😂🎤🔥💜</p>",
       "bio_artista": ""
     },
     {
@@ -763,7 +763,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "NACIÓN TRIBAL -ALL BLACK - SPOT FREEDOM - VIERNES 12 DE JUNIO",
-      "bio_artista": "Halcón Negro o Black Sparrow Hawk fue un líder y guerrero de la tribu sauk en el territorio actual de los Estados Unidos de América. Aunque heredero de las artes de la medicina, nunca fue jefe civil de su tribu, los sauk, sino que llegó a ser jefe de guerra, y es conocido generalmente en el idioma inglés como Chief Black Hawk."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -779,7 +779,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "La Previa / Concierto N°8 • A la Italiana",
-      "bio_artista": "Los Conciertos para clave, BWV 1052-1065 son una serie de obras escritas para clave, cuerda y bajo continuo por Johann Sebastian Bach. Hay siete conciertos completos para clave solo, tres conciertos para dos claves, dos conciertos para triple clave y un concierto para cuatro claves. Además, hay un único fragmento de nueve compases de un concierto para un clave, que añade un oboe al conjunto de cuerdas y continuo."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -811,7 +811,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Jorge Alís-MALON - Viernes 12 Junio 20 hrs",
-      "bio_artista": "El bajo eléctrico, llamado sencillamente bajo, es un instrumento musical melódico de la familia de los cordófonos, similar en apariencia y construcción a la guitarra eléctrica, pero con un cuerpo de mayores dimensiones, un mástil de mayor longitud, escala y cuerdas más gruesas, normalmente cuatro, afinadas según la afinación estándar del contrabajo, su antecesor."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -927,18 +927,18 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Iván Cabello presenta “Adiós Picolero”",
+      "nombre": "Tacaños. Un show de comedia",
       "venue": "",
-      "descripcion": "<p>El 12 de Junio&nbsp;a las 21:00 hrs, Strike Comedy recibe a Iván Cabello con su show “Adiós Piscolero”, una rutina honesta, deslenguada y cargada de humor cotidiano. A través de anécdotas personales, excesos, despedidas y reflexiones hilarantes, Iván conecta con el público desde la risa y la complicidad, retratando situaciones que muchos han vivido… pero pocos se atreven a contar. Una noche ideal para reírse de uno mismo, brindar y disfrutar del stand up en un ambiente cercano y sin censura.</p><p><br></p>",
+      "descripcion": "<p>Tacaños es un show de comedia en donde Karencita (@soylakarencita) y Diego Larenas (@unsujetopromedio) muestran lo mejor de sus rutinas para hacerte reir de principio a fin.</p><p>Además, cuenta con interacciones en vivo para que puedas contar esas historias de gente tacaña que te han hecho perder la fé en la humanidad o que te han dado ideas brillantes para sobrevivir a un mundo cada vez más caro.</p><p><br></p><p>Te esperamos este viernes 12 de junio a las 20:00 en el Rincón de Jano, Seminario 595, Providencia.</p>",
       "fecha_iso": "2026-06-12",
       "fecha_texto": "12 de junio de 2026",
       "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-8xnlkw71-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/ivan-cabello-presenta-adios-picolero-_ywyf4",
+      "ciudad": "Providencia",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-77zuxav1-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/tacanos-un-show-de-comedia_m6wzv",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>El 12 de Junio&nbsp;a las 21:00 hrs, Strike Comedy recibe a Iván Cabello con su show “Adiós Piscolero”, una rutina honesta, deslenguada y cargada de humor cotidiano. A través de anécdotas personales, excesos, despedidas y reflexiones hilarantes, Iván conecta con el público desde la risa y la complicidad, retratando situaciones que muchos han vivido… pero pocos se atreven a contar. Una noche ideal para reírse de uno mismo, brindar y disfrutar del stand up en un ambiente cercano y sin censura.</p><p><br></p>",
+      "descripcion_extendida": "<p>Tacaños es un show de comedia en donde Karencita (@soylakarencita) y Diego Larenas (@unsujetopromedio) muestran lo mejor de sus rutinas para hacerte reir de principio a fin.</p><p>Además, cuenta con interacciones en vivo para que puedas contar esas historias de gente tacaña que te han hecho perder la fé en la humanidad o que te han dado ideas brillantes para sobrevivir a un mundo cada vez más caro.</p><p><br></p><p>Te esperamos este viernes 12 de junio a las 20:00 en el Rincón de Jano, Seminario 595, Providencia.</p>",
       "bio_artista": ""
     },
     {
@@ -975,18 +975,18 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Tacaños. Un show de comedia",
+      "nombre": "Iván Cabello presenta “Adiós Picolero”",
       "venue": "",
-      "descripcion": "<p>Tacaños es un show de comedia en donde Karencita (@soylakarencita) y Diego Larenas (@unsujetopromedio) muestran lo mejor de sus rutinas para hacerte reir de principio a fin.</p><p>Además, cuenta con interacciones en vivo para que puedas contar esas historias de gente tacaña que te han hecho perder la fé en la humanidad o que te han dado ideas brillantes para sobrevivir a un mundo cada vez más caro.</p><p><br></p><p>Te esperamos este viernes 12 de junio a las 20:00 en el Rincón de Jano, Seminario 595, Providencia.</p>",
+      "descripcion": "<p>El 12 de Junio&nbsp;a las 21:00 hrs, Strike Comedy recibe a Iván Cabello con su show “Adiós Piscolero”, una rutina honesta, deslenguada y cargada de humor cotidiano. A través de anécdotas personales, excesos, despedidas y reflexiones hilarantes, Iván conecta con el público desde la risa y la complicidad, retratando situaciones que muchos han vivido… pero pocos se atreven a contar. Una noche ideal para reírse de uno mismo, brindar y disfrutar del stand up en un ambiente cercano y sin censura.</p><p><br></p>",
       "fecha_iso": "2026-06-12",
       "fecha_texto": "12 de junio de 2026",
       "precio_desde_clp": "",
-      "ciudad": "Providencia",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-77zuxav1-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/tacanos-un-show-de-comedia_m6wzv",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-8xnlkw71-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/ivan-cabello-presenta-adios-picolero-_ywyf4",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>Tacaños es un show de comedia en donde Karencita (@soylakarencita) y Diego Larenas (@unsujetopromedio) muestran lo mejor de sus rutinas para hacerte reir de principio a fin.</p><p>Además, cuenta con interacciones en vivo para que puedas contar esas historias de gente tacaña que te han hecho perder la fé en la humanidad o que te han dado ideas brillantes para sobrevivir a un mundo cada vez más caro.</p><p><br></p><p>Te esperamos este viernes 12 de junio a las 20:00 en el Rincón de Jano, Seminario 595, Providencia.</p>",
+      "descripcion_extendida": "<p>El 12 de Junio&nbsp;a las 21:00 hrs, Strike Comedy recibe a Iván Cabello con su show “Adiós Piscolero”, una rutina honesta, deslenguada y cargada de humor cotidiano. A través de anécdotas personales, excesos, despedidas y reflexiones hilarantes, Iván conecta con el público desde la risa y la complicidad, retratando situaciones que muchos han vivido… pero pocos se atreven a contar. Una noche ideal para reírse de uno mismo, brindar y disfrutar del stand up en un ambiente cercano y sin censura.</p><p><br></p>",
       "bio_artista": ""
     },
     {
@@ -1126,7 +1126,7 @@
       "fecha_texto": "13 de junio de 2026",
       "precio_desde_clp": "",
       "ciudad": "Puerto Montt",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/95a6cb38ed82c7ef045dd9677110ff905136de1a.jpg?1781059297&format=baseline-jpeg&q=65",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/18119d1d212311f9215ee78aee55345378510403.jpeg?1781119328&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/sabado-13-junio-gianni-club-w",
       "lat": -41.4693,
       "lon": -72.9424,
@@ -1147,7 +1147,23 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Fútbol Formativo, sábado 13 de junio 2026 10:00 hrs. en Estadio Bicentenario de La Florida - La Florida.",
-      "bio_artista": ""
+      "bio_artista": "El Fútbol Joven de Chile de la ANFP, es la categoría del fútbol juvenil en Chile. Es organizada por la Asociación Nacional de Fútbol Profesional (ANFP), perteneciente a la Federación de Fútbol de Chile (FFCh)."
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Universidad de Chile vs. Palestino - Liga Femenina - Fecha 12 Estadio Municipal Bueras",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Universidad de Chile vs. Palestino, sábado 13 de junio 2026 17:00 hrs. en Estadio Municipal Santiago Bueras - Maipú.",
+      "fecha_iso": "2026-06-13",
+      "fecha_texto": "13 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/ufe036_md.jpg",
+      "url": "https://www.puntoticket.com/evento/udechile-vs-palestino-ligafemenina-2026",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Palestino, sábado 13 de junio 2026 17:00 hrs. en Estadio Municipal Santiago Bueras - Maipú.",
+      "bio_artista": "El Club Deportivo Palestino es una institución social, cultural y deportiva con sede en Santiago, Chile. Fue fundado el 20 de agosto de 1920 por miembros de la colonia palestina en el país, y su principal actividad es el fútbol profesional, cuyo primer equipo participa en la Liga de Primera."
     },
     {
       "fuente": "PuntoTicket",
@@ -1163,7 +1179,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Colo-Colo vs. Cobresal, sábado 13 de junio 2026 17:30 hrs. en Estadio Monumental - Macul.",
-      "bio_artista": ""
+      "bio_artista": "La historia del Club Social y Deportivo Colo-Colo transcurre desde el año 1925, cuando un grupo de exjugadores del Club Social y Deportivo Magallanes, liderados por David Arellano, descontentos con el manejo deportivo y administrativo de la institución, decidieron fundar un nuevo club."
     },
     {
       "fuente": "PuntoTicket",
@@ -1194,8 +1210,8 @@
       "url": "https://www.ticketmaster.cl/event/noche-de-broadway-teatro-universidad-de-concepcion",
       "lat": -36.827,
       "lon": -73.0502,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Bloodhounds of Broadway —conocida como El sabueso de Broadway o Noches de Broadway— es una película de 1989, basada en cuatro historias de Damon Runyon. Fue rodada en Nueva York, dirigida por Howard Brookner y protagonizada por Matt Dillon, Jennifer Grey, Julie Hagerty, Rutger Hauer, Madonna y Randy Quaid.",
+      "bio_artista": "Bloodhounds of Broadway —conocida como El sabueso de Broadway o Noches de Broadway— es una película de 1989, basada en cuatro historias de Damon Runyon. Fue rodada en Nueva York, dirigida por Howard Brookner y protagonizada por Matt Dillon, Jennifer Grey, Julie Hagerty, Rutger Hauer, Madonna y Randy Quaid."
     },
     {
       "fuente": "Ticketmaster",
@@ -1231,18 +1247,18 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "HAY QUE ENTRAR A PICAR",
+      "nombre": "El Show Final - Muestra lab. de Stand Up de La Sala 2da función",
       "venue": "",
-      "descripcion": "<p>Te invitamos a disfrutar de una noche imperdible de humor con Ricardo Meruane, uno de los comediantes más reconocidos de Chile, aplaudido por su agudeza, ironía inteligente y capacidad única para retratar la vida cotidiana con humor directo y sin filtros. Sus rutinas, elogiadas por su ritmo y conexión con el público, garantizan risas de principio a fin. 📅 13 de junio 🕗 21 hrs 📍 Good Restaurante ¡Una velada para reír, disfrutar y compartir!</p>",
+      "descripcion": "<h3><strong>Sábado de comedia: El Cierre del Laboratorio 🚀🔥</strong></h3><p>Si el viernes estuvo bueno, el sábado se viene sin frenos. El <strong>1er Laboratorio de Stand Up de La Sala</strong> vive su segunda y última noche de muestra final. Cinco comediantes se la juegan toda en el escenario con textos totalmente originales, pulidos y listos para hacerte escupir el copete.</p><p>Ven a pasar el sábado con el tremendo lineup que se armó:</p><ul><li><strong>Pablo</strong></li><li><strong>Ariel</strong></li><li><strong>Nico</strong></li><li><strong>Estrella</strong></li><li><strong>Iann</strong></li></ul><p>La Chipi pone las promos y el bajón, nosotros ponemos los chistes. Tú solo tienes que traer las ganas de pasarlo bien.</p><ul><li>📅 <strong>¿Cuándo?</strong> Sábado 13 de junio.</li><li>🕠 <strong>¿A qué hora?</strong> 20:30 hrs.</li><li>📍 <strong>¿Dónde?</strong> <em>Donde la Chipi</em> (Diagonal Paraguay 458, subterráneo).</li></ul><p>Espacios limitados (porque en el subterráneo el ambiente es íntimo y se vive mejor la comedia). ¡No te quedes abajo!</p>",
       "fecha_iso": "2026-06-13",
       "fecha_texto": "13 de junio de 2026",
       "precio_desde_clp": "",
       "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ha92rtwl-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/hay-que-entrar-a-picar_tamom",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-7a6ycs7c-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/el-show-final-muestra-lab-de-stand-up-de-la-sala-2da-funcion_e8rvs",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>Te invitamos a disfrutar de una noche imperdible de humor con Ricardo Meruane, uno de los comediantes más reconocidos de Chile, aplaudido por su agudeza, ironía inteligente y capacidad única para retratar la vida cotidiana con humor directo y sin filtros. Sus rutinas, elogiadas por su ritmo y conexión con el público, garantizan risas de principio a fin. 📅 13 de junio 🕗 21 hrs 📍 Good Restaurante ¡Una velada para reír, disfrutar y compartir!</p>",
+      "descripcion_extendida": "<h3><strong>Sábado de comedia: El Cierre del Laboratorio 🚀🔥</strong></h3><p>Si el viernes estuvo bueno, el sábado se viene sin frenos. El <strong>1er Laboratorio de Stand Up de La Sala</strong> vive su segunda y última noche de muestra final. Cinco comediantes se la juegan toda en el escenario con textos totalmente originales, pulidos y listos para hacerte escupir el copete.</p><p>Ven a pasar el sábado con el tremendo lineup que se armó:</p><ul><li><strong>Pablo</strong></li><li><strong>Ariel</strong></li><li><strong>Nico</strong></li><li><strong>Estrella</strong></li><li><strong>Iann</strong></li></ul><p>La Chipi pone las promos y el bajón, nosotros ponemos los chistes. Tú solo tienes que traer las ganas de pasarlo bien.</p><ul><li>📅 <strong>¿Cuándo?</strong> Sábado 13 de junio.</li><li>🕠 <strong>¿A qué hora?</strong> 20:30 hrs.</li><li>📍 <strong>¿Dónde?</strong> <em>Donde la Chipi</em> (Diagonal Paraguay 458, subterráneo).</li></ul><p>Espacios limitados (porque en el subterráneo el ambiente es íntimo y se vive mejor la comedia). ¡No te quedes abajo!</p>",
       "bio_artista": ""
     },
     {
@@ -1259,7 +1275,7 @@
       "lat": -34.1708,
       "lon": -70.7444,
       "descripcion_extendida": "<p>Prepárate para una noche de risas sin filtro en <strong>Republicanos Bar, Rancagua</strong> 🍻. Este 13 de junio a las 20:00 ⏰, los comediantes <strong>Seba Arancibia y Catalin</strong> se suben al escenario con un show de stand up cargado de humor de pareja 💑, anécdotas reales y esas situaciones cotidianas que todos vivimos… pero que pocos se atreven a decir en voz alta 😅.</p><p>Como dupla dentro y fuera del escenario, su química se traduce en un espectáculo dinámico 🔥, cercano y muy divertido 😂, donde el amor ❤️, las discusiones 🤦‍♂️ y la vida diaria se convierten en material explosivo para reír sin parar. Ideal para ir en pareja… o para entender por qué no quieres estar en una 😏.</p>",
-      "bio_artista": ""
+      "bio_artista": "La Universidad San Sebastián (USS) es una universidad privada chilena, fundada en 1989 en Concepción. Actualmente, su sede central se ubica en Santiago de Chile, y cuenta con campus en Concepción, Valdivia y Puerto Montt. Estas instalaciones albergan a más de 49 mil estudiantes."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -1275,7 +1291,7 @@
       "url": "https://www.passline.com/eventos/una-sombra-oscilante",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "La cosecha es un proceso agrícola que consiste en recoger los productos vegetales comestibles, que pueden ser frutos, semillas u hortalizas de los campos, en la época del año en que están maduros. La cosecha marca el final del crecimiento de una estación o el final del ciclo de un fruto en particular."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -1291,7 +1307,7 @@
       "url": "https://www.passline.com/eventos/madres-jovenes",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Las Madres de Plaza de Mayo es una asociación argentina formada en 1977, durante la dictadura de Jorge Rafael Videla, con el fin de recuperar con vida a los detenidos desaparecidos, inicialmente, y luego establecer quiénes fueron los responsables de los crímenes de lesa humanidad y promover su enjuiciamiento."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -1311,6 +1327,22 @@
     },
     {
       "fuente": "PuntoTicket",
+      "nombre": "Universidad Católica vs. U de - Liga de Primera Mercado Libre - Fecha 15 Claro Arena",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Universidad Católica vs. U de Concepción, domingo 14 de junio 2026 17:30 hrs. en Claro Arena - Las Condes.",
+      "fecha_iso": "2026-06-14",
+      "fecha_texto": "14 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Concepción",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/uc0067_md.jpg",
+      "url": "https://www.puntoticket.com/evento/universidad-catolica-vs-udeconce-ligaprimera-2026",
+      "lat": -36.827,
+      "lon": -73.0502,
+      "descripcion_extendida": "Compra tu entrada para Universidad Católica vs. U de Concepción, domingo 14 de junio 2026 17:30 hrs. en Claro Arena - Las Condes.",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
       "nombre": "Usted Señalemelo - Terminos y Condiciones Tour , Barrio Bellavista",
       "venue": "Club Chocolate",
       "descripcion": "Compra tu entrada para Usted Señalemelo, domingo 14 de junio 2026 20:00 hrs. en Club Chocolate, Barrio Bellavista - Recoleta.",
@@ -1323,7 +1355,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Usted Señalemelo, domingo 14 de junio 2026 20:00 hrs. en Club Chocolate, Barrio Bellavista - Recoleta.",
-      "bio_artista": "Usted Señalemelo es una banda argentina de indie rock, formada en Mendoza (Argentina). El grupo está compuesto por el vocalista y tecladista Juan Saieg, el guitarrista Gabriel \"Cocó\" Orozco y el baterista Lucca Beguerie Petrich. Si bien en un comienzo pertenecieron a la escena de rock de Mendoza, luego conformaron el manso indie, una movida musical de la segunda década del siglo XXI conformada por bandas mendocinas como Mi Amigo Invencible, Perras on the Beach o Gauchito Club."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -1354,8 +1386,8 @@
       "url": "https://www.ticketmaster.cl/event/union-la-calera-vs-universidad-de-chile-liga-de-primera-mercado-libre",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "La repesca intercontinental UEFA-Conmebol por un cupo a la Copa Mundial de Fútbol de 1974 en Alemania Federal fue notable por las circunstancias políticas que acompañaron al partido de vuelta, que debía disputarse entre Chile y la Unión Soviética el 21 de noviembre de 1973 en el Estadio Nacional de Santiago, la capital chilena.",
-      "bio_artista": "La repesca intercontinental UEFA-Conmebol por un cupo a la Copa Mundial de Fútbol de 1974 en Alemania Federal fue notable por las circunstancias políticas que acompañaron al partido de vuelta, que debía disputarse entre Chile y la Unión Soviética el 21 de noviembre de 1973 en el Estadio Nacional de Santiago, la capital chilena."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -1403,22 +1435,6 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Este ciclo incluye en su programación a los artistas Carlos Vera Cuarteto, que presentará jazz moderno; a Kuki González &amp; Ensamble Sudaka con su proyecto",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CulturaGob",
-      "nombre": "Ciclo de residencias del Programa EMFOCO 2026 apuesta por la exploración y creación en danza contemporánea desde el Biobío",
-      "venue": "Ministerio de las Culturas",
-      "descripcion": "El programa del Centro Cultural Escénica en Movimiento inicia su ciclo de residencias el 16 de junio con el creador escénico Rafael Silva e incorpora artistas de Argentina, México y Chile en un proceso de formación, investigación y creación en danza contemporánea.",
-      "fecha_iso": "2026-06-16",
-      "fecha_texto": "16 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/pedro-gaarcia-cedida-volver-se-agua-fotografia-mar-escenico-556x300.jpg",
-      "url": "https://www.cultura.gob.cl/actualidad/ciclo-de-residencias-del-programa-emfoco-2026-apuesta-por-la-exploracion-y-creacion-en-danza-contemporanea-desde-el-biobio/",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "El programa del Centro Cultural Escénica en Movimiento inicia su ciclo de residencias el 16 de junio con el creador escénico Rafael Silva e incorpora artistas de Argentina, México y Chile en un proceso de formación, investigación y creación en danza contemporánea.",
       "bio_artista": ""
     },
     {
@@ -1647,6 +1663,22 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "Latín of Alemania",
+      "venue": "",
+      "descripcion": "Latín of Alemania",
+      "fecha_iso": "2026-06-20",
+      "fecha_texto": "20 de junio de 2026",
+      "precio_desde_clp": "11.500",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/539881d058a8d08f681ad464c5641999d131780a.jpeg?1781116104&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/latin-of-alemania",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "Studio 54",
       "venue": "",
       "descripcion": "Studio 54 - Concepción",
@@ -1675,7 +1707,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La compañía La Llave Maestra estrena su proceso creativo comenzado en residencia en 2025. INFINITA, paisajes de Gabriela presentará a Mistral iniciando un vi",
-      "bio_artista": ""
+      "bio_artista": "KCHO, born Alexis Leiva Machado on the Isle of Pines (1970), is a contemporary Cuban artist. He first attracted international attention by winning the grand prize at South Korea's Gwangju Biennale in 1995."
     },
     {
       "fuente": "PuntoTicket",
@@ -1691,7 +1723,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Atletico Colina vs Brujas de Salamanca, domingo 21 de junio 2026 12:00 hrs. en Claro Arena - Las Condes.",
-      "bio_artista": ""
+      "bio_artista": "El Club Atlético Bucaramanga es un equipo de fútbol colombiano con sede en la ciudad de Bucaramanga, capital del departamento de Santander, que participa en el campeonato de la Categoría Primera A, máxima categoría de la División Mayor del Fútbol Colombiano."
     },
     {
       "fuente": "Ticketplus",
@@ -1707,7 +1739,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Annihilation - Lunes cinematográficos",
-      "bio_artista": ""
+      "bio_artista": "Annihilation es una palabra que inglés quiere decir \"aniquilación\" y puede hacer referencia a:Obras escritasAnnihilation (novela de Philip Athans) (2004), novela escrita por Philip Athans. Annihilation (cómic) (2006), cómic de Marvel. Annihilation (novela) (2014), novela escrita por Jeff VanderMeer.Cine y televisiónAniquilación (película) (2018), película dirigida por Alex Garland."
     },
     {
       "fuente": "PuntoTicket",
@@ -1723,7 +1755,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Ciclo Internacional de Conciertos 2026, lunes 22 de junio 2026 al martes 13 de octubre 2026 en Teatro Municipal de Las Condes - Las Condes.",
-      "bio_artista": ""
+      "bio_artista": "El Concurso Internacional de Música Reina Elizabeth de Bélgica es una competencia para músicos que se celebra en Bruselas. La competencia tiene el nombre de Isabel Gabriela de Baviera, Reina de Bélgica. Es un concurso para violinistas clásicos, pianistas, cantantes y violonchelistas. También incluyó competencias internacionales para compositores de 1953 a 2012."
     },
     {
       "fuente": "GAM",
@@ -1819,7 +1851,7 @@
       "lat": -20.2208,
       "lon": -70.1431,
       "descripcion_extendida": "La Sociedad - El Regreso - Iquique",
-      "bio_artista": "La Sociedad es un dúo musical chileno, formado en la comuna de Ñuñoa, Santiago de Chile, en el año 1984. De gran éxito durante los años 90 en Chile y Latinoamérica, se disolvió por primera vez en 2001, se reunieron nuevamente en 2012, para un nuevo receso en 2016. En 2025 vuelven a juntarse para una gira de conciertos."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -1835,7 +1867,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, viernes 26 de junio 2026 20:00 hrs. en Teatro Teletón - Santiago Centro.",
-      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -1851,7 +1883,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "Compra tu entrada para Darkiel, viernes 26 de junio 2026 21:00 hrs. en Rock And Soccer - Antofagasta.",
-      "bio_artista": "Omar David Colón, más conocido como Darkiel, es un cantante y compositor puertorriqueño de reguetón y trap latino. También es conocido por su papel protagónico como Nicky Jam en la serie Nicky Jam: El ganador de Netflix."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
@@ -1883,7 +1915,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La Ligua se conmociona por el asesinato de Dylan, una joven que la comunidad sospecha fue víctima de transfobia. La obra, dirigida por Aliocha De la Sotta y",
-      "bio_artista": "Robert Dylan, más conocido como Bob Dylan, es un músico, compositor, cantante y poeta estadounidense, ampliamente considerado como una de las figuras más prolíficas e influyentes en la música popular del siglo XX y de comienzos del siglo XXI. En 2016 recibió el Premio Nobel de Literatura."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -2043,7 +2075,7 @@
       "lat": -33.0247,
       "lon": -71.5519,
       "descripcion_extendida": "Compra tu entrada para Viña Classic, sábado 27 de junio 2026 22:00 hrs. en Sporting Club de Viña del Mar - Viña Del Mar.",
-      "bio_artista": ""
+      "bio_artista": "Haras de Pirque es una viña y bodega, así como una compañía de cría deportiva de caballos, fundada en Pirque, valle del Maipo, originalmente como haras, por un inversionista norteamericano en 1892, y posteriormente convertida también en viña, en 1991, tras su adquisición por el empresario chileno Eduardo Matte Rozas."
     },
     {
       "fuente": "Ticketplus",
@@ -2268,6 +2300,22 @@
       "lon": null,
       "descripcion_extendida": "A Tres Orillas - Flamenco al sur del mundo",
       "bio_artista": "Las tres orillas es una novela dramática de la escritora colombiana Fennys Tovar lanzado el 15 de abril del año 2015. Es la ópera prima de la escritora y por la cual obtendría el reconocimiento nacional e internacional. Gracias a esta obra ha recorrido el país dictando una conferencia sobre Conflicto Armado titulada \"Perdón y Reconciliación\". Fue editada por el editor colombiano Eleazar Plaza."
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "OTAKU GOL FEST",
+      "venue": "",
+      "descripcion": "OTAKU GOL FEST",
+      "fecha_iso": "2026-07-04",
+      "fecha_texto": "4 de julio de 2026",
+      "precio_desde_clp": "1.120",
+      "ciudad": "Puerto Varas",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/7d0549672700577377e2a3cf119cee381527d2d5.jpeg?1781114957&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/otaku-gol-fest",
+      "lat": -41.3199,
+      "lon": -72.9847,
+      "descripcion_extendida": "«Zankoku na Tenshi no Tēze» , también conocido por su título en inglés «A Cruel Angel's Thesis», es el tema de apertura del anime Neon Genesis Evangelion, interpretado por Yōko Takahashi. Hidetoshi Satō y Toshiyuki Ōmori compusieron e hicieron los arreglos, respectivamente, mientras que Neko Oikawa escribió la letra. Se lanzó como sencillo de doble cara A con «Fly Me to the Moon», el tema de cierre, el 25 de octubre de 1995.",
+      "bio_artista": "«Zankoku na Tenshi no Tēze» , también conocido por su título en inglés «A Cruel Angel's Thesis», es el tema de apertura del anime Neon Genesis Evangelion, interpretado por Yōko Takahashi. Hidetoshi Satō y Toshiyuki Ōmori compusieron e hicieron los arreglos, respectivamente, mientras que Neko Oikawa escribió la letra. Se lanzó como sencillo de doble cara A con «Fly Me to the Moon», el tema de cierre, el 25 de octubre de 1995."
     },
     {
       "fuente": "Ticketmaster",
@@ -2844,6 +2892,22 @@
       "lon": null,
       "descripcion_extendida": "",
       "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketmaster",
+      "nombre": "Expo Venta Especial Boda",
+      "venue": "",
+      "descripcion": "25 y 26 de Julio 2026",
+      "fecha_iso": "2026-07-26",
+      "fecha_texto": "26 de julio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://cdn.getcrowder.com/images/bd3fbb6d-b3f5-40ba-a591-92b1f925bab9-640x640webexpobodas.jpeg",
+      "url": "https://www.ticketmaster.cl/event/1366-expo-venta-especial-boda",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "En llamas, es el segundo libro de la trilogía de Los juegos del hambre escrita por la autora estadounidense Suzanne Collins. Salió a la venta en septiembre de 2009 en Estados Unidos y hasta enero de 2010 fue distribuido en español. Continúa la historia de Katniss Everdeen y el país ficticio y futurista de Panem.",
+      "bio_artista": "En llamas, es el segundo libro de la trilogía de Los juegos del hambre escrita por la autora estadounidense Suzanne Collins. Salió a la venta en septiembre de 2009 en Estados Unidos y hasta enero de 2010 fue distribuido en español. Continúa la historia de Katniss Everdeen y el país ficticio y futurista de Panem."
     },
     {
       "fuente": "GAM",
@@ -3483,7 +3547,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Compra tu entrada para San Luis, sábado 12 de septiembre 2026 21:00 hrs. en Teatro Coliseo - Santiago Centro.",
-      "bio_artista": "San Luis Obispo is a city in and the county seat of San Luis Obispo County, California, United States. Located on the Central Coast of California, San Luis Obispo is roughly halfway between the San Francisco Bay Area in the north and Greater Los Angeles in the south. The population was 47,063 at the 2020 census."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -3547,7 +3611,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para WEDNESDAY, viernes 25 de septiembre 2026 20:30 hrs. en Club Chocolate, Barrio Bellavista - Recoleta.",
-      "bio_artista": ""
+      "bio_artista": "Seville, the capital of the region of Andalusia in Spain, has 11 districts, further divided into 108 neighbourhoods."
     },
     {
       "fuente": "GAM",
@@ -3563,7 +3627,23 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "El histórico programa de Teatro del Lago, Puedes bailar, presenta en GAM esta creación de Vivian Romo, interpretada por cerca de cien niñas, niños y jóvenes",
-      "bio_artista": "Se llama entramado a una armazón de maderos que forma el cuerpo perpendicular, que sostiene una pared o un tabique."
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketmaster",
+      "nombre": "Robbie Williams - Britpop World Tour",
+      "venue": "",
+      "descripcion": "27 de Septiembre 2026",
+      "fecha_iso": "2026-09-27",
+      "fecha_texto": "27 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Florida",
+      "imagen_url": "https://cdn.getcrowder.com/images/06b435af-e286-4e00-90bf-956a0a751402-rw-ticketmaster640x640.jpg",
+      "url": "https://www.ticketmaster.cl/event/robbie-williams-2026",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Robert Peter Williams, más conocido como Robbie Williams, es un cantante, compositor y actor británico.",
+      "bio_artista": "Robert Peter Williams, más conocido como Robbie Williams, es un cantante, compositor y actor británico."
     },
     {
       "fuente": "GAM",
@@ -3691,7 +3771,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Un concierto inmersivo que marca el cierre de “Voy”, el tercer disco de las hermanas LAIA. Una noche para recorrer las canciones, visuales y relatos que dier",
-      "bio_artista": "Langile Abertzale Iraultzaileen Alderdia (LAIA), en euskera «Partido de los Trabajadores Patriotas Revolucionarios», fue un partido político del País Vasco (España) de ideología socialista y nacionalista vasca que nació durante los últimos años de la dictadura del general Franco a consecuencia de una escisión de ETA. Sus siglas, laia son también el nombre en euskera de una herramienta agrícola."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3707,7 +3787,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "D-Cámara IV: Bronces Triunfales",
-      "bio_artista": "El Foro Romano, también conocido por su nombre en latín, Forum Romanum, es un foro rectangular situado en el centro de la ciudad de Roma y rodeado por las ruinas de varios edificios antiguos. Los ciudadanos de la ciudad antigua se referían a este espacio, que originalmente era un mercado, como el Forum Magnum, o simplemente como el Forum."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -3982,6 +4062,22 @@
       "bio_artista": "John Eric Stowe, OFM Conv., es un prelado estadounidense de la Iglesia católica que ha sido obispo de Lexington en Kentucky desde 2015."
     },
     {
+      "fuente": "Ticketmaster",
+      "nombre": "Movimiento Original - 20 Años",
+      "venue": "",
+      "descripcion": "5 de Diciembre 2026",
+      "fecha_iso": "2026-12-05",
+      "fecha_texto": "5 de diciembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Florida",
+      "imagen_url": "https://cdn.getcrowder.com/images/caa49426-4ece-4505-bb12-573b7adf62e0-640x640webmovoriginal.png",
+      "url": "https://www.ticketmaster.cl/event/movimiento-original-estadio-bicentenario-la-florida",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Movimiento Original es un grupo de hip hop chileno conformado en 2006 por Aerstame, Stailok y Semillah hasta 2007. En este mismo año se une DJ Acres y en el 2008 se une Mc Piri, el cual se separa del grupo en el año 2015.",
+      "bio_artista": "Movimiento Original es un grupo de hip hop chileno conformado en 2006 por Aerstame, Stailok y Semillah hasta 2007. En este mismo año se une DJ Acres y en el 2008 se une Mc Piri, el cual se separa del grupo en el año 2015."
+    },
+    {
       "fuente": "PuntoTicket",
       "nombre": "Candelabro - en 2026 - Centro",
       "venue": "Teatro Caupolicán",
@@ -4187,7 +4283,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Exit 8 de Genki Kawamura en SALA K",
-      "bio_artista": "The 58th Sitges International Fantastic Film Festival of Catalonia took place from 9 to 19 October 2025, in Sitges, Catalonia, Spain. It opened on 9 October with Julia Ducournau's body horror drama film Alpha. This edition of the festival honoured American film director, producer, and writer Sean S. Cunningham, the creator of Friday the 13th horror franchise."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -4202,8 +4298,8 @@
       "url": "https://www.ticketmaster.cl/event/family-fest-by-hasbro",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia",
+      "bio_artista": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia"
     },
     {
       "fuente": "Ticketmaster",
@@ -4282,8 +4378,8 @@
       "url": "https://www.ticketmaster.cl/event/ciclo-de-cine-dia-del-padre-teatro-oriente",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "Argencine es un ciclo de cine que surge en el año 2005 a partir de la colaboración entre la Consejería de Cultura y Deporte de la Comunidad de Madrid y el Instituto Nacional de Cine y Artes Audiovisuales de Argentina. Ambas instituciones firman un acuerdo para realizar cada año un festival en Madrid y en Buenos Aires, en los que se proyecta cine madrileño y argentino respectivamente. Desde entonces y hasta el 2011 por el momento, tiene lugar Argencine y Madridcine.",
-      "bio_artista": "Argencine es un ciclo de cine que surge en el año 2005 a partir de la colaboración entre la Consejería de Cultura y Deporte de la Comunidad de Madrid y el Instituto Nacional de Cine y Artes Audiovisuales de Argentina. Ambas instituciones firman un acuerdo para realizar cada año un festival en Madrid y en Buenos Aires, en los que se proyecta cine madrileño y argentino respectivamente. Desde entonces y hasta el 2011 por el momento, tiene lugar Argencine y Madridcine."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -4334,6 +4430,22 @@
       "bio_artista": "Miguel Nasur Allel es un empresario, exfutbolista y dirigente deportivo chileno de ascendencia palestina y siria."
     },
     {
+      "fuente": "Ticketmaster",
+      "nombre": "Boite Bijoux",
+      "venue": "Teatro Nescafé De Las Artes",
+      "descripcion": "Junio 2026",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Providencia",
+      "imagen_url": "https://cdn.getcrowder.com/images/ae7c9976-7042-413c-bd84-9678ed822375-tmboite-bijoux640x640.jpg",
+      "url": "https://www.ticketmaster.cl/event/boite-bijoux-teatro-nescafe-de-las-artes",
+      "lat": -33.425278,
+      "lon": -70.608056,
+      "descripcion_extendida": "Teatro Aparte es una compañía de teatro chilena reconocida como una de las más exitosas en las últimas décadas. Fue fundada en 1988 y está conformada por los actores Rodrigo Bastidas, Magdalena Max-Neef, Elena Muñoz y Gabriel Prieto, con participaciones recurrentes de Josefina Velasco, Álvaro Pacull y Rodrigo Muñoz.",
+      "bio_artista": "Teatro Aparte es una compañía de teatro chilena reconocida como una de las más exitosas en las últimas décadas. Fue fundada en 1988 y está conformada por los actores Rodrigo Bastidas, Magdalena Max-Neef, Elena Muñoz y Gabriel Prieto, con participaciones recurrentes de Josefina Velasco, Álvaro Pacull y Rodrigo Muñoz."
+    },
+    {
       "fuente": "ComediaTicket",
       "nombre": "AMANTES GAY: Parejas Disparejas",
       "venue": "",
@@ -4348,38 +4460,6 @@
       "lon": null,
       "descripcion_extendida": "<p>Los miércoles se prenden con historias donde la infidelidad, la pasión y lo inesperado son protagonistas. Llega una nueva temporada de la exitosa obra de Lospleimovil, ahora en su versión completamente gay, interpretada por alumnes destacades y profesores de la comunidad LGBTQIA+ de la escuela Lospleimovil.</p><p><br></p><p>Tres parejas asisten a terapia para intentar salvar sus relaciones. Lo que no saben es que el destino las entrecruzará en una ola de secretos, deseo e infidelidades.</p><p><br></p><p>Un formato original creado por Claudio Espinoza y dirigido por Enrique Guiñez, que te hará reír, enamorarte… y sospechar de todo. Porque en el amor no hay reglas, pero en el escenario… todo se revela.</p><p><br></p><p>Solo 4 funciones</p><p>Amor, deseo y traición</p><p><br></p><p>El teatro cuenta con resto bar para que puedas esperar la función disfrutando de algo rico.</p><p><br></p><p><br></p><p>Idea original: Claudio Espinoza</p><p>Dirección: Enrique Guiñez</p><p>Música: Jorge Salazar</p><p>Iluminación: Rodrigo Barnao</p><p>Diseño: Brayan</p><p>Audiovisual: Andrés Shilling</p><p><br></p><p>Elenco: Enrique Guiñez, Pipe Morales, Luis Enrique, Nelson Meneses, Sebastián Lira, Yosef Segura, Pablo Prieto, Isamar Alvarez, Jorge Escobar y Adrián Pinco.</p>",
       "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "JUEVES DE RISAS 11.06 Provincia Apoquindo",
-      "venue": "",
-      "descripcion": "<p>Eventos Provincia Apoquindo y Malgenio Comedia continúan con su ciclo de Standup todos los Jueves!! No te pierdas a lo mejor de la comedia emergente cada semana. Solo comediantes de calidad.</p><p>JUEVES 11/06: Malacabra, Pablo Dufflocq, Vanessa Ramos y Fran León </p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-sbs7m2vr-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/jueves-de-risas-1106-provincia-apoquindo_j0su0",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Eventos Provincia Apoquindo y Malgenio Comedia continúan con su ciclo de Standup todos los Jueves!! No te pierdas a lo mejor de la comedia emergente cada semana. Solo comediantes de calidad.</p><p>JUEVES 11/06: Malacabra, Pablo Dufflocq, Vanessa Ramos y Fran León </p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Mauro González en",
-      "venue": "",
-      "descripcion": "<p>Mauro González vuelve a Rancagua con su show de comedia ácido e irreverente. Con historias laborales, jefes canallas y anécdotas personales cargadas de humor, el público vivirá una noche llena de risas y situaciones que todos reconocerán.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Rancagua",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-i4lmhfiv-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/mauro-gonzalez-en-rancagua_itpxp",
-      "lat": -34.1708,
-      "lon": -70.7444,
-      "descripcion_extendida": "<p>Mauro González vuelve a Rancagua con su show de comedia ácido e irreverente. Con historias laborales, jefes canallas y anécdotas personales cargadas de humor, el público vivirá una noche llena de risas y situaciones que todos reconocerán.</p>",
-      "bio_artista": "Mauro Ezequiel González es un futbolista argentino que juega como mediocampista."
     },
     {
       "fuente": "ComediaTicket",
@@ -4399,6 +4479,38 @@
     },
     {
       "fuente": "ComediaTicket",
+      "nombre": "Salas Moya el Guionista de Chile",
+      "venue": "",
+      "descripcion": "<p>El comediante y guionista emblemático de programas de humor como: detrás del Muro, Los Venegas, El Club de la comedia, Teatro en Chv, Vértigo, Sábados Gigantes y muchos más, presenta su show de stand up “El Guionista” el cual lleva más de 2 años en cartelera con más de 5000 personas que han reído con su visión de estar sobreviviendo&nbsp;en el mundo y el Chile de hoy.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-nc9henn8-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/salas-moya-el-guionista-de-chile-_nq3y3",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>El comediante y guionista emblemático de programas de humor como: detrás del Muro, Los Venegas, El Club de la comedia, Teatro en Chv, Vértigo, Sábados Gigantes y muchos más, presenta su show de stand up “El Guionista” el cual lleva más de 2 años en cartelera con más de 5000 personas que han reído con su visión de estar sobreviviendo&nbsp;en el mundo y el Chile de hoy.</p>",
+      "bio_artista": "Luis Arturo Moya Grau fue un dramaturgo, escritor y actor chileno, considerado «el padre de las teleseries» o el «Shakespeare chileno» tanto en su país como en varios países latinoamericanos."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Mauro González en",
+      "venue": "",
+      "descripcion": "<p>Mauro González vuelve a Rancagua con su show de comedia ácido e irreverente. Con historias laborales, jefes canallas y anécdotas personales cargadas de humor, el público vivirá una noche llena de risas y situaciones que todos reconocerán.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Rancagua",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-i4lmhfiv-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/mauro-gonzalez-en-rancagua_itpxp",
+      "lat": -34.1708,
+      "lon": -70.7444,
+      "descripcion_extendida": "<p>Mauro González vuelve a Rancagua con su show de comedia ácido e irreverente. Con historias laborales, jefes canallas y anécdotas personales cargadas de humor, el público vivirá una noche llena de risas y situaciones que todos reconocerán.</p>",
+      "bio_artista": "Mauro Ezequiel González es un futbolista argentino que juega como mediocampista."
+    },
+    {
+      "fuente": "ComediaTicket",
       "nombre": "ASSKHA SUMATHRA EN BONGO CLUB",
       "venue": "",
       "descripcion": "<p><strong>LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</strong></p><p>¿Te quedaste con ganas de más? La reina del Café Concert,&nbsp;<strong>Asskha Sumathra</strong>, trae su gira oficial&nbsp;<strong>\"Lo que no se vio en Viña\"</strong>.</p><p>Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p>",
@@ -4415,19 +4527,19 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Salas Moya el Guionista de Chile",
+      "nombre": "JUEVES DE RISAS 11.06 Provincia Apoquindo",
       "venue": "",
-      "descripcion": "<p>El comediante y guionista emblemático de programas de humor como: detrás del Muro, Los Venegas, El Club de la comedia, Teatro en Chv, Vértigo, Sábados Gigantes y muchos más, presenta su show de stand up “El Guionista” el cual lleva más de 2 años en cartelera con más de 5000 personas que han reído con su visión de estar sobreviviendo&nbsp;en el mundo y el Chile de hoy.</p>",
+      "descripcion": "<p>Eventos Provincia Apoquindo y Malgenio Comedia continúan con su ciclo de Standup todos los Jueves!! No te pierdas a lo mejor de la comedia emergente cada semana. Solo comediantes de calidad.</p><p>JUEVES 11/06: Malacabra, Pablo Dufflocq, Vanessa Ramos y Fran León </p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-nc9henn8-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/salas-moya-el-guionista-de-chile-_nq3y3",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-sbs7m2vr-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/jueves-de-risas-1106-provincia-apoquindo_j0su0",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>El comediante y guionista emblemático de programas de humor como: detrás del Muro, Los Venegas, El Club de la comedia, Teatro en Chv, Vértigo, Sábados Gigantes y muchos más, presenta su show de stand up “El Guionista” el cual lleva más de 2 años en cartelera con más de 5000 personas que han reído con su visión de estar sobreviviendo&nbsp;en el mundo y el Chile de hoy.</p>",
-      "bio_artista": "Luis Arturo Moya Grau fue un dramaturgo, escritor y actor chileno, considerado «el padre de las teleseries» o el «Shakespeare chileno» tanto en su país como en varios países latinoamericanos."
+      "descripcion_extendida": "<p>Eventos Provincia Apoquindo y Malgenio Comedia continúan con su ciclo de Standup todos los Jueves!! No te pierdas a lo mejor de la comedia emergente cada semana. Solo comediantes de calidad.</p><p>JUEVES 11/06: Malacabra, Pablo Dufflocq, Vanessa Ramos y Fran León </p>",
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
@@ -4447,18 +4559,34 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Piare llega a , el fogón de los deseos",
+      "nombre": "Competencia de Comedia",
       "venue": "",
-      "descripcion": "<p>NO TE PIERDAS EL INCREÍBLE SHOW DE PIARE EN EL FOGÓN DE LOS DESEOS, LO MEJOR DE LA COMEDIA NACIONAL Y LATINOAMERICANA</p><p><br></p><p><strong>NO TE QUEDES SIN TU TICKET!</strong></p>",
+      "descripcion": "<p>Competencia de Comedia en Los Ángeles !!</p><p>Ven a ver comediantes compitiendo por quien es el mas chistoso</p><p>sera una noche cargada de humor , sorpresas y mucho mas.</p><p><br></p><p>PRIMER LUGAR: 50.000 EN EFECTIVO</p><p>SEGUNDO LUGAR: 20.000 CONSUMO DEL LOCAL</p><p><br></p><p>INSCRIPCIÓN DE COMEDIANTE GRATIS</p><p><br></p><p><br></p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Quilpué",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-k0z5x9sl-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/piare-llega-a-quilpue-el-fogon-de-los-deseoa_hposy",
-      "lat": -33.0508,
-      "lon": -71.4422,
-      "descripcion_extendida": "<p>NO TE PIERDAS EL INCREÍBLE SHOW DE PIARE EN EL FOGÓN DE LOS DESEOS, LO MEJOR DE LA COMEDIA NACIONAL Y LATINOAMERICANA</p><p><br></p><p><strong>NO TE QUEDES SIN TU TICKET!</strong></p>",
+      "ciudad": "Los Ángeles",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-xri4lnsp-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/competencia-de-comedia-_3qb0t",
+      "lat": -37.4697,
+      "lon": -72.3534,
+      "descripcion_extendida": "<p>Competencia de Comedia en Los Ángeles !!</p><p>Ven a ver comediantes compitiendo por quien es el mas chistoso</p><p>sera una noche cargada de humor , sorpresas y mucho mas.</p><p><br></p><p>PRIMER LUGAR: 50.000 EN EFECTIVO</p><p>SEGUNDO LUGAR: 20.000 CONSUMO DEL LOCAL</p><p><br></p><p>INSCRIPCIÓN DE COMEDIANTE GRATIS</p><p><br></p><p><br></p>",
+      "bio_artista": "La Comédie-Française o Théâtre Français es un teatro nacional de Francia, situado en el primer arrondissement de París. Está directamente subvencionado por el Estado, y es el único teatro estatal que cuenta con una compañía estable de actores."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Chistes del Pi... π Stand Up Comedy para Parejas con MrFeromonas",
+      "venue": "",
+      "descripcion": "<p>Chistes del Pi...π- El nuevo show de MrFeromonas en ZERMATT RESTAURANT - Club Suizo ¡Un compilación de chistes e historias de PAREJA para PAREJAS en PAREJA! (*UNA ENTRADA x PAREJA* mesa para DOS)</p><p>Un show especial para reír sin censura. Si pensaste que \"chistes del π\" era un humor complejo e intelectual estas muy equivocad@ jajaja. Un show para cualquier edad, siempre</p><p>y cuando vengas en PAREJA, algo de interacción (no se obliga a nadie), un pequeño cuestionario anónimo y risas por montón. Obviamente chistes del PI...π sin censura y no aptos</p><p>para quienes se quiebran fácilmente. Todo esto en el exclusivo restaurant ZERMATT - CLUB SUIZO en Ñuñoa - Recomendamos llegar 20 minutos antes del Inicio del show Contamos con</p><p>estacionamiento a la puerta - sujeto a disponibilidad, recomendamos llegar temprano. También hay dos Strip Center con estacionamiento al frente y al costado con cuidador</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si esta muy lleno. (Inicio del show 22:10)</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Ñuñoa",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-3hr57idi-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/chistes-del-pi-stand-up-comedy-para-parejas-con-mrferomonas_qxcdo",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Chistes del Pi...π- El nuevo show de MrFeromonas en ZERMATT RESTAURANT - Club Suizo ¡Un compilación de chistes e historias de PAREJA para PAREJAS en PAREJA! (*UNA ENTRADA x PAREJA* mesa para DOS)</p><p>Un show especial para reír sin censura. Si pensaste que \"chistes del π\" era un humor complejo e intelectual estas muy equivocad@ jajaja. Un show para cualquier edad, siempre</p><p>y cuando vengas en PAREJA, algo de interacción (no se obliga a nadie), un pequeño cuestionario anónimo y risas por montón. Obviamente chistes del PI...π sin censura y no aptos</p><p>para quienes se quiebran fácilmente. Todo esto en el exclusivo restaurant ZERMATT - CLUB SUIZO en Ñuñoa - Recomendamos llegar 20 minutos antes del Inicio del show Contamos con</p><p>estacionamiento a la puerta - sujeto a disponibilidad, recomendamos llegar temprano. También hay dos Strip Center con estacionamiento al frente y al costado con cuidador</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si esta muy lleno. (Inicio del show 22:10)</p>",
       "bio_artista": ""
     },
     {
@@ -4491,54 +4619,6 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>Si la perimenopausia y la menopausia llegaron a tu vida ESTE ES EL SHOW al que debes ir</p><p>👉NO ES SÓLO PARA MUJERES👈</p><p>Es para todos quiénes deben vivir y convivir con estos cambios hormonales🔥 hijos, hijas, parejas, colegas de trabajo, es todo un mundo!</p><p>Un espectáculo sobre cómo nos afectan los síntomas</p><p>Se te olvidan las cosas? Tienes cambios de humor, sofocos… no aguantas al marido</p><p>y muchas veces ni a los hijos?</p><p>¡No estamos locas, son las hormonas!</p><p>No te pierdas este gran show.</p>",
-      "bio_artista": "Menopur es una medicación hormonal del tipo de las menotropinas o gonadotropina menopáusica humana (HMG), que se obtiene de la orina de mujeres menopáusicas y se usa para el tratamiento de los problemas de fertilidad."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Pato Bezma En Burger Bar",
-      "venue": "",
-      "descripcion": "<p>¡¡¡Pato Bezma llega a Conce y te invita a gozaaaaaaaar!!! ¡¡¡AAAAAAYYYY PAPITO!!! Ven a disfrutar con su rutina de Stand Up Comedy y todo su desequilibrio mental. 🚨 Requisito de asistencia 🚨 Usa tu mejor perfume 🥵 ¡TE ESPERAMOS!</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Concepción",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-61ypnzr2-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/pato-bezma-en-burger-bar-concepcion_a0xcc",
-      "lat": -36.827,
-      "lon": -73.0502,
-      "descripcion_extendida": "<p>¡¡¡Pato Bezma llega a Conce y te invita a gozaaaaaaaar!!! ¡¡¡AAAAAAYYYY PAPITO!!! Ven a disfrutar con su rutina de Stand Up Comedy y todo su desequilibrio mental. 🚨 Requisito de asistencia 🚨 Usa tu mejor perfume 🥵 ¡TE ESPERAMOS!</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Competencia de Comedia",
-      "venue": "",
-      "descripcion": "<p>Competencia de Comedia en Los Ángeles !!</p><p>Ven a ver comediantes compitiendo por quien es el mas chistoso</p><p>sera una noche cargada de humor , sorpresas y mucho mas.</p><p><br></p><p>PRIMER LUGAR: 50.000 EN EFECTIVO</p><p>SEGUNDO LUGAR: 20.000 CONSUMO DEL LOCAL</p><p><br></p><p>INSCRIPCIÓN DE COMEDIANTE GRATIS</p><p><br></p><p><br></p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Los Ángeles",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-xri4lnsp-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/competencia-de-comedia-_3qb0t",
-      "lat": -37.4697,
-      "lon": -72.3534,
-      "descripcion_extendida": "<p>Competencia de Comedia en Los Ángeles !!</p><p>Ven a ver comediantes compitiendo por quien es el mas chistoso</p><p>sera una noche cargada de humor , sorpresas y mucho mas.</p><p><br></p><p>PRIMER LUGAR: 50.000 EN EFECTIVO</p><p>SEGUNDO LUGAR: 20.000 CONSUMO DEL LOCAL</p><p><br></p><p>INSCRIPCIÓN DE COMEDIANTE GRATIS</p><p><br></p><p><br></p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Roberto Nicolini en: TOCTOC",
-      "venue": "",
-      "descripcion": "<p>SEGUIMOS con versión recargada 2026 del éxito mundial de la comedia mas divertida v compulsiva escrita por Laurent Baffie en versión española de Julian Quintanilla. Actuación y dirección de querido Roberto Nicolini en su regreso al Teatro Las Tablas</p><p>TOCTOC, una comedia obsesivamente compulsiva Esperando en la consulta de un prestiaioso psicologo coincide un ecléctico grupo de pacientes con algo en común: todos sufren un Trastorno Obsesivo Compulsivo (TOC). Pero su médico no puede llegar a tiempo, ya que ha sufrido un inesperado retraso. Todos iuntos en consulta se ven obliaados a convivir durante unas horas entreqgando así un sinfín de situaciones que los harán reír a carcaiadas.</p><p>Elenco</p><p>Luciano Morales. Luz Ma. Yacometti. Carmen Gloria Donoso, Ma. Angélica Arcos, Rodrigo Bugueño, Roberto Rojas y Roberto Nicolini</p><p>Producción. Luz Rivanera Dirección. Roberto Nicolini</p><p>📍Teatro Las Tablas. Ubicado en Crucero Exeter 0250 casi esquina Antonia López de Bello, barrio Bellavista Providencia. Estacionamiento pago a pocos metros en Constitución 241</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Constitución",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-91pd7p0d-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/rrberto-nicolini-en-toctoc_3exuq",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>SEGUIMOS con versión recargada 2026 del éxito mundial de la comedia mas divertida v compulsiva escrita por Laurent Baffie en versión española de Julian Quintanilla. Actuación y dirección de querido Roberto Nicolini en su regreso al Teatro Las Tablas</p><p>TOCTOC, una comedia obsesivamente compulsiva Esperando en la consulta de un prestiaioso psicologo coincide un ecléctico grupo de pacientes con algo en común: todos sufren un Trastorno Obsesivo Compulsivo (TOC). Pero su médico no puede llegar a tiempo, ya que ha sufrido un inesperado retraso. Todos iuntos en consulta se ven obliaados a convivir durante unas horas entreqgando así un sinfín de situaciones que los harán reír a carcaiadas.</p><p>Elenco</p><p>Luciano Morales. Luz Ma. Yacometti. Carmen Gloria Donoso, Ma. Angélica Arcos, Rodrigo Bugueño, Roberto Rojas y Roberto Nicolini</p><p>Producción. Luz Rivanera Dirección. Roberto Nicolini</p><p>📍Teatro Las Tablas. Ubicado en Crucero Exeter 0250 casi esquina Antonia López de Bello, barrio Bellavista Providencia. Estacionamiento pago a pocos metros en Constitución 241</p>",
       "bio_artista": ""
     },
     {
@@ -4559,22 +4639,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "IMPROFLIX /Lospleimovil Impro Humor",
-      "venue": "",
-      "descripcion": "<p>Show de IMPRO humor donde tú eliges diferentes géneros cinematográficos y televisivos para desafiar al elenco profesional de Lospleimovil a improvisar historias estilo;&nbsp;Terror, Musical, Mea Culpa, Cine Mexicano, Shakespeare, el Chacotero Sentimental , entre muchas otras más.</p><p>Una hora para reír y disfrutar desde tu butaca .</p><p>El local cuenta con un RESTOBAR para esperar el comienzo de la función.</p><p>Dirección y animación&nbsp;: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Músico : Jorge Salzar</p><p>Tecnico: Rodrigo Flako Barnao</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-30b8z2hh-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/improflix-lospleimovil-impro-humor_6tbo7",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Show de IMPRO humor donde tú eliges diferentes géneros cinematográficos y televisivos para desafiar al elenco profesional de Lospleimovil a improvisar historias estilo;&nbsp;Terror, Musical, Mea Culpa, Cine Mexicano, Shakespeare, el Chacotero Sentimental , entre muchas otras más.</p><p>Una hora para reír y disfrutar desde tu butaca .</p><p>El local cuenta con un RESTOBAR para esperar el comienzo de la función.</p><p>Dirección y animación&nbsp;: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Músico : Jorge Salzar</p><p>Tecnico: Rodrigo Flako Barnao</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "Sr. Kampos \"ESTÁ TODO TAN RARO\"",
       "venue": "",
       "descripcion": "<p><span style=\"color: rgb(107, 114, 128);\">Estuvo a \"un paso\" de llegar al Festival de Viña del Mar 2026 y luego de su exitosa presentación en el Festival de Comedia de Chilevisión, el Señor Kampos siente que está en su mejor momento, pero al mismo tiempo piensa que en Chile y el mundo \"ESTÁ TODO TAN RARO\". </span></p><p><br></p><p><span style=\"color: rgb(107, 114, 128);\">Sr. Kampos llega a Rancagua con una hora de show con nuevos chistes y una rutina cargada de humor negro que constantemente lo ve caminando por la cornisa.</span></p>",
@@ -4591,82 +4655,82 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Chistes del Pi... π Stand Up Comedy para Parejas con MrFeromonas",
+      "nombre": "IMPROFLIX /Lospleimovil Impro Humor",
       "venue": "",
-      "descripcion": "<p>Chistes del Pi...π- El nuevo show de MrFeromonas en ZERMATT RESTAURANT - Club Suizo ¡Un compilación de chistes e historias de PAREJA para PAREJAS en PAREJA! (*UNA ENTRADA x PAREJA* mesa para DOS)</p><p>Un show especial para reír sin censura. Si pensaste que \"chistes del π\" era un humor complejo e intelectual estas muy equivocad@ jajaja. Un show para cualquier edad, siempre</p><p>y cuando vengas en PAREJA, algo de interacción (no se obliga a nadie), un pequeño cuestionario anónimo y risas por montón. Obviamente chistes del PI...π sin censura y no aptos</p><p>para quienes se quiebran fácilmente. Todo esto en el exclusivo restaurant ZERMATT - CLUB SUIZO en Ñuñoa - Recomendamos llegar 20 minutos antes del Inicio del show Contamos con</p><p>estacionamiento a la puerta - sujeto a disponibilidad, recomendamos llegar temprano. También hay dos Strip Center con estacionamiento al frente y al costado con cuidador</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si esta muy lleno. (Inicio del show 22:10)</p>",
+      "descripcion": "<p>Show de IMPRO humor donde tú eliges diferentes géneros cinematográficos y televisivos para desafiar al elenco profesional de Lospleimovil a improvisar historias estilo;&nbsp;Terror, Musical, Mea Culpa, Cine Mexicano, Shakespeare, el Chacotero Sentimental , entre muchas otras más.</p><p>Una hora para reír y disfrutar desde tu butaca .</p><p>El local cuenta con un RESTOBAR para esperar el comienzo de la función.</p><p>Dirección y animación&nbsp;: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Músico : Jorge Salzar</p><p>Tecnico: Rodrigo Flako Barnao</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Ñuñoa",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-3hr57idi-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/chistes-del-pi-stand-up-comedy-para-parejas-con-mrferomonas_qxcdo",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-30b8z2hh-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/improflix-lospleimovil-impro-humor_6tbo7",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>Chistes del Pi...π- El nuevo show de MrFeromonas en ZERMATT RESTAURANT - Club Suizo ¡Un compilación de chistes e historias de PAREJA para PAREJAS en PAREJA! (*UNA ENTRADA x PAREJA* mesa para DOS)</p><p>Un show especial para reír sin censura. Si pensaste que \"chistes del π\" era un humor complejo e intelectual estas muy equivocad@ jajaja. Un show para cualquier edad, siempre</p><p>y cuando vengas en PAREJA, algo de interacción (no se obliga a nadie), un pequeño cuestionario anónimo y risas por montón. Obviamente chistes del PI...π sin censura y no aptos</p><p>para quienes se quiebran fácilmente. Todo esto en el exclusivo restaurant ZERMATT - CLUB SUIZO en Ñuñoa - Recomendamos llegar 20 minutos antes del Inicio del show Contamos con</p><p>estacionamiento a la puerta - sujeto a disponibilidad, recomendamos llegar temprano. También hay dos Strip Center con estacionamiento al frente y al costado con cuidador</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si esta muy lleno. (Inicio del show 22:10)</p>",
+      "descripcion_extendida": "<p>Show de IMPRO humor donde tú eliges diferentes géneros cinematográficos y televisivos para desafiar al elenco profesional de Lospleimovil a improvisar historias estilo;&nbsp;Terror, Musical, Mea Culpa, Cine Mexicano, Shakespeare, el Chacotero Sentimental , entre muchas otras más.</p><p>Una hora para reír y disfrutar desde tu butaca .</p><p>El local cuenta con un RESTOBAR para esperar el comienzo de la función.</p><p>Dirección y animación&nbsp;: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Músico : Jorge Salzar</p><p>Tecnico: Rodrigo Flako Barnao</p>",
       "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "FELO TRUJILLO en RIFF BAR 13.06",
+      "nombre": "Roberto Nicolini en: TOCTOC",
       "venue": "",
-      "descripcion": "<p>El destacado comediante y coach de standup @felotrujillo llega por primera vez al RIFF BAR, clásico bar de rock y comedia en Los Ángeles, con su show de larga duración e invitados. Chistes, chistes y mas chistes.</p><p>Acompaña a Felipe Trujillo en esta noche llena de comedia.</p>",
+      "descripcion": "<p>SEGUIMOS con versión recargada 2026 del éxito mundial de la comedia mas divertida v compulsiva escrita por Laurent Baffie en versión española de Julian Quintanilla. Actuación y dirección de querido Roberto Nicolini en su regreso al Teatro Las Tablas</p><p>TOCTOC, una comedia obsesivamente compulsiva Esperando en la consulta de un prestiaioso psicologo coincide un ecléctico grupo de pacientes con algo en común: todos sufren un Trastorno Obsesivo Compulsivo (TOC). Pero su médico no puede llegar a tiempo, ya que ha sufrido un inesperado retraso. Todos iuntos en consulta se ven obliaados a convivir durante unas horas entreqgando así un sinfín de situaciones que los harán reír a carcaiadas.</p><p>Elenco</p><p>Luciano Morales. Luz Ma. Yacometti. Carmen Gloria Donoso, Ma. Angélica Arcos, Rodrigo Bugueño, Roberto Rojas y Roberto Nicolini</p><p>Producción. Luz Rivanera Dirección. Roberto Nicolini</p><p>📍Teatro Las Tablas. Ubicado en Crucero Exeter 0250 casi esquina Antonia López de Bello, barrio Bellavista Providencia. Estacionamiento pago a pocos metros en Constitución 241</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Los Ángeles",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-tyirdge5-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/felo-trujillo-en-riff-bar-los-angeles-1306_zz0ev",
-      "lat": -37.4697,
-      "lon": -72.3534,
-      "descripcion_extendida": "<p>El destacado comediante y coach de standup @felotrujillo llega por primera vez al RIFF BAR, clásico bar de rock y comedia en Los Ángeles, con su show de larga duración e invitados. Chistes, chistes y mas chistes.</p><p>Acompaña a Felipe Trujillo en esta noche llena de comedia.</p>",
+      "ciudad": "Constitución",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-91pd7p0d-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/rrberto-nicolini-en-toctoc_3exuq",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>SEGUIMOS con versión recargada 2026 del éxito mundial de la comedia mas divertida v compulsiva escrita por Laurent Baffie en versión española de Julian Quintanilla. Actuación y dirección de querido Roberto Nicolini en su regreso al Teatro Las Tablas</p><p>TOCTOC, una comedia obsesivamente compulsiva Esperando en la consulta de un prestiaioso psicologo coincide un ecléctico grupo de pacientes con algo en común: todos sufren un Trastorno Obsesivo Compulsivo (TOC). Pero su médico no puede llegar a tiempo, ya que ha sufrido un inesperado retraso. Todos iuntos en consulta se ven obliaados a convivir durante unas horas entreqgando así un sinfín de situaciones que los harán reír a carcaiadas.</p><p>Elenco</p><p>Luciano Morales. Luz Ma. Yacometti. Carmen Gloria Donoso, Ma. Angélica Arcos, Rodrigo Bugueño, Roberto Rojas y Roberto Nicolini</p><p>Producción. Luz Rivanera Dirección. Roberto Nicolini</p><p>📍Teatro Las Tablas. Ubicado en Crucero Exeter 0250 casi esquina Antonia López de Bello, barrio Bellavista Providencia. Estacionamiento pago a pocos metros en Constitución 241</p>",
       "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "LA CANTERA Show de Standup 13.06 La Grifería",
+      "nombre": "Pato Bezma En Burger Bar",
       "venue": "",
-      "descripcion": "<p>La Comunidad Malgenio continúa con su ciclo de Standup en La Grifería La Reina, a pasos del metro Fernando Castillos Velasco. No te pierdas esta noche llena de risas con el mejor Host: Claudio Lara @claudiolaraleal y grandes comediantes invitados.</p><p>SABADO 13/06 Chico Gabriel, Catalina y Paula Bay- Schmith</p>",
+      "descripcion": "<p>¡¡¡Pato Bezma llega a Conce y te invita a gozaaaaaaaar!!! ¡¡¡AAAAAAYYYY PAPITO!!! Ven a disfrutar con su rutina de Stand Up Comedy y todo su desequilibrio mental. 🚨 Requisito de asistencia 🚨 Usa tu mejor perfume 🥵 ¡TE ESPERAMOS!</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "La Reina",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-mzjtjgcs-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/la-cantera-show-de-standup-1306-la-griferia-_1vzmq",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>La Comunidad Malgenio continúa con su ciclo de Standup en La Grifería La Reina, a pasos del metro Fernando Castillos Velasco. No te pierdas esta noche llena de risas con el mejor Host: Claudio Lara @claudiolaraleal y grandes comediantes invitados.</p><p>SABADO 13/06 Chico Gabriel, Catalina y Paula Bay- Schmith</p>",
+      "ciudad": "Concepción",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-61ypnzr2-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/pato-bezma-en-burger-bar-concepcion_a0xcc",
+      "lat": -36.827,
+      "lon": -73.0502,
+      "descripcion_extendida": "<p>¡¡¡Pato Bezma llega a Conce y te invita a gozaaaaaaaar!!! ¡¡¡AAAAAAYYYY PAPITO!!! Ven a disfrutar con su rutina de Stand Up Comedy y todo su desequilibrio mental. 🚨 Requisito de asistencia 🚨 Usa tu mejor perfume 🥵 ¡TE ESPERAMOS!</p>",
       "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Odioso! Que vuelvan los 90s MrFeromonas - Stand Up Comedy Plaza",
+      "nombre": "Piare llega a , el fogón de los deseos",
       "venue": "",
-      "descripcion": "<p>Odioso!!! Que vuelvan los 90s con MrFeromonas - Stand Up Comedy</p><p>MrFeromonas, el 2 veces a punto de ir al festival de Viña y una vez a punto de ir al festival de Olmué, MrFeromonas (Marcelo González), el comediante diferente, el que improvisa contigo y te hace parte del show SIN OFENDERTE, sorprende al circuito del stand up comedy con este espectáculo. Odioso!!! Que vuelvan los 90s donde nos trae una retrospectiva de cómo eran las cosas en los 90s y los problemas que tenemos ahora. Un material cómico dirigido a un amplio público, pero principalmente para quienes fueron niños en los 80s y adolescentes en los 90s. Temáticas como las series, la música, sucesos y artistas de la época salen a relucir de manera divertida en su rutina. 3 años y medio en Cartelera. 3era Versión del show</p><p>.</p><p>Mercado Sabores&nbsp;ubicado en Ángel Pino 120 – Ñuñoa (calle siguiente al poniente de la plaza Ñuñoa, bajando por Irarrázaval)</p><p>*estacionamiento interior GRATIS , avisar en recepción al llegar (según&nbsp;disponibilidad) </p><p>*estacionamiento exterior autorizado (sin partes), también según disponibilidad&nbsp;y avisar al llegar*</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si está muy lleno. (Inicio del show 22:10)</p>",
+      "descripcion": "<p>NO TE PIERDAS EL INCREÍBLE SHOW DE PIARE EN EL FOGÓN DE LOS DESEOS, LO MEJOR DE LA COMEDIA NACIONAL Y LATINOAMERICANA</p><p><br></p><p><strong>NO TE QUEDES SIN TU TICKET!</strong></p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Ñuñoa",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-o983gb7h-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/odioso-que-vuelvan-los-90s-mrferomonas-stand-up-comedy-plaza-nunoa_wbaeo",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Odioso!!! Que vuelvan los 90s con MrFeromonas - Stand Up Comedy</p><p>MrFeromonas, el 2 veces a punto de ir al festival de Viña y una vez a punto de ir al festival de Olmué, MrFeromonas (Marcelo González), el comediante diferente, el que improvisa contigo y te hace parte del show SIN OFENDERTE, sorprende al circuito del stand up comedy con este espectáculo. Odioso!!! Que vuelvan los 90s donde nos trae una retrospectiva de cómo eran las cosas en los 90s y los problemas que tenemos ahora. Un material cómico dirigido a un amplio público, pero principalmente para quienes fueron niños en los 80s y adolescentes en los 90s. Temáticas como las series, la música, sucesos y artistas de la época salen a relucir de manera divertida en su rutina. 3 años y medio en Cartelera. 3era Versión del show</p><p>.</p><p>Mercado Sabores&nbsp;ubicado en Ángel Pino 120 – Ñuñoa (calle siguiente al poniente de la plaza Ñuñoa, bajando por Irarrázaval)</p><p>*estacionamiento interior GRATIS , avisar en recepción al llegar (según&nbsp;disponibilidad) </p><p>*estacionamiento exterior autorizado (sin partes), también según disponibilidad&nbsp;y avisar al llegar*</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si está muy lleno. (Inicio del show 22:10)</p>",
+      "ciudad": "Quilpué",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-k0z5x9sl-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/piare-llega-a-quilpue-el-fogon-de-los-deseoa_hposy",
+      "lat": -33.0508,
+      "lon": -71.4422,
+      "descripcion_extendida": "<p>NO TE PIERDAS EL INCREÍBLE SHOW DE PIARE EN EL FOGÓN DE LOS DESEOS, LO MEJOR DE LA COMEDIA NACIONAL Y LATINOAMERICANA</p><p><br></p><p><strong>NO TE QUEDES SIN TU TICKET!</strong></p>",
       "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Chistes del Pi... π Stand Up Comedy para Parejas en Plaza",
+      "nombre": "NOCHE DE STANDUP en La Grifería Stgo 13.06",
       "venue": "",
-      "descripcion": "<p>Chistes del Pi…π- El nuevo ÉXITO de MrFeromonas ¡Un compilado de chistes e historias de PAREJA para PAREJAS en PAREJA!</p><p>Un show especial para reír sin censura. </p><p>Si pensaste que «chistes del π» era un humor complejo e intelectual estás muy equivocad@ jajaja.</p><p>Un show para cualquier edad, siempre y cuando vengas en PAREJA, algo de interacción (no se obliga a nadie), un pequeño cuestionario anónimo</p><p>y risas por montón. Obviamente chistes del PI…π sin censura y no aptos para quienes se quiebran fácilmente.</p><p>.</p><p>Mercado Sabores&nbsp;ubicado en Ángel Pino 120 – Ñuñoa (calle siguiente al poniente de la plaza Ñuñoa, bajando por Irarrázaval)</p><p>*estacionamiento interior GRATIS , avisar en recepción al llegar (según&nbsp;disponibilidad) </p><p>*estacionamiento exterior autorizado (sin partes), también según disponibilidad&nbsp;y avisar al llegar*</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si está muy lleno. (Inicio del show 20:10)</p>",
+      "descripcion": "<p>La Comunidad Malgenio continúa con su ciclo de Standup en La Grifería Santiago a pasos del metro La Moneda, pleno centro de Santiago. No te pierdas esta noche llena de risas con el mejor Host: Ramón @elramon.cl y grandes comediantes invitados.</p><p>SABADO 13/06: Felipe Jara, Rorock, Karina Muñoz y Kano Calderón</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Ñuñoa",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-tnvvx5my-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/chistes-del-pi-stand-up-comedy-para-parejas-en-plaza-nunoa_bhs34",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Chistes del Pi…π- El nuevo ÉXITO de MrFeromonas ¡Un compilado de chistes e historias de PAREJA para PAREJAS en PAREJA!</p><p>Un show especial para reír sin censura. </p><p>Si pensaste que «chistes del π» era un humor complejo e intelectual estás muy equivocad@ jajaja.</p><p>Un show para cualquier edad, siempre y cuando vengas en PAREJA, algo de interacción (no se obliga a nadie), un pequeño cuestionario anónimo</p><p>y risas por montón. Obviamente chistes del PI…π sin censura y no aptos para quienes se quiebran fácilmente.</p><p>.</p><p>Mercado Sabores&nbsp;ubicado en Ángel Pino 120 – Ñuñoa (calle siguiente al poniente de la plaza Ñuñoa, bajando por Irarrázaval)</p><p>*estacionamiento interior GRATIS , avisar en recepción al llegar (según&nbsp;disponibilidad) </p><p>*estacionamiento exterior autorizado (sin partes), también según disponibilidad&nbsp;y avisar al llegar*</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si está muy lleno. (Inicio del show 20:10)</p>",
+      "ciudad": "Santiago",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-fripz7fb-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/noche-de-standup-en-la-griferia-stgo-1306_h3rja",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "<p>La Comunidad Malgenio continúa con su ciclo de Standup en La Grifería Santiago a pasos del metro La Moneda, pleno centro de Santiago. No te pierdas esta noche llena de risas con el mejor Host: Ramón @elramon.cl y grandes comediantes invitados.</p><p>SABADO 13/06: Felipe Jara, Rorock, Karina Muñoz y Kano Calderón</p>",
       "bio_artista": ""
     },
     {
@@ -4687,19 +4751,51 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Clau Desmadre en",
+      "nombre": "Roberto Nicolini en: TOCTOC",
       "venue": "",
-      "descripcion": "<p>Clau, divertida creadora de contenido, llega con su humor hilarante y su mirada única sobre las relaciones, el matrimonio y las locuras de la vida moderna.</p>",
+      "descripcion": "<p>SEGUIMOS con versión recargada 2026 del éxito mundial de la comedia mas divertida v compulsiva escrita por Laurent Baffie en versión española de Julian Quintanilla. Actuación y dirección de querido Roberto Nicolini en su regreso al Teatro Las Tablas</p><p>TOCTOC, una comedia obsesivamente compulsiva Esperando en la consulta de un prestiaioso psicologo coincide un ecléctico grupo de pacientes con algo en común: todos sufren un Trastorno Obsesivo Compulsivo (TOC). Pero su médico no puede llegar a tiempo, ya que ha sufrido un inesperado retraso. Todos iuntos en consulta se ven obliaados a convivir durante unas horas entreqgando así un sinfín de situaciones que los harán reír a carcaiadas.</p><p>Elenco</p><p>Luciano Morales. Luz Ma. Yacometti. Carmen Gloria Donoso, Ma. Angélica Arcos, Rodrigo Bugueño, Roberto Rojas y Roberto Nicolini</p><p>Producción. Luz Rivanera Dirección. Roberto Nicolini</p><p>📍Teatro Las Tablas. Ubicado en Crucero Exeter 0250 casi esquina Antonia López de Bello, barrio Bellavista Providencia. Estacionamiento pago a pocos metros en Constitución 241</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Chillán",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ozm6fu0s-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/clau-desmadre-en-chillan_9vwob",
-      "lat": -36.6063,
-      "lon": -72.1031,
-      "descripcion_extendida": "<p>Clau, divertida creadora de contenido, llega con su humor hilarante y su mirada única sobre las relaciones, el matrimonio y las locuras de la vida moderna.</p>",
-      "bio_artista": "Gloria Trevi is a Mexican singer and songwriter who started her musical career as a member of the girl band Boquitas Pintadas in 1985. She then released her first solo album ...Qué Hago Aquí? in 1989, followed by four more studio albums, a compilation and a remix album which were all released throughout the 90s."
+      "ciudad": "Constitución",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-d2c8b3l7-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/roberto-nicolini-en-toctoc_nssh6",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>SEGUIMOS con versión recargada 2026 del éxito mundial de la comedia mas divertida v compulsiva escrita por Laurent Baffie en versión española de Julian Quintanilla. Actuación y dirección de querido Roberto Nicolini en su regreso al Teatro Las Tablas</p><p>TOCTOC, una comedia obsesivamente compulsiva Esperando en la consulta de un prestiaioso psicologo coincide un ecléctico grupo de pacientes con algo en común: todos sufren un Trastorno Obsesivo Compulsivo (TOC). Pero su médico no puede llegar a tiempo, ya que ha sufrido un inesperado retraso. Todos iuntos en consulta se ven obliaados a convivir durante unas horas entreqgando así un sinfín de situaciones que los harán reír a carcaiadas.</p><p>Elenco</p><p>Luciano Morales. Luz Ma. Yacometti. Carmen Gloria Donoso, Ma. Angélica Arcos, Rodrigo Bugueño, Roberto Rojas y Roberto Nicolini</p><p>Producción. Luz Rivanera Dirección. Roberto Nicolini</p><p>📍Teatro Las Tablas. Ubicado en Crucero Exeter 0250 casi esquina Antonia López de Bello, barrio Bellavista Providencia. Estacionamiento pago a pocos metros en Constitución 241</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "LA CANTERA Show de Standup 13.06 La Grifería",
+      "venue": "",
+      "descripcion": "<p>La Comunidad Malgenio continúa con su ciclo de Standup en La Grifería La Reina, a pasos del metro Fernando Castillos Velasco. No te pierdas esta noche llena de risas con el mejor Host: Claudio Lara @claudiolaraleal y grandes comediantes invitados.</p><p>SABADO 13/06 Chico Gabriel, Catalina y Paula Bay- Schmith</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "La Reina",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-mzjtjgcs-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/la-cantera-show-de-standup-1306-la-griferia-_1vzmq",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>La Comunidad Malgenio continúa con su ciclo de Standup en La Grifería La Reina, a pasos del metro Fernando Castillos Velasco. No te pierdas esta noche llena de risas con el mejor Host: Claudio Lara @claudiolaraleal y grandes comediantes invitados.</p><p>SABADO 13/06 Chico Gabriel, Catalina y Paula Bay- Schmith</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Nico pontigo en",
+      "venue": "",
+      "descripcion": "<p>Nico pontigo se enfrenta a Antofagasta que pasará ? </p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ilbx5442-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/nico-pontigo-en-antofagasta-_gti9z",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "<p>Nico pontigo se enfrenta a Antofagasta que pasará ? </p>",
+      "bio_artista": "Coliseo fue un programa de televisión chileno de humor que se emitió por Mega, estrenado el 27 de septiembre de 2025 y conducido por la cantante María José Quintanilla. El espacio fue concebido como una plataforma destinada a revitalizar el humor en la televisión abierta, combinando competencia, espectáculo y cercanía con el público."
     },
     {
       "fuente": "ComediaTicket",
@@ -4719,19 +4815,51 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Roberto Nicolini en: TOCTOC",
+      "nombre": "FELO TRUJILLO en RIFF BAR 13.06",
       "venue": "",
-      "descripcion": "<p>SEGUIMOS con versión recargada 2026 del éxito mundial de la comedia mas divertida v compulsiva escrita por Laurent Baffie en versión española de Julian Quintanilla. Actuación y dirección de querido Roberto Nicolini en su regreso al Teatro Las Tablas</p><p>TOCTOC, una comedia obsesivamente compulsiva Esperando en la consulta de un prestiaioso psicologo coincide un ecléctico grupo de pacientes con algo en común: todos sufren un Trastorno Obsesivo Compulsivo (TOC). Pero su médico no puede llegar a tiempo, ya que ha sufrido un inesperado retraso. Todos iuntos en consulta se ven obliaados a convivir durante unas horas entreqgando así un sinfín de situaciones que los harán reír a carcaiadas.</p><p>Elenco</p><p>Luciano Morales. Luz Ma. Yacometti. Carmen Gloria Donoso, Ma. Angélica Arcos, Rodrigo Bugueño, Roberto Rojas y Roberto Nicolini</p><p>Producción. Luz Rivanera Dirección. Roberto Nicolini</p><p>📍Teatro Las Tablas. Ubicado en Crucero Exeter 0250 casi esquina Antonia López de Bello, barrio Bellavista Providencia. Estacionamiento pago a pocos metros en Constitución 241</p>",
+      "descripcion": "<p>El destacado comediante y coach de standup @felotrujillo llega por primera vez al RIFF BAR, clásico bar de rock y comedia en Los Ángeles, con su show de larga duración e invitados. Chistes, chistes y mas chistes.</p><p>Acompaña a Felipe Trujillo en esta noche llena de comedia.</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Constitución",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-d2c8b3l7-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/roberto-nicolini-en-toctoc_nssh6",
+      "ciudad": "Los Ángeles",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-tyirdge5-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/felo-trujillo-en-riff-bar-los-angeles-1306_zz0ev",
+      "lat": -37.4697,
+      "lon": -72.3534,
+      "descripcion_extendida": "<p>El destacado comediante y coach de standup @felotrujillo llega por primera vez al RIFF BAR, clásico bar de rock y comedia en Los Ángeles, con su show de larga duración e invitados. Chistes, chistes y mas chistes.</p><p>Acompaña a Felipe Trujillo en esta noche llena de comedia.</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Chistes del Pi... π Stand Up Comedy para Parejas en Plaza",
+      "venue": "",
+      "descripcion": "<p>Chistes del Pi…π- El nuevo ÉXITO de MrFeromonas ¡Un compilado de chistes e historias de PAREJA para PAREJAS en PAREJA!</p><p>Un show especial para reír sin censura. </p><p>Si pensaste que «chistes del π» era un humor complejo e intelectual estás muy equivocad@ jajaja.</p><p>Un show para cualquier edad, siempre y cuando vengas en PAREJA, algo de interacción (no se obliga a nadie), un pequeño cuestionario anónimo</p><p>y risas por montón. Obviamente chistes del PI…π sin censura y no aptos para quienes se quiebran fácilmente.</p><p>.</p><p>Mercado Sabores&nbsp;ubicado en Ángel Pino 120 – Ñuñoa (calle siguiente al poniente de la plaza Ñuñoa, bajando por Irarrázaval)</p><p>*estacionamiento interior GRATIS , avisar en recepción al llegar (según&nbsp;disponibilidad) </p><p>*estacionamiento exterior autorizado (sin partes), también según disponibilidad&nbsp;y avisar al llegar*</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si está muy lleno. (Inicio del show 20:10)</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Ñuñoa",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-tnvvx5my-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/chistes-del-pi-stand-up-comedy-para-parejas-en-plaza-nunoa_bhs34",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>SEGUIMOS con versión recargada 2026 del éxito mundial de la comedia mas divertida v compulsiva escrita por Laurent Baffie en versión española de Julian Quintanilla. Actuación y dirección de querido Roberto Nicolini en su regreso al Teatro Las Tablas</p><p>TOCTOC, una comedia obsesivamente compulsiva Esperando en la consulta de un prestiaioso psicologo coincide un ecléctico grupo de pacientes con algo en común: todos sufren un Trastorno Obsesivo Compulsivo (TOC). Pero su médico no puede llegar a tiempo, ya que ha sufrido un inesperado retraso. Todos iuntos en consulta se ven obliaados a convivir durante unas horas entreqgando así un sinfín de situaciones que los harán reír a carcaiadas.</p><p>Elenco</p><p>Luciano Morales. Luz Ma. Yacometti. Carmen Gloria Donoso, Ma. Angélica Arcos, Rodrigo Bugueño, Roberto Rojas y Roberto Nicolini</p><p>Producción. Luz Rivanera Dirección. Roberto Nicolini</p><p>📍Teatro Las Tablas. Ubicado en Crucero Exeter 0250 casi esquina Antonia López de Bello, barrio Bellavista Providencia. Estacionamiento pago a pocos metros en Constitución 241</p>",
+      "descripcion_extendida": "<p>Chistes del Pi…π- El nuevo ÉXITO de MrFeromonas ¡Un compilado de chistes e historias de PAREJA para PAREJAS en PAREJA!</p><p>Un show especial para reír sin censura. </p><p>Si pensaste que «chistes del π» era un humor complejo e intelectual estás muy equivocad@ jajaja.</p><p>Un show para cualquier edad, siempre y cuando vengas en PAREJA, algo de interacción (no se obliga a nadie), un pequeño cuestionario anónimo</p><p>y risas por montón. Obviamente chistes del PI…π sin censura y no aptos para quienes se quiebran fácilmente.</p><p>.</p><p>Mercado Sabores&nbsp;ubicado en Ángel Pino 120 – Ñuñoa (calle siguiente al poniente de la plaza Ñuñoa, bajando por Irarrázaval)</p><p>*estacionamiento interior GRATIS , avisar en recepción al llegar (según&nbsp;disponibilidad) </p><p>*estacionamiento exterior autorizado (sin partes), también según disponibilidad&nbsp;y avisar al llegar*</p><p>Es un ambiente ameno, quizás debas COMPARTIR MESA si está muy lleno. (Inicio del show 20:10)</p>",
       "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "A 35 AÑOS DEL ALUVIÓN DE 1991, ORQUESTA SINFÓNICA DE ANTOFAGASTA ESTRENA OBRA INSPIRADA EN FATÍDICO ACONTECIMIENTO",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "",
+      "url": "https://culturaantofagasta.cl/2026/06/10/a-35-anos-del-aluvion-de-1991-orquesta-sinfonica-de-antofagasta-estrena-obra-inspirada-en-fatidico-acontecimiento/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
+      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como \"Día Nacional del Músico\" en conmemoración a su nacimiento, bajo la Ley 27.106."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -4782,36 +4910,20 @@
       "bio_artista": ""
     },
     {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "Referentes de la música de Chile y el mundo se darán cita en la temporada de conciertos número 64 de la Orquesta Sinfónica de Antofagasta",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Programa considera estrenos absolutos y la participación de connotados invitados junto a talentos emergentes &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con un concierto de primer nivel que considera la participación de dos jóvenes músicas, reconocidas internacionalmente por s",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://culturaantofagasta.cl/2026/03/13/referentes-de-la-musica-de-chile-y-el-mundo-se-daran-cita-en-la-temporada-de-conciertos-numero-64-de-la-orquesta-sinfonica-de-antofagasta/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Programa considera estrenos absolutos y la participación de connotados invitados junto a talentos emergentes &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con un concierto de primer nivel que considera la participación de dos jóvenes músicas, reconocidas internacionalmente por s",
-      "bio_artista": ""
-    },
-    {
       "fuente": "CulturaGob",
-      "nombre": "Artistas de Coquimbo llegan hasta Tarapacá y Atacama con gira de Teatro Lambe Lambe",
+      "nombre": "Programa formativo abre nuevas oportunidades para la danza inclusiva en Biobío",
       "venue": "Ministerio de las Culturas",
-      "descripcion": "Iniciativa financiada a través de la línea de Circulación Nacional del Fondo Nacional de Artes Escénicas. Todas las funciones son gratuitas.",
+      "descripcion": "La iniciativa, financiada por el Fondo de las Artes Escénicas del Ministerio de las Culturas, las Artes y el Patrimonio, reúne a 14 personas con síndrome de Down de la Región del Biobío en un proceso de formación artística de cuatro meses que contempla entrenamiento corporal, expresión corporal, tal",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Coquimbo",
-      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/f7nota-450x300.jpg",
-      "url": "https://www.cultura.gob.cl/actualidad/artistas-de-coquimbo-llegan-hasta-tarapaca-y-atacama-con-gira-de-teatro-lambe-lambe/",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Iniciativa financiada a través de la línea de Circulación Nacional del Fondo Nacional de Artes Escénicas. Todas las funciones son gratuitas.",
-      "bio_artista": "El Año Nuevo aymara,, es una celebración que tiene lugar cada 21 de junio, coincidiendo con el solsticio de invierno en el hemisferio sur. La festividad está asociada a los ciclos agrícolas y astronómicos de los pueblos andinos, marcando el inicio de un nuevo periodo anual."
+      "ciudad": "Santiago",
+      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/ph.-pola-berroeta-533x300.jpg",
+      "url": "https://www.cultura.gob.cl/actualidad/programa-formativo-abre-nuevas-oportunidades-para-la-danza-inclusiva-en-biobio/",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "La iniciativa, financiada por el Fondo de las Artes Escénicas del Ministerio de las Culturas, las Artes y el Patrimonio, reúne a 14 personas con síndrome de Down de la Región del Biobío en un proceso de formación artística de cuatro meses que contempla entrenamiento corporal, expresión corporal, tal",
+      "bio_artista": ""
     },
     {
       "fuente": "CCLM",
