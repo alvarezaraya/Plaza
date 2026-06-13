@@ -1,16 +1,15 @@
 {
-  "generado_en": "2026-06-13T09:47:58.720713+00:00",
-  "total_eventos": 318,
+  "generado_en": "2026-06-13T18:55:01.826884+00:00",
+  "total_eventos": 317,
   "por_fuente": {
     "Ticketplus": 134,
-    "ComediaTicket": 38,
-    "PuntoTicket": 38,
+    "ComediaTicket": 39,
+    "PuntoTicket": 37,
     "Ticketmaster": 33,
-    "EsquinaRetornable": 2,
+    "EsquinaRetornable": 8,
     "GAM": 55,
     "CulturaGob": 3,
-    "Eventbrite": 9,
-    "CulturaAntofagasta": 4,
+    "Eventbrite": 6,
     "CCLM": 2
   },
   "eventos": [
@@ -44,7 +43,7 @@
       "lat": -42.4791,
       "lon": -73.7616,
       "descripcion_extendida": "Mil pedazos de Sergio Castro en SALA K",
-      "bio_artista": "Hebe María Pastor de Bonafini, más conocida como Hebe de Bonafini, fue una activista argentina, cofundadora de la asociación Madres de Plaza de Mayo, organización de madres de detenidos desaparecidos durante la última dictadura cívico-militar, que gobernó Argentina entre 1976 y 1983, de la cual dependen un instituto universitario nacional, un periódico, una radio, una casa cultural, una librería y administra un centro cultural donde antes se encontraba el centro clandestino ESMA."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -101,7 +100,7 @@
       "descripcion": "Ella y su hijo",
       "fecha_iso": "2026-05-28",
       "fecha_texto": "28 de mayo de 2026",
-      "precio_desde_clp": "3.500",
+      "precio_desde_clp": "",
       "ciudad": "Santiago",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/ef0c0829bf3537f617f94497f7a2670d27f9e6b3.jpg?1779746086&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/ella-y-su-hijo",
@@ -187,8 +186,8 @@
       "url": "https://ticketplus.cl/events/otelo-2026-06-04-19-00-00-0400",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Otelo: el moro de Venecia u Othello: el moro de Venecia es una obra teatral de William Shakespeare escrita alrededor de 1603. Otelo es una tragedia, como Hamlet, Macbeth y El rey Lear. Shakespeare escribió Otelo probablemente después de Hamlet pero antes que las dos últimas. La primera representación de la que se tiene noticia se celebró el 1 de noviembre de 1604 en el palacio de Whitehall de Londres.",
+      "bio_artista": "Otelo: el moro de Venecia u Othello: el moro de Venecia es una obra teatral de William Shakespeare escrita alrededor de 1603. Otelo es una tragedia, como Hamlet, Macbeth y El rey Lear. Shakespeare escribió Otelo probablemente después de Hamlet pero antes que las dos últimas. La primera representación de la que se tiene noticia se celebró el 1 de noviembre de 1604 en el palacio de Whitehall de Londres."
     },
     {
       "fuente": "Ticketplus",
@@ -336,22 +335,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "NACIÓN TRIBAL -ALL BLACK - SPOT FREEDOM - VIERNES IO",
-      "venue": "",
-      "descripcion": "NACIÓN TRIBAL -ALL BLACK - SPOT FREEDOM - VIERNES 12 DE JUNIO",
-      "fecha_iso": "2026-06-12",
-      "fecha_texto": "12 de junio de 2026",
-      "precio_desde_clp": "11.200",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/5965b5c6547f9df8777087b04b3212e31731377b.png?1780616642&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/nacion-tribal-total-black-spot-freedom-viernes-12-de-junio",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "NACIÓN TRIBAL -ALL BLACK - SPOT FREEDOM - VIERNES 12 DE JUNIO",
-      "bio_artista": "Halcón Negro o Black Sparrow Hawk fue un líder y guerrero de la tribu sauk en el territorio actual de los Estados Unidos de América. Aunque heredero de las artes de la medicina, nunca fue jefe civil de su tribu, los sauk, sino que llegó a ser jefe de guerra, y es conocido generalmente en el idioma inglés como Chief Black Hawk."
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "Cómo encontrar la salida de emergencia en un hogar de ancianos",
       "venue": "",
       "descripcion": "Cómo encontrar la salida de emergencia en un hogar de ancianos",
@@ -364,70 +347,6 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Cómo encontrar la salida de emergencia en un hogar de ancianos",
-      "bio_artista": "Resident Evil Outbreak: File #2, conocido en Japón como Biohazard: Outbreak: File 2  es un videojuego de acción y aventura de terror y supervivencia desarrollado y publicado por Capcom exclusivamente para la PlayStation 2. Es el segundo título de la serie que cuenta con la opción para jugar en línea. Fue lanzado el 9 de septiembre de 2004 en Japón, el 26 de abril de 2005 en Norteamérica y el 26 de agosto de 2005 en Europa."
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Club Fabrica Presenta Ponte Lokita @ Viernes io",
-      "venue": "",
-      "descripcion": "Club Fabrica Presenta Ponte Lokita @ Viernes 12 Junio",
-      "fecha_iso": "2026-06-12",
-      "fecha_texto": "12 de junio de 2026",
-      "precio_desde_clp": "5.500",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/363cb0cd4e04843c15bbf082ab432a614d32c3aa.jpeg?1781047701&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/club-fabrica-presenta-ponte-lokita-viernes-12-junio",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Club Fabrica Presenta Ponte Lokita @ Viernes 12 Junio",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Clubroom Presenta @ Viernes io",
-      "venue": "",
-      "descripcion": "Clubroom Presenta @ Viernes 12 Junio",
-      "fecha_iso": "2026-06-12",
-      "fecha_texto": "12 de junio de 2026",
-      "precio_desde_clp": "5.500",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/a8d06e10c91ebfc950e69fe054c2de75a7b1de17.jpeg?1781043847&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/clubroom-presenta-viernes-12-junio",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Clubroom Presenta @ Viernes 12 Junio",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "GUARACHATON PRESENTA DJ MASSACRE FT DJ FELLON - IO - 23:00",
-      "venue": "",
-      "descripcion": "GUARACHATON PRESENTA DJ MASSACRE FT DJ FELLON - 12 DE JUNIO - 23:00",
-      "fecha_iso": "2026-06-12",
-      "fecha_texto": "12 de junio de 2026",
-      "precio_desde_clp": "11.500",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/c53a652442ea6dc0b2a2ce890d916c49678d721d.jpg?1781216713&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/guarachaton-presenta-dj-massacre-ft-dj-fellon-12-de-junio-23-00",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "GUARACHATON PRESENTA DJ MASSACRE FT DJ FELLON - 12 DE JUNIO - 23:00",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "DJ Chelo 🎸 en Caserio x Sobeteo Viernes io en Hangar Bellavista",
-      "venue": "",
-      "descripcion": "DJ Chelo 🎸 en Caserio x Sobeteo Viernes 12 de Junio en Hangar Bellavista",
-      "fecha_iso": "2026-06-12",
-      "fecha_texto": "12 de junio de 2026",
-      "precio_desde_clp": "4.000",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/21813c102cb7eb4f130d856484f1b5a96a413311.JPG?1780534330&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/dj-chelo-en-caserio-x-sobeteo-viernes-12-de-junio-en-hangar-bellavista",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "DJ Chelo 🎸 en Caserio x Sobeteo Viernes 12 de Junio en Hangar Bellavista",
       "bio_artista": ""
     },
     {
@@ -581,13 +500,77 @@
       "descripcion": "Show de stand up-Sala de profes-Sábado 13 Junio 20:30hrs",
       "fecha_iso": "2026-06-13",
       "fecha_texto": "13 de junio de 2026",
-      "precio_desde_clp": "6.600",
+      "precio_desde_clp": "8.800",
       "ciudad": "Santiago",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/25566e9cc91a9d72be6f090adcd0fed9e05eada4.jpg?1779419016&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/show-de-stand-up-sala-de-profes-sabado-13-junio-20-30hrs",
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Show de stand up-Sala de profes-Sábado 13 Junio 20:30hrs",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Club Fabrica Presenta@ Sábado io",
+      "venue": "",
+      "descripcion": "Club Fabrica Presenta@ Sábado 13 Junio",
+      "fecha_iso": "2026-06-13",
+      "fecha_texto": "13 de junio de 2026",
+      "precio_desde_clp": "5.500",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/9e1f7a0140d669c4b2b5726597c8a542ee4e5371.png?1781053825&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/club-fabrica-presenta-sabado-13-junio",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Club Fabrica Presenta@ Sábado 13 Junio",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Clubroom Presenta @ Sábado io",
+      "venue": "",
+      "descripcion": "Clubroom Presenta @ Sábado 13 Junio",
+      "fecha_iso": "2026-06-13",
+      "fecha_texto": "13 de junio de 2026",
+      "precio_desde_clp": "5.500",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/a0c9cd50904acdc02a477883fedc8595dbb6e8e1.jpeg?1781133784&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/clubroom-presenta-sabado-13-junio",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Clubroom Presenta @ Sábado 13 Junio",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Show de Stand up-Sabado de comedia-Sábado io 22:15 hrs",
+      "venue": "",
+      "descripcion": "Show de Stand up-Sabado de comedia-Sábado 13 Junio 22:15 hrs",
+      "fecha_iso": "2026-06-13",
+      "fecha_texto": "13 de junio de 2026",
+      "precio_desde_clp": "11.000",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/814ca8ecb002d0eb2cfa0bd3dfa21d4fd50bd203.png?1780505706&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/show-de-stand-up-sabado-de-comedia-sabado-13-junio-22-15-hrs",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Show de Stand up-Sabado de comedia-Sábado 13 Junio 22:15 hrs",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "MACARENA PINK DOLL - SPOT FREEDOM - SÁBADO IO - 23:00 SPOT FREEDOM",
+      "venue": "",
+      "descripcion": "MACARENA PINK DOLL - SPOT FREEDOM - SÁBADO 13 DE JUNIO - 23:00 SPOT FREEDOM",
+      "fecha_iso": "2026-06-13",
+      "fecha_texto": "13 de junio de 2026",
+      "precio_desde_clp": "7.840",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/7c903cde3b911981cda42f5b478bd657e33d92eb.jpg?1780934553&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/macarena-pink-doll-spot-freedom-sabado-13-de-junio-23-00-spot-freedom",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "MACARENA PINK DOLL - SPOT FREEDOM - SÁBADO 13 DE JUNIO - 23:00 SPOT FREEDOM",
       "bio_artista": ""
     },
     {
@@ -684,22 +667,6 @@
       "lat": -41.4693,
       "lon": -72.9424,
       "descripcion_extendida": "SABADO 13 JUNIO / GIANNI @ CLUB W",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "PuntoTicket",
-      "nombre": "Fútbol Formativo - Finales Apertura 2026 Estadio Bicentenario de La - La",
-      "venue": "",
-      "descripcion": "Compra tu entrada para Fútbol Formativo, sábado 13 de junio 2026 10:00 hrs. en Estadio Bicentenario de La Florida - La Florida.",
-      "fecha_iso": "2026-06-13",
-      "fecha_texto": "13 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Florida",
-      "imagen_url": "https://static.ptocdn.net/images/eventos/anf093_md.jpg",
-      "url": "https://www.puntoticket.com/evento/finales-apertura-anfp2026-formativo",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Compra tu entrada para Fútbol Formativo, sábado 13 de junio 2026 10:00 hrs. en Estadio Bicentenario de La Florida - La Florida.",
       "bio_artista": ""
     },
     {
@@ -812,7 +779,7 @@
       "lat": -34.1708,
       "lon": -70.7444,
       "descripcion_extendida": "<p>Prepárate para una noche de risas sin filtro en <strong>Republicanos Bar, Rancagua</strong> 🍻. Este 13 de junio a las 20:00 ⏰, los comediantes <strong>Seba Arancibia y Catalin</strong> se suben al escenario con un show de stand up cargado de humor de pareja 💑, anécdotas reales y esas situaciones cotidianas que todos vivimos… pero que pocos se atreven a decir en voz alta 😅.</p><p>Como dupla dentro y fuera del escenario, su química se traduce en un espectáculo dinámico 🔥, cercano y muy divertido 😂, donde el amor ❤️, las discusiones 🤦‍♂️ y la vida diaria se convierten en material explosivo para reír sin parar. Ideal para ir en pareja… o para entender por qué no quieres estar en una 😏.</p>",
-      "bio_artista": ""
+      "bio_artista": "La Universidad San Sebastián (USS) es una universidad privada chilena, fundada en 1989 en Concepción. Actualmente, su sede central se ubica en Santiago de Chile, y cuenta con campus en Concepción, Valdivia y Puerto Montt. Estas instalaciones albergan a más de 49 mil estudiantes."
     },
     {
       "fuente": "ComediaTicket",
@@ -828,7 +795,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<h3><strong>Sábado de comedia: El Cierre del Laboratorio 🚀🔥</strong></h3><p>Si el viernes estuvo bueno, el sábado se viene sin frenos. El <strong>1er Laboratorio de Stand Up de La Sala</strong> vive su segunda y última noche de muestra final. Cinco comediantes se la juegan toda en el escenario con textos totalmente originales, pulidos y listos para hacerte escupir el copete.</p><p>Ven a pasar el sábado con el tremendo lineup que se armó:</p><ul><li><strong>Pablo</strong></li><li><strong>Ariel</strong></li><li><strong>Nico</strong></li><li><strong>Estrella</strong></li><li><strong>Iann</strong></li></ul><p>La Chipi pone las promos y el bajón, nosotros ponemos los chistes. Tú solo tienes que traer las ganas de pasarlo bien.</p><ul><li>📅 <strong>¿Cuándo?</strong> Sábado 13 de junio.</li><li>🕠 <strong>¿A qué hora?</strong> 20:30 hrs.</li><li>📍 <strong>¿Dónde?</strong> <em>Donde la Chipi</em> (Diagonal Paraguay 458, subterráneo).</li></ul><p>Espacios limitados (porque en el subterráneo el ambiente es íntimo y se vive mejor la comedia). ¡No te quedes abajo!</p>",
-      "bio_artista": ""
+      "bio_artista": "El gran show es una serie de telerrealidad peruana de baile que fue estrenada el 15 de mayo de 2010 por la cadena de América Televisión y bajo licencia de GV Producciones. Es la versión peruana de la serie de televisión británica Strictly Come Dancing y una de las varias iteraciones de la franquicia de Dancing with the Stars, siguiendo principalmente el formato mexicano de Bailando por un sueño creado por Televisa."
     },
     {
       "fuente": "ComediaTicket",
@@ -844,7 +811,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>Te invitamos a disfrutar de una noche imperdible de humor con Ricardo Meruane, uno de los comediantes más reconocidos de Chile, aplaudido por su agudeza, ironía inteligente y capacidad única para retratar la vida cotidiana con humor directo y sin filtros. Sus rutinas, elogiadas por su ritmo y conexión con el público, garantizan risas de principio a fin. 📅 13 de junio 🕗 21 hrs 📍 Good Restaurante ¡Una velada para reír, disfrutar y compartir!</p>",
-      "bio_artista": ""
+      "bio_artista": "Tintín y los Pícaros es el vigésimo tercero y último de los álbumes de Las aventuras de Tintín publicados por su autor (Hergé)."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -860,7 +827,7 @@
       "url": "https://www.passline.com/eventos/una-sombra-oscilante",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La cosecha es un proceso agrícola que consiste en recoger los productos vegetales comestibles, que pueden ser frutos, semillas u hortalizas de los campos, en la época del año en que están maduros. La cosecha marca el final del crecimiento de una estación o el final del ciclo de un fruto en particular."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -892,7 +859,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Una obra se construye a partir de testimonios y archivos de personas viviendo con VIH y de sus círculos íntimos. Desde una mirada crítica y disidente, el esp",
-      "bio_artista": "El beso de la mujer araña es una película brasileña-estadounidense independiente dramática de 1985 dirigida por el cineasta brasileño de origen argentino Héctor Babenco, y adaptada por Leonard Schrader de la novela homónima del escritor argentino Manuel Puig. La película contó con William Hurt, Raúl Juliá y Sonia Braga en protagónicos principales."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -908,7 +875,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La figura de Humberto Maturana renace con esta intervención teatral que selecciona textos extraídos del libro “El árbol del conocimiento”. Una coproducción d",
-      "bio_artista": "El árbol de plata de Karakórum fue una escultura edificada frente al palacio del Kan en el centro de la ciudad de Karakórum, antigua capital del Imperio Mongol. Fue construida por el orfebre parisino Guillaume Bouchier en el siglo XIII. Durante muchos años fue el símbolo más importante de Karakórum hasta desparecer cuando la ciudad fue abandonada."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -956,7 +923,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Campeonato Primera - Futsal, domingo 14 de junio 2026 al domingo 14 de junio 2026 en Polideportivo La Florida - La Florida.",
-      "bio_artista": "El Campeonato de Primera División 2012-13 fue la octogésima tercera temporada de la era profesional de la Primera División del fútbol argentino. Previo a su desarrollo, se implementaron diversas reformas en el reglamento relacionadas con su forma de disputa, el sistema de descensos y la clasificación a las copas internacionales."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -1215,6 +1182,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA MISTERIOSA MIRADA DEL FLAMENCO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Estreno Nacional · Dir. Diego Céspedes",
+      "descripcion_extendida": "Estreno Nacional · Dir. Diego Céspedes",
+      "fecha_iso": "2026-06-17",
+      "fecha_texto": "17 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/LMMDF-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/la-misteriosa-mirada-del-flamenco-522802",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "GAM",
       "nombre": "Concierto Música UC: Granados y Maslíah",
       "venue": "Centro Gabriela Mistral (GAM)",
@@ -1407,6 +1390,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LOS RENACIDOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Estreno Internacional · Dir. Santiago Esteves",
+      "descripcion_extendida": "Estreno Internacional · Dir. Santiago Esteves",
+      "fecha_iso": "2026-06-18",
+      "fecha_texto": "18 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/los-renacidos-poster-1.jpg",
+      "url": "https://www.passline.com/eventos/los-renacidos-522959",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "GAM",
       "nombre": "Ciclo Armónica: música & perfo",
       "venue": "Centro Gabriela Mistral (GAM)",
@@ -1567,6 +1566,54 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "MATAPANKI",
+      "venue": "Esquina Retornable",
+      "descripcion": "Estreno Nacional · Dir. Diego \"Mapache\" Fuentes",
+      "descripcion_extendida": "Estreno Nacional · Dir. Diego \"Mapache\" Fuentes",
+      "fecha_iso": "2026-06-19",
+      "fecha_texto": "19 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/03/matapanki-web-1.jpg",
+      "url": "https://www.passline.com/eventos/matapanki-522965",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "EL PLANETA DE LOS SIMIOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Clásicos de Ciencia Ficción · Dir. Franklin J. Schaffner",
+      "descripcion_extendida": "Clásicos de Ciencia Ficción · Dir. Franklin J. Schaffner",
+      "fecha_iso": "2026-06-19",
+      "fecha_texto": "19 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/planeta-de-los-simios-poster.jpg",
+      "url": "https://www.passline.com/eventos/el-planeta-de-los-simios",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Fight Night",
+      "venue": "",
+      "descripcion": "Santiago Fight Night",
+      "fecha_iso": "2026-06-20",
+      "fecha_texto": "20 de junio de 2026",
+      "precio_desde_clp": "11.500",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/3772b5eeeff997b7b32d881773ac6b1719b598fa.png?1778688863&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/santiago-fight-night",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
       "fuente": "Ticketplus",
       "nombre": "Latín of Germany",
       "venue": "",
@@ -1596,6 +1643,38 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "MIL PEDAZOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Estreno Nacional · Dir. Sergio Castro San Martín",
+      "descripcion_extendida": "Estreno Nacional · Dir. Sergio Castro San Martín",
+      "fecha_iso": "2026-06-20",
+      "fecha_texto": "20 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/mil-pedazos-afiche-web.jpg",
+      "url": "https://www.passline.com/eventos/mil-pedazos-522741",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "FUE SOLO UN ACCIDENTE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Mes de la Red de Salas de Cine con entrada a $2.500. · Dir. Jafar Panahi",
+      "descripcion_extendida": "Mes de la Red de Salas de Cine con entrada a $2.500. · Dir. Jafar Panahi",
+      "fecha_iso": "2026-06-20",
+      "fecha_texto": "20 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/fue-solo-un-accident-poster.jpg",
+      "url": "https://www.passline.com/eventos/fue-solo-un-accidente-517157",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -2092,7 +2171,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "Cerati Sinfónico - Orquesta Sinfónica de Antofagasta",
-      "bio_artista": ""
+      "bio_artista": "Gustavo Adrián Cerati fue un músico, cantautor y productor discográfico argentino que obtuvo reconocimiento por haber sido el líder, vocalista, compositor y guitarrista de la banda de rock Soda Stereo. La prensa especializada y otros músicos lo consideran como uno de los artistas más influyentes del rock latinoamericano."
     },
     {
       "fuente": "Ticketplus",
@@ -2108,7 +2187,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Programa Especial: Aniversario Orquesta",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica Venezuela (conocida también como Orquesta Sinfónica de Venezuela y OSV) es una de las orquestas más importantes de Venezuela. Fue fundada por Vicente Emilio Sojo el 24 de junio de 1930 y es, después de la Orquesta Sinfónica de Boston, la orquesta más antigua del continente americano. Sus directores titulares han sido los maestros Vicente Emilio Sojo, Vicente Martucci, Ángel Sauce, Antonio Estévez, Gonzalo Castellanos Yumar, Georg Schmöhe, Eduardo Marturet y Theodore Kuchar."
     },
     {
       "fuente": "Ticketplus",
@@ -2459,8 +2538,8 @@
       "url": "https://www.ticketmaster.cl/event/world-rugby-nations-cup-chile-estadio-nacional",
       "lat": -33.464833,
       "lon": -70.6075,
-      "descripcion_extendida": "El World Rugby Nations Cup es una competición internacional masculina de rugby que se celebra cada dos años y que está programada para tener lugar en las ventanas internacionales de mitad de año y de fin de año en los años pares.",
-      "bio_artista": "El World Rugby Nations Cup es una competición internacional masculina de rugby que se celebra cada dos años y que está programada para tener lugar en las ventanas internacionales de mitad de año y de fin de año en los años pares."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -2508,7 +2587,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, viernes 17 de julio 2026 al viernes 17 de julio 2026 en Gimnasio Municipal de Concepción - Concepción.",
-      "bio_artista": ""
+      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
     },
     {
       "fuente": "GAM",
@@ -2539,8 +2618,8 @@
       "url": "https://ticketplus.cl/events/membresia-sala-nemesio",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "1967 fue un año común comenzado en domingo según el calendario gregoriano. Fue declarado Año Internacional del Turista por la Organización de las Naciones Unidas.",
-      "bio_artista": "1967 fue un año común comenzado en domingo según el calendario gregoriano. Fue declarado Año Internacional del Turista por la Organización de las Naciones Unidas."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2879,22 +2958,6 @@
       "bio_artista": "En llamas, es el segundo libro de la trilogía de Los juegos del hambre escrita por la autora estadounidense Suzanne Collins. Salió a la venta en septiembre de 2009 en Estados Unidos y hasta enero de 2010 fue distribuido en español. Continúa la historia de Katniss Everdeen y el país ficticio y futurista de Panem."
     },
     {
-      "fuente": "Eventbrite",
-      "nombre": "Tallarinata Fraternal en ayuda Encontrarte",
-      "venue": "",
-      "descripcion": "El domingo 26 de julio nos reuniremos para impulsar con fraternidad y fuerza el Conservatorio Musical de Encontrarte",
-      "fecha_iso": "2026-07-26",
-      "fecha_texto": "26 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1186455762%252F2364850590963%252F1%252Foriginal.20260609-002225%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Db28dab14930b81470bd72c68f96f7b8d&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/tallarinata-fraternal-en-ayuda-encontrarte-tickets-1991424973704?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "El domingo 26 de julio nos reuniremos para impulsar con fraternidad y fuerza el Conservatorio Musical de Encontrarte",
-      "bio_artista": ""
-    },
-    {
       "fuente": "GAM",
       "nombre": "Lanzamiento catálogo de obras: Claudia Vásquez G. (CL): Escrito y editado por Claudia Vásquez",
       "venue": "Centro Gabriela Mistral (GAM)",
@@ -2972,7 +3035,7 @@
       "lat": -33.0472,
       "lon": -71.6127,
       "descripcion_extendida": "Magic One Presenta Ver Para Creer Magia & Ilusión",
-      "bio_artista": "The Vanishing Lady es un exitoso dispositivo de escaparate, creado en 1898 por Charles Morton para unos grandes almacenes de Sacramento. Fue muy celebrado en 1900 por Frank Baum en un libro dedicado a la decoración de escaparates, publicado el mismo año que El maravilloso mago de Oz. Se trata del busto de una mujer viva, que aparece sobre un pedestal, luego parece desaparecer dentro de él, solo para reaparecer con un nuevo atuendo."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3340,7 +3403,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Astronauta Marinero del Universo",
-      "bio_artista": ""
+      "bio_artista": "La exploración espacial designa los esfuerzos del ser humano en estudiar el espacio y sus astros desde el punto de vista científico y de su explotación económica. Estos esfuerzos pueden involucrar tanto seres humanos viajando en naves espaciales como satélites con recursos de telemetría o sondas teleguiadas enviadas a otros planetas."
     },
     {
       "fuente": "Ticketplus",
@@ -3388,7 +3451,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La nueva creación escénica multidisciplinar del Colectivo Artístico Circo Virtual, aborda los movimientos telúricos desde una perspectiva material, filosófic",
-      "bio_artista": "Un terremoto, también llamado sismo o seísmo en España, temblor de tierra o movimiento telúrico, es la sacudida brusca y pasajera de la corteza terrestre. Los más comunes se producen por actividad de fallas geológicas."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3548,7 +3611,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Compra tu entrada para San Luis, sábado 12 de septiembre 2026 21:00 hrs. en Teatro Coliseo - Santiago Centro.",
-      "bio_artista": "San Luis Obispo is a city in and the county seat of San Luis Obispo County, California, United States. Located on the Central Coast of California, San Luis Obispo is roughly halfway between the San Francisco Bay Area in the north and Greater Los Angeles in the south. The population was 47,063 at the 2020 census."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -3580,7 +3643,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La obra, en versión de La Dramática Nacional y con dramaturgia de María Asunción Requena, narra la vida de los chilotes de Curaco de Vélez en los años 70, qu",
-      "bio_artista": ""
+      "bio_artista": "Nelson Omar Brodt Chávez es un actor, director, dramaturgo y docente chileno, de extensa trayectoria en teatro, cine y televisión."
     },
     {
       "fuente": "Ticketplus",
@@ -3628,7 +3691,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "El histórico programa de Teatro del Lago, Puedes bailar, presenta en GAM esta creación de Vivian Romo, interpretada por cerca de cien niñas, niños y jóvenes",
-      "bio_artista": "Se llama entramado a una armazón de maderos que forma el cuerpo perpendicular, que sostiene una pared o un tabique."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -3660,7 +3723,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "GAM abre un nuevo espacio para compartir la versatilidad de la guitarra. En este ciclo se realizarán tres sesiones con obras que viajan desde el barroco hast",
-      "bio_artista": ""
+      "bio_artista": "No va más es el sexto disco de la banda española de heavy metal Barón Rojo. El disco se publicó en 1988 y fue producido por Barón Rojo para Chapa/Serdisco."
     },
     {
       "fuente": "PuntoTicket",
@@ -4236,7 +4299,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Amarga Navidad de Pedro Almodóvar en SALA K",
-      "bio_artista": ""
+      "bio_artista": "Córdoba es una ciudad y municipio español en Andalucía, capital de la provincia homónima, situada en una depresión a orillas del Guadalquivir y al pie de Sierra Morena. Alberga una población de 323 262 habitantes, siendo la tercera ciudad más grande y poblada de Andalucía tras Sevilla y Málaga, y la duodécima de España."
     },
     {
       "fuente": "Ticketplus",
@@ -4284,7 +4347,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Exit 8 de Genki Kawamura en SALA K",
-      "bio_artista": "The 58th Sitges International Fantastic Film Festival of Catalonia took place from 9 to 19 October 2025, in Sitges, Catalonia, Spain. It opened on 9 October with Julia Ducournau's body horror drama film Alpha. This edition of the festival honoured American film director, producer, and writer Sean S. Cunningham, the creator of Friday the 13th horror franchise."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -4299,8 +4362,8 @@
       "url": "https://www.ticketmaster.cl/event/family-fest-by-hasbro",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia",
-      "bio_artista": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia"
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -4315,8 +4378,8 @@
       "url": "https://www.ticketmaster.cl/event/story-dome-metropolitan-santiago",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Tokyo Dome  es un estadio cubierto situado en el barrio de Bunkyō en Tokio, Japón. Fue construido sobre los terrenos del recinto deportivo de Kōrakuen e inaugurado el 17 de marzo de 1988. Desde entonces es utilizado para albergar grandes conciertos y competiciones deportivas, siendo la sede de los Yomiuri Giants de la Liga Japonesa de Béisbol Profesional.",
+      "bio_artista": "Tokyo Dome  es un estadio cubierto situado en el barrio de Bunkyō en Tokio, Japón. Fue construido sobre los terrenos del recinto deportivo de Kōrakuen e inaugurado el 17 de marzo de 1988. Desde entonces es utilizado para albergar grandes conciertos y competiciones deportivas, siendo la sede de los Yomiuri Giants de la Liga Japonesa de Béisbol Profesional."
     },
     {
       "fuente": "Ticketmaster",
@@ -4636,7 +4699,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>¿Alguna vez te has preguntado qué pasa por la cabeza de Nicolás Larraín cuando las cámaras se apagan? ¡Llegó el momento de que lo sepas!</p><p><br></p><p>En este show de Stand Up, Nico se quita el filtro de la televisión para soltar todo eso que lleva guardado por años. Una invitación sin censura, llena de anécdotas desopilantes, crisis existenciales y esa ironía rápida que solo él sabe manejar. No es solo un show, es una catarsis colectiva donde nos reiremos de lo políticamente incorrecto.</p><p><br></p><p><strong>﻿¡Ven a reírte de lo que no nos dejan decir!</strong></p>",
-      "bio_artista": ""
+      "bio_artista": "Nicolás Enrique Larraín de Toro es un presentador de televisión, locutor de radio, músico y empresario chileno."
     },
     {
       "fuente": "ComediaTicket",
@@ -4752,6 +4815,22 @@
     },
     {
       "fuente": "ComediaTicket",
+      "nombre": "Piare con P",
+      "venue": "",
+      "descripcion": "<h3><br></h3><p><strong>¡La espera terminó! El fenómeno humorístico del 2026 regresa a su casa oficial.</strong></p><p><br></p><p><strong>Piare con P</strong> vuelve al escenario de Palermo Teatro Bar para una noche legendaria. Olvida lo que viste en televisión; en la intimidad de nuestra sala, la comediante más versátil del momento despliega toda su artillería sin censura, con esa rutina ácida, honesta y el \"flow\" único que solo ella puede entregar.</p><p><br></p><p>Es el plan perfecto en el corazón de Providencia: una noche de stand-up de alto nivel para desconectarse y reír a carcajadas junto a nuestra coctelería y gastronomía de autor.</p><p><br></p><p><strong>Aviso:</strong> Debido a la alta demanda, los cupos suelen agotarse en tiempo récord. Le recomendamos asegurar sus entradas con anticipación.</p><p><strong>Público:</strong> Show para mayores de 18 años. (Menores desde 16 bajo responsabilidad de un adulto).</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Providencia",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-0daunuh1-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/piare-con-p-el-regreso-de-la-gaviota-de-oro-a-palermo_9ojyp",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<h3><br></h3><p><strong>¡La espera terminó! El fenómeno humorístico del 2026 regresa a su casa oficial.</strong></p><p><br></p><p><strong>Piare con P</strong> vuelve al escenario de Palermo Teatro Bar para una noche legendaria. Olvida lo que viste en televisión; en la intimidad de nuestra sala, la comediante más versátil del momento despliega toda su artillería sin censura, con esa rutina ácida, honesta y el \"flow\" único que solo ella puede entregar.</p><p><br></p><p>Es el plan perfecto en el corazón de Providencia: una noche de stand-up de alto nivel para desconectarse y reír a carcajadas junto a nuestra coctelería y gastronomía de autor.</p><p><br></p><p><strong>Aviso:</strong> Debido a la alta demanda, los cupos suelen agotarse en tiempo récord. Le recomendamos asegurar sus entradas con anticipación.</p><p><strong>Público:</strong> Show para mayores de 18 años. (Menores desde 16 bajo responsabilidad de un adulto).</p>",
+      "bio_artista": "Manuel Carlos María Francisco Piar Gómez fue un militar hispano-venezolano nacido en Curazao, prócer de la Independencia de Venezuela. Y además dentro de los canales de la historia republicana venezolana es reconocido como el Libertador de Guayana y Generalísimo Invicto, por haber disputado 24 batallas y no haber sido derrotado. Fue fusilado por orden de Simón Bolívar."
+    },
+    {
+      "fuente": "ComediaTicket",
       "nombre": "Don Carter en Sambolio Restobar",
       "venue": "",
       "descripcion": "<p>El humor irreverente y Sin Censura de Don Carter llega a Sambolio ¿Preparado para escucharlo y reír con los chistes prohibidos?</p>",
@@ -4780,7 +4859,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p><strong>LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</strong></p><p>¿Te quedaste con ganas de más? La reina del Café Concert, <strong>Asskha Sumathra</strong>, trae su gira oficial <strong>\"Lo que no se vio en Viña\"</strong>.</p><p>Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p><p><br></p>",
-      "bio_artista": "El LXV Festival Internacional de la Canción de Viña del Mar, también conocido como Viña 2026, estilizado como Viña 26, fue un evento cultural y artístico que se llevó a cabo entre el domingo 22 de febrero y el viernes 27 de febrero de 2026 en el Anfiteatro de la Quinta Vergara en la ciudad chilena de Viña del Mar, Región de Valparaíso."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
@@ -4845,70 +4924,6 @@
       "lon": null,
       "descripcion_extendida": "<p>Vibrando Alto\" es el show de stand-up donde tres comediantes se quitan la careta de la \"mujer perfecta y resuelta\" para confesar todo lo que el horóscopo no te advirtió. Desde las trampas del amor moderno hasta las exigencias absurdas de la vida adulta, este trío viene a demostrar que la mejor forma de limpiar las malas energías es exponiéndolas bajo los focos de un escenario.</p>",
       "bio_artista": "El anticlímax, del griego anti y clímax, es una figura literaria que consiste en una gradación de términos negativos y opuestos a los evocados durante una primera gradación de términos positivos."
-    },
-    {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "A 35 AÑOS DEL ALUVIÓN DE 1991, ORQUESTA SINFÓNICA DE ANTOFAGASTA ESTRENA OBRA INSPIRADA EN FATÍDICO ACONTECIMIENTO",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://culturaantofagasta.cl/2026/06/10/a-35-anos-del-aluvion-de-1991-orquesta-sinfonica-de-antofagasta-estrena-obra-inspirada-en-fatidico-acontecimiento/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
-      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como \"Día Nacional del Músico\" en conmemoración a su nacimiento, bajo la Ley 27.106."
-    },
-    {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "Comienza la IX versión de la“Semana de la Danza” que realiza la Escuela de Ballet de la Corporación Cultural de Antofagasta",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://culturaantofagasta.cl/2026/04/27/comienza-la-ix-version-de-lasemana-de-la-danza-que-realiza-la-escuela-de-ballet-de-la-corporacion-cultural-de-antofagasta/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "bio_artista": "El Teatro Principal de Burgos es un edificio de la época isabelina situado al comienzo del paseo del Espolón, enfrente al palacio de la Diputación Provincial. Se empezó a construir en 1843 por el arquitecto Bernardino Martínez de Velasco, bajo la dirección de Francisco de Angoitia, y fue inaugurado en 1858. Desde su inauguración y hasta 1956 albergó gran número de conciertos y espectáculos. En el mismo edificio se encontraba el llamado Salón de Recreo."
-    },
-    {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "Exposición invita a conocer historia de la ilustración en Chile a través de un recorrido educativo y social",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "“Fundación Cultural y Educacional Ilustradores Chilenos de Oro”, tiene sede en Antofagasta y resguarda más de 770 obras la historia visual de nuestro país. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con motivo de la celebración del Día Internacional del Libro, la Corporación ",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://culturaantofagasta.cl/2026/04/23/exposicion-invita-a-conocer-la-historia-la-ilustracion-en-chile-a-traves-de-un-recorrido-educativo-y-social/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "“Fundación Cultural y Educacional Ilustradores Chilenos de Oro”, tiene sede en Antofagasta y resguarda más de 770 obras la historia visual de nuestro país. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con motivo de la celebración del Día Internacional del Libro, la Corporación ",
-      "bio_artista": "Centro Cultural La Moneda (CCLM) es un centro cultural localizado en la ciudad de Santiago en Chile, bajo la Plaza de la Ciudadanía, frente a la fachada sur del Palacio de La Moneda."
-    },
-    {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "Con un homenaje a Vivaldi comienza ciclo de concierto barrocos a cargo del Ensamble de la Escuela de Música CCA",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Concierto gratuito se realizará en la Parroquia “La Transfiguración del Señor” de la Población Coviefi Como parte de los lineamientos de despliegue territorial que impulsa la Corporación Cultural de Antofagasta, los cuales tienen como objetivo el acercar el arte y la cultura a toda la comunidad a tr",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://culturaantofagasta.cl/2026/04/15/con-un-homenaje-a-vivaldi-comienza-ciclo-de-concierto-barrocos-a-cargo-del-ensamble-de-la-escuela-de-musica-cca/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Concierto gratuito se realizará en la Parroquia “La Transfiguración del Señor” de la Población Coviefi Como parte de los lineamientos de despliegue territorial que impulsa la Corporación Cultural de Antofagasta, los cuales tienen como objetivo el acercar el arte y la cultura a toda la comunidad a tr",
-      "bio_artista": ""
     },
     {
       "fuente": "Eventbrite",
@@ -4976,19 +4991,19 @@
     },
     {
       "fuente": "Eventbrite",
-      "nombre": "Concierto Jóvenes Sinfónicos de la OSIM - FOJI",
+      "nombre": "Encuentro de Centros de Padres y Directivas",
       "venue": "",
-      "descripcion": "Ven a disfrutar de todo el talento de los niños y jóvenes de la Orquesta Sinfónica Infantil Metropolitana de FOJI",
+      "descripcion": "Disfruta de las distintas empresas del ámbito educativo y logístico familiar que entregarán descuentos exclusivos para su comunidad.",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1184889497%252F1170662714273%252F1%252Foriginal.20260518-212242%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Db4c8ae631c991ca7374aee2e1309e35d&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/concierto-jovenes-sinfonicos-de-la-osim-foji-tickets-1989863004813?aff=ebdssbcitybrowse",
+      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1185339960%252F3003172725543%252F1%252Foriginal.20260525-022436%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26s%3D89a3fa625f6a9b17d4021332104986e9&w=1880&q=75",
+      "url": "https://www.eventbrite.cl/e/encuentro-de-centros-de-padres-y-directivas-tickets-1990293871547?aff=ebdssbcitybrowse",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "Ven a disfrutar de todo el talento de los niños y jóvenes de la Orquesta Sinfónica Infantil Metropolitana de FOJI",
-      "bio_artista": "La Orquesta Sinfónica Infantil de México (OSIM) es una agrupación musical que reúne a niños, niñas y jóvenes de las 32 entidades federativas de su país. Forma parte del Sistema Nacional de Fomento Musical del Conaculta."
+      "descripcion_extendida": "Disfruta de las distintas empresas del ámbito educativo y logístico familiar que entregarán descuentos exclusivos para su comunidad.",
+      "bio_artista": "Sierra de los Padres es un pueblo o barrio residencial del partido de General Pueyrredón, provincia de Buenos Aires, Argentina."
     },
     {
       "fuente": "Eventbrite",
@@ -5004,39 +5019,7 @@
       "lat": -38.7359,
       "lon": -72.5904,
       "descripcion_extendida": "Experiencia privada en Temuco sobre negocios digitales, trading y networking para personas que buscan crecer y generar ingresos.",
-      "bio_artista": "Madhyamaka se refiere a una tradición de filosofía y práctica budista fundada por el filósofo indio Nāgārjuna. Es también conocida como śūnya-vāda y niḥsvabhāva-vāda. El texto fundacional de la tradición mādhyamaka es el Mūla-madhyamaka-kārikā de Nāgārjuna. Más ampliamente, \"madhyamaka\" también se refiere a la naturaleza última de los fenómenos y al descubrimiento de esto a través de la meditación."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "Concierto Danzas sin Fronteras de la OSEM-FOJI",
-      "venue": "",
-      "descripcion": "Ven a disfrutar de este maravilloso concierto junto a la Orquesta Sinfónica Estudiantil Metropolitana de FOJI",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1184959698%252F1170662714273%252F1%252Foriginal.20260519-164711%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D83f8b7d7b7db90db4e58e085a03c6ab3&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/concierto-danzas-sin-fronteras-de-la-osem-foji-tickets-1989922489734?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Ven a disfrutar de este maravilloso concierto junto a la Orquesta Sinfónica Estudiantil Metropolitana de FOJI",
       "bio_artista": ""
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "Encuentro de Centros de Padres y Directivas",
-      "venue": "",
-      "descripcion": "Disfruta de las distintas empresas del ámbito educativo y logístico familiar que entregarán descuentos exclusivos para su comunidad.",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1185339960%252F3003172725543%252F1%252Foriginal.20260525-022436%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26s%3D89a3fa625f6a9b17d4021332104986e9&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/encuentro-de-centros-de-padres-y-directivas-tickets-1990293871547?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Disfruta de las distintas empresas del ámbito educativo y logístico familiar que entregarán descuentos exclusivos para su comunidad.",
-      "bio_artista": "Sierra de los Padres es un pueblo o barrio residencial del partido de General Pueyrredón, provincia de Buenos Aires, Argentina."
     },
     {
       "fuente": "CulturaGob",
