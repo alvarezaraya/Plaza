@@ -1,14 +1,13 @@
 {
-  "generado_en": "2026-06-15T12:41:32.857063+00:00",
-  "total_eventos": 290,
+  "generado_en": "2026-06-15T21:08:20.862707+00:00",
+  "total_eventos": 287,
   "por_fuente": {
     "Ticketplus": 128,
     "ComediaTicket": 39,
-    "PuntoTicket": 30,
+    "PuntoTicket": 32,
     "Ticketmaster": 30,
     "GAM": 53,
     "CulturaGob": 3,
-    "Eventbrite": 5,
     "CCLM": 2
   },
   "eventos": [
@@ -27,6 +26,22 @@
       "lon": -70.6693,
       "descripcion_extendida": "Alpha de Julia Ducournau en SALA K",
       "bio_artista": "Rahavard Farahani, known professionally as Golshifteh Farahani, is an Iranian and French actress. She is known for her performances in M for Mother (2006), Body of Lies (2008), About Elly (2009), The Patience Stone (2012), Paterson (2016), Girls of the Sun (2018), Extraction (2020) and its sequel Extraction 2 (2023), and Invasion (2021–present). For her performance in The Patience Stone, she was nominated for Most Promising Actress at the 39th César Awards."
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "The Mandalorian and Grogu",
+      "venue": "",
+      "descripcion": "The Mandalorian and Grogu",
+      "fecha_iso": "2026-05-22",
+      "fecha_texto": "22 de mayo de 2026",
+      "precio_desde_clp": "3.500",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/78c14eb5785e2108c4b6f1d374fad69424d143e3.jpg?1778512266&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/the-mandalorian-and-grogu",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "The Mandalorian and Grogu, también conocida como Star Wars: The Mandalorian and Grogu, es una película espacial western estadounidense dirigida por Jon Favreau y coescrita por Favreau y Dave Filoni. Producida por Lucasfilm y distribuida por Walt Disney Studios Motion Pictures, es parte de la franquicia Star Wars y una continuación de la serie de televisión de Disney+ The Mandalorian.",
+      "bio_artista": "The Mandalorian and Grogu, también conocida como Star Wars: The Mandalorian and Grogu, es una película espacial western estadounidense dirigida por Jon Favreau y coescrita por Favreau y Dave Filoni. Producida por Lucasfilm y distribuida por Walt Disney Studios Motion Pictures, es parte de la franquicia Star Wars y una continuación de la serie de televisión de Disney+ The Mandalorian."
     },
     {
       "fuente": "Ticketplus",
@@ -158,22 +173,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "Mil Pedazos",
-      "venue": "",
-      "descripcion": "Mil Pedazos",
-      "fecha_iso": "2026-06-04",
-      "fecha_texto": "4 de junio de 2026",
-      "precio_desde_clp": "3.500",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/0ab266414ac40070bbd6181187c6efa7b3543e93.jpg?1780329127&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/mil-pedazos",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014.",
-      "bio_artista": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014."
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "Otelo",
       "venue": "",
       "descripcion": "Otelo",
@@ -187,6 +186,22 @@
       "lon": -70.6693,
       "descripcion_extendida": "",
       "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Mil Pedazos",
+      "venue": "",
+      "descripcion": "Mil Pedazos",
+      "fecha_iso": "2026-06-04",
+      "fecha_texto": "4 de junio de 2026",
+      "precio_desde_clp": "3.500",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/0ab266414ac40070bbd6181187c6efa7b3543e93.jpg?1780329127&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/mil-pedazos",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "\"Mil Pedazos\" is a song performed by Colombian singer-songwriter Juanes for his sixth studio album Loco de Amor. Written by the singer, and the member of the Mexican band Café Tacuba, Emmanuel Del Real, and produced by Juanes with the collaboration of Steve Lillywhite, Universal Music Latino released the song as the second single from Loco de Amor on March 7, 2014.",
+      "bio_artista": "\"Mil Pedazos\" is a song performed by Colombian singer-songwriter Juanes for his sixth studio album Loco de Amor. Written by the singer, and the member of the Mexican band Café Tacuba, Emmanuel Del Real, and produced by Juanes with the collaboration of Steve Lillywhite, Universal Music Latino released the song as the second single from Loco de Amor on March 7, 2014."
     },
     {
       "fuente": "Ticketplus",
@@ -249,24 +264,8 @@
       "url": "https://ticketplus.cl/events/tres-amigas",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Los tres amigos (comercializada como ¡Los tres amigos! es una película de 1986 de comedia musical y aventuras dirigida por John Landis y escrita por Lorne Michaels, Steve Martin y Randy Newman, protagonizada por el mismo Martin, Chevy Chase y Martin Short, quienes interpretan a tres estrellas del cine mudo que son confundidos con \"verdaderos héroes\" por un pequeño pueblo mexicano y que deberán encontrar una manera de sobrevivir con esa reputación.",
-      "bio_artista": "Los tres amigos (comercializada como ¡Los tres amigos! es una película de 1986 de comedia musical y aventuras dirigida por John Landis y escrita por Lorne Michaels, Steve Martin y Randy Newman, protagonizada por el mismo Martin, Chevy Chase y Martin Short, quienes interpretan a tres estrellas del cine mudo que son confundidos con \"verdaderos héroes\" por un pequeño pueblo mexicano y que deberán encontrar una manera de sobrevivir con esa reputación."
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "El día de la revelación",
-      "venue": "",
-      "descripcion": "El día de la revelación",
-      "fecha_iso": "2026-06-11",
-      "fecha_texto": "11 de junio de 2026",
-      "precio_desde_clp": "3.500",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/def3e267e61d10b7dea0314aa412a19c5da4ce3b.jpg?1780946566&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/el-dia-de-la-revelacion",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "El día de la revelación es una próxima película estadounidense de 2026 de ciencia ficción producida y dirigida por Steven Spielberg a partir de un guion de David Koepp basado en una historia de Spielberg. La película está protagonizada por Emily Blunt, Josh O'Connor, Colin Firth, Eve Hewson y Colman Domingo.",
-      "bio_artista": "El día de la revelación es una próxima película estadounidense de 2026 de ciencia ficción producida y dirigida por Steven Spielberg a partir de un guion de David Koepp basado en una historia de Spielberg. La película está protagonizada por Emily Blunt, Josh O'Connor, Colin Firth, Eve Hewson y Colman Domingo."
+      "descripcion_extendida": "The Tres Amigas SuperStation was a project proposed in 2009 to unite North America's two major power grids and one of its three minor grids, with the goals of enabling faster adoption of renewable energy and increasing the reliability of the U.S. grid. In 2015, the project lost access to the Eastern Interconnection when Southwestern Public Service dropped out.",
+      "bio_artista": "The Tres Amigas SuperStation was a project proposed in 2009 to unite North America's two major power grids and one of its three minor grids, with the goals of enabling faster adoption of renewable energy and increasing the reliability of the U.S. grid. In 2015, the project lost access to the Eastern Interconnection when Southwestern Public Service dropped out."
     },
     {
       "fuente": "Ticketplus",
@@ -281,8 +280,40 @@
       "url": "https://ticketplus.cl/events/una-sombra-oscilante",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "La cosecha es un proceso agrícola que consiste en recoger los productos vegetales comestibles, que pueden ser frutos, semillas u hortalizas de los campos, en la época del año en que están maduros. La cosecha marca el final del crecimiento de una estación o el final del ciclo de un fruto en particular.",
-      "bio_artista": "La cosecha es un proceso agrícola que consiste en recoger los productos vegetales comestibles, que pueden ser frutos, semillas u hortalizas de los campos, en la época del año en que están maduros. La cosecha marca el final del crecimiento de una estación o el final del ciclo de un fruto en particular."
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "El día de la revelación",
+      "venue": "",
+      "descripcion": "El día de la revelación",
+      "fecha_iso": "2026-06-11",
+      "fecha_texto": "11 de junio de 2026",
+      "precio_desde_clp": "3.500",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/def3e267e61d10b7dea0314aa412a19c5da4ce3b.jpg?1780946566&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/el-dia-de-la-revelacion",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Toy Story 5",
+      "venue": "",
+      "descripcion": "Toy Story 5",
+      "fecha_iso": "2026-06-15",
+      "fecha_texto": "15 de junio de 2026",
+      "precio_desde_clp": "3.500",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/aef6da4ae2625ea76ed436966dc085f61f7388d0.jpg?1781537094&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/toy-story-5",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Toy Story 5 is a 2026 American animated adventure comedy-drama film produced by Pixar Animation Studios for Walt Disney Pictures. Directed by Andrew Stanton, and written by Stanton and Kenna Harris, it is the fifth main installment in Pixar's Toy Story film series and the sequel to Toy Story 4.",
+      "bio_artista": "Toy Story 5 is a 2026 American animated adventure comedy-drama film produced by Pixar Animation Studios for Walt Disney Pictures. Directed by Andrew Stanton, and written by Stanton and Kenna Harris, it is the fifth main installment in Pixar's Toy Story film series and the sequel to Toy Story 4."
     },
     {
       "fuente": "Ticketplus",
@@ -298,7 +329,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "The Thing - Lunes cinematográficos",
-      "bio_artista": "Thing —también conocido como The Thing y denominado en español como La Cosa en España o La Mole en Hispanoamérica—, es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. El personaje es miembro fundador de Los 4 Fantásticos. The Thing fue creado por el escritor y editor Stan Lee y el artista Jack Kirby, y apareció por primera vez en The Fantastic Four # 1 en noviembre de 1961."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -314,7 +345,39 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para EDO CAROE, lunes 15 de junio 2026 20:00 hrs. en Palermo Teatro Bar - Providencia.",
-      "bio_artista": "Eduardo Alejandro Carrasco Rodríguez conocido artísticamente como Edo Caroe, El Bad Bunny Chileno, Mago Pirula Es un comediante, ilusionista, locutor, influencer y creador de contenido Chileno. A lo largo de su trayectoria ha desarrollado una identidad escénica única, caracterizada por un humor agudo, irreverente y cercano, que él mismo ha complementado con apodos como “el Lobo de la carretera” o “el Portador de la Esperanza”."
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "NOA ★ MARTES IO ★ Club Sie7e",
+      "venue": "",
+      "descripcion": "NOA ★ MARTES 16 JUNIO ★ Club Sie7e",
+      "fecha_iso": "2026-06-16",
+      "fecha_texto": "16 de junio de 2026",
+      "precio_desde_clp": "11.000",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/fa779f3cd2724a364d2e2c06c487cbaea01b991a.png?1781532979&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/noa-martes-16-junio-club-sie7e",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "NOA ★ MARTES 16 JUNIO ★ Club Sie7e",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "MARGARITA - CLUB INFINITY - MARTES 16 - 23:00",
+      "venue": "",
+      "descripcion": "MARGARITA - CLUB INFINITY - MARTES 16 - 23:00",
+      "fecha_iso": "2026-06-16",
+      "fecha_texto": "16 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/f3a7006db977a6ae3464f7cb19ba077dbf1bb1fe.jpg?1781528979&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/margarita-club-infinity-martes-16-23-00",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "MARGARITA - CLUB INFINITY - MARTES 16 - 23:00",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -446,6 +509,22 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "HOT CUE ★ MIÉRCOLES IO ★ Club Siete",
+      "venue": "",
+      "descripcion": "HOT CUE ★ MIÉRCOLES 17 JUNIO ★ Club Siete",
+      "fecha_iso": "2026-06-17",
+      "fecha_texto": "17 de junio de 2026",
+      "precio_desde_clp": "11.000",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/fee0df4735ba841e9a6c82907af08a3356f267aa.png?1781532757&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/hot-cue-miercoles-17-junio-club-siete",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "HOT CUE ★ MIÉRCOLES 17 JUNIO ★ Club Siete",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "D-Cámara III: Simplemente Brahms",
       "venue": "",
       "descripcion": "D-Cámara III: Simplemente Brahms",
@@ -490,7 +569,23 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para EDO CAROE, miércoles 17 de junio 2026 19:00 hrs. en Comedy - Providencia.",
-      "bio_artista": ""
+      "bio_artista": "Eduardo Alejandro Carrasco Rodríguez conocido artísticamente como Edo Caroe, El Bad Bunny Chileno, Mago Pirula Es un comediante, ilusionista, locutor, influencer y creador de contenido Chileno. A lo largo de su trayectoria ha desarrollado una identidad escénica única, caracterizada por un humor agudo, irreverente y cercano, que él mismo ha complementado con apodos como “el Lobo de la carretera” o “el Portador de la Esperanza”."
+    },
+    {
+      "fuente": "Ticketmaster",
+      "nombre": "Dariño",
+      "venue": "",
+      "descripcion": "17 de Junio 2026",
+      "fecha_iso": "2026-06-17",
+      "fecha_texto": "17 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Providencia",
+      "imagen_url": "https://cdn.getcrowder.com/images/91a1b744-e1ca-4baa-a649-4d22d2b10efb-640x640webdarino.png",
+      "url": "https://www.ticketmaster.cl/event/darino-teatro-san-gines",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Darino is a surname. Notable people with the surname include:Eduardo Darino, Uruguayan film producer, director, animator, and cartoonist\nSiro Darino, Argentine footballer",
+      "bio_artista": "Darino is a surname. Notable people with the surname include:Eduardo Darino, Uruguayan film producer, director, animator, and cartoonist\nSiro Darino, Argentine footballer"
     },
     {
       "fuente": "Ticketmaster",
@@ -509,19 +604,19 @@
       "bio_artista": ""
     },
     {
-      "fuente": "Ticketmaster",
-      "nombre": "Dariño",
+      "fuente": "ComediaTicket",
+      "nombre": "Rodri Slot presenta \"Un Show Ñau!\"",
       "venue": "",
-      "descripcion": "17 de Junio 2026",
+      "descripcion": "<p>Un Show Ñau! x Rodri Slot en Concón 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este miércoles 17 de Junio&nbsp;a las 21:00 hrs. se estará presentando en New Chicago Bar, ubicado en Av. Concón Reñaca 4000, Concón.</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
       "fecha_iso": "2026-06-17",
       "fecha_texto": "17 de junio de 2026",
       "precio_desde_clp": "",
-      "ciudad": "Providencia",
-      "imagen_url": "https://cdn.getcrowder.com/images/91a1b744-e1ca-4baa-a649-4d22d2b10efb-640x640webdarino.png",
-      "url": "https://www.ticketmaster.cl/event/darino-teatro-san-gines",
+      "ciudad": "Concón",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-zc8i0vrz-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/rodri-slot-presenta-un-show-nau_bey2e",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
+      "descripcion_extendida": "<p>Un Show Ñau! x Rodri Slot en Concón 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este miércoles 17 de Junio&nbsp;a las 21:00 hrs. se estará presentando en New Chicago Bar, ubicado en Av. Concón Reñaca 4000, Concón.</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
       "bio_artista": ""
     },
     {
@@ -554,22 +649,6 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>¡ATENCIÓN SANTIAGO! 🚨 ¡Arrancamos la noche con todo el humor de Sergio Freire! 🎭✨</p><p><br></p><p>¿Quieres cortar la semana con las mejores risas? Te esperamos en el primer show de su aclamado stand-up \"Happy People\" en Providencia. Un horario ideal para salir de la pega, relajarte y reír a carcajadas de principio a fin.</p><p><br></p><p>🗓 ¿Cuándo? Miércoles 17 de Junio</p><p><br></p><p>⏰ ¿A qué hora? 19:30 HRS (Puntual)</p><p><br></p><p>📍 ¿Dónde? Rancagua 395, Providencia</p><p><br></p><p>🎟 Entradas en: www.comediaticket.cl</p><p><br></p><p>¡No te quedes fuera de la primera función! Los cupos son limitados. ¡Nos vemos allá! 👇</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Rodri Slot presenta \"Un Show Ñau!\"",
-      "venue": "",
-      "descripcion": "<p>Un Show Ñau! x Rodri Slot en Concón 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este miércoles 17 de Junio&nbsp;a las 21:00 hrs. se estará presentando en New Chicago Bar, ubicado en Av. Concón Reñaca 4000, Concón.</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
-      "fecha_iso": "2026-06-17",
-      "fecha_texto": "17 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Concón",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-zc8i0vrz-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/rodri-slot-presenta-un-show-nau_bey2e",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Un Show Ñau! x Rodri Slot en Concón 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este miércoles 17 de Junio&nbsp;a las 21:00 hrs. se estará presentando en New Chicago Bar, ubicado en Av. Concón Reñaca 4000, Concón.</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
       "bio_artista": ""
     },
     {
@@ -750,54 +829,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "EL CEBOLLA EN LA DIABLA BAR",
-      "venue": "",
-      "descripcion": "<p>Este 18 de junio las risas están aseguradas! llega a los jueves de comedia de La Diabla, El Cebolla con \"Vida Loca\", el show unipersonal de Adrian Correa, donde a través del entrañable y popular personaje, nos muestra su nueva faceta del humor.</p><p>El querido comediante relata de forma cercana, divertida y ocurrente cómo ha sobrellevado esta hermosa Vida Loca.&nbsp;</p>",
-      "fecha_iso": "2026-06-18",
-      "fecha_texto": "18 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-66vbyd7q-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/el-cebolla-en-la-diabla-bar_44kql",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Este 18 de junio las risas están aseguradas! llega a los jueves de comedia de La Diabla, El Cebolla con \"Vida Loca\", el show unipersonal de Adrian Correa, donde a través del entrañable y popular personaje, nos muestra su nueva faceta del humor.</p><p>El querido comediante relata de forma cercana, divertida y ocurrente cómo ha sobrellevado esta hermosa Vida Loca.&nbsp;</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Stand Up en",
-      "venue": "",
-      "descripcion": "<p><strong>Reflector Producciones presenta: Stand Up Comedy en Aisú Restaurant Bar</strong></p><p>Por primera vez en la historia de Aisú, Independencia tiene su propia noche de stand up comedy. Nada de pegarse el viaje a otras comunas, nada de filas, nada de andar pasando frío en locales lejanos — el humor llega a tu barrio, a un restaurante bar donde vas a estar cómodo, con tragos en mano y con ganas de reírte hasta que te duela la guata.</p><p>Reflector Producciones debuta con una noche íntima y sin filtro protagonizada por tres de los comediantes sólidos de la escena chilena:</p><p>🎤 <strong>Pato Baeza</strong> (@medioporfiao) — humor directo, sin pelos en la lengua y con una presencia escénica que te engancha desde el primer chiste.</p><p>🎤 <strong>Rachel García</strong> (@soy.chel) — perspectiva fresca, ritmo propio y la capacidad de hacer que todos en la sala se sientan identificados.</p><p>🎤 <strong>Cris Wall</strong> (@cristopher.wall) — un comediante que mezcla carisma y timing perfecto para cerrar la noche como se merece.</p><p>Tres voces distintas, una sola noche, aforo limitado.</p><p>📅 Jueves 18 de junio 🕢 19:30 hrs 📍 Aisú Restaurant Bar — Av. Hipódromo Chile 1560, Independencia</p><p><br></p><p><strong>Las entradas son limitadas. </strong></p>",
-      "fecha_iso": "2026-06-18",
-      "fecha_texto": "18 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Independencia",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-fd3s8gic-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/stand-up-en-independencia_wcea9",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p><strong>Reflector Producciones presenta: Stand Up Comedy en Aisú Restaurant Bar</strong></p><p>Por primera vez en la historia de Aisú, Independencia tiene su propia noche de stand up comedy. Nada de pegarse el viaje a otras comunas, nada de filas, nada de andar pasando frío en locales lejanos — el humor llega a tu barrio, a un restaurante bar donde vas a estar cómodo, con tragos en mano y con ganas de reírte hasta que te duela la guata.</p><p>Reflector Producciones debuta con una noche íntima y sin filtro protagonizada por tres de los comediantes sólidos de la escena chilena:</p><p>🎤 <strong>Pato Baeza</strong> (@medioporfiao) — humor directo, sin pelos en la lengua y con una presencia escénica que te engancha desde el primer chiste.</p><p>🎤 <strong>Rachel García</strong> (@soy.chel) — perspectiva fresca, ritmo propio y la capacidad de hacer que todos en la sala se sientan identificados.</p><p>🎤 <strong>Cris Wall</strong> (@cristopher.wall) — un comediante que mezcla carisma y timing perfecto para cerrar la noche como se merece.</p><p>Tres voces distintas, una sola noche, aforo limitado.</p><p>📅 Jueves 18 de junio 🕢 19:30 hrs 📍 Aisú Restaurant Bar — Av. Hipódromo Chile 1560, Independencia</p><p><br></p><p><strong>Las entradas son limitadas. </strong></p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Carlita presenta ¡“Nadie dijo que sería fácil” llega a Las Vizcachas!",
-      "venue": "",
-      "descripcion": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Las Vizcachas!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este jueves 18 de junio a las 22:00 horas , se estará presentando en Montañita Las Vizcachas.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
-      "fecha_iso": "2026-06-18",
-      "fecha_texto": "18 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-5gnko25f-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/carlita-presenta-nadie-dijo-que-seria-facil-llega-a-las-vizcachas-_0uzq0",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Las Vizcachas!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este jueves 18 de junio a las 22:00 horas , se estará presentando en Montañita Las Vizcachas.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "Botota Fox presenta “Ni Santa, Ni Señora”en",
       "venue": "",
       "descripcion": "<p>Inicia su nueva gira para este segundo semestre del 2026, con una apuesta humorística en donde recorrerá Chile entero 🇨🇱</p><p><br></p><p>Botota Fox presenta “Ni Santa, Ni Señora”en Linares este jueves 18 de Junio a las&nbsp;21:30 horas en Tacubas Gourmet.&nbsp;</p><p><br></p><p>📍Maipú 250, Linares&nbsp;</p><p><br></p><p>¡Asegura desde ya tus entradas!</p>",
@@ -826,6 +857,54 @@
       "lat": -37.7979,
       "lon": -72.7096,
       "descripcion_extendida": "<p>Un Show Ñau! x Rodri Slot en Angol 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este jueves 18 de Junio a las 21:30 hrs. se estará presentando en Taberu Sushi Bar, ubicado en Bernardo O’Higgins 1354, Angol.&nbsp;</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Carlita presenta ¡“Nadie dijo que sería fácil” llega a Las Vizcachas!",
+      "venue": "",
+      "descripcion": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Las Vizcachas!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este jueves 18 de junio a las 22:00 horas , se estará presentando en Montañita Las Vizcachas.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
+      "fecha_iso": "2026-06-18",
+      "fecha_texto": "18 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-5gnko25f-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/carlita-presenta-nadie-dijo-que-seria-facil-llega-a-las-vizcachas-_0uzq0",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Las Vizcachas!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este jueves 18 de junio a las 22:00 horas , se estará presentando en Montañita Las Vizcachas.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "EL CEBOLLA EN LA DIABLA BAR",
+      "venue": "",
+      "descripcion": "<p>Este 18 de junio las risas están aseguradas! llega a los jueves de comedia de La Diabla, El Cebolla con \"Vida Loca\", el show unipersonal de Adrian Correa, donde a través del entrañable y popular personaje, nos muestra su nueva faceta del humor.</p><p>El querido comediante relata de forma cercana, divertida y ocurrente cómo ha sobrellevado esta hermosa Vida Loca.&nbsp;</p>",
+      "fecha_iso": "2026-06-18",
+      "fecha_texto": "18 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-66vbyd7q-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/el-cebolla-en-la-diabla-bar_44kql",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Este 18 de junio las risas están aseguradas! llega a los jueves de comedia de La Diabla, El Cebolla con \"Vida Loca\", el show unipersonal de Adrian Correa, donde a través del entrañable y popular personaje, nos muestra su nueva faceta del humor.</p><p>El querido comediante relata de forma cercana, divertida y ocurrente cómo ha sobrellevado esta hermosa Vida Loca.&nbsp;</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Stand Up en",
+      "venue": "",
+      "descripcion": "<p><strong>Reflector Producciones presenta: Stand Up Comedy en Aisú Restaurant Bar</strong></p><p>Por primera vez en la historia de Aisú, Independencia tiene su propia noche de stand up comedy. Nada de pegarse el viaje a otras comunas, nada de filas, nada de andar pasando frío en locales lejanos — el humor llega a tu barrio, a un restaurante bar donde vas a estar cómodo, con tragos en mano y con ganas de reírte hasta que te duela la guata.</p><p>Reflector Producciones debuta con una noche íntima y sin filtro protagonizada por tres de los comediantes sólidos de la escena chilena:</p><p>🎤 <strong>Pato Baeza</strong> (@medioporfiao) — humor directo, sin pelos en la lengua y con una presencia escénica que te engancha desde el primer chiste.</p><p>🎤 <strong>Rachel García</strong> (@soy.chel) — perspectiva fresca, ritmo propio y la capacidad de hacer que todos en la sala se sientan identificados.</p><p>🎤 <strong>Cris Wall</strong> (@cristopher.wall) — un comediante que mezcla carisma y timing perfecto para cerrar la noche como se merece.</p><p>Tres voces distintas, una sola noche, aforo limitado.</p><p>📅 Jueves 18 de junio 🕢 19:30 hrs 📍 Aisú Restaurant Bar — Av. Hipódromo Chile 1560, Independencia</p><p><br></p><p><strong>Las entradas son limitadas. </strong></p>",
+      "fecha_iso": "2026-06-18",
+      "fecha_texto": "18 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Independencia",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-fd3s8gic-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/stand-up-en-independencia_wcea9",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p><strong>Reflector Producciones presenta: Stand Up Comedy en Aisú Restaurant Bar</strong></p><p>Por primera vez en la historia de Aisú, Independencia tiene su propia noche de stand up comedy. Nada de pegarse el viaje a otras comunas, nada de filas, nada de andar pasando frío en locales lejanos — el humor llega a tu barrio, a un restaurante bar donde vas a estar cómodo, con tragos en mano y con ganas de reírte hasta que te duela la guata.</p><p>Reflector Producciones debuta con una noche íntima y sin filtro protagonizada por tres de los comediantes sólidos de la escena chilena:</p><p>🎤 <strong>Pato Baeza</strong> (@medioporfiao) — humor directo, sin pelos en la lengua y con una presencia escénica que te engancha desde el primer chiste.</p><p>🎤 <strong>Rachel García</strong> (@soy.chel) — perspectiva fresca, ritmo propio y la capacidad de hacer que todos en la sala se sientan identificados.</p><p>🎤 <strong>Cris Wall</strong> (@cristopher.wall) — un comediante que mezcla carisma y timing perfecto para cerrar la noche como se merece.</p><p>Tres voces distintas, una sola noche, aforo limitado.</p><p>📅 Jueves 18 de junio 🕢 19:30 hrs 📍 Aisú Restaurant Bar — Av. Hipódromo Chile 1560, Independencia</p><p><br></p><p><strong>Las entradas son limitadas. </strong></p>",
       "bio_artista": ""
     },
     {
@@ -894,22 +973,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "DescórchELA",
-      "venue": "",
-      "descripcion": "DescórchELA",
-      "fecha_iso": "2026-06-19",
-      "fecha_texto": "19 de junio de 2026",
-      "precio_desde_clp": "55.000",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/8fb50131b10e02701f9b42e33443b1e32d95f1ca.png?1780494973&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/descorchela",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "Jorge Alís-MALON - Viernes io 20 hrs",
       "venue": "",
       "descripcion": "Jorge Alís-MALON - Viernes 19 Junio 20 hrs",
@@ -922,7 +985,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Jorge Alís-MALON - Viernes 19 Junio 20 hrs",
-      "bio_artista": "El bajo eléctrico, llamado sencillamente bajo, es un instrumento musical melódico de la familia de los cordófonos, similar en apariencia y construcción a la guitarra eléctrica, pero con un cuerpo de mayores dimensiones, un mástil de mayor longitud, escala y cuerdas más gruesas, normalmente cuatro, afinadas según la afinación estándar del contrabajo, su antecesor."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -935,70 +998,6 @@
       "ciudad": "Santiago",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/228bf1d3e076e3a51bcfc6d42c23e989af49a958.jpeg?1774892294&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/miryam",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "María es un nombre propio femenino de origen hebreo y cuyo significado y etimología son debatidos.",
-      "bio_artista": "María es un nombre propio femenino de origen hebreo y cuyo significado y etimología son debatidos."
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "LA PERSONA DEPRIMIDA",
-      "venue": "",
-      "descripcion": "LA PERSONA DEPRIMIDA",
-      "fecha_iso": "2026-06-19",
-      "fecha_texto": "19 de junio de 2026",
-      "precio_desde_clp": "8.900",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/4d4e1deea0b92c5b39a69f3f16f7b783910015b3.png?1780596837&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/la-persona-deprimida-2026",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Sentimiento se refiere tanto a un estado de ánimo como también a una emoción conceptualizada que determina el estado de ánimo. Por tanto, el estado del sujeto caracterizado por la impresión afectiva que le causa determinada persona, animal, cosa, recuerdo o situación en general.",
-      "bio_artista": "Sentimiento se refiere tanto a un estado de ánimo como también a una emoción conceptualizada que determina el estado de ánimo. Por tanto, el estado del sujeto caracterizado por la impresión afectiva que le causa determinada persona, animal, cosa, recuerdo o situación en general."
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Show de Stand Up-Entre Amigues- Viernes io a las 20:30 hrs",
-      "venue": "",
-      "descripcion": "Show de Stand Up-Entre Amigues- Viernes 19 de Junio a las 20:30 hrs",
-      "fecha_iso": "2026-06-19",
-      "fecha_texto": "19 de junio de 2026",
-      "precio_desde_clp": "6.600",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/defea7a2a79d75b60628ccc4f2f49a59d3dbcb18.jpg?1779508066&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/show-de-stand-up-entre-amigues-viernes-19-de-junio-a-las-20-30-hrs",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Show de Stand Up-Entre Amigues- Viernes 19 de Junio a las 20:30 hrs",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Show Impro-Comedia Improvisada-Viernes io 22:15 hrs",
-      "venue": "",
-      "descripcion": "Show Impro-Comedia Improvisada-Viernes 19 Junio 22:15 hrs",
-      "fecha_iso": "2026-06-19",
-      "fecha_texto": "19 de junio de 2026",
-      "precio_desde_clp": "8.800",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/9d72585e60f72769f6a33754fa57305caf7be89b.jpg?1780190732&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/show-impro-comedia-improvisada-viernes-19-junio-22-15-hrs",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Show Impro-Comedia Improvisada-Viernes 19 Junio 22:15 hrs",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Midnight! VIERNES IO",
-      "venue": "",
-      "descripcion": "Midnight! VIERNES 19 DE JUNIO",
-      "fecha_iso": "2026-06-19",
-      "fecha_texto": "19 de junio de 2026",
-      "precio_desde_clp": "6.900",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/346b4d138e75e9cfd5889524b007276daa4fe469.jpg?1780615279&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/midnight-viernes-19-de-junio",
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "",
@@ -1118,18 +1117,18 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Botota Fox presenta “Ni Santa, Ni Señora”en",
+      "nombre": "Rodri Slot presenta \"Un Show Ñau!\"",
       "venue": "",
-      "descripcion": "<p>Inicia su nueva gira para este segundo semestre del 2026, con una apuesta humorística en donde recorrerá Chile entero 🇨🇱</p><p><br></p><p>Botota Fox presenta “Ni Santa, Ni Señora”en Talca este viernes 19 de Junio a las 22:00 horas en Majo Bar.&nbsp;</p><p><br></p><p>📍2 Oriente 1450, Talca.&nbsp;</p><p><br></p><p>¡Asegura desde ya tus entradas!</p>",
+      "descripcion": "<p>Un Show Ñau! x Rodri Slot en Villarrica 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este viernes 19 de Junio a las 22:00 hrs. se estará presentando en Campo Viejo Bar Ícono, ubicado en Ernesto Wagner 1621, Villarrica.&nbsp;</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
       "fecha_iso": "2026-06-19",
       "fecha_texto": "19 de junio de 2026",
       "precio_desde_clp": "",
-      "ciudad": "Talca",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-hy88nh60-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/botota-fox-presenta-ni-santa-ni-senoraen-talca_3drbx",
-      "lat": -35.4264,
-      "lon": -71.6554,
-      "descripcion_extendida": "<p>Inicia su nueva gira para este segundo semestre del 2026, con una apuesta humorística en donde recorrerá Chile entero 🇨🇱</p><p><br></p><p>Botota Fox presenta “Ni Santa, Ni Señora”en Talca este viernes 19 de Junio a las 22:00 horas en Majo Bar.&nbsp;</p><p><br></p><p>📍2 Oriente 1450, Talca.&nbsp;</p><p><br></p><p>¡Asegura desde ya tus entradas!</p>",
+      "ciudad": "Villarrica",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-pzflmtyu-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/rodri-slot-presenta-un-show-nau_psr5p",
+      "lat": -39.284,
+      "lon": -72.2288,
+      "descripcion_extendida": "<p>Un Show Ñau! x Rodri Slot en Villarrica 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este viernes 19 de Junio a las 22:00 hrs. se estará presentando en Campo Viejo Bar Ícono, ubicado en Ernesto Wagner 1621, Villarrica.&nbsp;</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
       "bio_artista": ""
     },
     {
@@ -1146,7 +1145,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil” llega a Chimbarongo!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este viernes 19 de junio a las 22:00 horas se estará presentando en Mela Pizza.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
-      "bio_artista": ""
+      "bio_artista": "Fácil de amar es una telenovela chilena de Canal 13 emitida durante el segundo semestre del año 1992. Adaptación de la telenovela Plumas e paêtes creada por Cassiano Gabus Mendes; su productor y guionista fue Javier Larenas Peñafiel. Contó con las actuaciones principales de Cristián Campos, Sandra O'Ryan, Catalina Guerra, Sebastián Dahm, y la participación antagónica de Gloria Laso."
     },
     {
       "fuente": "ComediaTicket",
@@ -1182,18 +1181,18 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Rodri Slot presenta \"Un Show Ñau!\"",
+      "nombre": "Botota Fox presenta “Ni Santa, Ni Señora”en",
       "venue": "",
-      "descripcion": "<p>Un Show Ñau! x Rodri Slot en Villarrica 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este viernes 19 de Junio a las 22:00 hrs. se estará presentando en Campo Viejo Bar Ícono, ubicado en Ernesto Wagner 1621, Villarrica.&nbsp;</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
+      "descripcion": "<p>Inicia su nueva gira para este segundo semestre del 2026, con una apuesta humorística en donde recorrerá Chile entero 🇨🇱</p><p><br></p><p>Botota Fox presenta “Ni Santa, Ni Señora”en Talca este viernes 19 de Junio a las 22:00 horas en Majo Bar.&nbsp;</p><p><br></p><p>📍2 Oriente 1450, Talca.&nbsp;</p><p><br></p><p>¡Asegura desde ya tus entradas!</p>",
       "fecha_iso": "2026-06-19",
       "fecha_texto": "19 de junio de 2026",
       "precio_desde_clp": "",
-      "ciudad": "Villarrica",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-pzflmtyu-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/rodri-slot-presenta-un-show-nau_psr5p",
-      "lat": -39.284,
-      "lon": -72.2288,
-      "descripcion_extendida": "<p>Un Show Ñau! x Rodri Slot en Villarrica 💅🏻</p><p><br></p><p>Se viene fueeeeerte esta nueva apuesta humorística 🤭 que recordará cada esquina de Chile 🇨🇱</p><p><br></p><p>Este viernes 19 de Junio a las 22:00 hrs. se estará presentando en Campo Viejo Bar Ícono, ubicado en Ernesto Wagner 1621, Villarrica.&nbsp;</p><p><br></p><p>Que no te lo cuenten, vívelo corazón 😘</p><p><br></p><p>Obtén ahora tus entradas 🎟️</p>",
+      "ciudad": "Talca",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-hy88nh60-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/botota-fox-presenta-ni-santa-ni-senoraen-talca_3drbx",
+      "lat": -35.4264,
+      "lon": -71.6554,
+      "descripcion_extendida": "<p>Inicia su nueva gira para este segundo semestre del 2026, con una apuesta humorística en donde recorrerá Chile entero 🇨🇱</p><p><br></p><p>Botota Fox presenta “Ni Santa, Ni Señora”en Talca este viernes 19 de Junio a las 22:00 horas en Majo Bar.&nbsp;</p><p><br></p><p>📍2 Oriente 1450, Talca.&nbsp;</p><p><br></p><p>¡Asegura desde ya tus entradas!</p>",
       "bio_artista": ""
     },
     {
@@ -1229,6 +1228,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "CulturaGob",
+      "nombre": "“Liberando Talento” inicia procesos de formación musical con adolescentes del sistema de protección especializada y reinserción social",
+      "venue": "Ministerio de las Culturas",
+      "descripcion": "La iniciativa del Ministerio de las Culturas, las Artes y el Patrimonio se desarrollará entre el lunes 15 y el viernes 19 de junio en el IP-IRC Coronel y en la Residencia Amanecer, promoviendo la creación musical como herramienta de expresión, reparación e integración social.",
+      "fecha_iso": "2026-06-19",
+      "fecha_texto": "19 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/lt-1-430x300.jpg",
+      "url": "https://www.cultura.gob.cl/escuelas-de-rock/liberando-talento-inicia-procesos-de-formacion-musical-con-adolescentes-del-sistema-de-proteccion-especializada-y-reinsercion-social/",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "La iniciativa del Ministerio de las Culturas, las Artes y el Patrimonio se desarrollará entre el lunes 15 y el viernes 19 de junio en el IP-IRC Coronel y en la Residencia Amanecer, promoviendo la creación musical como herramienta de expresión, reparación e integración social.",
+      "bio_artista": ""
+    },
+    {
       "fuente": "Ticketplus",
       "nombre": "Fight Night",
       "venue": "",
@@ -1237,7 +1252,7 @@
       "fecha_texto": "20 de junio de 2026",
       "precio_desde_clp": "11.500",
       "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/3772b5eeeff997b7b32d881773ac6b1719b598fa.png?1778688863&format=baseline-jpeg&q=65",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/edd63812af49311d2e9e352a47a148fcef558257.png?1781554481&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/santiago-fight-night",
       "lat": -33.4489,
       "lon": -70.6693,
@@ -1293,6 +1308,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "ComediaTicket",
+      "nombre": "Felipe Parra y sus personajes",
+      "venue": "",
+      "descripcion": "<p>Después de su éxito en Olmue el gran Felipe Parra vuelve. </p><p>No te quedes fuera del evento del mes en Restaurante Incamapu. Este sábado 20 de junio a las 22:00 hrs, el gran Felipe Parra se toma nuestro escenario para una noche épica de imitaciones y risas aseguradas. 🎭✨</p><p>No te lo pierdas,las Risas son aseguradas</p>",
+      "fecha_iso": "2026-06-20",
+      "fecha_texto": "20 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-d7w6d3aw-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/felipe-parra-y-sus-personajes_ra2y5",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Después de su éxito en Olmue el gran Felipe Parra vuelve. </p><p>No te quedes fuera del evento del mes en Restaurante Incamapu. Este sábado 20 de junio a las 22:00 hrs, el gran Felipe Parra se toma nuestro escenario para una noche épica de imitaciones y risas aseguradas. 🎭✨</p><p>No te lo pierdas,las Risas son aseguradas</p>",
+      "bio_artista": ""
+    },
+    {
       "fuente": "GAM",
       "nombre": "INFINITA, paisajes de Gabriela",
       "venue": "Centro Gabriela Mistral (GAM)",
@@ -1322,6 +1353,22 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Atletico Colina vs Brujas de Salamanca, domingo 21 de junio 2026 12:00 hrs. en Claro Arena - Las Condes.",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Colo-Colo vs. U. de Chile - Liga Femenina - Fecha 13 Estadio Monumental",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Colo-Colo vs. U. de Chile, domingo 21 de junio 2026 16:00 hrs. en Estadio Monumental - Macul.",
+      "fecha_iso": "2026-06-21",
+      "fecha_texto": "21 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Macul",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/byn280_md.jpg",
+      "url": "https://www.puntoticket.com/evento/colo-colo-vs-udechile-liga-femenina2026",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Compra tu entrada para Colo-Colo vs. U. de Chile, domingo 21 de junio 2026 16:00 hrs. en Estadio Monumental - Macul.",
       "bio_artista": ""
     },
     {
@@ -1530,7 +1577,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>Tras un año de creación colectiva, el colectivo teatral Compañía Salón de Té presenta &lt;em&gt;Salud Amparito&lt;/em&gt;, una comedia catártica creada por tres actrices del litoral central que pone en escena los temores, paranoias y delirios de persecución que atraviesan la vida contemporánea.&lt;/p&gt;&lt;p&gt;La obra nos sitúa en una reunión entre amigas que comienza como una celebración de la amistad, pero que poco a poco se transforma en una espiral de sospechas, ansiedad y miedo. Entre noticias alarmantes, teorías que circulan en redes sociales y una constante sensación de peligro, las protagonistas terminan atrapadas por sus propios pensamientos y fantasmas internos.&lt;/p&gt;&lt;p&gt;Con humor, teatralidad y situaciones absurdamente reconocibles, &lt;em&gt;Salud Amparito&lt;/em&gt; invita al público a reírse de aquello que muchas veces consume silenciosamente nuestra vida cotidiana: el exceso de información, la sobreexposición digital y el miedo permanente instalado en la sociedad actual.&lt;/p&gt;&lt;p&gt;Las funciones se realizarán los días 12, 19 y 26 de junio, a las 20:00 horas, en Espacio Wayra.&lt;/p&gt;</p>",
-      "bio_artista": "Hilda Mayo fue una popular vedette, actriz y bailarina argentina."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -1546,7 +1593,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La Ligua se conmociona por el asesinato de Dylan, una joven que la comunidad sospecha fue víctima de transfobia. La obra, dirigida por Aliocha De la Sotta y",
-      "bio_artista": "Robert Dylan, más conocido como Bob Dylan, es un músico, compositor, cantante y poeta estadounidense, ampliamente considerado como una de las figuras más prolíficas e influyentes en la música popular del siglo XX y de comienzos del siglo XXI. En 2016 recibió el Premio Nobel de Literatura."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -1562,7 +1609,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Tras observar un eclipse, tres ancianas se llenan de energía y lideran una revuelta en un supermercado mayorista. Su revolución, al ritmo del trap y la cumbi",
-      "bio_artista": "Dino Crisis 2  es un videojuego de terror de acción y aventura, secuela del Dino Crisis original. El juego fue desarrollado por Capcom y lanzado para PlayStation el 13 de septiembre de 2000. El juego fue seguido de otra secuela, Dino Crisis 3, lanzado en 2003 para la Xbox."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -1625,8 +1672,8 @@
       "url": "https://ticketplus.cl/events/los-vikings-5-en-terra-viva",
       "lat": -33.0472,
       "lon": -71.6127,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La historia de Normandía traza el pasado de Normandía, una región histórica francesa, desde el condado, después ducado de Normandía, hasta la reciente creación de una región administrativa homónima en 2016.",
+      "bio_artista": "La historia de Normandía traza el pasado de Normandía, una región histórica francesa, desde el condado, después ducado de Normandía, hasta la reciente creación de una región administrativa homónima en 2016."
     },
     {
       "fuente": "Ticketplus",
@@ -1642,7 +1689,7 @@
       "lat": -38.7359,
       "lon": -72.5904,
       "descripcion_extendida": "RUMORS PRIDE 2026 TEMUCO - 27 DE JUNIO - 22:00",
-      "bio_artista": ""
+      "bio_artista": "Manuel \"Manny\" Delcarmen es un lanzador estadounidense de origen dominicano que actualmente se encuentra en la organización de los Yanquis de Nueva York en las Grandes Ligas. Es con frecuencia llamado \"The Pride of Hyde Park\" , ya que es nativo de la sección de Hyde Park en Boston, y graduado de la West Roxbury High School."
     },
     {
       "fuente": "Ticketplus",
@@ -1997,22 +2044,6 @@
       "bio_artista": ""
     },
     {
-      "fuente": "CulturaGob",
-      "nombre": "Culturas O’Higgins invita a artistas de la región a ser parte de nuevo Catálogo de Artes Visuales",
-      "venue": "Ministerio de las Culturas",
-      "descripcion": "La iniciativa tiene por objetivo promover las obras artísticas de creadores regionales y contribuir al fomento de las artes visuales. Plazo hasta el 6 de julio.",
-      "fecha_iso": "2026-07-06",
-      "fecha_texto": "6 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/artes-visuales-ohiggins-400x300.jpeg",
-      "url": "https://www.cultura.gob.cl/convocatorias/culturas-ohiggins-invita-a-artistas-de-la-region-a-ser-parte-de-nuevo-catalogo-de-artes-visuales/",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "La iniciativa tiene por objetivo promover las obras artísticas de creadores regionales y contribuir al fomento de las artes visuales. Plazo hasta el 6 de julio.",
-      "bio_artista": ""
-    },
-    {
       "fuente": "GAM",
       "nombre": "Concierto Depto. Música Universidad de Chile",
       "venue": "Centro Gabriela Mistral (GAM)",
@@ -2042,7 +2073,7 @@
       "lat": -53.1638,
       "lon": -70.9171,
       "descripcion_extendida": "Esteban Duch - Punta Arenas - 8 Julio",
-      "bio_artista": ""
+      "bio_artista": "Esteban Urdaneta, conocido artísticamente como Esteban Düch, es un comediante venezolano radicado en Chile desde hace más de una década. Alcanzó mayor exposición pública tras su presentación en el Festival de Viña del Mar 2026, donde obtuvo las Gaviotas de Plata y de Oro."
     },
     {
       "fuente": "GAM",
@@ -2122,13 +2153,13 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "LA SOCIEDAD - El Regreso - en Enjoy Coquimbo",
-      "bio_artista": "La Sociedad es un dúo musical chileno, formado en la comuna de Ñuñoa, Santiago de Chile, en el año 1984. De gran éxito durante los años 90 en Chile y Latinoamérica, se disolvió por primera vez en 2001, se reunieron nuevamente en 2012, para un nuevo receso en 2016. En 2025 vuelven a juntarse para una gira de conciertos."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
       "nombre": "La dimensión desconocida",
       "venue": "Centro Gabriela Mistral (GAM)",
-      "descripcion": "Chile. Dictadura. Un hombre acosado por sus demonios se acerca a una periodista para decir: yo torturé. Esta es la puerta de entrada para conocer la vida de",
+      "descripcion": "Un hombre acosado por sus demonios se acerca a una periodista para decir: yo torturé. Así parte el capítulo de la serie de televisión La dimensión desconocid",
       "fecha_iso": "2026-07-10",
       "fecha_texto": "10 de julio de 2026",
       "precio_desde_clp": "",
@@ -2137,8 +2168,8 @@
       "url": "https://gam.cl/es/que-hacer-en-gam/teatro/la-dimension-desconocida/",
       "lat": -33.437778,
       "lon": -70.640556,
-      "descripcion_extendida": "Chile. Dictadura. Un hombre acosado por sus demonios se acerca a una periodista para decir: yo torturé. Esta es la puerta de entrada para conocer la vida de",
-      "bio_artista": ""
+      "descripcion_extendida": "Un hombre acosado por sus demonios se acerca a una periodista para decir: yo torturé. Así parte el capítulo de la serie de televisión La dimensión desconocid",
+      "bio_artista": "The Twilight Zone —conocida en español como La dimensión desconocida, Dimensión desconocida, En los límites de la realidad o La quinta dimensión— es una serie de televisión de antología estadounidense—que forma parte de la franquicia The Twilight Zone—dedicada a la ciencia ficción, la fantasía y el terror. Cada episodio muestra un relato que plantea dilemas morales, cuestiona al espectador y lo confronta con su propia existencia, a menudo rematado por un final sorprendente."
     },
     {
       "fuente": "GAM",
@@ -2281,8 +2312,8 @@
       "url": "https://ticketplus.cl/events/membresia-sala-nemesio",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "1967 fue un año común comenzado en domingo según el calendario gregoriano. Fue declarado Año Internacional del Turista por la Organización de las Naciones Unidas.",
-      "bio_artista": "1967 fue un año común comenzado en domingo según el calendario gregoriano. Fue declarado Año Internacional del Turista por la Organización de las Naciones Unidas."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2297,8 +2328,8 @@
       "url": "https://ticketplus.cl/events/chiqui-aguayo-en-enjoy-vina",
       "lat": -33.0472,
       "lon": -71.6127,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Chiqui Aguayo —seudónimo de Daniela José Aguayo— es una actriz, guionista, directora teatral y comediante chilena, que logró obtener la Gaviota de Plata y de Oro en el Festival de Viña del Mar 2017 y en el Festival de Viña del Mar 2025. Además durante su visita al Festival del Huaso de Olmué 2019 obtuvo el peak más alto de sintonía hasta ese momento.",
+      "bio_artista": "Chiqui Aguayo —seudónimo de Daniela José Aguayo— es una actriz, guionista, directora teatral y comediante chilena, que logró obtener la Gaviota de Plata y de Oro en el Festival de Viña del Mar 2017 y en el Festival de Viña del Mar 2025. Además durante su visita al Festival del Huaso de Olmué 2019 obtuvo el peak más alto de sintonía hasta ese momento."
     },
     {
       "fuente": "Ticketplus",
@@ -2411,6 +2442,22 @@
       "lon": -70.640556,
       "descripcion_extendida": "Un encuentro de reflexión y conciencia en torno a una de las formas de violencia más devastadoras e invisibles que afectan a madres e hijos",
       "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Lucas Espinoza - Barbones Comedy",
+      "venue": "",
+      "descripcion": "Lucas Espinoza - Viña del Mar - Barbones Comedy",
+      "fecha_iso": "2026-07-23",
+      "fecha_texto": "23 de julio de 2026",
+      "precio_desde_clp": "13.200",
+      "ciudad": "Viña del Mar",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/e2b887b44395f37d8c3899af3e1450655fa2c2a5.jpeg?1781545852&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/lucas-espinoza-vina-del-mar-barbones-comedy-2026-07-23-20-00-00-0400",
+      "lat": -33.0247,
+      "lon": -71.5519,
+      "descripcion_extendida": "Lucas Espinoza - Viña del Mar - Barbones Comedy",
+      "bio_artista": "Lucas Salvador Espinoza Arias es un comediante, actor, guionista y director chileno. Ha participado en proyectos vinculados al formato de comedia, tanto en televisión como en plataformas digitales."
     },
     {
       "fuente": "Ticketplus",
@@ -2986,7 +3033,7 @@
       "lat": -33.456667,
       "lon": -70.655556,
       "descripcion_extendida": "Compra tu entrada para Joaquin Cortés, miércoles 19 de agosto 2026 20:00 hrs. en Movistar Arena - Santiago Centro.",
-      "bio_artista": "Joaquín Cortés Reyes, más conocido como Joaquín Cortés es un bailaor, coreógrafo y productor español."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -3050,7 +3097,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "El circo familiar llega con la compañía El Límite de lo Propio que combina acrobacias, malabares y danza para jugar con las fuerzas y energías de la tormenta",
-      "bio_artista": ""
+      "bio_artista": "Una tormenta o tempestad es un fenómeno meteorológico asociado al desarrollo vertical de nubosidad acompañado de descargas eléctricas o rayos y, habitualmente, precipitación y rachas de viento intensas en superficie. Las descargas eléctricas pueden ser nube-nube, nube-tierra y nube-ionosfera."
     },
     {
       "fuente": "Ticketplus",
@@ -3306,7 +3353,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La obra, en versión de La Dramática Nacional y con dramaturgia de María Asunción Requena, narra la vida de los chilotes de Curaco de Vélez en los años 70, qu",
-      "bio_artista": "Nelson Omar Brodt Chávez es un actor, director, dramaturgo y docente chileno, de extensa trayectoria en teatro, cine y televisión."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3369,8 +3416,8 @@
       "url": "https://www.ticketmaster.cl/event/robbie-williams-2026",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Robert Peter Williams, más conocido como Robbie Williams, es un cantante, compositor y actor británico.",
+      "bio_artista": "Robert Peter Williams, más conocido como Robbie Williams, es un cantante, compositor y actor británico."
     },
     {
       "fuente": "GAM",
@@ -3386,7 +3433,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "GAM abre un nuevo espacio para compartir la versatilidad de la guitarra. En este ciclo se realizarán tres sesiones con obras que viajan desde el barroco hast",
-      "bio_artista": "No va más es el sexto disco de la banda española de heavy metal Barón Rojo. El disco se publicó en 1988 y fue producido por Barón Rojo para Chapa/Serdisco."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -3402,7 +3449,7 @@
       "lat": -40.5739,
       "lon": -73.1333,
       "descripcion_extendida": "Compra tu entrada para Los Jaivas 2026 Gira 45 años alturas de Macchu Picchu, viernes 02 de octubre 2026 20:00 hrs. en Salón Hotel Sonesta - Osorno - Osorno.",
-      "bio_artista": "Los Jaivas es una banda chilena de rock oriunda de Viña del Mar, Valparaíso, y activa desde 1963. Es conocida por su inclusión de instrumentos y ritmos folclóricos latinoamericanos, especialmente andinos, en el rock psicodélico y progresivo. A menudo se les considera como la banda más importante e influyente de Chile y una de las más prestigiosas de Sudamérica."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -3498,7 +3545,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Un concierto inmersivo que marca el cierre de “Voy”, el tercer disco de las hermanas LAIA. Una noche para recorrer las canciones, visuales y relatos que dier",
-      "bio_artista": "Langile Abertzale Iraultzaileen Alderdia (LAIA), en euskera «Partido de los Trabajadores Patriotas Revolucionarios», fue un partido político del País Vasco (España) de ideología socialista y nacionalista vasca que nació durante los últimos años de la dictadura del general Franco a consecuencia de una escisión de ETA. Sus siglas, laia son también el nombre en euskera de una herramienta agrícola."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3546,7 +3593,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "GAM recibe un nuevo ciclo para apreciar la música barroca como un arte vivo que sorprende, emociona y dialoga con públicos diversos y la ciudad. Un instancia",
-      "bio_artista": ""
+      "bio_artista": "Johann Sebastian Bach fue un compositor, músico, director de orquesta, maestro de capilla, cantor y profesor alemán del periodo barroco."
     },
     {
       "fuente": "Ticketmaster",
@@ -3561,8 +3608,8 @@
       "url": "https://www.ticketmaster.cl/event/festival-bamba-2026",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "La 35.ª edición del Festival Internacional de Cine de San Sebastián se celebró entre el 17 y el 26 de septiembre de 1987. El Festival tenía la máxima categoría A de la FIAPF.",
-      "bio_artista": "La 35.ª edición del Festival Internacional de Cine de San Sebastián se celebró entre el 17 y el 26 de septiembre de 1987. El Festival tenía la máxima categoría A de la FIAPF."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -3853,6 +3900,22 @@
       "bio_artista": "Johann Sebastian Bach fue un compositor, músico, director de orquesta, maestro de capilla, cantor y profesor alemán del periodo barroco."
     },
     {
+      "fuente": "PuntoTicket",
+      "nombre": "ELLENDE + THYRFING 2026 Chile Blondie - Centro",
+      "venue": "",
+      "descripcion": "Compra tu entrada para ELLENDE + THYRFING 2026 Chile, jueves 17 de diciembre 2026 20:00 hrs. en Blondie - Santiago Centro.",
+      "fecha_iso": "2026-12-17",
+      "fecha_texto": "17 de diciembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/hvp015_md.jpg",
+      "url": "https://www.puntoticket.com/evento/ellende-thyrfing-2026-chile-blondie-dic-2026",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Compra tu entrada para ELLENDE + THYRFING 2026 Chile, jueves 17 de diciembre 2026 20:00 hrs. en Blondie - Santiago Centro.",
+      "bio_artista": ""
+    },
+    {
       "fuente": "Ticketmaster",
       "nombre": "RUSH - Fifty Something",
       "venue": "",
@@ -3934,22 +3997,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "Campaña de Abonados 2026 Liga Chery Apertura",
-      "venue": "",
-      "descripcion": "Campaña de Abonados 2026 Liga Chery Apertura",
-      "fecha_iso": "2027-03-23",
-      "fecha_texto": "23 de marzo de 2027",
-      "precio_desde_clp": "43.999",
-      "ciudad": "Valparaíso",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/57dc5d595eb1b296ba8cfdb9331f4c7444b2fc95.jpeg?1774361204&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/campana-de-abonados-2026-liga-chery-apertura",
-      "lat": -33.0472,
-      "lon": -71.6127,
-      "descripcion_extendida": "Campaña de Abonados 2026 Liga Chery Apertura",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "Amarga de Pedro Almodóvar en SALA K",
       "venue": "",
       "descripcion": "Amarga Navidad de Pedro Almodóvar en SALA K",
@@ -4025,8 +4072,8 @@
       "url": "https://www.ticketmaster.cl/event/family-fest-by-hasbro",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia",
+      "bio_artista": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia"
     },
     {
       "fuente": "Ticketmaster",
@@ -4174,6 +4221,102 @@
     },
     {
       "fuente": "ComediaTicket",
+      "nombre": "Edison Roa y Felipe Castillo en la Cantina",
+      "venue": "",
+      "descripcion": "<p>Jovenedison y Felipe Castillo vuelven con su show mensual en la Cantina para contar todos sus chistes y anécdotas más surrealistas.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ln2bzb9s-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/edison-roa-y-felipe-castillo-en-la-cantina-_dkgqq",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Jovenedison y Felipe Castillo vuelven con su show mensual en la Cantina para contar todos sus chistes y anécdotas más surrealistas.</p>",
+      "bio_artista": "América de Cali, conocido simplemente como América, es un club de fútbol colombiano fundado el 13 de febrero de 1927 en la ciudad de Cali. Es considerado uno de los clubes más grandes y populares de Colombia y uno de los más representativos de Sudamérica. Milita en la Categoría Primera A y disputa sus partidos en el Estadio Olímpico Pascual Guerrero. El color que identifica al club desde sus inicios es el rojo escarlata."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Piare con P",
+      "venue": "",
+      "descripcion": "<h3><br></h3><p><strong>¡La espera terminó! El fenómeno humorístico del 2026 regresa a su casa oficial.</strong></p><p><br></p><p><strong>Piare con P</strong> vuelve al escenario de Palermo Teatro Bar para una noche legendaria. Olvida lo que viste en televisión; en la intimidad de nuestra sala, la comediante más versátil del momento despliega toda su artillería sin censura, con esa rutina ácida, honesta y el \"flow\" único que solo ella puede entregar.</p><p><br></p><p>Es el plan perfecto en el corazón de Providencia: una noche de stand-up de alto nivel para desconectarse y reír a carcajadas junto a nuestra coctelería y gastronomía de autor.</p><p><br></p><p><strong>Aviso:</strong> Debido a la alta demanda, los cupos suelen agotarse en tiempo récord. Le recomendamos asegurar sus entradas con anticipación.</p><p><strong>Público:</strong> Show para mayores de 18 años. (Menores desde 16 bajo responsabilidad de un adulto).</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Providencia",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-0daunuh1-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/piare-con-p-el-regreso-de-la-gaviota-de-oro-a-palermo_9ojyp",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<h3><br></h3><p><strong>¡La espera terminó! El fenómeno humorístico del 2026 regresa a su casa oficial.</strong></p><p><br></p><p><strong>Piare con P</strong> vuelve al escenario de Palermo Teatro Bar para una noche legendaria. Olvida lo que viste en televisión; en la intimidad de nuestra sala, la comediante más versátil del momento despliega toda su artillería sin censura, con esa rutina ácida, honesta y el \"flow\" único que solo ella puede entregar.</p><p><br></p><p>Es el plan perfecto en el corazón de Providencia: una noche de stand-up de alto nivel para desconectarse y reír a carcajadas junto a nuestra coctelería y gastronomía de autor.</p><p><br></p><p><strong>Aviso:</strong> Debido a la alta demanda, los cupos suelen agotarse en tiempo récord. Le recomendamos asegurar sus entradas con anticipación.</p><p><strong>Público:</strong> Show para mayores de 18 años. (Menores desde 16 bajo responsabilidad de un adulto).</p>",
+      "bio_artista": "Manuel Carlos María Francisco Piar Gómez fue un militar hispano-venezolano nacido en Curazao, prócer de la Independencia de Venezuela. Y además dentro de los canales de la historia republicana venezolana es reconocido como el Libertador de Guayana y Generalísimo Invicto, por haber disputado 24 batallas y no haber sido derrotado. Fue fusilado por orden de Simón Bolívar."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "ASSKHA SUMATHRA LO QUE NO SE VIO EN VIÑA",
+      "venue": "",
+      "descripcion": "<p><strong>LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</strong></p><p>¿Te quedaste con ganas de más? La reina del Café Concert, <strong>Asskha Sumathra</strong>, trae su gira oficial <strong>\"Lo que no se vio en Viña\"</strong>.</p><p>Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p><p><br></p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "La Reina",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-d2f7ngxa-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/asskha-sumathra-lo-que-no-se-vio-en-vina_j1nrc",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p><strong>LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</strong></p><p>¿Te quedaste con ganas de más? La reina del Café Concert, <strong>Asskha Sumathra</strong>, trae su gira oficial <strong>\"Lo que no se vio en Viña\"</strong>.</p><p>Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p><p><br></p>",
+      "bio_artista": "El LXV Festival Internacional de la Canción de Viña del Mar, también conocido como Viña 2026, estilizado como Viña 26, fue un evento cultural y artístico que se llevó a cabo entre el domingo 22 de febrero y el viernes 27 de febrero de 2026 en el Anfiteatro de la Quinta Vergara en la ciudad chilena de Viña del Mar, Región de Valparaíso."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "ASSKHA SUMATHRA SEGUNDA FUNCION LA BOTA CERVECERA",
+      "venue": "",
+      "descripcion": "<p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</p><p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">¿Te quedaste con ganas de más? La reina del Café Concert,&nbsp;Asskha Sumathra, trae su gira oficial&nbsp;\"Lo que no se vio en Viña\".</p><p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "La Reina",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-1n1qk2m5-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/asskha-sumathra-segunda-funcion-la-bota-cervecera_6mcft",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</p><p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">¿Te quedaste con ganas de más? La reina del Café Concert,&nbsp;Asskha Sumathra, trae su gira oficial&nbsp;\"Lo que no se vio en Viña\".</p><p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "León Murillo en Cafetería Popular",
+      "venue": "",
+      "descripcion": "<p>Nuevo Show, nuevo contenido, tan agudo y contingente como absurdo y divertido. Una noche única e irrepetible en Cafetería Popular.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-9we7i8vx-publish.jpeg",
+      "url": "https://comediaticket.cl/details/events_details/leon-murillo-en-cafeteria-popular-_5ig50",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>Nuevo Show, nuevo contenido, tan agudo y contingente como absurdo y divertido. Una noche única e irrepetible en Cafetería Popular.</p>",
+      "bio_artista": "Manuel García Linares es un artista polifacético, pero fundamentalmente pintor, español, nacido en Navelgas, en el concejo de Tineo, Principado de Asturias, en 1943."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Don Carter en Sambolio Restobar",
+      "venue": "",
+      "descripcion": "<p>El humor irreverente y Sin Censura de Don Carter llega a Sambolio ¿Preparado para escucharlo y reír con los chistes prohibidos?</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-r9tg7gx0-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/don-carter-en-sambolio-restobar_n0d8n",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>El humor irreverente y Sin Censura de Don Carter llega a Sambolio ¿Preparado para escucharlo y reír con los chistes prohibidos?</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
       "nombre": "Noches de comedia",
       "venue": "",
       "descripcion": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>&nbsp;</p><p><br></p>",
@@ -4206,114 +4349,18 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Piare con P",
+      "nombre": "VOLTAJE presenta: Tomás Melivilu en",
       "venue": "",
-      "descripcion": "<h3><br></h3><p><strong>¡La espera terminó! El fenómeno humorístico del 2026 regresa a su casa oficial.</strong></p><p><br></p><p><strong>Piare con P</strong> vuelve al escenario de Palermo Teatro Bar para una noche legendaria. Olvida lo que viste en televisión; en la intimidad de nuestra sala, la comediante más versátil del momento despliega toda su artillería sin censura, con esa rutina ácida, honesta y el \"flow\" único que solo ella puede entregar.</p><p><br></p><p>Es el plan perfecto en el corazón de Providencia: una noche de stand-up de alto nivel para desconectarse y reír a carcajadas junto a nuestra coctelería y gastronomía de autor.</p><p><br></p><p><strong>Aviso:</strong> Debido a la alta demanda, los cupos suelen agotarse en tiempo récord. Le recomendamos asegurar sus entradas con anticipación.</p><p><strong>Público:</strong> Show para mayores de 18 años. (Menores desde 16 bajo responsabilidad de un adulto).</p>",
+      "descripcion": "<p>Voltaje presenta una noche de comedia única en Concepción; el show largo de una de las revelaciones del humor nacional: Tomás Melivilu, además de un sabroso show de trasnoche para los que quieran conocer a las mejores voces de la comedia penquista y continuar riendo en el misterioso tercer piso de la Casona Cautiva.</p><p><br></p><p>Comenzamos a lo grande este imperdible ciclo de shows estelares para el gran Concepción, a un precio inigualable para que nadie se quede fuera. La información completa en: @voltaje.clubdecomedia. Si le gusta el stand up comedy, la invitación es a ser parte del club.&nbsp;</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Providencia",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-0daunuh1-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/piare-con-p-el-regreso-de-la-gaviota-de-oro-a-palermo_9ojyp",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<h3><br></h3><p><strong>¡La espera terminó! El fenómeno humorístico del 2026 regresa a su casa oficial.</strong></p><p><br></p><p><strong>Piare con P</strong> vuelve al escenario de Palermo Teatro Bar para una noche legendaria. Olvida lo que viste en televisión; en la intimidad de nuestra sala, la comediante más versátil del momento despliega toda su artillería sin censura, con esa rutina ácida, honesta y el \"flow\" único que solo ella puede entregar.</p><p><br></p><p>Es el plan perfecto en el corazón de Providencia: una noche de stand-up de alto nivel para desconectarse y reír a carcajadas junto a nuestra coctelería y gastronomía de autor.</p><p><br></p><p><strong>Aviso:</strong> Debido a la alta demanda, los cupos suelen agotarse en tiempo récord. Le recomendamos asegurar sus entradas con anticipación.</p><p><strong>Público:</strong> Show para mayores de 18 años. (Menores desde 16 bajo responsabilidad de un adulto).</p>",
-      "bio_artista": "Manuel Carlos María Francisco Piar Gómez fue un militar hispano-venezolano nacido en Curazao, prócer de la Independencia de Venezuela. Y además dentro de los canales de la historia republicana venezolana es reconocido como el Libertador de Guayana y Generalísimo Invicto, por haber disputado 24 batallas y no haber sido derrotado. Fue fusilado por orden de Simón Bolívar."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "ASSKHA SUMATHRA SEGUNDA FUNCION LA BOTA CERVECERA",
-      "venue": "",
-      "descripcion": "<p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</p><p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">¿Te quedaste con ganas de más? La reina del Café Concert,&nbsp;Asskha Sumathra, trae su gira oficial&nbsp;\"Lo que no se vio en Viña\".</p><p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "La Reina",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-1n1qk2m5-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/asskha-sumathra-segunda-funcion-la-bota-cervecera_6mcft",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</p><p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">¿Te quedaste con ganas de más? La reina del Café Concert,&nbsp;Asskha Sumathra, trae su gira oficial&nbsp;\"Lo que no se vio en Viña\".</p><p style=\"--tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59,130,246,.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; color: rgb(0, 0, 0); font-family: __Open_Sans_422609, __Open_Sans_Fallback_422609; font-size: medium; white-space-collapse: collapse;\">Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Edison Roa y Felipe Castillo en la Cantina",
-      "venue": "",
-      "descripcion": "<p>Jovenedison y Felipe Castillo vuelven con su show mensual en la Cantina para contar todos sus chistes y anécdotas más surrealistas.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ln2bzb9s-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/edison-roa-y-felipe-castillo-en-la-cantina-_dkgqq",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Jovenedison y Felipe Castillo vuelven con su show mensual en la Cantina para contar todos sus chistes y anécdotas más surrealistas.</p>",
-      "bio_artista": "América de Cali, conocido simplemente como América, es un club de fútbol colombiano fundado el 13 de febrero de 1927 en la ciudad de Cali. Es considerado uno de los clubes más grandes y populares de Colombia y uno de los más representativos de Sudamérica. Milita en la Categoría Primera A y disputa sus partidos en el Estadio Olímpico Pascual Guerrero. El color que identifica al club desde sus inicios es el rojo escarlata."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Don Carter en Sambolio Restobar",
-      "venue": "",
-      "descripcion": "<p>El humor irreverente y Sin Censura de Don Carter llega a Sambolio ¿Preparado para escucharlo y reír con los chistes prohibidos?</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-r9tg7gx0-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/don-carter-en-sambolio-restobar_n0d8n",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>El humor irreverente y Sin Censura de Don Carter llega a Sambolio ¿Preparado para escucharlo y reír con los chistes prohibidos?</p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "ASSKHA SUMATHRA LO QUE NO SE VIO EN VIÑA",
-      "venue": "",
-      "descripcion": "<p><strong>LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</strong></p><p>¿Te quedaste con ganas de más? La reina del Café Concert, <strong>Asskha Sumathra</strong>, trae su gira oficial <strong>\"Lo que no se vio en Viña\"</strong>.</p><p>Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p><p><br></p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "La Reina",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-d2f7ngxa-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/asskha-sumathra-lo-que-no-se-vio-en-vina_j1nrc",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p><strong>LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</strong></p><p>¿Te quedaste con ganas de más? La reina del Café Concert, <strong>Asskha Sumathra</strong>, trae su gira oficial <strong>\"Lo que no se vio en Viña\"</strong>.</p><p>Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p><p><br></p>",
-      "bio_artista": "El LXV Festival Internacional de la Canción de Viña del Mar, también conocido como Viña 2026, estilizado como Viña 26, fue un evento cultural y artístico que se llevó a cabo entre el domingo 22 de febrero y el viernes 27 de febrero de 2026 en el Anfiteatro de la Quinta Vergara en la ciudad chilena de Viña del Mar, Región de Valparaíso."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "León Murillo en Cafetería Popular",
-      "venue": "",
-      "descripcion": "<p>Nuevo Show, nuevo contenido, tan agudo y contingente como absurdo y divertido. Una noche única e irrepetible en Cafetería Popular.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-9we7i8vx-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/leon-murillo-en-cafeteria-popular-_5ig50",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Nuevo Show, nuevo contenido, tan agudo y contingente como absurdo y divertido. Una noche única e irrepetible en Cafetería Popular.</p>",
-      "bio_artista": "Manuel García Linares es un artista polifacético, pero fundamentalmente pintor, español, nacido en Navelgas, en el concejo de Tineo, Principado de Asturias, en 1943."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "IMPROFLIX /Lospleimovil Impro Humor",
-      "venue": "",
-      "descripcion": "<p>Show de IMPRO humor donde tú eliges diferentes géneros cinematográficos y televisivos para desafiar al elenco profesional de Lospleimovil a improvisar historias estilo;&nbsp;Terror, Musical, Mea Culpa, Cine Mexicano, Shakespeare, el Chacotero Sentimental , entre muchas otras más.</p><p>Una hora para reír y disfrutar desde tu butaca .</p><p>El local cuenta con un RESTOBAR para esperar el comienzo de la función.</p><p>Dirección y animación&nbsp;: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Músico : Jorge Salzar</p><p>Tecnico: Rodrigo Flako Barnao</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-bgz2uaqx-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/improflix-lospleimovil-impro-humor_dpbhk",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Show de IMPRO humor donde tú eliges diferentes géneros cinematográficos y televisivos para desafiar al elenco profesional de Lospleimovil a improvisar historias estilo;&nbsp;Terror, Musical, Mea Culpa, Cine Mexicano, Shakespeare, el Chacotero Sentimental , entre muchas otras más.</p><p>Una hora para reír y disfrutar desde tu butaca .</p><p>El local cuenta con un RESTOBAR para esperar el comienzo de la función.</p><p>Dirección y animación&nbsp;: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Músico : Jorge Salzar</p><p>Tecnico: Rodrigo Flako Barnao</p>",
+      "ciudad": "Concepción",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-2wehulsf-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/voltaje-presenta-tomas-melivilu-en-concepcion_kql1c",
+      "lat": -36.827,
+      "lon": -73.0502,
+      "descripcion_extendida": "<p>Voltaje presenta una noche de comedia única en Concepción; el show largo de una de las revelaciones del humor nacional: Tomás Melivilu, además de un sabroso show de trasnoche para los que quieran conocer a las mejores voces de la comedia penquista y continuar riendo en el misterioso tercer piso de la Casona Cautiva.</p><p><br></p><p>Comenzamos a lo grande este imperdible ciclo de shows estelares para el gran Concepción, a un precio inigualable para que nadie se quede fuera. La información completa en: @voltaje.clubdecomedia. Si le gusta el stand up comedy, la invitación es a ser parte del club.&nbsp;</p>",
       "bio_artista": ""
     },
     {
@@ -4334,34 +4381,34 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Vibrando Alto",
+      "nombre": "IMPROFLIX /Lospleimovil Impro Humor",
       "venue": "",
-      "descripcion": "<p>Vibrando Alto\" es el show de stand-up donde tres comediantes se quitan la careta de la \"mujer perfecta y resuelta\" para confesar todo lo que el horóscopo no te advirtió. Desde las trampas del amor moderno hasta las exigencias absurdas de la vida adulta, este trío viene a demostrar que la mejor forma de limpiar las malas energías es exponiéndolas bajo los focos de un escenario.</p>",
+      "descripcion": "<p>Show de IMPRO humor donde tú eliges diferentes géneros cinematográficos y televisivos para desafiar al elenco profesional de Lospleimovil a improvisar historias estilo;&nbsp;Terror, Musical, Mea Culpa, Cine Mexicano, Shakespeare, el Chacotero Sentimental , entre muchas otras más.</p><p>Una hora para reír y disfrutar desde tu butaca .</p><p>El local cuenta con un RESTOBAR para esperar el comienzo de la función.</p><p>Dirección y animación&nbsp;: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Músico : Jorge Salzar</p><p>Tecnico: Rodrigo Flako Barnao</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-7aka25rj-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/vibrando-alto-_nl4eg",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-bgz2uaqx-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/improflix-lospleimovil-impro-humor_dpbhk",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>Vibrando Alto\" es el show de stand-up donde tres comediantes se quitan la careta de la \"mujer perfecta y resuelta\" para confesar todo lo que el horóscopo no te advirtió. Desde las trampas del amor moderno hasta las exigencias absurdas de la vida adulta, este trío viene a demostrar que la mejor forma de limpiar las malas energías es exponiéndolas bajo los focos de un escenario.</p>",
-      "bio_artista": "El anticlímax, del griego anti y clímax, es una figura literaria que consiste en una gradación de términos negativos y opuestos a los evocados durante una primera gradación de términos positivos."
+      "descripcion_extendida": "<p>Show de IMPRO humor donde tú eliges diferentes géneros cinematográficos y televisivos para desafiar al elenco profesional de Lospleimovil a improvisar historias estilo;&nbsp;Terror, Musical, Mea Culpa, Cine Mexicano, Shakespeare, el Chacotero Sentimental , entre muchas otras más.</p><p>Una hora para reír y disfrutar desde tu butaca .</p><p>El local cuenta con un RESTOBAR para esperar el comienzo de la función.</p><p>Dirección y animación&nbsp;: Claudio Espinoza</p><p>elenco: Lissette Villegas, Claudio Espinoza, Enrique Guiñez,Yezz Martinez.</p><p><br></p><p>Músico : Jorge Salzar</p><p>Tecnico: Rodrigo Flako Barnao</p>",
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "cocteles de viernes",
+      "nombre": "Kakoamedia en Bar Fiebre",
       "venue": "",
-      "descripcion": "<p>show de viernes en akbar plaza ñuñoa.</p>",
+      "descripcion": "<p>KAKO DESPERTÓ – EN VIVO</p><p><br></p><p>No de una siesta cualquiera, sino de ese sueño raro donde el capitalismo te pide más, el cuerpo te pide pausa y la cabeza te pide respuestas. Y claro, como buen observador de la realidad, volvió con las cosas más claras… y con ganas de reírse de todo esto que nos agota.</p><p><br></p><p>\"Kako Despertó\" es el nuevo show donde nuestro comediante favorito enfrenta los problemas modernos con su humor ácido y social: el agotamiento de la rutina, la presión de producir sin parar, el descanso que nunca llega, y esa sensación de estar siempre al debe. </p><p>Pero ojo, no es una charla TED, es pura sátira, personajes y poemas que le ponen el espejo delante a esta vida acelerada.</p><p><br></p><p>¿Será esta rutina parte de su despertar? </p><p>¿O solo otra vuelta de tuerca pa' seguir riéndonos de nosotros mismos? </p><p><br></p><p>Una sola forma de saberlo: venir al show, reírse con ganas y quizás, solo quizás, salir con alguna respuesta… o con más preguntas (que igual es mejor que nada).</p><p>Ven a despertar con Kako es mejor que hacerlo con el despertador. </p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Ñuñoa",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-w3kqii7f-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/cocteles-de-viernes-_7pzl0",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-tmefxrxe-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/kakoamedia-en-bar-fiebre-_oiek0",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>show de viernes en akbar plaza ñuñoa.</p>",
+      "descripcion_extendida": "<p>KAKO DESPERTÓ – EN VIVO</p><p><br></p><p>No de una siesta cualquiera, sino de ese sueño raro donde el capitalismo te pide más, el cuerpo te pide pausa y la cabeza te pide respuestas. Y claro, como buen observador de la realidad, volvió con las cosas más claras… y con ganas de reírse de todo esto que nos agota.</p><p><br></p><p>\"Kako Despertó\" es el nuevo show donde nuestro comediante favorito enfrenta los problemas modernos con su humor ácido y social: el agotamiento de la rutina, la presión de producir sin parar, el descanso que nunca llega, y esa sensación de estar siempre al debe. </p><p>Pero ojo, no es una charla TED, es pura sátira, personajes y poemas que le ponen el espejo delante a esta vida acelerada.</p><p><br></p><p>¿Será esta rutina parte de su despertar? </p><p>¿O solo otra vuelta de tuerca pa' seguir riéndonos de nosotros mismos? </p><p><br></p><p>Una sola forma de saberlo: venir al show, reírse con ganas y quizás, solo quizás, salir con alguna respuesta… o con más preguntas (que igual es mejor que nada).</p><p>Ven a despertar con Kako es mejor que hacerlo con el despertador. </p>",
       "bio_artista": ""
     },
     {
@@ -4398,35 +4445,51 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "VOLTAJE presenta: Tomás Melivilu en",
+      "nombre": "Mauro González en el DISTRITO 04",
       "venue": "",
-      "descripcion": "<p>Voltaje presenta una noche de comedia única en Concepción; el show largo de una de las revelaciones del humor nacional: Tomás Melivilu, además de un sabroso show de trasnoche para los que quieran conocer a las mejores voces de la comedia penquista y continuar riendo en el misterioso tercer piso de la Casona Cautiva.</p><p><br></p><p>Comenzamos a lo grande este imperdible ciclo de shows estelares para el gran Concepción, a un precio inigualable para que nadie se quede fuera. La información completa en: @voltaje.clubdecomedia. Si le gusta el stand up comedy, la invitación es a ser parte del club.&nbsp;</p>",
+      "descripcion": "<p>Mauro González llega al Distrito 04 en Santiago con su show de comedia ácido e irreverente. Con historias laborales, jefes canallas y anécdotas personales cargadas de humor, el público vivirá una noche llena de risas y situaciones que todos reconocerán.</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Concepción",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-2wehulsf-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/voltaje-presenta-tomas-melivilu-en-concepcion_kql1c",
-      "lat": -36.827,
-      "lon": -73.0502,
-      "descripcion_extendida": "<p>Voltaje presenta una noche de comedia única en Concepción; el show largo de una de las revelaciones del humor nacional: Tomás Melivilu, además de un sabroso show de trasnoche para los que quieran conocer a las mejores voces de la comedia penquista y continuar riendo en el misterioso tercer piso de la Casona Cautiva.</p><p><br></p><p>Comenzamos a lo grande este imperdible ciclo de shows estelares para el gran Concepción, a un precio inigualable para que nadie se quede fuera. La información completa en: @voltaje.clubdecomedia. Si le gusta el stand up comedy, la invitación es a ser parte del club.&nbsp;</p>",
-      "bio_artista": ""
+      "ciudad": "Santiago",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-492cuc6y-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/mauro-gonzalez-en-el-distrito-04_fnkc2",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "<p>Mauro González llega al Distrito 04 en Santiago con su show de comedia ácido e irreverente. Con historias laborales, jefes canallas y anécdotas personales cargadas de humor, el público vivirá una noche llena de risas y situaciones que todos reconocerán.</p>",
+      "bio_artista": "San Juan es el primer distrito y ciudad cabecera del cantón de Tibás, en la provincia de San José, de Costa Rica."
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Kakoamedia en Bar Fiebre",
+      "nombre": "Vibrando Alto",
       "venue": "",
-      "descripcion": "<p>KAKO DESPERTÓ – EN VIVO</p><p><br></p><p>No de una siesta cualquiera, sino de ese sueño raro donde el capitalismo te pide más, el cuerpo te pide pausa y la cabeza te pide respuestas. Y claro, como buen observador de la realidad, volvió con las cosas más claras… y con ganas de reírse de todo esto que nos agota.</p><p><br></p><p>\"Kako Despertó\" es el nuevo show donde nuestro comediante favorito enfrenta los problemas modernos con su humor ácido y social: el agotamiento de la rutina, la presión de producir sin parar, el descanso que nunca llega, y esa sensación de estar siempre al debe. </p><p>Pero ojo, no es una charla TED, es pura sátira, personajes y poemas que le ponen el espejo delante a esta vida acelerada.</p><p><br></p><p>¿Será esta rutina parte de su despertar? </p><p>¿O solo otra vuelta de tuerca pa' seguir riéndonos de nosotros mismos? </p><p><br></p><p>Una sola forma de saberlo: venir al show, reírse con ganas y quizás, solo quizás, salir con alguna respuesta… o con más preguntas (que igual es mejor que nada).</p><p>Ven a despertar con Kako es mejor que hacerlo con el despertador. </p>",
+      "descripcion": "<p>Vibrando Alto\" es el show de stand-up donde tres comediantes se quitan la careta de la \"mujer perfecta y resuelta\" para confesar todo lo que el horóscopo no te advirtió. Desde las trampas del amor moderno hasta las exigencias absurdas de la vida adulta, este trío viene a demostrar que la mejor forma de limpiar las malas energías es exponiéndolas bajo los focos de un escenario.</p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-tmefxrxe-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/kakoamedia-en-bar-fiebre-_oiek0",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-7aka25rj-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/vibrando-alto-_nl4eg",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "<p>KAKO DESPERTÓ – EN VIVO</p><p><br></p><p>No de una siesta cualquiera, sino de ese sueño raro donde el capitalismo te pide más, el cuerpo te pide pausa y la cabeza te pide respuestas. Y claro, como buen observador de la realidad, volvió con las cosas más claras… y con ganas de reírse de todo esto que nos agota.</p><p><br></p><p>\"Kako Despertó\" es el nuevo show donde nuestro comediante favorito enfrenta los problemas modernos con su humor ácido y social: el agotamiento de la rutina, la presión de producir sin parar, el descanso que nunca llega, y esa sensación de estar siempre al debe. </p><p>Pero ojo, no es una charla TED, es pura sátira, personajes y poemas que le ponen el espejo delante a esta vida acelerada.</p><p><br></p><p>¿Será esta rutina parte de su despertar? </p><p>¿O solo otra vuelta de tuerca pa' seguir riéndonos de nosotros mismos? </p><p><br></p><p>Una sola forma de saberlo: venir al show, reírse con ganas y quizás, solo quizás, salir con alguna respuesta… o con más preguntas (que igual es mejor que nada).</p><p>Ven a despertar con Kako es mejor que hacerlo con el despertador. </p>",
-      "bio_artista": ""
+      "descripcion_extendida": "<p>Vibrando Alto\" es el show de stand-up donde tres comediantes se quitan la careta de la \"mujer perfecta y resuelta\" para confesar todo lo que el horóscopo no te advirtió. Desde las trampas del amor moderno hasta las exigencias absurdas de la vida adulta, este trío viene a demostrar que la mejor forma de limpiar las malas energías es exponiéndolas bajo los focos de un escenario.</p>",
+      "bio_artista": "El anticlímax, del griego anti y clímax, es una figura literaria que consiste en una gradación de términos negativos y opuestos a los evocados durante una primera gradación de términos positivos."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "cocteles de viernes",
+      "venue": "",
+      "descripcion": "<p>show de viernes en akbar plaza ñuñoa.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Ñuñoa",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-w3kqii7f-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/cocteles-de-viernes-_7pzl0",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>show de viernes en akbar plaza ñuñoa.</p>",
+      "bio_artista": "Media Naranja es un programa de radio en República Dominicana, creado por los hermanos Mariano y Pablo Calasso. Sale al aire el Lunes 20 de abril del año 2008, por Studio 88.5 FM."
     },
     {
       "fuente": "ComediaTicket",
@@ -4443,22 +4506,6 @@
       "lon": null,
       "descripcion_extendida": "<p>@felotrujillo está en proceso de cambiar su rutina así que presenta: 75% material nuevo. </p><p>Acompaña a este destacado comediante y coach de standup en su primer show de prueba de chistes.</p><p>+ 2 grandes invitados ✨</p>",
       "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Mauro González en el DISTRITO 04",
-      "venue": "",
-      "descripcion": "<p>Mauro González llega al Distrito 04 en Santiago con su show de comedia ácido e irreverente. Con historias laborales, jefes canallas y anécdotas personales cargadas de humor, el público vivirá una noche llena de risas y situaciones que todos reconocerán.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-492cuc6y-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/mauro-gonzalez-en-el-distrito-04_fnkc2",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "<p>Mauro González llega al Distrito 04 en Santiago con su show de comedia ácido e irreverente. Con historias laborales, jefes canallas y anécdotas personales cargadas de humor, el público vivirá una noche llena de risas y situaciones que todos reconocerán.</p>",
-      "bio_artista": "San Juan es el primer distrito y ciudad cabecera del cantón de Tibás, en la provincia de San José, de Costa Rica."
     },
     {
       "fuente": "ComediaTicket",
@@ -4493,100 +4540,20 @@
       "bio_artista": "El Nuevo Mundo es uno de los nombres históricos con que los europeos han denominado al continente americano desde finales del siglo XV como consecuencia de la colonización de América desde 1492. El adjetivo «nuevo» se emplea para distinguirlo del Viejo Mundo, es decir, los continentes ya conocidos por los europeos: Europa, Asia y África."
     },
     {
-      "fuente": "ComediaTicket",
-      "nombre": "la Kari por primera vez en Strike Comedy",
-      "venue": "",
-      "descripcion": "<p>Prepárate, la Kari (@lakarioficial) se presenta por primera vez en Strike Comedy con su show de larga duración. Sin censura, atrevida e insolente para que te recagues de la risa.</p>",
+      "fuente": "CulturaGob",
+      "nombre": "OSULS anuncia importante gira nacional con dos conciertos en Santiago y una fecha en Valparaíso",
+      "venue": "Ministerio de las Culturas",
+      "descripcion": "Con este gran hito el elenco posiciona su Temporada 26 con gran augurio, llevando su quehacer a grandes escenarios del país, bajo la dirección del Mtro. Luis Toro Araya y el inigualable talento de la mezzosoprano alemana, Luca Maria Caelers.",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-6zk7zuy5-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/la-kari-por-primera-vez-en-strike-comedy_q88we",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Prepárate, la Kari (@lakarioficial) se presenta por primera vez en Strike Comedy con su show de larga duración. Sin censura, atrevida e insolente para que te recagues de la risa.</p>",
-      "bio_artista": "Yōko Hikasa  es una seiyū y cantante japonesa, conocida por prestar su voz a personajes como Yoh Asakura en Shaman King, Atom en Pluto, Kyōko Kirigiri en Danganronpa, Mio Akiyama en K-On!, Rias Gremory en High School DxD, Tomoe Udagawa en BanG Dream! Girls Band Party! y Emilie en Genshin Impact entre otros."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "Concierto Jóvenes Sinfónicos de la OSIM - FOJI",
-      "venue": "",
-      "descripcion": "Ven a disfrutar de todo el talento de los niños y jóvenes de la Orquesta Sinfónica Infantil Metropolitana de FOJI",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1184889497%252F1170662714273%252F1%252Foriginal.20260518-212242%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Db4c8ae631c991ca7374aee2e1309e35d&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/concierto-jovenes-sinfonicos-de-la-osim-foji-tickets-1989863004813?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Ven a disfrutar de todo el talento de los niños y jóvenes de la Orquesta Sinfónica Infantil Metropolitana de FOJI",
-      "bio_artista": "La Orquesta Sinfónica Infantil de México (OSIM) es una agrupación musical que reúne a niños, niñas y jóvenes de las 32 entidades federativas de su país. Forma parte del Sistema Nacional de Fomento Musical del Conaculta."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "George Gurdjieff en la mirada de Sergio Salinas",
-      "venue": "",
-      "descripcion": "Sergio Salinas Cañas nos presenta sus indagaciones sobre las doctrinas de Gurdjieff",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1186646538%252F2364850590963%252F1%252Foriginal.20260611-011236%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D184ca0028fe2633d319b6887677c5dc4&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/george-gurdjieff-en-la-mirada-de-sergio-salinas-tickets-1991288559686?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Sergio Salinas Cañas nos presenta sus indagaciones sobre las doctrinas de Gurdjieff",
+      "ciudad": "Valparaíso",
+      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/gira-nacional-osuls_6-450x300.jpg",
+      "url": "https://www.cultura.gob.cl/agendacultural/osuls-anuncia-importante-gira-nacional-con-dos-conciertos-en-santiago-y-una-fecha-en-valparaiso/",
+      "lat": -33.0472,
+      "lon": -71.6127,
+      "descripcion_extendida": "Con este gran hito el elenco posiciona su Temporada 26 con gran augurio, llevando su quehacer a grandes escenarios del país, bajo la dirección del Mtro. Luis Toro Araya y el inigualable talento de la mezzosoprano alemana, Luca Maria Caelers.",
       "bio_artista": ""
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "GameDev Planet Junio 2026",
-      "venue": "",
-      "descripcion": "Nos encontramos nuevamente en GameDev Planet con charlas, demos y un after!",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1186282227%252F175838834633%252F1%252Foriginal.20260605-231712%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.307%26fp-y%3D0.197%26s%3Db39854f29487dd1072016b7245728830&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/gamedev-planet-junio-2026-tickets-1990336479990?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Nos encontramos nuevamente en GameDev Planet con charlas, demos y un after!",
-      "bio_artista": "Metroid Prime es un videojuego de acción-aventura en primera persona con componentes de disparos y plataformas, desarrollado por Retro Studios y distribuido por Nintendo para la consola Nintendo GameCube, fue lanzado el 19 de noviembre de 2002 en América, el 28 de febrero de 2003 en Japón y el 21 de marzo de 2003 en Europa."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "WORKSHOP GRATUITO - FITNESS AND WELLNESS",
-      "venue": "",
-      "descripcion": "DEFINE TU NICHO & EL NEGOCIO INVISIBLE DE TU GIMNASIO Workshop Presencial · Santiago de Chile",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1186561449%252F2838219110781%252F1%252Foriginal.20260610-030749%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.508%26fp-y%3D0.427%26s%3De63c38df4c5335d1e23ac072e70ae084&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/workshop-gratuito-fitness-and-wellness-tickets-1991521716063?aff=ebdssbcitybrowse",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "DEFINE TU NICHO & EL NEGOCIO INVISIBLE DE TU GIMNASIO Workshop Presencial · Santiago de Chile",
-      "bio_artista": "El BBC Radiophonic Workshop, fue una de las primeras unidades de efectos de sonido de la BBC. Se creó en 1958 con el objetivo de producir efectos y nueva música para la radio, y se cerró en marzo de 1998, aunque buena parte de sus tareas tradicionales ya habían sido externalizadas hacia 1995. Estaba radicado en los estudios de la BBC Maida Vale Studios en Delaware Road, Londres, desarrollando su actividad en la entonces legendaria Habitación 13."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "Concierto Sinfonías del Pacífico -128° Aniversario Filipinas",
-      "venue": "",
-      "descripcion": "Concierto de conmemoración del 128° Aniversario de Independenica de Filipinas y 80 años de relaciones diplomáticas entre Chile y Filipinas",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Independencia",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1185453171%252F1170662714273%252F1%252Foriginal.20260526-172520%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D0728cd08af3df9a7a6ff2e87bbaa73ed&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/concierto-sinfonias-del-pacifico-128-aniversario-independencia-filipinas-tickets-1989917151768?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Concierto de conmemoración del 128° Aniversario de Independenica de Filipinas y 80 años de relaciones diplomáticas entre Chile y Filipinas",
-      "bio_artista": "La Exposición Internacional de Zaragoza fue una exposición internacional reconocida que se celebró en Zaragoza, España. Desde el 14 de junio al 14 de septiembre de 2008 y cuyo eje temático fue «Agua y desarrollo sostenible». La localización del recinto de la Exposición formó parte de la misma: en la ribera del meandro de Ranillas, una curva que el río Ebro hace a su paso por la ciudad."
     },
     {
       "fuente": "CulturaGob",
@@ -4602,22 +4569,6 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "La obra, financiada por el Ministerio de las Culturas, las Artes y el Patrimonio, considera una inversión superior a los $2.400 millones y permitirá dotar a la comuna de una infraestructura cultural moderna, accesible y pertinente a su identidad territorial.",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CulturaGob",
-      "nombre": "BAFONA y Compañía de Canto y Danza de Guizhou protagonizan jornada de intercambio cultural entre artistas de Chile y China",
-      "venue": "Ministerio de las Culturas",
-      "descripcion": "El encuentro permitió compartir métodos de trabajo y generar vínculos internacionales con la finalidad de fortalecer el desarrollo profesional y la formación de ambos elencos.",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/34.jpg-450x300.jpg",
-      "url": "https://www.cultura.gob.cl/actualidad/bafona-y-compania-de-canto-y-danza-de-guizhou-protagonizan-jornada-de-intercambio-cultural-entre-artistas-de-chile-y-china/",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "El encuentro permitió compartir métodos de trabajo y generar vínculos internacionales con la finalidad de fortalecer el desarrollo profesional y la formación de ambos elencos.",
       "bio_artista": ""
     },
     {
