@@ -1,16 +1,15 @@
 {
-  "generado_en": "2026-06-17T11:38:06.357249+00:00",
-  "total_eventos": 311,
+  "generado_en": "2026-06-17T20:08:13.134875+00:00",
+  "total_eventos": 308,
   "por_fuente": {
-    "Ticketplus": 133,
-    "ComediaTicket": 39,
+    "Ticketplus": 134,
+    "ComediaTicket": 38,
     "PuntoTicket": 31,
-    "Ticketmaster": 31,
+    "Ticketmaster": 33,
     "EsquinaRetornable": 7,
     "GAM": 57,
-    "CulturaGob": 4,
-    "CulturaIquique": 1,
-    "Eventbrite": 6,
+    "CulturaGob": 3,
+    "CulturaIquique": 3,
     "CCLM": 2
   },
   "eventos": [
@@ -43,8 +42,8 @@
       "url": "https://ticketplus.cl/events/the-mandalorian-and-grogu",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "The Mandalorian and Grogu, también conocida como Star Wars: The Mandalorian and Grogu, es una película espacial western estadounidense dirigida por Jon Favreau y coescrita por Favreau y Dave Filoni. Producida por Lucasfilm y distribuida por Walt Disney Studios Motion Pictures, es parte de la franquicia Star Wars y una continuación de la serie de televisión de Disney+ The Mandalorian.",
-      "bio_artista": "The Mandalorian and Grogu, también conocida como Star Wars: The Mandalorian and Grogu, es una película espacial western estadounidense dirigida por Jon Favreau y coescrita por Favreau y Dave Filoni. Producida por Lucasfilm y distribuida por Walt Disney Studios Motion Pictures, es parte de la franquicia Star Wars y una continuación de la serie de televisión de Disney+ The Mandalorian."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -76,7 +75,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "La misteriosa mirada del flamenco de Diego Céspedes en SALA K",
-      "bio_artista": ""
+      "bio_artista": "Un certain regard —en español, Una cierta mirada— es una sección de la selección oficial del Festival de Cannes. Sus proyecciones se realizan en la sala Debussy, en paralelo a la competición por la Palme d'Or. La sección fue introducida en 1978 por Gilles Jacob."
     },
     {
       "fuente": "Ticketplus",
@@ -155,8 +154,8 @@
       "url": "https://ticketplus.cl/events/taller-de-impro-junio",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Patricia del Pilar Portocarrero y Talavera es una actriz, cantante, profesora de teatro y comediante peruana, más conocida por su faceta de clown.",
-      "bio_artista": "Patricia del Pilar Portocarrero y Talavera es una actriz, cantante, profesora de teatro y comediante peruana, más conocida por su faceta de clown."
+      "descripcion_extendida": "Raúl Campos Nieto, más conocido como Raúl Beatmac, es un actor, autor, director y músico de Madrid, conocido por sus habilidades de improvisación teatro-musical y live looping, con vídeos cómicos virales como Amenaza Fail que se han compartido en la red decenas de miles de veces, y sobre el que se ha dicho que es \"el hombre orquesta del siglo XXI\", o \"un tipo capaz de sonar igual de potente que los Chemical Brothers pero sólo con su boca\"",
+      "bio_artista": "Raúl Campos Nieto, más conocido como Raúl Beatmac, es un actor, autor, director y músico de Madrid, conocido por sus habilidades de improvisación teatro-musical y live looping, con vídeos cómicos virales como Amenaza Fail que se han compartido en la red decenas de miles de veces, y sobre el que se ha dicho que es \"el hombre orquesta del siglo XXI\", o \"un tipo capaz de sonar igual de potente que los Chemical Brothers pero sólo con su boca\""
     },
     {
       "fuente": "Ticketplus",
@@ -171,8 +170,8 @@
       "url": "https://ticketplus.cl/events/otelo-2026-06-04-19-00-00-0400",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Otelo: el moro de Venecia u Othello: el moro de Venecia es una obra teatral de William Shakespeare escrita alrededor de 1603. Otelo es una tragedia, como Hamlet, Macbeth y El rey Lear. Shakespeare escribió Otelo probablemente después de Hamlet pero antes que las dos últimas. La primera representación de la que se tiene noticia se celebró el 1 de noviembre de 1604 en el palacio de Whitehall de Londres.",
-      "bio_artista": "Otelo: el moro de Venecia u Othello: el moro de Venecia es una obra teatral de William Shakespeare escrita alrededor de 1603. Otelo es una tragedia, como Hamlet, Macbeth y El rey Lear. Shakespeare escribió Otelo probablemente después de Hamlet pero antes que las dos últimas. La primera representación de la que se tiene noticia se celebró el 1 de noviembre de 1604 en el palacio de Whitehall de Londres."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -237,22 +236,6 @@
       "lon": -70.6693,
       "descripcion_extendida": "",
       "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Tres amigas",
-      "venue": "",
-      "descripcion": "Tres amigas",
-      "fecha_iso": "2026-06-11",
-      "fecha_texto": "11 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/0f6d69643c5204401e0014232a4722d0677bf3e1.jpg?1780945433&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/tres-amigas",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "The Tres Amigas SuperStation was a project proposed in 2009 to unite North America's two major power grids and one of its three minor grids, with the goals of enabling faster adoption of renewable energy and increasing the reliability of the U.S. grid. In 2015, the project lost access to the Eastern Interconnection when Southwestern Public Service dropped out.",
-      "bio_artista": "The Tres Amigas SuperStation was a project proposed in 2009 to unite North America's two major power grids and one of its three minor grids, with the goals of enabling faster adoption of renewable energy and increasing the reliability of the U.S. grid. In 2015, the project lost access to the Eastern Interconnection when Southwestern Public Service dropped out."
     },
     {
       "fuente": "Ticketplus",
@@ -860,7 +843,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>Este 18 de junio las risas están aseguradas! llega a los jueves de comedia de La Diabla, El Cebolla con \"Vida Loca\", el show unipersonal de Adrian Correa, donde a través del entrañable y popular personaje, nos muestra su nueva faceta del humor.</p><p>El querido comediante relata de forma cercana, divertida y ocurrente cómo ha sobrellevado esta hermosa Vida Loca.&nbsp;</p>",
-      "bio_artista": "La música cebolla o canción cebolla es un género musical principalmente en español, y con ciertas influencias de la balada originado en Chile a mediados de los años 1960 El término «cebolla» alude al ser melancólica, nostalgica y llorosa. Considerados como Jorge Farías, Lucho Barrios, Lorenzo Valderrama, Ramón Aguilera, Luis Alberto Martínez, Lucho Gatica y Rosamel Araya precursores del género."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -876,7 +859,7 @@
       "url": "https://www.passline.com/eventos/los-renacidos-522959",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Los renacidos es una película de suspenso policial y crimen de 2025 dirigida y escrita por Santiago Esteves. Es una producción internacional entre Argentina, España y Chile. Narra la historia de dos hermanos que después de muchos años sin verse deben volver a trabajar juntos en el negocio familiar que implica simular la muerte de personas que buscan cruzar ilegalmente la frontera. Está protagonizada por Pedro Fontaine, Marco Antonio Caponi y Óscar de la Fuente."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -956,7 +939,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Jorge Alís-MALON - Viernes 19 Junio 20 hrs",
-      "bio_artista": ""
+      "bio_artista": "El bajo eléctrico, llamado sencillamente bajo, es un instrumento musical melódico de la familia de los cordófonos, similar en apariencia y construcción a la guitarra eléctrica, pero con un cuerpo de mayores dimensiones, un mástil de mayor longitud, escala y cuerdas más gruesas, normalmente cuatro, afinadas según la afinación estándar del contrabajo, su antecesor."
     },
     {
       "fuente": "Ticketplus",
@@ -988,6 +971,22 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Show de Stand Up-Entre Amigues- Viernes io a las 20:30 hrs",
+      "venue": "",
+      "descripcion": "Show de Stand Up-Entre Amigues- Viernes 19 de Junio a las 20:30 hrs",
+      "fecha_iso": "2026-06-19",
+      "fecha_texto": "19 de junio de 2026",
+      "precio_desde_clp": "6.600",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/defea7a2a79d75b60628ccc4f2f49a59d3dbcb18.jpg?1779508066&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/show-de-stand-up-entre-amigues-viernes-19-de-junio-a-las-20-30-hrs",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Show de Stand Up-Entre Amigues- Viernes 19 de Junio a las 20:30 hrs",
       "bio_artista": ""
     },
     {
@@ -1036,7 +1035,7 @@
       "lat": -33.0472,
       "lon": -71.6127,
       "descripcion_extendida": "Sexual Democracia en Terra Viva 2026",
-      "bio_artista": "Las personas del colectivo LGBTI+ en El Salvador se enfrentan a ciertos desafíos legales y sociales no experimentados por otros residentes. Las relaciones sexuales consensuales entre personas del mismo sexo fueron despenalizadas en 1826, sin embargo, la diversidad sexual aun es un tema tabú en la sociedad salvadoreña, la cual es mayormente conservadora, por lo tanto, aun persiste la violencia, la discriminación y la persecución de las personas LGBTI+ en el país."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -1439,6 +1438,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "Ticketmaster",
+      "nombre": "Club Deportivo Palestino vs Deportes Magallanes - Universidad Catolica",
+      "venue": "",
+      "descripcion": "20 de Junio 2026",
+      "fecha_iso": "2026-06-20",
+      "fecha_texto": "20 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "La Cisterna",
+      "imagen_url": "https://cdn.getcrowder.com/images/807c4715-330f-41f3-a339-524fddcc7dd1-sportsmatches640x640.png",
+      "url": "https://www.ticketmaster.cl/event/club-deportivo-palestino-vs-deportes-magallanes-universidad-catolica-estadio-municipal-de-la-cisterna",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
       "fuente": "ComediaTicket",
       "nombre": "COMEDIA DE BAR 20.06 Show Lanzamiento",
       "venue": "",
@@ -1452,7 +1467,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>La comedia como tiene que ser. </p><p>Presencial.</p><p>En bar.</p><p>Para adultos.</p><p>SÁBADO 20 JUNIO LA GRIFERIA STGO.</p><p>Daniel Rubio, Chel, Felo Trujillo, Manu Bustos, Malacabra </p>",
-      "bio_artista": "That '70s Show es una serie de televisión de la cadena televisiva estadounidense Fox, que relata la vida de un grupo de adolescentes de los años 1970; su moda, su música y su día a día. Se emitió por primera vez en Fox el 23 de agosto de 1998 y concluyó en la octava temporada, en el episodio 200 el 18 de mayo de 2006. Está creada por Marcos Brazill, Bonnie Turner y Terry Turner, creadores de 3rd Rock from the Sun y Wayne's World."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
@@ -1516,7 +1531,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La compañía La Llave Maestra estrena su proceso creativo comenzado en residencia en 2025. INFINITA, paisajes de Gabriela presentará a Mistral iniciando un vi",
-      "bio_artista": ""
+      "bio_artista": "KCHO, born Alexis Leiva Machado on the Isle of Pines (1970), is a contemporary Cuban artist. He first attracted international attention by winning the grand prize at South Korea's Gwangju Biennale in 1995."
     },
     {
       "fuente": "PuntoTicket",
@@ -1532,7 +1547,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Atletico Colina vs Brujas de Salamanca, domingo 21 de junio 2026 12:00 hrs. en Claro Arena - Las Condes.",
-      "bio_artista": ""
+      "bio_artista": "El Club Atlético Bucaramanga es un equipo de fútbol colombiano con sede en la ciudad de Bucaramanga, capital del departamento de Santander, que participa en el campeonato de la Categoría Primera A, máxima categoría de la División Mayor del Fútbol Colombiano."
     },
     {
       "fuente": "PuntoTicket",
@@ -1596,6 +1611,22 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Este ciclo incluye en su programación a los artistas Carlos Vera Cuarteto, que presentará jazz moderno; a Kuki González &amp; Ensamble Sudaka con su proyecto",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaIquique",
+      "nombre": "24 de junio: Ensayo abierto al público | Orquesta Regional de Tarapacá",
+      "venue": "Corporación Cultural Municipal de Iquique",
+      "descripcion": "Repertorio: Director Titular:&#160;Jonathan Ávila Teatro Municipal de IquiqueFecha: 24 de junio, 2026Horario: 10:30 a 11:30 hrs.",
+      "fecha_iso": "2026-06-24",
+      "fecha_texto": "24 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Iquique",
+      "imagen_url": "",
+      "url": "https://culturaiquique.cl/noticias/24-de-junio-ensayo-abierto-al-publico-orquesta-regional-de-tarapaca/",
+      "lat": -20.2208,
+      "lon": -70.1431,
+      "descripcion_extendida": "Repertorio: Director Titular:&#160;Jonathan Ávila Teatro Municipal de IquiqueFecha: 24 de junio, 2026Horario: 10:30 a 11:30 hrs.",
       "bio_artista": ""
     },
     {
@@ -1804,6 +1835,22 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>Tras un año de creación colectiva, el colectivo teatral Compañía Salón de Té presenta &lt;em&gt;Salud Amparito&lt;/em&gt;, una comedia catártica creada por tres actrices del litoral central que pone en escena los temores, paranoias y delirios de persecución que atraviesan la vida contemporánea.&lt;/p&gt;&lt;p&gt;La obra nos sitúa en una reunión entre amigas que comienza como una celebración de la amistad, pero que poco a poco se transforma en una espiral de sospechas, ansiedad y miedo. Entre noticias alarmantes, teorías que circulan en redes sociales y una constante sensación de peligro, las protagonistas terminan atrapadas por sus propios pensamientos y fantasmas internos.&lt;/p&gt;&lt;p&gt;Con humor, teatralidad y situaciones absurdamente reconocibles, &lt;em&gt;Salud Amparito&lt;/em&gt; invita al público a reírse de aquello que muchas veces consume silenciosamente nuestra vida cotidiana: el exceso de información, la sobreexposición digital y el miedo permanente instalado en la sociedad actual.&lt;/p&gt;&lt;p&gt;Las funciones se realizarán los días 12, 19 y 26 de junio, a las 20:00 horas, en Espacio Wayra.&lt;/p&gt;</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaIquique",
+      "nombre": "26 de junio: Concierto de Temporada | Orquesta Regional de Tarapacá",
+      "venue": "Corporación Cultural Municipal de Iquique",
+      "descripcion": "Repertorio: Director Titular:&#160;Jonathan Ávila Teatro Municipal de IquiqueFecha: 26 de junio, 2026Horario: 20:00 hrs.",
+      "fecha_iso": "2026-06-26",
+      "fecha_texto": "26 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Iquique",
+      "imagen_url": "",
+      "url": "https://culturaiquique.cl/noticias/26-de-junio-concierto-de-temporada-orquesta-regional-de-tarapaca/",
+      "lat": -20.2208,
+      "lon": -70.1431,
+      "descripcion_extendida": "Repertorio: Director Titular:&#160;Jonathan Ávila Teatro Municipal de IquiqueFecha: 26 de junio, 2026Horario: 20:00 hrs.",
       "bio_artista": ""
     },
     {
@@ -2124,7 +2171,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Programa Especial: Aniversario Orquesta",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica Venezuela (conocida también como Orquesta Sinfónica de Venezuela y OSV) es una de las orquestas más importantes de Venezuela. Fue fundada por Vicente Emilio Sojo el 24 de junio de 1930 y es, después de la Orquesta Sinfónica de Boston, la orquesta más antigua del continente americano. Sus directores titulares han sido los maestros Vicente Emilio Sojo, Vicente Martucci, Ángel Sauce, Antonio Estévez, Gonzalo Castellanos Yumar, Georg Schmöhe, Eduardo Marturet y Theodore Kuchar."
     },
     {
       "fuente": "Ticketplus",
@@ -2251,8 +2298,8 @@
       "url": "https://ticketplus.cl/events/otaku-gol-fest",
       "lat": -41.3199,
       "lon": -72.9847,
-      "descripcion_extendida": "«Zankoku na Tenshi no Tēze» , también conocido por su título en inglés «A Cruel Angel's Thesis», es el tema de apertura del anime Neon Genesis Evangelion, interpretado por Yōko Takahashi. Hidetoshi Satō y Toshiyuki Ōmori compusieron e hicieron los arreglos, respectivamente, mientras que Neko Oikawa escribió la letra. Se lanzó como sencillo de doble cara A con «Fly Me to the Moon», el tema de cierre, el 25 de octubre de 1995.",
-      "bio_artista": "«Zankoku na Tenshi no Tēze» , también conocido por su título en inglés «A Cruel Angel's Thesis», es el tema de apertura del anime Neon Genesis Evangelion, interpretado por Yōko Takahashi. Hidetoshi Satō y Toshiyuki Ōmori compusieron e hicieron los arreglos, respectivamente, mientras que Neko Oikawa escribió la letra. Se lanzó como sencillo de doble cara A con «Fly Me to the Moon», el tema de cierre, el 25 de octubre de 1995."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -2285,22 +2332,6 @@
       "lon": -70.640556,
       "descripcion_extendida": "La agrupación de cámara Amanay presenta el concierto “Música chilena para siete” en la segunda fecha de conciertos de la temporada de música de la Universida",
       "bio_artista": "La música de Chile se refiere a la música creada en Chile o por chilenos en el extranjero, que forma parte de su cultura. También incluye la música de los pueblos indígenas que habitaban en el Chile actual. El 4 de octubre fue declarado como el «día de la música y de los músicos chilenos» en conmemoración del natalicio de Violeta Parra."
-    },
-    {
-      "fuente": "GAM",
-      "nombre": "Lanzamiento de libro: Los sicópatas de Viña: Escrito por Alfonso Alcalde",
-      "venue": "Centro Gabriela Mistral (GAM)",
-      "descripcion": "Una crónica sobre uno de los casos policiales más impactantes de la historia reciente de Chile",
-      "fecha_iso": "2026-07-07",
-      "fecha_texto": "7 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://gam.cl/media/images/PORTADA_87nEfR7.2e16d0ba.fill-1200x630.png",
-      "url": "https://gam.cl/es/que-hacer-en-gam/ideasypensamiento/lanzamiento-de-libro-los-sicopatas-de-vina/",
-      "lat": -33.437778,
-      "lon": -70.640556,
-      "descripcion_extendida": "Una crónica sobre uno de los casos policiales más impactantes de la historia reciente de Chile",
-      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2397,6 +2428,22 @@
       "lon": null,
       "descripcion_extendida": "LA SOCIEDAD - El Regreso - en Enjoy Coquimbo",
       "bio_artista": "La Sociedad es un dúo musical chileno, formado en la comuna de Ñuñoa, Santiago de Chile, en el año 1984. De gran éxito durante los años 90 en Chile y Latinoamérica, se disolvió por primera vez en 2001, se reunieron nuevamente en 2012, para un nuevo receso en 2016. En 2025 vuelven a juntarse para una gira de conciertos."
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Especial británico KEANE & COLDPLAY por ATLANTIC y JUEGOFRIO",
+      "venue": "",
+      "descripcion": "Especial británico KEANE & COLDPLAY por ATLANTIC y JUEGOFRIO",
+      "fecha_iso": "2026-07-10",
+      "fecha_texto": "10 de julio de 2026",
+      "precio_desde_clp": "13.000",
+      "ciudad": "Valparaíso",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/103fe7a8646bfd8e618eac144b0c56a402b951bb.jpeg?1781714392&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/especial-britanico-keane-coldplay-por-atlantic-y-juegofrio",
+      "lat": -33.0472,
+      "lon": -71.6127,
+      "descripcion_extendida": "Especial británico KEANE & COLDPLAY por ATLANTIC y JUEGOFRIO",
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -2524,7 +2571,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, viernes 17 de julio 2026 al viernes 17 de julio 2026 en Gimnasio Municipal de Concepción - Concepción.",
-      "bio_artista": ""
+      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
     },
     {
       "fuente": "GAM",
@@ -2988,7 +3035,7 @@
       "lat": -33.0472,
       "lon": -71.6127,
       "descripcion_extendida": "Magic One Presenta Ver Para Creer Magia & Ilusión",
-      "bio_artista": "The Vanishing Lady es un exitoso dispositivo de escaparate, creado en 1898 por Charles Morton para unos grandes almacenes de Sacramento. Fue muy celebrado en 1900 por Frank Baum en un libro dedicado a la decoración de escaparates, publicado el mismo año que El maravilloso mago de Oz. Se trata del busto de una mujer viva, que aparece sobre un pedestal, luego parece desaparecer dentro de él, solo para reaparecer con un nuevo atuendo."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3021,6 +3068,22 @@
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, sábado 01 de agosto 2026 al sábado 01 de agosto 2026 en Gimnasio Sokol, Antofagasta - Antofagasta.",
       "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
+    },
+    {
+      "fuente": "Ticketmaster",
+      "nombre": "Cosplay Fest Edición",
+      "venue": "",
+      "descripcion": "1 de Agosto 2026",
+      "fecha_iso": "2026-08-01",
+      "fecha_texto": "1 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Puerto Varas",
+      "imagen_url": "https://cdn.getcrowder.com/images/ebd97b2a-8bb2-4cd9-a6fb-134789d1e6a8-640x640cosplay.jpg",
+      "url": "https://www.ticketmaster.cl/event/1629-cosplay-fest-edicion-puerto-varas",
+      "lat": -41.3199,
+      "lon": -72.9847,
+      "descripcion_extendida": "Tokyo Impactoo! es una organización que realizó proyectos de hobbies y entretenimiento audiovisual en cumamerica, especialmente en Cumlombia. Su principal iniciativa consistió en una serie de eventos del mismo nombre el cual contó dentro de sus actividades distintivas la presentación de artistas internacionales relacionados con el anime, el manga y el j-music, así como segmentos en donde también se involucraban actividades de cosplay, videojuegos, y películas de ciencia ficción.",
+      "bio_artista": "Tokyo Impactoo! es una organización que realizó proyectos de hobbies y entretenimiento audiovisual en cumamerica, especialmente en Cumlombia. Su principal iniciativa consistió en una serie de eventos del mismo nombre el cual contó dentro de sus actividades distintivas la presentación de artistas internacionales relacionados con el anime, el manga y el j-music, así como segmentos en donde también se involucraban actividades de cosplay, videojuegos, y películas de ciencia ficción."
     },
     {
       "fuente": "GAM",
@@ -3260,7 +3323,7 @@
       "lat": -33.456667,
       "lon": -70.655556,
       "descripcion_extendida": "Compra tu entrada para Joaquin Cortés, miércoles 19 de agosto 2026 20:00 hrs. en Movistar Arena - Santiago Centro.",
-      "bio_artista": ""
+      "bio_artista": "Joaquín Cortés Reyes, más conocido como Joaquín Cortés es un bailaor, coreógrafo y productor español."
     },
     {
       "fuente": "Ticketmaster",
@@ -3307,8 +3370,8 @@
       "url": "https://ticketplus.cl/events/piare-en-enjoy-vina",
       "lat": -33.0472,
       "lon": -71.6127,
-      "descripcion_extendida": "Manuel Carlos María Francisco Piar Gómez fue un militar hispano-venezolano nacido en Curazao, prócer de la Independencia de Venezuela. Y además dentro de los canales de la historia republicana venezolana es reconocido como el Libertador de Guayana y Generalísimo Invicto, por haber disputado 24 batallas y no haber sido derrotado. Fue fusilado por orden de Simón Bolívar.",
-      "bio_artista": "Manuel Carlos María Francisco Piar Gómez fue un militar hispano-venezolano nacido en Curazao, prócer de la Independencia de Venezuela. Y además dentro de los canales de la historia republicana venezolana es reconocido como el Libertador de Guayana y Generalísimo Invicto, por haber disputado 24 batallas y no haber sido derrotado. Fue fusilado por orden de Simón Bolívar."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -3376,6 +3439,22 @@
     },
     {
       "fuente": "GAM",
+      "nombre": "Lanzamiento de libro: Los sicópatas de Viña: Escrito por Alfonso Alcalde",
+      "venue": "Centro Gabriela Mistral (GAM)",
+      "descripcion": "Una crónica sobre uno de los casos policiales más impactantes de la historia reciente de Chile",
+      "fecha_iso": "2026-08-26",
+      "fecha_texto": "26 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://gam.cl/media/images/PORTADA_87nEfR7.2e16d0ba.fill-1200x630.png",
+      "url": "https://gam.cl/es/que-hacer-en-gam/ideasypensamiento/lanzamiento-de-libro-los-sicopatas-de-vina/",
+      "lat": -33.437778,
+      "lon": -70.640556,
+      "descripcion_extendida": "Una crónica sobre uno de los casos policiales más impactantes de la historia reciente de Chile",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "GAM",
       "nombre": "La pérgola de las flores: PRODUCCIÓN GAM",
       "venue": "Centro Gabriela Mistral (GAM)",
       "descripcion": "La aclamada versión de Héctor Noguera regresa a GAM con más de 30 intérpretes que llevan a escena uno de los grandes hitos del teatro nacional. Con texto ori",
@@ -3383,7 +3462,7 @@
       "fecha_texto": "28 de agosto de 2026",
       "precio_desde_clp": "",
       "ciudad": "Santiago",
-      "imagen_url": "https://gam.cl/media/images/2022-08-pergola-flores-slider-int.340d0d85.fill-1200x630.jpg",
+      "imagen_url": "https://gam.cl/media/images/PORTADAPergola.2e16d0ba.fill-1200x630.png",
       "url": "https://gam.cl/es/que-hacer-en-gam/teatro/la-pergola-de-las-flores/",
       "lat": -33.437778,
       "lon": -70.640556,
@@ -3435,8 +3514,8 @@
       "url": "https://ticketplus.cl/events/el-vicio-absurdo",
       "lat": -36.827,
       "lon": -73.0502,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Qué absurdo es haber crecido es una película de Argentina filmada en colores dirigida por Roly Santos sobre su propio guion que se estrenó el 30 de noviembre de 2000 y que tuvo como actores principales a Gustavo Garzón, Leo Maslíah, Laura Melillo y Damián Dreizik.",
+      "bio_artista": "Qué absurdo es haber crecido es una película de Argentina filmada en colores dirigida por Roly Santos sobre su propio guion que se estrenó el 30 de noviembre de 2000 y que tuvo como actores principales a Gustavo Garzón, Leo Maslíah, Laura Melillo y Damián Dreizik."
     },
     {
       "fuente": "PuntoTicket",
@@ -3612,7 +3691,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La obra, en versión de La Dramática Nacional y con dramaturgia de María Asunción Requena, narra la vida de los chilotes de Curaco de Vélez en los años 70, qu",
-      "bio_artista": "Nelson Omar Brodt Chávez es un actor, director, dramaturgo y docente chileno, de extensa trayectoria en teatro, cine y televisión."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3675,8 +3754,8 @@
       "url": "https://www.ticketmaster.cl/event/robbie-williams-2026",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Robert Peter Williams, más conocido como Robbie Williams, es un cantante, compositor y actor británico.",
+      "bio_artista": "Robert Peter Williams, más conocido como Robbie Williams, es un cantante, compositor y actor británico."
     },
     {
       "fuente": "GAM",
@@ -3692,7 +3771,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "GAM abre un nuevo espacio para compartir la versatilidad de la guitarra. En este ciclo se realizarán tres sesiones con obras que viajan desde el barroco hast",
-      "bio_artista": "No va más es el sexto disco de la banda española de heavy metal Barón Rojo. El disco se publicó en 1988 y fue producido por Barón Rojo para Chapa/Serdisco."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -3760,6 +3839,22 @@
     },
     {
       "fuente": "GAM",
+      "nombre": "LAIA",
+      "venue": "Centro Gabriela Mistral (GAM)",
+      "descripcion": "Un concierto inmersivo que marca el cierre de “Voy”, el tercer disco de las hermanas LAIA. Una noche para recorrer las canciones, visuales y relatos que dier",
+      "fecha_iso": "2026-10-03",
+      "fecha_texto": "3 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://gam.cl/media/images/Foto-TRIA_3.2e16d0ba.fill-1200x630.jpg",
+      "url": "https://gam.cl/es/que-hacer-en-gam/musica-popular/laia/",
+      "lat": -33.437778,
+      "lon": -70.640556,
+      "descripcion_extendida": "Un concierto inmersivo que marca el cierre de “Voy”, el tercer disco de las hermanas LAIA. Una noche para recorrer las canciones, visuales y relatos que dier",
+      "bio_artista": "Langile Abertzale Iraultzaileen Alderdia (LAIA), en euskera «Partido de los Trabajadores Patriotas Revolucionarios», fue un partido político del País Vasco (España) de ideología socialista y nacionalista vasca que nació durante los últimos años de la dictadura del general Franco a consecuencia de una escisión de ETA. Sus siglas, laia son también el nombre en euskera de una herramienta agrícola."
+    },
+    {
+      "fuente": "GAM",
       "nombre": "Ventanal Alameda: Juan Radrigán",
       "venue": "Centro Gabriela Mistral (GAM)",
       "descripcion": "Con la ciudad de telón de fondo desde BiblioGAM, nace un nuevo escenario para la ebullición de ideas y el pensamiento contemporáneo. La décima sesión de Vent",
@@ -3789,22 +3884,6 @@
       "lon": -73.0502,
       "descripcion_extendida": "Sinfónico 10: Encuentro de culturas",
       "bio_artista": "La orquesta sinfónica u orquesta filarmónica es aquella orquesta que tiene instrumentos sinfónicos, como los de viento madera, viento metal, percusión y cuerda. Una orquesta sinfónica tiene, generalmente, entre ochenta y cien músicos en su lista. Solo en algunos casos llega a tener más de cien, pero el número de músicos empleados en una interpretación particular puede variar según la obra que va a ser ejecutada."
-    },
-    {
-      "fuente": "GAM",
-      "nombre": "LAIA",
-      "venue": "Centro Gabriela Mistral (GAM)",
-      "descripcion": "Un concierto inmersivo que marca el cierre de “Voy”, el tercer disco de las hermanas LAIA. Una noche para recorrer las canciones, visuales y relatos que dier",
-      "fecha_iso": "2026-10-10",
-      "fecha_texto": "10 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://gam.cl/media/images/Foto-TRIA_3.2e16d0ba.fill-1200x630.jpg",
-      "url": "https://gam.cl/es/que-hacer-en-gam/musica-popular/laia/",
-      "lat": -33.437778,
-      "lon": -70.640556,
-      "descripcion_extendida": "Un concierto inmersivo que marca el cierre de “Voy”, el tercer disco de las hermanas LAIA. Una noche para recorrer las canciones, visuales y relatos que dier",
-      "bio_artista": "Langile Abertzale Iraultzaileen Alderdia (LAIA), en euskera «Partido de los Trabajadores Patriotas Revolucionarios», fue un partido político del País Vasco (España) de ideología socialista y nacionalista vasca que nació durante los últimos años de la dictadura del general Franco a consecuencia de una escisión de ETA. Sus siglas, laia son también el nombre en euskera de una herramienta agrícola."
     },
     {
       "fuente": "Ticketplus",
@@ -4028,7 +4107,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Consagrada con Mala Madre y su reciente disco Rey, la artista ganadora del Pulsar trae una propuesta única que fusiona raíz folclórica, rock y electrónica. U",
-      "bio_artista": "Camila Moreno Elgart es una cantautora chilena de música alternativa. Alcanzó notoriedad con su sencillo debut, «Millones», parte de su primer álbum Almismotiempo, el cual fue nominado en los Grammy Latinos 2009 en la categoría de Mejor Canción Alternativa. Desde entonces ha desarrollado una carrera consolidada en la escena musical independiente, participando en diversos proyectos musicales, colaboraciones, y presentaciones tanto en Chile como en el extranjero."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -4076,7 +4155,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Dirigida por Claudio Puebla, la obra narra la historia de dos hermanos separados por un accidente. Uno de ellos queda atrapado en el Kibba, un espacio de trá",
-      "bio_artista": ""
+      "bio_artista": "El hip hop peruano es un movimiento cultural que llegó al Perú a mediados de los años 1980 gracias a películas como Beat Street donde el tema principal era el breakdance, nombre comercial del B-boying. El rap empezó a mediados de la década de los 80, de la mano del breakdance, como una forma de reivindicar los derechos y las libertades de las personas en la calle."
     },
     {
       "fuente": "GAM",
@@ -4092,7 +4171,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Escrita y dirigida por Pablo Greene, Equipo Teatro presenta una comedia dramática inspirada en un reportaje del Washington Times sobre familias fracturadas p",
-      "bio_artista": ""
+      "bio_artista": "John Eric Stowe, OFM Conv., es un prelado estadounidense de la Iglesia católica que ha sido obispo de Lexington en Kentucky desde 2015."
     },
     {
       "fuente": "Ticketmaster",
@@ -4331,8 +4410,8 @@
       "url": "https://www.ticketmaster.cl/event/family-fest-by-hasbro",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia",
+      "bio_artista": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia"
     },
     {
       "fuente": "Ticketmaster",
@@ -4347,8 +4426,8 @@
       "url": "https://www.ticketmaster.cl/event/almas-perdidas-experiencia-suspenso-terror-vr-metropolitan",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Almas perdidas es la compilación de cuentos de cine protagonizada por muchos de los grandes nombres del cine incluyendo Hugh Jackman, Keira Knightley, Cate Blanchett, James Gandolfini, Paul Bettany, Illeana Douglas y dirigida por siete diferentes directores incluidos Deborra-Lee Furness y Illeana Douglas. Publicado en Cannes en 2005, esta colección ha llegado a alcanzar tanto éxito comercial y crítico en todo el mundo.",
-      "bio_artista": "Almas perdidas es la compilación de cuentos de cine protagonizada por muchos de los grandes nombres del cine incluyendo Hugh Jackman, Keira Knightley, Cate Blanchett, James Gandolfini, Paul Bettany, Illeana Douglas y dirigida por siete diferentes directores incluidos Deborra-Lee Furness y Illeana Douglas. Publicado en Cannes en 2005, esta colección ha llegado a alcanzar tanto éxito comercial y crítico en todo el mundo."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -4432,19 +4511,19 @@
     },
     {
       "fuente": "Ticketmaster",
-      "nombre": "Boite Bijoux",
-      "venue": "Teatro Nescafé De Las Artes",
+      "nombre": "Los Puentes de Madison",
+      "venue": "Teatro Mori",
       "descripcion": "Junio 2026",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Providencia",
-      "imagen_url": "https://cdn.getcrowder.com/images/ae7c9976-7042-413c-bd84-9678ed822375-tmboite-bijoux640x640.jpg",
-      "url": "https://www.ticketmaster.cl/event/boite-bijoux-teatro-nescafe-de-las-artes",
-      "lat": -33.425278,
-      "lon": -70.608056,
-      "descripcion_extendida": "Teatro Aparte es una compañía de teatro chilena reconocida como una de las más exitosas en las últimas décadas. Fue fundada en 1988 y está conformada por los actores Rodrigo Bastidas, Magdalena Max-Neef, Elena Muñoz y Gabriel Prieto, con participaciones recurrentes de Josefina Velasco, Álvaro Pacull y Rodrigo Muñoz.",
-      "bio_artista": "Teatro Aparte es una compañía de teatro chilena reconocida como una de las más exitosas en las últimas décadas. Fue fundada en 1988 y está conformada por los actores Rodrigo Bastidas, Magdalena Max-Neef, Elena Muñoz y Gabriel Prieto, con participaciones recurrentes de Josefina Velasco, Álvaro Pacull y Rodrigo Muñoz."
+      "ciudad": "Las Condes",
+      "imagen_url": "https://cdn.getcrowder.com/images/bd19069c-bcea-4a66-9458-d59fb831eb44-lospuentesdemadison-640x640-web-mori-mayo.png",
+      "url": "https://www.ticketmaster.cl/event/292-los-puentes-de-madison-teatro-mori-parque-arauco",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Los puentes de Madison es una película estadounidense de 1995, dirigida y protagonizada por Clint Eastwood junto a Meryl Streep, Annie Corley, Victor Slezak y Jim Haynie, entre otros.",
+      "bio_artista": "Los puentes de Madison es una película estadounidense de 1995, dirigida y protagonizada por Clint Eastwood junto a Meryl Streep, Annie Corley, Victor Slezak y Jim Haynie, entre otros."
     },
     {
       "fuente": "Ticketmaster",
@@ -4464,19 +4543,19 @@
     },
     {
       "fuente": "Ticketmaster",
-      "nombre": "Los Puentes de Madison",
-      "venue": "Teatro Mori",
+      "nombre": "Boite Bijoux",
+      "venue": "Teatro Nescafé De Las Artes",
       "descripcion": "Junio 2026",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Las Condes",
-      "imagen_url": "https://cdn.getcrowder.com/images/bd19069c-bcea-4a66-9458-d59fb831eb44-lospuentesdemadison-640x640-web-mori-mayo.png",
-      "url": "https://www.ticketmaster.cl/event/292-los-puentes-de-madison-teatro-mori-parque-arauco",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Los puentes de Madison es una película estadounidense de 1995, dirigida y protagonizada por Clint Eastwood junto a Meryl Streep, Annie Corley, Victor Slezak y Jim Haynie, entre otros.",
-      "bio_artista": "Los puentes de Madison es una película estadounidense de 1995, dirigida y protagonizada por Clint Eastwood junto a Meryl Streep, Annie Corley, Victor Slezak y Jim Haynie, entre otros."
+      "ciudad": "Providencia",
+      "imagen_url": "https://cdn.getcrowder.com/images/ae7c9976-7042-413c-bd84-9678ed822375-tmboite-bijoux640x640.jpg",
+      "url": "https://www.ticketmaster.cl/event/boite-bijoux-teatro-nescafe-de-las-artes",
+      "lat": -33.425278,
+      "lon": -70.608056,
+      "descripcion_extendida": "Teatro Aparte es una compañía de teatro chilena reconocida como una de las más exitosas en las últimas décadas. Fue fundada en 1988 y está conformada por los actores Rodrigo Bastidas, Magdalena Max-Neef, Elena Muñoz y Gabriel Prieto, con participaciones recurrentes de Josefina Velasco, Álvaro Pacull y Rodrigo Muñoz.",
+      "bio_artista": "Teatro Aparte es una compañía de teatro chilena reconocida como una de las más exitosas en las últimas décadas. Fue fundada en 1988 y está conformada por los actores Rodrigo Bastidas, Magdalena Max-Neef, Elena Muñoz y Gabriel Prieto, con participaciones recurrentes de Josefina Velasco, Álvaro Pacull y Rodrigo Muñoz."
     },
     {
       "fuente": "ComediaTicket",
@@ -4640,22 +4719,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Ezequiel Campa en Palermo",
-      "venue": "",
-      "descripcion": "<p>Luego de despedir su exitoso espectáculo \"Sí pero no\", Ezequiel Campa presenta \"DIJE UN CHISTE\", su nuevo show de stand up.</p><p><br></p><p>El punto de partida es tan simple como incómodo: el comediante que nunca deja de ser comediante. Por qué? Porque el mundo es un lugar menos horrible si hay comedia.</p><p><br></p><p>En DIJE UN CHISTE, Campa se mete justamente ahí: en ese instante en el que algo se dice y ya no se puede desdecir.</p><p><br></p><p>Consolidado como uno de los referentes del stand up argentino, Ezequiel Campa cuenta con tres especiales grabados para Comedy Central, participaciones en festivales internacionales como el Festival de Comedia de New York, el Festival Internacional de Humor de Bogotá y el Festival de Las Condes (Chile), además de una extensa trayectoria en televisión, ficción y cine.</p><p><br></p><p>Ganador del Premio Estrella de Mar a Mejor Show de Stand Up por Cheto y Choto (2021) y Sí pero no (2025), Campa vuelve al escenario con un espectáculo que no busca evitar el conflicto, sino mirarlo de frente… y decir un chiste.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Las Condes",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-f6cocqmw-publish.jpeg",
-      "url": "https://comediaticket.cl/details/events_details/ezequiel-campa-en-palermo-_37lhc",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>Luego de despedir su exitoso espectáculo \"Sí pero no\", Ezequiel Campa presenta \"DIJE UN CHISTE\", su nuevo show de stand up.</p><p><br></p><p>El punto de partida es tan simple como incómodo: el comediante que nunca deja de ser comediante. Por qué? Porque el mundo es un lugar menos horrible si hay comedia.</p><p><br></p><p>En DIJE UN CHISTE, Campa se mete justamente ahí: en ese instante en el que algo se dice y ya no se puede desdecir.</p><p><br></p><p>Consolidado como uno de los referentes del stand up argentino, Ezequiel Campa cuenta con tres especiales grabados para Comedy Central, participaciones en festivales internacionales como el Festival de Comedia de New York, el Festival Internacional de Humor de Bogotá y el Festival de Las Condes (Chile), además de una extensa trayectoria en televisión, ficción y cine.</p><p><br></p><p>Ganador del Premio Estrella de Mar a Mejor Show de Stand Up por Cheto y Choto (2021) y Sí pero no (2025), Campa vuelve al escenario con un espectáculo que no busca evitar el conflicto, sino mirarlo de frente… y decir un chiste.</p>",
-      "bio_artista": "El Palermo Football Club es un club de fútbol italiano de Palermo, en Sicilia, fundado en 1900 y refundado varias veces. Actualmente juega en la Serie B, la segunda división del fútbol Italiano."
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "VOLTAJE presenta: Tomás Melivilu en",
       "venue": "",
       "descripcion": "<p>Voltaje presenta una noche de comedia única en Concepción; el show largo de una de las revelaciones del humor nacional: Tomás Melivilu, además de un sabroso show de trasnoche para los que quieran conocer a las mejores voces de la comedia penquista y continuar riendo en el misterioso tercer piso de la Casona Cautiva.</p><p><br></p><p>Comenzamos a lo grande este imperdible ciclo de shows estelares para el gran Concepción, a un precio inigualable para que nadie se quede fuera. La información completa en: @voltaje.clubdecomedia. Si le gusta el stand up comedy, la invitación es a ser parte del club.&nbsp;</p>",
@@ -4748,7 +4811,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>¡ATREVIDO!</p><p>El show que NO puedes perderte. Después de 3 años de carrera y de sus explosivos pasos por Chilevisión y el Coliseo de Mega, Ramón González (@elramon.cl) llega con su espectáculo más desatado. ATREVIDO es comedia sin anestesia: separaciones, hijos, relaciones de pareja y verdades tan crudas que duelen… de la risa. Sin filtro, sin disculpas y con total descaro.</p><p><br></p><p>Vas a salir con la mandíbula adolorida, lágrimas en los ojos y diciendo: “¡Este gil dijo exactamente lo que yo pensaba!” Este no es un show más. Es EL show que te va a recordar por qué el stand up existe. ¿Quieres reírte como nunca? Reserva YA tu entrada antes de que se agoten.</p><p>¡ATREVIDO! Porque solo los valientes se atreven… y tú también lo eres. ¡No digas después que no te lo advertí!</p>",
-      "bio_artista": ""
+      "bio_artista": "Sigo atrevido es el título del segundo álbum de estudio grabado por el cantautor y músico de salsa puertorriqueño-estadounidense Eddie Santiago. Fue lanzado al mercado por la empresa discográfica TH-Rodven a finales del año 1987 y encabezó las listas de música tropical por un año. El álbum recibió una nominación al Premio Grammy al mejor álbum latino tropical tradicional en la 31°. edición anual de los Premios Grammy en el año 1989."
     },
     {
       "fuente": "ComediaTicket",
@@ -4815,102 +4878,6 @@
       "bio_artista": "El anticlímax, del griego anti y clímax, es una figura literaria que consiste en una gradación de términos negativos y opuestos a los evocados durante una primera gradación de términos positivos."
     },
     {
-      "fuente": "Eventbrite",
-      "nombre": "George Gurdjieff en la mirada de Sergio Salinas",
-      "venue": "",
-      "descripcion": "Sergio Salinas Cañas nos presenta sus indagaciones sobre las doctrinas de Gurdjieff",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1186646538%252F2364850590963%252F1%252Foriginal.20260611-011236%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D184ca0028fe2633d319b6887677c5dc4&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/george-gurdjieff-en-la-mirada-de-sergio-salinas-tickets-1991288559686?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Sergio Salinas Cañas nos presenta sus indagaciones sobre las doctrinas de Gurdjieff",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "GameDev Planet Junio 2026",
-      "venue": "",
-      "descripcion": "Nos encontramos nuevamente en GameDev Planet con charlas, demos y un after!",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1186282227%252F175838834633%252F1%252Foriginal.20260605-231712%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.307%26fp-y%3D0.197%26s%3Db39854f29487dd1072016b7245728830&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/gamedev-planet-junio-2026-tickets-1990336479990?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Nos encontramos nuevamente en GameDev Planet con charlas, demos y un after!",
-      "bio_artista": "Metroid Prime es un videojuego de acción-aventura en primera persona con componentes de disparos y plataformas, desarrollado por Retro Studios y distribuido por Nintendo para la consola Nintendo GameCube, fue lanzado el 19 de noviembre de 2002 en América, el 28 de febrero de 2003 en Japón y el 21 de marzo de 2003 en Europa."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "WORKSHOP GRATUITO - FITNESS AND WELLNESS",
-      "venue": "",
-      "descripcion": "DEFINE TU NICHO & EL NEGOCIO INVISIBLE DE TU GIMNASIO Workshop Presencial · Santiago de Chile",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1186561449%252F2838219110781%252F1%252Foriginal.20260610-030749%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.508%26fp-y%3D0.427%26s%3De63c38df4c5335d1e23ac072e70ae084&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/workshop-gratuito-fitness-and-wellness-tickets-1991521716063?aff=ebdssbcitybrowse",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "DEFINE TU NICHO & EL NEGOCIO INVISIBLE DE TU GIMNASIO Workshop Presencial · Santiago de Chile",
-      "bio_artista": "El BBC Radiophonic Workshop, fue una de las primeras unidades de efectos de sonido de la BBC. Se creó en 1958 con el objetivo de producir efectos y nueva música para la radio, y se cerró en marzo de 1998, aunque buena parte de sus tareas tradicionales ya habían sido externalizadas hacia 1995. Estaba radicado en los estudios de la BBC Maida Vale Studios en Delaware Road, Londres, desarrollando su actividad en la entonces legendaria Habitación 13."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "Concierto Journey by the 80s - Nico Cid",
-      "venue": "",
-      "descripcion": "Prepárate para viajar en el tiempo con los mejores hits de los 80s junto a Nico Cid en un concierto que no te puedes perder",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1186769243%252F1170662714273%252F1%252Foriginal.20260612-154803%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D16f090fc9633e2eef25a3e59b730b1e0&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/concierto-journey-by-the-80s-nico-cid-tickets-1991735706113?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Prepárate para viajar en el tiempo con los mejores hits de los 80s junto a Nico Cid en un concierto que no te puedes perder",
-      "bio_artista": "Jeff Scott Soto es un cantante de rock estadounidense, vocalista de Axel Rudi Pell, de los dos primeros álbumes de Yngwie Malmsteen, y (brevemente) el vocalista principal de Journey de 2006 a 2007. También tuvo una larga permanencia como líder de la banda de hard rock Talismán. Actualmente trabaja como solista, con su propia banda SOTO y como vocalista de los supergrupos W.e.t., Sons of Apollo y Trans-Siberian Orchestra."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "Concierto Jóvenes Sinfónicos de la OSIM - FOJI",
-      "venue": "",
-      "descripcion": "Ven a disfrutar de todo el talento de los niños y jóvenes de la Orquesta Sinfónica Infantil Metropolitana de FOJI",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1184889497%252F1170662714273%252F1%252Foriginal.20260518-212242%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Db4c8ae631c991ca7374aee2e1309e35d&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/concierto-jovenes-sinfonicos-de-la-osim-foji-tickets-1989863004813?aff=ebdssbcitybrowse",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Ven a disfrutar de todo el talento de los niños y jóvenes de la Orquesta Sinfónica Infantil Metropolitana de FOJI",
-      "bio_artista": "La Orquesta Sinfónica Infantil de México (OSIM) es una agrupación musical que reúne a niños, niñas y jóvenes de las 32 entidades federativas de su país. Forma parte del Sistema Nacional de Fomento Musical del Conaculta."
-    },
-    {
-      "fuente": "Eventbrite",
-      "nombre": "CGS 2026 (6th Edition)",
-      "venue": "",
-      "descripcion": "Asista a la conferencia exclusiva para C-levels que reunirá a los líderes del ecosistema de gaming, apuestas, fintech, hitech y regulación.",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1184658523%252F395069078733%252F1%252Foriginal.20260515-040305%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dc9aa8a82fc3d6856fa1003a48f67bc31&w=1880&q=75",
-      "url": "https://www.eventbrite.cl/e/cgs-santiago-2026-6th-edition-tickets-1989608137498?aff=ebdssbcitybrowse",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Asista a la conferencia exclusiva para C-levels que reunirá a los líderes del ecosistema de gaming, apuestas, fintech, hitech y regulación.",
-      "bio_artista": "El Sistema Cegesimal de Unidades, también llamado sistema CGS o sistema Gaussiano, es un sistema de unidades basado en el centímetro, el gramo y el segundo. Su nombre es el acrónimo de estas tres unidades."
-    },
-    {
       "fuente": "CulturaGob",
       "nombre": "Ministro de las Culturas inaugura la segunda parte de la muestra “Vertebrados, Anatomía–Evolución–Extinción” en el Museo Nacional de Historia Natural",
       "venue": "Ministerio de las Culturas",
@@ -4943,22 +4910,6 @@
       "bio_artista": ""
     },
     {
-      "fuente": "CulturaGob",
-      "nombre": "Con acento en la descentralización, instalan primera piedra del Centro Cultural de Contulmo",
-      "venue": "Ministerio de las Culturas",
-      "descripcion": "La obra, financiada por el Ministerio de las Culturas, las Artes y el Patrimonio, considera una inversión superior a los $2.400 millones y permitirá dotar a la comuna de una infraestructura cultural moderna, accesible y pertinente a su identidad territorial.",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Contulmo",
-      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/foto-contulmo.jpg-400x300.jpeg",
-      "url": "https://www.cultura.gob.cl/actualidad/con-acento-en-la-descentralizacion-instalan-primera-piedra-del-centro-cultural-de-contulmo/",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "La obra, financiada por el Ministerio de las Culturas, las Artes y el Patrimonio, considera una inversión superior a los $2.400 millones y permitirá dotar a la comuna de una infraestructura cultural moderna, accesible y pertinente a su identidad territorial.",
-      "bio_artista": ""
-    },
-    {
       "fuente": "CCLM",
       "nombre": "Mes del libro: Regresa la Fiesta de la Lectura",
       "venue": "Centro Cultural La Moneda",
@@ -4983,7 +4934,7 @@
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Santiago",
-      "imagen_url": "https://cdn.cclm.cl/web/wp-content/uploads/2026/01/cine-en-chile-cp.jpg",
+      "imagen_url": "",
       "url": "https://www.cclm.cl/mas-de-un-siglo-de-cine-para-revisar-la-historia-de-chile/",
       "lat": -33.4489,
       "lon": -70.6693,
