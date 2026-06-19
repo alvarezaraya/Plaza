@@ -1,6 +1,6 @@
 {
-  "generado_en": "2026-06-19T11:09:48.754044+00:00",
-  "total_eventos": 306,
+  "generado_en": "2026-06-19T19:20:38.581824+00:00",
+  "total_eventos": 311,
   "por_fuente": {
     "Ticketplus": 139,
     "Ticketmaster": 31,
@@ -8,9 +8,9 @@
     "EsquinaRetornable": 5,
     "GAM": 56,
     "CulturaAntofagasta": 5,
-    "PuntoTicket": 30,
+    "PuntoTicket": 34,
+    "CulturaGob": 2,
     "CulturaIquique": 3,
-    "CulturaGob": 1,
     "CCLM": 2
   },
   "eventos": [
@@ -187,8 +187,8 @@
       "url": "https://ticketplus.cl/events/el-dia-de-la-revelacion",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "El día de la revelación es una película estadounidense de 2026 de ciencia ficción producida y dirigida por Steven Spielberg a partir de un guion de David Koepp basado en una historia de Spielberg. La película está protagonizada por Emily Blunt, Josh O'Connor, Colin Firth, Eve Hewson y Colman Domingo.",
-      "bio_artista": "El día de la revelación es una película estadounidense de 2026 de ciencia ficción producida y dirigida por Steven Spielberg a partir de un guion de David Koepp basado en una historia de Spielberg. La película está protagonizada por Emily Blunt, Josh O'Connor, Colin Firth, Eve Hewson y Colman Domingo."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -427,8 +427,8 @@
       "url": "https://ticketplus.cl/events/midnight-viernes-19-de-junio",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Adriano Celentano es un cantante, compositor, actor y cineasta italiano.",
-      "bio_artista": "Adriano Celentano es un cantante, compositor, actor y cineasta italiano."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -636,7 +636,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>RISAS EN CURSO🔥 Viernes 19 JUNIO😎🎤</p><p>AGHATA PUB - Manuel Montt 784 Providencia</p><p>😉🤪👍</p><p>Un espectáculo de principio a fin para pasar una gran noche de Diversión... 🤣¡Déjate Sorprender!! 💥</p><p>Alumnos en Curso y Egresados se desafían en escena para ir probando sus rutinas y hacer reír de buena gana. 6 a 8 comediantes con rutinas de 8 a 10 minutos, se van rotando semana a semana....</p><p>HOST Broughton 😸\"Gato Viejo\" <a href=\"https://www.instagram.com/broughtoncomediante/\" rel=\"noopener noreferrer\" target=\"_blank\">@broughtoncomediante</a> 🤩🎤...</p><p>👁️🏃</p><p>NO HAY VENTA EN PUERTA...</p><p>Las mesas se comparten si es necesario</p><p>👁️😎</p><p>ESCUELA DE STAND UP COMEDY</p><p>ESTUDIO FORMAS.</p><p>Comunicación y Escenario</p>",
-      "bio_artista": ""
+      "bio_artista": "Risas y salsa fue un programa humorístico peruano, emitido por Panamericana Televisión del 12 de marzo de 1980 hasta el 29 de mayo de 1999. Su primer productor y director fue Efraín Aguilar, su guionista Aldo Vega y su elenco estuvo formado con actores de El Tornillo y del Grupo Histrión Teatro de Arte."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -652,7 +652,7 @@
       "url": "https://www.passline.com/eventos/matapanki-522965",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El Festival Internacional de Cine de Valdivia es un festival de cine realizado anualmente en la ciudad chilena de Valdivia, en la Región de Los Ríos. Su primera versión se realizó en 1994 bajo el nombre de Valdivia Cine & Video, el cual fue modificado a su nombre actual en 1998."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -668,7 +668,7 @@
       "url": "https://www.passline.com/eventos/el-planeta-de-los-simios",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El planeta de los simios puede referirse a:NovelaEl planeta de los simios (1963), una novela distópica escrita por Pierre Boulle.FranquiciaEl planeta de los simios, un conjunto o series de películas que inició con El planeta de los simios de 1968.PelículasEl planeta de los simios (1968), una película dirigida por Franklin Schaffner y basada en la novela antes mencionada."
     },
     {
       "fuente": "GAM",
@@ -684,7 +684,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Una obra se construye a partir de testimonios y archivos de personas viviendo con VIH y de sus círculos íntimos. Desde una mirada crítica y disidente, el esp",
-      "bio_artista": ""
+      "bio_artista": "El beso de la mujer araña es una película brasileña-estadounidense independiente dramática de 1985 dirigida por el cineasta brasileño de origen argentino Héctor Babenco, y adaptada por Leonard Schrader de la novela homónima del escritor argentino Manuel Puig. La película contó con William Hurt, Raúl Juliá y Sonia Braga en protagónicos principales."
     },
     {
       "fuente": "GAM",
@@ -832,14 +832,14 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "Latín of Germany",
+      "nombre": "Lodge las rocas Latín of Germany",
       "venue": "",
-      "descripcion": "Latín of Germany",
+      "descripcion": "",
       "fecha_iso": "2026-06-20",
       "fecha_texto": "20 de junio de 2026",
       "precio_desde_clp": "11.500",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/539881d058a8d08f681ad464c5641999d131780a.jpeg?1781116104&format=baseline-jpeg&q=65",
+      "imagen_url": "",
       "url": "https://ticketplus.cl/events/latin-of-alemania",
       "lat": -23.6509,
       "lon": -70.3975,
@@ -896,19 +896,35 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "Sportiva Italiana vs Luis Matte, Playoff LNB2, Juego 3",
+      "venue": "",
+      "descripcion": "Sportiva Italiana vs Luis Matte, Playoff LNB2, Juego 3",
+      "fecha_iso": "2026-06-20",
+      "fecha_texto": "20 de junio de 2026",
+      "precio_desde_clp": "4.000",
+      "ciudad": "Valparaíso",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/e6398cd1e8e6bffad8598b4f3cefb86bf4f04f58.jpeg?1781873855&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/sportiva-italiana-vs-luis-matte-playoff-lnb2-juego-3",
+      "lat": -33.0472,
+      "lon": -71.6127,
+      "descripcion_extendida": "Sportiva Italiana vs Luis Matte, Playoff LNB2, Juego 3",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "Studio 54",
       "venue": "",
       "descripcion": "Studio 54 - Concepción",
       "fecha_iso": "2026-06-20",
       "fecha_texto": "20 de junio de 2026",
-      "precio_desde_clp": "23.000",
+      "precio_desde_clp": "17.250",
       "ciudad": "Concepción",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/21d723e9d843363212e6ee05489fa8824aa6ad9a.jpeg?1780956903&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/studio-54-concepcion-2026-06-20-21-00-00-0400",
       "lat": -36.827,
       "lon": -73.0502,
-      "descripcion_extendida": "Studio 54 is a Broadway theater and former nightclub at 254 West 54th Street in the Midtown Manhattan neighborhood of New York City, New York, U.S. Opened as the Gallo Opera House in 1927, it served as a CBS broadcast studio in the mid-20th century. Steve Rubell and Ian Schrager opened the Studio 54 nightclub, retaining much of the former theatrical and broadcasting fixtures, inside the venue in 1977. Roundabout Theatre Company renovated the space into a Broadway house in 1998.",
-      "bio_artista": "Studio 54 is a Broadway theater and former nightclub at 254 West 54th Street in the Midtown Manhattan neighborhood of New York City, New York, U.S. Opened as the Gallo Opera House in 1927, it served as a CBS broadcast studio in the mid-20th century. Steve Rubell and Ian Schrager opened the Studio 54 nightclub, retaining much of the former theatrical and broadcasting fixtures, inside the venue in 1977. Roundabout Theatre Company renovated the space into a Broadway house in 1998."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -940,7 +956,7 @@
       "lat": -39.8142,
       "lon": -73.2459,
       "descripcion_extendida": "Amistoso Pretemporada ⁠CD Valdivia vs Aba Ancud",
-      "bio_artista": "El Club Olimpia Deportivo o simplemente Olimpia es un equipo de fútbol de la ciudad central de Tegucigalpa, Honduras. Su fundación se registró un 12 de junio del año 1912 y disputa la Liga Nacional de Honduras desde que fue creado."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -971,8 +987,8 @@
       "url": "https://www.ticketmaster.cl/event/stefan-kramer-show-de-emergencia-centro-cultural-san-gines",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "Stefan Kramer Solé es un imitador y comediante chileno.",
-      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -987,23 +1003,7 @@
       "url": "https://www.ticketmaster.cl/event/club-deportivo-palestino-vs-deportes-magallanes-universidad-catolica-estadio-municipal-de-la-cisterna",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "El Club Deportivo Palestino es una institución social, cultural y deportiva con sede en Santiago, Chile. Fue fundado el 20 de agosto de 1920 por miembros de la colonia palestina en el país, y su principal actividad es el fútbol profesional, cuyo primer equipo participa en la Liga de Primera.",
-      "bio_artista": "El Club Deportivo Palestino es una institución social, cultural y deportiva con sede en Santiago, Chile. Fue fundado el 20 de agosto de 1920 por miembros de la colonia palestina en el país, y su principal actividad es el fútbol profesional, cuyo primer equipo participa en la Liga de Primera."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "Rossy Rossy y Peka Parra en",
-      "venue": "",
-      "descripcion": "<p><strong>Nuevamente el humor aterriza este 20 de junio en San Martín 545! 💥👇</strong></p><p><br></p><p>Las pantallas se mudan al escenario de <strong>El Imperio Peruano</strong> para una noche de humor de primer nivel. Recibimos a <strong>Rossy Rossy y Peka Parra</strong>, dos de los rostros más potentes de la comedia en Chile. 🎙️👑</p><p><br></p><p>Ven a reír en vivo con el talento que da vida a los mejores momentos de <strong>El Muro de Mega</strong> y <strong>El Club de la Comedia de Chilevisión</strong>. Un show explosivo que combina personajes, imitaciones y el stand-up más puro a centímetros de tu mesa. 🎭✨</p><p><br></p><p>Disfruta de una experiencia única junto al auténtico sabor peruano y el mejor ambiente de la región. 🇵🇪🍹 ¡No dejes que te lo cuenten!</p><p><br></p><p>📌 <strong>Coordenadas:</strong> </p><p>📅 Jueves 20 de Junio. </p><p>📍 San Martín 545. </p><p>📥 ¡Escríbenos al DM para reservar tu lugar ahora mismo antes de que se agoten las mesas!</p>",
-      "fecha_iso": "2026-06-20",
-      "fecha_texto": "20 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Viña del Mar",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-bu97st0b-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/rossy-rossy-y-peka-parra-en-vina-del-mar_e0taf",
-      "lat": -33.0247,
-      "lon": -71.5519,
-      "descripcion_extendida": "<p><strong>Nuevamente el humor aterriza este 20 de junio en San Martín 545! 💥👇</strong></p><p><br></p><p>Las pantallas se mudan al escenario de <strong>El Imperio Peruano</strong> para una noche de humor de primer nivel. Recibimos a <strong>Rossy Rossy y Peka Parra</strong>, dos de los rostros más potentes de la comedia en Chile. 🎙️👑</p><p><br></p><p>Ven a reír en vivo con el talento que da vida a los mejores momentos de <strong>El Muro de Mega</strong> y <strong>El Club de la Comedia de Chilevisión</strong>. Un show explosivo que combina personajes, imitaciones y el stand-up más puro a centímetros de tu mesa. 🎭✨</p><p><br></p><p>Disfruta de una experiencia única junto al auténtico sabor peruano y el mejor ambiente de la región. 🇵🇪🍹 ¡No dejes que te lo cuenten!</p><p><br></p><p>📌 <strong>Coordenadas:</strong> </p><p>📅 Jueves 20 de Junio. </p><p>📍 San Martín 545. </p><p>📥 ¡Escríbenos al DM para reservar tu lugar ahora mismo antes de que se agoten las mesas!</p>",
+      "descripcion_extendida": "",
       "bio_artista": ""
     },
     {
@@ -1136,6 +1136,22 @@
     },
     {
       "fuente": "PuntoTicket",
+      "nombre": "Universidad de Chile vs Atlético - Campeonato Primera Futsal - Final Femenina Polideportivo La - La",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Universidad de Chile vs Atlético Colina, domingo 21 de junio 2026 12:00 hrs. en Polideportivo La Florida - La Florida.",
+      "fecha_iso": "2026-06-21",
+      "fecha_texto": "21 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Florida",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/anf096_md.jpg",
+      "url": "https://www.puntoticket.com/evento/campeonato-futsal-anfp2026-final-femenina",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs Atlético Colina, domingo 21 de junio 2026 12:00 hrs. en Polideportivo La Florida - La Florida.",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
       "nombre": "Colo-Colo vs. U. de Chile - Liga Femenina - Fecha 13 Estadio Monumental",
       "venue": "",
       "descripcion": "Compra tu entrada para Colo-Colo vs. U. de Chile, domingo 21 de junio 2026 16:00 hrs. en Estadio Monumental - Macul.",
@@ -1148,6 +1164,22 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Colo-Colo vs. U. de Chile, domingo 21 de junio 2026 16:00 hrs. en Estadio Monumental - Macul.",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Universidad de Chile vs Wanderers - Copa Chile Coca-Cola Sin Azúcar",
+      "venue": "Estadio Nacional",
+      "descripcion": "Compra tu entrada para Universidad de Chile vs Santiago Wanderers, domingo 21 de junio 2026 17:30 hrs. en Estadio Nacional - Ñuñoa.",
+      "fecha_iso": "2026-06-21",
+      "fecha_texto": "21 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/uch281_md.jpg",
+      "url": "https://www.puntoticket.com/evento/universidad-de-chile-vs-wanderers-copachile-2026",
+      "lat": -33.464833,
+      "lon": -70.6075,
+      "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs Santiago Wanderers, domingo 21 de junio 2026 17:30 hrs. en Estadio Nacional - Ñuñoa.",
       "bio_artista": ""
     },
     {
@@ -1180,7 +1212,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Annihilation - Lunes cinematográficos",
-      "bio_artista": ""
+      "bio_artista": "Annihilation es una palabra que inglés quiere decir \"aniquilación\" y puede hacer referencia a:Obras escritasAnnihilation (novela de Philip Athans) (2004), novela escrita por Philip Athans. Annihilation (cómic) (2006), cómic de Marvel. Annihilation (novela) (2014), novela escrita por Jeff VanderMeer.Cine y televisiónAniquilación (película) (2018), película dirigida por Alex Garland."
     },
     {
       "fuente": "PuntoTicket",
@@ -1196,7 +1228,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Ciclo Internacional de Conciertos 2026, lunes 22 de junio 2026 al martes 13 de octubre 2026 en Teatro Municipal de Las Condes - Las Condes.",
-      "bio_artista": ""
+      "bio_artista": "El Concurso Internacional de Música Reina Elizabeth de Bélgica es una competencia para músicos que se celebra en Bruselas. La competencia tiene el nombre de Isabel Gabriela de Baviera, Reina de Bélgica. Es un concurso para violinistas clásicos, pianistas, cantantes y violonchelistas. También incluyó competencias internacionales para compositores de 1953 a 2012."
     },
     {
       "fuente": "ComediaTicket",
@@ -1212,7 +1244,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>Martes de Clases Libres</p><p>Si no tienes tiempo para tomar los talleres de 3 meses, puedes participar de las clases libres todos los martes. Cada martes trabajamos diferentes fundamentos de improvisación y ejercicios teatrales.</p><p>Ideal para complementar otras clases o asistir si no puedes tomar el compromiso todas las semanas.&nbsp;</p><p>En cada clase hay diferentes compañeros y es una excelente instancia para jugar con otras personas.</p><p>Los temas a abordar son diferentes todas las clases, algunos de ellos son: Forma Larga, Improvisación musical, unipersonal, mimo de acción, el juego de la vida, teatro deportivo y mucho mas!</p><p>Los que no tienen experiencia aprenden técnicas de compañeros más avanzados y los avanzados también aprenden con la espontaneidad e inocencia de los que prueban el teatro por primera vez.</p><p>Para gente con y sin experiencia</p><p>Nuestras clases son personalizadas y se tiene un seguimiento del proceso de cada alumno y un trato individual además de el grupal.</p><p>Las inscripciones son permanentes para cada martes a partir del 23 de junio.</p><p><br></p>",
-      "bio_artista": ""
+      "bio_artista": "La marta cibelina o marta cebellina es, entre las diferentes especies de marta, la que tiene más demandada por su piel de pelaje notablemente más fino que las pieles de las demás de su género."
     },
     {
       "fuente": "GAM",
@@ -1228,6 +1260,38 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Este ciclo incluye en su programación a los artistas Carlos Vera Cuarteto, que presentará jazz moderno; a Kuki González &amp; Ensamble Sudaka con su proyecto",
+      "bio_artista": "El rock andaluz es un movimiento musical y cultural de rock fusión, que se desarrolló primordialmente, aunque no exclusivamente, en Andalucía."
+    },
+    {
+      "fuente": "CulturaGob",
+      "nombre": "IA, refugios climáticos y accesibilidad son parte de los contenidos de la Escuela de Desarrollo de Públicos 2026",
+      "venue": "Ministerio de las Culturas",
+      "descripcion": "Entre el 23 de junio y el 9 de julio, se realizará la sexta edición de este reconocido programa de formación en línea y de acceso gratuito. Dirigido a profesionales del sector cultural, la iniciativa tiene como propósito actualizar conocimientos y metodologías para fortalecer la participación de los",
+      "fecha_iso": "2026-06-23",
+      "fecha_texto": "23 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Santiago",
+      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/foto-trenes-culturales-rancagua-450x300.jpg",
+      "url": "https://www.cultura.gob.cl/actualidad/ia-refugios-climaticos-y-accesibilidad-son-parte-de-los-contenidos-de-la-escuela-de-desarrollo-de-publicos-2026/",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Entre el 23 de junio y el 9 de julio, se realizará la sexta edición de este reconocido programa de formación en línea y de acceso gratuito. Dirigido a profesionales del sector cultural, la iniciativa tiene como propósito actualizar conocimientos y metodologías para fortalecer la participación de los",
+      "bio_artista": "La presidencia de Cristina Fernández de Kirchner fue un período comprendido entre el 10 de diciembre de 2007 y el 9 de diciembre de 2015, cubriendo dos mandatos consecutivos como presidenta de la Nación Argentina. Su gobierno fue calificado como de centroizquierda. Posteriormente, en 2019, regresaría al poder como vicepresidenta de la Nación hasta 2023."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "cócteles y risas",
+      "venue": "",
+      "descripcion": "<h3>🍸 CÓCTELES &amp; RISAS 🍸</h3><p>Prepárate para una noche donde los mejores ingredientes serán el humor, las historias absurdas y las carcajadas sin filtro.</p><p>Cuatro comediantes, cuatro estilos distintos y una sola misión: hacerte olvidar la rutina y reír hasta que duelan las mejillas.</p><p>Entre cócteles, buena compañía y un ambiente único en pleno Plaza Ñuñoa, vivirás un show cargado de anécdotas, observaciones, improvisación y momentos que no se repiten dos veces.</p><p>🎤 Alex</p><p> 🎤 Fer</p><p> 🎤 Seba</p><p> 🎤 Ramírez</p><p>📅 Miércoles 24 de junio</p><p> 🕘 21:00 hrs.</p><p> 📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p>",
+      "fecha_iso": "2026-06-24",
+      "fecha_texto": "24 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Ñuñoa",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-3p08slde-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/cocteles-y-risas_nqc2y",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<h3>🍸 CÓCTELES &amp; RISAS 🍸</h3><p>Prepárate para una noche donde los mejores ingredientes serán el humor, las historias absurdas y las carcajadas sin filtro.</p><p>Cuatro comediantes, cuatro estilos distintos y una sola misión: hacerte olvidar la rutina y reír hasta que duelan las mejillas.</p><p>Entre cócteles, buena compañía y un ambiente único en pleno Plaza Ñuñoa, vivirás un show cargado de anécdotas, observaciones, improvisación y momentos que no se repiten dos veces.</p><p>🎤 Alex</p><p> 🎤 Fer</p><p> 🎤 Seba</p><p> 🎤 Ramírez</p><p>📅 Miércoles 24 de junio</p><p> 🕘 21:00 hrs.</p><p> 📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p>",
       "bio_artista": ""
     },
     {
@@ -1244,22 +1308,6 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>🎤😂 <strong>Felipe Izquierdo llega a Sambolio Peñalolén!</strong> 😂🎤</p><p><br></p><p>Uno de los grandes referentes del humor chileno aterriza en nuestro escenario con una noche cargada de risas, historias, observaciones hilarantes y ese estilo único que lo ha convertido en un clásico de la comedia nacional.</p><p><br></p><p>Miércoles 24 de Junio</p><p>21:30 hrs </p><p>Sambolio Peñalolen </p><p>Consistorial 2100, Segundo Piso.</p><p><br></p>",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "cócteles y risas",
-      "venue": "",
-      "descripcion": "<h3>🍸 CÓCTELES &amp; RISAS 🍸</h3><p>Prepárate para una noche donde los mejores ingredientes serán el humor, las historias absurdas y las carcajadas sin filtro.</p><p>Cuatro comediantes, cuatro estilos distintos y una sola misión: hacerte olvidar la rutina y reír hasta que duelan las mejillas.</p><p>Entre cócteles, buena compañía y un ambiente único en pleno Plaza Ñuñoa, vivirás un show cargado de anécdotas, observaciones, improvisación y momentos que no se repiten dos veces.</p><p>🎤 Alex</p><p> 🎤 Fer</p><p> 🎤 Seba</p><p> 🎤 Ramírez</p><p>📅 Miércoles 24 de junio</p><p> 🕘 21:00 hrs.</p><p> 📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p>",
-      "fecha_iso": "2026-06-24",
-      "fecha_texto": "24 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Ñuñoa",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-3p08slde-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/cocteles-y-risas_nqc2y",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<h3>🍸 CÓCTELES &amp; RISAS 🍸</h3><p>Prepárate para una noche donde los mejores ingredientes serán el humor, las historias absurdas y las carcajadas sin filtro.</p><p>Cuatro comediantes, cuatro estilos distintos y una sola misión: hacerte olvidar la rutina y reír hasta que duelan las mejillas.</p><p>Entre cócteles, buena compañía y un ambiente único en pleno Plaza Ñuñoa, vivirás un show cargado de anécdotas, observaciones, improvisación y momentos que no se repiten dos veces.</p><p>🎤 Alex</p><p> 🎤 Fer</p><p> 🎤 Seba</p><p> 🎤 Ramírez</p><p>📅 Miércoles 24 de junio</p><p> 🕘 21:00 hrs.</p><p> 📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p>",
       "bio_artista": ""
     },
     {
@@ -1391,6 +1439,38 @@
       "bio_artista": ""
     },
     {
+      "fuente": "PuntoTicket",
+      "nombre": "Colo-Colo vs. - Copa Chile Coca-Cola Sin Azúcar - Fecha 1 Estadio Monumental",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Colo-Colo vs. O'Higgins, jueves 25 de junio 2026 19:30 hrs. en Estadio Monumental - Macul.",
+      "fecha_iso": "2026-06-25",
+      "fecha_texto": "25 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "O'Higgins",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/byn281_md.jpg",
+      "url": "https://www.puntoticket.com/evento/colo-colo-vs-ohiggins-copachile-2026",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Compra tu entrada para Colo-Colo vs. O'Higgins, jueves 25 de junio 2026 19:30 hrs. en Estadio Monumental - Macul.",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketmaster",
+      "nombre": "Música al Abrigo del Carbón",
+      "venue": "",
+      "descripcion": "25 de Junio 2026",
+      "fecha_iso": "2026-06-25",
+      "fecha_texto": "25 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Concepción",
+      "imagen_url": "https://cdn.getcrowder.com/images/51c58c80-bc0b-459a-9acd-0666ef5a32a4-gticketera--d-camara-al-carbon.jpg",
+      "url": "https://www.ticketmaster.cl/event/1599-musica-al-abrigo-del-carbon-teatro-universidad-de-concepcion",
+      "lat": -36.827,
+      "lon": -73.0502,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
       "fuente": "EsquinaRetornable",
       "nombre": "LA MISTERIOSA MIRADA DEL FLAMENCO",
       "venue": "Esquina Retornable",
@@ -1500,7 +1580,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, viernes 26 de junio 2026 20:00 hrs. en Teatro Teletón - Santiago Centro.",
-      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -1516,7 +1596,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "Compra tu entrada para Darkiel, viernes 26 de junio 2026 21:00 hrs. en Rock And Soccer - Antofagasta.",
-      "bio_artista": "Omar David Colón, más conocido como Darkiel, es un cantante y compositor puertorriqueño de reguetón y trap latino. También es conocido por su papel protagónico como Nicky Jam en la serie Nicky Jam: El ganador de Netflix."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -1548,7 +1628,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>Tras un año de creación colectiva, el colectivo teatral Compañía Salón de Té presenta &lt;em&gt;Salud Amparito&lt;/em&gt;, una comedia catártica creada por tres actrices del litoral central que pone en escena los temores, paranoias y delirios de persecución que atraviesan la vida contemporánea.&lt;/p&gt;&lt;p&gt;La obra nos sitúa en una reunión entre amigas que comienza como una celebración de la amistad, pero que poco a poco se transforma en una espiral de sospechas, ansiedad y miedo. Entre noticias alarmantes, teorías que circulan en redes sociales y una constante sensación de peligro, las protagonistas terminan atrapadas por sus propios pensamientos y fantasmas internos.&lt;/p&gt;&lt;p&gt;Con humor, teatralidad y situaciones absurdamente reconocibles, &lt;em&gt;Salud Amparito&lt;/em&gt; invita al público a reírse de aquello que muchas veces consume silenciosamente nuestra vida cotidiana: el exceso de información, la sobreexposición digital y el miedo permanente instalado en la sociedad actual.&lt;/p&gt;&lt;p&gt;Las funciones se realizarán los días 12, 19 y 26 de junio, a las 20:00 horas, en Espacio Wayra.&lt;/p&gt;</p>",
-      "bio_artista": "Martha Ormaza Bermeo fue una guionista, directora y actriz de teatro, cine y televisión ecuatoriana, conocida por conformar el grupo de actrices Las Marujitas."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaIquique",
@@ -1708,7 +1788,7 @@
       "lat": -33.0247,
       "lon": -71.5519,
       "descripcion_extendida": "Compra tu entrada para Viña Classic, sábado 27 de junio 2026 22:00 hrs. en Sporting Club de Viña del Mar - Viña Del Mar.",
-      "bio_artista": ""
+      "bio_artista": "Haras de Pirque es una viña y bodega, así como una compañía de cría deportiva de caballos, fundada en Pirque, valle del Maipo, originalmente como haras, por un inversionista norteamericano en 1892, y posteriormente convertida también en viña, en 1991, tras su adquisición por el empresario chileno Eduardo Matte Rozas."
     },
     {
       "fuente": "Ticketmaster",
@@ -1723,8 +1803,8 @@
       "url": "https://www.ticketmaster.cl/event/el-kanka-la-calma-teatro-nescafe-de-las-artes",
       "lat": -33.425278,
       "lon": -70.608056,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Juan Gómez Canca, conocido artísticamente como el Kanka, es un cantautor, compositor y músico español. Desde que empezó su carrera en solitario en 2007 ha conseguido consagrarse como uno de los mejores figurantes de la nueva generación de cantautores de España. Su música es un punto de afluencia de diferentes estilos y colaboraciones con músicos como Camilo, La Cabra Mecánica o Jorge Drexler, Silvana Estrada, entre otros.",
+      "bio_artista": "Juan Gómez Canca, conocido artísticamente como el Kanka, es un cantautor, compositor y músico español. Desde que empezó su carrera en solitario en 2007 ha conseguido consagrarse como uno de los mejores figurantes de la nueva generación de cantautores de España. Su música es un punto de afluencia de diferentes estilos y colaboraciones con músicos como Camilo, La Cabra Mecánica o Jorge Drexler, Silvana Estrada, entre otros."
     },
     {
       "fuente": "Ticketmaster",
@@ -1739,8 +1819,8 @@
       "url": "https://www.ticketmaster.cl/event/zumbale-primo-10-aniversario-gran-arena-monticello",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Cielo Nicole Fernández Asenjo es una cantante peruana. Actualmente es una de las vocalistas de la delantera principal de la orquesta Corazón Serrano.",
+      "bio_artista": "Cielo Nicole Fernández Asenjo es una cantante peruana. Actualmente es una de las vocalistas de la delantera principal de la orquesta Corazón Serrano."
     },
     {
       "fuente": "GAM",
@@ -1771,8 +1851,8 @@
       "url": "https://ticketplus.cl/events/noche-de-boleros",
       "lat": -29.9027,
       "lon": -71.252,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El bolero es un género musical de origen cubano, declarado Patrimonio Inmaterial de la Humanidad en 2023 como género tradicional en Cuba y México. Es popular en todos los países hispanoamericanos.",
+      "bio_artista": "El bolero es un género musical de origen cubano, declarado Patrimonio Inmaterial de la Humanidad en 2023 como género tradicional en Cuba y México. Es popular en todos los países hispanoamericanos."
     },
     {
       "fuente": "Ticketplus",
@@ -2012,7 +2092,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "A Tres Orillas - Flamenco al sur del mundo",
-      "bio_artista": ""
+      "bio_artista": "Las tres orillas es una novela dramática de la escritora colombiana Fennys Tovar lanzado el 15 de abril del año 2015. Es la ópera prima de la escritora y por la cual obtendría el reconocimiento nacional e internacional. Gracias a esta obra ha recorrido el país dictando una conferencia sobre Conflicto Armado titulada \"Perdón y Reconciliación\". Fue editada por el editor colombiano Eleazar Plaza."
     },
     {
       "fuente": "Ticketplus",
@@ -2027,8 +2107,8 @@
       "url": "https://ticketplus.cl/events/otaku-gol-fest",
       "lat": -41.3199,
       "lon": -72.9847,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "«Zankoku na Tenshi no Tēze» , también conocido por su título en inglés «A Cruel Angel's Thesis», es el tema de apertura del anime Neon Genesis Evangelion, interpretado por Yōko Takahashi. Hidetoshi Satō y Toshiyuki Ōmori compusieron e hicieron los arreglos, respectivamente, mientras que Neko Oikawa escribió la letra. Se lanzó como sencillo de doble cara A con «Fly Me to the Moon», el tema de cierre, el 25 de octubre de 1995.",
+      "bio_artista": "«Zankoku na Tenshi no Tēze» , también conocido por su título en inglés «A Cruel Angel's Thesis», es el tema de apertura del anime Neon Genesis Evangelion, interpretado por Yōko Takahashi. Hidetoshi Satō y Toshiyuki Ōmori compusieron e hicieron los arreglos, respectivamente, mientras que Neko Oikawa escribió la letra. Se lanzó como sencillo de doble cara A con «Fly Me to the Moon», el tema de cierre, el 25 de octubre de 1995."
     },
     {
       "fuente": "PuntoTicket",
@@ -2044,23 +2124,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para Universidad Católica, sábado 04 de julio 2026 18:00 hrs. en Claro Arena - Las Condes.",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketmaster",
-      "nombre": "Kevin Johansen + Liniers + The Nada",
-      "venue": "",
-      "descripcion": "04 de Julio 2026",
-      "fecha_iso": "2026-07-04",
-      "fecha_texto": "4 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Mostazal",
-      "imagen_url": "https://cdn.getcrowder.com/images/34d91a91-b067-42df-9ad8-4bd485908aaa-kevin-johansen--liniers--the-nada-640x640.jpg",
-      "url": "https://www.ticketmaster.cl/event/kevin-johansen-liniers-the-nada-gran-arena-monticello",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Kevin Andrew Johansen es un cantante y músico argentinoestadounidense. Se caracteriza por un sonido particular que mezcla la música popular de su país y América con el rock alternativo y el pop estadounidense, fusionándolos en un estilo que el mismo cantante y compositor ha llamado \"Des-Generado\". A su vez tiene una peculiariedad de unir sus canciones con ingenio y humor, a tal punto que llegó a colaborar en textos con el mítico grupo humorístico Les Luthiers.",
-      "bio_artista": "Kevin Andrew Johansen es un cantante y músico argentinoestadounidense. Se caracteriza por un sonido particular que mezcla la música popular de su país y América con el rock alternativo y el pop estadounidense, fusionándolos en un estilo que el mismo cantante y compositor ha llamado \"Des-Generado\". A su vez tiene una peculiariedad de unir sus canciones con ingenio y humor, a tal punto que llegó a colaborar en textos con el mítico grupo humorístico Les Luthiers."
+      "bio_artista": "Una universidad católica es un tipo de universidad que forma parte de la estructura de la Iglesia católica. El Código de Derecho Canónico (CIC) reconoce la existencia de dos tipos de universidades en el seno de la Iglesia católica: la eclesiástica y la católica."
     },
     {
       "fuente": "Ticketmaster",
@@ -2348,7 +2412,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, viernes 17 de julio 2026 al viernes 17 de julio 2026 en Gimnasio Municipal de Concepción - Concepción.",
-      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -2624,22 +2688,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "Luis Slimming / La Bota Cervecera / / io / 22:30 horas",
-      "venue": "",
-      "descripcion": "Luis Slimming / La Bota Cervecera / Valdivia / 24 de Julio / 22:30 horas",
-      "fecha_iso": "2026-07-24",
-      "fecha_texto": "24 de julio de 2026",
-      "precio_desde_clp": "19.800",
-      "ciudad": "Valdivia",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/3f90924635b6e29ff63734eab532ac55d9aa40e4.jpg?1781737314&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/luis-slimming-la-bota-cervecera-valdivia-24-de-julio-22-30-horas",
-      "lat": -39.8142,
-      "lon": -73.2459,
-      "descripcion_extendida": "Luis Slimming / La Bota Cervecera / Valdivia / 24 de Julio / 22:30 horas",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "Luis Slimming / La Bota Cervecera / / io / 19:30 horas",
       "venue": "",
       "descripcion": "Luis Slimming / La Bota Cervecera / Valdivia / 24 de Julio / 19:30 horas",
@@ -2652,6 +2700,22 @@
       "lat": -39.8142,
       "lon": -73.2459,
       "descripcion_extendida": "Luis Slimming / La Bota Cervecera / Valdivia / 24 de Julio / 19:30 horas",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Luis Slimming / La Bota Cervecera / / io / 22:30 horas",
+      "venue": "",
+      "descripcion": "Luis Slimming / La Bota Cervecera / Valdivia / 24 de Julio / 22:30 horas",
+      "fecha_iso": "2026-07-24",
+      "fecha_texto": "24 de julio de 2026",
+      "precio_desde_clp": "19.800",
+      "ciudad": "Valdivia",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/3f90924635b6e29ff63734eab532ac55d9aa40e4.jpg?1781737314&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/luis-slimming-la-bota-cervecera-valdivia-24-de-julio-22-30-horas",
+      "lat": -39.8142,
+      "lon": -73.2459,
+      "descripcion_extendida": "Luis Slimming / La Bota Cervecera / Valdivia / 24 de Julio / 22:30 horas",
       "bio_artista": ""
     },
     {
@@ -2683,8 +2747,8 @@
       "url": "https://ticketplus.cl/events/primerizas-en-enjoy-coquimbo",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "Mari Belén Barenys González, conocida como Belén Barenys, es una actriz y cantante española, a veces conocida por su nombre artístico Memé. Habiendo actuado como actriz de doblaje desde la infancia, saltó a la fama como parte del grupo Rigoberta Bandini. Cocreó y protagoniza la serie de Filmin Autodefensa.",
-      "bio_artista": "Mari Belén Barenys González, conocida como Belén Barenys, es una actriz y cantante española, a veces conocida por su nombre artístico Memé. Habiendo actuado como actriz de doblaje desde la infancia, saltó a la fama como parte del grupo Rigoberta Bandini. Cocreó y protagoniza la serie de Filmin Autodefensa."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2775,7 +2839,7 @@
       "fecha_texto": "26 de julio de 2026",
       "precio_desde_clp": "",
       "ciudad": "Florida",
-      "imagen_url": "https://cdn.getcrowder.com/images/1847c7bc-4090-4c7a-bcf9-481342fb9fb7-640x64x0.png",
+      "imagen_url": "https://cdn.getcrowder.com/images/4751ecb3-6e5d-4ba4-aef9-67db2d3a917d-640-x-640-tryout-x-btalentstar-1-1.png",
       "url": "https://www.ticketmaster.cl/event/x-tryout-nacional-btalentstar-estadio-cordep",
       "lat": null,
       "lon": null,
@@ -3200,22 +3264,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "Papel Maché en Concierto Gira 2026",
-      "venue": "",
-      "descripcion": "Papel Maché en Concierto Gira 2026",
-      "fecha_iso": "2026-08-21",
-      "fecha_texto": "21 de agosto de 2026",
-      "precio_desde_clp": "10",
-      "ciudad": "Talca",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/55a187313c9f125809db6aae951e67ee14589ca9.png?1781800388&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/papel-mache-en-concierto-gira-2026",
-      "lat": -35.4264,
-      "lon": -71.6554,
-      "descripcion_extendida": "Papel Maché en Concierto Gira 2026",
-      "bio_artista": "El Museo Violeta Parra es un museo de arte y centro cultural ubicado en la comuna y ciudad de Santiago, Chile. Inaugurado el 4 de octubre de 2015, busca conservar y promover la obra de la artista chilena Violeta Parra."
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "Programa Especial Aniversario Coro Sinfónico Universidad de",
       "venue": "",
       "descripcion": "Programa Especial Aniversario Coro Sinfónico Universidad de Concepción",
@@ -3245,6 +3293,22 @@
       "lon": -71.6127,
       "descripcion_extendida": "Manuel Carlos María Francisco Piar Gómez fue un militar hispano-venezolano nacido en Curazao, prócer de la Independencia de Venezuela. Y además dentro de los canales de la historia republicana venezolana es reconocido como el Libertador de Guayana y Generalísimo Invicto, por haber disputado 24 batallas y no haber sido derrotado. Fue fusilado por orden de Simón Bolívar.",
       "bio_artista": "Manuel Carlos María Francisco Piar Gómez fue un militar hispano-venezolano nacido en Curazao, prócer de la Independencia de Venezuela. Y además dentro de los canales de la historia republicana venezolana es reconocido como el Libertador de Guayana y Generalísimo Invicto, por haber disputado 24 batallas y no haber sido derrotado. Fue fusilado por orden de Simón Bolívar."
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "La Pergola de las Flores Aula Magna Manuel de Salas",
+      "venue": "",
+      "descripcion": "Compra tu entrada para La Pergola de las Flores, sábado 22 de agosto 2026 20:00 hrs. en Aula Magna Manuel de Salas - Ñuñoa.",
+      "fecha_iso": "2026-08-22",
+      "fecha_texto": "22 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Ñuñoa",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/ppr039_md.jpg",
+      "url": "https://www.puntoticket.com/evento/la-pergola-de-las-flores-2026",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Compra tu entrada para La Pergola de las Flores, sábado 22 de agosto 2026 20:00 hrs. en Aula Magna Manuel de Salas - Ñuñoa.",
+      "bio_artista": "El Instituto de Humanidades Luis Campino es el primer establecimiento educacional perteneciente al Arzobispado de Santiago. Fue fundado el 22 de diciembre de 1899 por el entonces Arzobispo de Santiago Mariano Casanova, e inició sus actividades el 2 de marzo de 1900. Se encuentra actualmente ubicado en la comuna de Providencia en Santiago de Chile. En jornada completa el colegio recibe alumnos de enseñanza pre básica, básica y media."
     },
     {
       "fuente": "GAM",
@@ -3564,7 +3628,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La obra, en versión de La Dramática Nacional y con dramaturgia de María Asunción Requena, narra la vida de los chilotes de Curaco de Vélez en los años 70, qu",
-      "bio_artista": "Nelson Omar Brodt Chávez es un actor, director, dramaturgo y docente chileno, de extensa trayectoria en teatro, cine y televisión."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3644,7 +3708,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "GAM abre un nuevo espacio para compartir la versatilidad de la guitarra. En este ciclo se realizarán tres sesiones con obras que viajan desde el barroco hast",
-      "bio_artista": "No va más es el sexto disco de la banda española de heavy metal Barón Rojo. El disco se publicó en 1988 y fue producido por Barón Rojo para Chapa/Serdisco."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -3724,7 +3788,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Un concierto inmersivo que marca el cierre de “Voy”, el tercer disco de las hermanas LAIA. Una noche para recorrer las canciones, visuales y relatos que dier",
-      "bio_artista": "Langile Abertzale Iraultzaileen Alderdia (LAIA), en euskera «Partido de los Trabajadores Patriotas Revolucionarios», fue un partido político del País Vasco (España) de ideología socialista y nacionalista vasca que nació durante los últimos años de la dictadura del general Franco a consecuencia de una escisión de ETA. Sus siglas, laia son también el nombre en euskera de una herramienta agrícola."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -3819,8 +3883,8 @@
       "url": "https://www.ticketmaster.cl/event/festival-bamba-2026",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "La 35.ª edición del Festival Internacional de Cine de San Sebastián se celebró entre el 17 y el 26 de septiembre de 1987. El Festival tenía la máxima categoría A de la FIAPF.",
-      "bio_artista": "La 35.ª edición del Festival Internacional de Cine de San Sebastián se celebró entre el 17 y el 26 de septiembre de 1987. El Festival tenía la máxima categoría A de la FIAPF."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -4268,7 +4332,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Exit 8 de Genki Kawamura en SALA K",
-      "bio_artista": "The 50th annual Toronto International Film Festival was held from September 4 to 14, 2025. To mark the festival's 50th anniversary, the festival programmed a special series, The TIFF Story in 50 Films, to screen through June, July and August 2025 at the TIFF Lightbox."
+      "bio_artista": "The 58th Sitges International Fantastic Film Festival of Catalonia took place from 9 to 19 October 2025, in Sitges, Catalonia, Spain. It opened on 9 October with Julia Ducournau's body horror drama film Alpha. This edition of the festival honoured American film director, producer, and writer Sean S. Cunningham, the creator of Friday the 13th horror franchise."
     },
     {
       "fuente": "Ticketplus",
@@ -4299,8 +4363,8 @@
       "url": "https://www.ticketmaster.cl/event/family-fest-by-hasbro",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia",
-      "bio_artista": "Corbin Bleu Reivers es un actor, cantautor, modelo, bailarín y productor de cine estadounidense de ascendencia jamaicana e italiana. Tiene tres hermanas: Jag, Phoenix y felenicia"
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -4315,8 +4379,8 @@
       "url": "https://www.ticketmaster.cl/event/almas-perdidas-experiencia-suspenso-terror-vr-metropolitan",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Almas perdidas es la compilación de cuentos de cine protagonizada por muchos de los grandes nombres del cine incluyendo Hugh Jackman, Keira Knightley, Cate Blanchett, James Gandolfini, Paul Bettany, Illeana Douglas y dirigida por siete diferentes directores incluidos Deborra-Lee Furness y Illeana Douglas. Publicado en Cannes en 2005, esta colección ha llegado a alcanzar tanto éxito comercial y crítico en todo el mundo.",
-      "bio_artista": "Almas perdidas es la compilación de cuentos de cine protagonizada por muchos de los grandes nombres del cine incluyendo Hugh Jackman, Keira Knightley, Cate Blanchett, James Gandolfini, Paul Bettany, Illeana Douglas y dirigida por siete diferentes directores incluidos Deborra-Lee Furness y Illeana Douglas. Publicado en Cannes en 2005, esta colección ha llegado a alcanzar tanto éxito comercial y crítico en todo el mundo."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -4656,22 +4720,6 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "KAKOAMEDIA EN LA LIGUA!",
-      "venue": "",
-      "descripcion": "<p>KAKO DESPERTÓ – EN VIVO</p><p><br></p><p>No de una siesta cualquiera, sino de ese sueño raro donde el capitalismo te pide más, el cuerpo te pide pausa y la cabeza te pide respuestas. Y claro, como buen observador de la realidad, volvió con las cosas más claras… y con ganas de reírse de todo esto que nos agota.</p><p><br></p><p>\"Kako Despertó\" es el nuevo show donde nuestro comediante favorito enfrenta los problemas modernos con su humor ácido y social: el agotamiento de la rutina, la presión de producir sin parar, el descanso que nunca llega, y esa sensación de estar siempre al debe. </p><p>Pero ojo, no es una charla TED, es pura sátira, personajes y poemas que le ponen el espejo delante a esta vida acelerada.</p><p><br></p><p>¿Será esta rutina parte de su despertar? </p><p>¿O solo otra vuelta de tuerca pa' seguir riéndonos de nosotros mismos? </p><p><br></p><p>Una sola forma de saberlo: venir al show, reírse con ganas y quizás, solo quizás, salir con alguna respuesta… o con más preguntas (que igual es mejor que nada).</p><p>Ven a despertar con Kako es mejor que hacerlo con el despertador.</p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Chile",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-4vzmec4d-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/kakoamedia-en-la-ligua_cc99u",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "<p>KAKO DESPERTÓ – EN VIVO</p><p><br></p><p>No de una siesta cualquiera, sino de ese sueño raro donde el capitalismo te pide más, el cuerpo te pide pausa y la cabeza te pide respuestas. Y claro, como buen observador de la realidad, volvió con las cosas más claras… y con ganas de reírse de todo esto que nos agota.</p><p><br></p><p>\"Kako Despertó\" es el nuevo show donde nuestro comediante favorito enfrenta los problemas modernos con su humor ácido y social: el agotamiento de la rutina, la presión de producir sin parar, el descanso que nunca llega, y esa sensación de estar siempre al debe. </p><p>Pero ojo, no es una charla TED, es pura sátira, personajes y poemas que le ponen el espejo delante a esta vida acelerada.</p><p><br></p><p>¿Será esta rutina parte de su despertar? </p><p>¿O solo otra vuelta de tuerca pa' seguir riéndonos de nosotros mismos? </p><p><br></p><p>Una sola forma de saberlo: venir al show, reírse con ganas y quizás, solo quizás, salir con alguna respuesta… o con más preguntas (que igual es mejor que nada).</p><p>Ven a despertar con Kako es mejor que hacerlo con el despertador.</p>",
-      "bio_artista": "Luis Alberto Miranda Espinosa conocido como Lucho Miranda, es un comediante, humorista, personalidad de internet, expaciente de Teletón y atleta medallista paralímpico chileno. También se ha desempeñado como podcaster junto a Claudio Michaux en el programa No sé si fue tan así."
-    },
-    {
-      "fuente": "ComediaTicket",
       "nombre": "Clau Desmadre en Palermo Teatro Bar",
       "venue": "",
       "descripcion": "<p>Clau, divertida creadora de contenido, llega con su humor hilarante y su mirada única sobre las relaciones, el matrimonio y las locuras de la vida moderna.</p>",
@@ -4685,6 +4733,22 @@
       "lon": null,
       "descripcion_extendida": "<p>Clau, divertida creadora de contenido, llega con su humor hilarante y su mirada única sobre las relaciones, el matrimonio y las locuras de la vida moderna.</p>",
       "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "KAKOAMEDIA EN LA LIGUA!",
+      "venue": "",
+      "descripcion": "<p>KAKO DESPERTÓ – EN VIVO</p><p><br></p><p>No de una siesta cualquiera, sino de ese sueño raro donde el capitalismo te pide más, el cuerpo te pide pausa y la cabeza te pide respuestas. Y claro, como buen observador de la realidad, volvió con las cosas más claras… y con ganas de reírse de todo esto que nos agota.</p><p><br></p><p>\"Kako Despertó\" es el nuevo show donde nuestro comediante favorito enfrenta los problemas modernos con su humor ácido y social: el agotamiento de la rutina, la presión de producir sin parar, el descanso que nunca llega, y esa sensación de estar siempre al debe. </p><p>Pero ojo, no es una charla TED, es pura sátira, personajes y poemas que le ponen el espejo delante a esta vida acelerada.</p><p><br></p><p>¿Será esta rutina parte de su despertar? </p><p>¿O solo otra vuelta de tuerca pa' seguir riéndonos de nosotros mismos? </p><p><br></p><p>Una sola forma de saberlo: venir al show, reírse con ganas y quizás, solo quizás, salir con alguna respuesta… o con más preguntas (que igual es mejor que nada).</p><p>Ven a despertar con Kako es mejor que hacerlo con el despertador.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Chile",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-4vzmec4d-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/kakoamedia-en-la-ligua_cc99u",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p>KAKO DESPERTÓ – EN VIVO</p><p><br></p><p>No de una siesta cualquiera, sino de ese sueño raro donde el capitalismo te pide más, el cuerpo te pide pausa y la cabeza te pide respuestas. Y claro, como buen observador de la realidad, volvió con las cosas más claras… y con ganas de reírse de todo esto que nos agota.</p><p><br></p><p>\"Kako Despertó\" es el nuevo show donde nuestro comediante favorito enfrenta los problemas modernos con su humor ácido y social: el agotamiento de la rutina, la presión de producir sin parar, el descanso que nunca llega, y esa sensación de estar siempre al debe. </p><p>Pero ojo, no es una charla TED, es pura sátira, personajes y poemas que le ponen el espejo delante a esta vida acelerada.</p><p><br></p><p>¿Será esta rutina parte de su despertar? </p><p>¿O solo otra vuelta de tuerca pa' seguir riéndonos de nosotros mismos? </p><p><br></p><p>Una sola forma de saberlo: venir al show, reírse con ganas y quizás, solo quizás, salir con alguna respuesta… o con más preguntas (que igual es mejor que nada).</p><p>Ven a despertar con Kako es mejor que hacerlo con el despertador.</p>",
+      "bio_artista": "Luis Alberto Miranda Espinosa conocido como Lucho Miranda, es un comediante, humorista, personalidad de internet, expaciente de Teletón y atleta medallista paralímpico chileno. También se ha desempeñado como podcaster junto a Claudio Michaux en el programa No sé si fue tan así."
     },
     {
       "fuente": "ComediaTicket",
@@ -4799,6 +4863,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "ComediaTicket",
+      "nombre": "ASSKHA SUMATHRA EN LIMACHE",
+      "venue": "",
+      "descripcion": "<p><strong>LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</strong></p><p>¿Te quedaste con ganas de más? La reina del Café Concert, <strong>Asskha Sumathra</strong>, trae su gira oficial <strong>\"Lo que no se vio en Viña\"</strong>.</p><p>Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "La Reina",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-6duhx1x0-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/asskha-sumathra-en-limache_0jcny",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "<p><strong>LO QUE NO SE VIO EN VIÑA LLEGA A TU CIUDAD</strong></p><p>¿Te quedaste con ganas de más? La reina del Café Concert, <strong>Asskha Sumathra</strong>, trae su gira oficial <strong>\"Lo que no se vio en Viña\"</strong>.</p><p>Prepárate para una noche sin censura, donde la comedia se encuentra con las anécdotas más picantes y las historias más delirantes de lo cotidiano y lo que faltó por mostrar en el escenario de la Quinta Vergara. Vamos a reírnos a carcajadas con el estilo único que sólo Asskha Sumathra sabe entregar y que hoy la tiene convertida en el principal fenómeno de la comedia.</p>",
+      "bio_artista": "Óscar Andrés Guzmán Muñoz, conocido bajo el nombre artístico de Asskha Sumathra, es un transformista y comediante chileno. Conocida como «La Reina del Café Concert», es la primera transformista en realizar una rutina de humor en el Festival Internacional de la Canción de Viña del Mar, tras ganar el programa Coliseo."
+    },
+    {
       "fuente": "CulturaAntofagasta",
       "nombre": "A 35 AÑOS DEL ALUVIÓN DE 1991, ORQUESTA SINFÓNICA DE ANTOFAGASTA ESTRENA OBRA INSPIRADA EN FATÍDICO ACONTECIMIENTO",
       "venue": "Corporación Municipal de Cultura",
@@ -4864,19 +4944,19 @@
     },
     {
       "fuente": "CulturaGob",
-      "nombre": "Cartelera Regional de Artes Escénicas invita a disfrutar con propuestas creativas del Biobío",
+      "nombre": "Ministerio de las Culturas entrega cerca de $12 millones para apoyar participación de Orquesta Sinfónica Estudiantil de Linares en Viena",
       "venue": "Ministerio de las Culturas",
-      "descripcion": "Festivales, encuentros y diversas actividades forman parte de la nueva Cartelera Regional de Artes Escénicas del Biobío, una iniciativa que busca visibilizar la programación que se desarrolla durante la segunda quincena de junio en distintos espacios culturales de la región.",
+      "descripcion": "Los recursos del Fondo de la Música permitirán fortalecer el componente artístico-pedagógico de la delegación que representará al Maule en el World Orchestra Festival Vienna 2026.",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/el-nino-de-los-fosiles-450x300.png",
-      "url": "https://www.cultura.gob.cl/agendacultural/cartelera-regional-de-artes-escenicas-invita-a-disfrutar-con-propuestas-creativas-del-biobio/",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Festivales, encuentros y diversas actividades forman parte de la nueva Cartelera Regional de Artes Escénicas del Biobío, una iniciativa que busca visibilizar la programación que se desarrolla durante la segunda quincena de junio en distintos espacios culturales de la región.",
-      "bio_artista": ""
+      "ciudad": "Linares",
+      "imagen_url": "https://www.cultura.gob.cl/wp-content/uploads/2026/06/orquesta1-400x300.jpeg",
+      "url": "https://www.cultura.gob.cl/actualidad/ministerio-de-las-culturas-entrega-cerca-de-12-millones-para-apoyar-participacion-de-orquesta-sinfonica-estudiantil-de-linares-en-viena/",
+      "lat": -35.8459,
+      "lon": -71.5963,
+      "descripcion_extendida": "Los recursos del Fondo de la Música permitirán fortalecer el componente artístico-pedagógico de la delegación que representará al Maule en el World Orchestra Festival Vienna 2026.",
+      "bio_artista": "Iquitos, es la capital del distrito de Iquitos, la provincia de Maynas y el departamento de Loreto en la Amazonía peruana."
     },
     {
       "fuente": "CCLM",
