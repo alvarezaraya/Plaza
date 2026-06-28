@@ -1,15 +1,16 @@
 {
-  "generado_en": "2026-06-28T09:33:28.183802+00:00",
-  "total_eventos": 291,
+  "generado_en": "2026-06-28T18:47:00.054234+00:00",
+  "total_eventos": 293,
   "por_fuente": {
-    "Ticketplus": 120,
-    "Ticketmaster": 33,
-    "PuntoTicket": 38,
+    "Ticketplus": 118,
+    "PuntoTicket": 39,
+    "Ticketmaster": 31,
     "ComediaTicket": 40,
     "GAM": 51,
     "EsquinaRetornable": 2,
     "CulturaGob": 4,
-    "CCLM": 3
+    "CCLM": 3,
+    "CulturaAntofagasta": 5
   },
   "eventos": [
     {
@@ -77,22 +78,6 @@
       "bio_artista": "Toy Story 5 es una película de comedia dramática y aventura animada estadounidense producida por Pixar Animation Studios para Walt Disney Pictures. La película, siendo la quinta entrega principal de la serie de películas de Toy Story y la secuela de Toy Story 4 (2019), está escrita y dirigida por Andrew Stanton."
     },
     {
-      "fuente": "Ticketmaster",
-      "nombre": "Club Deportes Abono Copa Chile",
-      "venue": "",
-      "descripcion": "18 de Junio 2026",
-      "fecha_iso": "2026-06-18",
-      "fecha_texto": "18 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Coquimbo",
-      "imagen_url": "https://cdn.getcrowder.com/images/d9306e62-d7bb-478a-8ac5-933012c9ac46-640x640laserenaabonados.png",
-      "url": "https://www.ticketmaster.cl/event/club-deportes-la-serena-abono-copa-chile-estadio-la-portada",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "El Club de Deportes Temuco es un club de fútbol de Chile, con sede en la ciudad de Temuco, Región de La Araucanía. Fue fundado el 27 de junio de 1916 y actualmente juega en la Liga de Ascenso. También cuenta con una rama femenina del club, que disputará la Primera División de fútbol femenino de Chile desde el 2026.",
-      "bio_artista": "El Club de Deportes Temuco es un club de fútbol de Chile, con sede en la ciudad de Temuco, Región de La Araucanía. Fue fundado el 27 de junio de 1916 y actualmente juega en la Liga de Ascenso. También cuenta con una rama femenina del club, que disputará la Primera División de fútbol femenino de Chile desde el 2026."
-    },
-    {
       "fuente": "Ticketplus",
       "nombre": "El día de la revelación de Steven Spielberg en SALA K",
       "venue": "",
@@ -147,7 +132,7 @@
       "descripcion": "Supergirl",
       "fecha_iso": "2026-06-25",
       "fecha_texto": "25 de junio de 2026",
-      "precio_desde_clp": "3.500",
+      "precio_desde_clp": "",
       "ciudad": "Santiago",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/8e26639d18f120dd23ddcf819bd76079c562b8e9.jpg?1782139611&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/supergirl",
@@ -186,7 +171,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "El sonido de afuera es una guerra sangrienta",
-      "bio_artista": ""
+      "bio_artista": "El 24 de mayo es el 144.º día del año en el calendario gregoriano y el 145.º en los años bisiestos. Quedan 221 días para finalizar el año."
     },
     {
       "fuente": "Ticketplus",
@@ -218,166 +203,6 @@
       "lat": -33.0472,
       "lon": -71.6127,
       "descripcion_extendida": "Aventura Terror - Espacio Urbano (Viña 15 Norte)",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "LUNATICA PRESENTA: GUIDO SARTORIS",
-      "venue": "",
-      "descripcion": "LUNATICA PRESENTA: GUIDO SARTORIS",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "11.000",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/357bac635e3a9f9a6ada468ece9913df908dd0c0.jpeg?1780440769&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/lunatica-presenta-guido-sartoris",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "LUNATICA PRESENTA: GUIDO SARTORIS",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "DJ ROCKA EN VIVO THE LAST DANCE - SÁBADO IO - 2.0 CLUB - 23:00",
-      "venue": "",
-      "descripcion": "DJ ROCKA EN VIVO THE LAST DANCE - SÁBADO 27 DE JUNIO - 2.0 CLUB - 23:00",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/1bca84bad20a0b9dca6b7e96155c28f96df4e5c0.jpg?1782251668&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/dj-rocka-en-vivo-sabado-27-de-junio-2-0-club-23-00",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "DJ ROCKA EN VIVO THE LAST DANCE - SÁBADO 27 DE JUNIO - 2.0 CLUB - 23:00",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "STRONG FST - PRIDE 2026 - SPOT FREEDOM - IO - 22:00",
-      "venue": "",
-      "descripcion": "STRONG FST - PRIDE 2026 - SPOT FREEDOM - 27 DE JUNIO - 22:00",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "7.840",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/01289d45560de0efb6fc641f4b2476ed5dc556fc.jpg?1780354159&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/strong-fst-pride-2026-spot-freedom-27-de-junio-22-00",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "STRONG FST - PRIDE 2026 - SPOT FREEDOM - 27 DE JUNIO - 22:00",
-      "bio_artista": "GS/OS es un sistema operativo desarrollado por Apple Computer para su computadora personal Apple IIGS que utiliza el sistema de archivo ProDOS. Proporciona facilidades para acceder al sistema de archivos, controlar dispositivos de entrada/salida, cargar y ejecutar archivos de programas, y un sistema que permite que los programas manejen interrupciones y señales. GS/OS se incluyó como componente de las versiones 4.0 a 6.0.1 del software del sistema de Apple IIGS."
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Sábado Pride 🏳️‍⚧️🏳️‍🌈 en Caserío Fiesta Sábado io en La Jaula",
-      "venue": "",
-      "descripcion": "Sábado Pride 🏳️‍⚧️🏳️‍🌈 en Caserío Fiesta Sábado 27 de Junio en La Jaula",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "4.000",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/252da923cf597b6959ac9f8d86149a6191a3ba64.png?1782172212&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/sabado-pride-en-caserio-fiesta-sabado-27-de-junio-en-la-jaula",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Sábado Pride 🏳️‍⚧️🏳️‍🌈 en Caserío Fiesta Sábado 27 de Junio en La Jaula",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Club Fabrica Presenta@ Sábado io",
-      "venue": "",
-      "descripcion": "Club Fabrica Presenta@ Sábado 27 Junio",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "5.500",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/52360eea2f6cd42eaf648fc6161d634aba7c81c8.jpeg?1782243454&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/club-fabrica-presenta-sabado-27-junio",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Club Fabrica Presenta@ Sábado 27 Junio",
-      "bio_artista": "Pontevedra es un municipio de España y una ciudad, capital de la provincia homónima. Se ubica en el noroeste de la península ibérica, en la comunidad autónoma de Galicia. Está enclavada en el margen izquierdo del río Lérez, en su estuario en la ría de Pontevedra, en pleno centro de las Rías Bajas."
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Clubroom Presenta Portal @ Sábado io",
-      "venue": "",
-      "descripcion": "Clubroom Presenta Portal @ Sábado 27 Junio",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "5.500",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/68e7f132404ea0409f7bd732946b4bc789111cda.PNG?1782246315&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/clubroom-presenta-portal-sabado-27-junio",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Clubroom Presenta Portal @ Sábado 27 Junio",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Clubroom Presenta @ Sábado io",
-      "venue": "",
-      "descripcion": "Clubroom Presenta @ Sábado 27 Junio",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "5.500",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/2ee436739a6ad675dd0283e1dbdb106290ff3550.jpg?1782313474&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/clubroom-presenta-sabado-27-junio",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Clubroom Presenta @ Sábado 27 Junio",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "MUNDO ESPACIO presenta MUNDO.MP3.VOL3",
-      "venue": "",
-      "descripcion": "MUNDO ESPACIO presenta MUNDO.MP3.VOL3",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "4.000",
-      "ciudad": "Valparaíso",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/2cf2533e355bb14a2a7c00094fd8ff337347b255.jpeg?1782256889&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/mundo-espacio-presenta-mundo-mp3-vol3",
-      "lat": -33.0472,
-      "lon": -71.6127,
-      "descripcion_extendida": "MUNDO ESPACIO presenta MUNDO.MP3.VOL3",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "RUMORS PRIDE 2026 - IO - 22:00",
-      "venue": "",
-      "descripcion": "RUMORS PRIDE 2026 TEMUCO - 27 DE JUNIO - 22:00",
-      "fecha_iso": "2026-06-27",
-      "fecha_texto": "27 de junio de 2026",
-      "precio_desde_clp": "5.600",
-      "ciudad": "Temuco",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/1e5c6a48b427b07630a9c61c66768693b6833380.png?1781560793&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/rumors-pride-2026-temuco-27-de-junio-22-00",
-      "lat": -38.7359,
-      "lon": -72.5904,
-      "descripcion_extendida": "RUMORS PRIDE 2026 TEMUCO - 27 DE JUNIO - 22:00",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
-      "nombre": "Workshop Broadway & Theater Jazz: Interpretación Escénica",
-      "venue": "",
-      "descripcion": "Workshop Broadway & Theater Jazz: Interpretación Escénica",
-      "fecha_iso": "2026-06-28",
-      "fecha_texto": "28 de junio de 2026",
-      "precio_desde_clp": "5.298",
-      "ciudad": "Santiago",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/9943e3cef1e12c6c988fd7e06989043d1f702c4b.jpg?1781540665&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/workshop-broadway-theater-jazz-interpretacion-escenica",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "descripcion_extendida": "Workshop Broadway & Theater Jazz: Interpretación Escénica",
       "bio_artista": ""
     },
     {
@@ -430,6 +255,22 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "LA ÚLTIMA NOCHE - MARCIANEKE FT DJ ROCKA EN VIVO - DOMINGO 28-23:00",
+      "venue": "",
+      "descripcion": "LA ÚLTIMA NOCHE - MARCIANEKE FT DJ ROCKA EN VIVO - DOMINGO 28-23:00",
+      "fecha_iso": "2026-06-28",
+      "fecha_texto": "28 de junio de 2026",
+      "precio_desde_clp": "11.500",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/95723a65f0b70801feff564f161be69f032d5a18.jpg?1782645175&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/la-ultima-noche-marcianeke-en-vivo-domingo-28-23-00",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "LA ÚLTIMA NOCHE - MARCIANEKE FT DJ ROCKA EN VIVO - DOMINGO 28-23:00",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "MUNDO ESPACIO presenta TOY EN MUNDO",
       "venue": "",
       "descripcion": "MUNDO ESPACIO presenta TOY EN MUNDO",
@@ -478,22 +319,6 @@
     },
     {
       "fuente": "Ticketplus",
-      "nombre": "CD ABA vs Basket / LNB / Liga CHERY by Cecinas 2026",
-      "venue": "",
-      "descripcion": "CD ABA Ancud vs Puerto Montt Basket / LNB / Liga CHERY by Cecinas Llanquihue 2026",
-      "fecha_iso": "2026-06-28",
-      "fecha_texto": "28 de junio de 2026",
-      "precio_desde_clp": "7.000",
-      "ciudad": "Puerto Montt",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/a3fd52f34d9168a0f84ea044aa044a30637aba44.jpeg?1782352162&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/cd-aba-ancud-vs-puerto-montt-lnb-liga-chery-by-cecinas-llanquihue-2026",
-      "lat": -41.4693,
-      "lon": -72.9424,
-      "descripcion_extendida": "CD ABA Ancud vs Puerto Montt Basket / LNB / Liga CHERY by Cecinas Llanquihue 2026",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketplus",
       "nombre": "DOMINGO IO @ 💃 CLUB W",
       "venue": "",
       "descripcion": "DOMINGO 28 JUNIO @ 💃 CLUB W",
@@ -506,6 +331,22 @@
       "lat": -41.4693,
       "lon": -72.9424,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "CD ABA vs Basket / LNB / Liga CHERY by Cecinas 2026",
+      "venue": "",
+      "descripcion": "CD ABA Ancud vs Puerto Montt Basket / LNB / Liga CHERY by Cecinas Llanquihue 2026",
+      "fecha_iso": "2026-06-28",
+      "fecha_texto": "28 de junio de 2026",
+      "precio_desde_clp": "7.000",
+      "ciudad": "Puerto Montt",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/a3fd52f34d9168a0f84ea044aa044a30637aba44.jpeg?1782352162&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/cd-aba-ancud-vs-puerto-montt-lnb-liga-chery-by-cecinas-llanquihue-2026",
+      "lat": -41.4693,
+      "lon": -72.9424,
+      "descripcion_extendida": "CD ABA Ancud vs Puerto Montt Basket / LNB / Liga CHERY by Cecinas Llanquihue 2026",
       "bio_artista": ""
     },
     {
@@ -526,22 +367,6 @@
     },
     {
       "fuente": "PuntoTicket",
-      "nombre": "Campeonato Primera - Futsal - Fecha 4 Liguilla Polideportivo La - La",
-      "venue": "",
-      "descripcion": "Compra tu entrada para Campeonato Primera - Futsal, domingo 28 de junio 2026 al domingo 28 de junio 2026 en Polideportivo La Florida - La Florida.",
-      "fecha_iso": "2026-06-28",
-      "fecha_texto": "28 de junio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Florida",
-      "imagen_url": "https://static.ptocdn.net/images/eventos/anf097_md.jpg",
-      "url": "https://www.puntoticket.com/evento/campeonato-futsal-anfp2026-liguilla-fecha4",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "Compra tu entrada para Campeonato Primera - Futsal, domingo 28 de junio 2026 al domingo 28 de junio 2026 en Polideportivo La Florida - La Florida.",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "PuntoTicket",
       "nombre": "Universidad de Chile vs U. - Copa Chile Coca-Cola Zero Azúcar",
       "venue": "Estadio Nacional",
       "descripcion": "Compra tu entrada para Universidad de Chile vs U. San Felipe, domingo 28 de junio 2026 17:30 hrs. en Estadio Nacional - Ñuñoa.",
@@ -554,6 +379,22 @@
       "lat": -33.464833,
       "lon": -70.6075,
       "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs U. San Felipe, domingo 28 de junio 2026 17:30 hrs. en Estadio Nacional - Ñuñoa.",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Campeonato Primera - Futsal - Fecha 4 Liguilla Polideportivo La - La",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Campeonato Primera - Futsal, domingo 28 de junio 2026 20:00 hrs. en Polideportivo La Florida - La Florida.",
+      "fecha_iso": "2026-06-28",
+      "fecha_texto": "28 de junio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Florida",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/anf097_md.jpg",
+      "url": "https://www.puntoticket.com/evento/campeonato-futsal-anfp2026-liguilla-fecha4",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Compra tu entrada para Campeonato Primera - Futsal, domingo 28 de junio 2026 20:00 hrs. en Polideportivo La Florida - La Florida.",
       "bio_artista": ""
     },
     {
@@ -729,8 +570,8 @@
       "url": "https://ticketplus.cl/events/blade-runner",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Blade Runner es una película estadounidense neo-noir y de ciencia ficción dirigida por Ridley Scott, estrenada en 1982. Fue escrita por Hampton Fancher y David Webb Peoples, y el reparto lo componen Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos, M. Emmet Walsh, Daryl Hannah, William Sanderson, Brion James, Joe Turkel y Joanna Cassidy. Está basada parcialmente en la novela de Philip K. Dick ¿Sueñan los androides con ovejas eléctricas? (1968).",
+      "bio_artista": "Blade Runner es una película estadounidense neo-noir y de ciencia ficción dirigida por Ridley Scott, estrenada en 1982. Fue escrita por Hampton Fancher y David Webb Peoples, y el reparto lo componen Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos, M. Emmet Walsh, Daryl Hannah, William Sanderson, Brion James, Joe Turkel y Joanna Cassidy. Está basada parcialmente en la novela de Philip K. Dick ¿Sueñan los androides con ovejas eléctricas? (1968)."
     },
     {
       "fuente": "Ticketplus",
@@ -857,8 +698,8 @@
       "url": "https://ticketplus.cl/events/noche-de-boleros",
       "lat": -29.9027,
       "lon": -71.252,
-      "descripcion_extendida": "El bolero cubano es un género musical originado durante la República de Cuba en Armas, declarado Patrimonio Inmaterial de la Humanidad en 2023 como género tradicional en Cuba y México. Es popular en todos los países hispanoamericanos.",
-      "bio_artista": "El bolero cubano es un género musical originado durante la República de Cuba en Armas, declarado Patrimonio Inmaterial de la Humanidad en 2023 como género tradicional en Cuba y México. Es popular en todos los países hispanoamericanos."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -906,6 +747,22 @@
       "lat": -41.4693,
       "lon": -72.9424,
       "descripcion_extendida": "FABRIZIO COPANO / PTO MONTT / 3 PLATOS / 1 DE JULIO / 22:00 HRS",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Universidad de Chile vs. Unión La - Copa Chile Coca-Cola Zero Azúcar",
+      "venue": "Estadio Nacional",
+      "descripcion": "Compra tu entrada para Universidad de Chile vs. Unión La Calera, miércoles 01 de julio 2026 20:30 hrs. en Estadio Nacional - Ñuñoa.",
+      "fecha_iso": "2026-07-01",
+      "fecha_texto": "1 de julio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Calera",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/uch283_md.jpg",
+      "url": "https://www.puntoticket.com/evento/universidad-de-chile-vs-ulacalera-copachile-2026",
+      "lat": -33.464833,
+      "lon": -70.6075,
+      "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Unión La Calera, miércoles 01 de julio 2026 20:30 hrs. en Estadio Nacional - Ñuñoa.",
       "bio_artista": ""
     },
     {
@@ -1006,6 +863,54 @@
     },
     {
       "fuente": "Ticketplus",
+      "nombre": "La araucana",
+      "venue": "",
+      "descripcion": "La araucana",
+      "fecha_iso": "2026-07-02",
+      "fecha_texto": "2 de julio de 2026",
+      "precio_desde_clp": "7.840",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/47e919664d16ee0bfcb46204b3acc8d61de20d1e.jpg?1780676173&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/la-araucana-2026-07-02-19-00-00-0400",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "La Araucana is a 16th-century epic poem in Spanish by Alonso de Ercilla, about the Spanish Conquest of Chile. It was considered the national epic of the Captaincy General of Chile and one of the most important works of the Spanish Golden Age. It was translated into English in 1945 by Paul Thomas Manchester and Charles Maxwell Lancaster for Vanderbilt University Press.",
+      "bio_artista": "La Araucana is a 16th-century epic poem in Spanish by Alonso de Ercilla, about the Spanish Conquest of Chile. It was considered the national epic of the Captaincy General of Chile and one of the most important works of the Spanish Golden Age. It was translated into English in 1945 by Paul Thomas Manchester and Charles Maxwell Lancaster for Vanderbilt University Press."
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Milonga: La noche de los personajes tangueros- Jueves io 21hrs",
+      "venue": "",
+      "descripcion": "Milonga: La noche de los personajes tangueros- Jueves 2 Julio 21hrs",
+      "fecha_iso": "2026-07-02",
+      "fecha_texto": "2 de julio de 2026",
+      "precio_desde_clp": "8.800",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/4fce3f175cc752bd1d98cb17db1b5fa0c00f77eb.png?1781736347&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/milonga-la-noche-de-los-personajes-tangueros-jueves-2-julio-21hrs",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Milonga: La noche de los personajes tangueros- Jueves 2 Julio 21hrs",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Luis Slimming / / Palermo Teatro Bar / io / 22:30 hrs",
+      "venue": "",
+      "descripcion": "Luis Slimming / Providencia / Palermo Teatro Bar / 02 de Julio / 22:30 hrs",
+      "fecha_iso": "2026-07-02",
+      "fecha_texto": "2 de julio de 2026",
+      "precio_desde_clp": "16.500",
+      "ciudad": "Providencia",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/8baaf9c44e55461d1b3f6130914fd7be10f02ac0.jpg?1781029343&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/luis-slimming-providencia-palermo-teatro-bar-02-de-julio-22-30-hrs",
+      "lat": null,
+      "lon": null,
+      "descripcion_extendida": "Luis Slimming / Providencia / Palermo Teatro Bar / 02 de Julio / 22:30 hrs",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
       "nombre": "Valverde / / Chicago Bar / io / 22:00 hrs.",
       "venue": "",
       "descripcion": "Coronel Valverde / Concón / Chicago Bar / 02 de Julio / 22:00 hrs.",
@@ -1066,6 +971,70 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p><strong>CÓCTELES &amp; RISAS 🍸😂</strong></p><p>Prepárate para una noche donde los buenos tragos y las carcajadas son los protagonistas.</p><p>Este <strong>jueves 2 de julio a las 21:00 horas</strong>, llega a Akbar Bar Restaurant una nueva edición de <strong>\"Cócteles &amp; Risas\"</strong>, un show de stand-up comedy con grandes exponentes de la escena local que prometen una velada llena de humor, improvisación y momentos inolvidables.</p><p>🎤 <strong>Comediantes invitados:</strong></p><ul><li>Alex</li><li>Nico</li><li>Nacho</li><li>Ramírez</li></ul><p>📍 <strong>Lugar:</strong> Akbar Bar Restaurant</p><p> Irarrázaval 3481, Plaza Ñuñoa.</p><p>Ven con tus amigos, disfruta de la mejor coctelería, buena gastronomía y un espectáculo de comedia pensado para desconectarte de la rutina y reír sin parar.</p><p>⚠️ Cupos limitados. Asegura tu entrada con anticipación.</p><p><strong>La risa es mejor cuando se comparte. ¡No te lo pierdas!</strong> 🍹🤣🎭</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Tres x Cruces",
+      "venue": "",
+      "descripcion": "Tres x Cruces",
+      "fecha_iso": "2026-07-03",
+      "fecha_texto": "3 de julio de 2026",
+      "precio_desde_clp": "4.238",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/6f91601729688ea84c0caca930d64ac451660d84.jpg?1782234251&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/tres-x-cruces",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Jorge Alís-MALON - Viernes io 20 hrs",
+      "venue": "",
+      "descripcion": "Jorge Alís-MALON - Viernes 3 Julio 20 hrs",
+      "fecha_iso": "2026-07-03",
+      "fecha_texto": "3 de julio de 2026",
+      "precio_desde_clp": "19.800",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/93e9a0928e3cfc1e50576b83e6a9cc9cc853173a.png?1782442800&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/jorge-alis-malon-viernes-3-julio-20-hrs",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Jorge Alís-MALON - Viernes 3 Julio 20 hrs",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Preciosas Pequeñas Partes",
+      "venue": "",
+      "descripcion": "Preciosas Pequeñas Partes",
+      "fecha_iso": "2026-07-03",
+      "fecha_texto": "3 de julio de 2026",
+      "precio_desde_clp": "4.950",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/28ad072bcb83201fb6e2de132ba27eb49794695a.jpg?1781537113&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/preciosas-pequenas-partes-2026-07-03-20-00-00-0400",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Show de Stand Up-Comedy & Friends-Viernes io a las 20:30 hrs",
+      "venue": "",
+      "descripcion": "Show de Stand Up-Comedy & Friends-Viernes 3 Julio a las 20:30 hrs",
+      "fecha_iso": "2026-07-03",
+      "fecha_texto": "3 de julio de 2026",
+      "precio_desde_clp": "6.600",
+      "ciudad": "Santiago",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/3cfbd58ab0f04c9699a0b97906cf8314343ddd8a.jpeg?1782602473&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/show-de-stand-up-comedy-friends-viernes-3-julio-a-las-20-30-hrs",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "descripcion_extendida": "Show de Stand Up-Comedy & Friends-Viernes 3 Julio a las 20:30 hrs",
       "bio_artista": ""
     },
     {
@@ -1162,7 +1131,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>¡Atención Puente Alto y alrededores! Este próximo VIERNES 03 de JULIO, llega el gran MAURICIO PALMA con su show a BAR RUTA 78 ; No te pierdas a uno de los exponentes más destacados del humor ácido, negro y sin filtro de la comedia nacional. </p><p><br></p><p>Invitado especial: El mismísimo Violento Parra.</p><p><br></p><p>reserva oportunamente y no quedes fuera de una noche de comedia donde las risas están garantizadas.</p>",
-      "bio_artista": ""
+      "bio_artista": "Cúcuta, oficialmente San José de Cúcuta, es un municipio colombiano, capital del departamento de Norte de Santander y núcleo del área metropolitana de Cúcuta. La ciudad está situada en el valle homónimo, al pie de la Cordillera Oriental de los Andes colombianos, próxima a la frontera con Venezuela. Comprende una superficie aproximada de 1117 km², con un área urbana de 64 km² y un área rural de 1053 km²."
     },
     {
       "fuente": "ComediaTicket",
@@ -1178,7 +1147,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "<h3>🍸 CÓCTELES &amp; RISAS 🍸</h3><p>El panorama perfecto para comenzar el fin de semana: una noche cargada de humor, buena energía, cócteles y carcajadas de principio a fin.</p><p>Cinco comediantes se toman el escenario de Akbar Bar Restaurant para compartir sus mejores historias, observaciones, anécdotas y locuras cotidianas en un show dinámico, cercano y lleno de sorpresas.</p><p>🎤 Amandísima</p><p> 🎤 Carlos Mfeo</p><p> 🎤 Dani</p><p> 🎤 Nacho</p><p> 🎤 Felipe</p><p>Si necesitas desconectarte de la semana, juntarte con amigos o simplemente regalarte una noche de risas, este show es para ti.</p><p>📅 Viernes 3 de julio</p><p> 🕘 21:00 horas</p><p> 📍 Akbar Bar Restaurant – Irarrázaval 3481, Plaza Ñuñoa</p><p>✨ Risas, tragos, buena compañía y un elenco imperdible en uno de los escenarios más entretenidos de Santiago.</p><p>🎟️ Compra tu entrada con anticipación y asegura tu lugar.</p><p><strong>Porque una buena noche se mide en carcajadas... y esta viene cargada de ellas.</strong> 😂🍹🎙️🔥</p>",
-      "bio_artista": ""
+      "bio_artista": "Media Naranja es un programa de radio en República Dominicana, creado por los hermanos Mariano y Pablo Calasso. Sale al aire el Lunes 20 de abril del año 2008, por Studio 88.5 FM."
     },
     {
       "fuente": "ComediaTicket",
@@ -1194,7 +1163,7 @@
       "lat": -35.8459,
       "lon": -71.5963,
       "descripcion_extendida": "<p>GIRA 2026 🌎🇨🇱✈️&nbsp;</p><p><br></p><p>¡“Nadie dijo que sería fácil”&nbsp;llega a Linares!&nbsp;</p><p><br></p><p>Carlita trae el mejor humor y aquí te deja una invitación:&nbsp;</p><p><br></p><p>Vamos por una cuarta temporada llena de risas y buenos momentos. Disfrutemos juntas, te espero este viernes 03 de Julio a las 22:30 horas se estará presentando en Tacubas Gourmet.&nbsp;</p><p><br></p><p>Adquiere ya tus entradas 🎟️</p>",
-      "bio_artista": ""
+      "bio_artista": "Aventuras en el tiempo es una telenovela infantil producida por la empresa productora mexicana Televisa Niños en 2001 y protagonizada por Maribel Guardia y Gerardo Murguía en los roles adultos y Belinda y Christopher Uckermann en los roles infantiles, con las participaciones antagónicas de Vanessa Guzmán, Odiseo Bichir, Mario Prudom, y Gustavo Aguilar, también contó con las actuaciones estelares de las primeras actrices Carmen Montejo y Marga López."
     },
     {
       "fuente": "GAM",
@@ -1226,7 +1195,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "PEDRO RUMINOT en Enjoy Coquimbo",
-      "bio_artista": ""
+      "bio_artista": "Antofagasta es una ciudad, puerto y comuna del Norte de Chile, la capital de la provincia y la Región de Antofagasta. Según el censo de 2024, realizado por el INE, es la sexta ciudad más poblada del país y la comuna más poblada fuera de la Región Metropolitana con 401 096 habitantes. Las principales actividades industriales de Antofagasta se encuentran íntimamente ligadas a la minería."
     },
     {
       "fuente": "Ticketplus",
@@ -1433,8 +1402,8 @@
       "url": "https://www.ticketmaster.cl/event/1126-sabor-de-peru-espacio-riesco",
       "lat": -33.4489,
       "lon": -70.6693,
-      "descripcion_extendida": "Pablo Villanueva Branda, known as Melcochita, is a Peruvian comedian and Sonero singer, born in barrio La Victoria, in Lima, Perú. Known in the 1950s as Pacocha, he and his brothers created the band \"Son Cubillas\". He made various Latin music albums produced in Peru and New York, achieving some hits in the salsa market. Melcochita has acted as a comedian on Peruvian TV in the shows A Reír, Risas y Salsa and Recargados de Risa. Also, he stars in the feature films Gemelos sin cura, No vayan!!",
-      "bio_artista": "Pablo Villanueva Branda, known as Melcochita, is a Peruvian comedian and Sonero singer, born in barrio La Victoria, in Lima, Perú. Known in the 1950s as Pacocha, he and his brothers created the band \"Son Cubillas\". He made various Latin music albums produced in Peru and New York, achieving some hits in the salsa market. Melcochita has acted as a comedian on Peruvian TV in the shows A Reír, Risas y Salsa and Recargados de Risa. Also, he stars in the feature films Gemelos sin cura, No vayan!!"
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -1450,7 +1419,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La agrupación de cámara Amanay presenta el concierto “Música chilena para siete” en la segunda fecha de conciertos de la temporada de música de la Universida",
-      "bio_artista": "La música de Chile se refiere a la música creada en Chile o por chilenos en el extranjero, que forma parte de su cultura. También incluye la música de los pueblos indígenas que habitaban en el Chile actual. El 4 de octubre fue declarado como el «día de la música y de los músicos chilenos» en conmemoración del natalicio de Violeta Parra."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -1482,7 +1451,7 @@
       "lat": -53.1638,
       "lon": -70.9171,
       "descripcion_extendida": "Esteban Duch - Punta Arenas - 8 Julio",
-      "bio_artista": "Esteban Urdaneta, conocido artísticamente como Esteban Düch, es un comediante venezolano radicado en Chile desde hace más de una década. Alcanzó mayor exposición pública tras su presentación en el Festival de Viña del Mar 2026, donde obtuvo las Gaviotas de Plata y de Oro."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -1498,7 +1467,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "Compra tu entrada para EDO CAROE, miércoles 08 de julio 2026 19:00 hrs. en Comedy - Providencia.",
-      "bio_artista": "Edoardo Alejandro Carrasco Rodríguez conocido artísticamente como Edo Caroe, El Bad Bunny Chileno, Mago Pirula Es un comediante, ilusionista, locutor, influencer y creador de contenido Chileno. A lo largo de su trayectoria ha desarrollado una identidad escénica única, caracterizada por un humor agudo, irreverente y cercano, que él mismo ha complementado con apodos como “el Lobo de la carretera” o “el Portador de la Esperanza”."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -1753,8 +1722,8 @@
       "url": "https://www.ticketmaster.cl/event/jazz-en-el-teatro-santelices-quinteto-teatro-san-gines",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "The Jazz Singer es el primer largometraje comercial con sonido sincronizado. Fue dirigido por Alan Crosland y estrenado el 6 de octubre de 1927. Esta película tuvo dos versiones posteriores, la primera de Michael Curtiz en 1952, con Danny Thomas, y la segunda de Richard Fleischer en 1980, con Neil Diamond.",
+      "bio_artista": "The Jazz Singer es el primer largometraje comercial con sonido sincronizado. Fue dirigido por Alan Crosland y estrenado el 6 de octubre de 1927. Esta película tuvo dos versiones posteriores, la primera de Michael Curtiz en 1952, con Danny Thomas, y la segunda de Richard Fleischer en 1980, con Neil Diamond."
     },
     {
       "fuente": "Ticketplus",
@@ -1770,7 +1739,7 @@
       "lat": -33.0472,
       "lon": -71.6127,
       "descripcion_extendida": "Revival Originals Presenta Creedence Experience",
-      "bio_artista": ""
+      "bio_artista": "X-Men: The Animated Series, also known as X-Men, is an animated superhero television series, based on the Marvel Comics superhero team of the same name. The series aired in the United States for five seasons from October 31, 1992, to September 20, 1997, on Fox's Fox Kids programming block. It was produced by Marvel Entertainment and Saban Entertainment, and animated principally by AKOM."
     },
     {
       "fuente": "PuntoTicket",
@@ -1786,7 +1755,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, viernes 17 de julio 2026 al viernes 17 de julio 2026 en Gimnasio Municipal de Concepción - Concepción.",
-      "bio_artista": ""
+      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
     },
     {
       "fuente": "Ticketmaster",
@@ -1801,24 +1770,8 @@
       "url": "https://www.ticketmaster.cl/event/884-pestilence-club-segundo-piso",
       "lat": -33.0472,
       "lon": -71.6127,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "Ticketmaster",
-      "nombre": "La Descendencia Chilena",
-      "venue": "",
-      "descripcion": "17 de Julio 2026",
-      "fecha_iso": "2026-07-17",
-      "fecha_texto": "17 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Mostazal",
-      "imagen_url": "https://cdn.getcrowder.com/images/2e5db24b-bc09-4cf5-bbf3-b0f45d7da29e-640x640webladecadenciachilena.jpg",
-      "url": "https://www.ticketmaster.cl/event/la-descendencia-chilena-gran-arena-monticello",
-      "lat": null,
-      "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Pestilence es una banda neerlandesa de thrash metal y death metal fundada en 1986 en Enschede. Después incorporarían elementos de jazz fusión a su música. Lanzaron cuatro álbumes antes de separarse en 1994 y volver a reunirse en 2008. Tras su regreso, han lanzado tres álbumes de estudio.",
+      "bio_artista": "Pestilence es una banda neerlandesa de thrash metal y death metal fundada en 1986 en Enschede. Después incorporarían elementos de jazz fusión a su música. Lanzaron cuatro álbumes antes de separarse en 1994 y volver a reunirse en 2008. Tras su regreso, han lanzado tres álbumes de estudio."
     },
     {
       "fuente": "GAM",
@@ -2026,7 +1979,7 @@
       "lat": -33.0247,
       "lon": -71.5519,
       "descripcion_extendida": "Lucas Espinoza - Viña del Mar - Barbones Comedy",
-      "bio_artista": "Lucas Salvador Espinoza Arias es un comediante, actor, guionista y director chileno. Ha participado en proyectos vinculados al formato de comedia, tanto en televisión como en plataformas digitales."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2042,7 +1995,7 @@
       "lat": -37.7979,
       "lon": -72.7096,
       "descripcion_extendida": "Esteban Duch - Angol - 23 Julio",
-      "bio_artista": "Esteban Urdaneta, conocido artísticamente como Esteban Düch, es un comediante venezolano radicado en Chile desde hace más de una década. Alcanzó mayor exposición pública tras su presentación en el Festival de Viña del Mar 2026, donde obtuvo las Gaviotas de Plata y de Oro."
+      "bio_artista": ""
     },
     {
       "fuente": "GAM",
@@ -2058,7 +2011,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Un espectáculo inspirado en la clásica postal del imaginario latino, con plumas, bailes y ritmos reconocibles, se cae a pedazos. Lo que al principio parece u",
-      "bio_artista": "Majamama es el primer álbum de Juan Zamorano el cual contempla canciones de diversas etapas de su vida, generando un mestizaje de estilos musicales y temáticas que incluye la trova, música latinoamericana y popular."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2074,7 +2027,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Sinfónico 6: Misterios y Leyendas",
-      "bio_artista": "Scooby-Doo! Misterios S.A. es la undécima reencarnación del dibujo animado Scooby-Doo y la primera serie de la franquicia en ser realizada totalmente en formato HD Widescreen. El programa fue producido por Warner Bros. Animation bajo originalidad de Hanna-Barbera Productions, como un homenaje y secuela de ¿Scooby-Doo dónde estás?, la primera serie de Scooby-Doo de 1969."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2090,7 +2043,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Abono Semestre 2 - Temporada Sinfónica 2026 - SÁBADO",
-      "bio_artista": "El Consorcio Regional de Transportes de Madrid (CRTM) es una sociedad pública dependiente de la Comunidad de Madrid que gestiona y regula todos los transportes públicos colectivos de la Comunidad y que fue fundada el 16 de diciembre de 1985."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2106,7 +2059,7 @@
       "lat": -36.827,
       "lon": -73.0502,
       "descripcion_extendida": "Abono Semestre 2 - Temporada Sinfónica 2026 - VIERNES",
-      "bio_artista": "El Consorcio Regional de Transportes de Madrid (CRTM) es una sociedad pública dependiente de la Comunidad de Madrid que gestiona y regula todos los transportes públicos colectivos de la Comunidad y que fue fundada el 16 de diciembre de 1985."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2122,7 +2075,7 @@
       "lat": -39.284,
       "lon": -72.2288,
       "descripcion_extendida": "Esteban Duch - Villarrica - 24 Julio",
-      "bio_artista": "Esteban Urdaneta, conocido artísticamente como Esteban Düch, es un comediante venezolano radicado en Chile desde hace más de una década. Alcanzó mayor exposición pública tras su presentación en el Festival de Viña del Mar 2026, donde obtuvo las Gaviotas de Plata y de Oro."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -2419,7 +2372,7 @@
       "descripcion": "ALMA CONCIERTOS: VIENTOS",
       "fecha_iso": "2026-08-01",
       "fecha_texto": "1 de agosto de 2026",
-      "precio_desde_clp": "8.000",
+      "precio_desde_clp": "12.800",
       "ciudad": "Puerto Montt",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/cde86d8a71e60ede469e841e8f61fa32ae758c10.jpg?1780066682&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/reina-sofia-vientos",
@@ -2627,7 +2580,7 @@
       "descripcion": "MANUEL PAEZ - ALMA FRAGMENTADA",
       "fecha_iso": "2026-08-12",
       "fecha_texto": "12 de agosto de 2026",
-      "precio_desde_clp": "7.500",
+      "precio_desde_clp": "12.000",
       "ciudad": "Puerto Montt",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/7d27e1c432ca58cbfeb7bfd9161835edcdd49406.png?1770659863&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/manuel-paez-lanzamiento-album",
@@ -2762,7 +2715,7 @@
       "lat": -35.4264,
       "lon": -71.6554,
       "descripcion_extendida": "Papel Maché en Concierto Gira 2026",
-      "bio_artista": ""
+      "bio_artista": "El Carnaval de Viareggio, en Italia, cada año, celebra el esplendor de un mes entero de fiestas diurnas y nocturnas, con desfiles de construcciones espectaculares, fiestas en los barrios, y bailes de disfraces y diferentes tipos de eventos."
     },
     {
       "fuente": "Ticketplus",
@@ -3043,7 +2996,7 @@
       "descripcion": "SEMANA INTERNACIONAL DE LA GUITARRA",
       "fecha_iso": "2026-09-04",
       "fecha_texto": "4 de septiembre de 2026",
-      "precio_desde_clp": "8.000",
+      "precio_desde_clp": "12.800",
       "ciudad": "Puerto Montt",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/d3ea3d30d96c1c185d3a9c60c23814aa3304903b.png?1780066350&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/sig2026",
@@ -3162,7 +3115,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "La obra, en versión de La Dramática Nacional y con dramaturgia de María Asunción Requena, narra la vida de los chilotes de Curaco de Vélez en los años 70, qu",
-      "bio_artista": ""
+      "bio_artista": "Nelson Omar Brodt Chávez es un actor, director, dramaturgo y docente chileno, de extensa trayectoria en teatro, cine y televisión."
     },
     {
       "fuente": "Ticketplus",
@@ -3274,7 +3227,7 @@
       "lat": -33.437778,
       "lon": -70.640556,
       "descripcion_extendida": "Escrita por Manuela Oyarzún y dirigida por Víctor Carrasco, la obra cruza los mundos del arte, la ciencia y la salud mental para cuestionar sus jerarquías y",
-      "bio_artista": "En la mitología griega, las erinias, erinies o erinis son unas diosas ctónicas y preolímpicas cuya misión esencial es la venganza del crimen y especialmente las faltas contra la familia. Su presencia se considera una maldición y son la alegoría de la culpa y el castigo moral: persiguen especialmente a aquellos que tienen las manos manchadas de sangre, y no les permiten descansar hasta que se pague por su delito."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -3283,7 +3236,7 @@
       "descripcion": "ALMA CONCIERTOS: ENSAMBLES MIXTOS Y GRANDES",
       "fecha_iso": "2026-10-03",
       "fecha_texto": "3 de octubre de 2026",
-      "precio_desde_clp": "8.000",
+      "precio_desde_clp": "12.800",
       "ciudad": "Puerto Montt",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/b7516257e9b534546837bd305261819966db128b.jpg?1780085379&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/reina-sofia-ensambles-con-piano",
@@ -3338,7 +3291,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Parte de la 36.ª Bienal de São Paulo, No todo viajero recorre caminos – De la humanidad como práctica, curada por Bonaventure Soh Bejeng Ndikung y con co-curaduría de André Pitol, se exhibirá en la Sala Andes del Centro Cultural La Moneda del 3 de julio al 4 de octubre de 2026, con entrada gratuita.",
-      "bio_artista": ""
+      "bio_artista": "Santos es un municipio brasileño ubicado en el litoral del estado de São Paulo, en la Región Sudeste. Es la sede de la región metropolitana de la Baixada Santista y tiene la mayor participación económica de la región. Alberga el mayor puerto de América Latina, que es el principal responsable de la dinámica económica de la ciudad junto al turismo, la pesca y el comercio."
     },
     {
       "fuente": "GAM",
@@ -3770,7 +3723,7 @@
       "lat": -33.461167,
       "lon": -70.648833,
       "descripcion_extendida": "Compra tu entrada para Candelabro, martes 08 de diciembre 2026 20:30 hrs. en Teatro Caupolicán - Santiago Centro.",
-      "bio_artista": "Un candelabro es un candelero con varias ramas; cumple la misma función que este: apoyar velas en su estructura."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketmaster",
@@ -3955,7 +3908,7 @@
       "descripcion": "El Drama de Kristoffer Borgli en SALA K",
       "fecha_iso": "2027-04-27",
       "fecha_texto": "27 de abril de 2027",
-      "precio_desde_clp": "2.200",
+      "precio_desde_clp": "",
       "ciudad": "Santiago",
       "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/98aa7c14419861a8ac774c69ebfc97bff096cde5.png?1777312304&format=baseline-jpeg&q=65",
       "url": "https://ticketplus.cl/events/el-drama-de-kristoffer-borgli-en-sala-k",
@@ -3978,7 +3931,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Exit 8 de Genki Kawamura en SALA K",
-      "bio_artista": ""
+      "bio_artista": "The 58th Sitges International Fantastic Film Festival of Catalonia took place from 9 to 19 October 2025, in Sitges, Catalonia, Spain. It opened on 9 October with Julia Ducournau's body horror drama film Alpha. This edition of the festival honoured American film director, producer, and writer Sean S. Cunningham, the creator of Friday the 13th horror franchise."
     },
     {
       "fuente": "Ticketplus",
@@ -3994,7 +3947,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "Alpha de Julia Ducournau en SALA K",
-      "bio_artista": ""
+      "bio_artista": "Rahavard Farahani, known professionally as Golshifteh Farahani, is an Iranian actress. She gained recognition for her performances in M for Mother (2006), Body of Lies (2008), About Elly (2009), The Patience Stone (2012), Paterson (2016), Girls of the Sun (2018), Extraction (2020) and its sequel Extraction 2 (2023), and Invasion (2021–present). For her performance in The Patience Stone, she was nominated for Most Promising Actress at the 39th César Awards."
     },
     {
       "fuente": "Ticketplus",
@@ -4010,7 +3963,7 @@
       "lat": -33.4489,
       "lon": -70.6693,
       "descripcion_extendida": "La misteriosa mirada del flamenco de Diego Céspedes en SALA K",
-      "bio_artista": "Un certain regard —en español, Una cierta mirada— es una sección de la selección oficial del Festival de Cannes. Sus proyecciones se realizan en la sala Debussy, en paralelo a la competición por la Palme d'Or. La sección fue introducida en 1978 por Gilles Jacob."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -4266,7 +4219,7 @@
       "lat": null,
       "lon": null,
       "descripcion_extendida": "<p>León nos trae un unipersonal tan personal como único, un show con material permanente renovado. Ven a ser parte de esta experiencia en que la columna vertebral es la risa.</p>",
-      "bio_artista": "La mula de Cullen Baker es una película de acción y western mexicana de 1971 dirigida por René Cardona. Esta protagonizada por Rodolfo de Anda y Anel."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
@@ -4587,6 +4540,86 @@
       "lon": null,
       "descripcion_extendida": "<p>Todo Mal: un manual de cómo fracasar con éxito en la adultez. Tres comediantes (Belén Mora, Beno Espinosa y Javier Doering) en la frontera de los 40 se suben al escenario sin intenciones de superación personal, sino a diseccionar la cruda realidad. Desde el peso no tan romántico de la crianza y las bendiciones, pasando por el combo de trastornos mentales y neurodivergencias que la terapia ya no puede esconder, hasta el patético arte de reinventarse post-divorcio. Un show de stand-up para reírse de la decadencia, la ansiedad y el colapso cotidiano. Porque cuando todo va mal, siempre puede ir peor.</p>",
       "bio_artista": "La idea de mal o maldad se asocia a los accidentes naturales o comportamientos humanos que se consideran perjudiciales, destructivos o inmorales y son fuente de sufrimiento moral o físico. Desde este segundo punto de vista menos general y vinculado a lo humano, se denomina más bien perversidad."
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Referente de la música en Chile y el mundo, dirigirá el próximo concierto de la Orquesta Sinfónica de Antofagasta",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "",
+      "url": "https://culturaantofagasta.cl/2026/06/19/referente-de-la-musica-en-chile-y-el-mundo-dirigira-el-proximo-concierto-de-la-orquesta-sinfonica-de-antofagasta/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
+      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "A 35 AÑOS DEL ALUVIÓN DE 1991, ORQUESTA SINFÓNICA DE ANTOFAGASTA ESTRENA OBRA INSPIRADA EN FATÍDICO ACONTECIMIENTO",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "",
+      "url": "https://culturaantofagasta.cl/2026/06/10/a-35-anos-del-aluvion-de-1991-orquesta-sinfonica-de-antofagasta-estrena-obra-inspirada-en-fatidico-acontecimiento/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
+      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como \"Día Nacional del Músico\" en conmemoración a su nacimiento, bajo la Ley 27.106."
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Comienza la IX versión de la“Semana de la Danza” que realiza la Escuela de Ballet de la Corporación Cultural de Antofagasta",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "",
+      "url": "https://culturaantofagasta.cl/2026/04/27/comienza-la-ix-version-de-lasemana-de-la-danza-que-realiza-la-escuela-de-ballet-de-la-corporacion-cultural-de-antofagasta/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
+      "bio_artista": "El Teatro Principal de Burgos es un edificio de la época isabelina situado al comienzo del paseo del Espolón, enfrente al palacio de la Diputación Provincial. Se empezó a construir en 1843 por el arquitecto Bernardino Martínez de Velasco, bajo la dirección de Francisco de Angoitia, y fue inaugurado en 1858. Desde su inauguración y hasta 1956 albergó gran número de conciertos y espectáculos. En el mismo edificio se encontraba el llamado Salón de Recreo."
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Exposición invita a conocer historia de la ilustración en Chile a través de un recorrido educativo y social",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "“Fundación Cultural y Educacional Ilustradores Chilenos de Oro”, tiene sede en Antofagasta y resguarda más de 770 obras la historia visual de nuestro país. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con motivo de la celebración del Día Internacional del Libro, la Corporación ",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "",
+      "url": "https://culturaantofagasta.cl/2026/04/23/exposicion-invita-a-conocer-la-historia-la-ilustracion-en-chile-a-traves-de-un-recorrido-educativo-y-social/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "“Fundación Cultural y Educacional Ilustradores Chilenos de Oro”, tiene sede en Antofagasta y resguarda más de 770 obras la historia visual de nuestro país. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con motivo de la celebración del Día Internacional del Libro, la Corporación ",
+      "bio_artista": "Centro Cultural La Moneda (CCLM) es un centro cultural localizado en la ciudad de Santiago en Chile, bajo la Plaza de la Ciudadanía, frente a la fachada sur del Palacio de La Moneda."
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Con un homenaje a Vivaldi comienza ciclo de concierto barrocos a cargo del Ensamble de la Escuela de Música CCA",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Concierto gratuito se realizará en la Parroquia “La Transfiguración del Señor” de la Población Coviefi Como parte de los lineamientos de despliegue territorial que impulsa la Corporación Cultural de Antofagasta, los cuales tienen como objetivo el acercar el arte y la cultura a toda la comunidad a tr",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "",
+      "url": "https://culturaantofagasta.cl/2026/04/15/con-un-homenaje-a-vivaldi-comienza-ciclo-de-concierto-barrocos-a-cargo-del-ensamble-de-la-escuela-de-musica-cca/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Concierto gratuito se realizará en la Parroquia “La Transfiguración del Señor” de la Población Coviefi Como parte de los lineamientos de despliegue territorial que impulsa la Corporación Cultural de Antofagasta, los cuales tienen como objetivo el acercar el arte y la cultura a toda la comunidad a tr",
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaGob",
