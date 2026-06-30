@@ -25,12 +25,18 @@ jobs:
       - name: Instalar dependencias Python
         run: pip install requests beautifulsoup4 playwright
 
+      - name: Detectar versión de Playwright
+        id: playwright-version
+        run: echo "version=$(python -c 'import playwright; print(playwright.__version__)')" >> "$GITHUB_OUTPUT"
+
       - name: Cachear binarios de Playwright
         id: playwright-cache
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
-          key: playwright-chromium-${{ runner.os }}-${{ hashFiles('**/requirements*.txt') }}-v1
+          # La clave depende de la versión de Playwright: al actualizarse, cambia la ruta
+          # del binario (p.ej. chromium_headless_shell-NNNN) y se debe reinstalar el navegador.
+          key: playwright-chromium-${{ runner.os }}-${{ steps.playwright-version.outputs.version }}
 
       - name: Instalar Chromium para Playwright
         if: steps.playwright-cache.outputs.cache-hit != 'true'
