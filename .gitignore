@@ -25,5 +25,9 @@ Pods/
 .DS_Store
 *.swp
 
+# Python
+__pycache__/
+*.pyc
+
 # Env / secrets
 .env
