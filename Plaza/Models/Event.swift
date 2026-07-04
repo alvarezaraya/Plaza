@@ -83,8 +83,8 @@ struct Event: Identifiable, Hashable {
 // MARK: - Coordenadas
 
 extension Event {
-    // Centro geográfico aproximado de Chile continental
-    static let defaultCoordinate = CLLocationCoordinate2D(latitude: -35.6751, longitude: -71.5430)
+    // Centro de Antofagasta: fallback para eventos sin coordenadas del scraper
+    static let defaultCoordinate = CLLocationCoordinate2D(latitude: -23.6509, longitude: -70.3975)
 }
 
 // MARK: - Conversión Evento → Event
@@ -285,30 +285,18 @@ extension Array where Element == Event {
         }
     }
 
-    // Filtro por comuna con degradación escalonada: comuna → región → todo Chile.
+    // Filtro por comuna con degradación escalonada: comuna → toda la región.
     // `note` describe el nivel cuando hubo que ampliar la búsqueda (nil si fue
-    // match directo), para avisar al usuario en vez de caer en silencio a todo Chile.
+    // match directo), para avisar al usuario en vez de caer en silencio a todo.
     func byComuneTiered(_ key: String) -> (events: [Event], note: String?) {
         guard !isEmpty else { return (self, nil) }
 
         let strict = byComuneStrict(key)
         if !strict.isEmpty { return (strict, nil) }
 
-        // Nivel 2: ampliar a la región de la comuna.
-        if let region = ComunaManager.region(for: key) {
-            let regional = filter { event in
-                region.comunas.contains {
-                    event.ciudad.lowercased().contains($0.lowercased()) ||
-                    $0.lowercased().contains(event.ciudad.lowercased())
-                }
-            }
-            if !regional.isEmpty {
-                return (regional, "Sin eventos en \(key) · mostrando \(region.id)")
-            }
-        }
-
-        // Nivel 3: todo Chile.
-        return (self, "Sin eventos en \(key) · mostrando todo Chile")
+        // Sin eventos en la comuna: ampliar a toda la región (= todo el feed,
+        // que el scraper ya limita a la Región de Antofagasta).
+        return (self, "Sin eventos en \(key) · mostrando toda la región")
     }
 
     func byMaxDistance(_ maxKm: Double, from userLocation: CLLocation?) -> [Event] {

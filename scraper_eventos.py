@@ -1,21 +1,18 @@
 """
-scraper_eventos.py  v17
+scraper_eventos.py  v18
 ======================
-Extrae eventos culturales con imagen y descripción desde TODO Chile:
-  - Ticketplus.cl         (todas las regiones de Chile)
-  - Ticketpro.cl          (todo Chile — sin filtro de ciudad)
-  - PuntoTicket.com       (todo Chile — /todos + /evento/)
-  - Ticketmaster.cl       (filtra por texto en tarjeta; anti-bot)
-  - Passline.com          (playwright — ciudades principales)
-  - ComediaTicket.cl      (playwright — todos los shows de humor)
+Extrae eventos culturales con imagen y descripción de la REGIÓN DE ANTOFAGASTA
+(Antofagasta, Calama, Tocopilla, Taltal, Mejillones, San Pedro de Atacama…).
+
+Fuentes regionales:
   - EsquinaRetornable.cl  (cine arte Antofagasta — WordPress)
   - CulturaAntofagasta.cl (RSS WordPress — Corporación Municipal)
-  - CulturaIquique.cl     (RSS WordPress — Orquesta Regional Tarapacá)
-  - Ticketchile.cl        (ticketera regional — ciudades medianas)
-  - MasQueTickets.cl      (teatro y artes escénicas)
-  - Eventbrite.cl         (playwright — eventos independientes y corporativos)
-  - Joinnus.com/CL        (playwright — plataforma latinoamericana)
-  - RSS Municipales       (feeds WordPress de corporaciones culturales regionales)
+
+Ticketeras nacionales (se filtran a la región tras detectar la ciudad):
+  - Ticketplus.cl         (solo página de la Región de Antofagasta)
+  - Ticketpro.cl · PuntoTicket.com · Ticketmaster.cl · Ticketchile.cl
+  - MasQueTickets.cl
+  - Passline.com · ComediaTicket.cl · Eventbrite.cl · Joinnus.com/CL (playwright)
 
 Requisitos:
     pip install requests beautifulsoup4
@@ -211,6 +208,47 @@ NOMBRE_CIUDAD = {
     "san bernardo": "San Bernardo", "puente alto": "Puente Alto",
 }
 
+# ── Alcance regional ─────────────────────────────────────────────────────────
+# La app cubre SOLO la Región de Antofagasta. Las listas nacionales de arriba
+# se mantienen para DETECTAR la ciudad de cada evento (saber que un show es de
+# Santiago permite descartarlo); el filtro de salida usa estas comunas.
+
+REGION_SCOPE = "Antofagasta"
+
+# Nombres canónicos (como los produce NOMBRE_CIUDAD / Nominatim), en lowercase.
+COMUNAS_REGION = {
+    "antofagasta", "mejillones", "sierra gorda", "taltal", "calama",
+    "ollagüe", "san pedro de atacama", "tocopilla", "maría elena",
+}
+
+
+def es_ciudad_de_region(ciudad):
+    """True si la ciudad (ya normalizada) pertenece a la Región de Antofagasta."""
+    return ciudad.lower().strip() in COMUNAS_REGION
+
+
+def ciudad_fuera_de_region(ciudad):
+    """True si se DETECTÓ una ciudad y NO es de la región (descartable temprano).
+    Vacío o el sentinel "Chile" no se descartan aquí: se resuelven después de
+    geocodificar (el backfill de Nominatim puede rellenar la ciudad real)."""
+    c = ciudad.lower().strip()
+    if not c or c == "chile":
+        return False
+    return c not in COMUNAS_REGION
+
+
+def filtrar_base_por_region(base):
+    """Filtra la lista de links candidatos ANTES de pedir el detalle de cada
+    uno: si la tarjeta ya reveló una ciudad fuera de la región, no vale la pena
+    gastar un request (ni el sleep de PAUSA) en ese evento."""
+    filtrados = [b for b in base
+                 if not ciudad_fuera_de_region(b.get("ciudad") or b.get("ciudad_busqueda") or "")]
+    descartados = len(base) - len(filtrados)
+    if descartados:
+        print(f"  🧹 {descartados} descartados por ciudad fuera de la región")
+    return filtrados
+
+
 VENUES_CONOCIDOS = [
     # Antofagasta
     "teatro municipal de antofagasta", "enjoy antofagasta",
@@ -239,7 +277,7 @@ MAX_POR_REGION = 40   # Límite de eventos a detallar por región en Ticketplus
 
 NOMBRES_TICKETERA = {
     "ticketplus", "ticketpro", "puntoticket", "ticketmaster", "passline",
-    "comediaticket", "culturaantofagasta", "culturaiquique",
+    "comediaticket", "culturaantofagasta",
     "ticketchile", "masquetickets", "eventbrite", "joinnus",
 }
 
@@ -644,23 +682,10 @@ def extraer_ciudad_jsonld(soup):
 def scrape_ticketplus():
     print("\n🔍 Ticketplus.cl ...")
 
+    # Alcance regional: Ticketplus lista por región, así que basta con pedir
+    # la página de la Región de Antofagasta (antes se crawleaban las 16).
     REGIONES = [
-        ("region-metropolitana",                                        "Santiago"),
-        ("region-de-arica-y-parinacota",                                "Arica"),
-        ("region-de-tarapaca",                                          "Iquique"),
-        ("region-de-antofagasta",                                       "Antofagasta"),
-        ("region-de-atacama",                                           "Copiapó"),
-        ("region-de-coquimbo",                                          "La Serena"),
-        ("region-de-valparaiso",                                        "Valparaíso"),
-        ("region-del-libertador-general-bernardo-o-higgins",            "Rancagua"),
-        ("region-del-maule",                                            "Talca"),
-        ("region-de-nuble",                                             "Chillán"),
-        ("region-del-bio-bio",                                          "Concepción"),
-        ("region-de-la-araucania",                                      "Temuco"),
-        ("region-de-los-rios",                                          "Valdivia"),
-        ("region-de-los-lagos",                                         "Puerto Montt"),
-        ("region-de-aysen",                                             "Coyhaique"),
-        ("region-de-magallanes-y-de-la-antartica-chilena",              "Punta Arenas"),
+        ("region-de-antofagasta", "Antofagasta"),
     ]
 
     base = []
@@ -762,6 +787,7 @@ def scrape_ticketpro():
 
         base.append({"texto_crudo": texto, "precio": precio, "ciudad": ciudad_det, "url": evento_url})
 
+    base = filtrar_base_por_region(base)
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
     for i, b in enumerate(base):
@@ -841,6 +867,7 @@ def scrape_puntoticket():
         ciudad = detectar_ciudad(href) or detectar_ciudad(texto) or ""
         base.append({"texto_crudo": texto, "ciudad": ciudad, "url": evento_url})
 
+    base = filtrar_base_por_region(base)
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
     for i, b in enumerate(base):
@@ -916,6 +943,7 @@ def scrape_ticketmaster():
             base.append({"texto_crudo": texto, "ciudad_busqueda": ciudad_det, "url": evento_url})
         time.sleep(PAUSA)
 
+    base = filtrar_base_por_region(base)
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
     for i, b in enumerate(base):
@@ -1035,6 +1063,7 @@ def scrape_passline():
 
         browser.close()
 
+    base = filtrar_base_por_region(base)
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
     for i, b in enumerate(base):
@@ -1363,19 +1392,6 @@ def scrape_cultura_antofagasta():
     return items
 
 
-# ── Scraper 9: CulturaIquique RSS ───────────────────────────────────────────
-
-def scrape_cultura_iquique():
-    """Corporación Cultural Municipal de Iquique — feed RSS WordPress.
-    Contiene principalmente conciertos de la Orquesta Regional de Tarapacá."""
-    print("\n🔍 CulturaIquique.cl (RSS) ...")
-    items = _scrape_rss_municipal(
-        "https://culturaiquique.cl/feed/",
-        "Iquique", "Corporación Cultural Municipal de Iquique", "CulturaIquique")
-    print(f"  ✅ {len(items)} eventos")
-    return items
-
-
 # ── Scraper 10: Ticketchile ──────────────────────────────────────────────────
 
 def scrape_ticketchile():
@@ -1403,6 +1419,7 @@ def scrape_ticketchile():
         base.append({"texto_crudo": texto, "precio": precio,
                      "ciudad": detectar_ciudad(texto) or "", "url": evento_url})
 
+    base = filtrar_base_por_region(base)
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
     for i, b in enumerate(base):
@@ -1462,6 +1479,7 @@ def scrape_masquetickets():
         base.append({"texto_crudo": texto, "ciudad": detectar_ciudad(texto) or "",
                      "url": evento_url})
 
+    base = filtrar_base_por_region(base)
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
     for i, b in enumerate(base):
@@ -1531,6 +1549,7 @@ def scrape_eventbrite():
         finally:
             browser.close()
 
+    base = filtrar_base_por_region(base)
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
     for i, b in enumerate(base):
@@ -1601,6 +1620,7 @@ def scrape_joinnus():
         finally:
             browser.close()
 
+    base = filtrar_base_por_region(base)
     print(f"  → Obteniendo detalle de {len(base)} eventos...")
     eventos = []
     for i, b in enumerate(base):
@@ -1770,136 +1790,6 @@ def _scrape_rss_municipal(feed_url, ciudad_feed, venue_feed, fuente):
     return eventos
 
 
-# ── Scraper: GAM (HTML SSR + JSON-LD) ───────────────────────────────────────
-
-GAM_BASE = "https://gam.cl/es/que-hacer-en-gam/"
-GAM_CATEGORIAS = [
-    "teatro", "danza", "musica-clasica", "musica-popular", "nueva-opera",
-    "stand-up-comedy", "familiar", "festivales-eventos-residentes",
-    "ideasypensamiento",
-]
-_GAM_SHOW_RE = re.compile(r"^https://gam\.cl/es/que-hacer-en-gam/[a-z0-9-]+/[a-z0-9-]+/$")
-
-
-def _gam_event_jsonld(html):
-    """Primer bloque JSON-LD con @type=Event del HTML, o None."""
-    soup = BeautifulSoup(html, "html.parser")
-    for tag in soup.find_all("script", type="application/ld+json"):
-        try:
-            data = json.loads(tag.get_text() or "")
-        except Exception:
-            continue
-        objetos = data if isinstance(data, list) else [data]
-        for obj in objetos:
-            if isinstance(obj, dict) and obj.get("@type") == "Event":
-                return obj
-    return None
-
-
-def scrape_gam():
-    """Centro Gabriela Mistral (GAM). El sitio migró a SSR sin RSS; cada show
-    expone JSON-LD schema.org/Event en el HTML. Se crawlean las categorías para
-    juntar los links de show y se lee el JSON-LD de cada uno."""
-    print("\n🔍 GAM — Centro Gabriela Mistral ...")
-    VENUE  = "Centro Gabriela Mistral (GAM)"
-    CIUDAD = "Santiago"
-    ahora  = datetime.now().date()
-
-    # 1) Crawl de categorías → links de show (saltando archivos y convocatorias)
-    shows  = []
-    vistos = set()
-    for cat in GAM_CATEGORIAS:
-        r = get(GAM_BASE + cat + "/")
-        if not r:
-            continue
-        soup = BeautifulSoup(r.text, "html.parser")
-        for a in soup.find_all("a", href=True):
-            u = a["href"]
-            if u.startswith("/"):
-                u = "https://gam.cl" + u
-            if (_GAM_SHOW_RE.match(u) and f"/{cat}/" in u and u not in vistos
-                    and "/historico/" not in u and "convocatoria" not in u):
-                vistos.add(u)
-                shows.append(u)
-        time.sleep(PAUSA)
-
-    print(f"  → {len(shows)} shows; leyendo JSON-LD...")
-
-    # 2) Detalle de cada show desde su JSON-LD Event
-    eventos     = []
-    descartados = 0
-    for url in shows:
-        r = get(url)
-        if not r:
-            continue
-        ev = _gam_event_jsonld(r.text)
-        if not ev or not ev.get("startDate"):
-            descartados += 1
-            time.sleep(PAUSA)
-            continue
-
-        try:
-            inicio = datetime.fromisoformat(ev["startDate"]).date()
-            fin    = datetime.fromisoformat(ev["endDate"]).date() if ev.get("endDate") else inicio
-        except ValueError:
-            descartados += 1
-            time.sleep(PAUSA)
-            continue
-
-        # Descartar funciones ya terminadas; para una temporada en curso usar hoy.
-        if fin < ahora:
-            descartados += 1
-            time.sleep(PAUSA)
-            continue
-        fecha = inicio if inicio >= ahora else ahora
-
-        nombre = limpiar(ev.get("name", ""))
-        if nombre:
-            img    = ev.get("image")
-            imagen = (img[0] if isinstance(img, list) and img else img) or ""
-            desc   = limpiar(ev.get("description", "")).rstrip("… .")
-            eventos.append({
-                "fuente":           "GAM",
-                "nombre":           nombre,
-                "venue":            VENUE,
-                "descripcion":      desc[:300],
-                "fecha_iso":        fecha.strftime("%Y-%m-%d"),
-                "fecha_texto":      f"{fecha.day} de {MESES_TEXTO[fecha.month]} de {fecha.year}",
-                "precio_desde_clp": "",
-                "ciudad":           CIUDAD,
-                "imagen_url":       imagen,
-                "url":              url,
-            })
-        time.sleep(PAUSA)
-
-    if descartados:
-        print(f"  🗑️  {descartados} sin Event/fecha futura")
-    print(f"  ✅ {len(eventos)} eventos")
-    return eventos
-
-
-def scrape_rss_municipales():
-    """Feeds RSS WordPress de corporaciones culturales regionales."""
-    FEEDS = [
-        # (feed_url, ciudad, venue, fuente)
-        ("https://www.cultura.gob.cl/feed/",
-         "Santiago",    "Ministerio de las Culturas",            "CulturaGob"),
-        ("https://www.cclm.cl/feed/",
-         "Santiago",    "Centro Cultural La Moneda",             "CCLM"),
-        ("https://www.culturalvalparaiso.cl/feed/",
-         "Valparaíso",  "Corporación Cultural de Valparaíso",    "CulturaValparaíso"),
-        # GAM ya no publica RSS (sitio migrado a SSR); ver scrape_gam().
-    ]
-
-    todos = []
-    for feed_url, ciudad, venue, fuente in FEEDS:
-        print(f"\n🔍 {fuente} (RSS) ...")
-        items = _scrape_rss_municipal(feed_url, ciudad, venue, fuente)
-        print(f"  ✅ {len(items)} eventos")
-        todos += items
-    return todos
-
-
 # ── Enriquecimiento: Wikipedia + DuckDuckGo ─────────────────────────────────
 
 def _safe_json(r):
@@ -2019,10 +1909,17 @@ def _contar_por_fuente(eventos):
 
 
 def cargar_fuentes_previas(path):
-    """Lee el JSON previo (si existe) y devuelve {fuente: count}. {} si no hay."""
+    """Lee el JSON previo (si existe) y devuelve {fuente: count}. {} si no hay.
+
+    Si el JSON previo es de otro alcance (p. ej. el histórico nacional, sin
+    marcador `region`), devuelve {} para resetear el baseline: comparar el run
+    regional contra ~300 eventos de todo Chile dispararía la alerta de caída
+    >50% aunque el run esté sano."""
     try:
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
+        if data.get("region") != REGION_SCOPE:
+            return {}
         return _contar_por_fuente(data.get("eventos", []))
     except (FileNotFoundError, json.JSONDecodeError, OSError):
         return {}
@@ -2055,30 +1952,62 @@ def verificar_salud(fuentes, fuentes_previas, total, total_previo):
 
 # ── Main ─────────────────────────────────────────────────────────────────────
 
-def main():
-    print("=" * 55)
-    print("  Scraper de eventos — Todo Chile  v17")
-    print("=" * 55)
+# Registro de fuentes activas. Cada una corre aislada: si un sitio cambia su
+# HTML o bloquea el request, esa fuente devuelve [] y las demás siguen (antes
+# una excepción no capturada abortaba el run completo).
+FUENTES_ACTIVAS = [
+    ("Ticketplus",         scrape_ticketplus),
+    ("Ticketpro",          scrape_ticketpro),
+    ("PuntoTicket",        scrape_puntoticket),
+    ("Ticketmaster",       scrape_ticketmaster),
+    ("Passline",           scrape_passline),
+    ("ComediaTicket",      scrape_comediaticket),
+    ("EsquinaRetornable",  scrape_esquinaretornable),
+    ("CulturaAntofagasta", scrape_cultura_antofagasta),
+    ("Ticketchile",        scrape_ticketchile),
+    ("MasQueTickets",      scrape_masquetickets),
+    ("Eventbrite",         scrape_eventbrite),
+    ("Joinnus",            scrape_joinnus),
+]
 
+
+def recolectar_eventos():
+    """Corre todas las fuentes activas y devuelve los eventos de la Región de
+    Antofagasta, ya ordenados por fecha. El filtro regional corre dos veces:
+    antes de geocodificar (barato, descarta ciudades conocidas fuera de la
+    región) y después (descarta lo que ni el backfill de Nominatim pudo ubicar
+    en la región)."""
     todos = []
-    todos += scrape_ticketplus()
-    todos += scrape_ticketpro()
-    todos += scrape_puntoticket()
-    todos += scrape_ticketmaster()
-    todos += scrape_passline()
-    todos += scrape_comediaticket()
-    todos += scrape_esquinaretornable()
-    todos += scrape_cultura_antofagasta()
-    todos += scrape_cultura_iquique()
-    todos += scrape_ticketchile()
-    todos += scrape_masquetickets()
-    todos += scrape_eventbrite()
-    todos += scrape_joinnus()
-    todos += scrape_gam()
-    todos += scrape_rss_municipales()
+    for nombre, scraper in FUENTES_ACTIVAS:
+        try:
+            todos += scraper()
+        except Exception as e:
+            print(f"  🛑 {nombre} falló ({type(e).__name__}: {e}) — se continúa con las demás fuentes")
+
+    # Filtro regional temprano: fuera lo que ya sabemos que no es de la región.
+    antes = len(todos)
+    todos = [e for e in todos if not ciudad_fuera_de_region(e.get("ciudad", ""))]
+    if antes - len(todos):
+        print(f"\n🧹 {antes - len(todos)} eventos descartados por estar fuera de la Región de {REGION_SCOPE}")
 
     todos.sort(key=lambda e: e["fecha_iso"] if e["fecha_iso"] else "9999")
     geocodificar_todos(todos)
+
+    # Filtro regional final: tras el backfill de ciudad de Nominatim, solo
+    # quedan eventos con ciudad confirmada en la región.
+    antes = len(todos)
+    todos = [e for e in todos if es_ciudad_de_region(e.get("ciudad", ""))]
+    if antes - len(todos):
+        print(f"🧹 {antes - len(todos)} eventos sin ciudad confirmada en la región (descartados)")
+    return todos
+
+
+def main():
+    print("=" * 55)
+    print(f"  Scraper de eventos — Región de {REGION_SCOPE}  v18")
+    print("=" * 55)
+
+    todos = recolectar_eventos()
 
     print(f"\n📚 Enriqueciendo {len(todos)} eventos con Wikipedia y DuckDuckGo (paralelo)...")
     # 6 workers: equilibrio entre velocidad y no saturar Wikipedia/DDG
@@ -2102,6 +2031,7 @@ def main():
 
     resultado = {
         "generado_en": datetime.now(timezone.utc).isoformat(),
+        "region": REGION_SCOPE,
         "total_eventos": len(todos),
         "por_fuente": fuentes,
         "eventos": todos,
