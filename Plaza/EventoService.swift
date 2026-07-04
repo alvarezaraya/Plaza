@@ -173,17 +173,27 @@ class EventoService {
 
     // Descarga con soporte ETag para evitar re-descargar si no hubo cambios.
     private func fetchWithETag() async throws -> Data {
+        try await fetch(sendingETag: true)
+    }
+
+    private func fetch(sendingETag: Bool) async throws -> Data {
         var request = URLRequest(url: jsonURL, cachePolicy: .reloadIgnoringLocalCacheData)
-        if let storedETag = UserDefaults.standard.string(forKey: etagKey) {
+        if sendingETag, let storedETag = UserDefaults.standard.string(forKey: etagKey) {
             request.setValue(storedETag, forHTTPHeaderField: "If-None-Match")
         }
 
         let (data, response) = try await URLSession.shared.data(for: request)
         let http = response as? HTTPURLResponse
 
-        if http?.statusCode == 304,
-           let cached = readCachedJSON() {
-            return cached
+        if http?.statusCode == 304 {
+            if let cached = readCachedJSON() { return cached }
+            // 304 sin caché local: iOS puede purgar Caches/ mientras el ETag
+            // persiste en UserDefaults. Sin esto, la app mostraba "Sin
+            // conexión" con la red funcionando. Se descarta el ETag huérfano
+            // y se re-descarga completo.
+            guard sendingETag else { throw URLError(.badServerResponse) }
+            UserDefaults.standard.removeObject(forKey: etagKey)
+            return try await fetch(sendingETag: false)
         }
 
         // Solo cacheamos respuestas exitosas. Un 404 (p.ej. ruta de Pages

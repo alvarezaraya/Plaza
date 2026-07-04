@@ -26,10 +26,8 @@ import json
 import os
 import re
 import sys
-import threading
 import time
 import warnings
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -1383,13 +1381,111 @@ def scrape_esquinaretornable():
 # ── Scraper 8: CulturaAntofagasta RSS ───────────────────────────────────────
 
 def scrape_cultura_antofagasta():
-    """Corporación Municipal de Cultura de Antofagasta — feed RSS WordPress."""
+    """Corporación Municipal de Cultura de Antofagasta — feed RSS WordPress.
+    Cubre también el Teatro Municipal de Antofagasta (misma corporación)."""
     print("\n🔍 CulturaAntofagasta.cl (RSS) ...")
     items = _scrape_rss_municipal(
         "https://culturaantofagasta.cl/feed/",
         "Antofagasta", "Corporación Municipal de Cultura", "CulturaAntofagasta")
     print(f"  ✅ {len(items)} eventos")
     return items
+
+
+# ── Scraper 9: Puerto Antofagasta / Sitio Cero (RSS) ────────────────────────
+
+def scrape_puerto_antofagasta():
+    """Puerto Antofagasta (anfport.cl) administra el Sitio Cero, la explanada
+    de eventos masivos gratuitos (FILZIC, Puerto de Ideas, ferias). Su feed es
+    mayormente noticia corporativa portuaria; `_rss_es_evento` filtra ese ruido
+    y deja solo los anuncios de eventos con público."""
+    print("\n🔍 PuertoAntofagasta / Sitio Cero (RSS) ...")
+    items = _scrape_rss_municipal(
+        "https://www.anfport.cl/feed/",
+        "Antofagasta", "Sitio Cero (Puerto Antofagasta)", "PuertoAntofagasta",
+        filtro_extra=re.compile(r"sitio\s+cero", re.IGNORECASE))
+    print(f"  ✅ {len(items)} eventos")
+    return items
+
+
+# ── Scraper: Cartelera Cultural de Calama ────────────────────────────────────
+
+CALAMA_CARTELERA_URL = "https://calamacultural.cl/carteleracultural"
+
+
+def _parsear_cartelera_calama(html, fecha_ancla=None):
+    """Parsea la cartelera mensual de la Corporación de Cultura y Turismo de
+    Calama. Página estática (Mobirise) con una pseudo-tabla
+    `div.table > div.row > div.cell`: [día, actividad, hora y lugar].
+    El encabezado ("Cartelera Cultural Julio 2026") da el año-ancla si no se
+    recibe `fecha_ancla`. Sin página por evento: la URL lleva un fragmento
+    único para que el stableID de la app (URL) no colisione entre filas."""
+    soup = BeautifulSoup(html, "html.parser")
+
+    if fecha_ancla is None:
+        m = re.search(rf"({MESES_PATTERN})\w*\s+de?\s*(\d{{4}})",
+                      soup.get_text(" "), re.IGNORECASE)
+        if m:
+            mes = MESES_ES.get(m.group(1).lower())
+            if mes:
+                fecha_ancla = datetime(int(m.group(2)), mes, 1).date()
+
+    eventos = []
+    vistos  = set()
+    for row in soup.select("div.table div.row"):
+        cells = [limpiar(c.get_text(" ")) for c in row.select("div.cell")]
+        if len(cells) < 2 or cells[0].lower().startswith("día"):
+            continue
+        dia_txt, actividad = cells[0], cells[1]
+        lugar_hora = cells[2] if len(cells) > 2 else ""
+
+        # Efemérides que solo se publican en redes sociales, sin lugar físico.
+        if "rr.ss" in lugar_hora.lower():
+            continue
+
+        # "6 AL 12 DE JULIO" / "5, 6 y 7 DE JULIO" → extraer_fecha_de_texto
+        # toma la primera fecha completa ("12 DE JULIO" en el rango "6 AL 12").
+        fecha_iso, fecha_texto = extraer_fecha_de_texto(dia_txt, fecha_ancla)
+        if not fecha_iso:
+            continue
+
+        nombre = limpiar(actividad).strip(" .")
+        if len(nombre) < 4:
+            continue
+        key = f"{nombre.lower()}|{fecha_iso}"
+        if key in vistos:
+            continue
+        vistos.add(key)
+
+        venue  = lugar_hora.split(" - ")[0].strip(" .")
+        ciudad = detectar_ciudad(f"{actividad} {lugar_hora}") or "Calama"
+        slug   = re.sub(r"[^a-z0-9]+", "-", nombre.lower()).strip("-")[:60]
+
+        eventos.append({
+            "fuente":           "CalamaCultural",
+            "nombre":           nombre.title() if nombre.isupper() else nombre,
+            "venue":            venue.title() if venue.isupper() else venue,
+            "descripcion":      "",
+            "fecha_iso":        fecha_iso,
+            "fecha_texto":      fecha_texto,
+            "precio_desde_clp": "",
+            "ciudad":           ciudad,
+            "imagen_url":       "",
+            "url":              f"{CALAMA_CARTELERA_URL}#{slug}-{fecha_iso}",
+        })
+    return eventos
+
+
+def scrape_calama_cultural():
+    """Cartelera mensual de calamacultural.cl (Teatro Municipal de Calama,
+    Parque El Loa, bibliotecas, MUHNCAL…)."""
+    print("\n🔍 CalamaCultural.cl (cartelera) ...")
+    r = get(CALAMA_CARTELERA_URL)
+    if not r:
+        return []
+    r.encoding = "utf-8"  # el sitio no declara charset; sin esto sale mojibake
+    eventos = _parsear_cartelera_calama(r.text)
+    print(f"  ✅ {len(eventos)} eventos")
+    return eventos
 
 
 # ── Scraper 10: Ticketchile ──────────────────────────────────────────────────
@@ -1683,22 +1779,62 @@ def _rss_es_evento(titulo, desc, fecha_iso):
     return bool(RSS_EVENTO.search(texto))
 
 
+# Verbos de apertura típicos de titulares de prensa: "Comienza la IX versión
+# de…", "Llega a Antofagasta el festival…". Solo se podan si les sigue un
+# artículo (con ciudad opcional entremedio) — así no se mutila una frase que
+# no calza con el patrón.
+RSS_VERBO_APERTURA = re.compile(
+    r"^(?:comienzan?|llegan?|vuelven?|regresan?|se\s+estrenan?|se\s+presentan?"
+    r"|se\s+inauguran?|arrancan?|parten?)\s+"
+    r"(?:(?:a|en)\s+[\wÁÉÍÓÚÑáéíóúñ]+\s+)?"
+    r"(?:la|el|los|las|un|una)\s+",
+    re.IGNORECASE,
+)
+
+
 def limpiar_nombre_rss(nombre_crudo):
-    """Limpieza suave para titulares-oración de feeds RSS: quita prefijos de
+    """Limpieza para titulares-oración de feeds RSS: quita prefijos de
     ticketera y normaliza espacios, pero NO borra meses ni ciudades (son parte
-    de la frase, a diferencia de los títulos de ticketera)."""
+    de la frase, a diferencia de los títulos de ticketera).
+
+    Además acorta el titular de nota de prensa: si trae el nombre de la obra
+    entre comillas lo usa directo; si no, poda la cláusula relativa final
+    ("… que reúne a 200 artistas") y el verbo de apertura ("Comienza la IX
+    versión de…"), siempre que lo que quede siga siendo descriptivo."""
     nombre = re.sub(PREFIJOS_TICKETERA, "", nombre_crudo, flags=re.IGNORECASE)
+    nombre = limpiar(nombre)
+
+    # Obra citada entre comillas: es el mejor nombre disponible.
+    m = re.search(r'[«“"]([^»”"]{6,80})[»”"]', nombre)
+    if m:
+        return limpiar(m.group(1)).strip(" -–—·")
+
+    # Podar cláusula relativa final si lo que queda sigue siendo descriptivo.
+    podado = re.sub(r"\s+que\s+.*$", "", nombre, flags=re.IGNORECASE)
+    if len(podado) >= 15:
+        nombre = podado
+
+    # Podar verbo de apertura de nota de prensa.
+    podado = RSS_VERBO_APERTURA.sub("", nombre)
+    if podado != nombre and len(podado) >= 10:
+        nombre = podado[0].upper() + podado[1:]
+
     return limpiar(nombre).strip(" -–—·")
 
 
-def _scrape_rss_municipal(feed_url, ciudad_feed, venue_feed, fuente):
+def _scrape_rss_municipal(feed_url, ciudad_feed, venue_feed, fuente, filtro_extra=None):
     """Helper genérico para feeds RSS WordPress de corporaciones culturales.
 
     Estos feeds son blogs de noticias: mezclan eventos reales con notas de
     prensa y recopilaciones. Filtra el ruido (`_rss_es_evento`), infiere la
     ubicación real desde el texto (`detectar_ciudad`/`detectar_venue`) usando
     la ciudad/venue del feed solo como fallback, y limpia el título sin
-    destrozar la frase (`limpiar_nombre_rss`)."""
+    destrozar la frase (`limpiar_nombre_rss`).
+
+    `filtro_extra` (regex opcional): el ítem debe matchearlo en título o
+    descripción. Útil para feeds donde lo cultural es minoría (p. ej. el feed
+    portuario de anfport.cl, donde "obras" y "funciones" significan otra cosa
+    y solo interesan las notas que nombran al Sitio Cero)."""
     r = get(feed_url)
     if not r:
         return []
@@ -1747,6 +1883,11 @@ def _scrape_rss_municipal(feed_url, ciudad_feed, venue_feed, fuente):
 
         # Filtro evento-vs-noticia: descarta notas de prensa y recopilaciones.
         if not _rss_es_evento(nombre_raw, desc_clean, fecha_iso):
+            descartados += 1
+            continue
+
+        # Filtro adicional por fuente (ver docstring).
+        if filtro_extra and not filtro_extra.search(f"{nombre_raw} {desc_clean}"):
             descartados += 1
             continue
 
@@ -1801,11 +1942,6 @@ def _safe_json(r):
         return r.json()
     except Exception:
         return {}
-
-
-# Semáforo para no saturar Wikipedia/DDG desde múltiples workers.
-# Permite máx. 1 llamada de red de enriquecimiento a la vez.
-_enrich_lock = threading.Semaphore(1)
 
 
 def buscar_wikipedia(nombre):
@@ -1867,11 +2003,10 @@ def enriquecer_evento(evento):
     desc_original = evento.get("descripcion", "")
     print(f"    🔎 '{nombre[:55]}' ...")
 
-    with _enrich_lock:
-        wiki = buscar_wikipedia(nombre)
-        time.sleep(0.8)
-        ddg = buscar_duckduckgo(nombre)
-        time.sleep(0.5)
+    wiki = buscar_wikipedia(nombre)
+    time.sleep(0.8)
+    ddg = buscar_duckduckgo(nombre)
+    time.sleep(0.5)
 
     bio = wiki or ddg
 
@@ -1964,6 +2099,8 @@ FUENTES_ACTIVAS = [
     ("ComediaTicket",      scrape_comediaticket),
     ("EsquinaRetornable",  scrape_esquinaretornable),
     ("CulturaAntofagasta", scrape_cultura_antofagasta),
+    ("PuertoAntofagasta",  scrape_puerto_antofagasta),
+    ("CalamaCultural",     scrape_calama_cultural),
     ("Ticketchile",        scrape_ticketchile),
     ("MasQueTickets",      scrape_masquetickets),
     ("Eventbrite",         scrape_eventbrite),
@@ -1971,12 +2108,20 @@ FUENTES_ACTIVAS = [
 ]
 
 
+def filtrar_fechas_pasadas(eventos, hoy_iso=None):
+    """Descarta eventos con fecha ya pasada (las ticketeras mantienen la
+    página en venta después de la función); conserva los sin fecha, que la
+    app muestra como "fecha por confirmar"."""
+    hoy_iso = hoy_iso or datetime.now().date().isoformat()
+    return [e for e in eventos if not e.get("fecha_iso") or e["fecha_iso"] >= hoy_iso]
+
+
 def recolectar_eventos():
-    """Corre todas las fuentes activas y devuelve los eventos de la Región de
-    Antofagasta, ya ordenados por fecha. El filtro regional corre dos veces:
-    antes de geocodificar (barato, descarta ciudades conocidas fuera de la
-    región) y después (descarta lo que ni el backfill de Nominatim pudo ubicar
-    en la región)."""
+    """Corre todas las fuentes activas y devuelve los eventos futuros de la
+    Región de Antofagasta, ya ordenados por fecha. El filtro regional corre dos
+    veces: antes de geocodificar (barato, descarta ciudades conocidas fuera de
+    la región) y después (descarta lo que ni el backfill de Nominatim pudo
+    ubicar en la región)."""
     todos = []
     for nombre, scraper in FUENTES_ACTIVAS:
         try:
@@ -1989,6 +2134,12 @@ def recolectar_eventos():
     todos = [e for e in todos if not ciudad_fuera_de_region(e.get("ciudad", ""))]
     if antes - len(todos):
         print(f"\n🧹 {antes - len(todos)} eventos descartados por estar fuera de la Región de {REGION_SCOPE}")
+
+    # Fechas pasadas: fuera antes de geocodificar (ahorra requests a Nominatim).
+    antes = len(todos)
+    todos = filtrar_fechas_pasadas(todos)
+    if antes - len(todos):
+        print(f"🧹 {antes - len(todos)} eventos con fecha pasada (descartados)")
 
     todos.sort(key=lambda e: e["fecha_iso"] if e["fecha_iso"] else "9999")
     geocodificar_todos(todos)
@@ -2009,20 +2160,16 @@ def main():
 
     todos = recolectar_eventos()
 
-    print(f"\n📚 Enriqueciendo {len(todos)} eventos con Wikipedia y DuckDuckGo (paralelo)...")
-    # 6 workers: equilibrio entre velocidad y no saturar Wikipedia/DDG
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        futures = {pool.submit(enriquecer_evento, e): i for i, e in enumerate(todos)}
-        completados = 0
-        for fut in as_completed(futures):
-            completados += 1
-            idx = futures[fut] + 1
-            try:
-                todos[futures[fut]] = fut.result()
-            except Exception as exc:
-                print(f"  ⚠️  [{idx}] error en enriquecimiento: {exc}")
-            if completados % 20 == 0 or completados == len(todos):
-                print(f"  ↳ {completados}/{len(todos)} completados")
+    # Serial a propósito: con el alcance regional son pocos eventos, y las
+    # consultas a Wikipedia/DDG igual iban de a una (semáforo). Un loop simple
+    # reemplaza al ThreadPoolExecutor + Semaphore(1) que tenía 6 workers
+    # esperando turno.
+    print(f"\n📚 Enriqueciendo {len(todos)} eventos con Wikipedia y DuckDuckGo...")
+    for i, evento in enumerate(todos, 1):
+        try:
+            enriquecer_evento(evento)
+        except Exception as exc:
+            print(f"  ⚠️  [{i}] error en enriquecimiento: {exc}")
 
     # Conteo por fuente del run actual y del anterior (para el guardia de salud).
     fuentes = _contar_por_fuente(todos)

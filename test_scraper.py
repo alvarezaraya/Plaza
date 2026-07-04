@@ -242,6 +242,102 @@ class TestLimpiarNombreRss(unittest.TestCase):
         self.assertEqual(
             s.limpiar_nombre_rss("Ticketplus - Concierto de Jazz"), "Concierto de Jazz")
 
+    def test_usa_obra_entre_comillas(self):
+        # Titular real de CulturaAntofagasta (sin espacio antes de la comilla).
+        n = s.limpiar_nombre_rss(
+            "Comienza la IX versión de la“Semana de la Danza” que reúne a compañías locales")
+        self.assertEqual(n, "Semana de la Danza")
+
+    def test_poda_clausula_relativa(self):
+        n = s.limpiar_nombre_rss(
+            "Exposición de ilustración patrimonial que marcó a la región llega al museo")
+        self.assertEqual(n, "Exposición de ilustración patrimonial")
+
+    def test_poda_verbo_de_apertura(self):
+        n = s.limpiar_nombre_rss("Llega a Antofagasta el festival de jazz del norte")
+        self.assertEqual(n, "Festival de jazz del norte")
+
+    def test_no_mutila_titulos_cortos(self):
+        # Si la poda deja algo demasiado corto, se conserva el original.
+        self.assertEqual(s.limpiar_nombre_rss("Obra que emociona"), "Obra que emociona")
+
+
+class TestFiltrarFechasPasadas(unittest.TestCase):
+    def test_descarta_pasadas_conserva_futuras_y_sin_fecha(self):
+        eventos = [
+            {"fecha_iso": "2026-01-01", "nombre": "pasado"},
+            {"fecha_iso": "2026-12-31", "nombre": "futuro"},
+            {"fecha_iso": "", "nombre": "sin fecha"},
+        ]
+        out = s.filtrar_fechas_pasadas(eventos, hoy_iso="2026-07-04")
+        self.assertEqual([e["nombre"] for e in out], ["futuro", "sin fecha"])
+
+    def test_hoy_se_conserva(self):
+        eventos = [{"fecha_iso": "2026-07-04"}]
+        self.assertEqual(len(s.filtrar_fechas_pasadas(eventos, hoy_iso="2026-07-04")), 1)
+
+
+CARTELERA_HTML = """
+<html><body>
+<h3>Cartelera Cultural Julio 2026</h3>
+<div class="table">
+  <div class="row header">
+    <div class="cell">Día</div><div class="cell">Actividad</div>
+    <div class="cell">Hora y Lugar</div>
+  </div>
+  <div class="row">
+    <div class="cell">1 DE JULIO</div>
+    <div class="cell">RECREO CULTURAL.</div>
+    <div class="cell">LICEO CESÁREO AGUIRRE - 10:00 HORAS</div>
+  </div>
+  <div class="row">
+    <div class="cell">3 DE JULIO</div>
+    <div class="cell">DÍA SIN BOLSAS PLÁSTICAS</div>
+    <div class="cell">RR.SS.</div>
+  </div>
+  <div class="row">
+    <div class="cell">5, 6 y 7 DE JULIO</div>
+    <div class="cell">CAMPEONATO NACIONAL DE CUECA</div>
+    <div class="cell">TEATRO MUNICIPAL - 18:00 HORAS</div>
+  </div>
+  <div class="row">
+    <div class="cell">2 DE JULIO</div>
+    <div class="cell">VITRINA ASTRONÓMICA</div>
+    <div class="cell">SAN PEDRO DE ATACAMA - 16:45 HORAS</div>
+  </div>
+</div>
+</body></html>
+"""
+
+
+class TestParsearCarteleraCalama(unittest.TestCase):
+    def setUp(self):
+        self.eventos = s._parsear_cartelera_calama(CARTELERA_HTML)
+
+    def test_parsea_filas_y_descarta_rrss(self):
+        nombres = [e["nombre"] for e in self.eventos]
+        self.assertIn("Recreo Cultural", nombres)
+        self.assertIn("Campeonato Nacional De Cueca", nombres)
+        self.assertNotIn("Día Sin Bolsas Plásticas", nombres)
+
+    def test_anio_desde_encabezado(self):
+        recreo = next(e for e in self.eventos if e["nombre"] == "Recreo Cultural")
+        self.assertEqual(recreo["fecha_iso"], "2026-07-01")
+
+    def test_venue_sin_hora(self):
+        recreo = next(e for e in self.eventos if e["nombre"] == "Recreo Cultural")
+        self.assertEqual(recreo["venue"], "Liceo Cesáreo Aguirre")
+
+    def test_ciudad_detectada_en_fila(self):
+        vitrina = next(e for e in self.eventos if "Astronómica" in e["nombre"])
+        self.assertEqual(vitrina["ciudad"], "San Pedro de Atacama")
+
+    def test_urls_unicas_por_evento(self):
+        urls = [e["url"] for e in self.eventos]
+        self.assertEqual(len(urls), len(set(urls)))
+        # Todas cuelgan de la cartelera con fragmento propio.
+        self.assertTrue(all("#" in u for u in urls))
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
