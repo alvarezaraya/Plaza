@@ -2,7 +2,7 @@
 
 **Descubre eventos culturales en la Región de Antofagasta** — conciertos, teatro, comedia, exposiciones y más, en una sola app.
 
-Plaza reúne eventos de **12 fuentes de venta de entradas y centros culturales** (filtrados a la Región de Antofagasta) y los presenta en una interfaz nativa de iOS con un diseño editorial cuidado. Un scraper en Python recolecta, geocodifica y enriquece los eventos cada día; la app SwiftUI los consume desde un JSON servido por GitHub Pages.
+Plaza reúne eventos de **14 fuentes de venta de entradas y centros culturales** (filtrados a la Región de Antofagasta) y los presenta en una interfaz nativa de iOS con un diseño editorial cuidado. Un scraper en Python recolecta, geocodifica y enriquece los eventos cada día; la app SwiftUI los consume desde un JSON servido por GitHub Pages.
 
 ---
 
@@ -41,7 +41,7 @@ geocodifica los recintos y clasifica cada evento con IA en el dispositivo.
 
 | Archivo | Rol |
 |---------|-----|
-| [`scraper_eventos.py`](scraper_eventos.py) | Scrapea las 12 fuentes, filtra a la región, geocodifica, enriquece y valida la salud del run |
+| [`scraper_eventos.py`](scraper_eventos.py) | Scrapea las 14 fuentes, filtra a la región, geocodifica, enriquece y valida la salud del run |
 | [`test_scraper.py`](test_scraper.py) | Tests `unittest` sin red: funciones puras de parsing + guardia de salud |
 | [`eventos.json`](eventos.json) | Salida del scraper, servida vía GitHub Pages |
 | [`.github/workflows/scraper.yml`](.github/workflows/scraper.yml) | CI: corre tests → scraper → commit del JSON |
@@ -71,10 +71,12 @@ geocodifica los recintos y clasifica cada evento con IA en el dispositivo.
 
 ## 🔎 Cómo funciona el scraper
 
-**Fuentes (12):** EsquinaRetornable · CulturaAntofagasta (regionales) ·
-Ticketplus · Ticketpro · PuntoTicket · Ticketmaster · Passline · ComediaTicket ·
-Ticketchile · MasQueTickets · Eventbrite · Joinnus (nacionales, filtradas a la
-Región de Antofagasta por ciudad detectada).
+**Fuentes (14):** EsquinaRetornable · CulturaAntofagasta · PuertoAntofagasta
+(Sitio Cero) · CalamaCultural (cartelera mensual del Teatro Municipal de Calama,
+Parque El Loa y bibliotecas) — regionales · Ticketplus · Ticketpro · PuntoTicket ·
+Ticketmaster · Passline · ComediaTicket · Ticketchile · MasQueTickets ·
+Eventbrite · Joinnus (nacionales, filtradas a la Región de Antofagasta por
+ciudad detectada). Los eventos con fecha pasada se descartan.
 
 - **Alcance regional:** cada fuente descarta temprano los eventos con ciudad
   detectada fuera de la región (`filtrar_base_por_region`); tras geocodificar,
