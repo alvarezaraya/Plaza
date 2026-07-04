@@ -1,8 +1,8 @@
 # Plaza 🎭
 
-**Descubre eventos culturales en Chile** — conciertos, teatro, comedia, exposiciones y más, en una sola app.
+**Descubre eventos culturales en la Región de Antofagasta** — conciertos, teatro, comedia, exposiciones y más, en una sola app.
 
-Plaza reúne eventos de **14 fuentes de venta de entradas y centros culturales chilenos** y los presenta en una interfaz nativa de iOS con un diseño editorial cuidado. Un scraper en Python recolecta, geocodifica y enriquece los eventos cada día; la app SwiftUI los consume desde un JSON servido por GitHub Pages.
+Plaza reúne eventos de **14 fuentes de venta de entradas y centros culturales** (filtrados a la Región de Antofagasta) y los presenta en una interfaz nativa de iOS con un diseño editorial cuidado. Un scraper en Python recolecta, geocodifica y enriquece los eventos cada día; la app SwiftUI los consume desde un JSON servido por GitHub Pages.
 
 ---
 
@@ -12,7 +12,7 @@ Plaza reúne eventos de **14 fuentes de venta de entradas y centros culturales c
 - 🗺️ **Mapa interactivo** con marcadores agrupados por recinto
 - 🔖 **Agenda personal** — guarda eventos y recibe un recordatorio 1 hora antes
 - 🎨 **Clasificación con IA** (Apple Intelligence / FoundationModels) — categoría del evento + biografía del artista
-- 📍 **Filtro por ubicación** — comuna, región o todo Chile, con fallback escalonado
+- 📍 **Filtro por ubicación** — por comuna de la Región de Antofagasta, con fallback a toda la región
 - 🌈 **Dos temas visuales** (`plaza` y `multicolor`) con cambio en caliente
 - ✏️ **Edición manual** de cualquier campo, persistida entre actualizaciones
 - 🖼️ **Carrusel destacado** con caché de imágenes y prefetch
@@ -41,7 +41,7 @@ geocodifica los recintos y clasifica cada evento con IA en el dispositivo.
 
 | Archivo | Rol |
 |---------|-----|
-| [`scraper_eventos.py`](scraper_eventos.py) | Scrapea las 14 fuentes, geocodifica, enriquece, agrupa y valida la salud del run |
+| [`scraper_eventos.py`](scraper_eventos.py) | Scrapea las 14 fuentes, filtra a la región, geocodifica, enriquece y valida la salud del run |
 | [`test_scraper.py`](test_scraper.py) | Tests `unittest` sin red: funciones puras de parsing + guardia de salud |
 | [`eventos.json`](eventos.json) | Salida del scraper, servida vía GitHub Pages |
 | [`.github/workflows/scraper.yml`](.github/workflows/scraper.yml) | CI: corre tests → scraper → commit del JSON |
@@ -57,7 +57,7 @@ geocodifica los recintos y clasifica cada evento con IA en el dispositivo.
 | `Models/EventClassifier.swift` | FoundationModels: categoría del evento + bio del artista |
 | `Models/VenueGeocoder.swift` | Recinto → coordenadas, caché en UserDefaults |
 | `Models/LocationManager.swift` | CoreLocation, `distanceText()` |
-| `Models/ComunaManager.swift` | Filtro por ubicación; fallback comuna → región → Chile |
+| `Models/ComunaManager.swift` | Filtro por ubicación; comunas de la Región de Antofagasta |
 | `Models/ReminderManager.swift` | Notificaciones locales 1 h antes del evento |
 | `Screens/HomeView.swift` | Feed, carrusel, badge de calendario, filtros |
 | `Screens/EventDetailView.swift` | Detalle: imagen, bio IA, mapa (tap → Apple Maps) |
@@ -71,18 +71,24 @@ geocodifica los recintos y clasifica cada evento con IA en el dispositivo.
 
 ## 🔎 Cómo funciona el scraper
 
-**Fuentes (14):** Ticketplus · Ticketpro · PuntoTicket · Ticketmaster · Passline ·
-ComediaTicket · EsquinaRetornable · CulturaAntofagasta · CulturaIquique ·
-Ticketchile · MasQueTickets · Eventbrite · Joinnus · RSS Municipales
-(CulturaGob, CCPLM, GAM, CulturaValparaíso).
+**Fuentes (14):** EsquinaRetornable · CulturaAntofagasta · PuertoAntofagasta
+(Sitio Cero) · CalamaCultural (cartelera mensual del Teatro Municipal de Calama,
+Parque El Loa y bibliotecas) — regionales · Ticketplus · Ticketpro · PuntoTicket ·
+Ticketmaster · Passline · ComediaTicket · Ticketchile · MasQueTickets ·
+Eventbrite · Joinnus (nacionales, filtradas a la Región de Antofagasta por
+ciudad detectada). Los eventos con fecha pasada se descartan.
 
+- **Alcance regional:** cada fuente descarta temprano los eventos con ciudad
+  detectada fuera de la región (`filtrar_base_por_region`); tras geocodificar,
+  solo se publican eventos con ciudad confirmada en la región.
 - **Coordenadas** (`lat`/`lon`): se resuelven en orden `COORDENADAS_FIJAS` →
   Nominatim (1 req/s) → centroide de la ciudad. La respuesta de Nominatim además
   rellena la `ciudad` cuando viene vacía.
 - **Enriquecimiento:** `ThreadPoolExecutor(max_workers=6)`; las consultas a
   Wikipedia/DuckDuckGo se serializan con `Semaphore(1)` para no saturar las APIs.
-- **Feeds RSS municipales:** son blogs de noticias, así que `_rss_es_evento`
-  filtra notas de prensa y recopilaciones, y la ubicación se infiere del título.
+- **Feed RSS municipal (CulturaAntofagasta):** es un blog de noticias, así que
+  `_rss_es_evento` filtra notas de prensa y recopilaciones, y la ubicación se
+  infiere del título.
 - **Agrupación:** eventos con el mismo título **y** subtítulo se colapsan (una gira
   en varias ciudades se vuelve un solo evento con `otherDates`).
 - **Salud:** `verificar_salud` compara el run con el JSON previo. Si una fuente
@@ -106,7 +112,7 @@ open Plaza.xcodeproj   # Requiere Xcode con SDK de iOS 26
 
 ```bash
 pip install requests beautifulsoup4 playwright && python -m playwright install chromium
-python3 scraper_eventos.py        # ~300 eventos, 2–5 min
+python3 scraper_eventos.py        # eventos de la Región de Antofagasta, ~1–3 min
 python3 test_scraper.py           # tests (sin red)
 ```
 

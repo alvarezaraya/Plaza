@@ -1,13 +1,13 @@
 # CLAUDE.md
 
-**Plaza** — App de eventos culturales chilenos.
+**Plaza** — App de eventos culturales de la **Región de Antofagasta**.
 iOS app (SwiftUI, iOS 26+, Liquid Glass, sin SPM) + scraper Python que genera `eventos.json` vía CI.
 JSON en `https://alvarezaraya.github.io/Plaza/eventos.json` (GitHub Pages, ruta sensible a mayúsculas: repo `Plaza`). Requiere repo **público** + Pages habilitado (`docs/` on `main`).
 
 ## Comandos
 
 ```bash
-# Scraper local (~300 eventos, 2-5 min)
+# Scraper local (eventos de la Región de Antofagasta, ~1-3 min)
 pip install requests beautifulsoup4 playwright && python -m playwright install chromium
 python3 scraper_eventos.py
 
@@ -32,7 +32,7 @@ CI (06:00 + 17:00 UTC) → scraper → eventos.json → GitHub Pages
 | `Models/Event.swift` | Modelo central, conversión Evento→Event, parseName, classify, filtros |
 | `Models/EventClassifier.swift` | FoundationModels: categoría + bio artista |
 | `Models/VenueGeocoder.swift` | Fallback venue→GPS, caché UserDefaults |
-| `Models/ComunaManager.swift` | Filtro ubicación; `"Chile"` = sin filtro; fallback escalonado comuna→región→Chile (`byComuneTiered`) |
+| `Models/ComunaManager.swift` | Filtro ubicación (solo comunas de la Región de Antofagasta); `"Chile"` = sin filtro (toda la región); fallback comuna→región (`byComuneTiered`) |
 | `Models/LocationManager.swift` | CoreLocation, distanceText() |
 | `Models/ReminderManager.swift` | UNUserNotificationCenter, 1h antes del evento |
 | `Theme/PlazaTheme.swift` | Tokens (colores, fuentes, spacing), PlTag, dos temas |
@@ -66,13 +66,15 @@ Eventos con el mismo título **y subtítulo** (lowercased) se agrupan — giras 
 
 **Coordenadas**: JSON incluye `lat`/`lon`. Orden de resolución: `COORDENADAS_FIJAS` (no añadir nombres genéricos como "teatro municipal") → Nominatim (1 req/s, `addressdetails=1`) → centroide de ciudad. La respuesta de Nominatim **rellena `ciudad`** cuando viene vacía o como sentinel `"Chile"` (backfill en `geocodificar_todos`, sin requests extra).
 
-**Enriquecimiento**: `ThreadPoolExecutor(max_workers=6)`. Wikipedia/DuckDuckGo serializados con `Semaphore(1)` para no saturar APIs.
+**Enriquecimiento**: loop serial (pocos eventos con alcance regional); Wikipedia → DuckDuckGo con pausas entre requests.
 
-**Fuentes** (15): Ticketplus · Ticketpro · PuntoTicket · Ticketmaster · Passline · ComediaTicket · EsquinaRetornable · CulturaAntofagasta · CulturaIquique · Ticketchile · MasQueTickets · Eventbrite · Joinnus · **GAM** (`scrape_gam`: sitio SSR sin RSS, lee JSON-LD `schema.org/Event` de cada show crawleando las categorías de `/que-hacer-en-gam/`) · RSS Municipales (CulturaGob, CCLM, CulturaValparaíso).
+**Alcance regional**: solo Región de Antofagasta (`REGION_SCOPE`/`COMUNAS_REGION`). Filtro en dos pasos: `filtrar_base_por_region` descarta links con ciudad detectada fuera de la región ANTES de pedir el detalle, y tras geocodificar solo se publican eventos con `es_ciudad_de_region` (los `"Chile"`/vacíos se resuelven con el backfill de Nominatim o se descartan). Las listas nacionales `CIUDADES_OBJETIVO`/`NOMBRE_CIUDAD` se mantienen para DETECTAR ciudades (saber que algo es de Santiago permite descartarlo).
 
-**Feeds RSS municipales** (`_scrape_rss_municipal`, compartido por CulturaGob/CCLM/CulturaValparaíso/CulturaAntofagasta/CulturaIquique): son blogs de noticias, no de eventos. `_rss_es_evento` filtra notas de prensa y recopilaciones (`RSS_RUIDO` vs `RSS_EVENTO`); la ubicación se infiere con `detectar_ciudad`/`detectar_venue` sobre el título (feed = fallback); `limpiar_nombre_rss` limpia el titular sin borrar meses ni ciudades. Las fechas sin año se anclan al `<pubDate>` del post (no se bumpean a futuro). **CCLM**: el dominio cambió de `ccplm.cl` a `cclm.cl`.
+**Fuentes** (14, en `FUENTES_ACTIVAS`; cada una corre en try/except — si una falla, las demás siguen): EsquinaRetornable · CulturaAntofagasta · PuertoAntofagasta (anfport.cl, Sitio Cero, vía RSS) · **CalamaCultural** (`_parsear_cartelera_calama`: cartelera mensual estática en calamacultural.cl/carteleracultural, pseudo-tabla `div.table>div.row`; URL con fragmento único porque no hay página por evento) — regionales · Ticketplus (solo página de la región) · Ticketpro · PuntoTicket · Ticketmaster · Passline · ComediaTicket · Ticketchile · MasQueTickets · Eventbrite · Joinnus (nacionales, filtradas por ciudad). Los eventos con fecha pasada se descartan globalmente (`filtrar_fechas_pasadas`; los sin fecha se conservan).
 
-**Salud**: `verificar_salud` compara el run con el JSON previo y devuelve `(criticos, advertencias)`. **Críticos** (abortan con `exit 1`): una fuente grande (≥`UMBRAL_FUENTE_CRITICA`=15) cae a 0, o el total baja >50%. **Advertencias** (solo informan): una fuente pequeña/RSS cae a 0. Override: `PLAZA_SKIP_HEALTHCHECK=1`. El JSON incluye `por_fuente: {fuente: count}`. `generado_en` en UTC.
+**Feeds RSS** (`_scrape_rss_municipal`, usado por CulturaAntofagasta y PuertoAntofagasta): son blogs de noticias, no de eventos. `_rss_es_evento` filtra notas de prensa y recopilaciones (`RSS_RUIDO` vs `RSS_EVENTO`); la ubicación se infiere con `detectar_ciudad`/`detectar_venue` sobre el título (feed = fallback); `limpiar_nombre_rss` limpia el titular sin borrar meses ni ciudades, y lo acorta: usa la obra entre comillas si existe, o poda cláusula relativa final y verbo de apertura de prensa (`RSS_VERBO_APERTURA`). Las fechas sin año se anclan al `<pubDate>` del post (no se bumpean a futuro).
+
+**Salud**: `verificar_salud` compara el run con el JSON previo y devuelve `(criticos, advertencias)`. **Críticos** (abortan con `exit 1`): una fuente grande (≥`UMBRAL_FUENTE_CRITICA`=15) cae a 0, o el total baja >50%. **Advertencias** (solo informan): una fuente pequeña/RSS cae a 0. Override: `PLAZA_SKIP_HEALTHCHECK=1`. El JSON incluye `region`, `por_fuente: {fuente: count}` y `generado_en` (UTC); si el JSON previo es de otro alcance (sin `region` o distinta), el baseline se resetea y no se compara.
 
 **Tests**: `test_scraper.py` (unittest, sin red) cubre las funciones puras de parsing y el guardia de salud. Correr: `python3 test_scraper.py`.
 

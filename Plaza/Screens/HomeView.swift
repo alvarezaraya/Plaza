@@ -20,7 +20,7 @@ struct HomeView: View {
 
     private var events: [Event] { servicio.events }
 
-    // Filtro por comuna con degradación escalonada (comuna → región → todo Chile).
+    // Filtro por comuna con degradación escalonada (comuna → toda la región).
     private var comunaResult: (events: [Event], note: String?) {
         events.byComuneTiered(comunaManager.selectedComuna)
     }
@@ -160,10 +160,8 @@ struct HomeView: View {
     ]
 
     private static let mainCities = [
-        "Santiago", "Valparaíso", "Viña del Mar",
-        "Concepción", "Temuco", "Antofagasta",
-        "La Serena", "Iquique", "Arica",
-        "Puerto Montt", "Calama", "Copiapó",
+        "Antofagasta", "Calama", "Tocopilla",
+        "Mejillones", "Taltal", "San Pedro de Atacama",
     ]
 
     private var headerBlock: some View {
@@ -180,9 +178,9 @@ struct HomeView: View {
                         comunaManager.seleccionar("Chile")
                     } label: {
                         if comunaManager.selectedComuna == "Chile" {
-                            Label("Todo Chile", systemImage: "checkmark")
+                            Label("Toda la región", systemImage: "checkmark")
                         } else {
-                            Label("Todo Chile", systemImage: "flag.fill")
+                            Label("Toda la región", systemImage: "flag.fill")
                         }
                     }
                     Divider()
@@ -204,7 +202,7 @@ struct HomeView: View {
                         Label("Más comunas…", systemImage: "list.bullet")
                     }
                 } label: {
-                    Label("Ubicación · \(comunaManager.selectedComuna)", systemImage: "location.fill")
+                    Label("Ubicación · \(comunaManager.displayComuna)", systemImage: "location.fill")
                 }
 
                 Menu {
@@ -220,7 +218,7 @@ struct HomeView: View {
                 HStack(spacing: 6) {
                     Image(systemName: comunaManager.isDetecting ? "location.slash" : "location.fill")
                         .font(.system(size: 13))
-                    Text(comunaManager.selectedComuna)
+                    Text(comunaManager.displayComuna)
                         .font(.plSans(15, weight: .semibold))
                     if maxDistanceKm > 0 {
                         Text("·")
@@ -236,7 +234,7 @@ struct HomeView: View {
                 .foregroundStyle(Color.plFg)
             }
             .glassEffect(.clear.interactive(), in: .capsule)
-            .accessibilityLabel("Ubicación: \(comunaManager.selectedComuna)\(maxDistanceKm > 0 ? ", radio \(Int(maxDistanceKm)) km" : ""). Toca para cambiar.")
+            .accessibilityLabel("Ubicación: \(comunaManager.displayComuna)\(maxDistanceKm > 0 ? ", radio \(Int(maxDistanceKm)) km" : ""). Toca para cambiar.")
 
             Spacer()
 
@@ -275,7 +273,7 @@ struct HomeView: View {
     }
 
     // Aviso bajo el header cuando el filtro de comuna tuvo que ampliarse
-    // (región o todo Chile) porque la comuna elegida no tiene eventos.
+    // (a toda la región) porque la comuna elegida no tiene eventos.
     private func locationNotice(_ text: String) -> some View {
         HStack(spacing: 6) {
             Image(systemName: "info.circle")
@@ -734,7 +732,7 @@ struct ComunaPickerView: View {
                         comunaManager.seleccionar("Chile")
                         dismiss()
                     } label: {
-                        Label("Todo Chile", systemImage: "flag.fill")
+                        Label("Toda la región", systemImage: "flag.fill")
                             .foregroundStyle(Color.plAccent)
                     }
                 }
