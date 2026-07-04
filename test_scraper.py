@@ -180,32 +180,56 @@ class TestRssEsEvento(unittest.TestCase):
             "Orquesta Sinfónica invita a la comunidad a su concierto de gala", "", ""))
 
 
-class TestGamEventJsonld(unittest.TestCase):
-    def test_extrae_event(self):
-        html = ('<html><head>'
-                '<script type="application/ld+json">'
-                '{"@context":"https://schema.org","@type":"Event",'
-                '"name":"Cerebro","startDate":"2026-05-30T20:00:00"}'
-                '</script></head></html>')
-        ev = s._gam_event_jsonld(html)
-        self.assertIsNotNone(ev)
-        self.assertEqual(ev["name"], "Cerebro")
+class TestFiltroRegional(unittest.TestCase):
+    def test_ciudad_de_region(self):
+        for c in ("Antofagasta", "calama", "San Pedro de Atacama", "TOCOPILLA"):
+            self.assertTrue(s.es_ciudad_de_region(c), c)
 
-    def test_ignora_no_event(self):
-        html = ('<script type="application/ld+json">'
-                '{"@type":"PerformingArtsTheater","name":"GAM"}</script>')
-        self.assertIsNone(s._gam_event_jsonld(html))
+    def test_ciudad_fuera(self):
+        for c in ("Santiago", "Iquique", "Valparaíso"):
+            self.assertFalse(s.es_ciudad_de_region(c), c)
+            self.assertTrue(s.ciudad_fuera_de_region(c), c)
 
-    def test_sin_jsonld(self):
-        self.assertIsNone(s._gam_event_jsonld("<html><body>nada</body></html>"))
+    def test_desconocida_no_se_descarta_temprano(self):
+        # Vacío y "Chile" se resuelven tras geocodificar, no se descartan antes.
+        self.assertFalse(s.ciudad_fuera_de_region(""))
+        self.assertFalse(s.ciudad_fuera_de_region("Chile"))
 
-    def test_lista_de_objetos(self):
-        html = ('<script type="application/ld+json">'
-                '[{"@type":"PerformingArtsTheater","name":"GAM"},'
-                '{"@type":"Event","name":"Furias","startDate":"2026-07-01T19:00:00"}]'
-                '</script>')
-        ev = s._gam_event_jsonld(html)
-        self.assertEqual(ev["name"], "Furias")
+    def test_filtrar_base(self):
+        base = [
+            {"ciudad": "Antofagasta", "url": "a"},
+            {"ciudad": "Santiago", "url": "b"},
+            {"ciudad": "", "url": "c"},
+            {"ciudad_busqueda": "Temuco", "url": "d"},
+        ]
+        urls = [b["url"] for b in s.filtrar_base_por_region(base)]
+        self.assertEqual(urls, ["a", "c"])
+
+
+class TestCargarFuentesPrevias(unittest.TestCase):
+    def _con_json(self, data):
+        import json, tempfile, os
+        fd, path = tempfile.mkstemp(suffix=".json")
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(data, f)
+        try:
+            return s.cargar_fuentes_previas(path)
+        finally:
+            os.unlink(path)
+
+    def test_mismo_alcance_devuelve_conteos(self):
+        prev = self._con_json({"region": s.REGION_SCOPE,
+                               "eventos": [{"fuente": "A"}, {"fuente": "A"}]})
+        self.assertEqual(prev, {"A": 2})
+
+    def test_alcance_distinto_resetea_baseline(self):
+        # JSON histórico nacional (sin marcador region) → baseline vacío,
+        # para que el primer run regional no dispare la alerta de caída >50%.
+        prev = self._con_json({"eventos": [{"fuente": "A"}] * 300})
+        self.assertEqual(prev, {})
+
+    def test_sin_archivo(self):
+        self.assertEqual(s.cargar_fuentes_previas("/no/existe.json"), {})
 
 
 class TestLimpiarNombreRss(unittest.TestCase):
