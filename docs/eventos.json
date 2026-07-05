@@ -1,47 +1,14 @@
 {
-  "generado_en": "2026-07-04T19:29:01.373406+00:00",
+  "generado_en": "2026-07-05T14:44:14.302072+00:00",
   "region": "Antofagasta",
-  "total_eventos": 54,
+  "total_eventos": 52,
   "por_fuente": {
-    "EsquinaRetornable": 2,
     "CalamaCultural": 43,
     "Ticketplus": 4,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 4
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA MISTERIOSA MIRADA DEL FLAMENCO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Estreno Nacional · Dir. Diego Céspedes",
-      "descripcion_extendida": "Estreno Nacional · Dir. Diego Céspedes",
-      "fecha_iso": "2026-07-04",
-      "fecha_texto": "4 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/LMMDF-POSTER.jpg",
-      "url": "https://www.passline.com/eventos/la-misteriosa-mirada-del-flamenco-522816",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La misteriosa mirada del flamenco es una película chilena de 2025 dirigida y escrita por Diego Céspedes, en su largometraje debut. Fue coproducida junto a Francia, Alemania, España y Bélgica. Está protagonizada por Tamara Cortés, Matías Catalán y Paula Dinamarca. Fue estrenada en el Festival Internacional de Cine de Cannes de 2025, donde ganó la sección Un certain regard."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LOS FUNGIS EN VIVO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Sesiones Retornable · Vive una noche de música en vivo junto a Los Fungis, banda emergente de Antofagasta que presentará sus composiciones originales en un íntimo concierto acústico cargado de folk, bossa nova, bolero y sonidos latinoamericanos.",
-      "descripcion_extendida": "Sesiones Retornable · Vive una noche de música en vivo junto a Los Fungis, banda emergente de Antofagasta que presentará sus composiciones originales en un íntimo concierto acústico cargado de folk, bossa nova, bolero y sonidos latinoamericanos.",
-      "fecha_iso": "2026-07-04",
-      "fecha_texto": "4 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/LOS-FUNGIS-AFICHE.jpg",
-      "url": "https://www.passline.com/eventos/sesiones-retornable-los-fungis-en-vivo",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Johan Theodor Holmskiold fue un botánico, cortesano y administrador danés. Fue alumno de Linneo"
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Campeonato Nacional De Cueca “Jóvenes Del Cobre”",
@@ -760,7 +727,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, sábado 01 de agosto 2026 al sábado 01 de agosto 2026 en Gimnasio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "31 minutos is a Chilean children's comedy television series and virtual band created by the production company Aplaplac, founded by Álvaro Díaz, Pedro Peirano, and Juan Manuel Egaña. It premiered on March 15, 2003, on Televisión Nacional de Chile. The show is presented as a satirical news program hosted by the puppet character Tulio Triviño, featuring comedic reports and sketches. It incorporates educational themes with a humorous format."
+      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
     },
     {
       "fuente": "Ticketplus",
@@ -776,7 +743,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "ZÚMBALE PRIMO EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Cielo Nicole Fernández Asenjo es una cantante peruana. Actualmente es una de las vocalistas de la delantera principal de la orquesta Corazón Serrano."
     },
     {
       "fuente": "Ticketplus",
@@ -792,7 +759,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
+      "bio_artista": "Rata Blanca es una banda de hard rock y heavy metal formado en 1985 por el guitarrista Walter Giardino en la zona del Bajo Flores, barrio ubicado al sur de la ciudad de Buenos Aires. Se la considera como una de las bandas más importantes e influyentes del hard rock y heavy metal en español, aunque durante su carrera también han incorporado pesados riffs con estructuras melódicas y armónicas de la música clásica."
     },
     {
       "fuente": "Ticketplus",
@@ -808,7 +775,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
+      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
     },
     {
       "fuente": "CulturaAntofagasta",
