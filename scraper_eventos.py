@@ -309,14 +309,24 @@ PREFIJOS_TICKETERA = r"^(Ticketplus|Ticketpro|PuntoTicket|Ticketmaster|Passline|
 
 # ── Utilidades ───────────────────────────────────────────────────────────────
 
-def get(url):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        return r
-    except requests.RequestException as e:
-        print(f"  ⚠️  {url} → {e}")
-        return None
+def get(url, intentos=3):
+    # Reintenta solo fallos de red (timeouts, DNS, conexión): desde los runners
+    # de CI los sitios regionales a veces no responden al primer intento. Los
+    # errores HTTP (403, 404...) son deterministas y no se reintentan.
+    for intento in range(1, intentos + 1):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=15)
+            r.raise_for_status()
+            return r
+        except requests.HTTPError as e:
+            print(f"  ⚠️  {url} → {e}")
+            return None
+        except requests.RequestException as e:
+            if intento < intentos:
+                time.sleep(3 * intento)
+                continue
+            print(f"  ⚠️  {url} → {e}")
+            return None
 
 
 def limpiar(texto):
@@ -2043,8 +2053,8 @@ def _contar_por_fuente(eventos):
     return counts
 
 
-def cargar_fuentes_previas(path):
-    """Lee el JSON previo (si existe) y devuelve {fuente: count}. {} si no hay.
+def cargar_json_previo(path):
+    """Lee el JSON previo completo (si existe). {} si no hay.
 
     Si el JSON previo es de otro alcance (p. ej. el histórico nacional, sin
     marcador `region`), devuelve {} para resetear el baseline: comparar el run
@@ -2055,9 +2065,28 @@ def cargar_fuentes_previas(path):
             data = json.load(f)
         if data.get("region") != REGION_SCOPE:
             return {}
-        return _contar_por_fuente(data.get("eventos", []))
+        return data
     except (FileNotFoundError, json.JSONDecodeError, OSError):
         return {}
+
+
+def cargar_fuentes_previas(path):
+    """Lee el JSON previo (si existe) y devuelve {fuente: count}. {} si no hay."""
+    return _contar_por_fuente(cargar_json_previo(path).get("eventos", []))
+
+
+def rescatar_fuentes_caidas(eventos, eventos_previos, hoy_iso=None):
+    """Reinyecta los eventos del JSON previo de las fuentes que cayeron a 0.
+
+    Los sitios regionales (hosting chileno) no siempre responden desde los
+    runners de GitHub en el extranjero. Si una fuente no aportó ningún evento
+    en este run pero sí tenía en el JSON previo, se conservan los anteriores
+    (ya vienen enriquecidos y geocodificados) en vez de publicar un JSON
+    degradado o abortar el CI. filtrar_fechas_pasadas hace que los eventos
+    conservados envejezcan y desaparezcan solos."""
+    actuales = _contar_por_fuente(eventos)
+    return [e for e in filtrar_fechas_pasadas(eventos_previos, hoy_iso)
+            if actuales.get(e.get("fuente", "?"), 0) == 0]
 
 
 # Una fuente con menos de este conteo previo se considera "pequeña": que caiga
@@ -2171,9 +2200,19 @@ def main():
         except Exception as exc:
             print(f"  ⚠️  [{i}] error en enriquecimiento: {exc}")
 
+    # Carry-over: fuentes inalcanzables en este run conservan sus eventos previos.
+    previo = cargar_json_previo(OUTPUT_FILE)
+    rescatados = rescatar_fuentes_caidas(todos, previo.get("eventos", []))
+    if rescatados:
+        print("\n♻️  Fuentes sin datos en este run — se conservan sus eventos del JSON previo:")
+        for fuente, count in sorted(_contar_por_fuente(rescatados).items()):
+            print(f"    • {fuente}: {count} eventos")
+        todos += rescatados
+        todos.sort(key=lambda e: e["fecha_iso"] if e["fecha_iso"] else "9999")
+
     # Conteo por fuente del run actual y del anterior (para el guardia de salud).
     fuentes = _contar_por_fuente(todos)
-    fuentes_previas = cargar_fuentes_previas(OUTPUT_FILE)
+    fuentes_previas = _contar_por_fuente(previo.get("eventos", []))
     total_previo = sum(fuentes_previas.values())
 
     resultado = {
