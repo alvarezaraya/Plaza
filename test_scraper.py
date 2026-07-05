@@ -232,6 +232,30 @@ class TestCargarFuentesPrevias(unittest.TestCase):
         self.assertEqual(s.cargar_fuentes_previas("/no/existe.json"), {})
 
 
+class TestRescatarFuentesCaidas(unittest.TestCase):
+    PREVIOS = [
+        {"fuente": "CalamaCultural", "fecha_iso": "2026-12-01", "nombre": "vigente"},
+        {"fuente": "CalamaCultural", "fecha_iso": "2026-01-01", "nombre": "vencido"},
+        {"fuente": "Ticketplus", "fecha_iso": "2026-12-01", "nombre": "otra fuente"},
+    ]
+
+    def test_reinyecta_fuente_caida_sin_eventos_vencidos(self):
+        # Ticketplus sí aportó en este run → solo se rescata CalamaCultural,
+        # y de sus eventos previos solo los aún vigentes.
+        actuales = [{"fuente": "Ticketplus", "fecha_iso": "2026-08-01"}]
+        out = s.rescatar_fuentes_caidas(actuales, self.PREVIOS, hoy_iso="2026-07-05")
+        self.assertEqual([e["nombre"] for e in out], ["vigente"])
+
+    def test_fuente_presente_no_se_duplica(self):
+        actuales = [{"fuente": "CalamaCultural", "fecha_iso": "2026-08-01"},
+                    {"fuente": "Ticketplus", "fecha_iso": "2026-08-01"}]
+        self.assertEqual(
+            s.rescatar_fuentes_caidas(actuales, self.PREVIOS, hoy_iso="2026-07-05"), [])
+
+    def test_sin_json_previo(self):
+        self.assertEqual(s.rescatar_fuentes_caidas([], [], hoy_iso="2026-07-05"), [])
+
+
 class TestLimpiarNombreRss(unittest.TestCase):
     def test_preserva_mes_y_ciudad(self):
         n = s.limpiar_nombre_rss("Abril: Concierto de la Orquesta Sinfónica de Antofagasta")

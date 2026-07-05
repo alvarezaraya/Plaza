@@ -74,11 +74,11 @@ Eventos con el mismo título **y subtítulo** (lowercased) se agrupan — giras 
 
 **Feeds RSS** (`_scrape_rss_municipal`, usado por CulturaAntofagasta y PuertoAntofagasta): son blogs de noticias, no de eventos. `_rss_es_evento` filtra notas de prensa y recopilaciones (`RSS_RUIDO` vs `RSS_EVENTO`); la ubicación se infiere con `detectar_ciudad`/`detectar_venue` sobre el título (feed = fallback); `limpiar_nombre_rss` limpia el titular sin borrar meses ni ciudades, y lo acorta: usa la obra entre comillas si existe, o poda cláusula relativa final y verbo de apertura de prensa (`RSS_VERBO_APERTURA`). Las fechas sin año se anclan al `<pubDate>` del post (no se bumpean a futuro).
 
-**Salud**: `verificar_salud` compara el run con el JSON previo y devuelve `(criticos, advertencias)`. **Críticos** (abortan con `exit 1`): una fuente grande (≥`UMBRAL_FUENTE_CRITICA`=15) cae a 0, o el total baja >50%. **Advertencias** (solo informan): una fuente pequeña/RSS cae a 0. Override: `PLAZA_SKIP_HEALTHCHECK=1`. El JSON incluye `region`, `por_fuente: {fuente: count}` y `generado_en` (UTC); si el JSON previo es de otro alcance (sin `region` o distinta), el baseline se resetea y no se compara.
+**Salud**: los sitios regionales (hosting chileno) no responden a los runners de GitHub (EE.UU.) — `rescatar_fuentes_caidas` reinyecta los eventos del JSON previo de toda fuente que cayó a 0 (ya enriquecidos/geocodificados; envejecen vía `filtrar_fechas_pasadas`), así el CI mantiene frescas las ticketeras sin perder las fuentes regionales scrapeadas localmente. Después, `verificar_salud` compara el run (con rescates) con el JSON previo y devuelve `(criticos, advertencias)`. **Críticos** (abortan con `exit 1`): una fuente grande (≥`UMBRAL_FUENTE_CRITICA`=15) cae a 0, o el total baja >50%. **Advertencias** (solo informan): una fuente pequeña/RSS cae a 0. Override: `PLAZA_SKIP_HEALTHCHECK=1`. El JSON incluye `region`, `por_fuente: {fuente: count}` y `generado_en` (UTC); si el JSON previo es de otro alcance (sin `region` o distinta), el baseline se resetea y no se compara.
 
 **Tests**: `test_scraper.py` (unittest, sin red) cubre las funciones puras de parsing y el guardia de salud. Correr: `python3 test_scraper.py`.
 
-**CI**: `.github/workflows/scraper.yml` — 06:00 + 17:00 UTC. Corre tests → scraper → commit. Chromium cacheado con `actions/cache@v4`. Commit de `eventos.json` y `docs/eventos.json`.
+**CI**: `.github/workflows/scraper.yml` — 06:00 + 17:00 UTC. Corre tests → scraper → commit. Chromium cacheado con `actions/cache@v4` (clave ligada a la versión de `playwright` instalada: al subir de versión se reinstala el navegador en vez de fallar con binarios stale). Commit de `eventos.json` y `docs/eventos.json`.
 
 ## Design tokens
 
