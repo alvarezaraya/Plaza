@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-07-07T09:38:01.001489+00:00",
+  "generado_en": "2026-07-07T18:59:13.516821+00:00",
   "region": "Antofagasta",
   "total_eventos": 60,
   "por_fuente": {
@@ -85,7 +85,7 @@
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/totoro-poster.jpg",
-      "url": "https://www.passline.com/eventos/los-renacidos-527365",
+      "url": "https://www.passline.com/eventos/mi-vecino-totoro",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": "Mi vecino Totoro  es una película de animación japonesa de 1988 escrita y dirigida por Hayao Miyazaki y producida por Studio Ghibli. El filme —protagonizado por los actores Noriko Hidaka, Chika Sakamoto y Hitoshi Takagi— cuenta la historia de una familia y sus interacciones con un espíritu del bosque al que llaman «Totoro», en un Japón de la posguerra."
@@ -311,8 +311,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-camino-de-amor-2026-07-20",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Dueto de Antaño es un grupo colombiano de serenata y música andina.",
+      "bio_artista": "Dueto de Antaño es un grupo colombiano de serenata y música andina."
     },
     {
       "fuente": "CalamaCultural",
@@ -327,8 +327,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-07-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
+      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -359,8 +359,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-imc-2026-07-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Juan Ángel Muñiz Hernaz . Diseñador gráfico e ilustrador profesional. Licenciado en Bellas Artes, Universidad de Salamanca, en Diseño Gráfico y Audiovisuales, funda su propio estudio en 2000. Como ilustrador, su trabajo ha sido reconocido con diversos premios, y ha celebrado exposiciones itinerantes, colectivas e individuales, en España y Portugal.",
+      "bio_artista": "Juan Ángel Muñiz Hernaz . Diseñador gráfico e ilustrador profesional. Licenciado en Bellas Artes, Universidad de Salamanca, en Diseño Gráfico y Audiovisuales, funda su propio estudio en 2000. Como ilustrador, su trabajo ha sido reconocido con diversos premios, y ha celebrado exposiciones itinerantes, colectivas e individuales, en España y Portugal."
     },
     {
       "fuente": "CalamaCultural",
@@ -439,8 +439,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-centro-de-formaci-n-t-cnica-estatal-2026-07-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Centro Cultural La Moneda (CCLM) es un centro cultural localizado en la ciudad de Santiago en Chile, bajo la Plaza de la Ciudadanía, frente a la fachada sur del Palacio de La Moneda.",
-      "bio_artista": "Centro Cultural La Moneda (CCLM) es un centro cultural localizado en la ciudad de Santiago en Chile, bajo la Plaza de la Ciudadanía, frente a la fachada sur del Palacio de La Moneda."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -888,7 +888,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Rata Blanca es una banda de hard rock y heavy metal formado en 1985 por el guitarrista Walter Giardino en la zona del Bajo Flores, barrio ubicado al sur de la ciudad de Buenos Aires. Se la considera como una de las bandas más importantes e influyentes del hard rock y heavy metal en español, aunque durante su carrera también han incorporado pesados riffs con estructuras melódicas y armónicas de la música clásica."
     },
     {
       "fuente": "Ticketplus",
@@ -904,7 +904,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -920,7 +920,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": ""
+      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -936,7 +936,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
-      "bio_artista": ""
+      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como \"Día Nacional del Músico\" en conmemoración a su nacimiento, bajo la Ley 27.106."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -952,7 +952,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "bio_artista": ""
+      "bio_artista": "La Danza de la muerte, o \"Danza macabra\", es un género artístico tardo-medieval, cuyo tema es la universalidad de la muerte. Se trata de un diálogo en verso y por tanto representable, en que una personificación de la Muerte, como un esqueleto humano, llama a personas de distinta posición social o en diferentes etapas en la vida para bailar alrededor de una tumba. Estas figuras suelen ser el Papa, el Obispo, el Emperador, el Sacristán, el Labrador, etcétera."
     },
     {
       "fuente": "CulturaAntofagasta",
