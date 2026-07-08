@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-07-08T08:24:34.833001+00:00",
+  "generado_en": "2026-07-08T18:18:16.691700+00:00",
   "region": "Antofagasta",
   "total_eventos": 58,
   "por_fuente": {
@@ -37,7 +37,7 @@
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/casta-de-malditos-AFICHES-WEB.jpg",
-      "url": "https://www.passline.com/eventos/casta-de-malditos",
+      "url": "https://www.passline.com/sitio-evento/casta-de-malditos",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": "The Killing es una película estadounidense de 1956 dirigida por Stanley Kubrick y con Sterling Hayden en el papel principal. Está basada en la novela de 1955 Clean Break, escrita por Lionel White y reeditada después con el mismo título de la película."
@@ -56,7 +56,7 @@
       "url": "https://www.passline.com/eventos/mi-vecino-totoro",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Tobacco Barns is a 2022 Spanish-American drama film written and directed by Rocío Mesa which stars Adar Mar Lupiañez and Vera Centenera."
+      "bio_artista": "Mi vecino Totoro  es una película de animación japonesa de 1988 escrita y dirigida por Hayao Miyazaki y producida por Studio Ghibli. El filme —protagonizado por los actores Noriko Hidaka, Chika Sakamoto y Hitoshi Takagi— cuenta la historia de una familia y sus interacciones con un espíritu del bosque al que llaman «Totoro», en un Japón de la posguerra."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -136,7 +136,7 @@
       "url": "https://www.passline.com/eventos/the-blob",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "The Blob is a 1958 American science fiction horror film directed by Irvin S. Yeaworth Jr. from a screenplay by Theodore Simonson and Kate Phillips, based on an idea by Irving H. Millgate. It stars Steve McQueen and Aneta Corsaut and co-stars Earl Rowe and Olin Howland. The film concerns a carnivorous amoeboid alien that crashes to Earth from outer space inside a meteorite, landing near the small communities of Phoenixville and Downingtown, Pennsylvania."
+      "bio_artista": "The Blob es una película independiente estadounidense de los géneros de terror y ciencia ficción del año 1958 que presenta un gigantesco alien similar a una ameba que aterroriza las comunidades rurales de Downingtown y Phoenixville, Pensilvania. Antes de ser la estrella de esta película, que se hizo famosa en los autocinemas, Steve McQueen se hizo famoso con la serie de TV Wanted: Dead or Alive. Hoy, este film es uno de los filmes referentes de sci-fi/terror de los años 50 estadounidenses."
     },
     {
       "fuente": "CalamaCultural",
@@ -184,7 +184,7 @@
       "url": "https://www.passline.com/eventos/pequena-miss-sunshine-531565",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Pequeña Miss Sunshine es una comedia dramática estadounidense de 2006 con formato de road movie que se sitúa alrededor de un viaje a bordo de un Volkswagen Combi para asistir a un concurso de belleza de niñas, con el fin de mostrar los problemas de convivencia de una familia disfuncional."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -200,7 +200,7 @@
       "url": "https://www.passline.com/eventos/cartas-a-mis-padres-muertos-531561",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Se llaman padres apostólicos a los autores del cristianismo primitivo que, según la tradición, tuvieron algún contacto con uno o más de los apóstoles de Jesús de Nazaret. Estos escritores del siglo I y de principios del siglo II dejaron textos de profunda importancia para conocer qué creían y cómo vivían los primeros cristianos. Muchos de estos textos contienen descripciones o normas acerca de la doctrina y praxis cristiana."
     },
     {
       "fuente": "CalamaCultural",
@@ -824,7 +824,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, sábado 01 de agosto 2026 al sábado 01 de agosto 2026 en Gimnasio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "31 minutos is a Chilean children's comedy television series and virtual band created by the production company Aplaplac, founded by Álvaro Díaz, Pedro Peirano, and Juan Manuel Egaña. It premiered on March 15, 2003, on Televisión Nacional de Chile. The show is presented as a satirical news program hosted by the puppet character Tulio Triviño, featuring comedic reports and sketches. It incorporates educational themes with a humorous format."
+      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
     },
     {
       "fuente": "Ticketplus",
@@ -856,7 +856,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
     },
     {
       "fuente": "Ticketplus",
@@ -872,7 +872,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CulturaAntofagasta",
