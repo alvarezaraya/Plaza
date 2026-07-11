@@ -1,95 +1,15 @@
 {
-  "generado_en": "2026-07-10T18:21:00.916488+00:00",
+  "generado_en": "2026-07-11T07:52:02.787394+00:00",
   "region": "Antofagasta",
-  "total_eventos": 53,
+  "total_eventos": 48,
   "por_fuente": {
-    "Ticketplus": 4,
-    "EsquinaRetornable": 4,
-    "CalamaCultural": 40,
+    "EsquinaRetornable": 2,
+    "CalamaCultural": 38,
     "PuntoTicket": 1,
+    "Ticketplus": 3,
     "CulturaAntofagasta": 4
   },
   "eventos": [
-    {
-      "fuente": "Ticketplus",
-      "nombre": "La Sílfides - Fantasía Romántica",
-      "venue": "Teatro Municipal De Antofagasta",
-      "descripcion": "La Sílfides - Fantasía Romántica - Antofagasta",
-      "fecha_iso": "2026-07-10",
-      "fecha_texto": "10 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/97694375a38b997d45da2e7702244e3aeebf9171.png?1783375764&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/la-silfides-fantasia-romantica-antofagasta",
-      "lat": -23.64636,
-      "lon": -70.396306,
-      "descripcion_extendida": "La Sílfides - Fantasía Romántica - Antofagasta",
-      "bio_artista": "Las sílfides es un ballet breve y no-narrativo en un acto coreografiado por Michel Fokine con música de Frédéric Chopin. Fue estrenado el 10 de febrero de 1907 en el Teatro Mariinski en San Petersburgo como Rêverie Romantique: Ballet sur la musique de Chopin o Chopiniana. Como Les Sylphides, el ballet fue presentado por primera vez el 2 de junio de 1909 en el Théâtre du Châtelet de París."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA MISTERIOSA MIRADA DEL FLAMENCO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Estreno Nacional · Dir. Diego Céspedes",
-      "descripcion_extendida": "Estreno Nacional · Dir. Diego Céspedes",
-      "fecha_iso": "2026-07-10",
-      "fecha_texto": "10 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/LMMDF-POSTER.jpg",
-      "url": "https://www.passline.com/eventos/la-misteriosa-mirada-del-flamenco-522817",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La misteriosa mirada del flamenco es una película chilena de 2025 dirigida y escrita por Diego Céspedes, en su largometraje debut. Fue coproducida junto a Francia, Alemania, España y Bélgica. Está protagonizada por Tamara Cortés, Matías Catalán y Paula Dinamarca. Fue estrenada en el Festival Internacional de Cine de Cannes de 2025, donde ganó la sección Un certain regard."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "THE BLOB",
-      "venue": "Esquina Retornable",
-      "descripcion": "Invasión silenciosa: ciclo de cine extraterrestre · Dir. Irvin S. Yeaworth Jr.",
-      "descripcion_extendida": "Invasión silenciosa: ciclo de cine extraterrestre · Dir. Irvin S. Yeaworth Jr.",
-      "fecha_iso": "2026-07-10",
-      "fecha_texto": "10 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/the-blob-poster.jpg",
-      "url": "https://www.passline.com/eventos/the-blob",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "The Blob es una película independiente estadounidense de los géneros de terror y ciencia ficción del año 1958 que presenta un gigantesco alien similar a una ameba que aterroriza las comunidades rurales de Downingtown y Phoenixville, Pensilvania. Antes de ser la estrella de esta película, que se hizo famosa en los autocinemas, Steve McQueen se hizo famoso con la serie de TV Wanted: Dead or Alive. Hoy, este film es uno de los filmes referentes de sci-fi/terror de los años 50 estadounidenses."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Gala Pequeños Artistas Danza",
-      "venue": "Teatro Municipal",
-      "descripcion": "",
-      "fecha_iso": "2026-07-10",
-      "fecha_texto": "10 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#gala-peque-os-artistas-danza-2026-07-10",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Karen Mavis Lewis Connolly es una bailarina y coreógrafa australiana, radicada en Chile.",
-      "bio_artista": "Karen Mavis Lewis Connolly es una bailarina y coreógrafa australiana, radicada en Chile."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Programa Tierra Esperanza",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-07-10",
-      "fecha_texto": "10 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-tierra-esperanza-2026-07-10",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo.",
-      "bio_artista": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo."
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "PEQUEÑA MISS SUNSHINE",
@@ -135,8 +55,8 @@
       "url": "https://calamacultural.cl/carteleracultural#feria-de-invierno-2026-07-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Regalos de Feria de Invierno, o Winterfair Gifts en la versión original, es un relato de Lois McMaster Bujold de la serie de Miles Vorkosigan. Fue publicada por primera vez en 2004 en la antología Irresistible forces, un compendio de historias escritas por novelistas románticas norteamericanas por encargo de la autora y editora Catherine Asaro, con el objetivo de fundir romance y ciencia ficción.",
+      "bio_artista": "Regalos de Feria de Invierno, o Winterfair Gifts en la versión original, es un relato de Lois McMaster Bujold de la serie de Miles Vorkosigan. Fue publicada por primera vez en 2004 en la antología Irresistible forces, un compendio de historias escritas por novelistas románticas norteamericanas por encargo de la autora y editora Catherine Asaro, con el objetivo de fundir romance y ciencia ficción."
     },
     {
       "fuente": "CalamaCultural",
@@ -167,8 +87,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-familia-2026-07-17",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo.",
+      "bio_artista": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo."
     },
     {
       "fuente": "CalamaCultural",
@@ -856,7 +776,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "“Fundación Cultural y Educacional Ilustradores Chilenos de Oro”, tiene sede en Antofagasta y resguarda más de 770 obras la historia visual de nuestro país. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con motivo de la celebración del Día Internacional del Libro, la Corporación ",
-      "bio_artista": ""
+      "bio_artista": "Centro Cultural La Moneda (CCLM) es un centro cultural localizado en la ciudad de Santiago en Chile, bajo la Plaza de la Ciudadanía, frente a la fachada sur del Palacio de La Moneda."
     }
   ]
 }
