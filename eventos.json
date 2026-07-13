@@ -1,30 +1,14 @@
 {
-  "generado_en": "2026-07-12T17:55:37.006329+00:00",
+  "generado_en": "2026-07-13T09:03:36.669767+00:00",
   "region": "Antofagasta",
-  "total_eventos": 46,
+  "total_eventos": 45,
   "por_fuente": {
-    "CalamaCultural": 38,
+    "CalamaCultural": 37,
     "PuntoTicket": 1,
     "Ticketplus": 3,
     "CulturaAntofagasta": 4
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Feria De Invierno",
-      "venue": "Parque El Loa",
-      "descripcion": "",
-      "fecha_iso": "2026-07-12",
-      "fecha_texto": "12 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#feria-de-invierno-2026-07-12",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Regalos de Feria de Invierno, o Winterfair Gifts en la versión original, es un relato de Lois McMaster Bujold de la serie de Miles Vorkosigan. Fue publicada por primera vez en 2004 en la antología Irresistible forces, un compendio de historias escritas por novelistas románticas norteamericanas por encargo de la autora y editora Catherine Asaro, con el objetivo de fundir romance y ciencia ficción.",
-      "bio_artista": "Regalos de Feria de Invierno, o Winterfair Gifts en la versión original, es un relato de Lois McMaster Bujold de la serie de Miles Vorkosigan. Fue publicada por primera vez en 2004 en la antología Irresistible forces, un compendio de historias escritas por novelistas románticas norteamericanas por encargo de la autora y editora Catherine Asaro, con el objetivo de fundir romance y ciencia ficción."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Herencia Cultural Del Loa: Reconectando Raíces A Través De La Escultura Y La Fotografía",
@@ -102,8 +86,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-07-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
+      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -486,8 +470,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-07-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
