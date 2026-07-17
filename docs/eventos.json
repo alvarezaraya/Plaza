@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-07-17T08:05:39.721102+00:00",
+  "generado_en": "2026-07-17T18:01:29.950931+00:00",
   "region": "Antofagasta",
   "total_eventos": 49,
   "por_fuente": {
@@ -487,8 +487,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-casa-esperanza-2026-07-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
-      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -503,8 +503,8 @@
       "url": "https://calamacultural.cl/carteleracultural#visita-guiada-a-la-biblioteca-residencia-familia-2026-07-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Archivo Joan Maragall es un centro de documentación que reúne un fondo documental sobre la figura y obra del poeta, y el conjunto del Modernismo. Está ubicado en la última residencia de Joan Maragall, en el número 79 de la calle Alfonso XII, en el distrito de Sarriá-San Gervasio de Barcelona (España). Es una sección de reserva de la Biblioteca de Cataluña y está abierta a investigadores y estudiosos de la obra del poeta.",
-      "bio_artista": "El Archivo Joan Maragall es un centro de documentación que reúne un fondo documental sobre la figura y obra del poeta, y el conjunto del Modernismo. Está ubicado en la última residencia de Joan Maragall, en el número 79 de la calle Alfonso XII, en el distrito de Sarriá-San Gervasio de Barcelona (España). Es una sección de reserva de la Biblioteca de Cataluña y está abierta a investigadores y estudiosos de la obra del poeta."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -535,8 +535,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-07-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -551,8 +551,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-07-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
+      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
     },
     {
       "fuente": "CalamaCultural",
@@ -567,8 +567,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-hogar-de-ancianos-san-jos-2026-07-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Ashita no Nadja  es una serie de anime sobre una niña que se une a una compañía de danza y viaja por Europa en busca de su madre. La versión animada fue producida por Toei Animation y presentada en Japón por la cadena de televisión satelital Animax junto a la cadena de televisión terrestre TV Asahi, entre el 2 de febrero de 2003 y el 25 de enero de 2004. En Latinoamérica fue emitida por Cartoon Network desde el sábado 4 de febrero de 2006 hasta la madrugada del 1 de septiembre del mismo año.",
+      "bio_artista": "Ashita no Nadja  es una serie de anime sobre una niña que se une a una compañía de danza y viaja por Europa en busca de su madre. La versión animada fue producida por Toei Animation y presentada en Japón por la cadena de televisión satelital Animax junto a la cadena de televisión terrestre TV Asahi, entre el 2 de febrero de 2003 y el 25 de enero de 2004. En Latinoamérica fue emitida por Cartoon Network desde el sábado 4 de febrero de 2006 hasta la madrugada del 1 de septiembre del mismo año."
     },
     {
       "fuente": "CalamaCultural",
