@@ -1,95 +1,15 @@
 {
-  "generado_en": "2026-07-17T18:01:29.950931+00:00",
+  "generado_en": "2026-07-18T07:45:55.036824+00:00",
   "region": "Antofagasta",
-  "total_eventos": 49,
+  "total_eventos": 45,
   "por_fuente": {
-    "EsquinaRetornable": 4,
-    "CalamaCultural": 37,
-    "PuntoTicket": 1,
+    "EsquinaRetornable": 2,
+    "CalamaCultural": 34,
+    "PuntoTicket": 2,
     "Ticketplus": 3,
     "CulturaAntofagasta": 4
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "CARTAS A MIS PADRES MUERTOS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Estreno Nacional · Dir. Ignacio Agüero",
-      "descripcion_extendida": "Estreno Nacional · Dir. Ignacio Agüero",
-      "fecha_iso": "2026-07-17",
-      "fecha_texto": "17 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/Cartas-a-mis-padres-muertos-poster.jpg",
-      "url": "https://www.passline.com/sitio-evento/cartas-a-mis-padres-muertos-533247",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Se llaman padres apostólicos a los autores del cristianismo primitivo que, según la tradición, tuvieron algún contacto con uno o más de los apóstoles de Jesús de Nazaret. Estos escritores del siglo I y de principios del siglo II dejaron textos de profunda importancia para conocer qué creían y cómo vivían los primeros cristianos. Muchos de estos textos contienen descripciones o normas acerca de la doctrina y praxis cristiana."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "E.T. El Extraterrestre",
-      "venue": "Esquina Retornable",
-      "descripcion": "Invasión silenciosa: ciclo de cine extraterrestre · Dir. Steven Spielberg",
-      "descripcion_extendida": "Invasión silenciosa: ciclo de cine extraterrestre · Dir. Steven Spielberg",
-      "fecha_iso": "2026-07-17",
-      "fecha_texto": "17 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/ET-poster.jpg",
-      "url": "https://www.passline.com/sitio-evento/et-el-extraterrestre",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "E. T., el extraterrestre es una película estadounidense de ciencia ficción de 1982 dirigida por Steven Spielberg, escrita por Melissa Mathison, protagonizada por Henry Thomas y distribuida por Universal Pictures. La cinta está basada en un amigo imaginario del propio director, creado tras el divorcio de sus padres. En 1980, Spielberg conoció a Mathison y empezaron a desarrollar la historia, tras el proyecto estancado Night Skies."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Herencia Cultural Del Loa: Reconectando Raíces A Través De La Escultura Y La Fotografía",
-      "venue": "Tambo Parque El Loa",
-      "descripcion": "",
-      "fecha_iso": "2026-07-17",
-      "fecha_texto": "17 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#herencia-cultural-del-loa-reconectando-ra-ces-a-trav-s-de-la-2026-07-17",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Programa Familia",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-07-17",
-      "fecha_texto": "17 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-familia-2026-07-17",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo.",
-      "bio_artista": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala Fonoaudiología Cesfam Central",
-      "venue": "Biblioteca Norte -11:00 Horas",
-      "descripcion": "",
-      "fecha_iso": "2026-07-17",
-      "fecha_texto": "17 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-fonoaudiolog-a-cesfam-central-2026-07-17",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "RATATOUILLE",
@@ -104,7 +24,7 @@
       "url": "https://www.passline.com/eventos/ratatouille-533872",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La ratatouille, o en occitano ratatolha es una preparación típica de la cocina francesa que consiste en un estofado de diferentes hortalizas típicas del sur de Francia. Proviene de la región de Provenza y del antiguo condado de Niza, por lo que se la llama también ratatouille niçoise."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -120,7 +40,7 @@
       "url": "https://www.passline.com/eventos/la-misteriosa-mirada-del-flamenco-533871",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La misteriosa mirada del flamenco es una película chilena de 2025 dirigida y escrita por Diego Céspedes, en su largometraje debut. Fue coproducida junto a Francia, Alemania, España y Bélgica. Está protagonizada por Tamara Cortés, Matías Catalán y Paula Dinamarca. Fue estrenada en el Festival Internacional de Cine de Cannes de 2025, donde ganó la sección Un certain regard."
     },
     {
       "fuente": "CalamaCultural",
@@ -680,7 +600,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, sábado 01 de agosto 2026 al sábado 01 de agosto 2026 en Gimnasio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "31 minutos is a Chilean children's comedy television series and virtual band created by the production company Aplaplac, founded by Álvaro Díaz, Pedro Peirano, and Juan Manuel Egaña. It premiered on March 15, 2003, on Televisión Nacional de Chile. The show is presented as a satirical news program hosted by the puppet character Tulio Triviño, featuring comedic reports and sketches. It incorporates educational themes with a humorous format."
+      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
     },
     {
       "fuente": "Ticketplus",
@@ -696,7 +616,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "ZÚMBALE PRIMO EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Cielo Nicole Fernández Asenjo es una cantante peruana. Actualmente es una de las vocalistas de la delantera principal de la orquesta Corazón Serrano."
     },
     {
       "fuente": "Ticketplus",
@@ -712,7 +632,23 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
+      "bio_artista": "Rata Blanca es una banda de hard rock y heavy metal formado en 1985 por el guitarrista Walter Giardino en la zona del Bajo Flores, barrio ubicado al sur de la ciudad de Buenos Aires. Se la considera como una de las bandas más importantes e influyentes del hard rock y heavy metal en español, aunque durante su carrera también han incorporado pesados riffs con estructuras melódicas y armónicas de la música clásica."
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Fonda Costa Club - Maelo Ruiz y El Titi Club",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
+      "fecha_iso": "2026-09-17",
+      "fecha_texto": "17 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/jmp005_md.jpg",
+      "url": "https://www.puntoticket.com/evento/fonda-costa-club-antofagasta",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
