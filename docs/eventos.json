@@ -1,47 +1,14 @@
 {
-  "generado_en": "2026-07-18T17:51:07.940601+00:00",
+  "generado_en": "2026-07-19T08:12:33.924407+00:00",
   "region": "Antofagasta",
-  "total_eventos": 45,
+  "total_eventos": 43,
   "por_fuente": {
-    "EsquinaRetornable": 2,
     "CalamaCultural": 34,
     "PuntoTicket": 2,
     "Ticketplus": 3,
     "CulturaAntofagasta": 4
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "RATATOUILLE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Cine en Familia: Pequeños Grandes Mundos. En audio español latino. · Remy, una rata con un talento excepcional para la cocina, desafía todos los prejuicios al perseguir su sueño de convertirse en chef en uno de los restaurantes más prestigiosos de París.",
-      "descripcion_extendida": "Cine en Familia: Pequeños Grandes Mundos. En audio español latino. · Remy, una rata con un talento excepcional para la cocina, desafía todos los prejuicios al perseguir su sueño de convertirse en chef en uno de los restaurantes más prestigiosos de París.",
-      "fecha_iso": "2026-07-18",
-      "fecha_texto": "18 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/ratatouille-poster.jpg",
-      "url": "https://www.passline.com/eventos/ratatouille-533872",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La ratatouille, o en occitano ratatolha es una preparación típica de la cocina francesa que consiste en un estofado de diferentes hortalizas típicas del sur de Francia. Proviene de la región de Provenza y del antiguo condado de Niza, por lo que se la llama también ratatouille niçoise."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA MISTERIOSA MIRADA DEL FLAMENCO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Estreno Nacional · Dir. Diego Céspedes",
-      "descripcion_extendida": "Estreno Nacional · Dir. Diego Céspedes",
-      "fecha_iso": "2026-07-18",
-      "fecha_texto": "18 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/LMMDF-POSTER.jpg",
-      "url": "https://www.passline.com/eventos/la-misteriosa-mirada-del-flamenco-533871",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La misteriosa mirada del flamenco es una película chilena de 2025 dirigida y escrita por Diego Céspedes, en su largometraje debut. Fue coproducida junto a Francia, Alemania, España y Bélgica. Está protagonizada por Tamara Cortés, Matías Catalán y Paula Dinamarca. Fue estrenada en el Festival Internacional de Cine de Cannes de 2025, donde ganó la sección Un certain regard."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Maleta Viajera. Escuela Camino De Amor",
@@ -55,8 +22,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-camino-de-amor-2026-07-20",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Dueto de Antaño es un grupo colombiano de serenata y música andina.",
+      "bio_artista": "Dueto de Antaño es un grupo colombiano de serenata y música andina."
     },
     {
       "fuente": "CalamaCultural",
@@ -71,8 +38,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-07-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
+      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -103,8 +70,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-imc-2026-07-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Juan Ángel Muñiz Hernaz . Diseñador gráfico e ilustrador profesional. Licenciado en Bellas Artes, Universidad de Salamanca, en Diseño Gráfico y Audiovisuales, funda su propio estudio en 2000. Como ilustrador, su trabajo ha sido reconocido con diversos premios, y ha celebrado exposiciones itinerantes, colectivas e individuales, en España y Portugal.",
+      "bio_artista": "Juan Ángel Muñiz Hernaz . Diseñador gráfico e ilustrador profesional. Licenciado en Bellas Artes, Universidad de Salamanca, en Diseño Gráfico y Audiovisuales, funda su propio estudio en 2000. Como ilustrador, su trabajo ha sido reconocido con diversos premios, y ha celebrado exposiciones itinerantes, colectivas e individuales, en España y Portugal."
     },
     {
       "fuente": "CalamaCultural",
@@ -423,8 +390,8 @@
       "url": "https://calamacultural.cl/carteleracultural#visita-guiada-a-la-biblioteca-residencia-familia-2026-07-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Archivo Joan Maragall es un centro de documentación que reúne un fondo documental sobre la figura y obra del poeta, y el conjunto del Modernismo. Está ubicado en la última residencia de Joan Maragall, en el número 79 de la calle Alfonso XII, en el distrito de Sarriá-San Gervasio de Barcelona (España). Es una sección de reserva de la Biblioteca de Cataluña y está abierta a investigadores y estudiosos de la obra del poeta.",
+      "bio_artista": "El Archivo Joan Maragall es un centro de documentación que reúne un fondo documental sobre la figura y obra del poeta, y el conjunto del Modernismo. Está ubicado en la última residencia de Joan Maragall, en el número 79 de la calle Alfonso XII, en el distrito de Sarriá-San Gervasio de Barcelona (España). Es una sección de reserva de la Biblioteca de Cataluña y está abierta a investigadores y estudiosos de la obra del poeta."
     },
     {
       "fuente": "CalamaCultural",
@@ -600,7 +567,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, sábado 01 de agosto 2026 al sábado 01 de agosto 2026 en Gimnasio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
+      "bio_artista": "31 minutos is a Chilean children's comedy television series and virtual band created by the production company Aplaplac, founded by Álvaro Díaz, Pedro Peirano, and Juan Manuel Egaña. It premiered on March 15, 2003, on Televisión Nacional de Chile. The show is presented as a satirical news program hosted by the puppet character Tulio Triviño, featuring comedic reports and sketches. It incorporates educational themes with a humorous format."
     },
     {
       "fuente": "Ticketplus",
@@ -616,7 +583,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "ZÚMBALE PRIMO EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Cielo Nicole Fernández Asenjo es una cantante peruana. Actualmente es una de las vocalistas de la delantera principal de la orquesta Corazón Serrano."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -632,7 +599,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Rata Blanca es una banda de hard rock y heavy metal formado en 1985 por el guitarrista Walter Giardino en la zona del Bajo Flores, barrio ubicado al sur de la ciudad de Buenos Aires. Se la considera como una de las bandas más importantes e influyentes del hard rock y heavy metal en español, aunque durante su carrera también han incorporado pesados riffs con estructuras melódicas y armónicas de la música clásica."
+      "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
     },
     {
       "fuente": "PuntoTicket",
@@ -648,7 +615,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
-      "bio_artista": "Henry Jaynes Fonda fue un actor de cine y teatro estadounidense, ganador de los premios Óscar, Globo de Oro, BAFTA y Tony. En 1999, la American Film Institute lo nombró la sexta mayor estrella masculina en la historia de Hollywood."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -664,7 +631,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CulturaAntofagasta",
