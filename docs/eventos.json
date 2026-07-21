@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-07-21T08:23:10.640326+00:00",
+  "generado_en": "2026-07-21T18:14:07.203400+00:00",
   "region": "Antofagasta",
   "total_eventos": 48,
   "por_fuente": {
@@ -120,7 +120,7 @@
       "url": "https://www.passline.com/sitio-evento/jojo-rabbit",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "WALL•E o WALL-E es una película de animación realizada casi íntegramente por ordenador, perteneciente a los géneros de ciencia ficción y comedia, estrenada en 2008, dirigida por Andrew Stanton, y producida por Walt Disney Pictures y Pixar Animation Studios. La trama sigue a un robot de la línea WALL•E, diseñada para limpiar la basura que cubre a la Tierra después de que fuese devastada y abandonada por el ser humano en un futuro lejano."
+      "bio_artista": "WALL-E is a 2008 American animated romantic science fiction film directed by Andrew Stanton, who co-wrote the screenplay with Jim Reardon, based on a story by Stanton and Pete Docter. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of Ben Burtt, Elissa Knight, Jeff Garlin, John Ratzenberger, Kathy Najimy, and Sigourney Weaver, with Fred Willard in a live-action role."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -184,7 +184,7 @@
       "url": "https://www.passline.com/sitio-evento/arrival",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Arrival puede referirse a:Arrival (álbum de ABBA), de 1976. Arrival (canción de ABBA), parte del álbum homónimo. Arrival (álbum de Journey), de 2000. Arrival (empresa), compañía automotriz británica. Arrival (película), traducida como «La llegada», largometraje de 2016."
     },
     {
       "fuente": "CalamaCultural",
@@ -215,8 +215,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-centro-de-formaci-n-t-cnica-estatal-2026-07-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Centro Cultural La Moneda (CCLM) es un centro cultural localizado en la ciudad de Santiago en Chile, bajo la Plaza de la Ciudadanía, frente a la fachada sur del Palacio de La Moneda.",
+      "bio_artista": "Centro Cultural La Moneda (CCLM) es un centro cultural localizado en la ciudad de Santiago en Chile, bajo la Plaza de la Ciudadanía, frente a la fachada sur del Palacio de La Moneda."
     },
     {
       "fuente": "CalamaCultural",
@@ -712,7 +712,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CulturaAntofagasta",
