@@ -1,47 +1,16 @@
 {
-  "generado_en": "2026-07-21T18:14:07.203400+00:00",
+  "generado_en": "2026-07-22T08:24:31.999498+00:00",
   "region": "Antofagasta",
-  "total_eventos": 48,
+  "total_eventos": 47,
   "por_fuente": {
-    "CalamaCultural": 33,
     "EsquinaRetornable": 6,
+    "CalamaCultural": 31,
     "PuntoTicket": 2,
     "Ticketplus": 3,
+    "ComediaTicket": 1,
     "CulturaAntofagasta": 4
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Jardín Infantil Sol Y Cobre",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-07-21",
-      "fecha_texto": "21 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-07-21",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
-      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Jardín Infantil Colegio Adventista",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-07-21",
-      "fecha_texto": "21 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-colegio-adventista-2026-07-21",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "LOLITA",
@@ -120,7 +89,7 @@
       "url": "https://www.passline.com/sitio-evento/jojo-rabbit",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "WALL-E is a 2008 American animated romantic science fiction film directed by Andrew Stanton, who co-wrote the screenplay with Jim Reardon, based on a story by Stanton and Pete Docter. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of Ben Burtt, Elissa Knight, Jeff Garlin, John Ratzenberger, Kathy Najimy, and Sigourney Weaver, with Fred Willard in a live-action role."
+      "bio_artista": "WALL•E o WALL-E es una película de animación realizada casi íntegramente por ordenador, perteneciente a los géneros de ciencia ficción y comedia, estrenada en 2008, dirigida por Andrew Stanton, y producida por Walt Disney Pictures y Pixar Animation Studios. La trama sigue a un robot de la línea WALL•E, diseñada para limpiar la basura que cubre a la Tierra después de que fuese devastada y abandonada por el ser humano en un futuro lejano."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -136,7 +105,7 @@
       "url": "https://www.passline.com/sitio-evento/cartas-a-mis-padres-muertos-535377",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Se llaman padres apostólicos a los autores del cristianismo primitivo que, según la tradición, tuvieron algún contacto con uno o más de los apóstoles de Jesús de Nazaret. Estos escritores del siglo I y de principios del siglo II dejaron textos de profunda importancia para conocer qué creían y cómo vivían los primeros cristianos. Muchos de estos textos contienen descripciones o normas acerca de la doctrina y praxis cristiana."
     },
     {
       "fuente": "CalamaCultural",
@@ -713,6 +682,22 @@
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
       "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "Show en la Estación",
+      "venue": "",
+      "descripcion": "<p>De última hora, Emilio Torres Pampero hace un alto en su paso por Antofagasta con su Standup de Senseiton, \"estamos todos piteados\", una radiografía de nuestro Chile y su gente desde la mirada de esta mezla de Sensei con Sesentón. (algo tiene que decir también de Antofagasta) Imperdible</p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ls22oqtl-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/show-en-la-estacion_9ksmp",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "<p>De última hora, Emilio Torres Pampero hace un alto en su paso por Antofagasta con su Standup de Senseiton, \"estamos todos piteados\", una radiografía de nuestro Chile y su gente desde la mirada de esta mezla de Sensei con Sesentón. (algo tiene que decir también de Antofagasta) Imperdible</p>",
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
