@@ -1,80 +1,16 @@
 {
-  "generado_en": "2026-07-22T18:06:41.815218+00:00",
+  "generado_en": "2026-07-23T08:26:54.782923+00:00",
   "region": "Antofagasta",
-  "total_eventos": 47,
+  "total_eventos": 44,
   "por_fuente": {
-    "EsquinaRetornable": 6,
-    "CalamaCultural": 31,
+    "EsquinaRetornable": 5,
+    "CalamaCultural": 29,
     "PuntoTicket": 2,
     "Ticketplus": 3,
     "ComediaTicket": 1,
     "CulturaAntofagasta": 4
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LOLITA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Stanley Kubrick · Kubrick Esencial: Precisión, Poder y Abismo",
-      "descripcion_extendida": "Dir. Stanley Kubrick · Kubrick Esencial: Precisión, Poder y Abismo",
-      "fecha_iso": "2026-07-22",
-      "fecha_texto": "22 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/lolita-poster.jpg",
-      "url": "https://www.passline.com/sitio-evento/lolita-529976",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Lolita es un hipocorístico del nombre femenino Dolores. También puede referirse a:Lolita (término);"
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LOS RENACIDOS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Santiago Esteves · Estreno Internacional",
-      "descripcion_extendida": "Dir. Santiago Esteves · Estreno Internacional",
-      "fecha_iso": "2026-07-22",
-      "fecha_texto": "22 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/los-renacidos-poster-1.jpg",
-      "url": "https://www.passline.com/sitio-evento/los-renacidos-535422",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Los renacidos es una película de suspenso policial y crimen de 2025 dirigida y escrita por Santiago Esteves. Es una producción internacional entre Argentina, España y Chile. Narra la historia de dos hermanos que después de muchos años sin verse deben volver a trabajar juntos en el negocio familiar que implica simular la muerte de personas que buscan cruzar ilegalmente la frontera. Está protagonizada por Pedro Fontaine, Marco Antonio Caponi y Óscar de la Fuente."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Imc",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-07-22",
-      "fecha_texto": "22 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-imc-2026-07-22",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Juan Ángel Muñiz Hernaz . Diseñador gráfico e ilustrador profesional. Licenciado en Bellas Artes, Universidad de Salamanca, en Diseño Gráfico y Audiovisuales, funda su propio estudio en 2000. Como ilustrador, su trabajo ha sido reconocido con diversos premios, y ha celebrado exposiciones itinerantes, colectivas e individuales, en España y Portugal.",
-      "bio_artista": "Juan Ángel Muñiz Hernaz . Diseñador gráfico e ilustrador profesional. Licenciado en Bellas Artes, Universidad de Salamanca, en Diseño Gráfico y Audiovisuales, funda su propio estudio en 2000. Como ilustrador, su trabajo ha sido reconocido con diversos premios, y ha celebrado exposiciones itinerantes, colectivas e individuales, en España y Portugal."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala De Estimulación Cesfam Central",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-07-22",
-      "fecha_texto": "22 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-de-estimulaci-n-cesfam-central-2026-07-22",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "WALL·E",
@@ -138,6 +74,22 @@
       "lon": -68.9295,
       "descripcion_extendida": "",
       "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LOS RENACIDOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Santiago Esteves · Estreno Internacional",
+      "descripcion_extendida": "Dir. Santiago Esteves · Estreno Internacional",
+      "fecha_iso": "2026-07-24",
+      "fecha_texto": "24 de julio de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/los-renacidos-poster-1.jpg",
+      "url": "https://www.passline.com/sitio-evento/los-renacidos-535371",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Los renacidos es una película de suspenso policial y crimen de 2025 dirigida y escrita por Santiago Esteves. Es una producción internacional entre Argentina, España y Chile. Narra la historia de dos hermanos que después de muchos años sin verse deben volver a trabajar juntos en el negocio familiar que implica simular la muerte de personas que buscan cruzar ilegalmente la frontera. Está protagonizada por Pedro Fontaine, Marco Antonio Caponi y Óscar de la Fuente."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -233,7 +185,7 @@
       "url": "https://www.passline.com/sitio-evento/tan-fuerte-y-tan-cerca-535419",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Extremely Loud and Incredibly Close, titulada en castellano Tan fuerte, tan cerca en España y Tan fuerte y tan cerca en Hispanoamérica, es una película dramática de 2011 basada en la novela homónima escrita por Jonathan Safran Foer en 2005. Rodada íntegramente en la ciudad de Nueva York. Producida por Scott Rudin y dirigida por Stephen Daldry fue estrenada el 25 de diciembre de 2011 en Norteamérica de la mano de Warner Bros.."
     },
     {
       "fuente": "CalamaCultural",
@@ -617,7 +569,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, sábado 01 de agosto 2026 al sábado 01 de agosto 2026 en Gimnasio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "31 minutos is a Chilean children's comedy television series and virtual band created by the production company Aplaplac, founded by Álvaro Díaz, Pedro Peirano, and Juan Manuel Egaña. It premiered on March 15, 2003, on Televisión Nacional de Chile. The show is presented as a satirical news program hosted by the puppet character Tulio Triviño, featuring comedic reports and sketches. It incorporates educational themes with a humorous format."
+      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
     },
     {
       "fuente": "Ticketplus",
