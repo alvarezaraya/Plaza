@@ -1,79 +1,47 @@
 {
-  "generado_en": "2026-07-23T18:11:30.932469+00:00",
+  "generado_en": "2026-07-24T08:32:32.821980+00:00",
   "region": "Antofagasta",
-  "total_eventos": 44,
+  "total_eventos": 42,
   "por_fuente": {
-    "CalamaCultural": 29,
-    "EsquinaRetornable": 5,
+    "EsquinaRetornable": 4,
+    "CalamaCultural": 27,
     "PuntoTicket": 2,
     "Ticketplus": 3,
     "ComediaTicket": 1,
-    "CulturaAntofagasta": 4
+    "CulturaAntofagasta": 5
   },
   "eventos": [
     {
-      "fuente": "CalamaCultural",
-      "nombre": "Cuentos Vs Emociones. Centro Ckonti Ckapur",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-07-23",
-      "fecha_texto": "23 de julio de 2026",
+      "fuente": "EsquinaRetornable",
+      "nombre": "LOS RENACIDOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Santiago Esteves · Estreno Internacional",
+      "descripcion_extendida": "Dir. Santiago Esteves · Estreno Internacional",
+      "fecha_iso": "2026-07-24",
+      "fecha_texto": "24 de julio de 2026",
       "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#cuentos-vs-emociones-centro-ckonti-ckapur-2026-07-23",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Escuela De Párvulos Papelucho",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-07-23",
-      "fecha_texto": "23 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-de-p-rvulos-papelucho-2026-07-23",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/los-renacidos-poster-1.jpg",
+      "url": "https://www.passline.com/sitio-evento/los-renacidos-535371",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Los renacidos es una película de suspenso policial y crimen de 2025 dirigida y escrita por Santiago Esteves. Es una producción internacional entre Argentina, España y Chile. Narra la historia de dos hermanos que después de muchos años sin verse deben volver a trabajar juntos en el negocio familiar que implica simular la muerte de personas que buscan cruzar ilegalmente la frontera. Está protagonizada por Pedro Fontaine, Marco Antonio Caponi y Óscar de la Fuente."
     },
     {
       "fuente": "EsquinaRetornable",
-      "nombre": "WALL·E",
+      "nombre": "ARRIVAL",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Taika Waititi · Cine a la carta: del libro de sugerencia",
-      "descripcion_extendida": "Dir. Taika Waititi · Cine a la carta: del libro de sugerencia",
-      "fecha_iso": "2026-07-23",
-      "fecha_texto": "23 de julio de 2026",
+      "descripcion": "Dir. Santiago Esteves · Invasión silenciosa: ciclo de cine extraterrestre",
+      "descripcion_extendida": "Dir. Santiago Esteves · Invasión silenciosa: ciclo de cine extraterrestre",
+      "fecha_iso": "2026-07-24",
+      "fecha_texto": "24 de julio de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/jojo-rabbit-poster.jpg",
-      "url": "https://www.passline.com/sitio-evento/jojo-rabbit",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2023/08/arrival.jpg",
+      "url": "https://www.passline.com/sitio-evento/arrival",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "WALL•E o WALL-E es una película de animación realizada casi íntegramente por ordenador, perteneciente a los géneros de ciencia ficción y comedia, estrenada en 2008, dirigida por Andrew Stanton, y producida por Walt Disney Pictures y Pixar Animation Studios. La trama sigue a un robot de la línea WALL•E, diseñada para limpiar la basura que cubre a la Tierra después de que fuese devastada y abandonada por el ser humano en un futuro lejano."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "CARTAS A MIS PADRES MUERTOS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Ignacio Agüero · Estreno Nacional",
-      "descripcion_extendida": "Dir. Ignacio Agüero · Estreno Nacional",
-      "fecha_iso": "2026-07-23",
-      "fecha_texto": "23 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/Cartas-a-mis-padres-muertos-poster.jpg",
-      "url": "https://www.passline.com/sitio-evento/cartas-a-mis-padres-muertos-535377",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Se llaman padres apostólicos a los autores del cristianismo primitivo que, según la tradición, tuvieron algún contacto con uno o más de los apóstoles de Jesús de Nazaret. Estos escritores del siglo I y de principios del siglo II dejaron textos de profunda importancia para conocer qué creían y cómo vivían los primeros cristianos. Muchos de estos textos contienen descripciones o normas acerca de la doctrina y praxis cristiana."
+      "bio_artista": "Arrival puede referirse a:Arrival (álbum de ABBA), de 1976. Arrival (canción de ABBA), parte del álbum homónimo. Arrival (álbum de Journey), de 2000. Arrival (empresa), compañía automotriz británica. Arrival (película), traducida como «La llegada», largometraje de 2016."
     },
     {
       "fuente": "CalamaCultural",
@@ -141,35 +109,35 @@
     },
     {
       "fuente": "EsquinaRetornable",
-      "nombre": "LOS RENACIDOS",
+      "nombre": "WALL·E",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Santiago Esteves · Estreno Internacional",
-      "descripcion_extendida": "Dir. Santiago Esteves · Estreno Internacional",
-      "fecha_iso": "2026-07-24",
-      "fecha_texto": "24 de julio de 2026",
+      "descripcion": "Dir. Andrew Stanton · Cine en Familia: Experiencias para sentir a tu ritmo. Con audio español latino.",
+      "descripcion_extendida": "Dir. Andrew Stanton · Cine en Familia: Experiencias para sentir a tu ritmo. Con audio español latino.",
+      "fecha_iso": "2026-07-25",
+      "fecha_texto": "25 de julio de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/06/los-renacidos-poster-1.jpg",
-      "url": "https://www.passline.com/sitio-evento/los-renacidos-535371",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2023/05/wall-e.jpg",
+      "url": "https://www.passline.com/sitio-evento/walle-535378",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Los renacidos es una película de suspenso policial y crimen de 2025 dirigida y escrita por Santiago Esteves. Es una producción internacional entre Argentina, España y Chile. Narra la historia de dos hermanos que después de muchos años sin verse deben volver a trabajar juntos en el negocio familiar que implica simular la muerte de personas que buscan cruzar ilegalmente la frontera. Está protagonizada por Pedro Fontaine, Marco Antonio Caponi y Óscar de la Fuente."
+      "bio_artista": "WALL-E is a 2008 American animated romantic science fiction film directed by Andrew Stanton, who co-wrote the screenplay with Jim Reardon, based on a story by Stanton and Pete Docter. Produced by Pixar Animation Studios for Walt Disney Pictures, the film stars the voices of Ben Burtt, Elissa Knight, Jeff Garlin, John Ratzenberger, Kathy Najimy, and Sigourney Weaver, with Fred Willard in a live-action role."
     },
     {
       "fuente": "EsquinaRetornable",
-      "nombre": "ARRIVAL",
+      "nombre": "TAN FUERTE Y TAN CERCA",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Santiago Esteves · Invasión silenciosa: ciclo de cine extraterrestre",
-      "descripcion_extendida": "Dir. Santiago Esteves · Invasión silenciosa: ciclo de cine extraterrestre",
-      "fecha_iso": "2026-07-24",
-      "fecha_texto": "24 de julio de 2026",
+      "descripcion": "Dir. Stephen Daldry · Cine a la carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Stephen Daldry · Cine a la carta: del libro de sugerencias",
+      "fecha_iso": "2026-07-25",
+      "fecha_texto": "25 de julio de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2023/08/arrival.jpg",
-      "url": "https://www.passline.com/sitio-evento/arrival",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/tan-fuerte-y-tan-cerca-poster-.jpg",
+      "url": "https://www.passline.com/sitio-evento/tan-fuerte-y-tan-cerca-535419",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Arrival puede referirse a:Arrival (álbum de ABBA), de 1976. Arrival (canción de ABBA), parte del álbum homónimo. Arrival (álbum de Journey), de 2000. Arrival (empresa), compañía automotriz británica. Arrival (película), traducida como «La llegada», largometraje de 2016."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -186,22 +154,6 @@
       "lon": -68.9295,
       "descripcion_extendida": "",
       "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "TAN FUERTE Y TAN CERCA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Stephen Daldry · Cine a la carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. Stephen Daldry · Cine a la carta: del libro de sugerencias",
-      "fecha_iso": "2026-07-25",
-      "fecha_texto": "25 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/tan-fuerte-y-tan-cerca-poster-.jpg",
-      "url": "https://www.passline.com/sitio-evento/tan-fuerte-y-tan-cerca-535419",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Extremely Loud and Incredibly Close, titulada en castellano Tan fuerte, tan cerca en España y Tan fuerte y tan cerca en Hispanoamérica, es una película dramática de 2011 basada en la novela homónima escrita por Jonathan Safran Foer en 2005. Rodada íntegramente en la ciudad de Nueva York. Producida por Scott Rudin y dirigida por Stephen Daldry fue estrenada el 25 de diciembre de 2011 en Norteamérica de la mano de Warner Bros.."
     },
     {
       "fuente": "CalamaCultural",
@@ -424,8 +376,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-07-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -440,8 +392,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-07-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
-      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -504,8 +456,8 @@
       "url": "https://calamacultural.cl/carteleracultural#intervenci-n-tur-stica-y-cultural-en-aeropuerto-2026-07-31",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Aeropuerto Internacional Valle del Conlara es un aeropuerto que se encuentra ubicado en el Valle del Conlara en la localidad de Santa Rosa del Conlara, 18 km al sudoeste de Merlo, y a 50 km de Villa Dolores.",
+      "bio_artista": "El Aeropuerto Internacional Valle del Conlara es un aeropuerto que se encuentra ubicado en el Valle del Conlara en la localidad de Santa Rosa del Conlara, 18 km al sudoeste de Merlo, y a 50 km de Villa Dolores."
     },
     {
       "fuente": "CalamaCultural",
@@ -520,8 +472,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-obras-de-escritores-locales-2026-07-31",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
+      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
     },
     {
       "fuente": "CalamaCultural",
@@ -649,6 +601,22 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "<p>De última hora, Emilio Torres Pampero hace un alto en su paso por Antofagasta con su Standup de Senseiton, \"estamos todos piteados\", una radiografía de nuestro Chile y su gente desde la mirada de esta mezla de Sensei con Sesentón. (algo tiene que decir también de Antofagasta) Imperdible</p>",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Semana de la Música Popular 2026",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "",
+      "url": "https://culturaantofagasta.cl/2026/07/23/alain-johannes-en-la-semana-de-la-musica-popular-2026/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
       "bio_artista": ""
     },
     {
