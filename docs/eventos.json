@@ -1,64 +1,16 @@
 {
-  "generado_en": "2026-07-25T17:56:56.599067+00:00",
+  "generado_en": "2026-07-26T08:22:36.960649+00:00",
   "region": "Antofagasta",
-  "total_eventos": 44,
+  "total_eventos": 41,
   "por_fuente": {
-    "EsquinaRetornable": 10,
-    "CalamaCultural": 23,
+    "CalamaCultural": 22,
+    "EsquinaRetornable": 8,
     "PuntoTicket": 2,
     "Ticketplus": 3,
     "ComediaTicket": 1,
     "CulturaAntofagasta": 5
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "WALL·E",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Andrew Stanton · Cine en Familia: Experiencias para sentir a tu ritmo. Con audio español latino.",
-      "descripcion_extendida": "Dir. Andrew Stanton · Cine en Familia: Experiencias para sentir a tu ritmo. Con audio español latino.",
-      "fecha_iso": "2026-07-25",
-      "fecha_texto": "25 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2023/05/wall-e.jpg",
-      "url": "https://www.passline.com/sitio-evento/walle-535378",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "WALL•E o WALL-E es una película de animación realizada casi íntegramente por ordenador, perteneciente a los géneros de ciencia ficción y comedia, estrenada en 2008, dirigida por Andrew Stanton, y producida por Walt Disney Pictures y Pixar Animation Studios. La trama sigue a un robot de la línea WALL•E, diseñada para limpiar la basura que cubre a la Tierra después de que fuese devastada y abandonada por el ser humano en un futuro lejano."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "TAN FUERTE Y TAN CERCA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Stephen Daldry · Cine a la carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. Stephen Daldry · Cine a la carta: del libro de sugerencias",
-      "fecha_iso": "2026-07-25",
-      "fecha_texto": "25 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/tan-fuerte-y-tan-cerca-poster-.jpg",
-      "url": "https://www.passline.com/sitio-evento/tan-fuerte-y-tan-cerca-535419",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Extremely Loud and Incredibly Close, titulada en castellano Tan fuerte, tan cerca en España y Tan fuerte y tan cerca en Hispanoamérica, es una película dramática de 2011 basada en la novela homónima escrita por Jonathan Safran Foer en 2005. Rodada íntegramente en la ciudad de Nueva York. Producida por Scott Rudin y dirigida por Stephen Daldry fue estrenada el 25 de diciembre de 2011 en Norteamérica de la mano de Warner Bros.."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Tour Estadio Zorros Del Desierto",
-      "venue": "Estadio Zorros Del Desierto",
-      "descripcion": "",
-      "fecha_iso": "2026-07-25",
-      "fecha_texto": "25 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#tour-estadio-zorros-del-desierto-2026-07-25",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico.",
-      "bio_artista": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Xv Festival Nacional De Teatro De Invierno De Calama, Fentic 2026",
@@ -136,8 +88,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-07-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
+      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
     },
     {
       "fuente": "CalamaCultural",
@@ -201,7 +153,7 @@
       "url": "https://www.passline.com/eventos/la-naranja-mecanica-529978",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "El término La naranja mecánica puede referirse a diferentes términos.La naranja mecánica (fútbol), apodo de la selección de fútbol de los Países Bajos. La naranja mecánica (película), película creada en 1971\nLa naranja mecánica (novela), libro o novela publicado en 1962 y adaptada por Stanley Kubrick en 1971."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -313,7 +265,7 @@
       "url": "https://www.passline.com/eventos/robocop",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "RoboCop es una película de acción y ciencia ficción estadounidense dirigida por Paul Verhoeven y escrita por Edward Neumeier y Michael Miner. Está protagonizada por Peter Weller, Nancy Allen, Dan O'Herlihy, Ronny Cox, Kurtwood Smith y Miguel Ferrer. La trama se centra en el oficial de policía Alex Murphy (Weller), quien es asesinado por una banda de criminales y posteriormente revivido por la corporación Omni Consumer Products como un cíborg policía llamado RoboCop."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -329,7 +281,7 @@
       "url": "https://www.passline.com/eventos/los-renacidos-537509",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Los renacidos es una película de suspenso policial y crimen de 2025 dirigida y escrita por Santiago Esteves. Es una producción internacional entre Argentina, España y Chile. Narra la historia de dos hermanos que después de muchos años sin verse deben volver a trabajar juntos en el negocio familiar que implica simular la muerte de personas que buscan cruzar ilegalmente la frontera. Está protagonizada por Pedro Fontaine, Marco Antonio Caponi y Óscar de la Fuente."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -441,7 +393,7 @@
       "url": "https://www.passline.com/eventos/nope",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "¡Nop! es una película de terror y ciencia ficción estadounidense de 2022 escrita, dirigida y producida por Jordan Peele bajo su estandarte Monkeypaw Productions. Está protagonizada por Daniel Kaluuya, Keke Palmer, Steven Yeun, Michael Wincott y Brandon Perea y sigue a dos hermanos propietarios de un rancho que intentan capturar evidencia de un objeto volador no identificado."
     },
     {
       "fuente": "CalamaCultural",
@@ -456,8 +408,8 @@
       "url": "https://calamacultural.cl/carteleracultural#intervenci-n-tur-stica-y-cultural-en-aeropuerto-2026-07-31",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Aeropuerto Internacional Valle del Conlara es un aeropuerto que se encuentra ubicado en el Valle del Conlara en la localidad de Santa Rosa del Conlara, 18 km al sudoeste de Merlo, y a 50 km de Villa Dolores.",
+      "bio_artista": "El Aeropuerto Internacional Valle del Conlara es un aeropuerto que se encuentra ubicado en el Valle del Conlara en la localidad de Santa Rosa del Conlara, 18 km al sudoeste de Merlo, y a 50 km de Villa Dolores."
     },
     {
       "fuente": "CalamaCultural",
@@ -621,18 +573,18 @@
     },
     {
       "fuente": "ComediaTicket",
-      "nombre": "Show en la Estación",
+      "nombre": "JPez - El mundo es chico",
       "venue": "",
-      "descripcion": "<p>De última hora, Emilio Torres Pampero hace un alto en su paso por Antofagasta con su Standup de Senseiton, \"estamos todos piteados\", una radiografía de nuestro Chile y su gente desde la mirada de esta mezla de Sensei con Sesentón. (algo tiene que decir también de Antofagasta) Imperdible</p>",
+      "descripcion": "<p><strong>El mundo es chico</strong> es el show de stand-up de <strong>JPEZ</strong>, una rutina cargada de observaciones, anécdotas y situaciones con las que cualquiera puede identificarse, sobre todo él. Humor cercano, espontáneo y lleno de giros inesperados, el comediante recorre experiencias sobre su vida, relaciones y esas coincidencias que nos recuerdan que, al final, el mundo realmente es chico.</p><p><br></p><p>Risas, algo de improvisación y comedia para disfrutar de principio a fin en Cocotuga, el hogar de la</p><p>comedia en Antofagasta.</p><p><br></p>",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-ls22oqtl-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/show-en-la-estacion_9ksmp",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-q5k5dg7a-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/jpez-el-mundo-es-chico_6gu0g",
       "lat": -23.6509,
       "lon": -70.3975,
-      "descripcion_extendida": "<p>De última hora, Emilio Torres Pampero hace un alto en su paso por Antofagasta con su Standup de Senseiton, \"estamos todos piteados\", una radiografía de nuestro Chile y su gente desde la mirada de esta mezla de Sensei con Sesentón. (algo tiene que decir también de Antofagasta) Imperdible</p>",
+      "descripcion_extendida": "<p><strong>El mundo es chico</strong> es el show de stand-up de <strong>JPEZ</strong>, una rutina cargada de observaciones, anécdotas y situaciones con las que cualquiera puede identificarse, sobre todo él. Humor cercano, espontáneo y lleno de giros inesperados, el comediante recorre experiencias sobre su vida, relaciones y esas coincidencias que nos recuerdan que, al final, el mundo realmente es chico.</p><p><br></p><p>Risas, algo de improvisación y comedia para disfrutar de principio a fin en Cocotuga, el hogar de la</p><p>comedia en Antofagasta.</p><p><br></p>",
       "bio_artista": ""
     },
     {
