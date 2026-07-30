@@ -1,144 +1,16 @@
 {
-  "generado_en": "2026-07-29T18:06:10.463607+00:00",
+  "generado_en": "2026-07-30T08:20:43.151766+00:00",
   "region": "Antofagasta",
-  "total_eventos": 34,
+  "total_eventos": 27,
   "por_fuente": {
-    "EsquinaRetornable": 8,
-    "CalamaCultural": 15,
+    "EsquinaRetornable": 6,
+    "CalamaCultural": 9,
     "PuntoTicket": 2,
     "Ticketplus": 3,
     "ComediaTicket": 1,
-    "CulturaAntofagasta": 5
+    "CulturaAntofagasta": 6
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "EXTRATORDINARIO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Stephen Chbosky · Cine a la carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. Stephen Chbosky · Cine a la carta: del libro de sugerencias",
-      "fecha_iso": "2026-07-29",
-      "fecha_texto": "29 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/extraordinario-poster.jpg",
-      "url": "https://www.passline.com/sitio-evento/extraordinario",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA NARANJA MECÁNICA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Santiago Esteves · Kubrick Esencial: Precisión, Poder y Abismo",
-      "descripcion_extendida": "Dir. Santiago Esteves · Kubrick Esencial: Precisión, Poder y Abismo",
-      "fecha_iso": "2026-07-29",
-      "fecha_texto": "29 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/la-naranja-mecanica-afiche.jpg",
-      "url": "https://www.passline.com/eventos/la-naranja-mecanica-529978",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "El término La naranja mecánica puede referirse a diferentes términos.La naranja mecánica (fútbol), apodo de la selección de fútbol de los Países Bajos. La naranja mecánica (película), película creada en 1971\nLa naranja mecánica (novela), libro o novela publicado en 1962 y adaptada por Stanley Kubrick en 1971."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Taller De Tai Chi",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-07-29",
-      "fecha_texto": "29 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-07-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Experiencia Educativa Musical. Liceo Radomiro Tomic",
-      "venue": "Centro De Arte Ojo Del Desierto",
-      "descripcion": "",
-      "fecha_iso": "2026-07-29",
-      "fecha_texto": "29 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#experiencia-educativa-musical-liceo-radomiro-tomic-2026-07-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Prais",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-07-29",
-      "fecha_texto": "29 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-prais-2026-07-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Residencia Casa Esperanza",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-07-29",
-      "fecha_texto": "29 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-casa-esperanza-2026-07-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Visita Guiada A La Biblioteca. Residencia Familia",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-07-29",
-      "fecha_texto": "29 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#visita-guiada-a-la-biblioteca-residencia-familia-2026-07-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Grabación Video Arak Pacha",
-      "venue": "Lasana/Chiu Chiu",
-      "descripcion": "",
-      "fecha_iso": "2026-07-29",
-      "fecha_texto": "29 de julio de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#grabaci-n-video-arak-pacha-2026-07-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "ROBOCOP",
@@ -184,8 +56,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-07-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -200,8 +72,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-07-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
+      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
     },
     {
       "fuente": "CalamaCultural",
@@ -265,7 +137,7 @@
       "url": "https://www.passline.com/eventos/perdidos-en-tokio-537503",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Lost es una serie de televisión estadounidense emitida originalmente por American Broadcasting Company (ABC) entre 2004 y 2010, hasta completar un total de seis temporadas."
+      "bio_artista": "\"Perdidos\" is a song by Dominican Bachata duo Monchy & Alexandra. It was released as the lead single from their third studio album Hasta El Fin."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -393,7 +265,7 @@
       "url": "https://www.passline.com/eventos/el-laberinto-del-fauno",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "El laberinto del fauno es una película hispano-mexicana de drama y fantasía oscura de 2006, escrita, coproducida y dirigida por Guillermo del Toro. Está protagonizada por Ivana Baquero, Sergi López, Maribel Verdú y Doug Jones. Fue distribuida por Warner Bros Pictures España y estrenada el 11 de octubre de 2006 en España, y después se estrenó el 20 de octubre de 2006 en México, con distribución de Warner Bros. Pictures México."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -409,7 +281,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "ZÚMBALE PRIMO EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Cielo Nicole Fernández Asenjo es una cantante peruana. Actualmente es una de las vocalistas de la delantera principal de la orquesta Corazón Serrano."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -425,7 +297,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Rata Blanca es una banda de hard rock y heavy metal formado en 1985 por el guitarrista Walter Giardino en la zona del Bajo Flores, barrio ubicado al sur de la ciudad de Buenos Aires. Se la considera como una de las bandas más importantes e influyentes del hard rock y heavy metal en español, aunque durante su carrera también han incorporado pesados riffs con estructuras melódicas y armónicas de la música clásica."
+      "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
     },
     {
       "fuente": "PuntoTicket",
@@ -441,7 +313,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
-      "bio_artista": "Henry Jaynes Fonda fue un actor de cine y teatro estadounidense, ganador de los premios Óscar, Globo de Oro, BAFTA y Tony. En 1999, la American Film Institute lo nombró la sexta mayor estrella masculina en la historia de Hollywood."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -457,7 +329,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "ComediaTicket",
@@ -477,6 +349,38 @@
     },
     {
       "fuente": "CulturaAntofagasta",
+      "nombre": "Orquesta Sinfónica continúa con su Temporada 2026 con dos estrenos para Antofagasta",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/07/FOTO-DIRECTOR-JAVIER-FAJARDO.jpg2_-e1785271127731.jpg",
+      "url": "https://culturaantofagasta.cl/2026/07/28/orquesta-sinfonica-continua-con-su-temporada-2026-con-dos-estrenos-para-antofagasta/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Auditorio de la Plaza Bicentenario contará con programación artística permanente",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/07/DSC07032.jpg",
+      "url": "https://culturaantofagasta.cl/2026/07/23/auditorio-de-la-plaza-bicentenario-contara-con-programacion-artistica-permanente/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaAntofagasta",
       "nombre": "Semana de la Música Popular 2026",
       "venue": "Corporación Municipal de Cultura",
       "descripcion": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
@@ -484,7 +388,7 @@
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/07/FOTO-Alain-Johanns-Y-Dave-Grohl.jpg",
       "url": "https://culturaantofagasta.cl/2026/07/23/alain-johannes-en-la-semana-de-la-musica-popular-2026/",
       "lat": -23.6509,
       "lon": -70.3975,
@@ -500,7 +404,7 @@
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/06/PARRA.png",
       "url": "https://culturaantofagasta.cl/2026/06/19/referente-de-la-musica-en-chile-y-el-mundo-dirigira-el-proximo-concierto-de-la-orquesta-sinfonica-de-antofagasta/",
       "lat": -23.6509,
       "lon": -70.3975,
@@ -511,16 +415,16 @@
       "fuente": "CulturaAntofagasta",
       "nombre": "A 35 AÑOS DEL ALUVIÓN DE 1991, ORQUESTA SINFÓNICA DE ANTOFAGASTA ESTRENA OBRA INSPIRADA EN FATÍDICO ACONTECIMIENTO",
       "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
+      "descripcion": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/06/FOTO-RODOLFO-FISHER-Y-CUARTETO-VILA.jpeg",
       "url": "https://culturaantofagasta.cl/2026/06/10/a-35-anos-del-aluvion-de-1991-orquesta-sinfonica-de-antofagasta-estrena-obra-inspirada-en-fatidico-acontecimiento/",
       "lat": -23.6509,
       "lon": -70.3975,
-      "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. &#160;&#160;&#160;&#160;&#16",
+      "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
       "bio_artista": ""
     },
     {
@@ -532,27 +436,11 @@
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/04/Ballet-de-Camara-03-1.jpeg",
       "url": "https://culturaantofagasta.cl/2026/04/27/comienza-la-ix-version-de-lasemana-de-la-danza-que-realiza-la-escuela-de-ballet-de-la-corporacion-cultural-de-antofagasta/",
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "Exposición invita a conocer historia de la ilustración en Chile a través de un recorrido educativo y social",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "“Fundación Cultural y Educacional Ilustradores Chilenos de Oro”, tiene sede en Antofagasta y resguarda más de 770 obras la historia visual de nuestro país. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con motivo de la celebración del Día Internacional del Libro, la Corporación ",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://culturaantofagasta.cl/2026/04/23/exposicion-invita-a-conocer-la-historia-la-ilustracion-en-chile-a-traves-de-un-recorrido-educativo-y-social/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "“Fundación Cultural y Educacional Ilustradores Chilenos de Oro”, tiene sede en Antofagasta y resguarda más de 770 obras la historia visual de nuestro país. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Con motivo de la celebración del Día Internacional del Libro, la Corporación ",
       "bio_artista": ""
     }
   ]
