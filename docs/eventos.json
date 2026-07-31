@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-07-31T08:46:33.137521+00:00",
+  "generado_en": "2026-07-31T18:16:48.072193+00:00",
   "region": "Antofagasta",
   "total_eventos": 20,
   "por_fuente": {
@@ -7,8 +7,8 @@
     "CalamaCultural": 4,
     "PuntoTicket": 2,
     "Ticketplus": 3,
-    "ComediaTicket": 1,
-    "CulturaAntofagasta": 6
+    "CulturaAntofagasta": 6,
+    "ComediaTicket": 1
   },
   "eventos": [
     {
@@ -56,8 +56,8 @@
       "url": "https://calamacultural.cl/carteleracultural#intervenci-n-tur-stica-y-cultural-en-aeropuerto-2026-07-31",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Aeropuerto Internacional Valle del Conlara es un aeropuerto que se encuentra ubicado en el Valle del Conlara en la localidad de Santa Rosa del Conlara, 18 km al sudoeste de Merlo, y a 50 km de Villa Dolores.",
+      "bio_artista": "El Aeropuerto Internacional Valle del Conlara es un aeropuerto que se encuentra ubicado en el Valle del Conlara en la localidad de Santa Rosa del Conlara, 18 km al sudoeste de Merlo, y a 50 km de Villa Dolores."
     },
     {
       "fuente": "CalamaCultural",
@@ -72,8 +72,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-obras-de-escritores-locales-2026-07-31",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
+      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
     },
     {
       "fuente": "CalamaCultural",
@@ -121,7 +121,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para 31 Minutos, sábado 01 de agosto 2026 al sábado 01 de agosto 2026 en Gimnasio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "31 minutos es una serie de televisión infantil chilena creada por la productora Aplaplac —propiedad de Álvaro Díaz, Pedro Peirano y Juan Manuel Egaña— estrenada el 15 de marzo de 2003 por Televisión Nacional de Chile, tras ganar fondos en concurso del Consejo Nacional de Televisión de Chile. El programa parodia a 60 minutos, noticiero del mismo canal, que funcionó como aparato de propaganda encubierta de la dictadura, transmitido entre 1975 y 1988."
+      "bio_artista": "31 minutos is a Chilean children's comedy television series and virtual band created by the production company Aplaplac, founded by Álvaro Díaz, Pedro Peirano, and Juan Manuel Egaña. It premiered on March 15, 2003, on Televisión Nacional de Chile. The show is presented as a satirical news program hosted by the puppet character Tulio Triviño, featuring comedic reports and sketches. It incorporates educational themes with a humorous format."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/intensamente-537500",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Inside Out es una película de animación estadounidense producida por Pixar Animation Studios para Walt Disney Pictures. Dirigida por Pete Docter a partir de un guion que escribió junto a Meg LeFauve y Josh Cooley. Cuenta con las voces de Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader, Lewis Black, Mindy Kaling, Kaitlyn Dias, Diane Lane y Kyle MacLachlan."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +153,7 @@
       "url": "https://www.passline.com/eventos/el-laberinto-del-fauno",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "El laberinto del fauno es una película hispano-mexicana de drama y fantasía oscura de 2006, escrita, coproducida y dirigida por Guillermo del Toro. Está protagonizada por Ivana Baquero, Sergi López, Maribel Verdú y Doug Jones. Fue distribuida por Warner Bros Pictures España y estrenada el 11 de octubre de 2006 en España, y después se estrenó el 20 de octubre de 2006 en México, con distribución de Warner Bros. Pictures México."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -169,7 +169,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "ZÚMBALE PRIMO EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Cielo Nicole Fernández Asenjo es una cantante peruana. Actualmente es una de las vocalistas de la delantera principal de la orquesta Corazón Serrano."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -218,22 +218,6 @@
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
       "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
-    },
-    {
-      "fuente": "ComediaTicket",
-      "nombre": "JPez - El mundo es chico",
-      "venue": "",
-      "descripcion": "<p><strong>El mundo es chico</strong> es el show de stand-up de <strong>JPEZ</strong>, una rutina cargada de observaciones, anécdotas y situaciones con las que cualquiera puede identificarse, sobre todo él. Humor cercano, espontáneo y lleno de giros inesperados, el comediante recorre experiencias sobre su vida, relaciones y esas coincidencias que nos recuerdan que, al final, el mundo realmente es chico.</p><p><br></p><p>Risas, algo de improvisación y comedia para disfrutar de principio a fin en Cocotuga, el hogar de la</p><p>comedia en Antofagasta.</p><p><br></p>",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-q5k5dg7a-publish.png",
-      "url": "https://comediaticket.cl/details/events_details/jpez-el-mundo-es-chico_6gu0g",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "<p><strong>El mundo es chico</strong> es el show de stand-up de <strong>JPEZ</strong>, una rutina cargada de observaciones, anécdotas y situaciones con las que cualquiera puede identificarse, sobre todo él. Humor cercano, espontáneo y lleno de giros inesperados, el comediante recorre experiencias sobre su vida, relaciones y esas coincidencias que nos recuerdan que, al final, el mundo realmente es chico.</p><p><br></p><p>Risas, algo de improvisación y comedia para disfrutar de principio a fin en Cocotuga, el hogar de la</p><p>comedia en Antofagasta.</p><p><br></p>",
-      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -329,6 +313,22 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "ComediaTicket",
+      "nombre": "JPez - El mundo es chico",
+      "venue": "",
+      "descripcion": "<p><strong>El mundo es chico</strong> es el show de stand-up de <strong>JPEZ</strong>, una rutina cargada de observaciones, anécdotas y situaciones con las que cualquiera puede identificarse, sobre todo él. Humor cercano, espontáneo y lleno de giros inesperados, el comediante recorre experiencias sobre su vida, relaciones y esas coincidencias que nos recuerdan que, al final, el mundo realmente es chico.</p><p><br></p><p>Risas, algo de improvisación y comedia para disfrutar de principio a fin en Cocotuga, el hogar de la</p><p>comedia en Antofagasta.</p><p><br></p>",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://cdn.comediaticket.cl/events/1/events-small-q5k5dg7a-publish.png",
+      "url": "https://comediaticket.cl/details/events_details/jpez-el-mundo-es-chico_6gu0g",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "<p><strong>El mundo es chico</strong> es el show de stand-up de <strong>JPEZ</strong>, una rutina cargada de observaciones, anécdotas y situaciones con las que cualquiera puede identificarse, sobre todo él. Humor cercano, espontáneo y lleno de giros inesperados, el comediante recorre experiencias sobre su vida, relaciones y esas coincidencias que nos recuerdan que, al final, el mundo realmente es chico.</p><p><br></p><p>Risas, algo de improvisación y comedia para disfrutar de principio a fin en Cocotuga, el hogar de la</p><p>comedia en Antofagasta.</p><p><br></p>",
       "bio_artista": ""
     }
   ]
