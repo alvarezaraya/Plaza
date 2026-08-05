@@ -25,5 +25,11 @@ Pods/
 .DS_Store
 *.swp
 
+# Python (scraper y tests)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
 # Env / secrets
 .env
