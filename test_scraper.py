@@ -356,6 +356,14 @@ class TestParsearCarteleraCalama(unittest.TestCase):
         vitrina = next(e for e in self.eventos if "Astronómica" in e["nombre"])
         self.assertEqual(vitrina["ciudad"], "San Pedro de Atacama")
 
+    def test_anio_del_encabezado_gana_al_anio_actual(self):
+        # El encabezado manda aunque el mes quede muy en el pasado: sin ancla,
+        # parsear_fecha bumpearía al año siguiente.
+        html = CARTELERA_HTML.replace("Julio 2026", "Julio 2019")
+        recreo = next(e for e in s._parsear_cartelera_calama(html)
+                      if e["nombre"] == "Recreo Cultural")
+        self.assertEqual(recreo["fecha_iso"], "2019-07-01")
+
     def test_urls_unicas_por_evento(self):
         urls = [e["url"] for e in self.eventos]
         self.assertEqual(len(urls), len(set(urls)))

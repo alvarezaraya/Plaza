@@ -1432,7 +1432,7 @@ def _parsear_cartelera_calama(html, fecha_ancla=None):
     soup = BeautifulSoup(html, "html.parser")
 
     if fecha_ancla is None:
-        m = re.search(rf"({MESES_PATTERN})\w*\s+de?\s*(\d{{4}})",
+        m = re.search(rf"({MESES_PATTERN})\w*\s+(?:de\s+)?(\d{{4}})",
                       soup.get_text(" "), re.IGNORECASE)
         if m:
             mes = MESES_ES.get(m.group(1).lower())
