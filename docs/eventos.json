@@ -1,10 +1,10 @@
 {
-  "generado_en": "2026-08-07T07:10:21.949059+00:00",
+  "generado_en": "2026-08-07T17:43:32.354819+00:00",
   "region": "Antofagasta",
-  "total_eventos": 70,
+  "total_eventos": 75,
   "por_fuente": {
     "PuntoTicket": 2,
-    "EsquinaRetornable": 5,
+    "EsquinaRetornable": 10,
     "CalamaCultural": 53,
     "Ticketplus": 3,
     "CulturaAntofagasta": 6,
@@ -60,22 +60,6 @@
       "bio_artista": ""
     },
     {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ONCE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. John Carney · Conmemoración: QEPD Glenn Hansard",
-      "descripcion_extendida": "Dir. John Carney · Conmemoración: QEPD Glenn Hansard",
-      "fecha_iso": "2026-08-07",
-      "fecha_texto": "7 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/ONCE_WEB.jpg",
-      "url": "https://www.passline.com/eventos/perdidos-en-tokio-537503",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "El once (11), del latín undĕcim, es el número natural que sigue al 10 y precede al 12."
-    },
-    {
       "fuente": "CalamaCultural",
       "nombre": "Feria De La Biodiversidad",
       "venue": "Plaza 23 De Marzo",
@@ -121,7 +105,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "ZÚMBALE PRIMO EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Cielo Nicole Fernández Asenjo es una cantante peruana. Actualmente es una de las vocalistas de la delantera principal de la orquesta Corazón Serrano."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -236,6 +220,38 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "EL DIABLO VISTE A LA MODA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. David Frankel · Cine a la carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. David Frankel · Cine a la carta: del libro de sugerencias",
+      "fecha_iso": "2026-08-12",
+      "fecha_texto": "12 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/eldiablovistealamoda-WEB.jpg",
+      "url": "https://www.passline.com/eventos/perdidos-en-tokio-537503",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA NATURALEZA DE LAS COSAS INVISIBLES",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Rafaela Camelo · Estreno Internacional",
+      "descripcion_extendida": "Dir. Rafaela Camelo · Estreno Internacional",
+      "fecha_iso": "2026-08-12",
+      "fecha_texto": "12 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/la-naturaleza-de-las-cosas-invisibles-poster.jpg",
+      "url": "https://www.passline.com/eventos/la-naturaleza-de-las-cosas-invisibles",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Festival De La Canción Estudiantil “Exprésate”",
       "venue": "Teatro Municipal",
@@ -265,6 +281,38 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ONCE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. John Carney · Conmemoración: QEPD Glenn Hansard",
+      "descripcion_extendida": "Dir. John Carney · Conmemoración: QEPD Glenn Hansard",
+      "fecha_iso": "2026-08-13",
+      "fecha_texto": "13 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/ONCE_WEB.jpg",
+      "url": "https://www.passline.com/eventos/perdidos-en-tokio-537503",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA GUERRA DE LAS GALAXIAS, EL IMPERIO CONTRAATACA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. George Lucas · Star Wars para todas las edades",
+      "descripcion_extendida": "Dir. George Lucas · Star Wars para todas las edades",
+      "fecha_iso": "2026-08-13",
+      "fecha_texto": "13 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/starwarsV-WEB.jpg",
+      "url": "https://www.passline.com/eventos/perdidos-en-tokio-537503",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -313,6 +361,38 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "SOUL",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Pete Docter, Kemp Powers · Cine en familia: en audio español latino",
+      "descripcion_extendida": "Dir. Pete Docter, Kemp Powers · Cine en familia: en audio español latino",
+      "fecha_iso": "2026-08-14",
+      "fecha_texto": "14 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2025/12/soul.jpg",
+      "url": "https://www.passline.com/eventos/la-naturaleza-de-las-cosas-invisibles",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA NIEBLA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Frank Darabont · Noches heladas: ciclo de terror invernal",
+      "descripcion_extendida": "Dir. Frank Darabont · Noches heladas: ciclo de terror invernal",
+      "fecha_iso": "2026-08-14",
+      "fecha_texto": "14 de agosto de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/la-niebla-WEB.jpg",
+      "url": "https://www.passline.com/eventos/perdidos-en-tokio-537503",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -1017,7 +1097,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CulturaAntofagasta",
