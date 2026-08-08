@@ -1,96 +1,16 @@
 {
-  "generado_en": "2026-08-07T17:43:32.354819+00:00",
+  "generado_en": "2026-08-08T06:45:20.824396+00:00",
   "region": "Antofagasta",
-  "total_eventos": 75,
+  "total_eventos": 70,
   "por_fuente": {
-    "PuntoTicket": 2,
-    "EsquinaRetornable": 10,
-    "CalamaCultural": 53,
     "Ticketplus": 3,
+    "EsquinaRetornable": 8,
+    "CalamaCultural": 51,
+    "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "PuntoTicket",
-      "nombre": "Unión Española vs. Deportes - Liga de Ascenso Caixun 2026 - Fecha 19 Estadio Santa Laura - Universidad SEK",
-      "venue": "",
-      "descripcion": "Compra tu entrada para Unión Española vs. Deportes Antofagasta, viernes 07 de agosto 2026 18:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
-      "fecha_iso": "2026-08-07",
-      "fecha_texto": "7 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://static.ptocdn.net/images/eventos/ues159_md.jpg",
-      "url": "https://www.puntoticket.com/evento/union-espanola-antofagasta-liga-ascenso-2026",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Compra tu entrada para Unión Española vs. Deportes Antofagasta, viernes 07 de agosto 2026 18:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
-      "bio_artista": "Deportes Quindío es un club de fútbol con sede en la ciudad de Armenia, en Colombia. Fue fundado el 8 de enero de 1951 por un grupo de empresarios del sur de Caldas, quienes tenían la intención de contar con fútbol profesional en su ciudad. Actualmente participa en la Categoría Primera B del fútbol colombiano. Desde 1988, el equipo juega sus partidos de local en el Estadio Centenario."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "TOY STORY",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. John Lasseter · Cine en familia: día del niño. Con audio español latino.",
-      "descripcion_extendida": "Dir. John Lasseter · Cine en familia: día del niño. Con audio español latino.",
-      "fecha_iso": "2026-08-07",
-      "fecha_texto": "7 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/toy-story-poster.jpg",
-      "url": "https://www.passline.com/eventos/toy-story-540734",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Toy Story es una película infantil de animación por computadora dirigida por John Lasseter, estrenada en 1995 y producida por Pixar. Fue el primer largometraje de Pixar, además de la primera cinta animada completamente con efectos digitales en la historia del cine."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LOS OTROS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Alejandro Amenábar · Noches heladas: terror invernal",
-      "descripcion_extendida": "Dir. Alejandro Amenábar · Noches heladas: terror invernal",
-      "fecha_iso": "2026-08-07",
-      "fecha_texto": "7 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/los-otros-WEB.jpg",
-      "url": "https://www.passline.com/eventos/los-otros-540469",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Feria De La Biodiversidad",
-      "venue": "Plaza 23 De Marzo",
-      "descripcion": "",
-      "fecha_iso": "2026-08-07",
-      "fecha_texto": "7 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#feria-de-la-biodiversidad-2026-08-07",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Cuentacuentos Cesfam Central",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-08-07",
-      "fecha_texto": "7 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#cuentacuentos-cesfam-central-2026-08-07",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "Ticketplus",
       "nombre": "ZÚMBALE PRIMO EN",
@@ -121,7 +41,7 @@
       "url": "https://www.passline.com/eventos/up-una-aventura-de-altura",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Up es una película de animación y aventuras producida por Walt Disney Pictures y Pixar Animation Studios, dirigida por Pete Docter, estrenada en 2009 y ganadora de dos premios Óscar. La trama relata las aventuras de un viudo de edad avanzada llamado Carl Fredricksen y de un niño escultista cuyo nombre es Russell, quienes viajan a Cataratas del Paraíso, en el interior de una casa flotante suspendida con globos rellenos de helio."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +57,7 @@
       "url": "https://www.passline.com/eventos/escucha-activa-sgt-peppers-lonely-hearts-club-band-de-the-beatles-set-de-vinilos",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "The Beatles, conocida en el mundo hispano como Los Beatles, fue una banda de rock británica formada en Liverpool en 1960. La agrupación original estaba compuesta por John Lennon, Paul McCartney, George Harrison y Ringo Starr. Son ampliamente considerados como la banda más influyente de la música popular y fueron fundamentales para el desarrollo de la contracultura de los años 60 y el reconocimiento de la música popular como una forma de arte."
     },
     {
       "fuente": "CalamaCultural",
@@ -233,7 +153,7 @@
       "url": "https://www.passline.com/eventos/perdidos-en-tokio-537503",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "The Devil Wears Prada es el nombre de:The Devil Wears Prada, una banda musical estadounidense. The Devil Wears Prada, una novela de Lauren Weisberger. The Devil Wears Prada, una película, inspirada en la novela de Lauren Weisberger. The devil wears Prada (BSO), la banda sonora de la película."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -249,7 +169,7 @@
       "url": "https://www.passline.com/eventos/la-naturaleza-de-las-cosas-invisibles",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "De la naturaleza de las cosas o Sobre la naturaleza de las cosas es un poema filosófico-didáctico, incluible en el género literario de los periphyseos o poemas sobre el estudio de la naturaleza elaborados por filósofos griegos, principalmente atomistas, escrito en el siglo I a. C. en hexámetros latinos por el romano Tito Lucrecio Caro."
     },
     {
       "fuente": "CalamaCultural",
@@ -297,7 +217,7 @@
       "url": "https://www.passline.com/eventos/perdidos-en-tokio-537503",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El once (11), del latín undĕcim, es el número natural que sigue al 10 y precede al 12."
     },
     {
       "fuente": "EsquinaRetornable",
