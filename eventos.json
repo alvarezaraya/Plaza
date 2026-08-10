@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-08-10T07:25:02.721466+00:00",
+  "generado_en": "2026-08-10T17:45:55.476846+00:00",
   "region": "Antofagasta",
   "total_eventos": 65,
   "por_fuente": {
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/once-543230",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El once (11), del latín undĕcim, es el número natural que sigue al 10 y precede al 12."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +153,7 @@
       "url": "https://www.passline.com/eventos/la-guerra-de-las-galaxias-episodio-v-el-imperio-contraataca-543233",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Star Wars: Episodio V - El Imperio contraataca es una película del género space opera dirigida por Irvin Kershner y estrenada por primera vez en Estados Unidos el 21 de mayo de 1980. El guion, basado en una historia de George Lucas, fue escrito por Lawrence Kasdan y Leigh Brackett. Aunque en términos cronológicos internos sea la quinta película de la saga Star Wars, en realidad fue la segunda película de la saga en ser estrenada."
     },
     {
       "fuente": "CalamaCultural",
@@ -217,7 +217,7 @@
       "url": "https://www.passline.com/eventos/soul-543232",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El soul es un término adoptado para describir la música afroamericana en los Estados Unidos a medida que esta evolucionó entre las décadas de 1950 y 1970. También se lo considera simplemente como un término nuevo para el género musical conocido como Rhythm and blues (R&B)."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -937,7 +937,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": ""
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CulturaAntofagasta",
