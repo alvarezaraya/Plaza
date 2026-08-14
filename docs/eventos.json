@@ -1,96 +1,16 @@
 {
-  "generado_en": "2026-08-13T17:52:53.340088+00:00",
+  "generado_en": "2026-08-14T07:19:43.168911+00:00",
   "region": "Antofagasta",
-  "total_eventos": 58,
+  "total_eventos": 53,
   "por_fuente": {
-    "EsquinaRetornable": 4,
-    "CalamaCultural": 44,
+    "EsquinaRetornable": 2,
+    "CalamaCultural": 41,
     "Ticketplus": 2,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ONCE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. John Carney · Conmemoración: QEPD Glenn Hansard",
-      "descripcion_extendida": "Dir. John Carney · Conmemoración: QEPD Glenn Hansard",
-      "fecha_iso": "2026-08-13",
-      "fecha_texto": "13 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/07/ONCE_WEB.jpg",
-      "url": "https://www.passline.com/eventos/once-543230",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "El once (11), del latín undĕcim, es el número natural que sigue al 10 y precede al 12."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA GUERRA DE LAS GALAXIAS, EL IMPERIO CONTRAATACA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. George Lucas · Star Wars para todas las edades",
-      "descripcion_extendida": "Dir. George Lucas · Star Wars para todas las edades",
-      "fecha_iso": "2026-08-13",
-      "fecha_texto": "13 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/starwarsV-WEB.jpg",
-      "url": "https://www.passline.com/eventos/la-guerra-de-las-galaxias-episodio-v-el-imperio-contraataca-543233",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Star Wars: Episodio V - El Imperio contraataca es una película del género space opera dirigida por Irvin Kershner y estrenada por primera vez en Estados Unidos el 21 de mayo de 1980. El guion, basado en una historia de George Lucas, fue escrito por Lawrence Kasdan y Leigh Brackett. Aunque en términos cronológicos internos sea la quinta película de la saga Star Wars, en realidad fue la segunda película de la saga en ser estrenada."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Cuentacuentos Sala Cuna Y Jardín Infantil Nidito De Ángeles",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-13",
-      "fecha_texto": "13 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#cuentacuentos-sala-cuna-y-jard-n-infantil-nidito-de-ngeles-2026-08-13",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Escuela De Párvulos Papelucho",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-08-13",
-      "fecha_texto": "13 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-de-p-rvulos-papelucho-2026-08-13",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala Cuna Y Jardín Infantil Nidito De Ángeles",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-13",
-      "fecha_texto": "13 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-cuna-y-jard-n-infantil-nidito-de-ngeles-2026-08-13",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "SOUL",
@@ -136,8 +56,8 @@
       "url": "https://calamacultural.cl/carteleracultural#d-a-internacional-del-folclor-la-voz-del-loa-2026-08-14",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Fregenal de la Sierra es un municipio y localidad de España, en la provincia de Badajoz, comunidad autónoma de Extremadura. Se sitúa en el cuadrante noroccidental de Sierra Morena, a unos 572 metros sobre el nivel del mar.",
+      "bio_artista": "Fregenal de la Sierra es un municipio y localidad de España, en la provincia de Badajoz, comunidad autónoma de Extremadura. Se sitúa en el cuadrante noroccidental de Sierra Morena, a unos 572 metros sobre el nivel del mar."
     },
     {
       "fuente": "CalamaCultural",
@@ -152,8 +72,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-tierra-esperanza-2026-08-14",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo.",
+      "bio_artista": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo."
     },
     {
       "fuente": "CalamaCultural",
@@ -344,8 +264,8 @@
       "url": "https://calamacultural.cl/carteleracultural#salida-educativa-a-cerro-negro-establecimientos-educacionale-2026-08-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Villa Cerro Azul es una localidad situada en el departamento Colón, provincia de Córdoba, Argentina.",
-      "bio_artista": "Villa Cerro Azul es una localidad situada en el departamento Colón, provincia de Córdoba, Argentina."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -360,8 +280,8 @@
       "url": "https://calamacultural.cl/carteleracultural#musical-coco-un-poco-loco-2026-08-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures.",
-      "bio_artista": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -392,8 +312,8 @@
       "url": "https://calamacultural.cl/carteleracultural#astronom-a-en-tu-barrio-2026-08-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Limonar es un barrio que pertenece al distrito Este de la ciudad de Málaga, España.",
-      "bio_artista": "El Limonar es un barrio que pertenece al distrito Este de la ciudad de Málaga, España."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -408,8 +328,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-masivo-de-cueca-2026-08-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La cueca es un género musical y una danza de pareja suelta mixta en la que «los bailarines, que llevan un pañuelo en la mano derecha, trazan figuras circulares, con vueltas y medias vueltas, interrumpidas por diversos floreos». Data de fines del siglo XVIII, y su origen está cuestionado; existen diversas teorías o corrientes sobre su procedencia y evolución.",
-      "bio_artista": "La cueca es un género musical y una danza de pareja suelta mixta en la que «los bailarines, que llevan un pañuelo en la mano derecha, trazan figuras circulares, con vueltas y medias vueltas, interrumpidas por diversos floreos». Data de fines del siglo XVIII, y su origen está cuestionado; existen diversas teorías o corrientes sobre su procedencia y evolución."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -488,8 +408,8 @@
       "url": "https://calamacultural.cl/carteleracultural#visita-guiada-a-la-biblioteca-colegio-calama-2026-08-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia.",
+      "bio_artista": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia."
     },
     {
       "fuente": "CalamaCultural",
@@ -536,8 +456,8 @@
       "url": "https://calamacultural.cl/carteleracultural#visita-guiada-a-la-biblioteca-colegio-calama-2026-08-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia.",
+      "bio_artista": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia."
     },
     {
       "fuente": "Ticketplus",
