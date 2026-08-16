@@ -1,31 +1,15 @@
 {
-  "generado_en": "2026-08-15T17:14:45.999387+00:00",
+  "generado_en": "2026-08-16T06:33:51.656528+00:00",
   "region": "Antofagasta",
-  "total_eventos": 48,
+  "total_eventos": 47,
   "por_fuente": {
-    "CalamaCultural": 38,
+    "CalamaCultural": 37,
     "Ticketplus": 2,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Tour Estadio Zorros Del Desierto",
-      "venue": "Estadio Municipal Zdd",
-      "descripcion": "",
-      "fecha_iso": "2026-08-15",
-      "fecha_texto": "15 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#tour-estadio-zorros-del-desierto-2026-08-15",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Maleta Viajera. Jardín Infantil Colegio Adventista",
