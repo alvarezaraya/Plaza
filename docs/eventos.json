@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-08-17T17:20:15.944185+00:00",
+  "generado_en": "2026-08-18T06:37:13.281516+00:00",
   "region": "Antofagasta",
-  "total_eventos": 55,
+  "total_eventos": 52,
   "por_fuente": {
-    "CalamaCultural": 37,
+    "CalamaCultural": 34,
     "EsquinaRetornable": 8,
     "Ticketplus": 2,
     "PuntoTicket": 1,
@@ -11,54 +11,6 @@
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Jardín Infantil Colegio Adventista",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-17",
-      "fecha_texto": "17 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-colegio-adventista-2026-08-17",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Programa Familia",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-08-17",
-      "fecha_texto": "17 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-familia-2026-08-17",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo.",
-      "bio_artista": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala De Estimulación Cesfam Central",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-08-17",
-      "fecha_texto": "17 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-de-estimulaci-n-cesfam-central-2026-08-17",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Cuentacuentos Escuela De Párvulos G-123 Los Conejitos",
@@ -153,7 +105,7 @@
       "url": "https://www.passline.com/eventos/mil-pedazos-545572",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014."
+      "bio_artista": "\"Mil Pedazos\" is a song performed by Colombian singer-songwriter Juanes for his sixth studio album Loco de Amor. Written by the singer, and the member of the Mexican band Café Tacuba, Emmanuel Del Real, and produced by Juanes with the collaboration of Steve Lillywhite, Universal Music Latino released the song as the second single from Loco de Amor on March 7, 2014."
     },
     {
       "fuente": "CalamaCultural",
@@ -233,7 +185,7 @@
       "url": "https://www.passline.com/eventos/once-545565",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "El once (11), del latín undĕcim, es el número natural que sigue al 10 y precede al 12."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -249,7 +201,7 @@
       "url": "https://www.passline.com/sitio-evento/el-orfanato",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "El orfanato es una película coproducción española-mexicana de terror gótico y drama de 2007, dirigida por J.A. Bayona en su primer largometraje y escrita por Sergio G. Sánchez. Está protagonizada por Belén Rueda y producida por Rodar y Rodar y Telecinco Cinema, con el cineasta mexicano Guillermo del Toro como productor ejecutivo."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -280,8 +232,8 @@
       "url": "https://calamacultural.cl/carteleracultural#musical-coco-un-poco-loco-2026-08-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures.",
+      "bio_artista": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures."
     },
     {
       "fuente": "CalamaCultural",
@@ -360,8 +312,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-masivo-de-cueca-2026-08-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La cueca es un género musical y una danza de pareja suelta mixta en la que «los bailarines, que llevan un pañuelo en la mano derecha, trazan figuras circulares, con vueltas y medias vueltas, interrumpidas por diversos floreos». Data de fines del siglo XVIII, y su origen está cuestionado; existen diversas teorías o corrientes sobre su procedencia y evolución.",
-      "bio_artista": "La cueca es un género musical y una danza de pareja suelta mixta en la que «los bailarines, que llevan un pañuelo en la mano derecha, trazan figuras circulares, con vueltas y medias vueltas, interrumpidas por diversos floreos». Data de fines del siglo XVIII, y su origen está cuestionado; existen diversas teorías o corrientes sobre su procedencia y evolución."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -376,8 +328,8 @@
       "url": "https://calamacultural.cl/carteleracultural#musical-coco-un-poco-loco-2026-08-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures.",
-      "bio_artista": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -392,8 +344,8 @@
       "url": "https://calamacultural.cl/carteleracultural#d-a-internacional-de-los-parques-nacionales-2026-08-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Un parque nacional es una categoría de área protegida que goza de un determinado estatus legal que obliga a proteger y conservar la riqueza de su flora y su fauna. Se caracteriza por ser representativa de una región fitozoogeográfica y tener interés de la ciencia y el turismo.",
-      "bio_artista": "Un parque nacional es una categoría de área protegida que goza de un determinado estatus legal que obliga a proteger y conservar la riqueza de su flora y su fauna. Se caracteriza por ser representativa de una región fitozoogeográfica y tener interés de la ciencia y el turismo."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -408,8 +360,8 @@
       "url": "https://calamacultural.cl/carteleracultural#presentaci-n-programa-fiestas-patrias-2026-08-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La Fiesta de la Pampilla, conocida también como Pampilla de Coquimbo o simplemente La Pampilla, es una festividad que se realiza anualmente entre el 18 y el 20 de septiembre en honor a las Fiestas Patrias de Chile —aunque suele extenderse dos días antes o dos días después de tales fechas— en la explanada del mismo nombre, ubicada en la ciudad de Coquimbo, Región de Coquimbo (Chile).",
-      "bio_artista": "La Fiesta de la Pampilla, conocida también como Pampilla de Coquimbo o simplemente La Pampilla, es una festividad que se realiza anualmente entre el 18 y el 20 de septiembre en honor a las Fiestas Patrias de Chile —aunque suele extenderse dos días antes o dos días después de tales fechas— en la explanada del mismo nombre, ubicada en la ciudad de Coquimbo, Región de Coquimbo (Chile)."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -809,7 +761,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": ""
+      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -825,7 +777,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": ""
+      "bio_artista": "La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos y de aquel producido mediante tecnología electrónica, que también pueden ser mezclados. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -841,7 +793,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": ""
+      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -857,7 +809,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": ""
+      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como \"Día Nacional del Músico\" en conmemoración a su nacimiento, bajo la Ley 27.106."
     },
     {
       "fuente": "CulturaAntofagasta",
