@@ -1,112 +1,16 @@
 {
-  "generado_en": "2026-08-20T17:22:41.561934+00:00",
+  "generado_en": "2026-08-21T06:39:33.019480+00:00",
   "region": "Antofagasta",
-  "total_eventos": 48,
+  "total_eventos": 42,
   "por_fuente": {
-    "EsquinaRetornable": 6,
-    "CalamaCultural": 32,
+    "EsquinaRetornable": 4,
+    "CalamaCultural": 28,
     "Ticketplus": 2,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "MONSIEUR AZNAVOUR",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Mehdi Idir, Grand Corps Malade · Biopics Franceses, con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta",
-      "descripcion_extendida": "Dir. Mehdi Idir, Grand Corps Malade · Biopics Franceses, con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta",
-      "fecha_iso": "2026-08-20",
-      "fecha_texto": "20 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/aznavour-poster.jpg",
-      "url": "https://www.passline.com/eventos/monsieur-aznavour",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Shahnourh Varinag Aznavourián, conocido artísticamente como Charles Aznavour, fue un cantante, compositor, actor, diplomático y poeta francés de origen armenio, conocido como El embajador de la chanson."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "MIL PEDAZOS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Sergio Castro San Martín · Estreno Nacional",
-      "descripcion_extendida": "Dir. Sergio Castro San Martín · Estreno Nacional",
-      "fecha_iso": "2026-08-20",
-      "fecha_texto": "20 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/mil-pedazos-afiche-web.jpg",
-      "url": "https://www.passline.com/eventos/mil-pedazos-545572",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Intervención Calama Es Mía",
-      "venue": "Mall Plaza Calama",
-      "descripcion": "",
-      "fecha_iso": "2026-08-20",
-      "fecha_texto": "20 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#intervenci-n-calama-es-m-a-2026-08-20",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Ilustre Municipalidad De Calama",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-20",
-      "fecha_texto": "20 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-08-20",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Jardín Infantil Sol Y Cobre",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-20",
-      "fecha_texto": "20 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-08-20",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala Neurosensorial Aps Calama",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-08-20",
-      "fecha_texto": "20 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-neurosensorial-aps-calama-2026-08-20",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "ONCE",
@@ -152,8 +56,8 @@
       "url": "https://calamacultural.cl/carteleracultural#salida-educativa-a-cerro-negro-establecimientos-educacionale-2026-08-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Villa Cerro Azul es una localidad situada en el departamento Colón, provincia de Córdoba, Argentina.",
+      "bio_artista": "Villa Cerro Azul es una localidad situada en el departamento Colón, provincia de Córdoba, Argentina."
     },
     {
       "fuente": "CalamaCultural",
@@ -168,8 +72,8 @@
       "url": "https://calamacultural.cl/carteleracultural#musical-coco-un-poco-loco-2026-08-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures.",
+      "bio_artista": "Coco es una película de animación por ordenador producida por Pixar Animation Studios y distribuida por Walt Disney Studios Motion Pictures."
     },
     {
       "fuente": "CalamaCultural",
@@ -201,7 +105,7 @@
       "url": "https://www.passline.com/eventos/buscando-a-nemo-545577",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "The Nightmare Before Christmas es una película de fantasía musical y animación gótica en stop-motion, dirigida por Henry Selick en su debut como director de largometrajes y producida e ideada por Tim Burton, considerada una de sus mejores obras, pero realmente solo aportó la idea, no participó en las labores principales para su realización."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -456,8 +360,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-08-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
+      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
     },
     {
       "fuente": "CalamaCultural",
@@ -536,8 +440,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-el-holocausto-a-trav-s-de-la-literatura-2026-08-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La literatura del siglo XX comprende las obras, los movimientos literarios y los autores del siglo XX. Es un siglo marcado por conflictos bélicos que sacudieron la conciencia de los escritores, la influencia de las tecnologías, la ruptura de los límites estrictos entre géneros, y el intercambio entre diferentes lenguas y culturas, que hacen que las obras muestren un grado de cosmopolitismo e influencias mestizas mucho mayor que en los siglos precedentes.",
-      "bio_artista": "La literatura del siglo XX comprende las obras, los movimientos literarios y los autores del siglo XX. Es un siglo marcado por conflictos bélicos que sacudieron la conciencia de los escritores, la influencia de las tecnologías, la ruptura de los límites estrictos entre géneros, y el intercambio entre diferentes lenguas y culturas, que hacen que las obras muestren un grado de cosmopolitismo e influencias mestizas mucho mayor que en los siglos precedentes."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
