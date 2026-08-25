@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-08-24T17:24:51.672861+00:00",
+  "generado_en": "2026-08-25T06:40:14.823212+00:00",
   "region": "Antofagasta",
-  "total_eventos": 40,
+  "total_eventos": 34,
   "por_fuente": {
-    "CalamaCultural": 22,
+    "CalamaCultural": 16,
     "Ticketplus": 2,
     "EsquinaRetornable": 8,
     "PuntoTicket": 1,
@@ -11,102 +11,6 @@
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Día Internacional De Los Parques Nacionales",
-      "venue": "Redes Sociales",
-      "descripcion": "",
-      "fecha_iso": "2026-08-24",
-      "fecha_texto": "24 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#d-a-internacional-de-los-parques-nacionales-2026-08-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Un parque nacional es una categoría de área protegida que goza de un determinado estatus legal que obliga a proteger y conservar la riqueza de su flora y su fauna. Se caracteriza por ser representativa de una región fitozoogeográfica y tener interés de la ciencia y el turismo.",
-      "bio_artista": "Un parque nacional es una categoría de área protegida que goza de un determinado estatus legal que obliga a proteger y conservar la riqueza de su flora y su fauna. Se caracteriza por ser representativa de una región fitozoogeográfica y tener interés de la ciencia y el turismo."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Presentación Programa Fiestas Patrias",
-      "venue": "Salón De Honor Imc",
-      "descripcion": "",
-      "fecha_iso": "2026-08-24",
-      "fecha_texto": "24 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#presentaci-n-programa-fiestas-patrias-2026-08-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "La Fiesta de la Pampilla, conocida también como Pampilla de Coquimbo o simplemente La Pampilla, es una festividad que se realiza anualmente entre el 18 y el 20 de septiembre en honor a las Fiestas Patrias de Chile —aunque suele extenderse dos días antes o dos días después de tales fechas— en la explanada del mismo nombre, ubicada en la ciudad de Coquimbo, Región de Coquimbo (Chile).",
-      "bio_artista": "La Fiesta de la Pampilla, conocida también como Pampilla de Coquimbo o simplemente La Pampilla, es una festividad que se realiza anualmente entre el 18 y el 20 de septiembre en honor a las Fiestas Patrias de Chile —aunque suele extenderse dos días antes o dos días después de tales fechas— en la explanada del mismo nombre, ubicada en la ciudad de Coquimbo, Región de Coquimbo (Chile)."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Gore",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-24",
-      "fecha_texto": "24 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gore-2026-08-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio.",
-      "bio_artista": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Visita Guiada A La Biblioteca. Colegio Calama",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-24",
-      "fecha_texto": "24 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#visita-guiada-a-la-biblioteca-colegio-calama-2026-08-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia.",
-      "bio_artista": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Cft Estatal Región De Antofagasta",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-24",
-      "fecha_texto": "24 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-cft-estatal-regi-n-de-antofagasta-2026-08-24",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sintec Chile",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-08-24",
-      "fecha_texto": "24 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sintec-chile-2026-08-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Visita Guiada A La Biblioteca. Colegio Calama",
@@ -120,8 +24,8 @@
       "url": "https://calamacultural.cl/carteleracultural#visita-guiada-a-la-biblioteca-colegio-calama-2026-08-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia.",
+      "bio_artista": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia."
     },
     {
       "fuente": "Ticketplus",
@@ -137,7 +41,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "RATA BLANCA EN ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Rata Blanca is an Argentine heavy metal band, formed in 1986."
+      "bio_artista": "Rata Blanca es una banda de hard rock y heavy metal formado en 1985 por el guitarrista Walter Giardino en la zona del Bajo Flores, barrio ubicado al sur de la ciudad de Buenos Aires. Se la considera como una de las bandas más importantes e influyentes del hard rock y heavy metal en español, aunque durante su carrera también han incorporado pesados riffs con estructuras melódicas y armónicas de la música clásica."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +57,7 @@
       "url": "https://www.passline.com/eventos/el-cadaver-de-la-novia-546036",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Corpse Bride es una película de género fantástico gótico estrenada el 23 de septiembre del 2005 en Estados Unidos basada en un cuento popular ruso-judío del siglo XIX y ambientada en un pueblo ficticio de la época victoriana. Fue dirigida por Tim Burton y Mike Johnson y filmada en los 3 Mills Studios utilizando la técnica stop motion."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -169,7 +73,7 @@
       "url": "https://www.passline.com/eventos/la-guerra-de-las-galaxias-el-regreso-del-jedi-1983",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Los Jedi, Caballeros Jedi o, en conjunto, la Orden Jedi son personajes ficticios, a menudo protagonistas, que aparecen en numerosas obras del universo de Star Wars. Trabajando en simbiosis con la República Galáctica, la Orden Jedi se presenta como una organización religiosa, académica, meritocrática y militar auxiliar cuya historia se remonta a miles de años antes de los eventos de las películas de Star Wars."
     },
     {
       "fuente": "CalamaCultural",
@@ -200,8 +104,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-08-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
-      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -216,8 +120,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-08-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
-      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -232,8 +136,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-08-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
-      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -248,8 +152,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-08-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
-      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -601,7 +505,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": ""
+      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -617,7 +521,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": ""
+      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como \"Día Nacional del Músico\" en conmemoración a su nacimiento, bajo la Ley 27.106."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -633,7 +537,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "bio_artista": ""
+      "bio_artista": "La Danza de la muerte, o \"Danza macabra\", es un género artístico tardo-medieval, cuyo tema es la universalidad de la muerte. Se trata de un diálogo en verso y por tanto representable, en que una personificación de la Muerte, como un esqueleto humano, llama a personas de distinta posición social o en diferentes etapas en la vida para bailar alrededor de una tumba. Estas figuras suelen ser el Papa, el Obispo, el Emperador, el Sacristán, el Labrador, etcétera."
     },
     {
       "fuente": "ComediaTicket",
