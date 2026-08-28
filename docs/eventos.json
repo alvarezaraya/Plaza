@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-08-28T01:15:50.609341+00:00",
+  "generado_en": "2026-08-28T18:09:30.386257+00:00",
   "region": "Antofagasta",
   "total_eventos": 20,
   "por_fuente": {
@@ -121,7 +121,7 @@
       "url": "https://www.passline.com/eventos/frankenweenie-546039",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Frankenweenie es un mediometraje de unos 30 minutos de duración, filmado en blanco y negro y dirigido por Tim Burton en el año 1984, cuya historia parodia la novela Frankenstein de Mary Shelley."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/mil-pedazos-547197",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "\"Mil Pedazos\" is a song performed by Colombian singer-songwriter Juanes for his sixth studio album Loco de Amor. Written by the singer, and the member of the Mexican band Café Tacuba, Emmanuel Del Real, and produced by Juanes with the collaboration of Steve Lillywhite, Universal Music Latino released the song as the second single from Loco de Amor on March 7, 2014."
+      "bio_artista": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014."
     },
     {
       "fuente": "CalamaCultural",
