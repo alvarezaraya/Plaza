@@ -1,9 +1,10 @@
 {
-  "generado_en": "2026-08-31T12:33:17.517333+00:00",
+  "generado_en": "2026-08-31T21:45:15.056361+00:00",
   "region": "Antofagasta",
-  "total_eventos": 13,
+  "total_eventos": 20,
   "por_fuente": {
     "CalamaCultural": 3,
+    "EsquinaRetornable": 7,
     "PuntoTicket": 2,
     "Ticketplus": 1,
     "CulturaAntofagasta": 6,
@@ -59,6 +60,118 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "EL FANTASMA DEL PARAÍSO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Brian De Palma · La Mirada Indiscreta: especial Brian De Palma",
+      "descripcion_extendida": "Dir. Brian De Palma · La Mirada Indiscreta: especial Brian De Palma",
+      "fecha_iso": "2026-09-02",
+      "fecha_texto": "2 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/phantom-of-the-paradise-poster.jpg",
+      "url": "https://www.passline.com/sitio-evento/el-fantasma-del-paraiso",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "El Fantasma del Paraíso es una película musical dirigida por el director estadounidense Brian De Palma en 1974."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "VINGT DIEUX: LA RECETA PERFECTA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Louise Courvoisier · Jeunesses: retratos de una generación. Entrada a solo mil pesos en colaboración con la Alianza Francesa de Antofagasta.",
+      "descripcion_extendida": "Dir. Louise Courvoisier · Jeunesses: retratos de una generación. Entrada a solo mil pesos en colaboración con la Alianza Francesa de Antofagasta.",
+      "fecha_iso": "2026-09-02",
+      "fecha_texto": "2 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/la-receta-perfecta-poster.jpg",
+      "url": "https://www.passline.com/sitio-evento/vingt-dieux-la-receta-perfecta",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "La receta perfecta es una película francesa de 2024 dirigida por Louise Courvoisier a partir de un guion de Courvoisier y Théo Abadie. Marca el debut cinematográfico de la directora, así como el debut en pantalla de Clément Faveau, quien interpreta al joven campesino Totone."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "THE ROCKY HORROR PICTURE SHOW",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Jim Sharman · Tim Curry: maestro de lo extraordinario",
+      "descripcion_extendida": "Dir. Jim Sharman · Tim Curry: maestro de lo extraordinario",
+      "fecha_iso": "2026-09-03",
+      "fecha_texto": "3 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/rocky-horror-web.jpg",
+      "url": "https://www.passline.com/sitio-evento/the-rocky-horror-picture-show-550930",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "The Rocky Horror Picture Show es una película británico-estadounidense dirigida en 1975 por Jim Sharman. Está basada en el musical The Rocky Horror Show, de Richard O'Brien."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "PARA VIVIR: EL IMPLACABLE TIEMPO DE PABLO MILANÉS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Fabien Pisani · Estrenos en Red, el colaboración con la Red de Salas de Cine.",
+      "descripcion_extendida": "Dir. Fabien Pisani · Estrenos en Red, el colaboración con la Red de Salas de Cine.",
+      "fecha_iso": "2026-09-03",
+      "fecha_texto": "3 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/PARA-VIVIR-AFICHE.jpg",
+      "url": "https://www.passline.com/eventos/para-vivir-el-implacable-tiempo-de-pablo-milanes",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "El cristianismo primitivo es el nombre que recibe el cristianismo de los tres primeros siglos de su historia. Esta etapa se inicia con el denominado por la tradición cristiana como el «período apostólico», que abarca desde la crucifixión de Jesús de Nazaret hasta la muerte del último de sus discípulos directos en torno al año 100."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "MIL PEDAZOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Sergio Castro San Martín · Estreno Nacional.",
+      "descripcion_extendida": "Dir. Sergio Castro San Martín · Estreno Nacional.",
+      "fecha_iso": "2026-09-04",
+      "fecha_texto": "4 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/mil-pedazos-afiche-web.jpg",
+      "url": "https://www.passline.com/eventos/mil-pedazos-547197",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ALIEN: EL OCTAVO PASAJERO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Ridley Scott · Ciclo: Órbita de Culto",
+      "descripcion_extendida": "Dir. Ridley Scott · Ciclo: Órbita de Culto",
+      "fecha_iso": "2026-09-04",
+      "fecha_texto": "4 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2023/08/alien.jpg",
+      "url": "https://www.passline.com/eventos/alien-el-octavo-pasajero",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Alien: el octavo pasajero, o simplemente Alien en su idioma original, es una película de ciencia ficción y terror dirigida por el cineasta británico Ridley Scott y estrenada en 1979. El reparto estuvo integrado por Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton, John Hurt, Ian Holm y Yaphet Kotto, y la trama relata el acecho de una criatura alienígena a la tripulación de una nave espacial."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LOS MUPPETS EN LA ISLA DEL TESORO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Brian Henson · Tim Curry: maestro de lo extraordinario. En audio español latino.",
+      "descripcion_extendida": "Dir. Brian Henson · Tim Curry: maestro de lo extraordinario. En audio español latino.",
+      "fecha_iso": "2026-09-05",
+      "fecha_texto": "5 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/muppet-poster.jpg",
+      "url": "https://www.passline.com/sitio-evento/los-muppets-en-la-isla-del-tesoro",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Los Muppets es una franquicia de medios estadounidense centrado en un grupo de títeres creados por la compañía del estadounidense Jim Henson en 1955. Alcanzaron la fama internacional en un programa de televisión, que se mantuvo en antena durante muchos años."
+    },
+    {
       "fuente": "PuntoTicket",
       "nombre": "Encuentros con Kramer - Caja",
       "venue": "Teatro Municipal De Antofagasta",
@@ -72,7 +185,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, martes 15 de septiembre 2026 20:00 hrs. en Teatro Municipal de Antofagasta - Antofagasta.",
-      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -88,7 +201,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
-      "bio_artista": "Henry Jaynes Fonda fue un actor de cine y teatro estadounidense, ganador de los premios Óscar, Globo de Oro, BAFTA y Tony. En 1999, la American Film Institute lo nombró la sexta mayor estrella masculina en la historia de Hollywood."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
@@ -104,7 +217,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CulturaAntofagasta",
