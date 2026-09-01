@@ -1,9 +1,8 @@
 {
-  "generado_en": "2026-08-31T21:45:15.056361+00:00",
+  "generado_en": "2026-09-01T11:01:21.603075+00:00",
   "region": "Antofagasta",
-  "total_eventos": 20,
+  "total_eventos": 17,
   "por_fuente": {
-    "CalamaCultural": 3,
     "EsquinaRetornable": 7,
     "PuntoTicket": 2,
     "Ticketplus": 1,
@@ -11,54 +10,6 @@
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Historia De La Minería En El Norte De Chile",
-      "venue": "Muhncal",
-      "descripcion": "",
-      "fecha_iso": "2026-08-31",
-      "fecha_texto": "31 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#historia-de-la-miner-a-en-el-norte-de-chile-2026-08-31",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Durante la mayor parte de la historia de Chile, la minería ha sido una importante actividad económica. La minería del siglo XVI se orientó hacia la explotación de yacimientos de placeres auríferos mediante el sistema de encomiendas. Tras un período de declive en el siglo XVII, la minería resurgió en el siglo XVIII y principios del XIX, girando principalmente en torno a la extracción de plata.",
-      "bio_artista": "Durante la mayor parte de la historia de Chile, la minería ha sido una importante actividad económica. La minería del siglo XVI se orientó hacia la explotación de yacimientos de placeres auríferos mediante el sistema de encomiendas. Tras un período de declive en el siglo XVII, la minería resurgió en el siglo XVIII y principios del XIX, girando principalmente en torno a la extracción de plata."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Prais",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-31",
-      "fecha_texto": "31 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-prais-2026-08-31",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Jardín Infantil Tierno Amanecer",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-08-31",
-      "fecha_texto": "31 de agosto de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-tierno-amanecer-2026-08-31",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "EL FANTASMA DEL PARAÍSO",
@@ -153,7 +104,7 @@
       "url": "https://www.passline.com/eventos/alien-el-octavo-pasajero",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Alien: el octavo pasajero, o simplemente Alien en su idioma original, es una película de ciencia ficción y terror dirigida por el cineasta británico Ridley Scott y estrenada en 1979. El reparto estuvo integrado por Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton, John Hurt, Ian Holm y Yaphet Kotto, y la trama relata el acecho de una criatura alienígena a la tripulación de una nave espacial."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -169,7 +120,7 @@
       "url": "https://www.passline.com/sitio-evento/los-muppets-en-la-isla-del-tesoro",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Los Muppets es una franquicia de medios estadounidense centrado en un grupo de títeres creados por la compañía del estadounidense Jim Henson en 1955. Alcanzaron la fama internacional en un programa de televisión, que se mantuvo en antena durante muchos años."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -185,7 +136,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, martes 15 de septiembre 2026 20:00 hrs. en Teatro Municipal de Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
     },
     {
       "fuente": "PuntoTicket",
@@ -201,7 +152,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Henry Jaynes Fonda fue un actor de cine y teatro estadounidense, ganador de los premios Óscar, Globo de Oro, BAFTA y Tony. En 1999, la American Film Institute lo nombró la sexta mayor estrella masculina en la historia de Hollywood."
     },
     {
       "fuente": "Ticketplus",
@@ -217,7 +168,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
+      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -233,7 +184,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -249,7 +200,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": ""
+      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
     },
     {
       "fuente": "CulturaAntofagasta",
