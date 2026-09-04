@@ -1,96 +1,16 @@
 {
-  "generado_en": "2026-09-03T19:32:56.957701+00:00",
+  "generado_en": "2026-09-04T10:28:58.595262+00:00",
   "region": "Antofagasta",
-  "total_eventos": 51,
+  "total_eventos": 47,
   "por_fuente": {
-    "EsquinaRetornable": 5,
-    "CalamaCultural": 36,
+    "EsquinaRetornable": 4,
+    "CalamaCultural": 33,
     "PuntoTicket": 2,
     "Ticketplus": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "THE ROCKY HORROR PICTURE SHOW",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Jim Sharman · Tim Curry: maestro de lo extraordinario",
-      "descripcion_extendida": "Dir. Jim Sharman · Tim Curry: maestro de lo extraordinario",
-      "fecha_iso": "2026-09-03",
-      "fecha_texto": "3 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/rocky-horror-web.jpg",
-      "url": "https://www.passline.com/sitio-evento/the-rocky-horror-picture-show-550930",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "The Rocky Horror Picture Show es una película británico-estadounidense dirigida en 1975 por Jim Sharman. Está basada en el musical The Rocky Horror Show, de Richard O'Brien."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "PARA VIVIR: EL IMPLACABLE TIEMPO DE PABLO MILANÉS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Fabien Pisani · Estrenos en Red, el colaboración con la Red de Salas de Cine.",
-      "descripcion_extendida": "Dir. Fabien Pisani · Estrenos en Red, el colaboración con la Red de Salas de Cine.",
-      "fecha_iso": "2026-09-03",
-      "fecha_texto": "3 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/PARA-VIVIR-AFICHE.jpg",
-      "url": "https://www.passline.com/eventos/para-vivir-el-implacable-tiempo-de-pablo-milanes",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "El cristianismo primitivo es el nombre que recibe el cristianismo de los tres primeros siglos de su historia. Esta etapa se inicia con el denominado por la tradición cristiana como el «período apostólico», que abarca desde la crucifixión de Jesús de Nazaret hasta la muerte del último de sus discípulos directos en torno al año 100."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Seminario “Divulgación Científica, Arqueoastronomía Y Etnoastronomía De Saberes Ancestrales Indígenas”",
-      "venue": "Sede Comunidad Chiu Chiu",
-      "descripcion": "",
-      "fecha_iso": "2026-09-03",
-      "fecha_texto": "3 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#seminario-divulgaci-n-cient-fica-arqueoastronom-a-y-etnoastr-2026-09-03",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Charla Y Visita Guiada Al Museo De Historia Natural Y Cultural Del Desierto De Atacama Con Colegio Guadalupe De Ayquina",
-      "venue": "Muhncal",
-      "descripcion": "",
-      "fecha_iso": "2026-09-03",
-      "fecha_texto": "3 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#charla-y-visita-guiada-al-museo-de-historia-natural-y-cultur-2026-09-03",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Cuentacuentos Jardín Infantil Inti Rai",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-09-03",
-      "fecha_texto": "3 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#cuentacuentos-jard-n-infantil-inti-rai-2026-09-03",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "MIL PEDAZOS",
@@ -105,7 +25,7 @@
       "url": "https://www.passline.com/eventos/mil-pedazos-547197",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "\"Mil Pedazos\" is a song performed by Colombian singer-songwriter Juanes for his sixth studio album Loco de Amor. Written by the singer, and the member of the Mexican band Café Tacuba, Emmanuel Del Real, and produced by Juanes with the collaboration of Steve Lillywhite, Universal Music Latino released the song as the second single from Loco de Amor on March 7, 2014."
+      "bio_artista": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -121,7 +41,7 @@
       "url": "https://www.passline.com/eventos/alien-el-octavo-pasajero",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Alien: el octavo pasajero, o simplemente Alien en su idioma original, es una película de ciencia ficción y terror dirigida por el cineasta británico Ridley Scott y estrenada en 1979. El reparto estuvo integrado por Sigourney Weaver, Tom Skerritt, Veronica Cartwright, Harry Dean Stanton, John Hurt, Ian Holm y Yaphet Kotto, y la trama relata el acecho de una criatura alienígena a la tripulación de una nave espacial."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +57,23 @@
       "url": "https://www.passline.com/sitio-evento/los-muppets-en-la-isla-del-tesoro",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Los Muppets es una franquicia de medios estadounidense centrado en un grupo de títeres creados por la compañía del estadounidense Jim Henson en 1955. Alcanzaron la fama internacional en un programa de televisión, que se mantuvo en antena durante muchos años."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "PARA VIVIR: EL IMPLACABLE TIEMPO DE PABLO MILANÉS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Fabien Pisani · Estrenos en Red, el colaboración con la Red de Salas de Cine.",
+      "descripcion_extendida": "Dir. Fabien Pisani · Estrenos en Red, el colaboración con la Red de Salas de Cine.",
+      "fecha_iso": "2026-09-05",
+      "fecha_texto": "5 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/PARA-VIVIR-AFICHE.jpg",
+      "url": "https://www.passline.com/eventos/para-vivir-el-implacable-tiempo-de-pablo-milanes-550927",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "El cristianismo primitivo es el nombre que recibe el cristianismo de los tres primeros siglos de su historia. Esta etapa se inicia con el denominado por la tradición cristiana como el «período apostólico», que abarca desde la crucifixión de Jesús de Nazaret hasta la muerte del último de sus discípulos directos en torno al año 100."
     },
     {
       "fuente": "CalamaCultural",
@@ -217,7 +153,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, martes 15 de septiembre 2026 20:00 hrs. en Teatro Municipal de Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
     },
     {
       "fuente": "PuntoTicket",
