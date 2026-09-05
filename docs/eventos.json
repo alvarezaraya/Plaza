@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-09-05T09:54:39.204023+00:00",
+  "generado_en": "2026-09-05T18:42:43.416658+00:00",
   "region": "Antofagasta",
-  "total_eventos": 45,
+  "total_eventos": 53,
   "por_fuente": {
-    "EsquinaRetornable": 2,
+    "EsquinaRetornable": 10,
     "CalamaCultural": 33,
     "PuntoTicket": 2,
     "Ticketplus": 1,
@@ -60,6 +60,70 @@
       "bio_artista": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico."
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "CARRIE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Brian De Palma · La Mirada Indiscreta: especial Brian De Palma",
+      "descripcion_extendida": "Dir. Brian De Palma · La Mirada Indiscreta: especial Brian De Palma",
+      "fecha_iso": "2026-09-09",
+      "fecha_texto": "9 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/carrie-poester-web.jpg",
+      "url": "https://www.passline.com/eventos/carrie-551230",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Carrie puede estar referido o vinculado a los artículos de Wikipedia que se indican a continuación:"
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "MIL PEDAZOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Sergio Castro San Martín · Estreno Nacional.",
+      "descripcion_extendida": "Dir. Sergio Castro San Martín · Estreno Nacional.",
+      "fecha_iso": "2026-09-09",
+      "fecha_texto": "9 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/mil-pedazos-afiche-web.jpg",
+      "url": "https://www.passline.com/eventos/mil-pedazos-552300",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "\"Mil pedazos\" es una canción interpretada por el cantautor colombiano Juanes para su sexto álbum de estudio Loco de amor (2014). La canción fue lanzada como el segundo sencillo del disco el 7 de marzo de 2014."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA VIDA QUE VENDRÁ",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Karin Cuyul · Estreno Nacional",
+      "descripcion_extendida": "Dir. Karin Cuyul · Estreno Nacional",
+      "fecha_iso": "2026-09-10",
+      "fecha_texto": "10 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/la-vida-que-vendra-WEB.jpg",
+      "url": "https://www.passline.com/eventos/la-vida-que-vendra-553033",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ME ROMPISTE EL CORAZÓN",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Boris Quercia · Estreno Nacional",
+      "descripcion_extendida": "Dir. Boris Quercia · Estreno Nacional",
+      "fecha_iso": "2026-09-10",
+      "fecha_texto": "10 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2025/09/MRECAFICHES-WEB.png",
+      "url": "https://www.passline.com/eventos/me-rompiste-el-corazon-el-amor-de-roberto-parra-y-la-negra-ester-553034",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Exposición Fiestas Patrias “Puro Chile”",
       "venue": "Muhncal",
@@ -72,8 +136,40 @@
       "url": "https://calamacultural.cl/carteleracultural#exposici-n-fiestas-patrias-puro-chile-2026-09-10",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El himno nacional de la República de Chile, conocido como Canción Nacional de Chile, es la composición musical patriótica que representa oficialmente a dicho país. Fue compuesto por el maestro español Ramón Carnicer (1828) y escrito por el poeta chileno Eusebio Lillo (1847), con estribillo del poeta argentino-chileno Bernardo de Vera (1819), vestigio del primer himno. Fue adoptado el 17 de septiembre de 1847.",
-      "bio_artista": "El himno nacional de la República de Chile, conocido como Canción Nacional de Chile, es la composición musical patriótica que representa oficialmente a dicho país. Fue compuesto por el maestro español Ramón Carnicer (1828) y escrito por el poeta chileno Eusebio Lillo (1847), con estribillo del poeta argentino-chileno Bernardo de Vera (1819), vestigio del primer himno. Fue adoptado el 17 de septiembre de 1847."
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "UNA HISTORIA DIFERENTE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Anna Boden, Ryan Fleck · Día mundial para la prevención del suicidio. + Conversatorio junto a Fundación Gonzalo Baros Sánchez",
+      "descripcion_extendida": "Dir. Anna Boden, Ryan Fleck · Día mundial para la prevención del suicidio. + Conversatorio junto a Fundación Gonzalo Baros Sánchez",
+      "fecha_iso": "2026-09-11",
+      "fecha_texto": "11 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/una-historia-diferente-poster.jpg",
+      "url": "https://www.passline.com/eventos/una-historia-diferente",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Una Historia Diferente is a studio album by Nicaraguan salsa singer Luis Enrique. It became his fourth album to top the Tropical Albums chart. José A. Estévez, Jr. of AllMusic rated it four-out-of-five stars stating while the album \"may not have the elements of innovation and inventiveness that made the preceding Luces del Alma a wonder\", it is still \"pretty good, as the singer excels in a careful, high-quality production\"."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA GUERRA DE LOS MUNDOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Byron Haskin · Órbita de culto: ciclo de ciencia ficción",
+      "descripcion_extendida": "Dir. Byron Haskin · Órbita de culto: ciclo de ciencia ficción",
+      "fecha_iso": "2026-09-11",
+      "fecha_texto": "11 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/la-guerra-de-los-mundos-afiche.jpg",
+      "url": "https://www.passline.com/eventos/la-guerra-de-los-mundos",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -88,8 +184,8 @@
       "url": "https://calamacultural.cl/carteleracultural#inventario-material-bibliogr-fico-2026-09-11",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Instituto de Investigaciones Bibliográficas (IIB) es un organismo dependiente de la Universidad Nacional Autónoma de México. Se fundó en 1967, con la finalidad de administrar y coordinar la Biblioteca Nacional y la Hemeroteca Nacional de México. Uno de sus objetivos es impulsar ambas instituciones como órganos normalizadores de las actividades bibliotecológicas y hemerográficas de ese país.",
-      "bio_artista": "El Instituto de Investigaciones Bibliográficas (IIB) es un organismo dependiente de la Universidad Nacional Autónoma de México. Se fundó en 1967, con la finalidad de administrar y coordinar la Biblioteca Nacional y la Hemeroteca Nacional de México. Uno de sus objetivos es impulsar ambas instituciones como órganos normalizadores de las actividades bibliotecológicas y hemerográficas de ese país."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -105,6 +201,38 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LEYENDA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Ridley Scott · Tim Curry: maestro de lo extraordinario. En audio español latino.",
+      "descripcion_extendida": "Dir. Ridley Scott · Tim Curry: maestro de lo extraordinario. En audio español latino.",
+      "fecha_iso": "2026-09-12",
+      "fecha_texto": "12 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/leyenda-poster.jpg",
+      "url": "https://www.passline.com/eventos/leyenda-553044",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Asturias, named simply Prelude by its composer, is a musical work by the Spanish composer and pianist Isaac Albéniz. The piece, which lasts around six minutes in performance, was originally written for the piano and set in the key of G minor. It was first published in Barcelona, by Juan Bta. Pujol & Co., in 1892 as the prelude of a three-movement set entitled Chants d'Espagne."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "THE ROCKY HORROR PICTURE SHOW",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Jim Sharman · Tim Curry: maestro de lo extraordinario",
+      "descripcion_extendida": "Dir. Jim Sharman · Tim Curry: maestro de lo extraordinario",
+      "fecha_iso": "2026-09-12",
+      "fecha_texto": "12 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/rocky-horror-web.jpg",
+      "url": "https://www.passline.com/eventos/the-rocky-horror-picture-show-553035",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -280,8 +408,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
+      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
     },
     {
       "fuente": "CalamaCultural",
@@ -296,8 +424,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
+      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -312,8 +440,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-historias-de-amor-con-hombre-bailando-de--2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La música de Chile se refiere a la música creada en Chile o por chilenos en el extranjero, que forma parte de su cultura. También incluye la música de los pueblos indígenas que habitaban en el Chile actual. El 4 de octubre fue declarado como el «día de la música y de los músicos chilenos» en conmemoración del natalicio de Violeta Parra.",
+      "bio_artista": "La música de Chile se refiere a la música creada en Chile o por chilenos en el extranjero, que forma parte de su cultura. También incluye la música de los pueblos indígenas que habitaban en el Chile actual. El 4 de octubre fue declarado como el «día de la música y de los músicos chilenos» en conmemoración del natalicio de Violeta Parra."
     },
     {
       "fuente": "CalamaCultural",
@@ -328,8 +456,8 @@
       "url": "https://calamacultural.cl/carteleracultural#turismo-aventura-trekking-a-cerro-negro-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina.",
+      "bio_artista": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina."
     },
     {
       "fuente": "CalamaCultural",
@@ -344,8 +472,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
+      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
     },
     {
       "fuente": "CalamaCultural",
@@ -376,8 +504,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-estadio-municipal-zorros-del-desierto-2026-09-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico.",
-      "bio_artista": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -392,8 +520,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-jard-n-infantil-colegio-adventista-2026-09-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Valdivia es una ciudad y comuna de la zona sur de Chile, capital de la Región de Los Ríos, ubicada aproximadamente a 848 kilómetros al sur de la ciudad de Santiago, la capital de Chile. Está emplazada en la confluencia de los ríos Calle-Calle, Valdivia, Caucau y Cruces, y se encuentra a tan solo 15 kilómetros de la bahía de Corral.",
-      "bio_artista": "Valdivia es una ciudad y comuna de la zona sur de Chile, capital de la Región de Los Ríos, ubicada aproximadamente a 848 kilómetros al sur de la ciudad de Santiago, la capital de Chile. Está emplazada en la confluencia de los ríos Calle-Calle, Valdivia, Caucau y Cruces, y se encuentra a tan solo 15 kilómetros de la bahía de Corral."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -424,8 +552,8 @@
       "url": "https://calamacultural.cl/carteleracultural#ceremonia-de-reconocimiento-mujeres-ind-genas-2026-09-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Los términos pueblos originarios, aborígenes, nativos, tribales, autóctonos o indígenas, son denominaciones genéricas empleadas para referirse a las poblaciones ancestrales de la isla de Taiwán, las cuales se concentran actualmente en las zonas montañosas del este de la región. La denominación en español oficial empleada por la República de China es de indígenas(原住民, yuánzhùmínP, lit. «indígenas»).",
-      "bio_artista": "Los términos pueblos originarios, aborígenes, nativos, tribales, autóctonos o indígenas, son denominaciones genéricas empleadas para referirse a las poblaciones ancestrales de la isla de Taiwán, las cuales se concentran actualmente en las zonas montañosas del este de la región. La denominación en español oficial empleada por la República de China es de indígenas(原住民, yuánzhùmínP, lit. «indígenas»)."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
