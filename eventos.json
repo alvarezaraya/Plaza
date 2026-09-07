@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-07T11:26:39.315051+00:00",
+  "generado_en": "2026-09-07T20:18:50.771582+00:00",
   "region": "Antofagasta",
   "total_eventos": 50,
   "por_fuente": {
@@ -185,7 +185,7 @@
       "url": "https://www.passline.com/eventos/the-rocky-horror-picture-show-553035",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "The Rocky Horror Picture Show es una película británico-estadounidense dirigida en 1975 por Jim Sharman. Está basada en el musical The Rocky Horror Show, de Richard O'Brien."
     },
     {
       "fuente": "PuntoTicket",
@@ -201,7 +201,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, martes 15 de septiembre 2026 20:00 hrs. en Teatro Municipal de Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
     },
     {
       "fuente": "PuntoTicket",
@@ -217,7 +217,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Henry Jaynes Fonda fue un actor de cine y teatro estadounidense, ganador de los premios Óscar, Globo de Oro, BAFTA y Tony. En 1999, la American Film Institute lo nombró la sexta mayor estrella masculina en la historia de Hollywood."
     },
     {
       "fuente": "CalamaCultural",
@@ -248,8 +248,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-imc-2026-09-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Juan Ángel Muñiz Hernaz . Diseñador gráfico e ilustrador profesional. Licenciado en Bellas Artes, Universidad de Salamanca, en Diseño Gráfico y Audiovisuales, funda su propio estudio en 2000. Como ilustrador, su trabajo ha sido reconocido con diversos premios, y ha celebrado exposiciones itinerantes, colectivas e individuales, en España y Portugal.",
+      "bio_artista": "Juan Ángel Muñiz Hernaz . Diseñador gráfico e ilustrador profesional. Licenciado en Bellas Artes, Universidad de Salamanca, en Diseño Gráfico y Audiovisuales, funda su propio estudio en 2000. Como ilustrador, su trabajo ha sido reconocido con diversos premios, y ha celebrado exposiciones itinerantes, colectivas e individuales, en España y Portugal."
     },
     {
       "fuente": "CalamaCultural",
@@ -344,8 +344,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gore-2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio.",
-      "bio_artista": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -360,8 +360,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
-      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -376,8 +376,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
-      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -392,8 +392,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-historias-de-amor-con-hombre-bailando-de--2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La música de Chile se refiere a la música creada en Chile o por chilenos en el extranjero, que forma parte de su cultura. También incluye la música de los pueblos indígenas que habitaban en el Chile actual. El 4 de octubre fue declarado como el «día de la música y de los músicos chilenos» en conmemoración del natalicio de Violeta Parra.",
-      "bio_artista": "La música de Chile se refiere a la música creada en Chile o por chilenos en el extranjero, que forma parte de su cultura. También incluye la música de los pueblos indígenas que habitaban en el Chile actual. El 4 de octubre fue declarado como el «día de la música y de los músicos chilenos» en conmemoración del natalicio de Violeta Parra."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -408,8 +408,8 @@
       "url": "https://calamacultural.cl/carteleracultural#turismo-aventura-trekking-a-cerro-negro-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina.",
-      "bio_artista": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
