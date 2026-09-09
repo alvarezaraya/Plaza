@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-09-09T10:41:55.025058+00:00",
+  "generado_en": "2026-09-09T19:36:34.633406+00:00",
   "region": "Antofagasta",
-  "total_eventos": 50,
+  "total_eventos": 51,
   "por_fuente": {
     "EsquinaRetornable": 8,
     "CalamaCultural": 32,
+    "Ticketplus": 2,
     "PuntoTicket": 2,
-    "Ticketplus": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
@@ -92,6 +92,22 @@
       "bio_artista": "El himno nacional de la República de Chile, conocido como Canción Nacional de Chile, es la composición musical patriótica que representa oficialmente a dicho país. Fue compuesto por el maestro español Ramón Carnicer (1828) y escrito por el poeta chileno Eusebio Lillo (1847), con estribillo del poeta argentino-chileno Bernardo de Vera (1819), vestigio del primer himno. Fue adoptado el 17 de septiembre de 1847."
     },
     {
+      "fuente": "Ticketplus",
+      "nombre": "Concierto Fiestas Patrias - Orquesta Sinfónica de",
+      "venue": "Teatro Municipal De Antofagasta",
+      "descripcion": "Concierto Fiestas Patrias - Orquesta Sinfónica de Antofagasta",
+      "fecha_iso": "2026-09-11",
+      "fecha_texto": "11 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/1e15aed59776bd38bbd031e4521a3a74efe77adf.png?1788962530&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/concierto-fiestas-patrias-orquesta-sinfonica-de-antofagasta",
+      "lat": -23.64636,
+      "lon": -70.396306,
+      "descripcion_extendida": "Concierto Fiestas Patrias - Orquesta Sinfónica de Antofagasta",
+      "bio_artista": "Las Fiestas Patrias de la República de Chile, conocidas coloquialmente como el Dieciocho, se han celebrado en septiembre los días 18, a partir de 1811, y 19, desde 1915 —«hasta 1914, el 19 de septiembre era simplemente uno de los varios días feriados englobados en la celebración del 18 de septiembre»—. Los días lunes 17 o viernes 20, o viernes 17 también se incluyen cuando corresponde."
+    },
+    {
       "fuente": "EsquinaRetornable",
       "nombre": "UNA HISTORIA DIFERENTE",
       "venue": "Esquina Retornable",
@@ -105,7 +121,7 @@
       "url": "https://www.passline.com/eventos/una-historia-diferente",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "A Life Less Ordinary es una película de 1997 dirigida por Danny Boyle, escrita por John Hodge. Es protagonizada por Cameron Diaz, Ewan McGregor, Holly Hunter y Delroy Lindo."
+      "bio_artista": "Una Historia Diferente is a studio album by Nicaraguan salsa singer Luis Enrique. It became his fourth album to top the Tropical Albums chart. José A. Estévez, Jr. of AllMusic rated it four-out-of-five stars stating while the album \"may not have the elements of innovation and inventiveness that made the preceding Luces del Alma a wonder\", it is still \"pretty good, as the singer excels in a careful, high-quality production\"."
     },
     {
       "fuente": "EsquinaRetornable",
