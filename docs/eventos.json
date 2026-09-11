@@ -1,11 +1,11 @@
 {
-  "generado_en": "2026-09-11T10:32:37.434083+00:00",
+  "generado_en": "2026-09-11T19:23:37.905060+00:00",
   "region": "Antofagasta",
   "total_eventos": 46,
   "por_fuente": {
     "Ticketplus": 2,
-    "CalamaCultural": 31,
     "EsquinaRetornable": 4,
+    "CalamaCultural": 31,
     "PuntoTicket": 2,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
@@ -26,6 +26,38 @@
       "lon": -70.396306,
       "descripcion_extendida": "Concierto Fiestas Patrias - Orquesta Sinfónica de Antofagasta",
       "bio_artista": "Las Fiestas Patrias de la República de Chile, conocidas coloquialmente como el Dieciocho, se han celebrado en septiembre los días 18, a partir de 1811, y 19, desde 1915 —«hasta 1914, el 19 de septiembre era simplemente uno de los varios días feriados englobados en la celebración del 18 de septiembre»—. Los días lunes 17 o viernes 20, o viernes 17 también se incluyen cuando corresponde."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "UNA HISTORIA DIFERENTE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Anna Boden, Ryan Fleck · Día mundial para la prevención del suicidio. + Conversatorio junto a Fundación Gonzalo Baros Sánchez",
+      "descripcion_extendida": "Dir. Anna Boden, Ryan Fleck · Día mundial para la prevención del suicidio. + Conversatorio junto a Fundación Gonzalo Baros Sánchez",
+      "fecha_iso": "2026-09-11",
+      "fecha_texto": "11 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/una-historia-diferente-poster.jpg",
+      "url": "https://www.passline.com/eventos/una-historia-diferente",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "A Life Less Ordinary es una película de 1997 dirigida por Danny Boyle, escrita por John Hodge. Es protagonizada por Cameron Diaz, Ewan McGregor, Holly Hunter y Delroy Lindo."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA GUERRA DE LOS MUNDOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Byron Haskin · Órbita de culto: ciclo de ciencia ficción",
+      "descripcion_extendida": "Dir. Byron Haskin · Órbita de culto: ciclo de ciencia ficción",
+      "fecha_iso": "2026-09-11",
+      "fecha_texto": "11 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/la-guerra-de-los-mundos-afiche.jpg",
+      "url": "https://www.passline.com/eventos/la-guerra-de-los-mundos",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "La guerra de los mundos es una novela de ciencia ficción y terror psicológico escrita por el autor inglés H. G. Wells. Fue escrita entre 1895 y 1897, publicada en forma de serie en la revista Pearson's Magazine en el Reino Unido. La novela completa fue publicada por primera vez en 1898."
     },
     {
       "fuente": "CalamaCultural",
@@ -61,38 +93,6 @@
     },
     {
       "fuente": "EsquinaRetornable",
-      "nombre": "UNA HISTORIA DIFERENTE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Anna Boden, Ryan Fleck · Día mundial para la prevención del suicidio. + Conversatorio junto a Fundación Gonzalo Baros Sánchez",
-      "descripcion_extendida": "Dir. Anna Boden, Ryan Fleck · Día mundial para la prevención del suicidio. + Conversatorio junto a Fundación Gonzalo Baros Sánchez",
-      "fecha_iso": "2026-09-11",
-      "fecha_texto": "11 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/una-historia-diferente-poster.jpg",
-      "url": "https://www.passline.com/eventos/una-historia-diferente",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "A Life Less Ordinary es una película de 1997 dirigida por Danny Boyle, escrita por John Hodge. Es protagonizada por Cameron Diaz, Ewan McGregor, Holly Hunter y Delroy Lindo."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA GUERRA DE LOS MUNDOS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Byron Haskin · Órbita de culto: ciclo de ciencia ficción",
-      "descripcion_extendida": "Dir. Byron Haskin · Órbita de culto: ciclo de ciencia ficción",
-      "fecha_iso": "2026-09-11",
-      "fecha_texto": "11 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/la-guerra-de-los-mundos-afiche.jpg",
-      "url": "https://www.passline.com/eventos/la-guerra-de-los-mundos",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La guerra de los mundos es una novela de ciencia ficción y terror psicológico escrita por el autor inglés H. G. Wells. Fue escrita entre 1895 y 1897, publicada en forma de serie en la revista Pearson's Magazine en el Reino Unido. La novela completa fue publicada por primera vez en 1898."
-    },
-    {
-      "fuente": "EsquinaRetornable",
       "nombre": "LEYENDA",
       "venue": "Esquina Retornable",
       "descripcion": "Dir. Ridley Scott · Tim Curry: maestro de lo extraordinario. En audio español latino.",
@@ -105,7 +105,7 @@
       "url": "https://www.passline.com/eventos/leyenda-553044",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "La leyenda es una narración sobre hechos sobrenaturales o naturales o una mezcla de ambos que se transmite de generación en generación, de forma oral o escrita."
+      "bio_artista": "Asturias, named simply Prelude by its composer, is a musical work by the Spanish composer and pianist Isaac Albéniz. The piece, which lasts around six minutes in performance, was originally written for the piano and set in the key of G minor. It was first published in Barcelona, by Juan Bta. Pujol & Co., in 1892 as the prelude of a three-movement set entitled Chants d'Espagne."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -121,7 +121,7 @@
       "url": "https://www.passline.com/eventos/the-rocky-horror-picture-show-553035",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "The Rocky Horror Picture Show es una película británico-estadounidense dirigida en 1975 por Jim Sharman. Está basada en el musical The Rocky Horror Show, de Richard O'Brien."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -137,7 +137,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, martes 15 de septiembre 2026 20:00 hrs. en Teatro Municipal de Antofagasta - Antofagasta.",
-      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -153,7 +153,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
-      "bio_artista": "Henry Jaynes Fonda fue un actor de cine y teatro estadounidense, ganador de los premios Óscar, Globo de Oro, BAFTA y Tony. En 1999, la American Film Institute lo nombró la sexta mayor estrella masculina en la historia de Hollywood."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -360,8 +360,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
+      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
     },
     {
       "fuente": "CalamaCultural",
@@ -392,8 +392,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-estadio-municipal-zorros-del-desierto-2026-09-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico.",
+      "bio_artista": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico."
     },
     {
       "fuente": "CalamaCultural",
@@ -456,8 +456,8 @@
       "url": "https://calamacultural.cl/carteleracultural#semana-del-turismo-2026-09-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Semana de Turismo es la denominación oficial que reciben los cinco días que coinciden con la Semana Santa de la liturgia cristiana en Uruguay. Tal denominación tiene su origen en 1919 cuando el Estado Uruguay formalizó su separación de la Iglesia católica.",
-      "bio_artista": "Semana de Turismo es la denominación oficial que reciben los cinco días que coinciden con la Semana Santa de la liturgia cristiana en Uruguay. Tal denominación tiene su origen en 1919 cuando el Estado Uruguay formalizó su separación de la Iglesia católica."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
