@@ -1,9 +1,8 @@
 {
-  "generado_en": "2026-09-12T18:55:06.013866+00:00",
+  "generado_en": "2026-09-13T11:01:39.061563+00:00",
   "region": "Antofagasta",
-  "total_eventos": 41,
+  "total_eventos": 39,
   "por_fuente": {
-    "EsquinaRetornable": 2,
     "PuntoTicket": 2,
     "CalamaCultural": 29,
     "Ticketplus": 1,
@@ -11,38 +10,6 @@
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LEYENDA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Ridley Scott · Tim Curry: maestro de lo extraordinario. En su audio original con subtìtulos.",
-      "descripcion_extendida": "Dir. Ridley Scott · Tim Curry: maestro de lo extraordinario. En su audio original con subtìtulos.",
-      "fecha_iso": "2026-09-12",
-      "fecha_texto": "12 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/leyenda-poster.jpg",
-      "url": "https://www.passline.com/eventos/leyenda-553044",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La leyenda es una narración sobre hechos sobrenaturales o naturales o una mezcla de ambos que se transmite de generación en generación, de forma oral o escrita."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "THE ROCKY HORROR PICTURE SHOW",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Jim Sharman · Tim Curry: maestro de lo extraordinario",
-      "descripcion_extendida": "Dir. Jim Sharman · Tim Curry: maestro de lo extraordinario",
-      "fecha_iso": "2026-09-12",
-      "fecha_texto": "12 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/rocky-horror-web.jpg",
-      "url": "https://www.passline.com/eventos/the-rocky-horror-picture-show-553035",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "The Rocky Horror Picture Show es una película británico-estadounidense dirigida en 1975 por Jim Sharman. Está basada en el musical The Rocky Horror Show, de Richard O'Brien."
-    },
     {
       "fuente": "PuntoTicket",
       "nombre": "Encuentros con Kramer - Caja",
@@ -136,8 +103,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-creciendo-juntos-2026-09-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Hans Christian Andersen fue un escritor y poeta danés famoso por sus cuentos para niños, entre ellos El patito feo, La sirenita, El traje nuevo del emperador y La reina de las nieves; ilustrados por Vilhelm Pedersen.",
-      "bio_artista": "Hans Christian Andersen fue un escritor y poeta danés famoso por sus cuentos para niños, entre ellos El patito feo, La sirenita, El traje nuevo del emperador y La reina de las nieves; ilustrados por Vilhelm Pedersen."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -280,8 +247,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
+      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
     },
     {
       "fuente": "CalamaCultural",
@@ -312,8 +279,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-estadio-municipal-zorros-del-desierto-2026-09-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico.",
+      "bio_artista": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico."
     },
     {
       "fuente": "CalamaCultural",
@@ -328,8 +295,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-jard-n-infantil-colegio-adventista-2026-09-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Valdivia es una ciudad y comuna de la zona sur de Chile, capital de la Región de Los Ríos, ubicada aproximadamente a 848 kilómetros al sur de la ciudad de Santiago, la capital de Chile. Está emplazada en la confluencia de los ríos Calle-Calle, Valdivia, Caucau y Cruces, y se encuentra a tan solo 15 kilómetros de la bahía de Corral.",
+      "bio_artista": "Valdivia es una ciudad y comuna de la zona sur de Chile, capital de la Región de Los Ríos, ubicada aproximadamente a 848 kilómetros al sur de la ciudad de Santiago, la capital de Chile. Está emplazada en la confluencia de los ríos Calle-Calle, Valdivia, Caucau y Cruces, y se encuentra a tan solo 15 kilómetros de la bahía de Corral."
     },
     {
       "fuente": "CalamaCultural",
@@ -360,8 +327,8 @@
       "url": "https://calamacultural.cl/carteleracultural#ceremonia-de-reconocimiento-mujeres-ind-genas-2026-09-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Los términos pueblos originarios, aborígenes, nativos, tribales, autóctonos o indígenas, son denominaciones genéricas empleadas para referirse a las poblaciones ancestrales de la isla de Taiwán, las cuales se concentran actualmente en las zonas montañosas del este de la región. La denominación en español oficial empleada por la República de China es de indígenas(原住民, yuánzhùmínP, lit. «indígenas»).",
+      "bio_artista": "Los términos pueblos originarios, aborígenes, nativos, tribales, autóctonos o indígenas, son denominaciones genéricas empleadas para referirse a las poblaciones ancestrales de la isla de Taiwán, las cuales se concentran actualmente en las zonas montañosas del este de la región. La denominación en español oficial empleada por la República de China es de indígenas(原住民, yuánzhùmínP, lit. «indígenas»)."
     },
     {
       "fuente": "CalamaCultural",
@@ -553,7 +520,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -617,7 +584,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -633,7 +600,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como «Día Nacional del Músico» en conmemoración a su nacimiento, bajo la Ley 27.106."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -649,7 +616,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "bio_artista": "La Danza de la muerte, o \"Danza macabra\", es un género artístico tardo-medieval, cuyo tema es la universalidad de la muerte. Se trata de un diálogo en verso y por tanto representable, en que una personificación de la Muerte, como un esqueleto humano, llama a personas de distinta posición social o en diferentes etapas en la vida para bailar alrededor de una tumba. Estas figuras suelen ser el Papa, el Obispo, el Emperador, el Sacristán, el Labrador, etcétera."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
