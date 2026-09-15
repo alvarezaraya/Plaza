@@ -1,31 +1,15 @@
 {
-  "generado_en": "2026-09-15T10:57:02.124083+00:00",
+  "generado_en": "2026-09-15T19:57:46.341452+00:00",
   "region": "Antofagasta",
-  "total_eventos": 39,
+  "total_eventos": 38,
   "por_fuente": {
-    "PuntoTicket": 2,
+    "PuntoTicket": 1,
     "CalamaCultural": 29,
     "Ticketplus": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "PuntoTicket",
-      "nombre": "Encuentros con Kramer - Caja",
-      "venue": "Teatro Municipal De Antofagasta",
-      "descripcion": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, martes 15 de septiembre 2026 20:00 hrs. en Teatro Municipal de Antofagasta - Antofagasta.",
-      "fecha_iso": "2026-09-15",
-      "fecha_texto": "15 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://static.ptocdn.net/images/eventos/tbt005v2_md.jpg",
-      "url": "https://www.puntoticket.com/evento/encuentroskramercla-antofagasta",
-      "lat": -23.64636,
-      "lon": -70.396306,
-      "descripcion_extendida": "Compra tu entrada para Encuentros con Kramer - Caja Los Andes, martes 15 de septiembre 2026 20:00 hrs. en Teatro Municipal de Antofagasta - Antofagasta.",
-      "bio_artista": "Stefan Kramer Solé es un imitador y comediante chileno."
-    },
     {
       "fuente": "PuntoTicket",
       "nombre": "Fonda Costa Club - Maelo Ruiz y El Titi Club",
@@ -119,8 +103,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-09-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
-      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -183,8 +167,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
+      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
     },
     {
       "fuente": "CalamaCultural",
@@ -199,8 +183,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
+      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -215,8 +199,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-historias-de-amor-con-hombre-bailando-de--2026-09-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La música de Chile se refiere a la música creada en Chile o por chilenos en el extranjero, que forma parte de su cultura. También incluye la música de los pueblos indígenas que habitaban en el Chile actual. El 4 de octubre fue declarado como el «día de la música y de los músicos chilenos» en conmemoración del natalicio de Violeta Parra.",
+      "bio_artista": "La música de Chile se refiere a la música creada en Chile o por chilenos en el extranjero, que forma parte de su cultura. También incluye la música de los pueblos indígenas que habitaban en el Chile actual. El 4 de octubre fue declarado como el «día de la música y de los músicos chilenos» en conmemoración del natalicio de Violeta Parra."
     },
     {
       "fuente": "CalamaCultural",
@@ -231,8 +215,8 @@
       "url": "https://calamacultural.cl/carteleracultural#turismo-aventura-trekking-a-cerro-negro-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina.",
+      "bio_artista": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina."
     },
     {
       "fuente": "CalamaCultural",
@@ -247,8 +231,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
+      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
     },
     {
       "fuente": "CalamaCultural",
@@ -616,7 +600,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "bio_artista": "The Fiesta Nacional de la Danza, also known as Semana de la Danza Puertorriqueña, is a cultural celebration that takes place every year in Ponce, Puerto Rico. The festival centers on the danza, a musical genre native from the city of Ponce and oftentimes called \"Puerto Rico's classical music\" with rhythm, tune, and cadence that are similar to the waltz. The celebration lasts a week and takes place in mid-May."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
