@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-17T10:53:29.793472+00:00",
+  "generado_en": "2026-09-17T19:58:43.791751+00:00",
   "region": "Antofagasta",
   "total_eventos": 44,
   "por_fuente": {
@@ -281,7 +281,7 @@
       "url": "https://www.passline.com/sitio-evento/event-horizon-la-nave-de-la-muerte",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Event Horizon es una película de terror y ciencia ficción estrenada en 1997, con guion de Philip Eisner y dirigida por Paul W. S. Anderson. Los protagonistas son Laurence Fishburne como actor principal y Sam Neill como primer actor secundario."
     },
     {
       "fuente": "CalamaCultural",
@@ -296,8 +296,8 @@
       "url": "https://calamacultural.cl/carteleracultural#turismo-aventura-trekking-a-cerro-negro-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina.",
+      "bio_artista": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina."
     },
     {
       "fuente": "CalamaCultural",
@@ -312,8 +312,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
+      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
     },
     {
       "fuente": "CalamaCultural",
@@ -344,8 +344,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-estadio-municipal-zorros-del-desierto-2026-09-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico.",
+      "bio_artista": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico."
     },
     {
       "fuente": "CalamaCultural",
@@ -456,8 +456,8 @@
       "url": "https://calamacultural.cl/carteleracultural#city-tour-2026-09-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "City Tour es un programa de televisión chileno emitido entre los años 2009 y 2022, y posteriormente desde 2024, por 13C, la señal de televisión de cable de Canal 13, y conducido por el arquitecto, académico y locutor radial Federico Sánchez, quien compartía relato con Marcelo Comparini.",
-      "bio_artista": "City Tour es un programa de televisión chileno emitido entre los años 2009 y 2022, y posteriormente desde 2024, por 13C, la señal de televisión de cable de Canal 13, y conducido por el arquitecto, académico y locutor radial Federico Sánchez, quien compartía relato con Marcelo Comparini."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -472,8 +472,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -488,8 +488,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
-      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -504,8 +504,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-cementerio-la-historia-surge-de-las-tumbas-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Cementerio General de Santiago, se ubica en la comuna de Recoleta. Cuenta con 86 hectáreas, donde se encuentran cerca de dos millones de personas sepultadas. Está ubicado en el polígono conformado por las calles México al norte, Av. Recoleta al oriente, La Unión al suroriente, Av. Profesor Zañartu al sur y San José al poniente. El Cementerio General es administrado por la Municipalidad de Recoleta.",
-      "bio_artista": "El Cementerio General de Santiago, se ubica en la comuna de Recoleta. Cuenta con 86 hectáreas, donde se encuentran cerca de dos millones de personas sepultadas. Está ubicado en el polígono conformado por las calles México al norte, Av. Recoleta al oriente, La Unión al suroriente, Av. Profesor Zañartu al sur y San José al poniente. El Cementerio General es administrado por la Municipalidad de Recoleta."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
