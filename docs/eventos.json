@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-17T19:58:43.791751+00:00",
+  "generado_en": "2026-09-18T10:29:21.617154+00:00",
   "region": "Antofagasta",
   "total_eventos": 44,
   "por_fuente": {
@@ -13,19 +13,19 @@
   "eventos": [
     {
       "fuente": "PuntoTicket",
-      "nombre": "Fonda Costa Club - Maelo Ruiz y El Titi Club",
+      "nombre": "Fonda - Maelo Ruiz y El Titi EXPONOR",
       "venue": "",
-      "descripcion": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
-      "fecha_iso": "2026-09-17",
-      "fecha_texto": "17 de septiembre de 2026",
+      "descripcion": "Compra tu entrada para Fonda Antofagasta, viernes 18 de septiembre 2026 13:00 hrs. en EXPONOR - Antofagasta.",
+      "fecha_iso": "2026-09-18",
+      "fecha_texto": "18 de septiembre de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://static.ptocdn.net/images/eventos/jmp005_md.jpg",
-      "url": "https://www.puntoticket.com/evento/fonda-costa-club-antofagasta",
+      "url": "https://www.puntoticket.com/evento/fonda-antofagasta-exponor",
       "lat": -23.6509,
       "lon": -70.3975,
-      "descripcion_extendida": "Compra tu entrada para Fonda Costa Club Antofagasta, jueves 17 de septiembre 2026 al viernes 18 de septiembre 2026 en Club Antofagasta - Antofagasta.",
-      "bio_artista": "Henry Jaynes Fonda fue un actor de cine y teatro estadounidense, ganador de los premios Óscar, Globo de Oro, BAFTA y Tony. En 1999, la American Film Institute lo nombró la sexta mayor estrella masculina en la historia de Hollywood."
+      "descripcion_extendida": "Compra tu entrada para Fonda Antofagasta, viernes 18 de septiembre 2026 13:00 hrs. en EXPONOR - Antofagasta.",
+      "bio_artista": "Fonda puede hacer referencia a cualquiera de los siguientes establecimientos:La fonda (España); en España, establecimiento similar a una posada. La fonda (Hispanoamérica); en Hispanoamérica, establecimiento similar a una cantina."
     },
     {
       "fuente": "CalamaCultural",
@@ -281,7 +281,7 @@
       "url": "https://www.passline.com/sitio-evento/event-horizon-la-nave-de-la-muerte",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Event Horizon es una película de terror y ciencia ficción estrenada en 1997, con guion de Philip Eisner y dirigida por Paul W. S. Anderson. Los protagonistas son Laurence Fishburne como actor principal y Sam Neill como primer actor secundario."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -296,8 +296,8 @@
       "url": "https://calamacultural.cl/carteleracultural#turismo-aventura-trekking-a-cerro-negro-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina.",
-      "bio_artista": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -312,8 +312,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-09-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
-      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -344,8 +344,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-estadio-municipal-zorros-del-desierto-2026-09-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico.",
-      "bio_artista": "California es uno de los cincuenta estados que, junto con Washington D. C., forman los Estados Unidos. Su capital es Sacramento, y su ciudad más poblada, Los Ángeles. Está ubicado en la región oeste del país, división Pacífico, limitando al norte con Oregón, al este con Nevada, al sureste con el río Colorado que lo separa de Arizona, al sur con Baja California (México) y al oeste con el océano Pacífico."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -552,8 +552,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
+      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
     },
     {
       "fuente": "CalamaCultural",
@@ -568,8 +568,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-hogar-de-ancianos-san-jos-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Ashita no Nadja  es una serie de anime sobre una niña que se une a una compañía de danza y viaja por Europa en busca de su madre. La versión animada fue producida por Toei Animation y presentada en Japón por la cadena de televisión satelital Animax junto a la cadena de televisión terrestre TV Asahi, entre el 2 de febrero de 2003 y el 25 de enero de 2004. En Latinoamérica fue emitida por Cartoon Network desde el sábado 4 de febrero de 2006 hasta la madrugada del 1 de septiembre del mismo año.",
+      "bio_artista": "Ashita no Nadja  es una serie de anime sobre una niña que se une a una compañía de danza y viaja por Europa en busca de su madre. La versión animada fue producida por Toei Animation y presentada en Japón por la cadena de televisión satelital Animax junto a la cadena de televisión terrestre TV Asahi, entre el 2 de febrero de 2003 y el 25 de enero de 2004. En Latinoamérica fue emitida por Cartoon Network desde el sábado 4 de febrero de 2006 hasta la madrugada del 1 de septiembre del mismo año."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -585,7 +585,7 @@
       "url": "https://www.passline.com/sitio-evento/el-ultimo-guerrero-espacial",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "The Last Starfighter es una película estadounidense de aventuras y ciencia ficción de 1984 dirigida por Nick Castle. Está considerada como una película de culto y como fielmente representativa de la así llamada Generación X. La película está protagonizada por Lance Guest, Catherine Mary Stewart y Norman Snow, pero también destacan en ella algunos actores secundarios, como Dan O'Herlihy, Robert Preston o Barbara Bosson. La banda sonora corrió a cargo de Craig Safan."
     },
     {
       "fuente": "Ticketplus",
@@ -601,7 +601,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
+      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -617,7 +617,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
     },
     {
       "fuente": "CulturaAntofagasta",
