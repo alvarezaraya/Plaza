@@ -1,31 +1,15 @@
 {
-  "generado_en": "2026-09-21T20:44:59.650665+00:00",
+  "generado_en": "2026-09-22T10:53:04.227795+00:00",
   "region": "Antofagasta",
-  "total_eventos": 43,
+  "total_eventos": 44,
   "por_fuente": {
-    "CalamaCultural": 29,
-    "EsquinaRetornable": 6,
+    "CalamaCultural": 28,
+    "EsquinaRetornable": 8,
     "Ticketplus": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera Jardín Nidito De Ángeles",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-09-21",
-      "fecha_texto": "21 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-nidito-de-ngeles-2026-09-21",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Maleta Viajera Imc",
@@ -136,23 +120,23 @@
       "url": "https://www.passline.com/eventos/langue-etrangere-lengua-extranjera",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "En Egipto se hablan varias lenguas, pero el árabe egipcio es, con mucho, el idioma más hablado en el país."
     },
     {
       "fuente": "EsquinaRetornable",
-      "nombre": "ALICIA BAJO",
+      "nombre": "VIAJE A DARJEELING",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Manuela Thayer · Estreno Nacional",
-      "descripcion_extendida": "Dir. Manuela Thayer · Estreno Nacional",
+      "descripcion": "Dir. Wes Anderson · Día Mundial del Turismo",
+      "descripcion_extendida": "Dir. Wes Anderson · Día Mundial del Turismo",
       "fecha_iso": "2026-09-24",
       "fecha_texto": "24 de septiembre de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/event-horizon-poster.jpg",
-      "url": "https://www.passline.com/sitio-evento/event-horizon-la-nave-de-la-muerte",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/viaje-a-darjeeling-poster.jpg",
+      "url": "https://www.passline.com/eventos/viaje-a-darjeeling",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Viaje a Darjeeling es una comedia dramática del 2007 dirigida por Wes Anderson y protagonizada por Owen Wilson, Adrien Brody, y Jason Schwartzman. Fue escrita por Anderson, Schwartzman y Roman Coppola. La película también cuenta con la colaboración a modo de cameo de Waris Ahluwalia, Amara Karan, Barbet Schroeder, Anjelica Huston, Natalie Portman, Irrfan Khan y Bill Murray."
     },
     {
       "fuente": "CalamaCultural",
@@ -252,6 +236,22 @@
     },
     {
       "fuente": "EsquinaRetornable",
+      "nombre": "BIRDMAN O (LA INESPERADA VIRTUD DE LA IGNORANCIA)",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Alejandro González Iñárritu · Michael Keaton: conmemoración de su nacimiento",
+      "descripcion_extendida": "Dir. Alejandro González Iñárritu · Michael Keaton: conmemoración de su nacimiento",
+      "fecha_iso": "2026-09-25",
+      "fecha_texto": "25 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/birdman-poster.jpg",
+      "url": "https://www.passline.com/eventos/birdman-o-la-inesperada-virtud-de-la-ignorancia-558665",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Birdman y el Trío Galaxia es una serie animada de acción y ciencia ficción para televisión creada por el dibujante estadounidense Alex Toth y producida por Hanna-Barbera Productions. Se estrenó el 9 de septiembre de 1967 en la cadena NBC y fue transmitida los sábados por la mañana hasta el 20 de enero de 1968."
+    },
+    {
+      "fuente": "EsquinaRetornable",
       "nombre": "EVENT HORIZON: LA NAVE DE LA MUERTE",
       "venue": "Esquina Retornable",
       "descripcion": "Dir. Paul W.S. Anderson · Órbita de culto: ciclo de ciencia ficción",
@@ -312,6 +312,22 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ME ROMPISTE EL CORAZÓN",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Boris Quercia · Estreno Nacional",
+      "descripcion_extendida": "Dir. Boris Quercia · Estreno Nacional",
+      "fecha_iso": "2026-09-26",
+      "fecha_texto": "26 de septiembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2025/09/MRECAFICHES-WEB.png",
+      "url": "https://www.passline.com/eventos/me-rompiste-el-corazon-el-amor-de-roberto-parra-y-la-negra-ester-558661",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -664,7 +680,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": ""
+      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como «Día Nacional del Músico» en conmemoración a su nacimiento, bajo la Ley 27.106."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -680,7 +696,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "bio_artista": ""
+      "bio_artista": "La Danza de la muerte, o \"Danza macabra\", es un género artístico tardo-medieval, cuyo tema es la universalidad de la muerte. Se trata de un diálogo en verso y por tanto representable, en que una personificación de la Muerte, como un esqueleto humano, llama a personas de distinta posición social o en diferentes etapas en la vida para bailar alrededor de una tumba. Estas figuras suelen ser el Papa, el Obispo, el Emperador, el Sacristán, el Labrador, etcétera."
     },
     {
       "fuente": "ComediaTicket",
