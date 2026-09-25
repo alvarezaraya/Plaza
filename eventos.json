@@ -1,143 +1,15 @@
 {
-  "generado_en": "2026-09-24T20:15:50.849860+00:00",
+  "generado_en": "2026-09-25T11:02:26.016821+00:00",
   "region": "Antofagasta",
-  "total_eventos": 39,
+  "total_eventos": 31,
   "por_fuente": {
-    "EsquinaRetornable": 7,
-    "CalamaCultural": 24,
+    "EsquinaRetornable": 5,
+    "CalamaCultural": 18,
     "Ticketplus": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LANGUE ÉTRANGÈRE: LENGUA EXTRANJERA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Claire Burger · Jeunesses: retratos de una generación. Con entrada a $1.000 en colaboración con la Alianza Francesa de Antofagasta.",
-      "descripcion_extendida": "Dir. Claire Burger · Jeunesses: retratos de una generación. Con entrada a $1.000 en colaboración con la Alianza Francesa de Antofagasta.",
-      "fecha_iso": "2026-09-24",
-      "fecha_texto": "24 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/lengua-extranjera.jpg",
-      "url": "https://www.passline.com/eventos/langue-etrangere-lengua-extranjera",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "En Egipto se hablan varias lenguas, pero el árabe egipcio es, con mucho, el idioma más hablado en el país."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "VIAJE A DARJEELING",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Wes Anderson · Día Mundial del Turismo",
-      "descripcion_extendida": "Dir. Wes Anderson · Día Mundial del Turismo",
-      "fecha_iso": "2026-09-24",
-      "fecha_texto": "24 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/viaje-a-darjeeling-poster.jpg",
-      "url": "https://www.passline.com/eventos/viaje-a-darjeeling",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Viaje a Darjeeling es una comedia dramática del 2007 dirigida por Wes Anderson y protagonizada por Owen Wilson, Adrien Brody, y Jason Schwartzman. Fue escrita por Anderson, Schwartzman y Roman Coppola. La película también cuenta con la colaboración a modo de cameo de Waris Ahluwalia, Amara Karan, Barbet Schroeder, Anjelica Huston, Natalie Portman, Irrfan Khan y Bill Murray."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Taller De Tai Chi",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-09-24",
-      "fecha_texto": "24 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-09-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Tour “Descubriendo La Riqueza Natural Y Cultural Del Alto El Loa”",
-      "venue": "Chiu Chiu",
-      "descripcion": "",
-      "fecha_iso": "2026-09-24",
-      "fecha_texto": "24 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#tour-descubriendo-la-riqueza-natural-y-cultural-del-alto-el--2026-09-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
-      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera Gore",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-09-24",
-      "fecha_texto": "24 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gore-2026-09-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio.",
-      "bio_artista": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera Chile Atiende",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-09-24",
-      "fecha_texto": "24 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-09-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera Correos De Chile",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-09-24",
-      "fecha_texto": "24 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-09-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Tertulia Literaria “Historias De Amor Con Hombre Bailando De Hernán Rivera Letelier",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-09-24",
-      "fecha_texto": "24 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-historias-de-amor-con-hombre-bailando-de--2026-09-24",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "BIRDMAN O (LA INESPERADA VIRTUD DE LA IGNORANCIA)",
@@ -423,8 +295,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-cementerio-la-historia-surge-de-las-tumbas-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Cementerio General de Santiago, se ubica en la comuna de Recoleta. Cuenta con 86 hectáreas, donde se encuentran cerca de dos millones de personas sepultadas. Está ubicado en el polígono conformado por las calles México al norte, Av. Recoleta al oriente, La Unión al suroriente, Av. Profesor Zañartu al sur y San José al poniente. El Cementerio General es administrado por la Municipalidad de Recoleta.",
+      "bio_artista": "El Cementerio General de Santiago, se ubica en la comuna de Recoleta. Cuenta con 86 hectáreas, donde se encuentran cerca de dos millones de personas sepultadas. Está ubicado en el polígono conformado por las calles México al norte, Av. Recoleta al oriente, La Unión al suroriente, Av. Profesor Zañartu al sur y San José al poniente. El Cementerio General es administrado por la Municipalidad de Recoleta."
     },
     {
       "fuente": "CalamaCultural",
@@ -439,8 +311,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-patrimonial-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "City Tour es un programa de televisión chileno emitido entre los años 2009 y 2022, y posteriormente desde 2024, por 13C, la señal de televisión de cable de Canal 13, y conducido por el arquitecto, académico y locutor radial Federico Sánchez, quien compartía relato con Marcelo Comparini.",
+      "bio_artista": "City Tour es un programa de televisión chileno emitido entre los años 2009 y 2022, y posteriormente desde 2024, por 13C, la señal de televisión de cable de Canal 13, y conducido por el arquitecto, académico y locutor radial Federico Sánchez, quien compartía relato con Marcelo Comparini."
     },
     {
       "fuente": "CalamaCultural",
@@ -471,8 +343,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
+      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
     },
     {
       "fuente": "CalamaCultural",
@@ -487,8 +359,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-hogar-de-ancianos-san-jos-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Ashita no Nadja  es una serie de anime sobre una niña que se une a una compañía de danza y viaja por Europa en busca de su madre. La versión animada fue producida por Toei Animation y presentada en Japón por la cadena de televisión satelital Animax junto a la cadena de televisión terrestre TV Asahi, entre el 2 de febrero de 2003 y el 25 de enero de 2004. En Latinoamérica fue emitida por Cartoon Network desde el sábado 4 de febrero de 2006 hasta la madrugada del 1 de septiembre del mismo año.",
+      "bio_artista": "Ashita no Nadja  es una serie de anime sobre una niña que se une a una compañía de danza y viaja por Europa en busca de su madre. La versión animada fue producida por Toei Animation y presentada en Japón por la cadena de televisión satelital Animax junto a la cadena de televisión terrestre TV Asahi, entre el 2 de febrero de 2003 y el 25 de enero de 2004. En Latinoamérica fue emitida por Cartoon Network desde el sábado 4 de febrero de 2006 hasta la madrugada del 1 de septiembre del mismo año."
     },
     {
       "fuente": "EsquinaRetornable",
