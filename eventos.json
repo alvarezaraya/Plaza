@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-25T11:02:26.016821+00:00",
+  "generado_en": "2026-09-25T20:13:23.179361+00:00",
   "region": "Antofagasta",
   "total_eventos": 31,
   "por_fuente": {
@@ -295,8 +295,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-cementerio-la-historia-surge-de-las-tumbas-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Cementerio General de Santiago, se ubica en la comuna de Recoleta. Cuenta con 86 hectáreas, donde se encuentran cerca de dos millones de personas sepultadas. Está ubicado en el polígono conformado por las calles México al norte, Av. Recoleta al oriente, La Unión al suroriente, Av. Profesor Zañartu al sur y San José al poniente. El Cementerio General es administrado por la Municipalidad de Recoleta.",
-      "bio_artista": "El Cementerio General de Santiago, se ubica en la comuna de Recoleta. Cuenta con 86 hectáreas, donde se encuentran cerca de dos millones de personas sepultadas. Está ubicado en el polígono conformado por las calles México al norte, Av. Recoleta al oriente, La Unión al suroriente, Av. Profesor Zañartu al sur y San José al poniente. El Cementerio General es administrado por la Municipalidad de Recoleta."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -311,8 +311,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-patrimonial-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "City Tour es un programa de televisión chileno emitido entre los años 2009 y 2022, y posteriormente desde 2024, por 13C, la señal de televisión de cable de Canal 13, y conducido por el arquitecto, académico y locutor radial Federico Sánchez, quien compartía relato con Marcelo Comparini.",
-      "bio_artista": "City Tour es un programa de televisión chileno emitido entre los años 2009 y 2022, y posteriormente desde 2024, por 13C, la señal de televisión de cable de Canal 13, y conducido por el arquitecto, académico y locutor radial Federico Sánchez, quien compartía relato con Marcelo Comparini."
+      "descripcion_extendida": "Tours is the largest city in the region of Centre-Val de Loire, France. It is the prefecture of the department of Indre-et-Loire. The commune of Tours had 138,668 inhabitants as of 2022 while the population of the whole metropolitan area was 526,370.",
+      "bio_artista": "Tours is the largest city in the region of Centre-Val de Loire, France. It is the prefecture of the department of Indre-et-Loire. The commune of Tours had 138,668 inhabitants as of 2022 while the population of the whole metropolitan area was 526,370."
     },
     {
       "fuente": "CalamaCultural",
@@ -376,7 +376,7 @@
       "url": "https://www.passline.com/sitio-evento/el-ultimo-guerrero-espacial",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "The Last Starfighter es una película estadounidense de aventuras y ciencia ficción de 1984 dirigida por Nick Castle. Está considerada como una película de culto y como fielmente representativa de la así llamada Generación X. La película está protagonizada por Lance Guest, Catherine Mary Stewart y Norman Snow, pero también destacan en ella algunos actores secundarios, como Dan O'Herlihy, Robert Preston o Barbara Bosson. La banda sonora corrió a cargo de Craig Safan."
     },
     {
       "fuente": "Ticketplus",
