@@ -1,95 +1,15 @@
 {
-  "generado_en": "2026-09-25T20:13:23.179361+00:00",
+  "generado_en": "2026-09-26T10:44:44.416086+00:00",
   "region": "Antofagasta",
-  "total_eventos": 31,
+  "total_eventos": 26,
   "por_fuente": {
-    "EsquinaRetornable": 5,
-    "CalamaCultural": 18,
+    "EsquinaRetornable": 3,
+    "CalamaCultural": 15,
     "Ticketplus": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "BIRDMAN O (LA INESPERADA VIRTUD DE LA IGNORANCIA)",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Alejandro González Iñárritu · Michael Keaton: conmemoración de su nacimiento",
-      "descripcion_extendida": "Dir. Alejandro González Iñárritu · Michael Keaton: conmemoración de su nacimiento",
-      "fecha_iso": "2026-09-25",
-      "fecha_texto": "25 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/birdman-poster.jpg",
-      "url": "https://www.passline.com/eventos/birdman-o-la-inesperada-virtud-de-la-ignorancia-558665",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Birdman y el Trío Galaxia es una serie animada de acción y ciencia ficción para televisión creada por el dibujante estadounidense Alex Toth y producida por Hanna-Barbera Productions. Se estrenó el 9 de septiembre de 1967 en la cadena NBC y fue transmitida los sábados por la mañana hasta el 20 de enero de 1968."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "EVENT HORIZON: LA NAVE DE LA MUERTE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Paul W.S. Anderson · Órbita de culto: ciclo de ciencia ficción",
-      "descripcion_extendida": "Dir. Paul W.S. Anderson · Órbita de culto: ciclo de ciencia ficción",
-      "fecha_iso": "2026-09-25",
-      "fecha_texto": "25 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/event-horizon-poster.jpg",
-      "url": "https://www.passline.com/sitio-evento/event-horizon-la-nave-de-la-muerte",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Event Horizon es una película de terror y ciencia ficción estrenada en 1997, con guion de Philip Eisner y dirigida por Paul W. S. Anderson. Los protagonistas son Laurence Fishburne como actor principal y Sam Neill como primer actor secundario."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Turismo Aventura: Trekking A Cerro Negro",
-      "venue": "Cerro Negro",
-      "descripcion": "",
-      "fecha_iso": "2026-09-25",
-      "fecha_texto": "25 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#turismo-aventura-trekking-a-cerro-negro-2026-09-25",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina.",
-      "bio_artista": "El senderismo en Argentina se caracteriza por una amplia gama de entornos y climas para los caminantes, que se debe en gran parte a la extensa y variada geografía y ecorregiones de Argentina."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera Jardín Infantil Planeta Tierra 1 Y 2",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-09-25",
-      "fecha_texto": "25 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-09-25",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
-      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Tertulia Literaria “Los Susurros De La Pacana” De Sofía Ramos Wong",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-09-25",
-      "fecha_texto": "25 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-los-susurros-de-la-pacana-de-sof-a-ramos--2026-09-25",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "PARA VIVIR: EL IMPLACABLE TIEMPO DE PABLO MILANÉS",
@@ -104,7 +24,7 @@
       "url": "https://www.passline.com/eventos/para-vivir-el-implacable-tiempo-de-pablo-milanes-556847",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El cristianismo primitivo es el nombre que recibe el cristianismo de los tres primeros siglos de su historia. Esta etapa se inicia con el denominado por la tradición cristiana como el «período apostólico», que abarca desde la crucifixión de Jesús de Nazaret hasta la muerte del último de sus discípulos directos en torno al año 100."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -120,7 +40,7 @@
       "url": "https://www.passline.com/eventos/me-rompiste-el-corazon-el-amor-de-roberto-parra-y-la-negra-ester-558661",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Me rompiste el corazón es una película dramática romántica de 2025 escrita y dirigida por Boris Quercia. La película está protagonizada por Daniel Muñoz y Carmen Gloria Bresky y sigue la vida y obra del músico y cantautor chileno Roberto Parra, reconocido por ser el compositor del musical La negra Ester."
     },
     {
       "fuente": "CalamaCultural",
@@ -392,7 +312,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
+      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -408,7 +328,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
     },
     {
       "fuente": "CulturaAntofagasta",
