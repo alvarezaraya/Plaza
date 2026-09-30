@@ -1,63 +1,15 @@
 {
-  "generado_en": "2026-09-29T21:12:19.275901+00:00",
+  "generado_en": "2026-09-30T11:50:54.918354+00:00",
   "region": "Antofagasta",
-  "total_eventos": 26,
+  "total_eventos": 23,
   "por_fuente": {
-    "CalamaCultural": 10,
     "EsquinaRetornable": 8,
+    "CalamaCultural": 7,
     "Ticketplus": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera Pai",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-09-29",
-      "fecha_texto": "29 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-pai-2026-09-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera Prais",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-09-29",
-      "fecha_texto": "29 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-prais-2026-09-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "City Tour",
-      "venue": "Parque El Loa",
-      "descripcion": "",
-      "fecha_iso": "2026-09-29",
-      "fecha_texto": "29 de septiembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#city-tour-2026-09-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "City Tour es un programa de televisión chileno emitido entre los años 2009 y 2022, y posteriormente desde 2024, por 13C, la señal de televisión de cable de Canal 13, y conducido por el arquitecto, académico y locutor radial Federico Sánchez, quien compartía relato con Marcelo Comparini.",
-      "bio_artista": "City Tour es un programa de televisión chileno emitido entre los años 2009 y 2022, y posteriormente desde 2024, por 13C, la señal de televisión de cable de Canal 13, y conducido por el arquitecto, académico y locutor radial Federico Sánchez, quien compartía relato con Marcelo Comparini."
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "DEMENTE",
@@ -119,8 +71,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
+      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
     },
     {
       "fuente": "CalamaCultural",
@@ -135,8 +87,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-cementerio-la-historia-surge-de-las-tumbas-2026-09-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Cementerio General de Santiago, se ubica en la comuna de Recoleta. Cuenta con 86 hectáreas, donde se encuentran cerca de dos millones de personas sepultadas. Está ubicado en el polígono conformado por las calles México al norte, Av. Recoleta al oriente, La Unión al suroriente, Av. Profesor Zañartu al sur y San José al poniente. El Cementerio General es administrado por la Municipalidad de Recoleta.",
+      "bio_artista": "El Cementerio General de Santiago, se ubica en la comuna de Recoleta. Cuenta con 86 hectáreas, donde se encuentran cerca de dos millones de personas sepultadas. Está ubicado en el polígono conformado por las calles México al norte, Av. Recoleta al oriente, La Unión al suroriente, Av. Profesor Zañartu al sur y San José al poniente. El Cementerio General es administrado por la Municipalidad de Recoleta."
     },
     {
       "fuente": "CalamaCultural",
@@ -232,7 +184,7 @@
       "url": "https://www.passline.com/eventos/carrie-560547",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Carrie puede estar referido o vinculado a los artículos de Wikipedia que se indican a continuación:"
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -248,7 +200,7 @@
       "url": "https://www.passline.com/eventos/me-rompiste-el-corazon-el-amor-de-roberto-parra-y-la-negra-ester-560546",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Me rompiste el corazón es una película dramática romántica de 2025 escrita y dirigida por Boris Quercia. La película está protagonizada por Daniel Muñoz y Carmen Gloria Bresky y sigue la vida y obra del músico y cantautor chileno Roberto Parra, reconocido por ser el compositor del musical La negra Ester."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -264,7 +216,7 @@
       "url": "https://www.passline.com/sitio-evento/el-ultimo-guerrero-espacial",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "The Last Starfighter es una película estadounidense de aventuras y ciencia ficción de 1984 dirigida por Nick Castle. Está considerada como una película de culto y como fielmente representativa de la así llamada Generación X. La película está protagonizada por Lance Guest, Catherine Mary Stewart y Norman Snow, pero también destacan en ella algunos actores secundarios, como Dan O'Herlihy, Robert Preston o Barbara Bosson. La banda sonora corrió a cargo de Craig Safan."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -280,7 +232,7 @@
       "url": "https://www.passline.com/eventos/beetlejuice-560560",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Beetlejuice, conocida como Bitelchús en España, es una película de comedia de terror y fantasía estadounidense de 1988, dirigida por Tim Burton, a partir de un guion de Michael McDowell y Warren Skaaren, basado en una historia de McDowell y Larry Wilson. Está protagonizada por Alec Baldwin, Geena Davis, Jeffrey Jones, Catherine O'Hara, Winona Ryder, y Michael Keaton como el personaje principal."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -296,7 +248,7 @@
       "url": "https://www.passline.com/eventos/escucha-activa-alturas-de-machu-picchu-de-los-jaivas-set-de-vinilos",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Gustavo Adrián Cerati fue un músico, cantautor y productor discográfico argentino que obtuvo reconocimiento por haber sido el líder, vocalista, compositor y guitarrista de la banda de rock Soda Stereo. La prensa especializada y otros músicos lo consideran como uno de los artistas más influyentes del rock latinoamericano."
+      "bio_artista": ""
     },
     {
       "fuente": "Ticketplus",
