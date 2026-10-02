@@ -1,11 +1,12 @@
 {
-  "generado_en": "2026-10-02T11:49:29.147636+00:00",
+  "generado_en": "2026-10-02T21:08:25.152768+00:00",
   "region": "Antofagasta",
-  "total_eventos": 55,
+  "total_eventos": 56,
   "por_fuente": {
     "EsquinaRetornable": 4,
     "CalamaCultural": 43,
     "Ticketplus": 1,
+    "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
@@ -776,6 +777,22 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "90’ FEVER FEST VOL 2 ,",
+      "venue": "Estadio Sokol",
+      "descripcion": "Compra tu entrada para 90’ FEVER FEST VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
+      "fecha_iso": "2026-12-11",
+      "fecha_texto": "11 de diciembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/pmf001_md.jpg",
+      "url": "https://www.puntoticket.com/evento/90s-fever-festival-estadio-sokol-antofagasta-dic-2026",
+      "lat": -23.655882,
+      "lon": -70.397059,
+      "descripcion_extendida": "Compra tu entrada para 90’ FEVER FEST VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
       "bio_artista": ""
     },
     {
