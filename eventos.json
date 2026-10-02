@@ -1,47 +1,15 @@
 {
-  "generado_en": "2026-10-01T21:33:09.018534+00:00",
+  "generado_en": "2026-10-02T11:49:29.147636+00:00",
   "region": "Antofagasta",
-  "total_eventos": 57,
+  "total_eventos": 55,
   "por_fuente": {
-    "EsquinaRetornable": 6,
+    "EsquinaRetornable": 4,
     "CalamaCultural": 43,
     "Ticketplus": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "PARA VIVIR: EL IMPLACABLE TIEMPO DE PABLO MILANÉS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Fabien Pisani · Estrenos en Red, el colaboración con la Red de Salas de Cine.",
-      "descripcion_extendida": "Dir. Fabien Pisani · Estrenos en Red, el colaboración con la Red de Salas de Cine.",
-      "fecha_iso": "2026-10-01",
-      "fecha_texto": "1 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/08/PARA-VIVIR-AFICHE.jpg",
-      "url": "https://www.passline.com/eventos/para-vivir-el-implacable-tiempo-de-pablo-milanes-556848",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "El cristianismo primitivo es el nombre que recibe el cristianismo de los tres primeros siglos de su historia. Esta etapa se inicia con el denominado por la tradición cristiana como el «período apostólico», que abarca desde la crucifixión de Jesús de Nazaret hasta la muerte del último de sus discípulos directos en torno al año 100."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "CARRIE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Brian De Palma · La Mirada Indiscreta: especial Brian De Palma",
-      "descripcion_extendida": "Dir. Brian De Palma · La Mirada Indiscreta: especial Brian De Palma",
-      "fecha_iso": "2026-10-01",
-      "fecha_texto": "1 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/04/carrie-poester-web.jpg",
-      "url": "https://www.passline.com/eventos/carrie-560547",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Carrie puede estar referido o vinculado a los artículos de Wikipedia que se indican a continuación:"
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "ME ROMPISTE EL CORAZÓN",
@@ -104,7 +72,7 @@
       "url": "https://www.passline.com/eventos/beetlejuice-560560",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Beetlejuice, conocida como Bitelchús en España, es una película de comedia de terror y fantasía estadounidense de 1988, dirigida por Tim Burton, a partir de un guion de Michael McDowell y Warren Skaaren, basado en una historia de McDowell y Larry Wilson. Está protagonizada por Alec Baldwin, Geena Davis, Jeffrey Jones, Catherine O'Hara, Winona Ryder, y Michael Keaton como el personaje principal."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -120,7 +88,7 @@
       "url": "https://www.passline.com/eventos/escucha-activa-alturas-de-machu-picchu-de-los-jaivas-set-de-vinilos",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Gustavo Adrián Cerati fue un músico, cantautor y productor discográfico argentino que obtuvo reconocimiento por haber sido el líder, vocalista, compositor y guitarrista de la banda de rock Soda Stereo. La prensa especializada y otros músicos lo consideran como uno de los artistas más influyentes del rock latinoamericano."
     },
     {
       "fuente": "CalamaCultural",
@@ -536,7 +504,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
+      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
     },
     {
       "fuente": "CalamaCultural",
@@ -840,7 +808,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -856,7 +824,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": "La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos y de aquel producido mediante tecnología electrónica, que también pueden ser mezclados. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -872,7 +840,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -888,7 +856,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como «Día Nacional del Músico» en conmemoración a su nacimiento, bajo la Ley 27.106."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -904,7 +872,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "bio_artista": "La Danza de la muerte, o \"Danza macabra\", es un género artístico tardo-medieval, cuyo tema es la universalidad de la muerte. Se trata de un diálogo en verso y por tanto representable, en que una personificación de la Muerte, como un esqueleto humano, llama a personas de distinta posición social o en diferentes etapas en la vida para bailar alrededor de una tumba. Estas figuras suelen ser el Papa, el Obispo, el Emperador, el Sacristán, el Labrador, etcétera."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
