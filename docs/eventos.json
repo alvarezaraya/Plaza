@@ -1,64 +1,16 @@
 {
-  "generado_en": "2026-10-02T21:08:25.152768+00:00",
+  "generado_en": "2026-10-03T11:02:18.764655+00:00",
   "region": "Antofagasta",
-  "total_eventos": 56,
+  "total_eventos": 53,
   "por_fuente": {
-    "EsquinaRetornable": 4,
-    "CalamaCultural": 43,
+    "EsquinaRetornable": 2,
+    "CalamaCultural": 42,
     "Ticketplus": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ME ROMPISTE EL CORAZÓN",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Boris Quercia · Estreno Nacional",
-      "descripcion_extendida": "Dir. Boris Quercia · Estreno Nacional",
-      "fecha_iso": "2026-10-02",
-      "fecha_texto": "2 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2025/09/MRECAFICHES-WEB.png",
-      "url": "https://www.passline.com/eventos/me-rompiste-el-corazon-el-amor-de-roberto-parra-y-la-negra-ester-560546",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Me rompiste el corazón es una película dramática romántica de 2025 escrita y dirigida por Boris Quercia. La película está protagonizada por Daniel Muñoz y Carmen Gloria Bresky y sigue la vida y obra del músico y cantautor chileno Roberto Parra, reconocido por ser el compositor del musical La negra Ester."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "EL ÙLTIMO GUERRERO ESPACIAL",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Nick Castle · Órbita de culto: ciclo de ciencia ficción",
-      "descripcion_extendida": "Dir. Nick Castle · Órbita de culto: ciclo de ciencia ficción",
-      "fecha_iso": "2026-10-02",
-      "fecha_texto": "2 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/PLANTILLA-AFICHES-WEB-el-ultimo-guerrero-espacial.jpg",
-      "url": "https://www.passline.com/sitio-evento/el-ultimo-guerrero-espacial",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "The Last Starfighter es una película estadounidense de aventuras y ciencia ficción de 1984 dirigida por Nick Castle. Está considerada como una película de culto y como fielmente representativa de la así llamada Generación X. La película está protagonizada por Lance Guest, Catherine Mary Stewart y Norman Snow, pero también destacan en ella algunos actores secundarios, como Dan O'Herlihy, Robert Preston o Barbara Bosson. La banda sonora corrió a cargo de Craig Safan."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Día De La Música Chilena. Presentación Calambanda",
-      "venue": "Teatro Municipal",
-      "descripcion": "",
-      "fecha_iso": "2026-10-02",
-      "fecha_texto": "2 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#d-a-de-la-m-sica-chilena-presentaci-n-calambanda-2026-10-02",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "BEETLEJUICE",
@@ -793,7 +745,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FEST VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -809,7 +761,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
     },
     {
       "fuente": "CulturaAntofagasta",
