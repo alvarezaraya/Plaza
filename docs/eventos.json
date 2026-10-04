@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-04T11:44:40.385879+00:00",
+  "generado_en": "2026-10-04T19:53:45.360889+00:00",
   "region": "Antofagasta",
   "total_eventos": 58,
   "por_fuente": {
@@ -105,7 +105,7 @@
       "url": "https://www.passline.com/eventos/enzo",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Enzo es un antropónimo italiano romanófono de origen germánico."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -121,7 +121,7 @@
       "url": "https://www.passline.com/eventos/rocketman",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Rocketman es una película británica de cine musical y drama basada en la vida del músico Elton John, dirigida por Dexter Fletcher a partir de un guion de Lee Hall, y estrenada en 2019. La cinta está protagonizada por Taron Egerton en el papel de Elton John, acompañado de un elenco compuesto por Jamie Bell, Richard Madden, Bryce Dallas Howard y Gemma Jones."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/persepolis-564183",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Persépolis fue la capital del Imperio persa durante la época aqueménida. Se encuentra a unos 70 km de la ciudad iraní de Marvdasht, al pie del monte Kuh-e Rahmat cerca del lugar en que el río Pulwar desemboca en el Kur (Kyrus). Dista en torno a 75 km de la ciudad de Shiraz."
     },
     {
       "fuente": "EsquinaRetornable",
