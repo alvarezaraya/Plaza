@@ -1,48 +1,16 @@
 {
-  "generado_en": "2026-10-03T19:38:52.023195+00:00",
+  "generado_en": "2026-10-04T11:44:40.385879+00:00",
   "region": "Antofagasta",
-  "total_eventos": 53,
+  "total_eventos": 58,
   "por_fuente": {
-    "EsquinaRetornable": 2,
     "CalamaCultural": 42,
+    "EsquinaRetornable": 7,
     "Ticketplus": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "BEETLEJUICE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Tim Burton · Michael Keaton: conmemoración de su nacimiento",
-      "descripcion_extendida": "Dir. Tim Burton · Michael Keaton: conmemoración de su nacimiento",
-      "fecha_iso": "2026-10-03",
-      "fecha_texto": "3 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/beetlejuice-poster.jpg",
-      "url": "https://www.passline.com/eventos/beetlejuice-560560",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Beetlejuice, conocida como Bitelchús en España, es una película de comedia de terror y fantasía estadounidense de 1988, dirigida por Tim Burton, a partir de un guion de Michael McDowell y Warren Skaaren, basado en una historia de McDowell y Larry Wilson. Está protagonizada por Alec Baldwin, Geena Davis, Jeffrey Jones, Catherine O'Hara, Winona Ryder, y Michael Keaton como el personaje principal."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ESCUCHA ACTIVA: Alturas de Machu Picchu de Los Jaivas",
-      "venue": "Esquina Retornable",
-      "descripcion": "+ Set de vinilos junto a TORNASOL SELECTORES · Una experiencia colectiva para escuchar y conversar en torno a Alturas de Machu Picchu de Los Jaivas (que cumple 45 años este mes), y su encuentro entre rock, poesía y música latinoamericana + Set de Vinilos junto a Tornasol Selectores en el patio de Esquina.",
-      "descripcion_extendida": "+ Set de vinilos junto a TORNASOL SELECTORES · Una experiencia colectiva para escuchar y conversar en torno a Alturas de Machu Picchu de Los Jaivas (que cumple 45 años este mes), y su encuentro entre rock, poesía y música latinoamericana + Set de Vinilos junto a Tornasol Selectores en el patio de Esquina.",
-      "fecha_iso": "2026-10-03",
-      "fecha_texto": "3 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/09/afiche-los-jaivas.jpg",
-      "url": "https://www.passline.com/eventos/escucha-activa-alturas-de-machu-picchu-de-los-jaivas-set-de-vinilos",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Gustavo Adrián Cerati fue un músico, cantautor y productor discográfico argentino que obtuvo reconocimiento por haber sido el líder, vocalista, compositor y guitarrista de la banda de rock Soda Stereo. La prensa especializada y otros músicos lo consideran como uno de los artistas más influyentes del rock latinoamericano."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Maleta Viajera. Escuela Camino De Amor",
@@ -56,8 +24,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-camino-de-amor-2026-10-05",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Dueto de Antaño es un grupo colombiano de serenata y música andina.",
+      "bio_artista": "Dueto de Antaño es un grupo colombiano de serenata y música andina."
     },
     {
       "fuente": "CalamaCultural",
@@ -92,6 +60,102 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LAS BRUJAS DE EASTWICK",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. George Miller · Mujeres que desafían: ciclo Susan Sarandon",
+      "descripcion_extendida": "Dir. George Miller · Mujeres que desafían: ciclo Susan Sarandon",
+      "fecha_iso": "2026-10-07",
+      "fecha_texto": "7 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/eastwick-poster.jpg",
+      "url": "https://www.passline.com/eventos/las-brujas-de-eastwick",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Las brujas de Eastwick es una película estadounidense de 1987 basada en la novela homónima de John Updike, protagonizada por Jack Nicholson, Cher, Susan Sarandon y Michelle Pfeiffer."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "NOSFERATU",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. F.W. Murnau · Truco o Travesura: especial Halloween",
+      "descripcion_extendida": "Dir. F.W. Murnau · Truco o Travesura: especial Halloween",
+      "fecha_iso": "2026-10-07",
+      "fecha_texto": "7 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2025/09/nosferatu-el-vampiro.jpg",
+      "url": "https://www.passline.com/eventos/nosferatu-563430",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "El término Nosferatu puede hacer referencia a:Nosferatu (palabra), sinónimo de vampiro dentro del folklore rumano."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ENZO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Robin Campillo · El arte de habitar: cine francés. Con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta.",
+      "descripcion_extendida": "Dir. Robin Campillo · El arte de habitar: cine francés. Con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta.",
+      "fecha_iso": "2026-10-08",
+      "fecha_texto": "8 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/enzo-poster.jpg",
+      "url": "https://www.passline.com/eventos/enzo",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ROCKETMAN",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Dexter Fletcher · Del escenario a la pantalla",
+      "descripcion_extendida": "Dir. Dexter Fletcher · Del escenario a la pantalla",
+      "fecha_iso": "2026-10-08",
+      "fecha_texto": "8 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/rocketman-poster.jpg",
+      "url": "https://www.passline.com/eventos/rocketman",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "PERSEPOLIS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Marjane Satrapi, Vincent Paronnaud · Cine a la carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Marjane Satrapi, Vincent Paronnaud · Cine a la carta: del libro de sugerencias",
+      "fecha_iso": "2026-10-09",
+      "fecha_texto": "9 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/03/persepolis_web.jpg",
+      "url": "https://www.passline.com/eventos/persepolis-564183",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "HANGAR ROJO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Juan Pablo Sallato · Estreno Nacional",
+      "descripcion_extendida": "Dir. Juan Pablo Sallato · Estreno Nacional",
+      "fecha_iso": "2026-10-09",
+      "fecha_texto": "9 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/HANGAR-ROJO-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/hangar-rojo",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Maleta Viajera. Jardín Infantil Rincón De Los Sueños",
       "venue": "Biblioteca Norte",
@@ -121,6 +185,22 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "PULP FICTION",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Quentin Tarantino · Tiempos Violentos: 32° Aniversario",
+      "descripcion_extendida": "Dir. Quentin Tarantino · Tiempos Violentos: 32° Aniversario",
+      "fecha_iso": "2026-10-10",
+      "fecha_texto": "10 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/pulp-fiction-poster.jpg",
+      "url": "https://www.passline.com/eventos/pulp-fiction-564182",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -184,8 +264,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-10-14",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
-      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -200,8 +280,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-tierra-esperanza-2026-10-16",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo.",
-      "bio_artista": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -216,8 +296,8 @@
       "url": "https://calamacultural.cl/carteleracultural#16-de-octubre-2026-10-16",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El 16 de octubre es el 289.º día del año —el 290.º en los años bisiestos— en el calendario gregoriano. Quedan 76 días para finalizar el año.",
-      "bio_artista": "El 16 de octubre es el 289.º día del año —el 290.º en los años bisiestos— en el calendario gregoriano. Quedan 76 días para finalizar el año."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -457,7 +537,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CalamaCultural",
@@ -472,8 +552,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-peque-os-artistas-escuela-de-teatro-el-ojo-2026-10-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Enrique Alejandro Pinti fue un actor, humorista, director teatral, guionista, escritor y dramaturgo argentino. Se ha expresado en diversos medios ya que escribió obras infantiles y para adultos; dirigió e interpretó espectáculos de su autoría así como también adaptó varias obras internacionales. Además, montó una gran cantidad de espectáculos de music hall, de café-concert y de revista porteña, por los que se lo considera un precursor del stand up en Argentina.",
+      "bio_artista": "Enrique Alejandro Pinti fue un actor, humorista, director teatral, guionista, escritor y dramaturgo argentino. Se ha expresado en diversos medios ya que escribió obras infantiles y para adultos; dirigió e interpretó espectáculos de su autoría así como también adaptó varias obras internacionales. Además, montó una gran cantidad de espectáculos de music hall, de café-concert y de revista porteña, por los que se lo considera un precursor del stand up en Argentina."
     },
     {
       "fuente": "CalamaCultural",
@@ -488,8 +568,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
+      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
     },
     {
       "fuente": "CalamaCultural",
@@ -520,8 +600,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
+      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
     },
     {
       "fuente": "CalamaCultural",
@@ -536,8 +616,8 @@
       "url": "https://calamacultural.cl/carteleracultural#etnoastronom-a-en-realidad-virtual-2026-10-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
+      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
     },
     {
       "fuente": "CalamaCultural",
@@ -745,7 +825,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FEST VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -761,7 +841,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
