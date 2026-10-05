@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-05T13:27:18.915155+00:00",
+  "generado_en": "2026-10-05T23:03:34.431844+00:00",
   "region": "Antofagasta",
   "total_eventos": 58,
   "por_fuente": {
@@ -24,8 +24,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-camino-de-amor-2026-10-05",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Dueto de Antaño es un grupo colombiano de serenata y música andina.",
-      "bio_artista": "Dueto de Antaño es un grupo colombiano de serenata y música andina."
+      "descripcion_extendida": "María Gabriela Epumer fue una guitarrista, bajista y cantautora argentina. En más de veinte años de carrera, desde la década de 1980, Epumer integró las bandas Rouge, Viuda e Hijas de Roque Enroll, la Montecarlo Jazz Ensamble, Las Chicas y el dúo Maleta de Loca. Durante la década de 1990, y hasta su fallecimiento en 2003, paralelamente a su participación en la banda de Charly García, Epumer continuó con su carrera como solista y con su banda propia llamada A1.",
+      "bio_artista": "María Gabriela Epumer fue una guitarrista, bajista y cantautora argentina. En más de veinte años de carrera, desde la década de 1980, Epumer integró las bandas Rouge, Viuda e Hijas de Roque Enroll, la Montecarlo Jazz Ensamble, Las Chicas y el dúo Maleta de Loca. Durante la década de 1990, y hasta su fallecimiento en 2003, paralelamente a su participación en la banda de Charly García, Epumer continuó con su carrera como solista y con su banda propia llamada A1."
     },
     {
       "fuente": "CalamaCultural",
@@ -93,19 +93,19 @@
     },
     {
       "fuente": "EsquinaRetornable",
-      "nombre": "ENZO",
+      "nombre": "BONJOUR L'ASILE",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Robin Campillo · El arte de habitar: cine francés. Con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta.",
-      "descripcion_extendida": "Dir. Robin Campillo · El arte de habitar: cine francés. Con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta.",
+      "descripcion": "Dir. Judith Davis · El arte de habitar: cine francés. Con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta",
+      "descripcion_extendida": "Dir. Judith Davis · El arte de habitar: cine francés. Con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta",
       "fecha_iso": "2026-10-08",
       "fecha_texto": "8 de octubre de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/enzo-poster.jpg",
-      "url": "https://www.passline.com/eventos/enzo",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/PLANTILLA-AFICHES-WEB-bonjour.jpg",
+      "url": "https://www.passline.com/eventos/bonjour-lasile",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Enzo es un antropónimo italiano romanófono de origen germánico."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -121,7 +121,7 @@
       "url": "https://www.passline.com/eventos/rocketman",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Rocketman es una película británica de cine musical y drama basada en la vida del músico Elton John, dirigida por Dexter Fletcher a partir de un guion de Lee Hall, y estrenada en 2019. La cinta está protagonizada por Taron Egerton en el papel de Elton John, acompañado de un elenco compuesto por Jamie Bell, Richard Madden, Bryce Dallas Howard y Gemma Jones."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/persepolis-564183",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Persépolis fue la capital del Imperio persa durante la época aqueménida. Se encuentra a unos 70 km de la ciudad iraní de Marvdasht, al pie del monte Kuh-e Rahmat cerca del lugar en que el río Pulwar desemboca en el Kur (Kyrus). Dista en torno a 75 km de la ciudad de Shiraz."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +153,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Hangar rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -201,7 +201,7 @@
       "url": "https://www.passline.com/eventos/pulp-fiction-564182",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Pulp Fiction es una película estadounidense de 1994 escrita y dirigida por Quentin Tarantino. El guion está basado en historias que el mismo Tarantino desarrolló en colaboración con Roger Avary durante los años 1992 y 1993, incluyendo escenas que originalmente habían sido escritas para True Romance. A partir de una narrativa no lineal, la película entrelaza varias historias cuyos protagonistas son miembros del crimen organizado de Los Ángeles."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -537,7 +537,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "CalamaCultural",
@@ -552,8 +552,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-peque-os-artistas-escuela-de-teatro-el-ojo-2026-10-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Enrique Alejandro Pinti fue un actor, humorista, director teatral, guionista, escritor y dramaturgo argentino. Se ha expresado en diversos medios ya que escribió obras infantiles y para adultos; dirigió e interpretó espectáculos de su autoría así como también adaptó varias obras internacionales. Además, montó una gran cantidad de espectáculos de music hall, de café-concert y de revista porteña, por los que se lo considera un precursor del stand up en Argentina.",
-      "bio_artista": "Enrique Alejandro Pinti fue un actor, humorista, director teatral, guionista, escritor y dramaturgo argentino. Se ha expresado en diversos medios ya que escribió obras infantiles y para adultos; dirigió e interpretó espectáculos de su autoría así como también adaptó varias obras internacionales. Además, montó una gran cantidad de espectáculos de music hall, de café-concert y de revista porteña, por los que se lo considera un precursor del stand up en Argentina."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -568,8 +568,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
-      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -600,8 +600,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
-      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -632,8 +632,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -648,8 +648,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
+      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
     },
     {
       "fuente": "CalamaCultural",
@@ -825,7 +825,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FEST VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
