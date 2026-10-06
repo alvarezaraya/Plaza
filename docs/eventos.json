@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-10-05T23:03:34.431844+00:00",
+  "generado_en": "2026-10-06T12:41:35.455108+00:00",
   "region": "Antofagasta",
-  "total_eventos": 58,
+  "total_eventos": 56,
   "por_fuente": {
-    "CalamaCultural": 42,
+    "CalamaCultural": 40,
     "EsquinaRetornable": 7,
     "Ticketplus": 1,
     "PuntoTicket": 1,
@@ -11,38 +11,6 @@
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Escuela Camino De Amor",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-05",
-      "fecha_texto": "5 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-camino-de-amor-2026-10-05",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "María Gabriela Epumer fue una guitarrista, bajista y cantautora argentina. En más de veinte años de carrera, desde la década de 1980, Epumer integró las bandas Rouge, Viuda e Hijas de Roque Enroll, la Montecarlo Jazz Ensamble, Las Chicas y el dúo Maleta de Loca. Durante la década de 1990, y hasta su fallecimiento en 2003, paralelamente a su participación en la banda de Charly García, Epumer continuó con su carrera como solista y con su banda propia llamada A1.",
-      "bio_artista": "María Gabriela Epumer fue una guitarrista, bajista y cantautora argentina. En más de veinte años de carrera, desde la década de 1980, Epumer integró las bandas Rouge, Viuda e Hijas de Roque Enroll, la Montecarlo Jazz Ensamble, Las Chicas y el dúo Maleta de Loca. Durante la década de 1990, y hasta su fallecimiento en 2003, paralelamente a su participación en la banda de Charly García, Epumer continuó con su carrera como solista y con su banda propia llamada A1."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Desinfónico ̈: El Gran Show Musical",
-      "venue": "Teatro Municipal De Calama",
-      "descripcion": "",
-      "fecha_iso": "2026-10-05",
-      "fecha_texto": "5 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#desinf-nico-el-gran-show-musical-2026-10-05",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Maleta Viajera. Sala Cuna Y Jardín Infantil Lickan Pahni",
@@ -105,7 +73,7 @@
       "url": "https://www.passline.com/eventos/bonjour-lasile",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Roger Carel was a French actor. He appeared in many supporting roles in French films, and was particularly familiar to French audiences as a voice actor. He voiced Asterix in nine cartoon adaptations released between 1967 and 2014, and was the French voice of other cartoon characters such as Winnie-the-Pooh, Piglet, and Rabbit in Winnie the Pooh. In dubbing, he was also the voice of Star Wars' C-3PO."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -121,7 +89,7 @@
       "url": "https://www.passline.com/eventos/rocketman",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Rocketman es una película británica de cine musical y drama basada en la vida del músico Elton John, dirigida por Dexter Fletcher a partir de un guion de Lee Hall, y estrenada en 2019. La cinta está protagonizada por Taron Egerton en el papel de Elton John, acompañado de un elenco compuesto por Jamie Bell, Richard Madden, Bryce Dallas Howard y Gemma Jones."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +105,7 @@
       "url": "https://www.passline.com/eventos/persepolis-564183",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Persépolis fue la capital del Imperio persa durante la época aqueménida. Se encuentra a unos 70 km de la ciudad iraní de Marvdasht, al pie del monte Kuh-e Rahmat cerca del lugar en que el río Pulwar desemboca en el Kur (Kyrus). Dista en torno a 75 km de la ciudad de Shiraz."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -616,8 +584,8 @@
       "url": "https://calamacultural.cl/carteleracultural#etnoastronom-a-en-realidad-virtual-2026-10-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
-      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
