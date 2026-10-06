@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-06T12:41:35.455108+00:00",
+  "generado_en": "2026-10-06T21:26:15.128744+00:00",
   "region": "Antofagasta",
   "total_eventos": 56,
   "por_fuente": {
@@ -73,7 +73,7 @@
       "url": "https://www.passline.com/eventos/bonjour-lasile",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Roger Carel was a French actor. He appeared in many supporting roles in French films, and was particularly familiar to French audiences as a voice actor. He voiced Asterix in nine cartoon adaptations released between 1967 and 2014, and was the French voice of other cartoon characters such as Winnie-the-Pooh, Piglet, and Rabbit in Winnie the Pooh. In dubbing, he was also the voice of Star Wars' C-3PO."
+      "bio_artista": "Barbara Piévic, known professionally as Barbara Pravi, is a French singer, songwriter, and actress. She represented France in the Eurovision Song Contest 2021 with the song \"Voilà\", securing second place, the best result for France since 1991. Her debut album On n'enferme pas les oiseaux was released on 27 August 2021."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -505,7 +505,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
+      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
     },
     {
       "fuente": "CalamaCultural",
@@ -793,6 +793,22 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FEST VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Talentos chilenos y la belleza del romanticismo francés se dan cita en el VI Concierto de la Orquesta Sinfónica de Antofagasta",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Solista en clarinete antofagastina retorna a la ciudad para interpretar obra comisionada al joven compositor nacional Manuel Bustamante. Con la participación especial de la solista en clarinete antofagastina Karla Rodríguez, quien interpretará una obra comisionada al joven compositor nacional Manuel",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/10/FOTO-ORQUESTA-SINFONICA-2025-3.jpeg",
+      "url": "https://culturaantofagasta.cl/2026/10/06/talentos-chilenos-y-la-belleza-del-romanticismo-frances-se-dan-cita-en-el-vi-concierto-de-la-orquesta-sinfonica-de-antofagasta/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Solista en clarinete antofagastina retorna a la ciudad para interpretar obra comisionada al joven compositor nacional Manuel Bustamante. Con la participación especial de la solista en clarinete antofagastina Karla Rodríguez, quien interpretará una obra comisionada al joven compositor nacional Manuel",
       "bio_artista": ""
     },
     {
@@ -809,7 +825,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -825,7 +841,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": ""
+      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -873,22 +889,6 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "Semana de la Danza",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/04/Ballet-de-Camara-03-1.jpeg",
-      "url": "https://culturaantofagasta.cl/2026/04/27/comienza-la-ix-version-de-lasemana-de-la-danza-que-realiza-la-escuela-de-ballet-de-la-corporacion-cultural-de-antofagasta/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Actividades consideran una muestra de compañías locales y una gran gala de ballet Con la participación de compañía locales y con una gran gala de ballet, la Escuela de Ballet de la Corporación Cultural de Antofagasta, realizará la IX versión de la Semana de la Danza, la cual se enmarca en la conmemo",
       "bio_artista": ""
     },
     {
