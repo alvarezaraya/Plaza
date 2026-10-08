@@ -1,11 +1,11 @@
 {
-  "generado_en": "2026-10-08T12:44:12.571121+00:00",
+  "generado_en": "2026-10-08T21:41:17.522201+00:00",
   "region": "Antofagasta",
-  "total_eventos": 53,
+  "total_eventos": 54,
   "por_fuente": {
     "EsquinaRetornable": 5,
     "CalamaCultural": 39,
-    "Ticketplus": 1,
+    "Ticketplus": 2,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
@@ -88,8 +88,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-rinc-n-de-los-sue-os-2026-10-09",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
-      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -138,6 +138,22 @@
       "lon": -68.9295,
       "descripcion_extendida": "",
       "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "4° Festival de la Voz – Infancias y Juventudes",
+      "venue": "Teatro Municipal De Antofagasta",
+      "descripcion": "4° Festival de la Voz – Infancias y Juventudes",
+      "fecha_iso": "2026-10-13",
+      "fecha_texto": "13 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/775c420da2384d3769ee0f9ead772c0d012d5ae1.png?1791474170&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/4-festival-de-la-voz-infancias-y-juventudes",
+      "lat": -23.64636,
+      "lon": -70.396306,
+      "descripcion_extendida": "4° Festival de la Voz – Infancias y Juventudes",
+      "bio_artista": "El Festival Estrella Levante SOS 4.8 fue un festival internacional de acción artística sostenible que tuvo lugar en la ciudad de Murcia, España el primer fin de semana del mes de mayo, y desde su primera edición se realizó en el recinto ferial \"La Fica\", junto al Auditorio y Centro de Congresos Víctor Villegas."
     },
     {
       "fuente": "CalamaCultural",
@@ -632,8 +648,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -680,8 +696,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-escenario-de-guerra-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
-      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -728,24 +744,24 @@
       "url": "https://calamacultural.cl/carteleracultural#experiencia-tur-stica-gastron-mica-con-chef-norte-2026-10-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior.",
+      "bio_artista": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior."
     },
     {
       "fuente": "PuntoTicket",
-      "nombre": "90’ FEVER FEST VOL 2 ,",
+      "nombre": "90’ FEVER FESTIVAL VOL 2 ,",
       "venue": "Estadio Sokol",
-      "descripcion": "Compra tu entrada para 90’ FEVER FEST VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
+      "descripcion": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
       "fecha_iso": "2026-12-11",
       "fecha_texto": "11 de diciembre de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://static.ptocdn.net/images/eventos/pmf001_md.jpg",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/pmf001v2_md.jpg",
       "url": "https://www.puntoticket.com/evento/90s-fever-festival-estadio-sokol-antofagasta-dic-2026",
       "lat": -23.655882,
       "lon": -70.397059,
-      "descripcion_extendida": "Compra tu entrada para 90’ FEVER FEST VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -777,7 +793,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -793,7 +809,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -809,7 +825,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": "La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos y de aquel producido mediante tecnología electrónica, que también pueden ser mezclados. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -825,7 +841,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
