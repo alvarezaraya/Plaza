@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-10-08T21:41:17.522201+00:00",
+  "generado_en": "2026-10-09T12:31:34.088999+00:00",
   "region": "Antofagasta",
-  "total_eventos": 54,
+  "total_eventos": 52,
   "por_fuente": {
-    "EsquinaRetornable": 5,
+    "EsquinaRetornable": 3,
     "CalamaCultural": 39,
     "Ticketplus": 2,
     "PuntoTicket": 1,
@@ -11,38 +11,6 @@
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "BONJOUR L'ASILE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Judith Davis · El arte de habitar: cine francés. Con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta",
-      "descripcion_extendida": "Dir. Judith Davis · El arte de habitar: cine francés. Con entrada a mil pesos en colaboración con la Alianza Francesa de Antofagasta",
-      "fecha_iso": "2026-10-08",
-      "fecha_texto": "8 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/PLANTILLA-AFICHES-WEB-bonjour.jpg",
-      "url": "https://www.passline.com/eventos/bonjour-lasile",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Barbara Piévic, known professionally as Barbara Pravi, is a French singer, songwriter, and actress. She represented France in the Eurovision Song Contest 2021 with the song \"Voilà\", securing second place, the best result for France since 1991. Her debut album On n'enferme pas les oiseaux was released on 27 August 2021."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ROCKETMAN",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Dexter Fletcher · Del escenario a la pantalla",
-      "descripcion_extendida": "Dir. Dexter Fletcher · Del escenario a la pantalla",
-      "fecha_iso": "2026-10-08",
-      "fecha_texto": "8 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/rocketman-poster.jpg",
-      "url": "https://www.passline.com/eventos/rocketman",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Rocketman es una película británica de cine musical y drama basada en la vida del músico Elton John, dirigida por Dexter Fletcher a partir de un guion de Lee Hall, y estrenada en 2019. La cinta está protagonizada por Taron Egerton en el papel de Elton John, acompañado de un elenco compuesto por Jamie Bell, Richard Madden, Bryce Dallas Howard y Gemma Jones."
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "PERSEPOLIS",
@@ -88,8 +56,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-rinc-n-de-los-sue-os-2026-10-09",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
+      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -153,7 +121,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "4° Festival de la Voz – Infancias y Juventudes",
-      "bio_artista": "El Festival Estrella Levante SOS 4.8 fue un festival internacional de acción artística sostenible que tuvo lugar en la ciudad de Murcia, España el primer fin de semana del mes de mayo, y desde su primera edición se realizó en el recinto ferial \"La Fica\", junto al Auditorio y Centro de Congresos Víctor Villegas."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -536,8 +504,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
+      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
     },
     {
       "fuente": "CalamaCultural",
@@ -552,8 +520,8 @@
       "url": "https://calamacultural.cl/carteleracultural#etnoastronom-a-en-realidad-virtual-2026-10-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
+      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
     },
     {
       "fuente": "CalamaCultural",
@@ -568,8 +536,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -584,8 +552,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
+      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
     },
     {
       "fuente": "CalamaCultural",
@@ -744,8 +712,8 @@
       "url": "https://calamacultural.cl/carteleracultural#experiencia-tur-stica-gastron-mica-con-chef-norte-2026-10-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior.",
-      "bio_artista": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -761,7 +729,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
