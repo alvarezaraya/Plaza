@@ -1,48 +1,16 @@
 {
-  "generado_en": "2026-10-10T20:25:04.839784+00:00",
+  "generado_en": "2026-10-11T12:02:20.921566+00:00",
   "region": "Antofagasta",
-  "total_eventos": 49,
+  "total_eventos": 54,
   "por_fuente": {
-    "EsquinaRetornable": 2,
     "CalamaCultural": 37,
     "Ticketplus": 2,
+    "EsquinaRetornable": 7,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "PULP FICTION",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Quentin Tarantino · Tiempos Violentos: 32° Aniversario",
-      "descripcion_extendida": "Dir. Quentin Tarantino · Tiempos Violentos: 32° Aniversario",
-      "fecha_iso": "2026-10-10",
-      "fecha_texto": "10 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/pulp-fiction-poster.jpg",
-      "url": "https://www.passline.com/eventos/pulp-fiction-564182",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Pulp Fiction es una película estadounidense de 1994 escrita y dirigida por Quentin Tarantino. El guion está basado en historias que el mismo Tarantino desarrolló en colaboración con Roger Avary durante los años 1992 y 1993, incluyendo escenas que originalmente habían sido escritas para True Romance. A partir de una narrativa no lineal, la película entrelaza varias historias cuyos protagonistas son miembros del crimen organizado de Los Ángeles."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "HANGAR ROJO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Juan Pablo Sallato · Estreno Nacional",
-      "descripcion_extendida": "Dir. Juan Pablo Sallato · Estreno Nacional",
-      "fecha_iso": "2026-10-10",
-      "fecha_texto": "10 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/HANGAR-ROJO-POSTER.jpg",
-      "url": "https://www.passline.com/eventos/hangar-rojo-562614",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Hangar rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Expojuy 2026",
@@ -92,6 +60,38 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "THELMA & LOUISE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Ridley Scott · Mujeres que desafían: ciclo Susan Sarandon",
+      "descripcion_extendida": "Dir. Ridley Scott · Mujeres que desafían: ciclo Susan Sarandon",
+      "fecha_iso": "2026-10-14",
+      "fecha_texto": "14 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/02/thelmalouiseWeb.jpg",
+      "url": "https://www.passline.com/eventos/thelma-louise-563867",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Thelma y Louise es una película de género road movie de 1991, escrita por Callie Khouri, dirigida por Ridley Scott y protagonizada por Geena Davis y Susan Sarandon. Otros intérpretes son Harvey Keitel, Michael Madsen, Christopher McDonald y Brad Pitt. La película ganó un Óscar en 1991 al mejor guion original."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "VUELVO DONDE NUNCA ESTUVE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional + Cine Foro junto a Constanza Vásquez",
+      "descripcion_extendida": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional + Cine Foro junto a Constanza Vásquez",
+      "fecha_iso": "2026-10-14",
+      "fecha_texto": "14 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/Vuelvo-donde-nunca-estuve-poster.jpg",
+      "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Nunca digas nunca jamás es una película de 1983, versión cinematográfica de la novela publicada en 1961 Operación Trueno (Thunderball), que previamente había sido adaptada en 1965 bajo el mismo nombre. A diferencia de la mayoría de las películas de James Bond, Nunca digas nunca jamás no fue producida por Eon Productions, sino por una productora independiente y prácticamente desconocida llamada Taliafilm, propiedad de Jack Schwartzman."
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Visita Pedagógica Pasado Geológico E Histórico De La Región. Colegio Catherine Booth",
       "venue": "Muhncal",
@@ -120,7 +120,71 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-10-14",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
+      "descripcion_extendida": "Lucía Sánchez Saornil fue una poeta ultraísta, militante anarquista y luchadora por la emancipación de las mujeres española. Utilizó el seudónimo literario Luciano de San-Saor, y los periodísticos La Compañera X, Vigía, Un Confederado, El Observador y puede que otros en la prensa anarcosindicalista de los años treinta. Telefonista en 1916, se afilió a la Confederación Nacional del Trabajo (CNT) en 1931.",
+      "bio_artista": "Lucía Sánchez Saornil fue una poeta ultraísta, militante anarquista y luchadora por la emancipación de las mujeres española. Utilizó el seudónimo literario Luciano de San-Saor, y los periodísticos La Compañera X, Vigía, Un Confederado, El Observador y puede que otros en la prensa anarcosindicalista de los años treinta. Telefonista en 1916, se afilió a la Confederación Nacional del Trabajo (CNT) en 1931."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ESCUELA DE ROCK",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Richard Linklater · Feliz Día Profes. Si eres profe, puedes obtener un descuento pagando en boletería.",
+      "descripcion_extendida": "Dir. Richard Linklater · Feliz Día Profes. Si eres profe, puedes obtener un descuento pagando en boletería.",
+      "fecha_iso": "2026-10-15",
+      "fecha_texto": "15 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/escuela-de-rock-poster.jpg",
+      "url": "https://www.passline.com/eventos/escuela-de-rock",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Escuela de Rock es una película estadounidense de comedia musical de 2003, dirigida por Richard Linklater, producida por Paramount Pictures y Nickelodeon Movies y protagonizada por Jack Black."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "HALLOWEEN",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. John Carpenter · Truco o Travesura: especial Halloween",
+      "descripcion_extendida": "Dir. John Carpenter · Truco o Travesura: especial Halloween",
+      "fecha_iso": "2026-10-15",
+      "fecha_texto": "15 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/halloween-poster.jpg",
+      "url": "https://www.passline.com/eventos/halloween-563438",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Halloween o Hallowe'en es una fiesta que se celebra el 31 de octubre, víspera de la conmemoración cristiana occidental de Todos los Santos. Inicia la conmemoración de Allhallowtide, el periodo del año litúrgico dedicado a recordar a los muertos, incluidos los santos, los mártires y todos los fieles difuntos."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "HANGAR ROJO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Juan Pablo Sallato · Estreno Nacional",
+      "descripcion_extendida": "Dir. Juan Pablo Sallato · Estreno Nacional",
+      "fecha_iso": "2026-10-16",
+      "fecha_texto": "16 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/HANGAR-ROJO-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/hangar-rojo-562615",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ALICIA BAJO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Manuela Thayer · Estreno Nacional",
+      "descripcion_extendida": "Dir. Manuela Thayer · Estreno Nacional",
+      "fecha_iso": "2026-10-16",
+      "fecha_texto": "16 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/alicia-bajo-la-higuera-poster.jpg",
+      "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -156,6 +220,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "AMÉLIE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Quentin Tarantino · Cine a la carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Quentin Tarantino · Cine a la carta: del libro de sugerencias",
+      "fecha_iso": "2026-10-17",
+      "fecha_texto": "17 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/amelie-poster.jpg",
+      "url": "https://www.passline.com/eventos/amelie-566630",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Semana De La Memoria",
       "venue": "Chiu Chiu",
@@ -184,8 +264,8 @@
       "url": "https://calamacultural.cl/carteleracultural#lanzamiento-libro-historia-de-una-mujer-de-barro-2026-10-19",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El lanzamiento de jabalina es una prueba de atletismo en la que, como su nombre indica, se lanza una jabalina, hecha con material reglamentario de metal o fibra de vidrio, con el objetivo de que llegue lo más lejos posible.",
-      "bio_artista": "El lanzamiento de jabalina es una prueba de atletismo en la que, como su nombre indica, se lanza una jabalina, hecha con material reglamentario de metal o fibra de vidrio, con el objetivo de que llegue lo más lejos posible."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -200,8 +280,8 @@
       "url": "https://calamacultural.cl/carteleracultural#exposici-n-persistencia-del-paisaje-2026-10-19",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La persistencia de la memoria, también conocido como Los relojes blandos o Los relojes derretidos, es un cuadro del pintor Salvador Dalí realizado en 1931. Realizado mediante la técnica del óleo sobre lienzo, es de estilo surrealista y sus medidas son 24 x 33 cm.",
-      "bio_artista": "La persistencia de la memoria, también conocido como Los relojes blandos o Los relojes derretidos, es un cuadro del pintor Salvador Dalí realizado en 1931. Realizado mediante la técnica del óleo sobre lienzo, es de estilo surrealista y sus medidas son 24 x 33 cm."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -216,8 +296,8 @@
       "url": "https://calamacultural.cl/carteleracultural#encuentro-de-coordinaci-n-museo-regional-de-antofagasta-2026-10-20",
       "lat": -23.6509,
       "lon": -70.3975,
-      "descripcion_extendida": "Monumento Histórico Municipal y Museo Regional \"El Porvenir\" se encuentra al sur de la ciudad de Villa Elisa, provincia de Entre Ríos, Argentina; cercano del centro.",
-      "bio_artista": "Monumento Histórico Municipal y Museo Regional \"El Porvenir\" se encuentra al sur de la ciudad de Villa Elisa, provincia de Entre Ríos, Argentina; cercano del centro."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -232,8 +312,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-10-20",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n.",
-      "bio_artista": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -616,8 +696,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-escenario-de-guerra-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
+      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
     },
     {
       "fuente": "CalamaCultural",
@@ -664,8 +744,8 @@
       "url": "https://calamacultural.cl/carteleracultural#experiencia-tur-stica-gastron-mica-con-chef-norte-2026-10-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior.",
+      "bio_artista": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior."
     },
     {
       "fuente": "PuntoTicket",
@@ -681,7 +761,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -761,7 +841,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -777,7 +857,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como «Día Nacional del Músico» en conmemoración a su nacimiento, bajo la Ley 27.106."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
