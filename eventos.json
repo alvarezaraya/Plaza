@@ -1,32 +1,16 @@
 {
-  "generado_en": "2026-10-13T13:27:07.938065+00:00",
+  "generado_en": "2026-10-13T21:41:17.614052+00:00",
   "region": "Antofagasta",
-  "total_eventos": 53,
+  "total_eventos": 52,
   "por_fuente": {
-    "Ticketplus": 2,
     "CalamaCultural": 36,
     "EsquinaRetornable": 7,
+    "Ticketplus": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 6,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "Ticketplus",
-      "nombre": "4° Festival de la Voz – Infancias y Juventudes",
-      "venue": "Teatro Municipal De Antofagasta",
-      "descripcion": "4° Festival de la Voz – Infancias y Juventudes",
-      "fecha_iso": "2026-10-13",
-      "fecha_texto": "13 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/775c420da2384d3769ee0f9ead772c0d012d5ae1.png?1791474170&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/4-festival-de-la-voz-infancias-y-juventudes",
-      "lat": -23.64636,
-      "lon": -70.396306,
-      "descripcion_extendida": "4° Festival de la Voz – Infancias y Juventudes",
-      "bio_artista": "El Festival Estrella Levante SOS 4.8 fue un festival internacional de acción artística sostenible que tuvo lugar en la ciudad de Murcia, España el primer fin de semana del mes de mayo, y desde su primera edición se realizó en el recinto ferial \"La Fica\", junto al Auditorio y Centro de Congresos Víctor Villegas."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Maleta Viajera. Escuela De Párvulos Papelucho",
@@ -121,7 +105,7 @@
       "url": "https://www.passline.com/eventos/escuela-de-rock",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Escuela de Rock es una película estadounidense de comedia musical de 2003, dirigida por Richard Linklater, producida por Paramount Pictures y Nickelodeon Movies y protagonizada por Jack Black."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +121,7 @@
       "url": "https://www.passline.com/eventos/halloween-563438",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Halloween o Hallowe'en es una fiesta que se celebra el 31 de octubre, víspera de la conmemoración cristiana occidental de Todos los Santos. Inicia la conmemoración de Allhallowtide, el periodo del año litúrgico dedicado a recordar a los muertos, incluidos los santos, los mártires y todos los fieles difuntos."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +137,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo-562615",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -169,7 +153,7 @@
       "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Las aventuras subterráneas de Alicia es el título que el escritor, matemático, lógico y sacerdote anglicano británico Charles Lutwidge Dodgson, bajo el más conocido seudónimo Lewis Carroll, utilizó para reunir las extravagantes historias contadas a un reverendo amigo suyo y a las tres hermanas Liddell, durante un descanso de una excursión en bote por el río Támesis."
     },
     {
       "fuente": "CalamaCultural",
@@ -457,7 +441,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
+      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
     },
     {
       "fuente": "CalamaCultural",
@@ -745,7 +729,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -793,7 +777,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -809,7 +793,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": "La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos y de aquel producido mediante tecnología electrónica, que también pueden ser mezclados. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -825,7 +809,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -841,7 +825,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como «Día Nacional del Músico» en conmemoración a su nacimiento, bajo la Ley 27.106."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
