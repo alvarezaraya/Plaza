@@ -1,13 +1,13 @@
 {
-  "generado_en": "2026-10-14T11:04:53.312349+00:00",
+  "generado_en": "2026-10-14T20:25:16.670635+00:00",
   "region": "Antofagasta",
-  "total_eventos": 51,
+  "total_eventos": 52,
   "por_fuente": {
     "EsquinaRetornable": 7,
     "CalamaCultural": 35,
     "Ticketplus": 1,
     "PuntoTicket": 1,
-    "CulturaAntofagasta": 6,
+    "CulturaAntofagasta": 7,
     "ComediaTicket": 1
   },
   "eventos": [
@@ -86,7 +86,7 @@
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/escuela-de-rock-poster.jpg",
-      "url": "https://www.passline.com/eventos/escuela-de-rock",
+      "url": "https://www.passline.com/eventos/escuela-de-rock-566688",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": "Escuela de Rock es una película estadounidense de comedia musical de 2003, dirigida por Richard Linklater, producida por Paramount Pictures y Nickelodeon Movies y protagonizada por Jack Black."
@@ -105,7 +105,7 @@
       "url": "https://www.passline.com/eventos/halloween-563438",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Halloween o Hallowe'en es una fiesta que se celebra el 31 de octubre, víspera de la conmemoración cristiana occidental de Todos los Santos. Inicia la conmemoración de Allhallowtide, el periodo del año litúrgico dedicado a recordar a los muertos, incluidos los santos, los mártires y todos los fieles difuntos."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -121,7 +121,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo-562615",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Las aventuras subterráneas de Alicia es el título que el escritor, matemático, lógico y sacerdote anglicano británico Charles Lutwidge Dodgson, bajo el más conocido seudónimo Lewis Carroll, utilizó para reunir las extravagantes historias contadas a un reverendo amigo suyo y a las tres hermanas Liddell, durante un descanso de una excursión en bote por el río Támesis."
     },
     {
       "fuente": "CalamaCultural",
@@ -312,8 +312,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gore-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio.",
-      "bio_artista": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -328,8 +328,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
-      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -344,8 +344,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
-      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -696,8 +696,8 @@
       "url": "https://calamacultural.cl/carteleracultural#experiencia-tur-stica-gastron-mica-con-chef-norte-2026-10-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior.",
+      "bio_artista": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior."
     },
     {
       "fuente": "PuntoTicket",
@@ -713,7 +713,23 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Corporación Cultural de Antofagasta se sumó a los festejos por los 100 años del Hogar de Ancianos de Antofagasta",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Músicos de la Orquesta Sinfónica realizaron entregaron un regalo musical a los adultos mayo residentes. Con motivo de los 100 años de funcionamiento en la capital regional del Hogar de Ancianos “Nuestra Señora del Carmen”, y en el marco de la Temporada Oficial de Conciertos 2026 de la Orquesta Sinfó",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/10/DSC02216-scaled-e1791987043463.jpg",
+      "url": "https://culturaantofagasta.cl/2026/10/14/corporacion-cultural-de-antofagasta-se-sumo-a-los-festejos-por-los-100-anos-del-hogar-de-ancianos-de-antofagasta/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Músicos de la Orquesta Sinfónica realizaron entregaron un regalo musical a los adultos mayo residentes. Con motivo de los 100 años de funcionamiento en la capital regional del Hogar de Ancianos “Nuestra Señora del Carmen”, y en el marco de la Temporada Oficial de Conciertos 2026 de la Orquesta Sinfó",
+      "bio_artista": "La Feria y Fiestas de la Magdalena son las fiestas mayores de la ciudad española de Castellón de la Plana. Se trata de unas fiestas de carácter fundacional que conmemoran el traslado de la población de la montaña al llano que, según la leyenda, tuvo lugar el tercer fin de semana de Cuaresma de 1252 después de que el 8 de septiembre de 1251 el rey Jaime I de Aragón concediera el Privilegio del Traslado para hacerlo."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -745,7 +761,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
     },
     {
       "fuente": "CulturaAntofagasta",
