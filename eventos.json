@@ -1,80 +1,16 @@
 {
-  "generado_en": "2026-10-14T20:25:16.670635+00:00",
+  "generado_en": "2026-10-15T10:48:21.191523+00:00",
   "region": "Antofagasta",
-  "total_eventos": 52,
+  "total_eventos": 49,
   "por_fuente": {
-    "EsquinaRetornable": 7,
-    "CalamaCultural": 35,
+    "EsquinaRetornable": 6,
+    "CalamaCultural": 33,
     "Ticketplus": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 7,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "THELMA & LOUISE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Ridley Scott · Mujeres que desafían: ciclo Susan Sarandon",
-      "descripcion_extendida": "Dir. Ridley Scott · Mujeres que desafían: ciclo Susan Sarandon",
-      "fecha_iso": "2026-10-14",
-      "fecha_texto": "14 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/02/thelmalouiseWeb.jpg",
-      "url": "https://www.passline.com/eventos/thelma-louise-563867",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Thelma y Louise es una película de género road movie de 1991, escrita por Callie Khouri, dirigida por Ridley Scott y protagonizada por Geena Davis y Susan Sarandon. Otros intérpretes son Harvey Keitel, Michael Madsen, Christopher McDonald y Brad Pitt. La película ganó un Óscar en 1991 al mejor guion original."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "VUELVO DONDE NUNCA ESTUVE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional + Cine Foro junto a Constanza Vásquez",
-      "descripcion_extendida": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional + Cine Foro junto a Constanza Vásquez",
-      "fecha_iso": "2026-10-14",
-      "fecha_texto": "14 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/Vuelvo-donde-nunca-estuve-poster.jpg",
-      "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Nunca digas nunca jamás es una película de 1983, versión cinematográfica de la novela publicada en 1961 Operación Trueno (Thunderball), que previamente había sido adaptada en 1965 bajo el mismo nombre. A diferencia de la mayoría de las películas de James Bond, Nunca digas nunca jamás no fue producida por Eon Productions, sino por una productora independiente y prácticamente desconocida llamada Taliafilm, propiedad de Jack Schwartzman."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Visita Pedagógica Pasado Geológico E Histórico De La Región. Colegio Catherine Booth",
-      "venue": "Muhncal",
-      "descripcion": "",
-      "fecha_iso": "2026-10-14",
-      "fecha_texto": "14 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#visita-pedag-gica-pasado-geol-gico-e-hist-rico-de-la-regi-n--2026-10-14",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Añoranza De Los Cuentos. Hogar De Ancianos San José",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-10-14",
-      "fecha_texto": "14 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-10-14",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
-      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "ESCUELA DE ROCK",
@@ -152,8 +88,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-tierra-esperanza-2026-10-16",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo.",
+      "bio_artista": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo."
     },
     {
       "fuente": "CalamaCultural",
@@ -168,8 +104,8 @@
       "url": "https://calamacultural.cl/carteleracultural#16-de-octubre-2026-10-16",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El 16 de octubre es el 289.º día del año —el 290.º en los años bisiestos— en el calendario gregoriano. Quedan 76 días para finalizar el año.",
+      "bio_artista": "El 16 de octubre es el 289.º día del año —el 290.º en los años bisiestos— en el calendario gregoriano. Quedan 76 días para finalizar el año."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -185,7 +121,23 @@
       "url": "https://www.passline.com/eventos/amelie-566630",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Amélie es una comedia romántica francesa de 2001 dirigida por Jean-Pierre Jeunet. El guion fue escrito por Jeunet con la colaboración del novelista Guillaume Laurant en los diálogos, fue protagonizada por Audrey Tautou como Amélie. Bajo el lema Elle va changer ta vie..., la película fue distribuida en Estados Unidos por Miramax y en España por Manga Films."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "VUELVO DONDE NUNCA ESTUVE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional",
+      "descripcion_extendida": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional",
+      "fecha_iso": "2026-10-17",
+      "fecha_texto": "17 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/Vuelvo-donde-nunca-estuve-poster.jpg",
+      "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve-565067",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Nunca digas nunca jamás es una película de 1983, versión cinematográfica de la novela publicada en 1961 Operación Trueno (Thunderball), que previamente había sido adaptada en 1965 bajo el mismo nombre. A diferencia de la mayoría de las películas de James Bond, Nunca digas nunca jamás no fue producida por Eon Productions, sino por una productora independiente y prácticamente desconocida llamada Taliafilm, propiedad de Jack Schwartzman."
     },
     {
       "fuente": "CalamaCultural",
@@ -761,7 +713,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
