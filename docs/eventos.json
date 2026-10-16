@@ -1,13 +1,13 @@
 {
-  "generado_en": "2026-10-16T10:35:18.915790+00:00",
+  "generado_en": "2026-10-16T19:48:29.279578+00:00",
   "region": "Antofagasta",
-  "total_eventos": 52,
+  "total_eventos": 53,
   "por_fuente": {
     "EsquinaRetornable": 9,
     "CalamaCultural": 33,
     "Ticketplus": 1,
     "PuntoTicket": 1,
-    "CulturaAntofagasta": 7,
+    "CulturaAntofagasta": 8,
     "ComediaTicket": 1
   },
   "eventos": [
@@ -105,7 +105,7 @@
       "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve-565067",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Nunca digas nunca jamás es una película de 1983, versión cinematográfica de la novela publicada en 1961 Operación Trueno (Thunderball), que previamente había sido adaptada en 1965 bajo el mismo nombre. A diferencia de la mayoría de las películas de James Bond, Nunca digas nunca jamás no fue producida por Eon Productions, sino por una productora independiente y prácticamente desconocida llamada Taliafilm, propiedad de Jack Schwartzman."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -600,8 +600,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -696,8 +696,8 @@
       "url": "https://calamacultural.cl/carteleracultural#experiencia-tur-stica-gastron-mica-con-chef-norte-2026-10-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior.",
-      "bio_artista": "Sumito Estévez Singh es un chef, escritor, personalidad televisiva, empresario y educador venezolano. Es uno de los cocineros más reconocidos tanto en su país, como en el exterior."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "PuntoTicket",
@@ -713,7 +713,23 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
+      "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Corporación Cultural de Antofagasta celebrará sus 42 años de vida con una gran Gala de Ballet",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Orquesta Sinfónica de Antofagasta y el Ballet de Cámara CCA darán vida a una leyenda mitológica de los pueblos originarios del Norte de Chile Con motivo de cumplirse 42 años desde la creación de la Corporación Cultural de Antofagasta, la Orquesta Sinfónica y el Ballet de Cámara de la CCA, ofrecerán ",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/10/FOTO-ESCUELA-BALLET-CCA.jpg3_.jpg",
+      "url": "https://culturaantofagasta.cl/2026/10/16/corporacion-cultural-de-antofagasta-celebrara-sus-42-anos-de-vida-con-una-gran-gala-de-ballet/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Orquesta Sinfónica de Antofagasta y el Ballet de Cámara CCA darán vida a una leyenda mitológica de los pueblos originarios del Norte de Chile Con motivo de cumplirse 42 años desde la creación de la Corporación Cultural de Antofagasta, la Orquesta Sinfónica y el Ballet de Cámara de la CCA, ofrecerán ",
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -729,7 +745,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Músicos de la Orquesta Sinfónica realizaron entregaron un regalo musical a los adultos mayo residentes. Con motivo de los 100 años de funcionamiento en la capital regional del Hogar de Ancianos “Nuestra Señora del Carmen”, y en el marco de la Temporada Oficial de Conciertos 2026 de la Orquesta Sinfó",
-      "bio_artista": "La Feria y Fiestas de la Magdalena son las fiestas mayores de la ciudad española de Castellón de la Plana. Se trata de unas fiestas de carácter fundacional que conmemoran el traslado de la población de la montaña al llano que, según la leyenda, tuvo lugar el tercer fin de semana de Cuaresma de 1252 después de que el 8 de septiembre de 1251 el rey Jaime I de Aragón concediera el Privilegio del Traslado para hacerlo."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
