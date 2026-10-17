@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-10-17T10:05:47.162911+00:00",
+  "generado_en": "2026-10-17T18:59:40.239057+00:00",
   "region": "Antofagasta",
-  "total_eventos": 51,
+  "total_eventos": 52,
   "por_fuente": {
     "EsquinaRetornable": 9,
     "CalamaCultural": 31,
+    "PuntoTicket": 2,
     "Ticketplus": 1,
-    "PuntoTicket": 1,
     "CulturaAntofagasta": 8,
     "ComediaTicket": 1
   },
@@ -137,6 +137,22 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Universidad de Chile vs. - Copa Chile Coca-Cola Sin Azúcar - Cuartos de Final Estadio Santa Laura - Universidad SEK",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Universidad de Chile vs. Antofagasta, miércoles 21 de octubre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
+      "fecha_iso": "2026-10-21",
+      "fecha_texto": "21 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/uch292_md.jpg",
+      "url": "https://www.puntoticket.com/evento/universidad-de-chile-vs-antofagasta-copachile",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Antofagasta, miércoles 21 de octubre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
       "bio_artista": ""
     },
     {
@@ -424,8 +440,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
+      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
     },
     {
       "fuente": "CalamaCultural",
@@ -504,8 +520,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
-      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
