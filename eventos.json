@@ -1,80 +1,16 @@
 {
-  "generado_en": "2026-10-16T19:48:29.279578+00:00",
+  "generado_en": "2026-10-17T10:05:47.162911+00:00",
   "region": "Antofagasta",
-  "total_eventos": 53,
+  "total_eventos": 51,
   "por_fuente": {
     "EsquinaRetornable": 9,
-    "CalamaCultural": 33,
+    "CalamaCultural": 31,
     "Ticketplus": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 8,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "HANGAR ROJO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Juan Pablo Sallato · Estreno Nacional",
-      "descripcion_extendida": "Dir. Juan Pablo Sallato · Estreno Nacional",
-      "fecha_iso": "2026-10-16",
-      "fecha_texto": "16 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/HANGAR-ROJO-POSTER.jpg",
-      "url": "https://www.passline.com/eventos/hangar-rojo-562615",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ALICIA BAJO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Manuela Thayer · Estreno Nacional",
-      "descripcion_extendida": "Dir. Manuela Thayer · Estreno Nacional",
-      "fecha_iso": "2026-10-16",
-      "fecha_texto": "16 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/alicia-bajo-la-higuera-poster.jpg",
-      "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Las aventuras subterráneas de Alicia es el título que el escritor, matemático, lógico y sacerdote anglicano británico Charles Lutwidge Dodgson, bajo el más conocido seudónimo Lewis Carroll, utilizó para reunir las extravagantes historias contadas a un reverendo amigo suyo y a las tres hermanas Liddell, durante un descanso de una excursión en bote por el río Támesis."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Programa Tierra Esperanza",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-10-16",
-      "fecha_texto": "16 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-tierra-esperanza-2026-10-16",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo.",
-      "bio_artista": "Una aerolínea de bajo costo o coste, aerolínea de bajo precio o aerolínea low-cost es una aerolínea que ofrece una tarifa más económica a cambio de eliminar muchos de los servicios que reciben los pasajeros de aerolíneas tradicionales, o que cobran estos servicios de forma adicional. El concepto surgió en los Estados Unidos antes de extenderse por Europa a principios de la década de 1990 y de ahí al resto del mundo ante el aumento en la demanda de transporte aéreo."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "16 De Octubre",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-16",
-      "fecha_texto": "16 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#16-de-octubre-2026-10-16",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El 16 de octubre es el 289.º día del año —el 290.º en los años bisiestos— en el calendario gregoriano. Quedan 76 días para finalizar el año.",
-      "bio_artista": "El 16 de octubre es el 289.º día del año —el 290.º en los años bisiestos— en el calendario gregoriano. Quedan 76 días para finalizar el año."
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "AMÉLIE",
@@ -105,7 +41,7 @@
       "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve-565067",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Nunca digas nunca jamás es una película de 1983, versión cinematográfica de la novela publicada en 1961 Operación Trueno (Thunderball), que previamente había sido adaptada en 1965 bajo el mismo nombre. A diferencia de la mayoría de las películas de James Bond, Nunca digas nunca jamás no fue producida por Eon Productions, sino por una productora independiente y prácticamente desconocida llamada Taliafilm, propiedad de Jack Schwartzman."
     },
     {
       "fuente": "CalamaCultural",
@@ -136,8 +72,8 @@
       "url": "https://calamacultural.cl/carteleracultural#lanzamiento-libro-historia-de-una-mujer-de-barro-2026-10-19",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El lanzamiento de jabalina es una prueba de atletismo en la que, como su nombre indica, se lanza una jabalina, hecha con material reglamentario de metal o fibra de vidrio, con el objetivo de que llegue lo más lejos posible.",
+      "bio_artista": "El lanzamiento de jabalina es una prueba de atletismo en la que, como su nombre indica, se lanza una jabalina, hecha con material reglamentario de metal o fibra de vidrio, con el objetivo de que llegue lo más lejos posible."
     },
     {
       "fuente": "CalamaCultural",
@@ -152,8 +88,8 @@
       "url": "https://calamacultural.cl/carteleracultural#exposici-n-persistencia-del-paisaje-2026-10-19",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La persistencia de la memoria, también conocido como Los relojes blandos o Los relojes derretidos, es un cuadro del pintor Salvador Dalí realizado en 1931. Realizado mediante la técnica del óleo sobre lienzo, es de estilo surrealista y sus medidas son 24 x 33 cm.",
+      "bio_artista": "La persistencia de la memoria, también conocido como Los relojes blandos o Los relojes derretidos, es un cuadro del pintor Salvador Dalí realizado en 1931. Realizado mediante la técnica del óleo sobre lienzo, es de estilo surrealista y sus medidas son 24 x 33 cm."
     },
     {
       "fuente": "CalamaCultural",
@@ -214,7 +150,7 @@
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/el-cliente-poster.jpg",
-      "url": "https://www.passline.com/eventos/thelma-louise-563867",
+      "url": "https://www.passline.com/eventos/el-cliente-1994",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": ""
@@ -230,7 +166,7 @@
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/Camino-a-la-fama-poster.jpg",
-      "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve",
+      "url": "https://www.passline.com/eventos/camino-a-la-fama",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": ""
@@ -253,6 +189,22 @@
     },
     {
       "fuente": "EsquinaRetornable",
+      "nombre": "HANGAR ROJO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Juan Pablo Sallato · Estreno Nacional",
+      "descripcion_extendida": "Dir. Juan Pablo Sallato · Estreno Nacional",
+      "fecha_iso": "2026-10-22",
+      "fecha_texto": "22 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/HANGAR-ROJO-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/hangar-rojo-562616",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
       "nombre": "LA BÚSQUEDA DEL OTRO",
       "venue": "Esquina Retornable",
       "descripcion": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
@@ -262,7 +214,7 @@
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/la-busqueda-del-otro-poster.jpg",
-      "url": "https://www.passline.com/eventos/halloween-563438",
+      "url": "https://www.passline.com/eventos/la-busqueda-del-otro",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": ""
@@ -329,6 +281,22 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "GENERACIÓN PERDIDA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Joel Schumacher · Truco o Travesura: especial Halloween",
+      "descripcion_extendida": "Dir. Joel Schumacher · Truco o Travesura: especial Halloween",
+      "fecha_iso": "2026-10-23",
+      "fecha_texto": "23 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/GENERACION-PERDIDA-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/generacion-perdida",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -406,7 +374,7 @@
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/alicia-bajo-la-higuera-poster.jpg",
-      "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera",
+      "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera-cine-foro",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": ""
@@ -422,7 +390,7 @@
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/el-resplandor-poster.jpg",
-      "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve-565067",
+      "url": "https://www.passline.com/eventos/el-resplandor-563436",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": ""
@@ -488,8 +456,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
+      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
     },
     {
       "fuente": "CalamaCultural",
@@ -504,8 +472,8 @@
       "url": "https://calamacultural.cl/carteleracultural#etnoastronom-a-en-realidad-virtual-2026-10-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
+      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
     },
     {
       "fuente": "CalamaCultural",
@@ -520,8 +488,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -536,8 +504,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
+      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
     },
     {
       "fuente": "CalamaCultural",
@@ -600,8 +568,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
