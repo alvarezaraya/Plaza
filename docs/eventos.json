@@ -1,48 +1,16 @@
 {
-  "generado_en": "2026-10-17T18:59:40.239057+00:00",
+  "generado_en": "2026-10-18T10:18:36.316555+00:00",
   "region": "Antofagasta",
-  "total_eventos": 52,
+  "total_eventos": 51,
   "por_fuente": {
-    "EsquinaRetornable": 9,
     "CalamaCultural": 31,
     "PuntoTicket": 2,
+    "EsquinaRetornable": 8,
     "Ticketplus": 1,
     "CulturaAntofagasta": 8,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "AMÉLIE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Jean-Pierre Jeunet · Cine a la carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. Jean-Pierre Jeunet · Cine a la carta: del libro de sugerencias",
-      "fecha_iso": "2026-10-17",
-      "fecha_texto": "17 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/05/amelie-poster.jpg",
-      "url": "https://www.passline.com/eventos/amelie-566630",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Amélie es una comedia romántica francesa de 2001 dirigida por Jean-Pierre Jeunet. El guion fue escrito por Jeunet con la colaboración del novelista Guillaume Laurant en los diálogos, fue protagonizada por Audrey Tautou como Amélie. Bajo el lema Elle va changer ta vie..., la película fue distribuida en Estados Unidos por Miramax y en España por Manga Films."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "VUELVO DONDE NUNCA ESTUVE",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional",
-      "descripcion_extendida": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional",
-      "fecha_iso": "2026-10-17",
-      "fecha_texto": "17 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/Vuelvo-donde-nunca-estuve-poster.jpg",
-      "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve-565067",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Nunca digas nunca jamás es una película de 1983, versión cinematográfica de la novela publicada en 1961 Operación Trueno (Thunderball), que previamente había sido adaptada en 1965 bajo el mismo nombre. A diferencia de la mayoría de las películas de James Bond, Nunca digas nunca jamás no fue producida por Eon Productions, sino por una productora independiente y prácticamente desconocida llamada Taliafilm, propiedad de Jack Schwartzman."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Semana De La Memoria",
@@ -104,8 +72,8 @@
       "url": "https://calamacultural.cl/carteleracultural#encuentro-de-coordinaci-n-museo-regional-de-antofagasta-2026-10-20",
       "lat": -23.6509,
       "lon": -70.3975,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Monumento Histórico Municipal y Museo Regional \"El Porvenir\" se encuentra al sur de la ciudad de Villa Elisa, provincia de Entre Ríos, Argentina; cercano del centro.",
+      "bio_artista": "Monumento Histórico Municipal y Museo Regional \"El Porvenir\" se encuentra al sur de la ciudad de Villa Elisa, provincia de Entre Ríos, Argentina; cercano del centro."
     },
     {
       "fuente": "CalamaCultural",
@@ -120,8 +88,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-10-20",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n.",
+      "bio_artista": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n."
     },
     {
       "fuente": "CalamaCultural",
@@ -301,6 +269,22 @@
     },
     {
       "fuente": "EsquinaRetornable",
+      "nombre": "VUELVO DONDE NUNCA ESTUVE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional",
+      "descripcion_extendida": "Dir. Constanza Vásquez y Andrés Morales · Estreno Nacional",
+      "fecha_iso": "2026-10-23",
+      "fecha_texto": "23 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/Vuelvo-donde-nunca-estuve-poster.jpg",
+      "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve-563674",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
       "nombre": "GENERACIÓN PERDIDA",
       "venue": "Esquina Retornable",
       "descripcion": "Dir. Joel Schumacher · Truco o Travesura: especial Halloween",
@@ -440,8 +424,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
-      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -520,8 +504,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
+      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
     },
     {
       "fuente": "CalamaCultural",
