@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-18T10:18:36.316555+00:00",
+  "generado_en": "2026-10-18T19:08:04.441305+00:00",
   "region": "Antofagasta",
   "total_eventos": 51,
   "por_fuente": {
@@ -121,7 +121,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Antofagasta, miércoles 21 de octubre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
-      "bio_artista": ""
+      "bio_artista": "Independiente vs. Universidad de Chile fue un partido de fútbol disputado el 20 de agosto de 2025 por la vuelta de los octavos de final de la Copa Sudamericana 2025 entre el Club Atlético Independiente de Argentina y el Club Universidad de Chile en el Estadio Libertadores de América-Ricardo Enrique Bochini de Avellaneda, Argentina."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/el-cliente-1994",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El cliente es una película estadounidense de 1994, dirigida por Joel Schumacher y protagonizada por Susan Sarandon, Tommy Lee Jones y Brad Renfro, que hace su debut cinematográfico. El filme está basado en una novela de John Grisham con el mismo título en inglés, The Client."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +153,7 @@
       "url": "https://www.passline.com/eventos/camino-a-la-fama",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Camino a la fama es una película de drama estadounidense del 2000, dirigida por Nicholas Hytner, sobre un grupo de jóvenes bailarines de diversos orígenes que se matriculan en la ficticia Academia de Ballet Americano en la ciudad de Nueva York. La película explora los problemas y dificultades en el mundo de la danza profesional, y cómo cada individuo hace frente a las tensiones."
     },
     {
       "fuente": "CalamaCultural",
@@ -185,7 +185,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo-562616",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -201,7 +201,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "En ciencias de la computación y matemáticas, la búsqueda binaria, también conocida, como búsqueda de intervalo medio o búsqueda logarítmica, es un algoritmo de búsqueda que encuentra la posición de un valor en un array ordenado. Compara el valor con el elemento en el medio del array, si no son iguales, la mitad en la cual el valor no puede estar es eliminada y la búsqueda continúa en la mitad restante hasta que el valor se encuentre."
     },
     {
       "fuente": "CalamaCultural",
@@ -793,7 +793,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": ""
+      "bio_artista": "La historia de la ópera tiene una duración relativamente corta dentro del contexto de la historia de la música en general: apareció en 1597, fecha en que se creó la primera ópera, La Dafne, de Jacopo Peri. Desde entonces se ha desarrollado de forma paralela a las diversas corrientes musicales que se han sucedido a lo largo del tiempo hasta nuestros días, ligada por lo general al actual concepto de música clásica."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -809,7 +809,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "bio_artista": ""
+      "bio_artista": "Luis Alberto Spinetta fue un músico, cantante, guitarrista, poeta, escritor, compositor y multinstrumentista argentino, considerado uno de los más importantes músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, compositiva, lírica y poética de sus obras musicales, tanto en sus múltiples agrupaciones y como solista. El gobierno argentino estableció el 23 de enero de cada año como «Día Nacional del Músico» en conmemoración a su nacimiento, bajo la Ley 27.106."
     },
     {
       "fuente": "ComediaTicket",
