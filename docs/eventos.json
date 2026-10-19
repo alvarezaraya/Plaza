@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-19T11:57:39.509660+00:00",
+  "generado_en": "2026-10-19T21:20:32.260801+00:00",
   "region": "Antofagasta",
   "total_eventos": 51,
   "por_fuente": {
@@ -121,7 +121,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Antofagasta, miércoles 21 de octubre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
-      "bio_artista": "Independiente vs. Universidad de Chile fue un partido de fútbol disputado el 20 de agosto de 2025 por la vuelta de los octavos de final de la Copa Sudamericana 2025 entre el Club Atlético Independiente de Argentina y el Club Universidad de Chile en el Estadio Libertadores de América-Ricardo Enrique Bochini de Avellaneda, Argentina."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/el-cliente-1994",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "El cliente es una película estadounidense de 1994, dirigida por Joel Schumacher y protagonizada por Susan Sarandon, Tommy Lee Jones y Brad Renfro, que hace su debut cinematográfico. El filme está basado en una novela de John Grisham con el mismo título en inglés, The Client."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +153,7 @@
       "url": "https://www.passline.com/eventos/camino-a-la-fama",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Camino a la fama es una película de drama estadounidense del 2000, dirigida por Nicholas Hytner, sobre un grupo de jóvenes bailarines de diversos orígenes que se matriculan en la ficticia Academia de Ballet Americano en la ciudad de Nueva York. La película explora los problemas y dificultades en el mundo de la danza profesional, y cómo cada individuo hace frente a las tensiones."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -185,7 +185,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo-562616",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -201,7 +201,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -456,8 +456,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-10-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
-      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -472,8 +472,8 @@
       "url": "https://calamacultural.cl/carteleracultural#etnoastronom-a-en-realidad-virtual-2026-10-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
-      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
