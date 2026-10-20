@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-10-19T21:20:32.260801+00:00",
+  "generado_en": "2026-10-20T10:52:58.041505+00:00",
   "region": "Antofagasta",
-  "total_eventos": 51,
+  "total_eventos": 48,
   "por_fuente": {
-    "CalamaCultural": 31,
+    "CalamaCultural": 28,
     "PuntoTicket": 2,
     "EsquinaRetornable": 8,
     "Ticketplus": 1,
@@ -11,54 +11,6 @@
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Semana De La Memoria",
-      "venue": "Chiu Chiu",
-      "descripcion": "",
-      "fecha_iso": "2026-10-19",
-      "fecha_texto": "19 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#semana-de-la-memoria-2026-10-19",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Lanzamiento Libro “Historia De Una Mujer De Barro”",
-      "venue": "Muhncal",
-      "descripcion": "",
-      "fecha_iso": "2026-10-19",
-      "fecha_texto": "19 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#lanzamiento-libro-historia-de-una-mujer-de-barro-2026-10-19",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El lanzamiento de jabalina es una prueba de atletismo en la que, como su nombre indica, se lanza una jabalina, hecha con material reglamentario de metal o fibra de vidrio, con el objetivo de que llegue lo más lejos posible.",
-      "bio_artista": "El lanzamiento de jabalina es una prueba de atletismo en la que, como su nombre indica, se lanza una jabalina, hecha con material reglamentario de metal o fibra de vidrio, con el objetivo de que llegue lo más lejos posible."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Exposición “Persistencia Del Paisaje”",
-      "venue": "Galería De Arte Pablo Neruda",
-      "descripcion": "",
-      "fecha_iso": "2026-10-19",
-      "fecha_texto": "19 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#exposici-n-persistencia-del-paisaje-2026-10-19",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "La persistencia de la memoria, también conocido como Los relojes blandos o Los relojes derretidos, es un cuadro del pintor Salvador Dalí realizado en 1931. Realizado mediante la técnica del óleo sobre lienzo, es de estilo surrealista y sus medidas son 24 x 33 cm.",
-      "bio_artista": "La persistencia de la memoria, también conocido como Los relojes blandos o Los relojes derretidos, es un cuadro del pintor Salvador Dalí realizado en 1931. Realizado mediante la técnica del óleo sobre lienzo, es de estilo surrealista y sus medidas son 24 x 33 cm."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Encuentro De Coordinación Museo Regional De Antofagasta",
@@ -121,7 +73,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Antofagasta, miércoles 21 de octubre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
-      "bio_artista": ""
+      "bio_artista": "Independiente vs. Universidad de Chile fue un partido de fútbol disputado el 20 de agosto de 2025 por la vuelta de los octavos de final de la Copa Sudamericana 2025 entre el Club Atlético Independiente de Argentina y el Club Universidad de Chile en el Estadio Libertadores de América-Ricardo Enrique Bochini de Avellaneda, Argentina."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +89,7 @@
       "url": "https://www.passline.com/eventos/el-cliente-1994",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El cliente es una película estadounidense de 1994, dirigida por Joel Schumacher y protagonizada por Susan Sarandon, Tommy Lee Jones y Brad Renfro, que hace su debut cinematográfico. El filme está basado en una novela de John Grisham con el mismo título en inglés, The Client."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +105,7 @@
       "url": "https://www.passline.com/eventos/camino-a-la-fama",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Camino a la fama es una película de drama estadounidense del 2000, dirigida por Nicholas Hytner, sobre un grupo de jóvenes bailarines de diversos orígenes que se matriculan en la ficticia Academia de Ballet Americano en la ciudad de Nueva York. La película explora los problemas y dificultades en el mundo de la danza profesional, y cómo cada individuo hace frente a las tensiones."
     },
     {
       "fuente": "CalamaCultural",
@@ -216,8 +168,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gore-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio.",
+      "bio_artista": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio."
     },
     {
       "fuente": "CalamaCultural",
@@ -232,8 +184,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
+      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
     },
     {
       "fuente": "CalamaCultural",
@@ -248,8 +200,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
+      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -281,7 +233,7 @@
       "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve-563674",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Nunca digas nunca jamás es una película de 1983, versión cinematográfica de la novela publicada en 1961 Operación Trueno (Thunderball), que previamente había sido adaptada en 1965 bajo el mismo nombre. A diferencia de la mayoría de las películas de James Bond, Nunca digas nunca jamás no fue producida por Eon Productions, sino por una productora independiente y prácticamente desconocida llamada Taliafilm, propiedad de Jack Schwartzman."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -488,8 +440,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -504,8 +456,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
-      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
