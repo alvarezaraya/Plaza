@@ -1,13 +1,13 @@
 {
-  "generado_en": "2026-10-20T10:52:58.041505+00:00",
+  "generado_en": "2026-10-20T20:15:24.012817+00:00",
   "region": "Antofagasta",
-  "total_eventos": 48,
+  "total_eventos": 47,
   "por_fuente": {
     "CalamaCultural": 28,
     "PuntoTicket": 2,
     "EsquinaRetornable": 8,
     "Ticketplus": 1,
-    "CulturaAntofagasta": 8,
+    "CulturaAntofagasta": 7,
     "ComediaTicket": 1
   },
   "eventos": [
@@ -105,7 +105,7 @@
       "url": "https://www.passline.com/eventos/camino-a-la-fama",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Camino a la fama es una película de drama estadounidense del 2000, dirigida por Nicholas Hytner, sobre un grupo de jóvenes bailarines de diversos orígenes que se matriculan en la ficticia Academia de Ballet Americano en la ciudad de Nueva York. La película explora los problemas y dificultades en el mundo de la danza profesional, y cómo cada individuo hace frente a las tensiones."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -168,8 +168,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gore-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio.",
-      "bio_artista": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -184,8 +184,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
-      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -200,8 +200,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
-      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -233,7 +233,7 @@
       "url": "https://www.passline.com/eventos/vuelvo-donde-nunca-estuve-563674",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Nunca digas nunca jamás es una película de 1983, versión cinematográfica de la novela publicada en 1961 Operación Trueno (Thunderball), que previamente había sido adaptada en 1965 bajo el mismo nombre. A diferencia de la mayoría de las películas de James Bond, Nunca digas nunca jamás no fue producida por Eon Productions, sino por una productora independiente y prácticamente desconocida llamada Taliafilm, propiedad de Jack Schwartzman."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -568,8 +568,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-escenario-de-guerra-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
+      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
     },
     {
       "fuente": "CalamaCultural",
@@ -745,22 +745,6 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "A 35 AÑOS DEL ALUVIÓN DE 1991, ORQUESTA SINFÓNICA DE ANTOFAGASTA ESTRENA OBRA INSPIRADA EN FATÍDICO ACONTECIMIENTO",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/06/FOTO-RODOLFO-FISHER-Y-CUARTETO-VILA.jpeg",
-      "url": "https://culturaantofagasta.cl/2026/06/10/a-35-anos-del-aluvion-de-1991-orquesta-sinfonica-de-antofagasta-estrena-obra-inspirada-en-fatidico-acontecimiento/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Bajo la dirección de Rodolfo Fischer y con la participación especial del Cuarteto Vila, el III Concierto de la Temporada Oficial 2026 de la OSA presentará un repertorio que une memoria e identidad local, creación contemporánea y grandes clásicos del repertorio universal. El estreno absoluto en Chile",
       "bio_artista": ""
     },
     {
