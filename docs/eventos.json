@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-21T11:05:00.699764+00:00",
+  "generado_en": "2026-10-21T20:27:00.121542+00:00",
   "region": "Antofagasta",
   "total_eventos": 44,
   "por_fuente": {
@@ -105,7 +105,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "En ciencias de la computación y matemáticas, la búsqueda binaria, también conocida, como búsqueda de intervalo medio o búsqueda logarítmica, es un algoritmo de búsqueda que encuentra la posición de un valor en un array ordenado. Compara el valor con el elemento en el medio del array, si no son iguales, la mitad en la cual el valor no puede estar es eliminada y la búsqueda continúa en la mitad restante hasta que el valor se encuentre."
+      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
     },
     {
       "fuente": "CalamaCultural",
