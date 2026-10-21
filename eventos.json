@@ -1,64 +1,16 @@
 {
-  "generado_en": "2026-10-20T20:15:24.012817+00:00",
+  "generado_en": "2026-10-21T11:05:00.699764+00:00",
   "region": "Antofagasta",
-  "total_eventos": 47,
+  "total_eventos": 44,
   "por_fuente": {
-    "CalamaCultural": 28,
     "PuntoTicket": 2,
     "EsquinaRetornable": 8,
+    "CalamaCultural": 25,
     "Ticketplus": 1,
     "CulturaAntofagasta": 7,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Encuentro De Coordinación Museo Regional De Antofagasta",
-      "venue": "Muhncal",
-      "descripcion": "",
-      "fecha_iso": "2026-10-20",
-      "fecha_texto": "20 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#encuentro-de-coordinaci-n-museo-regional-de-antofagasta-2026-10-20",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Monumento Histórico Municipal y Museo Regional \"El Porvenir\" se encuentra al sur de la ciudad de Villa Elisa, provincia de Entre Ríos, Argentina; cercano del centro.",
-      "bio_artista": "Monumento Histórico Municipal y Museo Regional \"El Porvenir\" se encuentra al sur de la ciudad de Villa Elisa, provincia de Entre Ríos, Argentina; cercano del centro."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Ilustre Municipalidad De Calama",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-10-20",
-      "fecha_texto": "20 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-10-20",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n.",
-      "bio_artista": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala Neurosensorial Unidades Transversales Aps Calama",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-20",
-      "fecha_texto": "20 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-neurosensorial-unidades-transversales-ap-2026-10-20",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "PuntoTicket",
       "nombre": "Universidad de Chile vs. - Copa Chile Coca-Cola Sin Azúcar - Cuartos de Final Estadio Santa Laura - Universidad SEK",
@@ -105,7 +57,7 @@
       "url": "https://www.passline.com/eventos/camino-a-la-fama",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Camino a la fama es una película de drama estadounidense del 2000, dirigida por Nicholas Hytner, sobre un grupo de jóvenes bailarines de diversos orígenes que se matriculan en la ficticia Academia de Ballet Americano en la ciudad de Nueva York. La película explora los problemas y dificultades en el mundo de la danza profesional, y cómo cada individuo hace frente a las tensiones."
     },
     {
       "fuente": "CalamaCultural",
@@ -137,7 +89,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo-562616",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -153,7 +105,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "En ciencias de la computación y matemáticas, la búsqueda binaria, también conocida, como búsqueda de intervalo medio o búsqueda logarítmica, es un algoritmo de búsqueda que encuentra la posición de un valor en un array ordenado. Compara el valor con el elemento en el medio del array, si no son iguales, la mitad en la cual el valor no puede estar es eliminada y la búsqueda continúa en la mitad restante hasta que el valor se encuentre."
     },
     {
       "fuente": "CalamaCultural",
@@ -168,8 +120,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gore-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio.",
+      "bio_artista": "El cine de Europa se refiere a las industrias cinematográficas y las películas producidas en el continente de Europa. La historia del cine de Italia comenzó pocos meses después de que los hermanos franceses Lumière, quienes realizaron la primera proyección pública de una película el 28 de diciembre de 1895, un evento considerado el nacimiento del cine, iniciaran las exhibiciones cinematográficas. La historia del cine de Alemania se remonta a los años del nacimiento del medio."
     },
     {
       "fuente": "CalamaCultural",
@@ -184,8 +136,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
+      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
     },
     {
       "fuente": "CalamaCultural",
@@ -200,8 +152,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-10-22",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
+      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -568,8 +520,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-escenario-de-guerra-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
-      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
