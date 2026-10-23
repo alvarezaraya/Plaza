@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-10-23T10:56:51.332962+00:00",
+  "generado_en": "2026-10-23T20:21:17.615365+00:00",
   "region": "Antofagasta",
-  "total_eventos": 34,
+  "total_eventos": 36,
   "por_fuente": {
-    "EsquinaRetornable": 4,
+    "EsquinaRetornable": 6,
     "CalamaCultural": 20,
     "Ticketplus": 1,
     "PuntoTicket": 1,
@@ -105,7 +105,7 @@
       "lat": -23.699305,
       "lon": -70.422728,
       "descripcion_extendida": "\"ILLAPU - 55 AÑOS\" - ROCK AND SOCCER ANTOFAGASTA",
-      "bio_artista": "Illapu es un reconocido grupo chileno de música de raíz folclórica andina, fundado en 1971 en la ciudad de Antofagasta. El nombre Illapu viene del idioma quechua y significa «rayo». En sus primeros discos el grupo se caracterizaba por el rescate de instrumentos, melodías y líricas relacionadas con la cultura andina."
+      "bio_artista": "Illapu are a Chilean folk and Andean musical ensemble that was formed in 1971 in Antofagasta, in northern Chile, by the brothers José Miguel, Jaime, Andrés and Roberto Márquez Bugueño. A later addition to the group was Osvaldo Torres."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -220,6 +220,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "HOMBRE MUERTO CAMINANDO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Tim Robbins · Mujeres que desafían: ciclo Susan Sarandon",
+      "descripcion_extendida": "Dir. Tim Robbins · Mujeres que desafían: ciclo Susan Sarandon",
+      "fecha_iso": "2026-10-28",
+      "fecha_texto": "28 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/dead-man-walking-poster.jpg",
+      "url": "https://www.passline.com/eventos/hombre-muerto-caminando",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Taller De Tai Chi",
       "venue": "Biblioteca Norte",
@@ -298,6 +314,22 @@
       "lon": -68.9295,
       "descripcion_extendida": "",
       "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "COBIJA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Pamela Pequeño · Estreno Nacional",
+      "descripcion_extendida": "Dir. Pamela Pequeño · Estreno Nacional",
+      "fecha_iso": "2026-10-29",
+      "fecha_texto": "29 de octubre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/cobija-poster.jpg",
+      "url": "https://www.passline.com/eventos/cobija",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Cobija is a city in Bolivia, capital of the department of Pando, and is located about 600 km north of La Paz in the Amazon Basin on the border with Brazil. Cobija lies on the banks of the Rio Acre across from the Brazilian city of Brasiléia. Cobija lies at an elevation of ca. 280 m above sea level and has a tropical and rainy climate. Cobija has approximately 55,000 inhabitants, is the seat of a university and capital of the Bolivian Pando Department."
     },
     {
       "fuente": "CalamaCultural",
@@ -425,7 +457,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -441,7 +473,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Orquesta Sinfónica de Antofagasta y el Ballet de Cámara CCA darán vida a una leyenda mitológica de los pueblos originarios del Norte de Chile Con motivo de cumplirse 42 años desde la creación de la Corporación Cultural de Antofagasta, la Orquesta Sinfónica y el Ballet de Cámara de la CCA, ofrecerán ",
-      "bio_artista": ""
+      "bio_artista": "El Teatro Principal de Burgos es un edificio de la época isabelina situado al comienzo del paseo del Espolón, enfrente al palacio de la Diputación Provincial. Se empezó a construir en 1843 por el arquitecto Bernardino Martínez de Velasco, bajo la dirección de Francisco de Angoitia, y fue inaugurado en 1858. Desde su inauguración y hasta 1956 albergó gran número de conciertos y espectáculos. En el mismo edificio se encontraba el llamado Salón de Recreo."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -457,7 +489,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Músicos de la Orquesta Sinfónica realizaron entregaron un regalo musical a los adultos mayo residentes. Con motivo de los 100 años de funcionamiento en la capital regional del Hogar de Ancianos “Nuestra Señora del Carmen”, y en el marco de la Temporada Oficial de Conciertos 2026 de la Orquesta Sinfó",
-      "bio_artista": ""
+      "bio_artista": "La Feria y Fiestas de la Magdalena son las fiestas mayores de la ciudad española de Castellón de la Plana. Se trata de unas fiestas de carácter fundacional que conmemoran el traslado de la población de la montaña al llano que, según la leyenda, tuvo lugar el tercer fin de semana de Cuaresma de 1252 después de que el 8 de septiembre de 1251 el rey Jaime I de Aragón concediera el Privilegio del Traslado para hacerlo."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -489,7 +521,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
     },
     {
       "fuente": "CulturaAntofagasta",
