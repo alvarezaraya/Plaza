@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-10-26T12:14:25.251010+00:00",
+  "generado_en": "2026-10-26T21:17:53.305371+00:00",
   "region": "Antofagasta",
   "total_eventos": 32,
   "por_fuente": {
@@ -279,8 +279,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-escenario-de-guerra-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "The history of the Puerta del Sol represents an essential part of the memory of the City of Madrid, not only because the Puerta del Sol is a point of frequent passage, but also because it constitutes the \"center of gravity\" of Madrid's urban planning.",
-      "bio_artista": "The history of the Puerta del Sol represents an essential part of the memory of the City of Madrid, not only because the Puerta del Sol is a point of frequent passage, but also because it constitutes the \"center of gravity\" of Madrid's urban planning."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -296,7 +296,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo-562618",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -312,7 +312,7 @@
       "url": "https://www.passline.com/eventos/scream-563434",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "The Scream is an image first created by the Norwegian artist Edvard Munch in 1893, and later repeated by him in different versions. The agonized face in the painting has become one of the most iconic images in art, seen as representing a profound experience of existential dread related to the human condition. Munch's work, including The Scream, had a formative influence on the Expressionist movement."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
