@@ -1,63 +1,15 @@
 {
-  "generado_en": "2026-10-26T21:17:53.305371+00:00",
+  "generado_en": "2026-10-27T11:31:27.731658+00:00",
   "region": "Antofagasta",
-  "total_eventos": 32,
+  "total_eventos": 29,
   "por_fuente": {
-    "CalamaCultural": 16,
+    "CalamaCultural": 13,
     "EsquinaRetornable": 6,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 8,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Jardín Infantil Planeta Tierra 1 Y 2",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-10-26",
-      "fecha_texto": "26 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-planeta-tierra-1-y-2-2026-10-26",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
-      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Jardín Infantil Colegio Adventista",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-10-26",
-      "fecha_texto": "26 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-colegio-adventista-2026-10-26",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Residencia Familia Casa Esperanza",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-26",
-      "fecha_texto": "26 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-10-26",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
-      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Etnoastronomía En Realidad Virtual",
@@ -104,7 +56,7 @@
       "url": "https://www.passline.com/eventos/generacion-perdida-571242",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La generación perdida fue la cohorte generacional que alcanzó la mayoría de edad durante la Primera Guerra Mundial. En este contexto, «perdida» se refiere al espíritu desorientado, errante y sin dirección de muchos de los supervivientes de la guerra en el periodo inicial de la posguerra. El término también se utiliza en particular para referirse a un grupo de escritores estadounidenses expatriados que vivieron en París durante el decenio de 1920."
     },
     {
       "fuente": "CalamaCultural",
@@ -119,8 +71,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -135,8 +87,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-10-28",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
+      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
     },
     {
       "fuente": "CalamaCultural",
@@ -231,8 +183,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -279,8 +231,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-escenario-de-guerra-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
+      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -296,7 +248,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo-562618",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
     },
     {
       "fuente": "EsquinaRetornable",
