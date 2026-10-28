@@ -1,31 +1,15 @@
 {
-  "generado_en": "2026-10-27T21:05:14.021720+00:00",
+  "generado_en": "2026-10-28T12:01:57.493140+00:00",
   "region": "Antofagasta",
-  "total_eventos": 29,
+  "total_eventos": 28,
   "por_fuente": {
-    "CalamaCultural": 13,
     "EsquinaRetornable": 6,
+    "CalamaCultural": 12,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 8,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Etnoastronomía En Realidad Virtual",
-      "venue": "Tambo, Parque El Loa",
-      "descripcion": "",
-      "fecha_iso": "2026-10-27",
-      "fecha_texto": "27 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#etnoastronom-a-en-realidad-virtual-2026-10-27",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
-      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "HOMBRE MUERTO CAMINANDO",
@@ -376,7 +360,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Músicos de la Orquesta Sinfónica realizaron entregaron un regalo musical a los adultos mayo residentes. Con motivo de los 100 años de funcionamiento en la capital regional del Hogar de Ancianos “Nuestra Señora del Carmen”, y en el marco de la Temporada Oficial de Conciertos 2026 de la Orquesta Sinfó",
-      "bio_artista": "La Feria y Fiestas de la Magdalena son las fiestas mayores de la ciudad española de Castellón de la Plana. Se trata de unas fiestas de carácter fundacional que conmemoran el traslado de la población de la montaña al llano que, según la leyenda, tuvo lugar el tercer fin de semana de Cuaresma de 1252 después de que el 8 de septiembre de 1251 el rey Jaime I de Aragón concediera el Privilegio del Traslado para hacerlo."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -408,7 +392,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -424,7 +408,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -440,7 +424,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": "La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos y de aquel producido mediante tecnología electrónica, que también pueden ser mezclados. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
