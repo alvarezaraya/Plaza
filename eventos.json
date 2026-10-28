@@ -1,12 +1,12 @@
 {
-  "generado_en": "2026-10-28T12:01:57.493140+00:00",
+  "generado_en": "2026-10-28T21:27:30.434485+00:00",
   "region": "Antofagasta",
-  "total_eventos": 28,
+  "total_eventos": 27,
   "por_fuente": {
     "EsquinaRetornable": 6,
     "CalamaCultural": 12,
     "PuntoTicket": 1,
-    "CulturaAntofagasta": 8,
+    "CulturaAntofagasta": 7,
     "ComediaTicket": 1
   },
   "eventos": [
@@ -136,7 +136,7 @@
       "url": "https://www.passline.com/eventos/cobija",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Cobija is a city in Bolivia, capital of the department of Pando, and is located about 600 km north of La Paz in the Amazon Basin on the border with Brazil. Cobija lies on the banks of the Rio Acre across from the Brazilian city of Brasiléia. Cobija lies at an elevation of ca. 280 m above sea level and has a tropical and rainy climate. Cobija has approximately 55,000 inhabitants, is the seat of a university and capital of the Bolivian Pando Department."
+      "bio_artista": "El término cobija puede referirse a:Cobija (Bolivia), municipio y ciudad capital del departamento de Pando (Bolivia). Departamento de Cobija, antiguo departamento de Bolivia, correspondiente a la actual región chilena de Antofagasta. Cobija (Chile), puerto pesquero ubicado en la región de Antofagasta (Chile). Cobija (comuna), una antigua comuna chilena, una de las que integró el antiguo departamento de Tocopilla, en la provincia de Antofagasta (Chile). Una cobija o frazada."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -152,7 +152,7 @@
       "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera-566447",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Bajo sospecha is a Spanish crime drama television series produced by Bambú Producciones for Atresmedia. It airs on Atresmedia's main channel Antena 3. The first season was initially planned to have 10 episodes, but about 20% of the filmed scenes were edited out to reduce the number to 8. The first season revolved around an investigation by undercover police officers Víctor Reyes and Laura Cortés, alongside their superior, Superintendent Casas."
     },
     {
       "fuente": "CalamaCultural",
@@ -167,8 +167,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -424,22 +424,6 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CulturaAntofagasta",
-      "nombre": "Referente de la música en Chile y el mundo, dirigirá el próximo concierto de la Orquesta Sinfónica de Antofagasta",
-      "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
-      "fecha_iso": "",
-      "fecha_texto": "",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/06/PARRA.png",
-      "url": "https://culturaantofagasta.cl/2026/06/19/referente-de-la-musica-en-chile-y-el-mundo-dirigira-el-proximo-concierto-de-la-orquesta-sinfonica-de-antofagasta/",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Por primera vez el destacado director chileno Paolo Bortolameolli, dirigirá en nuestra ciudad donde junto a la OSA presentarán dos obras en estreno. Uno de los hitos musicales más destacados de los últimos años se vivirá en Antofagasta con motivo del “IV Concierto de la Temporada 2026 de la Orquesta",
       "bio_artista": ""
     },
     {
