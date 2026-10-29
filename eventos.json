@@ -1,127 +1,15 @@
 {
-  "generado_en": "2026-10-28T21:27:30.434485+00:00",
+  "generado_en": "2026-10-29T12:11:06.710452+00:00",
   "region": "Antofagasta",
-  "total_eventos": 27,
+  "total_eventos": 20,
   "por_fuente": {
-    "EsquinaRetornable": 6,
-    "CalamaCultural": 12,
+    "EsquinaRetornable": 4,
+    "CalamaCultural": 7,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 7,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "HOMBRE MUERTO CAMINANDO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Tim Robbins · Mujeres que desafían: ciclo Susan Sarandon",
-      "descripcion_extendida": "Dir. Tim Robbins · Mujeres que desafían: ciclo Susan Sarandon",
-      "fecha_iso": "2026-10-28",
-      "fecha_texto": "28 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/dead-man-walking-poster.jpg",
-      "url": "https://www.passline.com/eventos/hombre-muerto-caminando",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Dead Man Walking es una película estadounidense de 1995 protagonizada por Susan Sarandon y Sean Penn, y dirigida por Tim Robbins."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "GENERACIÓN PERDIDA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Joel Schumacher · Truco o Travesura: especial Halloween",
-      "descripcion_extendida": "Dir. Joel Schumacher · Truco o Travesura: especial Halloween",
-      "fecha_iso": "2026-10-28",
-      "fecha_texto": "28 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/GENERACION-PERDIDA-POSTER.jpg",
-      "url": "https://www.passline.com/eventos/generacion-perdida-571242",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La generación perdida fue la cohorte generacional que alcanzó la mayoría de edad durante la Primera Guerra Mundial. En este contexto, «perdida» se refiere al espíritu desorientado, errante y sin dirección de muchos de los supervivientes de la guerra en el periodo inicial de la posguerra. El término también se utiliza en particular para referirse a un grupo de escritores estadounidenses expatriados que vivieron en París durante el decenio de 1920."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Taller De Tai Chi",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-28",
-      "fecha_texto": "28 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-28",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Tour Explorando El Parque El Loa",
-      "venue": "Parque El Loa",
-      "descripcion": "",
-      "fecha_iso": "2026-10-28",
-      "fecha_texto": "28 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#tour-explorando-el-parque-el-loa-2026-10-28",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook.",
-      "bio_artista": "El primer viaje de James Cook fue una expedición al océano Pacífico sur organizada de forma combinada por la Royal Navy y la Royal Society que tuvo lugar desde agosto de 1768 hasta julio de 1771 y en la cual, a bordo del HMB Endeavour, Cook y sus hombres circunnavegaron el globo. Fue el primero de los tres viajes al Pacífico capitaneados por Cook."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Cft Estatal",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-10-28",
-      "fecha_texto": "28 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-cft-estatal-2026-10-28",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Cesfam Norte",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-28",
-      "fecha_texto": "28 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-cesfam-norte-2026-10-28",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala De Estimulación Cesfam Central",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-28",
-      "fecha_texto": "28 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-de-estimulaci-n-cesfam-central-2026-10-28",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "COBIJA",
@@ -152,7 +40,7 @@
       "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera-566447",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Bajo sospecha is a Spanish crime drama television series produced by Bambú Producciones for Atresmedia. It airs on Atresmedia's main channel Antena 3. The first season was initially planned to have 10 episodes, but about 20% of the filmed scenes were edited out to reduce the number to 8. The first season revolved around an investigation by undercover police officers Víctor Reyes and Laura Cortés, alongside their superior, Superintendent Casas."
+      "bio_artista": "Las aventuras subterráneas de Alicia es el título que el escritor, matemático, lógico y sacerdote anglicano británico Charles Lutwidge Dodgson, bajo el más conocido seudónimo Lewis Carroll, utilizó para reunir las extravagantes historias contadas a un reverendo amigo suyo y a las tres hermanas Liddell, durante un descanso de una excursión en bote por el río Támesis."
     },
     {
       "fuente": "CalamaCultural",
@@ -215,8 +103,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-escenario-de-guerra-2026-10-29",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
+      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -392,7 +280,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Agrupación musical cerrará el primer semestre con el concierto “Emociones Sinfónicas” Cerrando el primer semestre de este 2026, la Orquesta Sinfónica de Antofagasta presentará el concierto “Emociones Sinfónicas: Ditters&Elgar” que tendrá como invitados al director orquestal español Javier Fajardo y ",
-      "bio_artista": ""
+      "bio_artista": "La Orquesta Sinfónica de Madrid (OSM) es una agrupación musical española fundada en 1903. Es la orquesta titular del Teatro Real de Madrid desde 1998."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -408,7 +296,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": ""
+      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -424,7 +312,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": ""
+      "bio_artista": "La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos y de aquel producido mediante tecnología electrónica, que también pueden ser mezclados. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica."
     },
     {
       "fuente": "ComediaTicket",
