@@ -1,11 +1,11 @@
 {
-  "generado_en": "2026-10-30T12:03:04.297151+00:00",
+  "generado_en": "2026-10-30T21:16:55.847279+00:00",
   "region": "Antofagasta",
-  "total_eventos": 14,
+  "total_eventos": 18,
   "por_fuente": {
-    "EsquinaRetornable": 2,
+    "EsquinaRetornable": 5,
     "CalamaCultural": 3,
-    "PuntoTicket": 1,
+    "PuntoTicket": 2,
     "CulturaAntofagasta": 7,
     "ComediaTicket": 1
   },
@@ -88,6 +88,70 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ISLA DE PERROS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Wes Anderson · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Wes Anderson · Cine a la Carta: del libro de sugerencias",
+      "fecha_iso": "2026-11-04",
+      "fecha_texto": "4 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/isla-de-perros-poster.jpg",
+      "url": "https://www.passline.com/eventos/isla-de-perros-573363",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Isle of Dogs puede hacer referencia, en esta enciclopedia:Isle of Dogs, antigua isla en el este de Londres, Reino Unido;\nThe Isle of Dogs, obra de teatro creada por Thomas Nashe y Ben Jonson e interpretada en 1597;\nIsle of Dogs, película de animación de 2018 dirigida por Wes Anderson."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA BÚSQUEDA DEL OTRO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
+      "descripcion_extendida": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
+      "fecha_iso": "2026-11-04",
+      "fecha_texto": "4 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/la-busqueda-del-otro-poster.jpg",
+      "url": "https://www.passline.com/eventos/la-busqueda-del-otro-571104",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Universidad de Chile vs. - Copa Chile Coca-Cola Sin Azúcar - Cuartos de Final Estadio Santa Laura - Universidad SEK",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Universidad de Chile vs. Antofagasta, jueves 05 de noviembre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
+      "fecha_iso": "2026-11-05",
+      "fecha_texto": "5 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/uch292_md.jpg",
+      "url": "https://www.puntoticket.com/evento/universidad-de-chile-vs-antofagasta-copachile",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Antofagasta, jueves 05 de noviembre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "V DE VENDETTA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. James McTeigue · Conspiración de la pólvora: 5 de noviembre",
+      "descripcion_extendida": "Dir. James McTeigue · Conspiración de la pólvora: 5 de noviembre",
+      "fecha_iso": "2026-11-05",
+      "fecha_texto": "5 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/v-de-vendetta-poster.jpg",
+      "url": "https://www.passline.com/eventos/v-de-vendetta",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -200,7 +264,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -216,7 +280,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": "La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos y de aquel producido mediante tecnología electrónica, que también pueden ser mezclados. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
