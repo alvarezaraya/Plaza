@@ -1,111 +1,15 @@
 {
-  "generado_en": "2026-10-29T21:30:41.453342+00:00",
+  "generado_en": "2026-10-30T12:03:04.297151+00:00",
   "region": "Antofagasta",
-  "total_eventos": 20,
+  "total_eventos": 14,
   "por_fuente": {
-    "EsquinaRetornable": 4,
-    "CalamaCultural": 7,
+    "EsquinaRetornable": 2,
+    "CalamaCultural": 3,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 7,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "COBIJA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Pamela Pequeño · Estreno Nacional",
-      "descripcion_extendida": "Dir. Pamela Pequeño · Estreno Nacional",
-      "fecha_iso": "2026-10-29",
-      "fecha_texto": "29 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/cobija-poster.jpg",
-      "url": "https://www.passline.com/eventos/cobija",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "El término cobija puede referirse a:Cobija (Bolivia), municipio y ciudad capital del departamento de Pando (Bolivia). Departamento de Cobija, antiguo departamento de Bolivia, correspondiente a la actual región chilena de Antofagasta. Cobija (Chile), puerto pesquero ubicado en la región de Antofagasta (Chile). Cobija (comuna), una antigua comuna chilena, una de las que integró el antiguo departamento de Tocopilla, en la provincia de Antofagasta (Chile). Una cobija o frazada."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ALICIA BAJO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Manuela Thayer · Estreno Nacional",
-      "descripcion_extendida": "Dir. Manuela Thayer · Estreno Nacional",
-      "fecha_iso": "2026-10-29",
-      "fecha_texto": "29 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/alicia-bajo-la-higuera-poster.jpg",
-      "url": "https://www.passline.com/eventos/alicia-bajo-la-higuera-566447",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Las aventuras subterráneas de Alicia es el título que el escritor, matemático, lógico y sacerdote anglicano británico Charles Lutwidge Dodgson, bajo el más conocido seudónimo Lewis Carroll, utilizó para reunir las extravagantes historias contadas a un reverendo amigo suyo y a las tres hermanas Liddell, durante un descanso de una excursión en bote por el río Támesis."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Taller De Tai Chi",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-29",
-      "fecha_texto": "29 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-10-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Pai",
-      "venue": "Biblioeteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-10-29",
-      "fecha_texto": "29 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-pai-2026-10-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Prais",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-10-29",
-      "fecha_texto": "29 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-prais-2026-10-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Tertulia Literaria: Escenario De Guerra",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-10-29",
-      "fecha_texto": "29 de octubre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-escenario-de-guerra-2026-10-29",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "HANGAR ROJO",
@@ -120,7 +24,7 @@
       "url": "https://www.passline.com/eventos/hangar-rojo-562618",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Hangar Rojo es una película histórica y dramática de 2026 dirigida por Juan Pablo Sallato, en su debut en el largometraje de ficción. Rodada en blanco y negro, está protagonizada por Nicolás Zárate, Boris Quercia, Marcial Tagle, Catalina Stuardo y Aron Hernández, y se basa en el libro Disparen a la bandada. Crónica secreta de los crímenes en la FACH contra Bachelet y otros, de Fernando Villagrán."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -136,7 +40,7 @@
       "url": "https://www.passline.com/eventos/scream-563434",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "The Scream is an image first created by the Norwegian artist Edvard Munch in 1893, and later repeated by him in different versions. The agonized face in the painting has become one of the most iconic images in art, seen as representing a profound experience of existential dread related to the human condition. Munch's work, including The Scream, had a formative influence on the Expressionist movement."
     },
     {
       "fuente": "CalamaCultural",
@@ -296,7 +200,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": ""
+      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -312,7 +216,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta presenta nuevo hito artístico con un referente del rock alternativo en el mundo. Con la participación especial del destacado y reconocido músico multinstrumentalista, productor e ingeniero de sonido chileno-estadounidense, Alain Johannes, se realizará la décimo se",
-      "bio_artista": ""
+      "bio_artista": "La música electrónica es aquel tipo de música que emplea instrumentos musicales electrónicos y tecnología musical electrónica para su producción e interpretación. En general, se puede distinguir entre el sonido producido mediante la utilización de medios electromecánicos y de aquel producido mediante tecnología electrónica, que también pueden ser mezclados. Algunos ejemplos de dispositivos que producen sonido electro-mecánicamente son el telarmonio, el órgano Hammond y la guitarra eléctrica."
     },
     {
       "fuente": "ComediaTicket",
