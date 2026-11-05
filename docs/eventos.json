@@ -1,79 +1,15 @@
 {
-  "generado_en": "2026-11-04T22:18:46.117385+00:00",
+  "generado_en": "2026-11-05T13:55:49.003903+00:00",
   "region": "Antofagasta",
-  "total_eventos": 73,
+  "total_eventos": 69,
   "por_fuente": {
-    "EsquinaRetornable": 8,
-    "CalamaCultural": 61,
     "PuntoTicket": 2,
+    "EsquinaRetornable": 6,
+    "CalamaCultural": 59,
     "CulturaAntofagasta": 1,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ISLA DE PERROS",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Wes Anderson · Cine a la Carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. Wes Anderson · Cine a la Carta: del libro de sugerencias",
-      "fecha_iso": "2026-11-04",
-      "fecha_texto": "4 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/isla-de-perros-poster.jpg",
-      "url": "https://www.passline.com/eventos/isla-de-perros-573363",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Isle of Dogs puede hacer referencia, en esta enciclopedia:Isle of Dogs, antigua isla en el este de Londres, Reino Unido;\nThe Isle of Dogs, obra de teatro creada por Thomas Nashe y Ben Jonson e interpretada en 1597;\nIsle of Dogs, película de animación de 2018 dirigida por Wes Anderson."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA BÚSQUEDA DEL OTRO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
-      "descripcion_extendida": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
-      "fecha_iso": "2026-11-04",
-      "fecha_texto": "4 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/la-busqueda-del-otro-poster.jpg",
-      "url": "https://www.passline.com/eventos/la-busqueda-del-otro-571104",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Cuentacuentos. Hospital De Día",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-11-04",
-      "fecha_texto": "4 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#cuentacuentos-hospital-de-d-a-2026-11-04",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Luis Alberto Tamayo es escritor chileno conocido principalmente por sus obras para niños.",
-      "bio_artista": "Luis Alberto Tamayo es escritor chileno conocido principalmente por sus obras para niños."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Escuela Camino De Amor",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-11-04",
-      "fecha_texto": "4 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-camino-de-amor-2026-11-04",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Dueto de Antaño es un grupo colombiano de serenata y música andina.",
-      "bio_artista": "Dueto de Antaño es un grupo colombiano de serenata y música andina."
-    },
     {
       "fuente": "PuntoTicket",
       "nombre": "Universidad de Chile vs. - Copa Chile Coca-Cola Sin Azúcar - Cuartos de Final Estadio Santa Laura - Universidad SEK",
@@ -152,7 +88,7 @@
       "url": "https://www.passline.com/eventos/cobija-571222",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Cobija is a city in Bolivia, capital of the department of Pando, and is located about 600 km north of La Paz in the Amazon Basin on the border with Brazil. Cobija lies on the banks of the Rio Acre across from the Brazilian city of Brasiléia. Cobija lies at an elevation of ca. 280 m above sea level and has a tropical and rainy climate. Cobija has approximately 55,000 inhabitants, is the seat of a university and capital of the Bolivian Pando Department."
+      "bio_artista": "El término cobija puede referirse a:Cobija (Bolivia), municipio y ciudad capital del departamento de Pando (Bolivia). Departamento de Cobija, antiguo departamento de Bolivia, correspondiente a la actual región chilena de Antofagasta. Cobija (Chile), puerto pesquero ubicado en la región de Antofagasta (Chile). Cobija (comuna), una antigua comuna chilena, una de las que integró el antiguo departamento de Tocopilla, en la provincia de Antofagasta (Chile). Una cobija o frazada."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -279,8 +215,8 @@
       "url": "https://calamacultural.cl/carteleracultural#d-a-nacional-de-las-reas-protegidas-2026-11-08",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La República Argentina es uno de los países con mayor cantidad de ecorregiones del mundo y por ello cuenta con parques y reservas naturales. En 2024, existen 577 áreas protegidas que integran el Sistema Federal de Áreas Protegidas (SiFAP). Las áreas protegidas continentales, que incluyen también áreas costero-marinas cubren una superficie de 46.173.979 hectáreas y representan el 16,61 % del territorio nacional continental.",
-      "bio_artista": "La República Argentina es uno de los países con mayor cantidad de ecorregiones del mundo y por ello cuenta con parques y reservas naturales. En 2024, existen 577 áreas protegidas que integran el Sistema Federal de Áreas Protegidas (SiFAP). Las áreas protegidas continentales, que incluyen también áreas costero-marinas cubren una superficie de 46.173.979 hectáreas y representan el 16,61 % del territorio nacional continental."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -679,8 +615,8 @@
       "url": "https://calamacultural.cl/carteleracultural#d-a-de-santa-cecilia-agrupaci-n-de-m-sicas-y-artistas-de-cal-2026-11-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La cumbia santafesina es un estilo musical surgido en la ciudad de Santa Fe, Argentina. Se caracteriza por el protagonismo del acordeón y la guitarra eléctrica. Su principal impulsor fue el guitarrista Juan Carlos Denis, líder del grupo Los del Bohío.",
+      "bio_artista": "La cumbia santafesina es un estilo musical surgido en la ciudad de Santa Fe, Argentina. Se caracteriza por el protagonismo del acordeón y la guitarra eléctrica. Su principal impulsor fue el guitarrista Juan Carlos Denis, líder del grupo Los del Bohío."
     },
     {
       "fuente": "CalamaCultural",
@@ -695,8 +631,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-el-ojo-nivel-juvenil-y-adulto-inicial-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias».",
+      "bio_artista": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias»."
     },
     {
       "fuente": "CalamaCultural",
@@ -711,8 +647,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
+      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -727,8 +663,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-cuentacuentos-jard-n-infantil-creciendo-juntos-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Zarauz es una localidad y municipio español situado en la parte oriental de la comarca de Urola Costa, en la provincia de Guipúzcoa, comunidad autónoma del País Vasco. En 2021, el 73 % de la población era vascohablante. Esta villa turística, que se encuentra ubicada en el centro de la Costa Vasca, limita al este y al sur con Aya y al oeste con Guetaria. Posee cuatro enclaves que limitan con los anteriores municipios: Alkortiaga, Elcano, Sola y Arbestain.",
+      "bio_artista": "Zarauz es una localidad y municipio español situado en la parte oriental de la comarca de Urola Costa, en la provincia de Guipúzcoa, comunidad autónoma del País Vasco. En 2021, el 73 % de la población era vascohablante. Esta villa turística, que se encuentra ubicada en el centro de la Costa Vasca, limita al este y al sur con Aya y al oeste con Guetaria. Posee cuatro enclaves que limitan con los anteriores municipios: Alkortiaga, Elcano, Sola y Arbestain."
     },
     {
       "fuente": "CalamaCultural",
@@ -743,8 +679,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-taller-infanto-inicial-e-intermedio-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Gala Velasco fue un poeta, dramaturgo, novelista, guionista y articulista español.",
+      "bio_artista": "Antonio Gala Velasco fue un poeta, dramaturgo, novelista, guionista y articulista español."
     },
     {
       "fuente": "CalamaCultural",
@@ -887,8 +823,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
-      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -903,8 +839,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -935,8 +871,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-el-ojo-taller-juvenil-intermedio-y-avanzado-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La historia de la moda refleja la evolución cronológica de las prendas de vestir, tanto en su vertiente material como en su vertiente estética y sociológica. La moda es el arte del vestido, de la confección de prendas sobre la base de parámetros funcionales y estilísticos.",
-      "bio_artista": "La historia de la moda refleja la evolución cronológica de las prendas de vestir, tanto en su vertiente material como en su vertiente estética y sociológica. La moda es el arte del vestido, de la confección de prendas sobre la base de parámetros funcionales y estilísticos."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
