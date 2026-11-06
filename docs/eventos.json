@@ -1,79 +1,15 @@
 {
-  "generado_en": "2026-11-05T22:38:40.044206+00:00",
+  "generado_en": "2026-11-06T13:46:31.371155+00:00",
   "region": "Antofagasta",
-  "total_eventos": 69,
+  "total_eventos": 65,
   "por_fuente": {
-    "PuntoTicket": 2,
-    "EsquinaRetornable": 6,
-    "CalamaCultural": 59,
+    "EsquinaRetornable": 4,
+    "CalamaCultural": 58,
+    "PuntoTicket": 1,
     "CulturaAntofagasta": 1,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "PuntoTicket",
-      "nombre": "Universidad de Chile vs. - Copa Chile Coca-Cola Sin Azúcar - Cuartos de Final Estadio Santa Laura - Universidad SEK",
-      "venue": "",
-      "descripcion": "Compra tu entrada para Universidad de Chile vs. Antofagasta, jueves 05 de noviembre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
-      "fecha_iso": "2026-11-05",
-      "fecha_texto": "5 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://static.ptocdn.net/images/eventos/uch292_md.jpg",
-      "url": "https://www.puntoticket.com/evento/universidad-de-chile-vs-antofagasta-copachile",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Compra tu entrada para Universidad de Chile vs. Antofagasta, jueves 05 de noviembre 2026 19:00 hrs. en Estadio Santa Laura - Universidad SEK - Independencia.",
-      "bio_artista": "Independiente vs. Universidad de Chile fue un partido de fútbol disputado el 20 de agosto de 2025 por la vuelta de los octavos de final de la Copa Sudamericana 2025 entre el Club Atlético Independiente de Argentina y el Club Universidad de Chile en el Estadio Libertadores de América-Ricardo Enrique Bochini de Avellaneda, Argentina."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "EL GRAN FLASIFICADOR",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Jean-Paul Salomé · Estreno Internacional",
-      "descripcion_extendida": "Dir. Jean-Paul Salomé · Estreno Internacional",
-      "fecha_iso": "2026-11-05",
-      "fecha_texto": "5 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/el-gran-falsificador-poster.jpg",
-      "url": "https://www.passline.com/eventos/el-gran-falsificador",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "V DE VENDETTA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. James McTeigue · Conspiración de la pólvora: 5 de noviembre",
-      "descripcion_extendida": "Dir. James McTeigue · Conspiración de la pólvora: 5 de noviembre",
-      "fecha_iso": "2026-11-05",
-      "fecha_texto": "5 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/v-de-vendetta-poster.jpg",
-      "url": "https://www.passline.com/eventos/v-de-vendetta",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "V de Vendetta es una serie de diez comic books escritas por Alan Moore e ilustradas por David Lloyd. El argumento de la serie está situado en un futuro distópico de finales de la década de 1990."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Cuentacuentos. Escuela Emilio Sotomayor",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-11-05",
-      "fecha_texto": "5 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#cuentacuentos-escuela-emilio-sotomayor-2026-11-05",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "COBIJA",
@@ -104,7 +40,7 @@
       "url": "https://www.passline.com/eventos/el-bebe-de-rosemary-573373",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Rosemary's Baby es una película de terror gótico dramático estadounidense de 1968. Escrita y dirigida por Roman Polański y basada en la novela homónima de Ira Levin. Está protagonizada por Mia Farrow, John Cassavetes, Ruth Gordon, Sidney Blackmer, Maurice Evans y Ralph Bellamy. La película narra la historia de una mujer embarazada que sospecha que una secta maligna quiere llevarse a su bebé para usarlo en sus rituales."
     },
     {
       "fuente": "CalamaCultural",
@@ -119,8 +55,8 @@
       "url": "https://calamacultural.cl/carteleracultural#circuito-tur-stico-campamento-de-chuquicamata-establecimient-2026-11-06",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Calama es una ciudad y comuna del norte grande de Chile, es la capital de la provincia de El Loa, perteneciente a la región de Antofagasta.",
+      "bio_artista": "Calama es una ciudad y comuna del norte grande de Chile, es la capital de la provincia de El Loa, perteneciente a la región de Antofagasta."
     },
     {
       "fuente": "CalamaCultural",
@@ -135,8 +71,8 @@
       "url": "https://calamacultural.cl/carteleracultural#miss-trans-reina-del-desierto-2026-11-06",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Priscilla, reina del desierto es un musical jukebox con libreto de Stephan Elliott y Allan Scott, y un repertorio de canciones formado por éxitos del pop y la música disco. Basado en la película de 1994 Las aventuras de Priscilla, reina del desierto, su trama central gira en torno a dos drag queens y una mujer trans de Sídney que son contratadas para actuar en un remoto resort de Alice Springs, en pleno desierto australiano.",
+      "bio_artista": "Priscilla, reina del desierto es un musical jukebox con libreto de Stephan Elliott y Allan Scott, y un repertorio de canciones formado por éxitos del pop y la música disco. Basado en la película de 1994 Las aventuras de Priscilla, reina del desierto, su trama central gira en torno a dos drag queens y una mujer trans de Sídney que son contratadas para actuar en un remoto resort de Alice Springs, en pleno desierto australiano."
     },
     {
       "fuente": "CalamaCultural",
@@ -168,7 +104,7 @@
       "url": "https://www.passline.com/eventos/tres-adioses",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Tres adioses es una película dramática romántica de 2025 dirigida por Isabel Coixet y coescrita por Enrico Audenino, basada en el libro de Michela Murgia. Está protagonizada por Alba Rohrwacher y Elio Germano. Es una coproducción italo-española."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -184,7 +120,7 @@
       "url": "https://www.passline.com/eventos/eraserhead-573383",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Eraserhead (En España: Eraserhead (Cabeza borradora), en México: Eraserhead (Cabeza de borrador) y en Argentina: Cabeza borradora) es una película de terror del director estadounidense David Lynch. Estrenada en 1977 y protagonizada por el actor Jack Nance, Eraserhead fue el primer largometraje de Lynch."
+      "bio_artista": "Eraserhead is a 1977 American horror film written, directed, produced, and edited by David Lynch in his feature-length directorial debut. Lynch also created its score and sound design, which included pieces by a variety of other musicians. Shot in black and white and surrealist style, the independent film was Lynch's first feature-length effort following several short films."
     },
     {
       "fuente": "CalamaCultural",
@@ -215,8 +151,8 @@
       "url": "https://calamacultural.cl/carteleracultural#d-a-nacional-de-las-reas-protegidas-2026-11-08",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La República Argentina es uno de los países con mayor cantidad de ecorregiones del mundo y por ello cuenta con parques y reservas naturales. En 2024, existen 577 áreas protegidas que integran el Sistema Federal de Áreas Protegidas (SiFAP). Las áreas protegidas continentales, que incluyen también áreas costero-marinas cubren una superficie de 46.173.979 hectáreas y representan el 16,61 % del territorio nacional continental.",
-      "bio_artista": "La República Argentina es uno de los países con mayor cantidad de ecorregiones del mundo y por ello cuenta con parques y reservas naturales. En 2024, existen 577 áreas protegidas que integran el Sistema Federal de Áreas Protegidas (SiFAP). Las áreas protegidas continentales, que incluyen también áreas costero-marinas cubren una superficie de 46.173.979 hectáreas y representan el 16,61 % del territorio nacional continental."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -279,8 +215,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-rinc-n-de-los-sue-os-2026-11-10",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
+      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -295,8 +231,8 @@
       "url": "https://calamacultural.cl/carteleracultural#feria-de-la-biodiversidad-2026-11-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Colomi es una ciudad y municipio de la región central de Bolivia, ubicado en la provincia del Chapare del departamento de Cochabamba. El municipio se encuentra en una zona de transición entre la cordillera de los Andes y los yungas del Chapare. Tiene una topografía variada con colinas onduladas, llanuras y serranías. El municipio tiene una superficie de 554 km² y cuenta con una población de 20 728 habitantes y proyecciones hasta el año 2020.",
+      "bio_artista": "Colomi es una ciudad y municipio de la región central de Bolivia, ubicado en la provincia del Chapare del departamento de Cochabamba. El municipio se encuentra en una zona de transición entre la cordillera de los Andes y los yungas del Chapare. Tiene una topografía variada con colinas onduladas, llanuras y serranías. El municipio tiene una superficie de 554 km² y cuenta con una población de 20 728 habitantes y proyecciones hasta el año 2020."
     },
     {
       "fuente": "CalamaCultural",
@@ -311,8 +247,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-de-danza-nivel-intermedio-y-avanzado-2026-11-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Ballet San Marcos es una compañía institucional de danza clásica y contemporánea adscrita al Centro Cultural de la Universidad Nacional Mayor de San Marcos (UNMSM) en Lima, Perú. Es considerada una de las instituciones pioneras en el ámbito de la danza profesional universitaria peruana —la primera compañía profesional de danza establecida en el país—, dedicada tanto a la formación como a la creación artística.",
+      "bio_artista": "El Ballet San Marcos es una compañía institucional de danza clásica y contemporánea adscrita al Centro Cultural de la Universidad Nacional Mayor de San Marcos (UNMSM) en Lima, Perú. Es considerada una de las instituciones pioneras en el ámbito de la danza profesional universitaria peruana —la primera compañía profesional de danza establecida en el país—, dedicada tanto a la formación como a la creación artística."
     },
     {
       "fuente": "CalamaCultural",
@@ -327,8 +263,8 @@
       "url": "https://calamacultural.cl/carteleracultural#visita-museo-arqueol-gico-de-lasana-establecimientos-educaci-2026-11-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
+      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
     },
     {
       "fuente": "CalamaCultural",
@@ -743,8 +679,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
-      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -759,8 +695,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-el-ojo-taller-infantil-inicial-infantil-intermed-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias».",
-      "bio_artista": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -775,8 +711,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -791,8 +727,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Alfonsina Storni fue una poetisa y escritora argentina vinculada con el modernismo.",
-      "bio_artista": "Alfonsina Storni fue una poetisa y escritora argentina vinculada con el modernismo."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -823,8 +759,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
+      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
     },
     {
       "fuente": "CalamaCultural",
@@ -839,8 +775,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -871,8 +807,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-el-ojo-taller-juvenil-intermedio-y-avanzado-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La historia de la moda refleja la evolución cronológica de las prendas de vestir, tanto en su vertiente material como en su vertiente estética y sociológica. La moda es el arte del vestido, de la confección de prendas sobre la base de parámetros funcionales y estilísticos.",
+      "bio_artista": "La historia de la moda refleja la evolución cronológica de las prendas de vestir, tanto en su vertiente material como en su vertiente estética y sociológica. La moda es el arte del vestido, de la confección de prendas sobre la base de parámetros funcionales y estilísticos."
     },
     {
       "fuente": "CalamaCultural",
