@@ -1,47 +1,15 @@
 {
-  "generado_en": "2026-11-07T20:38:20.046717+00:00",
+  "generado_en": "2026-11-08T12:41:27.753319+00:00",
   "region": "Antofagasta",
-  "total_eventos": 60,
+  "total_eventos": 66,
   "por_fuente": {
-    "EsquinaRetornable": 2,
     "CalamaCultural": 55,
+    "EsquinaRetornable": 8,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 1,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "TRES ADIOSES",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Isabel Coixet · Estreno Internacional",
-      "descripcion_extendida": "Dir. Isabel Coixet · Estreno Internacional",
-      "fecha_iso": "2026-11-07",
-      "fecha_texto": "7 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/tres-adioses-poster.jpg",
-      "url": "https://www.passline.com/eventos/tres-adioses",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Tres adioses es una película dramática romántica de 2025 dirigida por Isabel Coixet y coescrita por Enrico Audenino, basada en el libro de Michela Murgia. Está protagonizada por Alba Rohrwacher y Elio Germano. Es una coproducción italo-española."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ERASERHEAD",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. David Lynch · Cine a la Carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. David Lynch · Cine a la Carta: del libro de sugerencias",
-      "fecha_iso": "2026-11-07",
-      "fecha_texto": "7 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/eraserhead-poster.jpg",
-      "url": "https://www.passline.com/eventos/eraserhead-573383",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Eraserhead (En España: Eraserhead (Cabeza borradora), en México: Eraserhead (Cabeza de borrador) y en Argentina: Cabeza borradora) es una película de terror del director estadounidense David Lynch. Estrenada en 1977 y protagonizada por el actor Jack Nance, Eraserhead fue el primer largometraje de Lynch."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Xvi Encuentro Nacional De Orquestas Latinoamericanas, Colchi",
@@ -135,8 +103,72 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-rinc-n-de-los-sue-os-2026-11-10",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
-      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "EL CLUB DE LOS CINCO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. John Hughes · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. John Hughes · Cine a la Carta: del libro de sugerencias",
+      "fecha_iso": "2026-11-11",
+      "fecha_texto": "11 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/el-club-de-los-5-poster.jpg",
+      "url": "https://www.passline.com/eventos/el-club-de-los-cinco",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA LLAMADA FATAL",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
+      "descripcion_extendida": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
+      "fecha_iso": "2026-11-11",
+      "fecha_texto": "11 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/la-llamada-fatal-poster.jpg",
+      "url": "https://www.passline.com/eventos/la-llamada-fatal",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ERASERHEAD",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Sidney Lumet · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Sidney Lumet · Cine a la Carta: del libro de sugerencias",
+      "fecha_iso": "2026-11-12",
+      "fecha_texto": "12 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/tarde-de-perros-poster.jpg",
+      "url": "https://www.passline.com/eventos/tarde-de-perros",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Eraserhead is a 1977 American horror film written, directed, produced, and edited by David Lynch in his feature-length directorial debut. Lynch also created its score and sound design, which included pieces by a variety of other musicians. Shot in black and white and surrealist style, the independent film was Lynch's first feature-length effort following several short films."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "TRES ADIOSES",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Isabel Coixet · Estreno Internacional",
+      "descripcion_extendida": "Dir. Isabel Coixet · Estreno Internacional",
+      "fecha_iso": "2026-11-12",
+      "fecha_texto": "12 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/tres-adioses-poster.jpg",
+      "url": "https://www.passline.com/eventos/tres-adioses-573313",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -151,8 +183,8 @@
       "url": "https://calamacultural.cl/carteleracultural#feria-de-la-biodiversidad-2026-11-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Colomi es una ciudad y municipio de la región central de Bolivia, ubicado en la provincia del Chapare del departamento de Cochabamba. El municipio se encuentra en una zona de transición entre la cordillera de los Andes y los yungas del Chapare. Tiene una topografía variada con colinas onduladas, llanuras y serranías. El municipio tiene una superficie de 554 km² y cuenta con una población de 20 728 habitantes y proyecciones hasta el año 2020.",
-      "bio_artista": "Colomi es una ciudad y municipio de la región central de Bolivia, ubicado en la provincia del Chapare del departamento de Cochabamba. El municipio se encuentra en una zona de transición entre la cordillera de los Andes y los yungas del Chapare. Tiene una topografía variada con colinas onduladas, llanuras y serranías. El municipio tiene una superficie de 554 km² y cuenta con una población de 20 728 habitantes y proyecciones hasta el año 2020."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -167,8 +199,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-de-danza-nivel-intermedio-y-avanzado-2026-11-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Ballet San Marcos es una compañía institucional de danza clásica y contemporánea adscrita al Centro Cultural de la Universidad Nacional Mayor de San Marcos (UNMSM) en Lima, Perú. Es considerada una de las instituciones pioneras en el ámbito de la danza profesional universitaria peruana —la primera compañía profesional de danza establecida en el país—, dedicada tanto a la formación como a la creación artística.",
-      "bio_artista": "El Ballet San Marcos es una compañía institucional de danza clásica y contemporánea adscrita al Centro Cultural de la Universidad Nacional Mayor de San Marcos (UNMSM) en Lima, Perú. Es considerada una de las instituciones pioneras en el ámbito de la danza profesional universitaria peruana —la primera compañía profesional de danza establecida en el país—, dedicada tanto a la formación como a la creación artística."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -183,8 +215,8 @@
       "url": "https://calamacultural.cl/carteleracultural#visita-museo-arqueol-gico-de-lasana-establecimientos-educaci-2026-11-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
-      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -203,6 +235,38 @@
       "bio_artista": "La biblioteca Mazarino es una biblioteca pública ubicada en París, siendo la más antigua de Francia. Se sitúa en el muelle de Conti, en el barrio de la Moneda, del sexto distrito de París, constituye una «biblioteca de centro de interés científico y literario», bajo la tutela del Ministerio de Educación Superior y de la Investigación, dependiente administrativamente del Instituto de Francia."
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA BÚSQUEDA DEL OTRO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
+      "descripcion_extendida": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
+      "fecha_iso": "2026-11-13",
+      "fecha_texto": "13 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/la-busqueda-del-otro-poster.jpg",
+      "url": "https://www.passline.com/eventos/la-busqueda-del-otro-571105",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA PROFECÍA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Richard Donner · La Sangre No Olvida: herencias malditas y secretos familiares.",
+      "descripcion_extendida": "Dir. Richard Donner · La Sangre No Olvida: herencias malditas y secretos familiares.",
+      "fecha_iso": "2026-11-13",
+      "fecha_texto": "13 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/la-profecia-poster.jpg",
+      "url": "https://www.passline.com/eventos/la-profecia-573681",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "La Profecía de Urayoán is the fourth album from Puerto Rican folk singer Roy Brown. The album was released by Disco Libre in 1976. It is the second album to feature collaborations between Brown and Cuban singer/songwriter Silvio Rodríguez."
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Gala De Danza Nivel Iniciación",
       "venue": "Teatro Municipal",
@@ -215,8 +279,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-de-danza-nivel-iniciaci-n-2026-11-13",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonia Mercé y Luque, de nombre artístico La Argentina fue una bailarina y coreógrafa española, nacida en Argentina mientras sus padres estaban de gira artística. Se le ha dado el mérito de tender un puente entre el neoclasicismo y el vanguardismo en el baile español y haber sido la gran renovadora de la danza española y andaluza en París.",
+      "bio_artista": "Antonia Mercé y Luque, de nombre artístico La Argentina fue una bailarina y coreógrafa española, nacida en Argentina mientras sus padres estaban de gira artística. Se le ha dado el mérito de tender un puente entre el neoclasicismo y el vanguardismo en el baile español y haber sido la gran renovadora de la danza española y andaluza en París."
     },
     {
       "fuente": "CalamaCultural",
@@ -249,6 +313,38 @@
       "lon": -68.9295,
       "descripcion_extendida": "",
       "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "COCAÍNA NEGRA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional",
+      "descripcion_extendida": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional",
+      "fecha_iso": "2026-11-14",
+      "fecha_texto": "14 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/cocaina-negra-poster.jpg",
+      "url": "https://www.passline.com/eventos/cocaina-negra-575946",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "COBIJA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Pamela Pequeño · Estreno Nacional",
+      "descripcion_extendida": "Dir. Pamela Pequeño · Estreno Nacional",
+      "fecha_iso": "2026-11-14",
+      "fecha_texto": "14 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/cobija-poster.jpg",
+      "url": "https://www.passline.com/eventos/cobija-571226",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Cobija is a city in Bolivia, capital of the department of Pando, and is located about 600 km north of La Paz in the Amazon Basin on the border with Brazil. Cobija lies on the banks of the Rio Acre across from the Brazilian city of Brasiléia. Cobija lies at an elevation of ca. 280 m above sea level and has a tropical and rainy climate. Cobija has approximately 55,000 inhabitants, is the seat of a university and capital of the Bolivian Pando Department."
     },
     {
       "fuente": "CalamaCultural",
@@ -727,8 +823,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-el-ojo-taller-juvenil-intermedio-y-avanzado-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La historia de la moda refleja la evolución cronológica de las prendas de vestir, tanto en su vertiente material como en su vertiente estética y sociológica. La moda es el arte del vestido, de la confección de prendas sobre la base de parámetros funcionales y estilísticos.",
+      "bio_artista": "La historia de la moda refleja la evolución cronológica de las prendas de vestir, tanto en su vertiente material como en su vertiente estética y sociológica. La moda es el arte del vestido, de la confección de prendas sobre la base de parámetros funcionales y estilísticos."
     },
     {
       "fuente": "CalamaCultural",
@@ -759,8 +855,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-planeta-tierra-1-y-2-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Crónicas marcianas es una serie de relatos del escritor Ray Bradbury publicada en 1950. Los relatos carecen de una línea argumental lineal fija, pero la referencia contextual y temporal es la misma en todos ellos: narra la llegada a Marte y la colonización del planeta por parte de los humanos.",
+      "bio_artista": "Crónicas marcianas es una serie de relatos del escritor Ray Bradbury publicada en 1950. Los relatos carecen de una línea argumental lineal fija, pero la referencia contextual y temporal es la misma en todos ellos: narra la llegada a Marte y la colonización del planeta por parte de los humanos."
     },
     {
       "fuente": "CalamaCultural",
@@ -791,8 +887,8 @@
       "url": "https://calamacultural.cl/carteleracultural#exposici-n-historias-para-existir-prais-calama-2026-11-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Monstruo de Espagueti Volador (MEV) es el dios satírico del pastafarismo. Esta deidad se describió por primera vez en una carta abierta satírica escrita en 2005 por Bobby Henderson para protestar contra la decisión de la Junta de Educación del Estado de Kansas de permitir la enseñanza del diseño inteligente como una alternativa a la evolución en las clases de ciencias de las escuelas públicas.",
-      "bio_artista": "El Monstruo de Espagueti Volador (MEV) es el dios satírico del pastafarismo. Esta deidad se describió por primera vez en una carta abierta satírica escrita en 2005 por Bobby Henderson para protestar contra la decisión de la Junta de Educación del Estado de Kansas de permitir la enseñanza del diseño inteligente como una alternativa a la evolución en las clases de ciencias de las escuelas públicas."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -823,8 +919,8 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-mujeres-en-la-literatura-2026-11-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
-      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
