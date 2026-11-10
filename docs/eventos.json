@@ -1,31 +1,15 @@
 {
-  "generado_en": "2026-11-09T15:00:50.367534+00:00",
+  "generado_en": "2026-11-10T00:32:06.834708+00:00",
   "region": "Antofagasta",
-  "total_eventos": 64,
+  "total_eventos": 63,
   "por_fuente": {
-    "CalamaCultural": 53,
+    "CalamaCultural": 52,
     "EsquinaRetornable": 8,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 1,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Cuentacuentos. Jardín Infantil Y Sala Cuna Yackus Pauna",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-11-09",
-      "fecha_texto": "9 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#cuentacuentos-jard-n-infantil-y-sala-cuna-yackus-pauna-2026-11-09",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Cuentacuentos. Jardín Infantil Y Escuela De Párvulos Ansco",
@@ -343,8 +327,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-la-voz-del-loa-2026-11-14",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Leire Martínez Ochoa es una cantante que se distingue por ser compositora, actriz, intérprete, productora y artista visual. Fue vocalista del grupo La Oreja de Van Gogh desde 2008 hasta 2024. Actualmente se encuentra desarrollando su carrera en solitario.",
+      "bio_artista": "Leire Martínez Ochoa es una cantante que se distingue por ser compositora, actriz, intérprete, productora y artista visual. Fue vocalista del grupo La Oreja de Van Gogh desde 2008 hasta 2024. Actualmente se encuentra desarrollando su carrera en solitario."
     },
     {
       "fuente": "CalamaCultural",
@@ -375,8 +359,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-familia-2026-11-16",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo.",
+      "bio_artista": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo."
     },
     {
       "fuente": "CalamaCultural",
@@ -407,8 +391,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-11-18",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
+      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
     },
     {
       "fuente": "CalamaCultural",
@@ -583,8 +567,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-cuentacuentos-jard-n-infantil-creciendo-juntos-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Zarauz es una localidad situado en la parte oriental de la comarca de Urola Kosta, en la provincia de Gipuzkoa, comunidad autónoma del País Vasco. En 2021, el 73 % de la población era vascohablante. Esta villa turística, que se encuentra ubicada en el centro de la Costa Vasca, limita al este y al sur con Aya y al oeste con Getaria. Posee cuatro enclaves que limitan con los anteriores municipios: Alkortiaga, Elkano, Sola y Arbestain. Este último limita también con Aizarnazábal.",
-      "bio_artista": "Zarauz es una localidad situado en la parte oriental de la comarca de Urola Kosta, en la provincia de Gipuzkoa, comunidad autónoma del País Vasco. En 2021, el 73 % de la población era vascohablante. Esta villa turística, que se encuentra ubicada en el centro de la Costa Vasca, limita al este y al sur con Aya y al oeste con Getaria. Posee cuatro enclaves que limitan con los anteriores municipios: Alkortiaga, Elkano, Sola y Arbestain. Este último limita también con Aizarnazábal."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -599,8 +583,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-taller-infanto-inicial-e-intermedio-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Antonio Gala Velasco fue un poeta, dramaturgo, novelista, guionista y articulista español.",
-      "bio_artista": "Antonio Gala Velasco fue un poeta, dramaturgo, novelista, guionista y articulista español."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -615,8 +599,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-rep-blica-de-grecia-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial.",
-      "bio_artista": "Turismo es un término que comprende las actividades que realizan las personas durante sus viajes y estancias en lugares distintos a su entorno habitual durante un período de tiempo inferior a un año, con fines de ocio, negocios u otros. Si no se realiza pernoctación, se consideran «excursiones». Turistas y excursionistas forman el total de «visitantes». El concepto de competitividad turística comprende dos enfoques: el de producto y el netamente empresarial."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -631,8 +615,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gobierno-regional-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La Estación central de Dresde es la estación más grande de la capital del Estado federado alemán de Sajonia. Se comenzó a construir en 1892 y abrió sus puertas a los viajeros en la primavera de 1898. La estación resultó seriamente dañada durante los bombardeos de la II Guerra Mundial. En 2000 comenzaron unas obras para rehabilitarla a fondo y en noviembre de 2006 se inauguró oficialmente.",
-      "bio_artista": "La Estación central de Dresde es la estación más grande de la capital del Estado federado alemán de Sajonia. Se comenzó a construir en 1892 y abrió sus puertas a los viajeros en la primavera de 1898. La estación resultó seriamente dañada durante los bombardeos de la II Guerra Mundial. En 2000 comenzaron unas obras para rehabilitarla a fondo y en noviembre de 2006 se inauguró oficialmente."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -647,8 +631,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-chile-atiende-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024.",
-      "bio_artista": "El Aeropuerto Internacional Jorge Chávez es el aeropuerto del área metropolitana de Lima-Callao, capital del Perú. Está ubicado en la provincia constitucional del Callao, a unos 10 kilómetros del Centro Histórico de Lima. Inaugurado en 1960, concentra la gran mayoría de vuelos internacionales y la totalidad de nacionales del país, sirviendo 71,200 pasajeros al día y 26 millones de pasajeros al año 2024."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -1000,7 +984,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -1016,7 +1000,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
-      "bio_artista": ""
+      "bio_artista": "El Palacio Libertad, Centro Cultural Domingo Faustino Sarmiento es un centro cultural ubicado en el barrio San Nicolás, de la Comuna 1, en la Ciudad de Buenos Aires, Argentina. Es el más grande de América Latina y el tercero a nivel mundial, junto al Centro Pompidou en París, el Foro Internacional de Tokio y el Lincoln Center en Nueva York. Se encuentra en el edificio que anteriormente fue sede del Palacio de Correos y Telecomunicaciones."
     },
     {
       "fuente": "ComediaTicket",
