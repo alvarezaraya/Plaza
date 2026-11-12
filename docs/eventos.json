@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-11-11T23:16:03.672694+00:00",
+  "generado_en": "2026-11-12T14:32:56.803581+00:00",
   "region": "Antofagasta",
-  "total_eventos": 60,
+  "total_eventos": 61,
   "por_fuente": {
-    "EsquinaRetornable": 8,
+    "EsquinaRetornable": 9,
     "CalamaCultural": 49,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 1,
@@ -12,39 +12,7 @@
   "eventos": [
     {
       "fuente": "EsquinaRetornable",
-      "nombre": "EL CLUB DE LOS CINCO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. John Hughes · Cine a la Carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. John Hughes · Cine a la Carta: del libro de sugerencias",
-      "fecha_iso": "2026-11-11",
-      "fecha_texto": "11 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/el-club-de-los-5-poster.jpg",
-      "url": "https://www.passline.com/eventos/el-club-de-los-cinco",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "El club de los cinco es una película estadounidense de 1985 escrita y dirigida por John Hughes. Su trama muestra a cinco jóvenes, dos chicas y tres chicos que, a medida que pasan juntos un sábado castigados en la biblioteca del centro, descubren que cada uno de ellos es más profundo que su respectivo estereotipo. El filme se convirtió en un clásico, una película de culto y ha tenido una gran influencia sobre subsiguientes producciones cinematográficas para jóvenes."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA LLAMADA FATAL",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
-      "descripcion_extendida": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
-      "fecha_iso": "2026-11-11",
-      "fecha_texto": "11 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/la-llamada-fatal-poster.jpg",
-      "url": "https://www.passline.com/eventos/la-llamada-fatal",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Dial M for Murder es una película dirigida por Alfred Hitchcock en 1954, y con Ray Milland, Grace Kelly, Robert Cummings y John Williams como actores principales."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "ERASERHEAD",
+      "nombre": "TARDE DE PERROS",
       "venue": "Esquina Retornable",
       "descripcion": "Dir. Sidney Lumet · Cine a la Carta: del libro de sugerencias",
       "descripcion_extendida": "Dir. Sidney Lumet · Cine a la Carta: del libro de sugerencias",
@@ -56,7 +24,7 @@
       "url": "https://www.passline.com/eventos/tarde-de-perros",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Eraserhead (En España: Eraserhead (Cabeza borradora), en México: Eraserhead (Cabeza de borrador) y en Argentina: Cabeza borradora) es una película de terror del director estadounidense David Lynch. Estrenada en 1977 y protagonizada por el actor Jack Nance, Eraserhead fue el primer largometraje de Lynch."
+      "bio_artista": "Tarde de perros, cuyo título original en inglés es Dog Day Afternoon, es una película de drama criminal biográfica estadounidense de 1975 dirigida por Sidney Lumet y producida por Martin Bregman y Martin Elfand. La película está protagonizada por Al Pacino, John Cazale, James Broderick, Charles Durning y Chris Sarandon. El guion fue escrito por Frank Pierson y está basado en el artículo de la revista Life «The Boys in the Bank» de P. F. Kluge y Thomas Moore."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -152,7 +120,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro-571105",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -168,7 +136,7 @@
       "url": "https://www.passline.com/eventos/la-profecia-573681",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La Profecía de Urayoán is the fourth album from Puerto Rican folk singer Roy Brown. The album was released by Disco Libre in 1976. It is the second album to feature collaborations between Brown and Cuban singer/songwriter Silvio Rodríguez."
     },
     {
       "fuente": "CalamaCultural",
@@ -331,6 +299,38 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA CHICA DE ROSA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. John Hughes · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. John Hughes · Cine a la Carta: del libro de sugerencias",
+      "fecha_iso": "2026-11-18",
+      "fecha_texto": "18 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/la-chica-de-rosa-poster.jpg",
+      "url": "https://www.passline.com/eventos/la-chica-de-rosa",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LA VENTANA INDISCRETA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
+      "descripcion_extendida": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
+      "fecha_iso": "2026-11-18",
+      "fecha_texto": "18 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/la-ventana-indiscreta-poster.jpg",
+      "url": "https://www.passline.com/eventos/la-ventana-indiscreta",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Añoranza De Los Cuentos. Hogar De Ancianos San José",
       "venue": "Biblioteca Central",
@@ -360,6 +360,22 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "¿QUIERES SER JOHN MALKOVICH?",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Sidney Lumet · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Sidney Lumet · Cine a la Carta: del libro de sugerencias",
+      "fecha_iso": "2026-11-19",
+      "fecha_texto": "19 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/malkovich-poster.jpg",
+      "url": "https://www.passline.com/eventos/tarde-de-perros",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -936,7 +952,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
