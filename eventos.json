@@ -1,11 +1,11 @@
 {
-  "generado_en": "2026-11-12T14:32:56.803581+00:00",
+  "generado_en": "2026-11-12T22:31:42.739472+00:00",
   "region": "Antofagasta",
-  "total_eventos": 61,
+  "total_eventos": 63,
   "por_fuente": {
-    "EsquinaRetornable": 9,
+    "EsquinaRetornable": 10,
     "CalamaCultural": 49,
-    "PuntoTicket": 1,
+    "PuntoTicket": 2,
     "CulturaAntofagasta": 1,
     "ComediaTicket": 1
   },
@@ -71,8 +71,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-de-danza-nivel-intermedio-y-avanzado-2026-11-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Ballet San Marcos es una compañía institucional de danza clásica y contemporánea adscrita al Centro Cultural de la Universidad Nacional Mayor de San Marcos (UNMSM) en Lima, Perú. Es considerada una de las instituciones pioneras en el ámbito de la danza profesional universitaria peruana —la primera compañía profesional de danza establecida en el país—, dedicada tanto a la formación como a la creación artística.",
+      "bio_artista": "El Ballet San Marcos es una compañía institucional de danza clásica y contemporánea adscrita al Centro Cultural de la Universidad Nacional Mayor de San Marcos (UNMSM) en Lima, Perú. Es considerada una de las instituciones pioneras en el ámbito de la danza profesional universitaria peruana —la primera compañía profesional de danza establecida en el país—, dedicada tanto a la formación como a la creación artística."
     },
     {
       "fuente": "CalamaCultural",
@@ -87,8 +87,8 @@
       "url": "https://calamacultural.cl/carteleracultural#visita-museo-arqueol-gico-de-lasana-establecimientos-educaci-2026-11-12",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta.",
+      "bio_artista": "La astronomía en Chile ha sido desarrollada en su zona del Norte Grande y Chico, principalmente en el desierto de Atacama, reconocido como el mejor lugar de la Tierra para observar el firmamento y extender esta ciencia, debido a sus condiciones climáticas y geográficas —tales como baja humedad, altas cumbres y planicies—, además de baja contaminación lumínica y radioeléctrica. Esta combinación de factores generan el mayor número de noches despejadas al año en el planeta."
     },
     {
       "fuente": "CalamaCultural",
@@ -120,7 +120,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro-571105",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -136,7 +136,23 @@
       "url": "https://www.passline.com/eventos/la-profecia-573681",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "La Profecía de Urayoán is the fourth album from Puerto Rican folk singer Roy Brown. The album was released by Disco Libre in 1976. It is the second album to feature collaborations between Brown and Cuban singer/songwriter Silvio Rodríguez."
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "THE VVITCH",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Robert Eggers · La Sangre No Olvida: herencias malditas y secretos familiares.",
+      "descripcion_extendida": "Dir. Robert Eggers · La Sangre No Olvida: herencias malditas y secretos familiares.",
+      "fecha_iso": "2026-11-13",
+      "fecha_texto": "13 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/the-vvitch-poster.jpg",
+      "url": "https://www.passline.com/eventos/the-vvitch-573379",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -247,8 +263,24 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-la-voz-del-loa-2026-11-14",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Leire Martínez Ochoa es una cantante que se distingue por ser compositora, actriz, intérprete, productora y artista visual. Fue vocalista del grupo La Oreja de Van Gogh desde 2008 hasta 2024. Actualmente se encuentra desarrollando su carrera en solitario.",
-      "bio_artista": "Leire Martínez Ochoa es una cantante que se distingue por ser compositora, actriz, intérprete, productora y artista visual. Fue vocalista del grupo La Oreja de Van Gogh desde 2008 hasta 2024. Actualmente se encuentra desarrollando su carrera en solitario."
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "PuntoTicket",
+      "nombre": "Magallanes vs. Deportes - Liga de Ascenso Caixun 2026 - Fecha 30 Estadio Municipal de",
+      "venue": "",
+      "descripcion": "Compra tu entrada para Magallanes vs. Deportes Antofagasta, domingo 15 de noviembre 2026 18:00 hrs. en Estadio Municipal de San Bernardo - San Bernardo.",
+      "fecha_iso": "2026-11-15",
+      "fecha_texto": "15 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://static.ptocdn.net/images/eventos/mag136_md.jpg",
+      "url": "https://www.puntoticket.com/evento/magallanes-vs-antofagasta-fecha30-liga-ascenso-2026",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Compra tu entrada para Magallanes vs. Deportes Antofagasta, domingo 15 de noviembre 2026 18:00 hrs. en Estadio Municipal de San Bernardo - San Bernardo.",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -279,8 +311,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-familia-2026-11-16",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo.",
-      "bio_artista": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -343,8 +375,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-11-18",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
-      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -366,14 +398,14 @@
       "fuente": "EsquinaRetornable",
       "nombre": "¿QUIERES SER JOHN MALKOVICH?",
       "venue": "Esquina Retornable",
-      "descripcion": "Dir. Sidney Lumet · Cine a la Carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. Sidney Lumet · Cine a la Carta: del libro de sugerencias",
+      "descripcion": "Dir. Spike Jonze · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Spike Jonze · Cine a la Carta: del libro de sugerencias",
       "fecha_iso": "2026-11-19",
       "fecha_texto": "19 de noviembre de 2026",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
       "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/malkovich-poster.jpg",
-      "url": "https://www.passline.com/eventos/tarde-de-perros",
+      "url": "https://www.passline.com/eventos/quieres-ser-john-malkovich-578397",
       "lat": -23.673621,
       "lon": -70.409617,
       "bio_artista": ""
@@ -519,8 +551,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
+      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -535,8 +567,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-cuentacuentos-jard-n-infantil-creciendo-juntos-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Zarauz es una localidad situado en la parte oriental de la comarca de Urola Kosta, en la provincia de Gipuzkoa, comunidad autónoma del País Vasco. En 2021, el 73 % de la población era vascohablante. Esta villa turística, que se encuentra ubicada en el centro de la Costa Vasca, limita al este y al sur con Aya y al oeste con Getaria. Posee cuatro enclaves que limitan con los anteriores municipios: Alkortiaga, Elkano, Sola y Arbestain. Este último limita también con Aizarnazábal.",
+      "bio_artista": "Zarauz es una localidad situado en la parte oriental de la comarca de Urola Kosta, en la provincia de Gipuzkoa, comunidad autónoma del País Vasco. En 2021, el 73 % de la población era vascohablante. Esta villa turística, que se encuentra ubicada en el centro de la Costa Vasca, limita al este y al sur con Aya y al oeste con Getaria. Posee cuatro enclaves que limitan con los anteriores municipios: Alkortiaga, Elkano, Sola y Arbestain. Este último limita también con Aizarnazábal."
     },
     {
       "fuente": "CalamaCultural",
@@ -551,8 +583,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-taller-infanto-inicial-e-intermedio-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Gala Velasco fue un poeta, dramaturgo, novelista, guionista y articulista español.",
+      "bio_artista": "Antonio Gala Velasco fue un poeta, dramaturgo, novelista, guionista y articulista español."
     },
     {
       "fuente": "CalamaCultural",
@@ -567,8 +599,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-rep-blica-de-grecia-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La antropología es la ciencia que estudia al ser humano de una forma integral, en sus características físicas como animales y de su cultura. Para abarcar la materia de su estudio, la antropología recurre a herramientas y conocimientos producidos por las ciencias sociales y las ciencias naturales.",
+      "bio_artista": "La antropología es la ciencia que estudia al ser humano de una forma integral, en sus características físicas como animales y de su cultura. Para abarcar la materia de su estudio, la antropología recurre a herramientas y conocimientos producidos por las ciencias sociales y las ciencias naturales."
     },
     {
       "fuente": "CalamaCultural",
@@ -583,8 +615,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gobierno-regional-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La Estación central de Dresde es la estación más grande de la capital del Estado federado alemán de Sajonia. Se comenzó a construir en 1892 y abrió sus puertas a los viajeros en la primavera de 1898. La estación resultó seriamente dañada durante los bombardeos de la II Guerra Mundial. En 2000 comenzaron unas obras para rehabilitarla a fondo y en noviembre de 2006 se inauguró oficialmente.",
+      "bio_artista": "La Estación central de Dresde es la estación más grande de la capital del Estado federado alemán de Sajonia. Se comenzó a construir en 1892 y abrió sus puertas a los viajeros en la primavera de 1898. La estación resultó seriamente dañada durante los bombardeos de la II Guerra Mundial. En 2000 comenzaron unas obras para rehabilitarla a fondo y en noviembre de 2006 se inauguró oficialmente."
     },
     {
       "fuente": "CalamaCultural",
