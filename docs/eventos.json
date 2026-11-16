@@ -1,31 +1,15 @@
 {
-  "generado_en": "2026-11-15T21:26:29.148250+00:00",
+  "generado_en": "2026-11-16T14:36:24.166692+00:00",
   "region": "Antofagasta",
-  "total_eventos": 54,
+  "total_eventos": 53,
   "por_fuente": {
-    "PuntoTicket": 2,
     "CalamaCultural": 40,
     "EsquinaRetornable": 10,
+    "PuntoTicket": 1,
     "CulturaAntofagasta": 1,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "PuntoTicket",
-      "nombre": "Magallanes vs. Deportes - Liga de Ascenso Caixun 2026 - Fecha 30 Estadio Municipal de",
-      "venue": "",
-      "descripcion": "Compra tu entrada para Magallanes vs. Deportes Antofagasta, domingo 15 de noviembre 2026 18:00 hrs. en Estadio Municipal de San Bernardo - San Bernardo.",
-      "fecha_iso": "2026-11-15",
-      "fecha_texto": "15 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://static.ptocdn.net/images/eventos/mag136_md.jpg",
-      "url": "https://www.puntoticket.com/evento/magallanes-vs-antofagasta-fecha30-liga-ascenso-2026",
-      "lat": -23.6509,
-      "lon": -70.3975,
-      "descripcion_extendida": "Compra tu entrada para Magallanes vs. Deportes Antofagasta, domingo 15 de noviembre 2026 18:00 hrs. en Estadio Municipal de San Bernardo - San Bernardo.",
-      "bio_artista": "Navegantes del Magallanes es un equipo de béisbol venezolano perteneciente a la Liga Venezolana de Béisbol Profesional, con sede en Valencia, estado Carabobo."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Visita Guiada A La Biblioteca. Jardín Infantil Tamarugo",
@@ -104,7 +88,7 @@
       "url": "https://www.passline.com/eventos/la-ventana-indiscreta",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La ventana indiscreta es una película estadounidense de 1954 basada en el relato de 1942 It Had to Be Murder, de Cornell Woolrich, dirigida por Alfred Hitchcock y con actuación de James Stewart, Grace Kelly, Wendell Corey, Raymond Burr y Thelma Ritter."
     },
     {
       "fuente": "CalamaCultural",
@@ -152,7 +136,7 @@
       "url": "https://www.passline.com/eventos/quieres-ser-john-malkovich-578397",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Being John Malkovich es una película estadounidense de cine independiente de 1999 dirigida por Spike Jonze, en su debut cinematográfico, sobre un guion original escrito por Charlie Kaufman, quien también ofició su debut como guionista. Protagonizada por John Cusack, Cameron Diaz, Catherine Keener y John Malkovich, la película fue destacada por su particular argumento manejado con originalidad, siendo reconocida especialmente por la labor de Kaufman como autor."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -168,7 +152,7 @@
       "url": "https://www.passline.com/eventos/cocaina-negra-575991",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La cocaína negra, también conocido como coca negra, es una mezcla regular de pasta base de cocaína o clorhidrato de cocaína con varias otras sustancias."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -184,7 +168,7 @@
       "url": "https://www.passline.com/eventos/cocaina-negra-575991",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Uma Karuna Thurman es una actriz y exmodelo estadounidense nominada al Óscar y ganadora del Globo de Oro. Comenzó como modelo profesional y acabó dedicándose al cine en 1988, donde ha trabajado tanto en producciones de bajo presupuesto como en superproducciones de grandes estudios. Se la ha podido ver en dramas, películas de ciencia ficción, de acción, de suspense y también en comedias románticas."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -844,18 +828,18 @@
     },
     {
       "fuente": "CulturaAntofagasta",
-      "nombre": "Auditorio de la Plaza Bicentenario contará con programación artística permanente",
+      "nombre": "Multitudinario regreso del Festival de Colectividades Extranjeras tras ocho años de ausencia",
       "venue": "Corporación Municipal de Cultura",
-      "descripcion": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
+      "descripcion": "Tradicional certamen multicultural se realizará hasta el domingo en la explanada del Estadio Regional Calvo y Bascuñán Cientos de antofagastinos se dieron cita, la noche de este viernes, en la explanada del Estadio Regional Calvo y Bascuñán, donde tras ocho años de ausencia fue inaugurada una nueva ",
       "fecha_iso": "",
       "fecha_texto": "",
       "precio_desde_clp": "",
       "ciudad": "Antofagasta",
-      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/07/DSC07032.jpg",
-      "url": "https://culturaantofagasta.cl/2026/07/23/auditorio-de-la-plaza-bicentenario-contara-con-programacion-artistica-permanente/",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/11/PHOTO-2026-11-13-20-43-55-scaled.jpg",
+      "url": "https://culturaantofagasta.cl/2026/11/16/multitudinario-regreso-del-festival-de-colectividades-extranjeras-tras-ocho-anos-de-ausencia/",
       "lat": -23.6509,
       "lon": -70.3975,
-      "descripcion_extendida": "Corporación Cultural de Antofagasta busca consolidar nuevo centro cultural en pleno corazón del sector norte Con el objetivo de implementar un programa de actividades artísticas y culturales permanente en el auditorio de la Plaza Bicentenario, la Corporación Cultural de Antofagasta firmó un importan",
+      "descripcion_extendida": "Tradicional certamen multicultural se realizará hasta el domingo en la explanada del Estadio Regional Calvo y Bascuñán Cientos de antofagastinos se dieron cita, la noche de este viernes, en la explanada del Estadio Regional Calvo y Bascuñán, donde tras ocho años de ausencia fue inaugurada una nueva ",
       "bio_artista": ""
     },
     {
