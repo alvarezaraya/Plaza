@@ -1,47 +1,15 @@
 {
-  "generado_en": "2026-11-16T14:36:24.166692+00:00",
+  "generado_en": "2026-11-17T00:36:00.269636+00:00",
   "region": "Antofagasta",
-  "total_eventos": 53,
+  "total_eventos": 52,
   "por_fuente": {
-    "CalamaCultural": 40,
+    "CalamaCultural": 38,
     "EsquinaRetornable": 10,
     "PuntoTicket": 1,
-    "CulturaAntofagasta": 1,
+    "CulturaAntofagasta": 2,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Visita Guiada A La Biblioteca. Jardín Infantil Tamarugo",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-11-16",
-      "fecha_texto": "16 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#visita-guiada-a-la-biblioteca-jard-n-infantil-tamarugo-2026-11-16",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Programa Familia",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-11-16",
-      "fecha_texto": "16 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-programa-familia-2026-11-16",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo.",
-      "bio_artista": "Héctor Mora Pedraza fue un periodista, aventurero, presentador y abogado colombiano. Dirigió y produjo los programas de televisión Cámara Viajera, Pasaporte Al Mundo, El Mundo Al Vuelo y Así es el Mundo."
-    },
     {
       "fuente": "CalamaCultural",
       "nombre": "Visita Guiada A La Biblioteca. Jardín Infantil Tamarugo",
@@ -103,8 +71,8 @@
       "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-11-18",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
+      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
     },
     {
       "fuente": "CalamaCultural",
@@ -136,7 +104,7 @@
       "url": "https://www.passline.com/eventos/quieres-ser-john-malkovich-578397",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Being John Malkovich es una película estadounidense de cine independiente de 1999 dirigida por Spike Jonze, en su debut cinematográfico, sobre un guion original escrito por Charlie Kaufman, quien también ofició su debut como guionista. Protagonizada por John Cusack, Cameron Diaz, Catherine Keener y John Malkovich, la película fue destacada por su particular argumento manejado con originalidad, siendo reconocida especialmente por la labor de Kaufman como autor."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -152,7 +120,7 @@
       "url": "https://www.passline.com/eventos/cocaina-negra-575991",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "La cocaína negra, también conocido como coca negra, es una mezcla regular de pasta base de cocaína o clorhidrato de cocaína con varias otras sustancias."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -168,7 +136,7 @@
       "url": "https://www.passline.com/eventos/cocaina-negra-575991",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Uma Karuna Thurman es una actriz y exmodelo estadounidense nominada al Óscar y ganadora del Globo de Oro. Comenzó como modelo profesional y acabó dedicándose al cine en 1988, donde ha trabajado tanto en producciones de bajo presupuesto como en superproducciones de grandes estudios. Se la ha podido ver en dramas, películas de ciencia ficción, de acción, de suspense y también en comedias románticas."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -264,7 +232,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro-578446",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -280,7 +248,7 @@
       "url": "https://www.passline.com/eventos/the-vvitch-573379",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La bruja es una película estadounidense-canadiense de 2015 del género terror sobrenatural de época, escrita y dirigida por Robert Eggers, en su debut como director. La película está protagonizada por Anya Taylor-Joy en su primer papel en el cine, Ralph Ineson, Kate Dickie, Harvey Scrimshaw, Ellie Grainger y Lucas Dawson. The Witch sigue a una familia puritana del siglo XVII que se encuentra con las fuerzas del mal en el bosque más allá de su granja de Nueva Inglaterra."
     },
     {
       "fuente": "CalamaCultural",
@@ -535,8 +503,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n.",
-      "bio_artista": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -567,8 +535,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
-      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -583,8 +551,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -824,6 +792,22 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "CulturaAntofagasta",
+      "nombre": "Festival de Colectividades Extranjeras 2026 coronó a sus nuevos reyes",
+      "venue": "Corporación Municipal de Cultura",
+      "descripcion": "Unión Árabe resultó ganadora de la elección que estuvo marcada por una jornada que celebró la diversidad cultural. Nazira Henríquez Majluff e Iván Vergara Moreno, candidatos de Unión Árabe, resultaron elegidos como los nuevos flamantes reyes de la XXXIII versión del Festival de Colectividades Extran",
+      "fecha_iso": "",
+      "fecha_texto": "",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://culturaantofagasta.cl/wp-content/uploads/2026/11/1000442986.jpg",
+      "url": "https://culturaantofagasta.cl/2026/11/16/festival-de-colectividades-extranjeras-2026-corono-a-sus-nuevos-reyes/",
+      "lat": -23.6509,
+      "lon": -70.3975,
+      "descripcion_extendida": "Unión Árabe resultó ganadora de la elección que estuvo marcada por una jornada que celebró la diversidad cultural. Nazira Henríquez Majluff e Iván Vergara Moreno, candidatos de Unión Árabe, resultaron elegidos como los nuevos flamantes reyes de la XXXIII versión del Festival de Colectividades Extran",
       "bio_artista": ""
     },
     {
