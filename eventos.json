@@ -1,10 +1,10 @@
 {
-  "generado_en": "2026-11-17T00:36:00.269636+00:00",
+  "generado_en": "2026-11-17T15:26:35.859883+00:00",
   "region": "Antofagasta",
-  "total_eventos": 52,
+  "total_eventos": 53,
   "por_fuente": {
     "CalamaCultural": 38,
-    "EsquinaRetornable": 10,
+    "EsquinaRetornable": 11,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 2,
     "ComediaTicket": 1
@@ -123,38 +123,6 @@
       "bio_artista": ""
     },
     {
-      "fuente": "EsquinaRetornable",
-      "nombre": "COCAÍNA NEGRA (2026) + CINE FORO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional",
-      "descripcion_extendida": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional",
-      "fecha_iso": "2026-11-19",
-      "fecha_texto": "19 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/cocaina-negra-poster.jpg",
-      "url": "https://www.passline.com/eventos/cocaina-negra-575991",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": ""
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "UNA MUJER FANTÁSTICA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional",
-      "descripcion_extendida": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional",
-      "fecha_iso": "2026-11-19",
-      "fecha_texto": "19 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/una-mujer-fantastica-poster.jpg",
-      "url": "https://www.passline.com/eventos/cocaina-negra-575991",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "A Fantastic Woman is a 2017 drama film directed by Sebastián Lelio, written by Lelio and Gonzalo Maza, produced by Juan de Dios and Pablo Larraín and starring Daniela Vega and Francisco Reyes. It was selected to compete for the Golden Bear in the main competition section of the 67th Berlin International Film Festival. It was selected as the Chilean entry for the Best Foreign Language Film where it won in the 90th Academy Awards."
-    },
-    {
       "fuente": "CalamaCultural",
       "nombre": "Visita Museo De Historia Natural Y Cultural Del Desierto De Atacama Establecimientos Educacionales",
       "venue": "Muhncal",
@@ -232,7 +200,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro-578446",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -248,7 +216,7 @@
       "url": "https://www.passline.com/eventos/the-vvitch-573379",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "La bruja es una película estadounidense-canadiense de 2015 del género terror sobrenatural de época, escrita y dirigida por Robert Eggers, en su debut como director. La película está protagonizada por Anya Taylor-Joy en su primer papel en el cine, Ralph Ineson, Kate Dickie, Harvey Scrimshaw, Ellie Grainger y Lucas Dawson. The Witch sigue a una familia puritana del siglo XVII que se encuentra con las fuerzas del mal en el bosque más allá de su granja de Nueva Inglaterra."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -475,6 +443,22 @@
       "bio_artista": ""
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "PARA ATRAPAR AL LADRÓN",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
+      "descripcion_extendida": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
+      "fecha_iso": "2026-11-25",
+      "fecha_texto": "25 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/para-atrapar-al-ladron-poster.jpg",
+      "url": "https://www.passline.com/eventos/para-atrapar-al-ladron",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": ""
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Taller De Tai Chi",
       "venue": "Biblioteca Norte",
@@ -503,8 +487,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n.",
+      "bio_artista": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n."
     },
     {
       "fuente": "CalamaCultural",
@@ -535,8 +519,24 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
+      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "COCAÍNA NEGRA (2026) + CINE FORO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional + Conversatorio junto a su director",
+      "descripcion_extendida": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional + Conversatorio junto a su director",
+      "fecha_iso": "2026-11-26",
+      "fecha_texto": "26 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/cocaina-negra-poster.jpg",
+      "url": "https://www.passline.com/eventos/cocaina-negra-cine-foro-577164",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Uma Karuna Thurman es una actriz y exmodelo estadounidense nominada al Óscar y ganadora del Globo de Oro. Comenzó como modelo profesional y acabó dedicándose al cine en 1988, donde ha trabajado tanto en producciones de bajo presupuesto como en superproducciones de grandes estudios. Se la ha podido ver en dramas, películas de ciencia ficción, de acción, de suspense y también en comedias románticas."
     },
     {
       "fuente": "CalamaCultural",
@@ -551,8 +551,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -633,6 +633,22 @@
       "lon": -68.9295,
       "descripcion_extendida": "",
       "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "UNA MUJER FANTÁSTICA",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Sebastián Lelio · Mes del Cine Chileno",
+      "descripcion_extendida": "Dir. Sebastián Lelio · Mes del Cine Chileno",
+      "fecha_iso": "2026-11-27",
+      "fecha_texto": "27 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/una-mujer-fantastica-poster.jpg",
+      "url": "https://www.passline.com/eventos/una-mujer-fantastica",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "A Fantastic Woman is a 2017 drama film directed by Sebastián Lelio, written by Lelio and Gonzalo Maza, produced by Juan de Dios and Pablo Larraín and starring Daniela Vega and Francisco Reyes. It was selected to compete for the Golden Bear in the main competition section of the 67th Berlin International Film Festival. It was selected as the Chilean entry for the Best Foreign Language Film where it won in the 90th Academy Awards."
     },
     {
       "fuente": "CalamaCultural",
