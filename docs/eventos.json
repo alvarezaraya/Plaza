@@ -1,80 +1,17 @@
 {
-  "generado_en": "2026-11-18T23:15:10.593616+00:00",
+  "generado_en": "2026-11-19T15:09:46.040746+00:00",
   "region": "Antofagasta",
-  "total_eventos": 53,
+  "total_eventos": 54,
   "por_fuente": {
-    "EsquinaRetornable": 11,
-    "CalamaCultural": 37,
+    "EsquinaRetornable": 13,
+    "CalamaCultural": 35,
     "Ticketplus": 1,
+    "Ticketpro": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 2,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA CHICA DE ROSA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. John Hughes · Cine a la Carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. John Hughes · Cine a la Carta: del libro de sugerencias",
-      "fecha_iso": "2026-11-18",
-      "fecha_texto": "18 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/la-chica-de-rosa-poster.jpg",
-      "url": "https://www.passline.com/eventos/la-chica-de-rosa",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La chica de rosa es una película estadounidense de comedia romántica de 1986 sobre el amor y los grupos sociales en las escuelas secundarias estadounidenses en la década de 1980. Un clásico de culto, se lo identifica comúnmente como una película «Brat Pack». Fue dirigido por Howard Deutch, producido por Lauren Shuler Donner, y escrito por John Hughes, quien también se desempeñó como productor coejecutivo. Fue nombrado después de la canción de The Psychedelic Furs."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA VENTANA INDISCRETA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
-      "descripcion_extendida": "Dir. Alfred Hitchcock · Hitchcock y Grace Kelly: complicidad y suspenso",
-      "fecha_iso": "2026-11-18",
-      "fecha_texto": "18 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/la-ventana-indiscreta-poster.jpg",
-      "url": "https://www.passline.com/eventos/la-ventana-indiscreta",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La ventana indiscreta es una película estadounidense de 1954 basada en el relato de 1942 It Had to Be Murder, de Cornell Woolrich, dirigida por Alfred Hitchcock y con actuación de James Stewart, Grace Kelly, Wendell Corey, Raymond Burr y Thelma Ritter."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Añoranza De Los Cuentos. Hogar De Ancianos San José",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-11-18",
-      "fecha_texto": "18 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#a-oranza-de-los-cuentos-hogar-de-ancianos-san-jos-2026-11-18",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro.",
-      "bio_artista": "El Cuarteto Zupay, o simplemente los Zupay, fue un grupo de música popular argentina creado en Buenos Aires en 1966, que se mantuvo activo hasta 1991. Los miembros fundadores fueron los hermanos Pedro Pablo García Caffi (barítono) y Juan José García Caffi, Eduardo Vittar Smith (bajo) y Aníbal López Monteiro."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala Neurosensorial Aps Calama",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-11-18",
-      "fecha_texto": "18 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-neurosensorial-aps-calama-2026-11-18",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "¿QUIERES SER JOHN MALKOVICH?",
@@ -265,7 +202,7 @@
       "url": "https://www.passline.com/eventos/yellow-submarine",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Yellow Submarine y Submarino amarillo pueden referirse a:Yellow Submarine, una canción de The Beatles grabada en 1966;\nYellow Submarine, una película animada de 1968 basada en la canción anterior;\nYellow Submarine, un álbum de 1969 que contiene la canción del mismo nombre;\nYellow Submarine Songtrack, una nueva versión del álbum publicada en 1999; o\nYellow Submarine, un vehículo semisumergible argentino."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -281,7 +218,7 @@
       "url": "https://www.passline.com/eventos/el-gran-falsificador-578401",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "El falsificador puede referirse a:The Forger : película estadounidense de 2014 dirigida por Philip Martin y protagonizada por John Travolta.Titulada en España como El falsificador y en Hispanoamérica como El gran impostor.Der Passfälscher : película alemana de 2022 dirigida por Maggie Peren. Titulada en Hispanoamérica como El falsificador y en España como El falsificador de pasaportes."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -296,8 +233,8 @@
       "url": "https://calamacultural.cl/carteleracultural#d-a-de-santa-cecilia-agrupaci-n-de-m-sicas-y-artistas-de-cal-2026-11-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "La música de El Salvador se refiere a las diferentes manifestaciones musicales de la República de El Salvador, la que a su vez está englobada en las tradiciones musicales latinoamericanas más amplias.",
-      "bio_artista": "La música de El Salvador se refiere a las diferentes manifestaciones musicales de la República de El Salvador, la que a su vez está englobada en las tradiciones musicales latinoamericanas más amplias."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -424,8 +361,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-correos-de-chile-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía».",
+      "bio_artista": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -440,8 +377,24 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-el-ojo-taller-infantil-inicial-infantil-intermed-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias».",
+      "bio_artista": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias»."
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "CORALINE",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Henry Selick · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Henry Selick · Cine a la Carta: del libro de sugerencias",
+      "fecha_iso": "2026-11-25",
+      "fecha_texto": "25 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/CORALINE-AFICHES-WEB.jpg",
+      "url": "https://www.passline.com/eventos/coraline-580378",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Coraline (/ˈkɒrəlaɪn/) es una novela de fantasía de horror infantil escrita por el escritor británico Neil Gaiman. Gaiman comenzó a escribir Coraline en 1990 y fue publicada en 2002 por Bloomsbury y Harper Collins. La novela fue galardonada en 2003 con el Premio Hugo a Mejor Novela, y el 2003 Premio Nébula a la Mejor Novela. En 2002 obtuvo el Premio Bram Stoker como Mejor Obra para Jóvenes Lectores. The Guardian ubicó a Coraline en el puesto 82 en su lista de 100 Libros Mejores del siglo XXI."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -457,7 +410,7 @@
       "url": "https://www.passline.com/eventos/para-atrapar-al-ladron",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "To Catch a Thief es una película estadounidense de 1955, dirigida por Alfred Hitchcock y con actuación de Cary Grant y Grace Kelly."
     },
     {
       "fuente": "CalamaCultural",
@@ -472,8 +425,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -521,6 +474,22 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "LOS GOONIES",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Richard Donner · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Richard Donner · Cine a la Carta: del libro de sugerencias",
+      "fecha_iso": "2026-11-26",
+      "fecha_texto": "26 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/los-goonies-AFICHES-WEB.jpg",
+      "url": "https://www.passline.com/eventos/los-goonies",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -652,6 +621,22 @@
       "bio_artista": "A Fantastic Woman is a 2017 drama film directed by Sebastián Lelio, written by Lelio and Gonzalo Maza, produced by Juan de Dios and Pablo Larraín and starring Daniela Vega and Francisco Reyes. It was selected to compete for the Golden Bear in the main competition section of the 67th Berlin International Film Festival. It was selected as the Chilean entry for the Best Foreign Language Film where it won in the 90th Academy Awards."
     },
     {
+      "fuente": "EsquinaRetornable",
+      "nombre": "HEREDITARY",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Ari Aster · La Sangre No Olvida: herencias malditas y secretos familiares.",
+      "descripcion_extendida": "Dir. Ari Aster · La Sangre No Olvida: herencias malditas y secretos familiares.",
+      "fecha_iso": "2026-11-27",
+      "fecha_texto": "27 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/HEREDITARY-POSTER.jpg",
+      "url": "https://www.passline.com/eventos/hereditary",
+      "lat": -23.673621,
+      "lon": -70.409617,
+      "bio_artista": "Heredity, also called inheritance or biological inheritance, is the passing on of genetic information from parents to their offspring. It may occur through sexual or asexual reproduction, where new cells are produced from either individual cells underdoing cell division or two cells combining genomes, respectively. Through heredity, genetic variations in populations can accumulate and cause species to evolve by natural selection. The study of heredity in biology is genetics."
+    },
+    {
       "fuente": "CalamaCultural",
       "nombre": "Exposición “Historias Para Existir” Prais Calama",
       "venue": "Galería De Arte Pablo Neruda",
@@ -697,6 +682,38 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketpro",
+      "nombre": "LA SOLE - PICANTE PERO FELIZ - .",
+      "venue": "Teatro Municipal De Antofagasta",
+      "descripcion": "",
+      "fecha_iso": "2026-11-28",
+      "fecha_texto": "28 de noviembre de 2026",
+      "precio_desde_clp": "24150",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://cache-beta.ticketpro.cl/eventos/3726/Sole_TMA_445_22895bb5-5e53-496d-a7bf-b48ffbc9bc30.jpg",
+      "url": "https://www.ticketpro.cl/evento/3726/la-sole--picante-pero-feliz--antofagasta",
+      "lat": -23.64636,
+      "lon": -70.396306,
+      "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "EL DESHIELO",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Manuela Martelli · Mes del Cine Chileno + Cine Foro junto a su Directora.",
+      "descripcion_extendida": "Dir. Manuela Martelli · Mes del Cine Chileno + Cine Foro junto a su Directora.",
+      "fecha_iso": "2026-11-28",
+      "fecha_texto": "28 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/POSTER-EL-DESHIELO.jpg",
+      "url": "https://www.passline.com/eventos/el-deshielo-580376",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
@@ -809,7 +826,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -825,7 +842,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Unión Árabe resultó ganadora de la elección que estuvo marcada por una jornada que celebró la diversidad cultural. Nazira Henríquez Majluff e Iván Vergara Moreno, candidatos de Unión Árabe, resultaron elegidos como los nuevos flamantes reyes de la XXXIII versión del Festival de Colectividades Extran",
-      "bio_artista": "El teatro, o más específicamente, teatro de la Antigua Grecia, es la cultura teatral que floreció en la antigua Grecia entre 550 a. C. y 220 a. C., época en que las polis griegas comenzaron a caer bajo dominio romano."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -841,7 +858,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Tradicional certamen multicultural se realizará hasta el domingo en la explanada del Estadio Regional Calvo y Bascuñán Cientos de antofagastinos se dieron cita, la noche de este viernes, en la explanada del Estadio Regional Calvo y Bascuñán, donde tras ocho años de ausencia fue inaugurada una nueva ",
-      "bio_artista": "Lluís Llach i Grande es un músico y cantautor español de lengua catalana, que perteneció al grupo de Els Setze Jutges y que puede considerarse como uno de los abanderados de la Nova Cançó catalana. Su canción más popular y más comprometida ha sido L'Estaca compuesta en el año 1968, que Jacek Kaczmarski adaptó como himno no oficial del sindicato polaco Solidaridad, y que se convirtió en 1997 en el himno oficial del club de rugby Union Sportive Arlequins Perpignan de Perpiñán (Francia)."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
