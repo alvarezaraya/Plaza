@@ -1,113 +1,17 @@
 {
-  "generado_en": "2026-11-19T23:22:39.654465+00:00",
+  "generado_en": "2026-11-20T14:49:35.872024+00:00",
   "region": "Antofagasta",
-  "total_eventos": 54,
+  "total_eventos": 48,
   "por_fuente": {
-    "EsquinaRetornable": 13,
-    "CalamaCultural": 35,
     "Ticketplus": 1,
+    "EsquinaRetornable": 11,
+    "CalamaCultural": 31,
     "Ticketpro": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 2,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "¿QUIERES SER JOHN MALKOVICH?",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Spike Jonze · Cine a la Carta: del libro de sugerencias",
-      "descripcion_extendida": "Dir. Spike Jonze · Cine a la Carta: del libro de sugerencias",
-      "fecha_iso": "2026-11-19",
-      "fecha_texto": "19 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/malkovich-poster.jpg",
-      "url": "https://www.passline.com/eventos/quieres-ser-john-malkovich-578397",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Being John Malkovich es una película estadounidense de cine independiente de 1999 dirigida por Spike Jonze, en su debut cinematográfico, sobre un guion original escrito por Charlie Kaufman, quien también ofició su debut como guionista. Protagonizada por John Cusack, Cameron Diaz, Catherine Keener y John Malkovich, la película fue destacada por su particular argumento manejado con originalidad, siendo reconocida especialmente por la labor de Kaufman como autor."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "COCAÍNA NEGRA",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional",
-      "descripcion_extendida": "Dir. Cristóbal Valenzuela Berríos · Estreno Nacional",
-      "fecha_iso": "2026-11-19",
-      "fecha_texto": "19 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/cocaina-negra-poster.jpg",
-      "url": "https://www.passline.com/eventos/cocaina-negra-575991",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La cocaína negra, también conocido como coca negra, es una mezcla regular de pasta base de cocaína o clorhidrato de cocaína con varias otras sustancias."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Visita Museo De Historia Natural Y Cultural Del Desierto De Atacama Establecimientos Educacionales",
-      "venue": "Muhncal",
-      "descripcion": "",
-      "fecha_iso": "2026-11-19",
-      "fecha_texto": "19 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#visita-museo-de-historia-natural-y-cultural-del-desierto-de--2026-11-19",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "Copiapó es una ciudad y comuna del Norte Chico de Chile. Es la capital de la Provincia de Copiapó y de la Región de Atacama. Históricamente vinculada a la actividad minera, se ubica en un valle de carácter oasis, conocido por su producción agrícola, en particular de uva y pasas, que constituyeron las primeras exportaciones de este tipo en el país. Junto con sectores urbanos de la comuna de Tierra Amarilla, especialmente el área de Paipote, forma la Conurbación Copiapó-Tierra Amarilla.",
-      "bio_artista": "Copiapó es una ciudad y comuna del Norte Chico de Chile. Es la capital de la Provincia de Copiapó y de la Región de Atacama. Históricamente vinculada a la actividad minera, se ubica en un valle de carácter oasis, conocido por su producción agrícola, en particular de uva y pasas, que constituyeron las primeras exportaciones de este tipo en el país. Junto con sectores urbanos de la comuna de Tierra Amarilla, especialmente el área de Paipote, forma la Conurbación Copiapó-Tierra Amarilla."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Gateando Entre Libros. Sala Cuna Y Jardín Infantil Nidito De Ángeles",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-11-19",
-      "fecha_texto": "19 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#gateando-entre-libros-sala-cuna-y-jard-n-infantil-nidito-de--2026-11-19",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala Cuna Y Jardín Infantil Nidito De Ángeles",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-11-19",
-      "fecha_texto": "19 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-cuna-y-jard-n-infantil-nidito-de-ngeles-2026-11-19",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala De Estimulación Cesfam Central",
-      "venue": "Biblioteca Norte",
-      "descripcion": "",
-      "fecha_iso": "2026-11-19",
-      "fecha_texto": "19 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-de-estimulaci-n-cesfam-central-2026-11-19",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "Ticketplus",
       "nombre": "CONCIERTO VIRTUOSO ROMANTICISMO - 100 AÑOS ROTARY CLUB",
@@ -122,7 +26,7 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "CONCIERTO VIRTUOSO ROMANTICISMO - 100 AÑOS ROTARY CLUB",
-      "bio_artista": ""
+      "bio_artista": "En la música, el Romanticismo fue un periodo que transcurrió, aproximadamente, entre los años 1810 y la primera década del siglo XX, y suele englobar toda la música escrita de acuerdo a las normas y formas de dicho período."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -138,7 +42,7 @@
       "url": "https://www.passline.com/eventos/la-busqueda-del-otro-578446",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -154,7 +58,7 @@
       "url": "https://www.passline.com/eventos/the-vvitch-573379",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "La bruja es una película estadounidense-canadiense de 2015 del género terror sobrenatural de época, escrita y dirigida por Robert Eggers, en su debut como director. La película está protagonizada por Anya Taylor-Joy en su primer papel en el cine, Ralph Ineson, Kate Dickie, Harvey Scrimshaw, Ellie Grainger y Lucas Dawson. The Witch sigue a una familia puritana del siglo XVII que se encuentra con las fuerzas del mal en el bosque más allá de su granja de Nueva Inglaterra."
     },
     {
       "fuente": "CalamaCultural",
@@ -521,8 +425,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
