@@ -1,97 +1,16 @@
 {
-  "generado_en": "2026-11-20T22:54:50.328854+00:00",
+  "generado_en": "2026-11-21T14:06:07.941033+00:00",
   "region": "Antofagasta",
-  "total_eventos": 48,
+  "total_eventos": 43,
   "por_fuente": {
-    "Ticketplus": 1,
-    "EsquinaRetornable": 11,
-    "CalamaCultural": 31,
+    "EsquinaRetornable": 9,
+    "CalamaCultural": 29,
     "Ticketpro": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 2,
     "ComediaTicket": 1
   },
   "eventos": [
-    {
-      "fuente": "Ticketplus",
-      "nombre": "CONCIERTO VIRTUOSO ROMANTICISMO - 100 AÑOS ROTARY CLUB",
-      "venue": "Teatro Municipal De Antofagasta",
-      "descripcion": "CONCIERTO VIRTUOSO ROMANTICISMO - 100 AÑOS ROTARY CLUB",
-      "fecha_iso": "2026-11-20",
-      "fecha_texto": "20 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/61fe07d2e9860f6551b9dffbc2075b005cc8a79a.jpg?1794922053&format=baseline-jpeg&q=65",
-      "url": "https://ticketplus.cl/events/concierto-virtuoso-romanticismo-100-anos-rotary-club",
-      "lat": -23.64636,
-      "lon": -70.396306,
-      "descripcion_extendida": "CONCIERTO VIRTUOSO ROMANTICISMO - 100 AÑOS ROTARY CLUB",
-      "bio_artista": "En la música, el Romanticismo fue un periodo que transcurrió, aproximadamente, entre los años 1810 y la primera década del siglo XX, y suele englobar toda la música escrita de acuerdo a las normas y formas de dicho período."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "LA BÚSQUEDA DEL OTRO",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
-      "descripcion_extendida": "Dir. Cons Gallardo Vásquez · Estreno Nacional",
-      "fecha_iso": "2026-11-20",
-      "fecha_texto": "20 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/10/la-busqueda-del-otro-poster.jpg",
-      "url": "https://www.passline.com/eventos/la-busqueda-del-otro-578446",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "Un motor de búsqueda o buscador es un sistema informático que busca archivos almacenados en servidores web gracias a su araña web. Un ejemplo son los buscadores de Internet cuando se pide información sobre algún tema. Las búsquedas se hacen con palabras clave o con árboles jerárquicos por temas; el resultado de la búsqueda «Página de resultados del buscador» es un listado de direcciones web en los que se mencionan temas relacionados con las palabras clave buscadas."
-    },
-    {
-      "fuente": "EsquinaRetornable",
-      "nombre": "THE VVITCH",
-      "venue": "Esquina Retornable",
-      "descripcion": "Dir. Robert Eggers · La Sangre No Olvida: herencias malditas y secretos familiares.",
-      "descripcion_extendida": "Dir. Robert Eggers · La Sangre No Olvida: herencias malditas y secretos familiares.",
-      "fecha_iso": "2026-11-20",
-      "fecha_texto": "20 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2026/11/the-vvitch-poster.jpg",
-      "url": "https://www.passline.com/eventos/the-vvitch-573379",
-      "lat": -23.673621,
-      "lon": -70.409617,
-      "bio_artista": "La bruja es una película estadounidense-canadiense de 2015 del género terror sobrenatural de época, escrita y dirigida por Robert Eggers, en su debut como director. La película está protagonizada por Anya Taylor-Joy en su primer papel en el cine, Ralph Ineson, Kate Dickie, Harvey Scrimshaw, Ellie Grainger y Lucas Dawson. The Witch sigue a una familia puritana del siglo XVII que se encuentra con las fuerzas del mal en el bosque más allá de su granja de Nueva Inglaterra."
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Maleta Viajera. Sala Cuna Y Jardín Infantil Lickan Pahni",
-      "venue": "Biblioteca Central",
-      "descripcion": "",
-      "fecha_iso": "2026-11-20",
-      "fecha_texto": "20 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-sala-cuna-y-jard-n-infantil-lickan-pahni-2026-11-20",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
-      "fuente": "CalamaCultural",
-      "nombre": "Presentación Libro: “Milagros; Girasoles De Amor Y Fe” De Isabel Cortés Tabilo",
-      "venue": "Galería De Arte Pablo Neruda",
-      "descripcion": "",
-      "fecha_iso": "2026-11-20",
-      "fecha_texto": "20 de noviembre de 2026",
-      "precio_desde_clp": "",
-      "ciudad": "Calama",
-      "imagen_url": "",
-      "url": "https://calamacultural.cl/carteleracultural#presentaci-n-libro-milagros-girasoles-de-amor-y-fe-de-isabel-2026-11-20",
-      "lat": -22.4563,
-      "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
     {
       "fuente": "EsquinaRetornable",
       "nombre": "YELLOW SUBMARINE",
@@ -106,7 +25,7 @@
       "url": "https://www.passline.com/eventos/yellow-submarine",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Yellow Submarine y Submarino amarillo pueden referirse a:Yellow Submarine, una canción de The Beatles grabada en 1966;\nYellow Submarine, una película animada de 1968 basada en la canción anterior;\nYellow Submarine, un álbum de 1969 que contiene la canción del mismo nombre;\nYellow Submarine Songtrack, una nueva versión del álbum publicada en 1999; o\nYellow Submarine, un vehículo semisumergible argentino."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -122,7 +41,7 @@
       "url": "https://www.passline.com/eventos/el-gran-falsificador-578401",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El falsificador puede referirse a:The Forger : película estadounidense de 2014 dirigida por Philip Martin y protagonizada por John Travolta.Titulada en España como El falsificador y en Hispanoamérica como El gran impostor.Der Passfälscher : película alemana de 2022 dirigida por Maggie Peren. Titulada en Hispanoamérica como El falsificador y en España como El falsificador de pasaportes."
     },
     {
       "fuente": "CalamaCultural",
@@ -137,8 +56,8 @@
       "url": "https://calamacultural.cl/carteleracultural#d-a-de-santa-cecilia-agrupaci-n-de-m-sicas-y-artistas-de-cal-2026-11-21",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La música de El Salvador se refiere a las diferentes manifestaciones musicales de la República de El Salvador, la que a su vez está englobada en las tradiciones musicales latinoamericanas más amplias.",
+      "bio_artista": "La música de El Salvador se refiere a las diferentes manifestaciones musicales de la República de El Salvador, la que a su vez está englobada en las tradiciones musicales latinoamericanas más amplias."
     },
     {
       "fuente": "CalamaCultural",
@@ -153,8 +72,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-el-ojo-nivel-juvenil-y-adulto-inicial-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias».",
+      "bio_artista": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias»."
     },
     {
       "fuente": "CalamaCultural",
@@ -169,8 +88,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-jard-n-infantil-sol-y-cobre-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía».",
+      "bio_artista": "Antonio Machado Ruiz fue un poeta español, el más joven representante de la generación del 98. Su obra inicial, de corte modernista, evolucionó hacia un intimismo simbolista con rasgos románticos, que maduró en una poesía de compromiso humano, de una parte, y de contemplación de la existencia, por otra; una síntesis que en la voz de Machado se hace eco de la sabiduría popular más ancestral. Dicho en palabras de Gerardo Diego, «hablaba en verso y vivía en poesía»."
     },
     {
       "fuente": "CalamaCultural",
@@ -185,8 +104,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-cuentacuentos-jard-n-infantil-creciendo-juntos-2026-11-23",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Zarauz es una localidad situado en la parte oriental de la comarca de Urola Kosta, en la provincia de Gipuzkoa, comunidad autónoma del País Vasco. En 2021, el 73 % de la población era vascohablante. Esta villa turística, que se encuentra ubicada en el centro de la Costa Vasca, limita al este y al sur con Aya y al oeste con Getaria. Posee cuatro enclaves que limitan con los anteriores municipios: Alkortiaga, Elkano, Sola y Arbestain. Este último limita también con Aizarnazábal.",
+      "bio_artista": "Zarauz es una localidad situado en la parte oriental de la comarca de Urola Kosta, en la provincia de Gipuzkoa, comunidad autónoma del País Vasco. En 2021, el 73 % de la población era vascohablante. Esta villa turística, que se encuentra ubicada en el centro de la Costa Vasca, limita al este y al sur con Aya y al oeste con Getaria. Posee cuatro enclaves que limitan con los anteriores municipios: Alkortiaga, Elkano, Sola y Arbestain. Este último limita también con Aizarnazábal."
     },
     {
       "fuente": "CalamaCultural",
@@ -298,7 +217,7 @@
       "url": "https://www.passline.com/eventos/coraline-580378",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Coraline is a 2002 British fantasy horror children's novella by author Neil Gaiman. Gaiman started writing Coraline in 1990, and it was published in 2002 by Bloomsbury and HarperCollins. It was awarded the 2003 Hugo Award for Best Novella, the 2003 Nebula Award for Best Novella, and the 2002 Bram Stoker Award for Best Work for Young Readers. The Guardian ranked Coraline #82 in its list of 100 Best Books of the 21st Century."
+      "bio_artista": ""
     },
     {
       "fuente": "EsquinaRetornable",
@@ -314,7 +233,7 @@
       "url": "https://www.passline.com/eventos/para-atrapar-al-ladron",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "To Catch a Thief es una película estadounidense de 1955, dirigida por Alfred Hitchcock y con actuación de Cary Grant y Grace Kelly."
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -329,8 +248,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
-      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -345,8 +264,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n.",
-      "bio_artista": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n."
+      "descripcion_extendida": "",
+      "bio_artista": ""
     },
     {
       "fuente": "CalamaCultural",
@@ -730,7 +649,7 @@
       "lat": -23.655882,
       "lon": -70.397059,
       "descripcion_extendida": "Compra tu entrada para 90’ FEVER FESTIVAL VOL 2, viernes 11 de diciembre 2026 19:00 hrs. en Estadio Sokol, Antofagasta - Antofagasta.",
-      "bio_artista": ""
+      "bio_artista": "Julie's Haircut es una banda italiana de rock originaria de Sassuolo, Italia. Fue formada en el año de 1994."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -746,7 +665,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Unión Árabe resultó ganadora de la elección que estuvo marcada por una jornada que celebró la diversidad cultural. Nazira Henríquez Majluff e Iván Vergara Moreno, candidatos de Unión Árabe, resultaron elegidos como los nuevos flamantes reyes de la XXXIII versión del Festival de Colectividades Extran",
-      "bio_artista": ""
+      "bio_artista": "El teatro, o más específicamente, teatro de la Antigua Grecia, es la cultura teatral que floreció en la antigua Grecia entre 550 a. C. y 220 a. C., época en que las polis griegas comenzaron a caer bajo dominio romano."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -762,7 +681,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Tradicional certamen multicultural se realizará hasta el domingo en la explanada del Estadio Regional Calvo y Bascuñán Cientos de antofagastinos se dieron cita, la noche de este viernes, en la explanada del Estadio Regional Calvo y Bascuñán, donde tras ocho años de ausencia fue inaugurada una nueva ",
-      "bio_artista": ""
+      "bio_artista": "Lluís Llach i Grande es un músico y cantautor español de lengua catalana, que perteneció al grupo de Els Setze Jutges y que puede considerarse como uno de los abanderados de la Nova Cançó catalana. Su canción más popular y más comprometida ha sido L'Estaca compuesta en el año 1968, que Jacek Kaczmarski adaptó como himno no oficial del sindicato polaco Solidaridad, y que se convirtió en 1997 en el himno oficial del club de rugby Union Sportive Arlequins Perpignan de Perpiñán (Francia)."
     },
     {
       "fuente": "ComediaTicket",
