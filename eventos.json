@@ -1,9 +1,9 @@
 {
-  "generado_en": "2026-11-21T14:06:07.941033+00:00",
+  "generado_en": "2026-11-21T22:00:05.499137+00:00",
   "region": "Antofagasta",
-  "total_eventos": 43,
+  "total_eventos": 44,
   "por_fuente": {
-    "EsquinaRetornable": 9,
+    "EsquinaRetornable": 10,
     "CalamaCultural": 29,
     "Ticketpro": 1,
     "PuntoTicket": 1,
@@ -120,8 +120,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-taller-infanto-inicial-e-intermedio-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Antonio Gala Velasco fue un poeta, dramaturgo, novelista, guionista y articulista español.",
+      "bio_artista": "Antonio Gala Velasco fue un poeta, dramaturgo, novelista, guionista y articulista español."
     },
     {
       "fuente": "CalamaCultural",
@@ -136,8 +136,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-escuela-rep-blica-de-grecia-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La antropología es la ciencia que estudia al ser humano de una forma integral, en sus características físicas como animales y de su cultura. Para abarcar la materia de su estudio, la antropología recurre a herramientas y conocimientos producidos por las ciencias sociales y las ciencias naturales.",
+      "bio_artista": "La antropología es la ciencia que estudia al ser humano de una forma integral, en sus características físicas como animales y de su cultura. Para abarcar la materia de su estudio, la antropología recurre a herramientas y conocimientos producidos por las ciencias sociales y las ciencias naturales."
     },
     {
       "fuente": "CalamaCultural",
@@ -152,8 +152,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-gobierno-regional-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La Estación central de Dresde es la estación más grande de la capital del Estado federado alemán de Sajonia. Se comenzó a construir en 1892 y abrió sus puertas a los viajeros en la primavera de 1898. La estación resultó seriamente dañada durante los bombardeos de la II Guerra Mundial. En 2000 comenzaron unas obras para rehabilitarla a fondo y en noviembre de 2006 se inauguró oficialmente.",
+      "bio_artista": "La Estación central de Dresde es la estación más grande de la capital del Estado federado alemán de Sajonia. Se comenzó a construir en 1892 y abrió sus puertas a los viajeros en la primavera de 1898. La estación resultó seriamente dañada durante los bombardeos de la II Guerra Mundial. En 2000 comenzaron unas obras para rehabilitarla a fondo y en noviembre de 2006 se inauguró oficialmente."
     },
     {
       "fuente": "CalamaCultural",
@@ -521,6 +521,22 @@
       "lat": -23.64636,
       "lon": -70.396306,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "EsquinaRetornable",
+      "nombre": "ETERNO RESPLANDOR DE UNA MENTE SIN RECUERDOS",
+      "venue": "Esquina Retornable",
+      "descripcion": "Dir. Michel Gondry · Cine a la Carta: del libro de sugerencias",
+      "descripcion_extendida": "Dir. Michel Gondry · Cine a la Carta: del libro de sugerencias",
+      "fecha_iso": "2026-11-28",
+      "fecha_texto": "28 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://esquinaretornable.cl/wp-content/uploads/2025/05/eterno-resplandor-1.jpg",
+      "url": "https://www.passline.com/eventos/eterno-resplandor-de-una-mente-sin-recuerdos-581035",
+      "lat": -23.673621,
+      "lon": -70.409617,
       "bio_artista": ""
     },
     {
