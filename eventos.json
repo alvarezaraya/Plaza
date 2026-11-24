@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-11-24T03:07:34.728805+00:00",
+  "generado_en": "2026-11-24T17:01:40.990547+00:00",
   "region": "Antofagasta",
   "total_eventos": 38,
   "por_fuente": {
@@ -104,8 +104,8 @@
       "url": "https://calamacultural.cl/carteleracultural#gala-teatro-el-ojo-taller-infantil-inicial-infantil-intermed-2026-11-24",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias».",
+      "bio_artista": "María Elena Walsh fue una poetisa, novelista, escritora, dramaturga, cantautora y compositora argentina, conocida principalmente por sus canciones y libros para niños. Su obra incluye muchos de los libros y canciones infantiles más populares de todos los tiempos en su país, lo que la llevó a ser catalogada como «mito viviente, prócer cultural y blasón de casi todas las infancias»."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -121,7 +121,7 @@
       "url": "https://www.passline.com/eventos/coraline-580378",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Coraline (/ˈkɒrəlaɪn/) es una novela de fantasía de horror infantil escrita por el escritor británico Neil Gaiman. Gaiman comenzó a escribir Coraline en 1990 y fue publicada en 2002 por Bloomsbury y Harper Collins. La novela fue galardonada en 2003 con el Premio Hugo a Mejor Novela, y el 2003 Premio Nébula a la Mejor Novela. En 2002 obtuvo el Premio Bram Stoker como Mejor Obra para Jóvenes Lectores. The Guardian ubicó a Coraline en el puesto 82 en su lista de 100 Libros Mejores del siglo XXI."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -137,7 +137,7 @@
       "url": "https://www.passline.com/eventos/para-atrapar-al-ladron",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "To Catch a Thief es una película estadounidense de 1955, dirigida por Alfred Hitchcock y con actuación de Cary Grant y Grace Kelly."
     },
     {
       "fuente": "CalamaCultural",
@@ -168,8 +168,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-ilustre-municipalidad-de-calama-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n.",
+      "bio_artista": "Madrid, es uno de los 116 municipios que componen el departamento de Cundinamarca en Colombia y se sitúa en la provincia de Sabana Occidente, dentro de la Sabana de Bogotá. Este municipio alberga una población aproximada de 140.000 habitantes para 2024, consolidándose como uno de los municipios más poblados de la región y del país. Con una extensión territorial de 120,5 km² y una altitud de la cabecera municipal de 2554 m s. n."
     },
     {
       "fuente": "CalamaCultural",
@@ -200,8 +200,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
+      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -217,7 +217,7 @@
       "url": "https://www.passline.com/eventos/los-goonies",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Los Goonies es una película estadounidense de aventuras de 1985 dirigida por Richard Donner y escrita por Chris Columbus, basada en una historia de Steven Spielberg. Fue producida por Steven Spielberg junto con Donner, Harvey Bernhard, Kathleen Kennedy y Frank Marshall."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -233,7 +233,7 @@
       "url": "https://www.passline.com/eventos/cocaina-negra-cine-foro-577164",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Uma Karuna Thurman es una actriz y exmodelo estadounidense nominada al Óscar y ganadora del Globo de Oro. Comenzó como modelo profesional y acabó dedicándose al cine en 1988, donde ha trabajado tanto en producciones de bajo presupuesto como en superproducciones de grandes estudios. Se la ha podido ver en dramas, películas de ciencia ficción, de acción, de suspense y también en comedias románticas."
     },
     {
       "fuente": "CalamaCultural",
@@ -248,8 +248,8 @@
       "url": "https://calamacultural.cl/carteleracultural#taller-de-tai-chi-2026-11-26",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México.",
+      "bio_artista": "El Parque Naucalli es uno de los parques más importantes de la Zona Metropolitana del Valle de México. Se encuentra ubicado al norponiente de la Ciudad de México, al sur de Ciudad Satélite, en el municipio de Naucalpan de Juárez, Estado de México."
     },
     {
       "fuente": "CalamaCultural",
@@ -345,7 +345,7 @@
       "url": "https://www.passline.com/eventos/una-mujer-fantastica",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "A Fantastic Woman is a 2017 drama film directed by Sebastián Lelio, written by Lelio and Gonzalo Maza, produced by Juan de Dios and Pablo Larraín and starring Daniela Vega and Francisco Reyes. It was selected to compete for the Golden Bear in the main competition section of the 67th Berlin International Film Festival. It was selected as the Chilean entry for the Best Foreign Language Film where it won in the 90th Academy Awards."
+      "bio_artista": "Una mujer fantástica es una película chilena dirigida por Sebastián Lelio y protagonizada por la actriz Daniela Vega. Fue seleccionada para competir por el Oso de Oro en la competencia principal de la 67.ª versión del Festival Internacional de Cine de Berlín."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -361,7 +361,7 @@
       "url": "https://www.passline.com/eventos/hereditary",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": "Heredity, also called inheritance or biological inheritance, is the passing on of genetic information from parents to their offspring. It may occur through sexual or asexual reproduction, where new cells are produced from either individual cells underdoing cell division or two cells combining genomes, respectively. Through heredity, genetic variations in populations can accumulate and cause species to evolve by natural selection. The study of heredity in biology is genetics."
+      "bio_artista": "Hereditary es una película de terror y suspenso psicológico estadounidense de 2018, escrita y dirigida por Ari Aster en su debut como director. Está protagonizada por Toni Collette, Alex Wolff, Milly Shapiro, Ann Dowd y Gabriel Byrne, y sigue a una familia que comienza a ser perseguida por una entidad sobrenatural tras la muerte de su madre."
     },
     {
       "fuente": "CalamaCultural",
@@ -376,8 +376,8 @@
       "url": "https://calamacultural.cl/carteleracultural#exposici-n-historias-para-existir-prais-calama-2026-11-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El Monstruo de Espagueti Volador (MEV) es el dios satírico del pastafarismo. Esta deidad se describió por primera vez en una carta abierta satírica escrita en 2005 por Bobby Henderson para protestar contra la decisión de la Junta de Educación del Estado de Kansas de permitir la enseñanza del diseño inteligente como una alternativa a la evolución en las clases de ciencias de las escuelas públicas.",
+      "bio_artista": "El Monstruo de Espagueti Volador (MEV) es el dios satírico del pastafarismo. Esta deidad se describió por primera vez en una carta abierta satírica escrita en 2005 por Bobby Henderson para protestar contra la decisión de la Junta de Educación del Estado de Kansas de permitir la enseñanza del diseño inteligente como una alternativa a la evolución en las clases de ciencias de las escuelas públicas."
     },
     {
       "fuente": "CalamaCultural",
@@ -408,8 +408,24 @@
       "url": "https://calamacultural.cl/carteleracultural#tertulia-literaria-mujeres-en-la-literatura-2026-11-27",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano.",
+      "bio_artista": "Una tertulia es una reunión informal y periódica de gente interesada en un tema —desde la política y el deporte hasta cualquier rama de las artes, la ciencia o la filosofía— para debatir e informarse, o compartir y contrastar iniciativas, noticias, conocimientos y opiniones. Suelen convocarse durante la tarde o noche en locales públicos, como un café o una cervecería, y, en ámbitos más rurales de forma ya inusual, en una rebotica o en un casino provinciano."
+    },
+    {
+      "fuente": "Ticketpro",
+      "nombre": "LA SOLE - PICANTE PERO FELIZ",
+      "venue": "Teatro Municipal De Antofagasta",
+      "descripcion": "",
+      "fecha_iso": "2026-11-28",
+      "fecha_texto": "28 de noviembre de 2026",
+      "precio_desde_clp": "24150",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://cache-beta.ticketpro.cl/eventos/3726/Sole_TMA_445_22895bb5-5e53-496d-a7bf-b48ffbc9bc30.jpg",
+      "url": "https://www.ticketpro.cl/evento/3726/la-sole--picante-pero-feliz--antofagasta",
+      "lat": -23.64636,
+      "lon": -70.396306,
+      "descripcion_extendida": "Soledad Pastorutti, conocida simplemente como Soledad o por su apodo La Sole, es una cantante, compositora, actriz, conductora y productora argentina. Ganó el Premio Nacional SADAIC a los artistas en el Festival Nacional de Folklore de Cosquín el 26 de enero de 1996, evento que la lanzó a la fama. Su música renovó el folclore argentino en la segunda mitad de la década de 1990 y provocó un acercamiento de esta corriente musical a los jóvenes.",
+      "bio_artista": "Soledad Pastorutti, conocida simplemente como Soledad o por su apodo La Sole, es una cantante, compositora, actriz, conductora y productora argentina. Ganó el Premio Nacional SADAIC a los artistas en el Festival Nacional de Folklore de Cosquín el 26 de enero de 1996, evento que la lanzó a la fama. Su música renovó el folclore argentino en la segunda mitad de la década de 1990 y provocó un acercamiento de esta corriente musical a los jóvenes."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -425,7 +441,7 @@
       "url": "https://www.passline.com/eventos/eterno-resplandor-de-una-mente-sin-recuerdos-581035",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "Eternal Sunshine of the Spotless Mind es una película estadounidense del año 2004, de los géneros de drama, romance y ciencia ficción. Está dirigida por Michel Gondry y escrita por Charlie Kaufman. La historia, creada por Pierre Bismuth, Kaufman y Gondry, trata sobre una pareja separada que, mediante un proceso de borrado de memoria, se han borrado uno al otro y luego vuelven a conocerse."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -441,7 +457,7 @@
       "url": "https://www.passline.com/eventos/el-deshielo-580376",
       "lat": -23.673621,
       "lon": -70.409617,
-      "bio_artista": ""
+      "bio_artista": "El deshielo puede referirse a:El deshielo, serie de televisión polaca estrenada en 2022. El deshielo, película chilena de 2026 dirigida por Manuela Martelli."
     },
     {
       "fuente": "CalamaCultural",
@@ -460,22 +476,6 @@
       "bio_artista": ""
     },
     {
-      "fuente": "Ticketpro",
-      "nombre": "LA SOLE - PICANTE PERO FELIZ - .",
-      "venue": "Teatro Municipal De Antofagasta",
-      "descripcion": "",
-      "fecha_iso": "2026-11-28",
-      "fecha_texto": "28 de noviembre de 2026",
-      "precio_desde_clp": "24150",
-      "ciudad": "Antofagasta",
-      "imagen_url": "https://cache-beta.ticketpro.cl/eventos/3726/Sole_TMA_445_22895bb5-5e53-496d-a7bf-b48ffbc9bc30.jpg",
-      "url": "https://www.ticketpro.cl/evento/3726/la-sole--picante-pero-feliz--antofagasta",
-      "lat": -23.64636,
-      "lon": -70.396306,
-      "descripcion_extendida": "",
-      "bio_artista": ""
-    },
-    {
       "fuente": "CalamaCultural",
       "nombre": "Iv Cumbre Regional De Turismo",
       "venue": "Plaza De La Cultura De Mejillones",
@@ -488,8 +488,8 @@
       "url": "https://calamacultural.cl/carteleracultural#iv-cumbre-regional-de-turismo-2026-11-29",
       "lat": null,
       "lon": null,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "La Cumbre del G-20 de Toronto es la cuarta reunión de los jefes de Gobierno del Grupo de los 20, en la discusión del sistema financiero mundial y la economía mundial, que tuvo lugar en el Centro de Convenciones Metro Toronto en Toronto, Ontario, Canadá, durante el 26 y 27 de junio de 2010.",
+      "bio_artista": "La Cumbre del G-20 de Toronto es la cuarta reunión de los jefes de Gobierno del Grupo de los 20, en la discusión del sistema financiero mundial y la economía mundial, que tuvo lugar en el Centro de Convenciones Metro Toronto en Toronto, Ontario, Canadá, durante el 26 y 27 de junio de 2010."
     },
     {
       "fuente": "CalamaCultural",
@@ -504,8 +504,8 @@
       "url": "https://calamacultural.cl/carteleracultural#exposici-n-d-a-de-todos-los-santos-2026-11-30",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "El día de Santo Tomás es una de las fiestas importantes del calendario de varias ciudades del País Vasco, como San Sebastián (Guipúzcoa), Bilbao (Vizcaya), Lequeitio (Vizcaya), Mondragón (Guipúzcoa), Azpeitia (Guipúzcoa) o Irún (Guipúzcoa). El origen de la fiesta se ubica probablemente en la celebración de un mercado popular que coincidía con el día de pago de rentas y no tenía, pese a su nombre, carácter religioso.",
+      "bio_artista": "El día de Santo Tomás es una de las fiestas importantes del calendario de varias ciudades del País Vasco, como San Sebastián (Guipúzcoa), Bilbao (Vizcaya), Lequeitio (Vizcaya), Mondragón (Guipúzcoa), Azpeitia (Guipúzcoa) o Irún (Guipúzcoa). El origen de la fiesta se ubica probablemente en la celebración de un mercado popular que coincidía con el día de pago de rentas y no tenía, pese a su nombre, carácter religioso."
     },
     {
       "fuente": "CalamaCultural",
@@ -585,7 +585,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Unión Árabe resultó ganadora de la elección que estuvo marcada por una jornada que celebró la diversidad cultural. Nazira Henríquez Majluff e Iván Vergara Moreno, candidatos de Unión Árabe, resultaron elegidos como los nuevos flamantes reyes de la XXXIII versión del Festival de Colectividades Extran",
-      "bio_artista": ""
+      "bio_artista": "El teatro, o más específicamente, teatro de la Antigua Grecia, es la cultura teatral que floreció en la antigua Grecia entre 550 a. C. y 220 a. C., época en que las polis griegas comenzaron a caer bajo dominio romano."
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -601,7 +601,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Tradicional certamen multicultural se realizará hasta el domingo en la explanada del Estadio Regional Calvo y Bascuñán Cientos de antofagastinos se dieron cita, la noche de este viernes, en la explanada del Estadio Regional Calvo y Bascuñán, donde tras ocho años de ausencia fue inaugurada una nueva ",
-      "bio_artista": ""
+      "bio_artista": "Lluís Llach i Grande es un músico y cantautor español de lengua catalana, que perteneció al grupo de Els Setze Jutges y que puede considerarse como uno de los abanderados de la Nova Cançó catalana. Su canción más popular y más comprometida ha sido L'Estaca compuesta en el año 1968, que Jacek Kaczmarski adaptó como himno no oficial del sindicato polaco Solidaridad, y que se convirtió en 1997 en el himno oficial del club de rugby Union Sportive Arlequins Perpignan de Perpiñán (Francia)."
     },
     {
       "fuente": "ComediaTicket",
