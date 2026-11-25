@@ -1,10 +1,11 @@
 {
-  "generado_en": "2026-11-25T01:13:04.302521+00:00",
+  "generado_en": "2026-11-25T16:42:52.315848+00:00",
   "region": "Antofagasta",
-  "total_eventos": 32,
+  "total_eventos": 33,
   "por_fuente": {
     "EsquinaRetornable": 8,
     "CalamaCultural": 19,
+    "Ticketplus": 1,
     "Ticketpro": 1,
     "PuntoTicket": 1,
     "CulturaAntofagasta": 2,
@@ -104,8 +105,8 @@
       "url": "https://calamacultural.cl/carteleracultural#maleta-viajera-residencia-familia-casa-esperanza-2026-11-25",
       "lat": -22.4563,
       "lon": -68.9295,
-      "descripcion_extendida": "",
-      "bio_artista": ""
+      "descripcion_extendida": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años.",
+      "bio_artista": "Viajera, es el tercer libro de la Saga Forastera escrito por Diana Gabaldon y perteneciente al género de novela romántica y ficción histórica. Ésta entrega narra las aventuras de la doctora Claire Randall después de viajar al pasado por segunda vez para reencontrarse con su esposo James Fraser después de haber estado separados durante 20 años."
     },
     {
       "fuente": "EsquinaRetornable",
@@ -233,6 +234,22 @@
       "lat": -22.4563,
       "lon": -68.9295,
       "descripcion_extendida": "",
+      "bio_artista": ""
+    },
+    {
+      "fuente": "Ticketplus",
+      "nombre": "Concierto Jóvenes Solistas Orquesta Sinfónica de Ganadoras Concurso Jóvenes Solistas 2026 Escuela de Música CCA",
+      "venue": "Teatro Municipal De Antofagasta",
+      "descripcion": "Concierto Jóvenes Solistas Orquesta Sinfónica de Antofagasta Ganadoras Concurso Jóvenes Solistas 2026 Escuela de Música CCA",
+      "fecha_iso": "2026-11-27",
+      "fecha_texto": "27 de noviembre de 2026",
+      "precio_desde_clp": "",
+      "ciudad": "Antofagasta",
+      "imagen_url": "https://ticketing-uploads-1.ticketplus.global/images/thumbs/a94d9d0e6d7958cbf313c52dddbed5116bad44de.jpg?1795611685&format=baseline-jpeg&q=65",
+      "url": "https://ticketplus.cl/events/concierto-jovenes-solistas-orquesta-sinfonica-de-antofagasta-ganadoras-concurso-jovenes-solistas-2026-escuela-de-musica-cca",
+      "lat": -23.64636,
+      "lon": -70.396306,
+      "descripcion_extendida": "Concierto Jóvenes Solistas Orquesta Sinfónica de Antofagasta Ganadoras Concurso Jóvenes Solistas 2026 Escuela de Música CCA",
       "bio_artista": ""
     },
     {
@@ -489,7 +506,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Unión Árabe resultó ganadora de la elección que estuvo marcada por una jornada que celebró la diversidad cultural. Nazira Henríquez Majluff e Iván Vergara Moreno, candidatos de Unión Árabe, resultaron elegidos como los nuevos flamantes reyes de la XXXIII versión del Festival de Colectividades Extran",
-      "bio_artista": "El teatro, o más específicamente, teatro de la Antigua Grecia, es la cultura teatral que floreció en la antigua Grecia entre 550 a. C. y 220 a. C., época en que las polis griegas comenzaron a caer bajo dominio romano."
+      "bio_artista": ""
     },
     {
       "fuente": "CulturaAntofagasta",
@@ -505,7 +522,7 @@
       "lat": -23.6509,
       "lon": -70.3975,
       "descripcion_extendida": "Tradicional certamen multicultural se realizará hasta el domingo en la explanada del Estadio Regional Calvo y Bascuñán Cientos de antofagastinos se dieron cita, la noche de este viernes, en la explanada del Estadio Regional Calvo y Bascuñán, donde tras ocho años de ausencia fue inaugurada una nueva ",
-      "bio_artista": "Lluís Llach i Grande es un músico y cantautor español de lengua catalana, que perteneció al grupo de Els Setze Jutges y que puede considerarse como uno de los abanderados de la Nova Cançó catalana. Su canción más popular y más comprometida ha sido L'Estaca compuesta en el año 1968, que Jacek Kaczmarski adaptó como himno no oficial del sindicato polaco Solidaridad, y que se convirtió en 1997 en el himno oficial del club de rugby Union Sportive Arlequins Perpignan de Perpiñán (Francia)."
+      "bio_artista": ""
     },
     {
       "fuente": "ComediaTicket",
